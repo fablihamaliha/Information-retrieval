@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:odext="urn:odext" xmlns:mfx="urn:manifest-v1" xmlns:tpc="urn:topic-v1" xmlns:sct="urn:section-v1" xmlns:asm="urn:assessment-v1"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=10"/>
+<link href="../../../css/dialog.css" rel="stylesheet" type="text/css"/>
+<link href="../../../css/custom.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var lms_path = "../../../";</script>
+<script type="text/javascript" src="../../../config.js"></script>
+<script type="text/javascript" src="../../uiconfig.js"></script>
+<script type="text/javascript" src="../../../kpsettings.js"></script>
+<script type="text/javascript" src="../../../js/resource.js"></script>
+<script type="text/javascript" src="../../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../../js/_lmstart.js"></script>
+<script type="text/javascript">	ctxHelper.AddDiscoveryCddUrl(lms_path + 'cdd.html'); 	ctxHelper.SetNamespace("odplayer;1.0.0.0"); </script>
+<script type="text/javascript">
+var playerModes = new Array();
+playerModes["S"] = true;
+playerModes["T"] = true;
+playerModes["K"] = false;
+playerModes["D"] = false;
+playerModes["P"] = true;
+playerModes["E"] = false;
+var lmsModes = new Array();
+lmsModes["S"] = false;
+lmsModes["T"] = false;
+lmsModes["K"] = false;
+lmsModes["D"] = false;
+lmsModes["P"] = false;
+lmsModes["E"] = false;
+
+var soundIsExported = false;
+var assetType = "T";
+var printitName = "0f7875fa-0e51-4dbb-b95f-2e9c501bc2b0_JOBAID.html";
+var topicName = "Clear cache and cookies";
+var topicID = "0f7875fa-0e51-4dbb-b95f-2e9c501bc2b0";
+var reqScore = 100;
+var concept = "tpc/b916cc0e-e2a0-466c-a3dc-1db4ae6fd16d/Parts/index.html";
+var treeIndex=11;
+$(document).ready(function(){
+InitUI();
+});
+</script>
+<style type="text/css">html,body{width: 100%;height: 100%;overflow: hidden;}*{margin: 0px;padding: 0px;}#myframe {height:100%; width:100%; overflow:auto;}#myframeDiv {top:0; position:absolute; bottom:0; left:0; right:0;}</style></head><body onunload="lms_ClosePage()"><script type="text/javascript">initDpiInfo();</script><div id="fplayer" style="display:none">;</div><div id="myframeDiv"><iframe src="../../../html/empty.html" id="myframe" name="myframe" frameborder="0" scrolling="auto"></iframe></div></body></html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'DFNGIFGLGOCLMJFDBAPGJALKNEHDNOIJBOHPFHDEFFOJFGOAEHKCPLKABOOMHGHBPLLBAKPCAAPHIEKDKHAAIDNOAAPMJNFOMCPNFLOMKBFPIDNLGCNMCBBEJGBAMJEE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'CCGKKECNMECAHENLGHDDHAGELPANFDJBNNEEBIMCDFEGPDOBDCKJACENNHFLFCJNBFCBEMNPAAFOEEKLENJANGDNAANOLLAOJAGMLBDJBCPAFOIMPDOFJGMCEANKCHIF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

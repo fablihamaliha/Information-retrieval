@@ -1,0 +1,925 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-26', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/collab/xmlrpc.php" />
+
+  <title>Remote Services &amp; Programs &#8211; Ryerson University Library Collaboratory</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library Collaboratory &raquo; Feed" href="https://library.ryerson.ca/collab/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library Collaboratory &raquo; Comments Feed" href="https://library.ryerson.ca/collab/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/collab\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/collab/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/collab/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/collab/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<script src='https://library.ryerson.ca/collab/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/collab\/wp-login.php?redirect_to=%2Fcollab%2Fremote-services-and-programs%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/collab/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/collab/wp-json/wp/v2/pages/986" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/collab/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/collab/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/collab/remote-services-and-programs/" />
+<link rel='shortlink' href='https://library.ryerson.ca/collab/?p=986' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/collab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fcollab%2Fremote-services-and-programs%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/collab/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fcollab%2Fremote-services-and-programs%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>		<style id="wp-custom-css">
+			/* Special style to hide HOME link in mobile view */
+.local-header-navigation .navbar-nav > li:first-child {
+	display: none;
+}
+
+@media (min-width: 768px) { 
+	.local-header-navigation .navbar-nav > li:first-child {
+		display: inline-block;
+	}
+}
+
+.service-icon {
+  text-align: center;
+}
+.service-icon img {
+  width: 25%;
+  float: left;
+}
+.service-icon p {
+  width: 70%;
+  float: right;
+  margin-top: 0;
+  text-align: left;
+}
+
+table.rulawp_hours {
+  margin-bottom: 0;
+}
+.rulawp_hours th {
+  background: #0077C8;
+  color: #FFF;
+  text-align: center;
+}
+
+.rulawp_hours td {
+  background: #FFF;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .ryerson-gd {
+    min-height: 446px;
+  }
+  .service-icon img {
+    max-width: 70%;
+    width: 100%;
+    float: none;
+  }
+  .service-icon p {
+    width: 100%;
+    float: none;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .ryerson-gd {
+    min-height: 431px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ryerson-gd {
+    min-height: 455px;
+  }
+}
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+.simcal-calendar {
+  background: #FFF;
+  overflow: auto;
+}
+.simcal-default-calendar-list {
+  padding: 1px 15px;
+}
+.simcal-default-calendar-list ul.simcal-events {
+  padding: 0;
+}
+.simcal-default-calendar-list dt.simcal-day-label:first-child {
+  margin-top: 15px;
+}
+.simcal-default-calendar-list .simcal-event-details .simcal-event-description, .simcal-default-calendar-list .simcal-event-details p {
+  margin: 0 0 0.25em;
+}
+@media (min-width: 768px) {
+  .simcal-calendar {
+    max-height: 871px;
+  }
+}
+@media (min-width: 992px) {
+  .simcal-calendar {
+    max-height: 861px;
+  }
+}
+@media (min-width: 1200px) {
+  .simcal-calendar {
+    max-height: auto;
+  }
+}		</style>
+		</head>
+
+<body class="page-template page-template-templates page-template-nosidebar page-template-templatesnosidebar-php page page-id-986">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-#FFDC00"">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>We are online to support you! Get information on Library resources and services for: <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-students/" target="_blank" rel="noopener noreferrer">Students</a> | <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-teaching/">Instructors</a> | <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-researchers/">Researchers</a>.  For Ryerson campus information, visit: <a href="https://www.ryerson.ca/covid-19/">Ryerson COVID-19 Information and Updates </a></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/collab/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/collab">Ryerson University Library Collaboratory</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/collab">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-main-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-65"><a title="Home" href="https://library.ryerson.ca/collab">Home</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-986 current_page_item menu-item-1071 active"><a title="Remote Services &amp; Programs" href="https://library.ryerson.ca/collab/remote-services-and-programs/">Remote Services &amp; Programs</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-844"><a title="Become a Member" href="https://library.ryerson.ca/collab/become-a-member/">Become a Member</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a title="Collaboratory Staff" href="https://library.ryerson.ca/collab/staff/">Collaboratory Staff</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a title="Technology Resources" href="https://library.ryerson.ca/collab/technologyresources/">Technology Resources</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12">
+
+    
+      <div id="content" role="main">
+                  
+<article id="post-986" class="post-986 page type-page status-publish hentry">
+			<header class="entry-header">
+			<h1 class="entry-title">Remote Services &amp; Programs</h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+		
+		
+<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556-1024x207.jpg" alt="" class="wp-image-1040" width="772" height="156" srcset="https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556-1024x207.jpg 1024w, https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556-300x61.jpg 300w, https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556-768x155.jpg 768w, https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556-1536x310.jpg 1536w, https://library.ryerson.ca/collab/files/marbled-paper-3569926_1920-e1599070613556.jpg 1920w" sizes="(max-width: 772px) 100vw, 772px" /></figure></div>
+
+
+
+<h2 class="has-text-align-center">Fall Programming: September 14 &#8211; December 11, 2020</h2>
+
+
+
+<h6 class="has-text-align-center"><em>This page will updated regularly, so please check back. Except where noted, services and programs are open to all.</em><br>Programming for January &#8211; April 2021 will be posted before the Holiday break in December.<br>Please check back then, or write to collab@ryerson.ca for further information.</h6>
+
+
+
+<blockquote class="wp-block-quote"><p>To continue to support Collaboratory members and the wider university community, we are offering remote services and programs for the summer. We continue to hold research consultations for Collaboratory Members, who are invited to <a href="https://library.ryerson.ca/collab/staff/">contact staff</a> to book a meeting.</p><p>If you are a faculty member trying to get new research off the ground, make an appointment with us about training and in-kind support.</p></blockquote>
+
+
+
+<h3>Virtual Drop-In Hours</h3>
+
+
+
+<p>Collaboratory staff members are available for virtual drop-in sessions. Do you need to talk through some research? Are you thinking about developing a prototype? Learn about how to manage your project or or develop your research design. Need to get feedback on a paper or a presentation? Consult on grant and scholarship sumbission preparation or chat about creative dissemination.</p>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column">
+<h4>Day</h4>
+
+
+
+<p>Monday</p>
+
+
+
+<p>Tuesday</p>
+
+
+
+<p>Wednesday</p>
+
+
+
+<p>Thursday</p>
+
+
+
+<p>Friday</p>
+</div>
+
+
+
+<div class="wp-block-column">
+<h4>Time</h4>
+
+
+
+<p>11:00am &#8211; 1:00pm</p>
+
+
+
+<p>10:00am &#8211; 12:00pm</p>
+
+
+
+<p>10:00am &#8211; 12:00pm</p>
+
+
+
+<p>10:00am &#8211; 12:00pm</p>
+
+
+
+<p>11:00am &#8211; 1:00pm</p>
+</div>
+
+
+
+<div class="wp-block-column">
+<h4>Link</h4>
+
+
+
+<p><a href="http://meet.google.com/smx-kvvq-zzk">Join the Monday Drop-in</a></p>
+
+
+
+<p><a href="http://meet.google.com/jsp-vbwi-enk">Join the Tuesday Drop-in</a></p>
+
+
+
+<p><a href="http://meet.google.com/sde-fzwm-qqz">Join the Wednesday Drop-in</a></p>
+
+
+
+<p><a href="http://meet.google.com/xha-qnhf-pws">Join the Thursday Drop-in</a></p>
+
+
+
+<p><a href="http://meet.google.com/fjs-yehw-odc">Join the Friday Drop-in</a></p>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator is-style-dots" />
+
+
+
+<h3 class="has-text-align-left"><br>Workshops, Talks &amp; Presentations</h3>
+
+
+
+<hr class="wp-block-separator is-style-dots" />
+
+
+
+<p><strong>Build Your Own Creative Portfolio Using WordPress </strong>(Workshop)<br>December 2, 2020 | 1:00PM &#8211; 2:00PM</p>
+
+
+
+<p>Have creative projects you want to share with the scholarly community and industry contacts? Learn how to build your own portfolio site in this easy overview. <strong>Tanya Pobuda </strong>and <strong>Cristina Pietropaolo</strong> will take you through the basics of using WordPress themes, so you&#8217;ll be able to build a starter website for your teaching dossier, creative projects or professional resume.</p>
+
+
+
+<p>* <em>This is open to the Ryerson community. Space is limited. Beginners welcome, no experience necessary.</em></p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.eventbrite.ca/e/129606541655">Register Now!</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://library.ryerson.ca/collab/files/collab_page_Covid_header2.png" alt="" class="wp-image-1080" width="681" height="145" srcset="https://library.ryerson.ca/collab/files/collab_page_Covid_header2.png 900w, https://library.ryerson.ca/collab/files/collab_page_Covid_header2-300x64.png 300w, https://library.ryerson.ca/collab/files/collab_page_Covid_header2-768x164.png 768w" sizes="(max-width: 681px) 100vw, 681px" /></figure></div>
+
+
+
+<h1 class="has-text-align-center">Past Programs</h1>
+
+
+
+<h4>Fall 2020</h4>
+
+
+
+<p><strong>Hints and Tips for Passing the Canadian Basic/Advance Operation Drone Pilot Exams </strong>(Workshop)<br>September 22, 2020 | 11:00AM &#8211; 12:00PM<br><br>Instructed by <strong>Jimmy Tran</strong>, this workshop is designed to help interested researchers with assistance for preparing for the Basic or Advance Operation Drone Pilot Exam. This is not a course, but rather a guide on where to obtain some of the materials for the exam, with strategies and how to prepare.</p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Project Management for Graduate Student Research Design</strong> (Workshop)<br>September 30, 2020 | 11:00AM &#8211; 12:00PM</p>
+
+
+
+<p>Working on small or large-scale projects, and have no idea how to start? Work with <strong>Tanya Pobuda</strong>, a fellow graduate student who is also a Project Management Institute-certified Project Management Professional (PMP), to learn some of the basic principles of project management to help you supercharge your productivity and get stuff done.</p>
+
+
+
+<p>*<em> This session is open to the Ryerson community, but primarily intended for graduate students. Space is limited.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Grant Writing for Graduate Students </strong>(Workshop)<br>October 5 and 6, 2020 | 1:00 &#8211; 2:30PM</p>
+
+
+
+<p>An introduction to grant writing for academic proposals, arts-based poposals and journalist project proposals. Led by <strong>Nathaniel Brunt</strong>, this small and interactive practical workshop will involve informal lecture by the instructor and short presentations by participants, over the course of two sessions.</p>
+
+
+
+<p><strong>Session 1 </strong>(Oct 5): A general overview on the &#8220;how to&#8221; of grant writing: creating a pitch, strategies, technique, writing with clarity, purpose and understanding audience.<br><strong>Session 2</strong> (<em>optional</em>, Oct 6): An interactive session in which students come prepared to present their project proposals to the group for critique. Building on Session 1, students will workshop their proposals to each other, and through discussion, share insights about each other&#8217;s work, identify vulnerabilities in the work, and ultimately strengthen their proposals for grant submission.</p>
+
+
+
+<p><strong>* </strong>Session 2 is optional. To attend Session 2, registrants must have attended Session 1. Contact <a rel="noreferrer noopener" href="mailto:collab@ryerson.ca" target="_blank">collab@ryerson.ca</a> for further information and how to register.<br>** <em>Must be a graduate student to attend. Space is very limited.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Intervening Into Facial Recognition Technologies </strong>(Talk/Presentation)<br>October 9, 2020 | 10:00 &#8211; 11:30AM</p>
+
+
+
+<p>This talk will discuss <strong>Jae Seo</strong> and <strong>Aaron Tucker</strong>&#8216;s collaborative work centred on making facial recognition technologies more transparent and understandable, while also providing toolkits to intervene into the technology.</p>
+
+
+
+<p>* <em>This talk is open to the Ryerson community.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Introduction to 3D Design for Prototyping </strong>(Workshop)<br>October 22, 2020 | 1:00 &#8211; 2:30PM</p>
+
+
+
+<p>Led by&nbsp;<strong>Jimmy Tran</strong>, this short workshop will introduce neophytes to 3D design software. Participants will learn the basics of 3D design for 3D printing for prototyping purposes. This workshop will introduce the concept of designing something to be made with 3D printing and other methods of fabrication.</p>
+
+
+
+<p>* <em>This session is open to the Ryerson community. Beginners are welcome, no experience necessary. Space is limited.</em><br>** <em>Participants will require <a href="https://www.autodesk.com/products/fusion-360/personal">Fusion 360</a> to follow along.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Capture Your World: Method 3D Scanning </strong>(Talk/Presentation)<br>October 28, 2020 | 1:00 &#8211; 2:00PM</p>
+
+
+
+<p><strong>Jimmy Tran </strong>presents a survey of various methods of scanning real world environment and objects to create digital 3D models. This is an introduction to the technologies that are either currently available or being developed at the Collaboratory. Examples of these technologies include: photogrammetry, stereo camera, Arctic Spider, structured light camera, and LiDAR.</p>
+
+
+
+<p>* <em>This is open to the Ryerson community.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>3D Development for the Looking Glass Holographic Display </strong>(Workshop)<br>November 4, 2020 | 11:00AM &#8211; 12:30PM</p>
+
+
+
+<p>This session will provide an overview of Holographic Display Technology and how to develop for a Looking Glass Holographic Display. Led by&nbsp;<strong>Michael Carter-Arlt</strong>, this session is divided in three parts: focusing on the overview of holographic display tech; focusing on 3D optimizing techniques using Blender; and development techniques using the Unity Game Engine. Targeted for beginners, this session will focus on basic principles of 3D modelling as well as basic program UI navigation.</p>
+
+
+
+<p>* <em>Beginners welcome. Software is not required for this session.</em></p>
+
+
+
+<hr class="wp-block-separator is-style-default" />
+
+
+
+<p><strong>Create Your Own Holograms for Education </strong>(Workshop)<br>November 18, 2020 | 1:00 &#8211; 2:00PM</p>
+
+
+
+<p>Learn how to create holograms with tools you already have around the house, and free software online. Learn how to bring your ideas to life to delight students and conference attendees. Add some fun into your classrooms and conference presentations with holograms. Led by <strong>Tanya Pobuda</strong>, this quickstart overview to holograms will give you a step-by-step guide to create holograms, with an opportunity to dive deeper in future sessions.</p>
+
+
+
+<p>* <em>This is open to the Ryerson community.</em></p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><strong>Selected Topics in WebAR </strong>(Talk/Presentation)<br>November 24, 2020 | 11:00AM &#8211; 12:30PM</p>
+
+
+
+<p><strong>Jae Seo</strong> and <strong>Michael Carter-Arlt </strong>will talk about their experiences of using Web-based Augmented Reality (WebAR) for the “Remastered” Exhibition at the Aga Khan Museum. WebAR is a new way of viewing AR content without the need for downloading native applications. This session will feature an overview of AR, and cover such topics such as current trends in AR, pros and cons of AR versus WebAR, and future directions of AR in the future. Currently availble WebAR platform will also be analyzed. Recent Master of Digital Media (MDM) graduate <strong>Eileen Xue</strong> will also join the session to discuss her WebAR graduate research.</p>
+
+
+
+<p>* <em>This is open to the Ryerson community.</em></p>
+
+
+
+<hr class="wp-block-separator is-style-wide" />
+
+
+<p><!-- /wp:separator --></p>
+<p><!-- wp:heading --><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p> </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:columns --><!-- /wp:columns --></p>
+<p><!-- wp:separator --></p>
+<p><!-- /wp:separator --></p>
+<p><!-- wp:columns --></p>
+<p><!-- /wp:columns --></p>
+<p><!-- /wp:separator --></p>
+<p><!-- wp:columns --></p>
+<div class="wp-block-columns"><!-- wp:column {"width":33.33} -->
+<h4 class="wp-block-column" style="flex-basis: 33.33%">Spring &#8211; Summer 2020</h4>
+<p><!-- /wp:column --></p>
+<p><!-- wp:column {"width":66.66} --></p>
+</div>
+<p><!-- /wp:separator --></p>
+<p><!-- wp:heading --><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Introduction to Building an Immersive Environment in Virtual Reality</strong><br />May 26, 2020 | 1:00 &#8211; 4:00PM<br />Facilitated by Nick Fox-Gieg, this workshop is introduction to learning to develop a Virtual Reality (VR) environment. The workshop will provide instruction on developing an immersive environment, for which digital assets/3D models can be imported into. Participants will learn fundamentals of VR development, and how to implement tools to allow users to navigate and explore a VR environment.<br />* This session is open to Ryerson faculty and graduate students. <em>Beginners welcome, no experience necessary.</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Virtual Board Gaming on <em>Tabletopia</em>: Santorini Edition!</strong><br />May 29, 2020 | 1:00 &#8211; 2:00 PM<br />This is a fast, fun, friendly game of abstract strategy with the theme of building towers on the legendary Greek island of the game&#8217;s name in the southern Aegean Sea. You’ll play as Greek gods and goddesses building towers on this beautiful island. Build the tallest tower before everyone else, and you win the game!<br />Created by Dr. Gordon Hamilton, <a href="https://en.wikipedia.org/wiki/Santorini_(game)"><em>Santorini</em></a> takes only minutes to learn. This game is a quick and easy way to learn the online, board game platform, <a href="https://tabletopia.com/">Tabletopia</a>. Play games with friends no matter where they are in the world. <em>Beginners welcome, no experience necessary. Space is limited.</em><br />* This session is open to the Ryerson community. Sign up for a free <a href="https://tabletopia.com/">Tabletopia </a>account to participate in this session.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Introduction to Adobe Lightroom for Post-Production</strong><br />June 11, 2020 | 11:00AM &#8211; 12:00PM<br />Facilitated by Nathaniel Brunt, this introductory session will explore some of the important functions and applications of Adobe Lightroom, particularly for photographic post-production. The hour long workshop will provide attendees with a basic understanding of the software&#8217;s interface, modules, and tools for use in photographic post-production and archive management. The workshop will be followed by a short Q&amp;A.<br />* This session is open to the Ryerson community. Participants will need <a href="https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&amp;mv=other">Adobe Lightroom</a> to participate. Beginners are welcome, no experience is necessary. <strong>Space is limited</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Writing the Story of Your Research for Audio</strong><br />June 18, 2020 | 11:00AM &#8211; 12:00PM<br />Ever thought about the different kinds of ways you could present your graduate research? Seeking a creative outlet, but don’t want to get too derailed? Podcasts and radio features require a different kind of narrative, one that can even lead you to reexamine your research or understand it from another perspective. Participants will learn about telling the engaging story of research and writing for audio, and adapting from their academic writing. Facilitated by Cristina Pietropaolo, this session will be 45 minutes, with time at the end for Q&amp;A and discussion. Based on interest, a second part may later be scheduled, focusing on technical production.<br />* This is open to the Ryerson community. Beginners welcome, no experience necessary. <strong>Space is limited</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Virtual Board Gaming on <em>Tabletopia</em></strong>: <strong>Dice Throne Edition!</strong><br />June 26, 2020 | 1:00 &#8211; 2:00PM<br />This month&#8217;s session is a fast-paced, battle arena, dice-throwing game called <em><a href="https://tabletopia.com/games/dice-throne">Dice Throne</a></em>. Think Yahtzee but with sorcerers, and barbarians and vampires and monks.</p>
+<p>Each game of <em>Dice Throne</em> lasts roughly 20 minutes. You can play with one other player or create teams of three and play with up to 6 players.  In the learning game, you&#8217;ll play as either a Moon Elf or fierce Barbarian to learn the basics. You&#8217;ll learn how to use dice combos and clever strategies to defeat your opponent. You&#8217;ll also learn the history of <em>Dice Throne</em>, a game idea whose designer wanted to raise $15,000 and wound up making $1818,000 in 30 days. </p>
+<p>During this session, you&#8217;ll learn how to navigate <em><a href="http://tabletopia.com/">Tabletopia</a></em>, an online board game platform, with more than 900+ tabletop titles. Play old favourites or the hottest new titles with friends and family all over the world.</p>
+<p>* This open to the Ryerson community. Beginners welcome, no experience necessary. <strong>Space is limited</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Wikipedia Edit-a-thon</strong><br />July 8 | 3:00 &#8211; 4:00PM<br />Join librarians, library staff and students on our quest to edit Wikipedia and make it better. The July 8 event provides time for those interested in learning to edit, as well as anyone looking to renew rusty editing skills. Participants are free to chat, breakout into virtual rooms to work on a page together, or just quietly work away on their own with quick assistance available in the zoom window. A quick crash course for those new to Wikipedia will be provided in a breakout room. <a href="https://en.wikipedia.org/wiki/Wikipedia:Meetup/Ryerson_University_Library">More information</a>.<br />* This is open to the Ryerson community.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Drones for Research: Canadian Laws &amp; Regulations</strong><br />July 16, 2020 | 1:00 &#8211; 2:00PM<br />A short workshop on Canadian Laws and Regulations for flying Remotely Piloted Aircrafts (RPAs)/drones and how to be certified. Jimmy Tran and Dan Jakubek will take participants through Canadian laws and regulations so researchers may learn how to legally safely use drones for their research. Some applications of drones in research projects will also be presented.<br />* This is open to the Ryerson community.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Art in Motion: Basic Animation Techniques for Creating 2D &amp; 3D Cinematics</strong><br />July 21, 2020 | 11:00AM &#8211; 12:30PM<br />Led by Michael Carter-Arlt, this workshop will focus on using Adobe Illustrator, Adobe Photoshop, AfterEffects and PremierePro to create 2D cinemagraphs of paintings and 3D cinemagraphs of still photography. Participants will be guided through the process of transforming paintings into basic animations, as well as show how video can be edited with still photography to create animated gifs used in animated photography. The goal of the workshop is for participants to be able to enhance their already existing content, and to provide them with alternative methods of creating  augmented content.<br />* This session is open to the Ryerson community. Beginners welcome, no experience necessary. <br />** Participants will require <a href="https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&amp;mv=other">Adobe Illustrator, Adobe Photoshop, AfterEffects</a> and <a href="https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&amp;mv=other">PremierePro</a> to follow along with the facilitator, and may require some basic familiarity with the software. Software is not available through Ryerson, but must be purchased separately.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Wikipedia Edit-a-thon: Indigenizing Wikipedia</strong><br />July 22 | 3:00 &#8211; 4:30PM<br />Join librarians, library staff and students on our quest to edit Wikipedia and make it better. In the spirit of the work of <a href="https://en.wikipedia.org/wiki/Daniel_Heath_Justice">Daniel Heath Justice</a> who began a 2015 Twitter campaign to share the names of Indigenous writers, this month we are extending that work to Wikipedia. We will be working to improve Wikipedia articles about Indigenous artists, musicians, storytellers, historians, organizers (and yes, writers!) to push back against the Western/Northern/Eurocentric focus of Wikipedia. Featuring a special presentation at the top of the session by <a href="https://ryersonian.ca/ryerson-history-begins-with-indigenous-history-says-campus-tour-leader/">Jeremie Caribou</a>, this an opportunity to get behind the scenes with Wikipedia. Even a tiny edit can make Wikipedia that much better.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Participants are free to chat, breakout into virtual rooms to work on a page together, or just quietly work away on their own with quick assistance available in the zoom window. A quick crash course for those new to Wikipedia will be provided in a breakout room. You can check out the <a href="https://en.wikipedia.org/wiki/Wikipedia:Meetup/Ryerson_University_Library/IndigenizingWikipedia_July_2020">Wiki Meetup page here</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>* This session is open to the Ryerson community and beyond. Beginners welcome, no experience is required.<br />** If you don&#8217;t already have a Wikipedia account, <a href="https://docs.google.com/presentation/d/1awIr_uqPehhx4yhydyqh-Y91qYfL8xLUhaTPxCz8ym0/edit?usp=sharing">here is a guide on how to create one</a> (jump down to Part 2 of the guide for these instructions).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Creating an Artificial Intelligence (AI) Chatbot</strong><br />July 23 | 2:00 &#8211; 3:00PM<br />This quick start session will show you the basics of creating a chatbot from the Amazon Web Services (AWS) portfolio of tools, including Amazon Lex. Learn the basics and discuss the psychological and sociological implications of UX copywriting in this provocative quick-start training session. <br />* This open to the Ryerson community. Beginners welcome, no experience necessary. <strong>Space is limited</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Virtual Board Gaming: Santorini Edition! (Again!)</strong><br />July 30, 2020 | 1:00 &#8211; 2:00PM<br />According to a 2017 study conducted by the University of Central Florida, playing games has been correlated to a reduction in cognitive fatigue. Join the Collaboratory team for virtual board gaming over <em>Tabletopia</em>. Learn how to play some of the world’s most popular board games and discuss the core mechanics of these games in a fun, informal discussion of board games, game design, and university or grad school life.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Introduction to 3D Design for 3D Prototyping</strong><br />August 12, 2020 | 11:00AM &#8211; 12:00PM<br />Jimmy Tran will lead a short workshop introducing 3D design software. Participants will learn basics of 3D design for 3D printing for prototyping purposes. This workshop will introduce the concept of designing something to be made with 3D printing or some other method of fabrication.<br />* This session is open to the Ryerson community. Beginners are welcome, no experience necessary.<br />** Participants will require <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">Fusion 360</a> and/or <a href="https://www.solidworks.com/solution/organization-type/academia">SolidWorks</a> to follow along.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator" />
+<p><!-- /wp:separator --></p>
+<p> </p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Build Your Own Creative Portfolio with WordPress</strong><br />August 18, 2020 | 3:00 &#8211; 3:45PM<br />Have creative projects you want to share with the scholarly community and industry contacts? Learn how to build your own portfolio site in this quick and easy 45-minute overview with Tanya Pobuda. Using <a href="https://wordpress.com/">WordPress</a> themes, you’ll be able to build a starter website for either your teaching dossier, creative projects or professional resume, for free.<br />This open to the Ryerson community. Beginners welcome, no experience necessary. <strong>Space is limited</strong>.</p>
+<p> </p>
+<p><strong>Virtual Board Gaming: Paperback Edition!</strong><br />August 27, 2020 | 1:00 &#8211; 2:00PM<br />According to a 2017 study conducted by the University of Central Florida, playing games has been correlated to a reduction in cognitive fatigue. Join the Collaboratory team for virtual board gaming over <em>Tabletopia</em>. Learn how to play some of the world’s most popular board games and discuss the core mechanics of these games in a fun, informal discussion of board games, game design, and grad school life.<br />* This open to the Ryerson community. Beginners welcome, no experience necessary. <strong>Space is limited</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:columns --><!-- /wp:columns --></p>
+<p><!-- wp:separator --></p>
+<p><!-- /wp:separator --></p>
+<p><!-- wp:columns --></p>
+<p><!-- /wp:columns --></p>
+<p><!-- /wp:separator --></p>
+<p><!-- wp:columns --></p>
+<div class="wp-block-columns"><!-- wp:column {"width":33.33} -->
+<p> </p>
+<div class="wp-block-column" style="flex-basis: 33.33%"> </div>
+<p><!-- /wp:column --></p>
+<p><!-- wp:column {"width":66.66} --></p>
+<div class="wp-block-column" style="flex-basis: 66.66%"> </div>
+<p><!-- /wp:column --></p>
+</div>
+<p><!-- /wp:columns --></p>		
+		
+		<footer class="entry-meta">
+								</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-986 -->
+              </div><!-- #content -->
+
+    </div><!-- #primary -->
+
+  </div>
+</div>
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library and Archives</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                      <li><a href="https://www.facebook.com/RyersonLibrary/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                      <li><a href="https://www.flickr.com/photos/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Flickr"><i class="fa fa-flickr"></i></a></li>
+                    
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/collab/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- Calendly link script begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<!-- Calendly link script end -->
+
+<style type="text/css">
+  /* Fix second scrollbar introduced by Calendly */
+  body {
+    overflow: initial;
+  }
+</style>
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/collab/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.32' id='simcal-qtip-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.32' id='simcal-fullcal-moment-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.32' id='simcal-moment-timezone-js'></script>
+<script id='simcal-default-calendar-js-extra'>
+var simcal_default_calendar = {"ajax_url":"\/collab\/wp-admin\/admin-ajax.php","nonce":"7e0d117be8","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+</script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.32' id='simcal-default-calendar-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.32' id='simplecalendar-imagesloaded-js'></script>
+<script src='https://library.ryerson.ca/collab/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'PBKIECCEKEBBKHHGGNDAOKEJHACIEGCKEFNOJHMDMDGPOAIPMNBMFLPHMKNHKLCPGCKBFLKHAAJIPAOJJGJABEBFAANBIALFCILJEIBAICPGDHMCGFMCKIMOMIEHDHBF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

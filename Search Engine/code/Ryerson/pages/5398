@@ -1,0 +1,3145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en" >
+
+
+<head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content=""> 
+<meta name="description" content=""> 
+<title>
+CPS 590 - Operating Systems I - 
+calendars - 
+ Ryerson University
+</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "genTemplate";
+
+var runMode = "publish"; 
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+<link rel="stylesheet" href="/etc.clientlibs/ryerson/static/template960/clientlibs.36be2b12c65de021d107136d257e5067.css" type="text/css">
+ 
+<script type="text/javascript" src="/etc.clientlibs/ryerson/static/template960/clientlibs.7cf27b65cf30a5df7740ba7b7f949f0d.js"></script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var $theme = jQuery.noConflict();
+
+</script>
+   
+<link id="scriptGenMainPrintCSS" href="/content/dam/static/print.css" rel="stylesheet" type="text/css" media="print"> 
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+   	<!-- red -->
+	<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+	
+    <!-- yellow -->
+	<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+	
+	<!-- system -->
+	<div id="systemAlert"></div>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="siteWrapper">
+    <a id="skip_to_content" href="" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a> 
+        <div class="pageWrapper">
+     
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="globalNavigation">
+    <a href="/" class="globalLogo"><img src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/ryerson_logo.png" width="89" height="43" alt="Ryerson University" title="Ryerson University"/></a>
+    <div class="searchArea">
+    <div class="globalLinks"><a href="https://my.ryerson.ca/">my.ryerson.ca</a>&nbsp; | &nbsp;<a href="/contact">Directory</a></div>
+    <div id="searchwrapper">
+		<form method="GET" action="/search" class="resSearch">
+			<label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="q">Search Ryerson.ca</label>
+			<label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="i">Submit Search</label> 
+			<input type="text" placeholder="Search Ryerson.ca" id="q" name="q" class="searchbox">
+			<input type="image" alt="Submit Search" value="" class="searchbox_submit" id="i" src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/submit.png"> 
+		</form>
+    </div>
+    </div>
+</div>
+          
+                  <div class="header parbase">
+
+
+
+
+
+
+
+
+    
+
+    
+ 
+ 
+	     <style type="text/css">
+	     .sf-menu{
+	        margin-top:-50px;
+	     }
+        
+
+.siteHeaderContainer {
+    background-image:url("/content/dam/calendar/images/v2banner2020_21.jpg");
+    height:420px;
+    width:960px;
+    position: relative;
+    background-color:#333333;
+
+}
+
+.siteHeaderContainer h1 {
+    color: #FFFFFF;
+    font-family: UniversCondensed;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    position:relative;
+    bottom:30px;
+    left:40px;
+    position: absolute;
+}
+
+
+.siteHeaderContainer .wayfinderNav ul li {
+    zoom:1;
+    color:#FFFFFF;
+    font-weight: bold;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    display:block;
+    padding:6px; 
+    padding-top:0px;
+    width:auto;
+    list-style-type: none;
+    display:inline;
+    position:relative;
+}
+.sf-menu ul li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.85;
+}
+.sf-menu li li li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.85;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+    color:#FFFFFF;
+    text-decoration: none;
+    border-right: none;
+    font-family: UniversCondensed, Arial;
+
+}
+
+.siteHeaderContainer .wayfinderNav ul li a {
+    color:#FFFFFF !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.siteHeaderContainer .siteNav {
+    zoom:1;
+    color: #ffffff;
+    width:960px;
+    height:50px;
+    bottom:0px;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.85;
+    vertical-align:middle;
+    text-align:center;
+    position: absolute;
+}
+
+#megaMenuContainer {
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    margin-top:-50px;
+}
+
+#megaMenu {
+    zoom:1;
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.85;
+}
+
+.links {
+    zoom:1;
+    display: none;
+    background-color: #111111;
+    height: 0px;
+    position: absolute;
+    float: left;
+    width: 960px;
+    overflow: hidden;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.85;
+    top:481px;
+}
+
+.subLinks {
+    position: relative;  
+    color: #FFFFFF !important;
+    float: left;
+    padding-top: 15px;  
+    padding-bottom: 1000px;margin-bottom: -1000px;
+}
+
+.subLinks a {
+    color: #FFFFFF;
+    font-size: 15px;  
+    margin-left: 20%; 
+    text-decoration:none; 
+}
+    
+
+     
+.megaMenuColumn a.megaTitle{
+    color:#005a9c;
+    padding-top:25px;
+    font-weight:bold;
+
+}
+.megaMenuColumn a.megaSubTitle{
+    color:#FFFFFF;
+    padding-top:8px !important;
+
+}
+.megaMenuColumn div.subLinks{
+    background-color:#111111; 
+}
+
+</style>
+
+<!--[if IE 7]> 
+<style>
+.siteHeaderContainer .wayfinderNav ul li {
+    margin-left:5px;
+}
+.siteHeaderContainer .wayfinderNav {
+    position:relative;
+    top:40px;
+    left:15px;
+}
+
+.MainMenuSubMenuAdjustHeight{
+height:0px;
+}
+</style>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<script type="text/javascript">
+     var updateMenuJSON = false;
+     var updateWayfinderJSON = false;
+     var fireCheckEvent = false;
+  function assembleTree(parentNode,dataArr){
+	  console.log(dataArr); 
+      var c;
+      for(c=0;c<dataArr.length;c++){
+          newNode = parentNode.appendChild({"text":dataArr[c].text,"expandable":true,"expanded":true,"leaf":true,"isMegaTitle":dataArr[c].isMegaTitle});
+          if(dataArr[c].children.length > 0){
+              assembleTree(newNode,dataArr[c].children); 
+          }
+      }
+  } 
+  
+  function getJson(treeNode) {
+	 // console.log("thisone");
+         treeNode.expandChildNodes();
+         var json = {};
+         //console.log(treeNode);
+         var attributes = treeNode.attributes;
+         for(var item in attributes){
+             if (item == 'src' || item == 'text' || item == "isMegaTitle") {
+                 //console.log(item + " : " + attributes[item]);   //only use required attributes
+                 json[item] = attributes[item];
+             }
+         }
+         json.children = [];
+         if(treeNode.childNodes.length > 0){
+             for (var i=0; i < treeNode.childNodes.length; i++) {
+                 json.children.push(getJson(treeNode.childNodes[i]));
+             }
+         }
+         return json;
+     }
+
+  function getMenuStyle(_elem, _style){
+      var computedStyle;
+      if (_elem != 'undefined' && (typeof _elem.currentStyle != 'undefined'))
+        { computedStyle = _elem.currentStyle; }
+      else
+        { computedStyle = document.defaultView.getComputedStyle(_elem, null); }
+
+      return computedStyle[_style];
+      
+    }
+  </script> 
+
+<div class="siteHeaderContainer" style="top:0px;">
+<img src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/transparentimage.gif" alt="2020-2021 Undergraduate Calendar" style="top:0px;">
+   <div class="wayfinderNav">
+    <ul>
+</ul>
+
+  </div>
+  
+<a href="/content/ryerson/calendar">
+
+  <h1>
+    
+  2020-2021 Undergraduate Calendar
+
+  
+  </h1>
+  </a>
+  
+       <div class="siteNav"> </div> 
+      
+</div> 
+<div ><ul class="sf-menu sf-navbar">
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/about-ryerson.html">Home</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/about-ryerson.html">About</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/policies-and-procedures.html">Policies and Procedures</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/dates.html">Dates</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/programs.html">Programs and Courses</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/faculty-and-administration.html">Faculty</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/glossary.html">Glossary</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/calendar/2020-2021/az_index.html">A-Z Index / Search</a>
+</li>
+</ul></div>
+
+        <div class="MainMenuSubMenuAdjustHeight"></div>
+    
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var calcWidth = 0;
+    
+        jQuery('ul.sf-menu').supersubs({ 
+            minWidth:    12,   // minimum width of sub-menus in em units 
+            maxWidth:    27,   // maximum width of sub-menus in em units 
+            extraWidth:  1     // extra width can ensure lines don't sometimes turn over 
+                               // due to slight rounding differences and font-family 
+        }).superfish({
+            "speed":200,
+            "dropShadows":false, 
+            "autoArrows":true,
+            pathClass:'currentPathNav'
+        });
+    
+    
+                jQuery('.sf-menu > .menuItem').each(function(index) {
+                    calcWidth += parseInt(jQuery(this).width(), 10)+6;
+                }); 
+            jQuery('.sf-menu').css("width",calcWidth);
+            
+}); 
+</script> 
+
+<style>
+
+.contentArea A {
+  color: #004c9b !important;
+}
+
+/*--------
+Colour Palette
+     #004C9B "cobalt blue" - h2, h3, defaultSubTitle, links
+     #999999 "nobel grey" - hr
+     #AEAEAE " dark gray" - search wrapper
+     #ffa300 "orange" header background colour
+----*/
+
+/*---------------- CSS reduce height of header area Jan2016 ----------------*/
+.siteHeaderContainer{
+     height:140px !important;
+}
+
+/*---------------- define search box area Jan2016-------------*/
+
+.header{
+     background-color:white;
+}
+
+/*--------  TURN OFF SEARCH
+.searchCalendarWrapper{
+     z-index:999;
+     width:380px;
+     height: 23px;
+     background-image: url(/content/dam/images/search.png);
+     background-repeat: no-repeat;
+     padding: 0;
+     margin: 15px 8px 20px 0;
+     position: relative;
+     float: right;
+}
+.searchCalendarWrapper select{
+     position:relative;
+     float:right;
+     height:23px;
+     border:1px solid #aeaeae;
+     border: 1px solid #999;
+}
+.contentArea{
+     clear:both;
+}
+.pageWrapper{
+     background-color:#ffffff;
+}
+.courseComponent{
+     padding:0px 15px 15px 15px !important;
+}
+
+TURN OFF SEARCH-------------*/
+
+/*---------------- icons for web links Jan2017 --------------*/
+
+.main_content_pdf a, .main_content_excel a, .main_content_general a, .main_content_ppt a, .main_content_word a {
+     padding-right: 20px;
+     background-position: right;
+     margin-right: 6px;
+     padding-bottom: 0px;
+     padding-left: 0px;
+}
+
+.main_content_new_window a {
+     background-image: url("/content/dam/images/new/icon_new_window.gif");
+     background-repeat: no-repeat;
+     padding-right: 20px;
+     background-position: right;
+     margin-right: 6px;
+     padding-bottom: 0px;
+     padding-left: 0px;
+}
+
+.main_content_general a {
+    background-image:  url("/content/dam/images/new/icon_general.gif");
+    background-repeat: no-repeat;
+    background-size: 1em, 1em;
+    padding-right: 20px;
+    background-position: right;
+    margin-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+/*--CSS typography scale 1.618 "golden ratio" Jan2017---*/
+
+html {
+     font: 100% Arial, 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4 {
+     line-height: 120%;
+}
+
+h1, .defaultPageTitle {
+     font-family: Verdana, Arial, 'Open Sans', sans-serif;
+     font-weight:500;
+     font-size:261.8%;
+     margin-top: 0;
+}
+
+h3 { 
+     font-family: Verdana, Arial, 'Open Sans', sans-serif;
+     font-size: 110% !important;
+     color:#004C9B !important;
+     font-weight: normal !important;}
+
+h2, .defaultSubTitle {
+     font-family: Verdana, Arial, 'Open Sans', sans-serif;
+     margin-top: 0;
+     font-size: 161.8%!important;
+     color:#004C9B !important;
+     font-weight:500;
+}
+
+.subTitleGrey, .subTitleBlack {
+     font-family: Verdana, Arial, 'Open Sans', sans-serif;
+     margin-top: 0;
+     font-size: 161.8%!important;
+     color:#004C9B !important;
+     font-weight:500;
+}
+
+small, .font_small {
+     font-size: 85%;
+     font-family: Arial, 'Open Sans', sans-serif !important;
+}
+
+/*---------------- CSS add padding to tables and lists Jan2017 ----------------*/
+
+ul {
+     padding-bottom: 15px !important;} /*----add padding bulleted lists-----*/
+table {
+     padding-bottom: 15px;!important;} /*----add padding tables-----*/
+
+
+/*----------------CSS format horizontal rule Jan2017 ----------------*/
+hr{
+     border-style: solid !important; /*----solid-----*/
+     color:#999999!important; /*----nobel grey-----*/
+     border-width:1.5px!important; /*----a bit thicker-----*/
+}
+
+
+/*---------------- CSS format links Jan2017 ----------------*/
+
+/* unvisited link */
+.text a:link {
+     text-decoration: none;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+.tableContainer a:link {
+     text-decoration: none;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+/* mouse over link */
+.text a:hover {
+     text-decoration: underline;!important;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+.tableContainer a:hover {
+     text-decoration: underline;!important;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+/* selected link */
+.text a:active {
+     text-decoration: none;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+.tableContainer a:active {
+     text-decoration: none;
+     color:#004c9b !important;
+     font-weight:600;
+}
+
+</style>
+
+</div>
+
+                  
+          <div class="contentArea">
+          
+          <script>
+          var returnVal = false;
+          function containsCurrPage(item){
+              
+              //returnval is being set to false on each recursi ve call
+              jQuery(item).each(function(k,v){
+                 if(jQuery(v).attr('class') != undefined && jQuery(v).attr('class').indexOf("currPage") >= 0){
+                     jQuery(v).children("ul").children("li").children("ul").each(function(x,xx){
+                         jQuery(xx).remove();
+                     });
+                       returnVal = true;
+                 }
+                 
+                 if(jQuery(v).children() != null && jQuery(v).children().length > 0){
+                     jQuery(v).children().each(function(kk,vv){containsCurrPage(vv);});
+                 }
+             });
+             return returnVal;
+          }
+          
+          
+          </script>
+              <div class="mt_leftNav" style="width:0px;">
+                
+                 <style>
+</style>
+
+                   <div style="clear:both;"></div>
+                   <div style="overflow:hidden;">
+                   <div id="componentLEFT">
+                   <div class="leftContainer">
+                   
+                </div>
+                </div>
+               </div>
+              </div>
+              <div class="mt_mainContent" style="width:690px;">
+              <div class="center parsys"><div class="uiwCourse parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+<div id="component475791908" class="courseComponent">
+	<h1>CPS 590</h1>
+	<h2>Operating Systems I</h2>
+	
+		<div class="courseBlock">
+		
+			<div class="courseDescription">Introduction to O/S (system calls, interrupts, synchronous and asynchronous traps, O/S structure), using processes (process communication and synchronization), primitive communications (signals and signal management calls), pipes, messages, semaphores, shared memory, memory management, file systems, and (time permitting) remote procedure calls.</div>
+		
+		
+            <div class="courseLength"><span class="courseInfoLabels">Weekly Contact: </span><span class="courseInfoValues">Lab:1 hr. Lecture:3 hrs. </span></div>
+		
+		
+			<div class="courseWeight"><span class="courseInfoLabels">GPA Weight: </span><span class="courseInfoValues">1.00</span></div>
+		
+        
+            <div class="courseCount"><span class="courseInfoLabels">Course Count: </span><span class="courseInfoValues">1.00</span></div>
+		
+		
+			<div class="courseUnits"><span class="courseInfoLabels">Billing Units: </span><span class="courseInfoValues">1</span></div>
+		
+		
+
+        
+		</div> 
+	
+	<div class="requisites">
+		<h3>Prerequisites</h3>
+	
+        <p><a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/305.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/305/jcr:content/center/uiwcalendarcourse.json">CPS 305</a> and <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/393.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/393/jcr:content/center/uiwcalendarcourse.json">CPS 393</a></p>
+	
+	</div>
+	<div class="requisites">
+		<h3>Antirequisites</h3>
+	
+        <p>None</p>
+	
+	</div>
+	<div class="requisites">
+		<h3>Co-Requisites</h3>
+	
+        <p>None</p>
+	
+	</div>
+	<div class="requisites" style="clear: left;">
+		<h3>Custom Requisites</h3>
+	
+        <p>None</p>
+	
+	</div>
+	<div class="mentioned">
+		<h3>Mentioned in the Following Calendar Pages</h3>
+		<div class="disclaimer">*List may not include courses that are on a common table shared between programs.</div>
+	
+        <ul>
+    
+	             <li>
+	         <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/706.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/706/jcr:content/center/uiwcalendarcourse.json">CPS 706</a> - Computer Networks I
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/730.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/730/jcr:content/center/uiwcalendarcourse.json">CPS 730</a> - Web Technology and Performance Measurement
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/801.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/801/jcr:content/center/uiwcalendarcourse.json">CPS 801</a> - Operating Systems II
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/832.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/832/jcr:content/center/uiwcalendarcourse.json">CPS 832</a> - Mainframe Systems
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         
+						<a href="/content/ryerson/calendar/2020-2021/programs/science/computer_sci.html">Computer Science</a>
+                     
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         
+						<a href="/content/ryerson/calendar/2020-2021/minors/comp_sci_minor.html">Computer Science Minor</a>
+                     
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         
+						<a href="/content/ryerson/calendar/2020-2021/programs/arts/geographic/table_iv.html">Geographic Analysis Professionally-Related Table IV</a>
+                     
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         
+						<a href="/content/ryerson/calendar/2020-2021/programs/science/mathematics/math_table_ii.html">Mathematics Professional Table II</a>
+                     
+
+                    
+
+                 </li>
+	        
+	             <li>
+	         
+						<a href="/content/ryerson/calendar/2020-2021/open-elective-table.html">Open Elective Table</a>
+                     
+
+                    
+
+                 </li>
+	        
+        </ul>
+    
+	</div>
+</div>
+
+<div style="clear:both;"></div></div>
+
+</div>
+
+              </div>
+              <div class="mt_rightFeature" style="width:250px;">
+                 <style>
+#componentRIGHT .rightContainer{
+padding:15px;
+}
+</style>
+
+                  <div id="componentRIGHT">
+                  <div class="rightContainer">
+                
+                                <div class="center parsys"><div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj224933784" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component224933784" class="textComponent">  
+
+<div class="text"><h3>Computer Science</h3></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="uiwCourseList section">
+
+
+
+
+
+
+
+
+   
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj148887494" class="allToolbarSelector"></div>
+    
+    
+    
+    
+ <script> 
+
+</script>
+<style type="text/css">
+.courseListHeadingItem {
+padding-bottom:5px;padding-top:5px;padding-right:1%;min-height:1px;word-wrap: break-word;float:left;
+}
+</style>
+
+
+
+
+
+
+
+
+
+   
+
+
+<div id="component148887494" class="courseListComponent"> 
+
+    <ul class="courseList">
+    
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/101.html" title="CPS 101 - Introduction to App Development" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/101/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 101</span></a><br /><span class="courseListCourseName">Introduction to App Development</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/109.html" title="CPS 109 - Computer Science I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/109/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 109</span></a><br /><span class="courseListCourseName">Computer Science I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/118.html" title="CPS 118 - Introductory Programming for Scientists" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/118/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 118</span></a><br /><span class="courseListCourseName">Introductory Programming for Scientists</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/125.html" title="CPS 125 - Digital Computation and Programming" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/125/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 125</span></a><br /><span class="courseListCourseName">Digital Computation and Programming</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/209.html" title="CPS 209 - Computer Science II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/209/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 209</span></a><br /><span class="courseListCourseName">Computer Science II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/213.html" title="CPS 213 - Computer Organization I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/213/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 213</span></a><br /><span class="courseListCourseName">Computer Organization I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/270.html" title="CPS 270 - Data Access and Management" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/270/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 270</span></a><br /><span class="courseListCourseName">Data Access and Management</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/305.html" title="CPS 305 - Data Structures" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/305/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 305</span></a><br /><span class="courseListCourseName">Data Structures</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/310.html" title="CPS 310 - Computer Organization II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/310/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 310</span></a><br /><span class="courseListCourseName">Computer Organization II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/311.html" title="CPS 311 - Object Oriented Programming and Design" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/311/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 311</span></a><br /><span class="courseListCourseName">Object Oriented Programming and Design</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/393.html" title="CPS 393 - Introduction to UNIX, C and C++" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/393/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 393</span></a><br /><span class="courseListCourseName">Introduction to UNIX, C and C++</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/406.html" title="CPS 406 - Introduction to Software Engineering" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/406/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 406</span></a><br /><span class="courseListCourseName">Introduction to Software Engineering</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/40AB.html" title="CPS 40A/B - Thesis" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/40AB/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 40A/B</span></a><br /><span class="courseListCourseName">Thesis</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/412.html" title="CPS 412 - Social Issues, Ethics and Professionalism" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/412/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 412</span></a><br /><span class="courseListCourseName">Social Issues, Ethics and Professionalism</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/420.html" title="CPS 420 - Discrete Structures" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/420/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 420</span></a><br /><span class="courseListCourseName">Discrete Structures</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/501.html" title="CPS 501 - Bioinformatics" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/501/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 501</span></a><br /><span class="courseListCourseName">Bioinformatics</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/506.html" title="CPS 506 - Comparative Programming Languages" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/506/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 506</span></a><br /><span class="courseListCourseName">Comparative Programming Languages</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/510.html" title="CPS 510 - Database Systems I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/510/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 510</span></a><br /><span class="courseListCourseName">Database Systems I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/511.html" title="CPS 511 - Computer Graphics" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/511/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 511</span></a><br /><span class="courseListCourseName">Computer Graphics</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/513.html" title="CPS 513 - Introduction to Multimedia Computation" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/513/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 513</span></a><br /><span class="courseListCourseName">Introduction to Multimedia Computation</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/530.html" title="CPS 530 - Web Systems Development" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/530/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 530</span></a><br /><span class="courseListCourseName">Web Systems Development</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/590.html" title="CPS 590 - Operating Systems I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/590/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 590</span></a><br /><span class="courseListCourseName">Operating Systems I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/606.html" title="CPS 606 - Advanced Computer Organization" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/606/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 606</span></a><br /><span class="courseListCourseName">Advanced Computer Organization</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/607.html" title="CPS 607 - Autonomous Mobile Robotics" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/607/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 607</span></a><br /><span class="courseListCourseName">Autonomous Mobile Robotics</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/610.html" title="CPS 610 - Database Systems II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/610/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 610</span></a><br /><span class="courseListCourseName">Database Systems II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/613.html" title="CPS 613 - Human-Computer Interaction" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/613/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 613</span></a><br /><span class="courseListCourseName">Human-Computer Interaction</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/615.html" title="CPS 615 - Theory of Computation" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/615/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 615</span></a><br /><span class="courseListCourseName">Theory of Computation</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/616.html" title="CPS 616 - Algorithms" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/616/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 616</span></a><br /><span class="courseListCourseName">Algorithms</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/621.html" title="CPS 621 - Introduction to Multimedia Systems" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/621/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 621</span></a><br /><span class="courseListCourseName">Introduction to Multimedia Systems</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/630.html" title="CPS 630 - Web Applications" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/630/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 630</span></a><br /><span class="courseListCourseName">Web Applications</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/633.html" title="CPS 633 - Computer Security" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/633/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 633</span></a><br /><span class="courseListCourseName">Computer Security</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/643.html" title="CPS 643 - Virtual Reality" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/643/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 643</span></a><br /><span class="courseListCourseName">Virtual Reality</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/650.html" title="CPS 650 - Computational Thinking in Our World" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/650/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 650</span></a><br /><span class="courseListCourseName">Computational Thinking in Our World</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/688.html" title="CPS 688 - Advanced Algorithms" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/688/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 688</span></a><br /><span class="courseListCourseName">Advanced Algorithms</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/706.html" title="CPS 706 - Computer Networks I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/706/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 706</span></a><br /><span class="courseListCourseName">Computer Networks I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/707.html" title="CPS 707 - Software Verification and Validation" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/707/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 707</span></a><br /><span class="courseListCourseName">Software Verification and Validation</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/710.html" title="CPS 710 - Compilers and Interpreters" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/710/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 710</span></a><br /><span class="courseListCourseName">Compilers and Interpreters</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/713.html" title="CPS 713 - Applied Cryptography" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/713/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 713</span></a><br /><span class="courseListCourseName">Applied Cryptography</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/714.html" title="CPS 714 - Software Project Management" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/714/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 714</span></a><br /><span class="courseListCourseName">Software Project Management</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/716.html" title="CPS 716 - Computer Networks II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/716/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 716</span></a><br /><span class="courseListCourseName">Computer Networks II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/721.html" title="CPS 721 - Artificial Intelligence I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/721/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 721</span></a><br /><span class="courseListCourseName">Artificial Intelligence I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/730.html" title="CPS 730 - Web Technology and Performance Measurement" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/730/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 730</span></a><br /><span class="courseListCourseName">Web Technology and Performance Measurement</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/731.html" title="CPS 731 - Software Engineering I" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/731/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 731</span></a><br /><span class="courseListCourseName">Software Engineering I</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/752.html" title="CPS 752 - Parallel Computer Systems" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/752/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 752</span></a><br /><span class="courseListCourseName">Parallel Computer Systems</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/801.html" title="CPS 801 - Operating Systems II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/801/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 801</span></a><br /><span class="courseListCourseName">Operating Systems II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/803.html" title="CPS 803 - Machine Learning" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/803/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 803</span></a><br /><span class="courseListCourseName">Machine Learning</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/811.html" title="CPS 811 - Distributed Systems and Networks" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/811/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 811</span></a><br /><span class="courseListCourseName">Distributed Systems and Networks</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/813.html" title="CPS 813 - Human Robot Interaction" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/813/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 813</span></a><br /><span class="courseListCourseName">Human Robot Interaction</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/815.html" title="CPS 815 - Topics in Algorithms" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/815/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 815</span></a><br /><span class="courseListCourseName">Topics in Algorithms</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/822.html" title="CPS 822 - Artificial Intelligence II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/822/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 822</span></a><br /><span class="courseListCourseName">Artificial Intelligence II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/824.html" title="CPS 824 - Reinforcement Learning" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/824/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 824</span></a><br /><span class="courseListCourseName">Reinforcement Learning</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/831.html" title="CPS 831 - Software Engineering II" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/831/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 831</span></a><br /><span class="courseListCourseName">Software Engineering II</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/832.html" title="CPS 832 - Mainframe Systems" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/832/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 832</span></a><br /><span class="courseListCourseName">Mainframe Systems</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/840.html" title="CPS 840 - Selected Topics in Computer Science" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/840/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 840</span></a><br /><span class="courseListCourseName">Selected Topics in Computer Science</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/841.html" title="CPS 841 - Advanced Topics in Computer Science" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/841/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 841</span></a><br /><span class="courseListCourseName">Advanced Topics in Computer Science</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/842.html" title="CPS 842 - Information Retrieval and Web Search" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/842/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 842</span></a><br /><span class="courseListCourseName">Information Retrieval and Web Search</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/843.html" title="CPS 843 - Introduction to Computer Vision" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/843/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 843</span></a><br /><span class="courseListCourseName">Introduction to Computer Vision</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/844.html" title="CPS 844 - Data Mining" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/844/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 844</span></a><br /><span class="courseListCourseName">Data Mining</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/845.html" title="CPS 845 - Extreme Programming and Agile Processes" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/845/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 845</span></a><br /><span class="courseListCourseName">Extreme Programming and Agile Processes</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/847.html" title="CPS 847 - Software Tools for Startups" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/847/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 847</span></a><br /><span class="courseListCourseName">Software Tools for Startups</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/853.html" title="CPS 853 - Creating Big Data Systems." class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/853/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 853</span></a><br /><span class="courseListCourseName">Creating Big Data Systems.</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/865.html" title="CPS 865 - Model-Driven Software Engineering" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/865/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 865</span></a><br /><span class="courseListCourseName">Model-Driven Software Engineering</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/870.html" title="CPS 870 - Applied Natural Language Processing" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/870/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 870</span></a><br /><span class="courseListCourseName">Applied Natural Language Processing</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+           <li class="courseListItem" style="margin-top:0px;margin-bottom:0px;padding:0 0 10px;list-style-image:none;list-style-type:none;">
+           
+
+
+
+
+
+
+
+
+
+  
+    <a href="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/888.html" title="CPS 888 - Software Engineering" class="courseListCourseLink qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/computer-science/CPS/888/jcr:content/center/uiwcalendarcourse.json"><span class="courseListCourseCode">CPS 888</span></a><br /><span class="courseListCourseName">Software Engineering</span>
+    
+	
+	
+	
+	
+    
+    
+	
+	
+	
+	
+	
+
+
+<div style="height:0px;clear:both;"></div>
+           </li>
+           
+    </ul>
+    
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+                                
+                </div>
+                </div>
+              </div>
+          <div class="mt_Footer">
+                
+                   <div id="component1092833214">
+                   <div class="footerContainer">
+                
+                            <div class="customFooter parsys">
+</div>
+
+                            
+                 
+                </div>
+                </div>
+              </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer"> 
+        <div>
+        <script type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write("&copy; " + year + " Ryerson University");
+        </script>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        </div>
+        <br>
+        <ul>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/accessibility/">Accessibility</a></li>
+        <li><a href="/ryerson.ca/terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+    </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+</style> 
+    </div>     
+    </div> 
+        </div>
+    <style media="print">
+        .mt_leftNav{
+            width:0px !important;
+        }
+        .mt_mainContent{
+        width:73.40425%  !important;
+        }
+        .mt_rightFeature{
+        width:26.595745%  !important;
+        }
+        .pageWrapper{
+                width:672px !important;
+        }
+        .mt_Footer{
+            width:100% !important;
+        }
+        .searchArea{
+            visibility:hidden !important;
+        }
+    </style>
+    
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'BLFPPKCFBLIELJOOOKKHGPOGBDLOFGOIPDHNCFANMCLCCNEMAFPMEGIGCINKCIJIMJFBELNDAAFLAAJFBDJACNPNAAJJMHCMOPBBPKHDHFGJCKNCIOOIKLIDJMOLFHIL',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'EELOFPFIMGHGJIICFONDDLKKBFOJNAPNHCHPLEJKPAMLKLBOMGCJBLMLIKJMBLBFLMMBGAMIAAIILEKIEOOAKEFDAAOIKKFHLADJMBMEAOPKJALBNAILBHIEIHAJDCPD',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

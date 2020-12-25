@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/images/favicon-16x16.png">
+	<link rel="manifest" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/site.webmanifest">
+	<link rel="mask-icon" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/images/safari-pinned-tab.svg" color="#b01109">
+	<link rel="shortcut icon" href="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/images/favicon.ico">
+	<meta name="application-name" content="Pressbooks">
+	<meta name="msapplication-TileColor" content="#b01109">
+	<meta name="msapplication-config" content="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="pingback" href="https://pressbooks.library.ryerson.ca/docs/xmlrpc.php" />	<title>Google Sheets &#8211; Understanding Document Accessibility</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Understanding Document Accessibility &raquo; Feed" href="https://pressbooks.library.ryerson.ca/docs/feed/" />
+<link rel='stylesheet' id='wp-quicklatex-format-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=5.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='glossary-tooltip-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/pressbooks/assets/dist/styles/glossary-tooltip.css?id=9e19062c8778618fda33' type='text/css' media='all' />
+<link rel='stylesheet' id='h5p-plugin-styles-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-icomoon-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css?ver=2.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-toc-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.11' type='text/css' media='all' />
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container p.ez-toc-title {font-size: 120%;}div#ez-toc-container p.ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 95%;}
+</style>
+<link rel='stylesheet' id='book/book-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/styles/book.css?id=c8513da294d05f051f51' type='text/css' media='all' />
+<link rel='stylesheet' id='book/webfonts-css'  href='https://fonts.googleapis.com/css?family=Inconsolata|Karla:400,700|Spectral:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='pressbooks/theme-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/pressbooks/css/style.css?ver=1604072260' type='text/css' media='screen, print' />
+<script async type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/scripts/sharer.js?id=40da80ac58b2606eaedf&#038;ver=5.3.6'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/scripts/jquery.scrollTo.js?id=525edcc52fe856518628'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pressbooksBook = {"home_path":"\/docs\/","comparison_loading":"Comparison loading\u2026","comparison_loaded":"Comparison loaded.","chapter_not_loaded":"The original chapter could not be loaded.","toggle_contents":"Toggle contents of","ajaxurl":"https:\/\/pressbooks.library.ryerson.ca\/docs\/wp-admin\/admin-ajax.php","text_diff_nonce":"cf9909df94"};
+/* ]]> */
+</script>
+<script async type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/scripts/book.js?id=e22eb81fe44527a1aa53'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='https://pressbooks.library.ryerson.ca/docs/wp-json/' />
+<link rel='prev' title='Adobe Acrobat 11 Pro and DC' href='https://pressbooks.library.ryerson.ca/docs/chapter/adobe-acrobat-11-pro-and-dc/' />
+<link rel='next' title='Google Slides' href='https://pressbooks.library.ryerson.ca/docs/chapter/google-slides/' />
+<link rel="canonical" href="https://pressbooks.library.ryerson.ca/docs/chapter/google-sheets/" />
+<link rel='shortlink' href='https://pressbooks.library.ryerson.ca/docs/?p=71' />
+<link rel="alternate" type="application/json+oembed" href="https://pressbooks.library.ryerson.ca/docs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpressbooks.library.ryerson.ca%2Fdocs%2Fchapter%2Fgoogle-sheets%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://pressbooks.library.ryerson.ca/docs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpressbooks.library.ryerson.ca%2Fdocs%2Fchapter%2Fgoogle-sheets%2F&#038;format=xml" />
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-890753-22', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics --><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Chapter","name":"Google Sheets","inLanguage":"en-us","isPartOf":"Understanding Document Accessibility","copyrightYear":"2020","author":[{"@type":"Person","name":"Digital Education Strategies"},{"@type":"Person","name":"The Chang School"}],"editor":[{"@type":"Person","name":"Pauline Ricablanca"}],"reviewedBy":[{"@type":"Person","name":"Greg Gay"}],"publisher":{"@type":"Organization","name":"The Chang School, Ryerson University ","address":{"@type":"PostalAddress","addressLocality":"Toronto, Ontario"}},"datePublished":"2020-01-15","copyrightHolder":{"@type":"Organization","name":"The Chang School, Ryerson University"},"license":{"@type":"CreativeWork","url":"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/","name":"CC BY-SA (Attribution ShareAlike)"}}</script><meta name="citation_book_title" content="Understanding Document Accessibility">
+<meta name="citation_title" content="Google Sheets">
+<meta name="citation_year" content="2020">
+<meta name="citation_publication_date" content="2020-01-15">
+<meta name="citation_language" content="en-us">
+<meta name="citation_publisher" content="The Chang School, Ryerson University ">
+<meta name="citation_author" content="Digital Education Strategies">
+<meta name="citation_author" content="The Chang School"><style type="text/css">:root{--primary:#0a4e99;--accent:#ffdc00;--accent-fg:#000000;--accent-alpha:rgba(255,220,0,0.25);}</style><style type="text/css">:root{--reading-width:48em;}</style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style></head>
+<body class="chapter-template-default single single-chapter postid-71">
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<symbol id="icon-pressbooks" fill="currentColor" viewBox="0 0 45 44">
+			<path d="M44.195 41.872c0 .745-.618 1.346-1.377 1.346H1.377C.617 43.219 0 42.617 0 41.872V1.347C0 .604.618 0 1.377 0h41.44c.76 0 1.378.604 1.378 1.347v40.525zM15.282 10.643h-5.21v21.43h3.304V24h1.906c1.435 0 2.656-.5 3.665-1.504 1.008-1.004 1.513-2.213 1.513-3.626v-3.113c0-1.47-.444-2.678-1.33-3.625-.956-.993-2.24-1.489-3.848-1.489zm1.977 5.165h-.001v3.131c0 .513-.184.952-.55 1.318a1.826 1.826 0 0 1-1.338.547h-1.994v-6.86h1.995c.571 0 1.029.171 1.372.513.344.342.516.792.516 1.35zm5.84 16.265h6.118c.828 0 1.662-.25 2.502-.752a4.642 4.642 0 0 0 1.73-1.779c.526-.945.788-2.097.788-3.455 0-.545-.04-1.043-.122-1.486-.163-.868-.414-1.575-.751-2.122-.513-.81-1.137-1.352-1.871-1.625a3.325 3.325 0 0 0 1.154-.839c.78-.866 1.173-2.018 1.173-3.455 0-.876-.105-1.635-.315-2.274-.386-1.198-1.027-2.08-1.925-2.652-1.049-.672-2.225-1.008-3.531-1.008h-4.95v21.447zm3.568-12.69v-5.475h1.382c.652 0 1.184.212 1.592.634.443.456.665 1.13.665 2.018 0 .537-.065.987-.193 1.352-.35.982-1.039 1.471-2.064 1.471h-1.382zm0 9.493v-6.397h1.382c.815 0 1.433.25 1.853.751.466.549.7 1.42.7 2.617 0 .502-.075.948-.227 1.335-.432 1.13-1.208 1.694-2.326 1.694h-1.382z" />
+		</symbol>
+		<symbol id="logo-pressbooks" viewBox="0 0 265 40">
+			<path fill="#000" d="M51.979 1.754c2.75 0 4.942.868 6.579 2.602 1.514 1.656 2.272 3.768 2.272 6.34v5.442c0 2.472-.862 4.586-2.587 6.34-1.724 1.754-3.813 2.631-6.264 2.631H48.72v14.114h-5.651V1.754h8.91zm3.38 9.03c0-.977-.296-1.764-.882-2.364-.588-.597-1.371-.896-2.348-.896H48.72v11.99h3.409c.897 0 1.66-.32 2.287-.957a3.163 3.163 0 0 0 .942-2.303v-5.47zM74.255 1.754c3.149 0 5.462.868 6.937 2.602 1.295 1.516 1.943 3.63 1.943 6.34v5.442c0 2.652-1.006 4.893-3.02 6.727L84.3 39.222h-6.112l-3.425-14.114h-3.767v14.114h-5.651V1.754h8.91zm3.379 9.03c0-2.173-1.076-3.259-3.23-3.259h-3.408v11.99h3.409c.897 0 1.66-.32 2.287-.957a3.163 3.163 0 0 0 .942-2.302v-5.472zM89.145 39.22V1.724h16.087v5.681H94.796v10.227h7.625v5.682h-7.625V33.54h10.436v5.68zM127.808 29.892c.04 2.61-.639 4.843-2.034 6.697-.917 1.256-2.213 2.143-3.887 2.661-.897.278-1.944.418-3.14.418-2.212 0-4.047-.548-5.5-1.645-1.217-.896-2.179-2.117-2.886-3.661-.707-1.544-1.121-3.315-1.24-5.308l5.381-.388c.239 2.185.817 3.768 1.735 4.749.676.74 1.455 1.092 2.332 1.052 1.237-.039 2.223-.648 2.96-1.826.38-.578.569-1.407.569-2.485 0-1.555-.708-3.103-2.124-4.64l-5.024-4.758c-1.873-1.815-3.2-3.442-3.976-4.879-.837-1.615-1.257-3.37-1.257-5.267 0-3.411 1.146-5.995 3.438-7.75 1.415-1.057 3.17-1.586 5.263-1.586 2.014 0 3.739.447 5.173 1.346 1.116.697 2.018 1.672 2.706 2.93.687 1.256 1.101 2.701 1.24 4.335l-5.411.987c-.16-1.536-.598-2.73-1.317-3.589-.519-.616-1.266-.926-2.242-.926-1.037 0-1.823.459-2.362 1.374-.438.738-.658 1.656-.658 2.752 0 1.715.736 3.458 2.213 5.233.557.678 1.395 1.476 2.512 2.391 1.316 1.096 2.182 1.865 2.602 2.303 1.395 1.397 2.471 2.772 3.229 4.126.358.639.647 1.227.867 1.766.54 1.334.818 2.531.838 3.588zM150.383 29.892c.04 2.61-.637 4.843-2.032 6.697-.917 1.256-2.213 2.143-3.889 2.661-.897.278-1.944.418-3.138.418-2.213 0-4.049-.548-5.503-1.645-1.215-.896-2.178-2.117-2.885-3.661-.707-1.544-1.121-3.315-1.24-5.308l5.383-.388c.238 2.185.817 3.768 1.733 4.749.676.74 1.454 1.092 2.331 1.052 1.236-.039 2.223-.648 2.96-1.826.38-.578.57-1.407.57-2.485 0-1.555-.71-3.103-2.125-4.64l-5.024-4.758c-1.872-1.815-3.199-3.442-3.976-4.879-.838-1.616-1.256-3.372-1.256-5.268 0-3.412 1.146-5.995 3.44-7.75 1.414-1.058 3.168-1.587 5.262-1.587 2.013 0 3.737.448 5.173 1.346 1.116.698 2.018 1.673 2.706 2.93.688 1.257 1.102 2.702 1.242 4.336l-5.412.986c-.16-1.535-.599-2.73-1.316-3.588-.52-.616-1.266-.927-2.244-.927-1.036 0-1.823.46-2.362 1.374-.438.739-.658 1.656-.658 2.752 0 1.715.737 3.458 2.213 5.234.556.677 1.395 1.476 2.51 2.391 1.317 1.096 2.184 1.865 2.603 2.303 1.395 1.396 2.472 2.772 3.23 4.126.358.638.649 1.226.867 1.765.538 1.336.817 2.533.837 3.59zM155.077 39.22V1.724h8.463c2.231 0 4.245.588 6.04 1.764 1.535.998 2.631 2.543 3.29 4.636.359 1.117.538 2.442.538 3.977 0 2.512-.67 4.526-2.004 6.04a5.674 5.674 0 0 1-1.973 1.465c1.256.479 2.321 1.426 3.198 2.84.579.958 1.008 2.193 1.286 3.709.14.778.21 1.644.21 2.601 0 2.372-.449 4.386-1.345 6.04a8.075 8.075 0 0 1-2.96 3.11c-1.436.878-2.862 1.317-4.276 1.317h-10.467v-.001zm6.1-22.186h2.363c1.754 0 2.93-.856 3.528-2.57.219-.64.328-1.426.328-2.364 0-1.555-.379-2.73-1.137-3.53-.697-.736-1.605-1.105-2.72-1.105h-2.363v9.57zm0 16.595h2.363c1.912 0 3.239-.986 3.977-2.96.258-.676.387-1.455.387-2.332 0-2.092-.398-3.618-1.197-4.575-.717-.877-1.774-1.316-3.169-1.316h-2.363v11.183h.001zM187.88 1.276c2.491 0 4.607.877 6.353 2.631 1.743 1.754 2.616 3.868 2.616 6.34v20.452c0 2.491-.878 4.61-2.631 6.353-1.756 1.745-3.87 2.616-6.34 2.616-2.492 0-4.604-.877-6.34-2.631-1.734-1.753-2.602-3.866-2.602-6.34v-20.45c0-2.492.877-4.61 2.632-6.354 1.754-1.744 3.859-2.617 6.312-2.617zm3.078 8.85c0-.897-.313-1.66-.94-2.287a3.12 3.12 0 0 0-2.29-.941c-.896 0-1.664.314-2.302.941a3.085 3.085 0 0 0-.958 2.288v20.512c0 .898.319 1.66.958 2.287a3.17 3.17 0 0 0 2.302.943 3.12 3.12 0 0 0 2.29-.943c.627-.627.94-1.389.94-2.287V10.127zM210.663 1.276c2.49 0 4.61.877 6.353 2.631 1.746 1.754 2.617 3.868 2.617 6.34v20.452c0 2.491-.877 4.61-2.631 6.353-1.754 1.745-3.868 2.616-6.34 2.616-2.492 0-4.605-.877-6.34-2.631-1.733-1.753-2.602-3.866-2.602-6.34v-20.45c0-2.492.877-4.61 2.632-6.354 1.754-1.744 3.859-2.617 6.31-2.617zm3.08 8.85c0-.897-.316-1.66-.943-2.287s-1.39-.941-2.288-.941c-.898 0-1.665.314-2.302.941a3.09 3.09 0 0 0-.958 2.288v20.512c0 .898.32 1.66.958 2.287a3.166 3.166 0 0 0 2.302.943c.899 0 1.66-.315 2.288-.943.627-.627.943-1.389.943-2.287V10.127zM230.247 27.334V39.22h-5.652V1.723h5.652V15.09l6.907-13.366h6.025l-7.735 15.295 9.073 22.201h-6.644l-5.935-15.224zM264.784 29.892c.041 2.61-.637 4.843-2.032 6.697-.916 1.256-2.213 2.143-3.889 2.661-.896.278-1.943.418-3.138.418-2.213 0-4.048-.548-5.502-1.645-1.216-.896-2.178-2.117-2.886-3.661-.708-1.545-1.12-3.315-1.242-5.308l5.384-.388c.238 2.185.817 3.768 1.733 4.749.676.74 1.454 1.092 2.331 1.052 1.236-.039 2.223-.648 2.96-1.826.38-.578.57-1.407.57-2.485 0-1.555-.71-3.103-2.125-4.64l-5.024-4.758c-1.872-1.815-3.199-3.442-3.976-4.879-.838-1.616-1.258-3.372-1.258-5.268 0-3.412 1.147-5.995 3.44-7.75 1.415-1.058 3.169-1.587 5.263-1.587 2.012 0 3.737.448 5.173 1.346 1.115.698 2.018 1.673 2.705 2.93.688 1.257 1.102 2.702 1.242 4.336l-5.411.986c-.16-1.535-.6-2.73-1.316-3.588-.52-.616-1.266-.927-2.244-.927-1.036 0-1.823.46-2.362 1.374-.438.739-.658 1.656-.658 2.752 0 1.715.736 3.458 2.213 5.234.555.677 1.395 1.476 2.51 2.391 1.317 1.096 2.184 1.865 2.602 2.303 1.395 1.396 2.473 2.772 3.23 4.126.359.638.65 1.226.868 1.765.54 1.336.82 2.533.84 3.59z"/>
+			<path fill="#B01109" d="M39.549 37.515c0 .667-.553 1.205-1.232 1.205H1.232A1.217 1.217 0 0 1 0 37.515V1.25C0 .585.553.045 1.232.045h37.083c.681 0 1.234.54 1.234 1.205v36.265z"/>
+			<path fill="#EDEDED" d="M13.648 10.504c1.44 0 2.588.444 3.444 1.332.793.848 1.19 1.93 1.19 3.245v2.786c0 1.264-.452 2.346-1.354 3.244-.903.898-1.996 1.346-3.28 1.346h-1.705v7.225H8.986V10.504h4.662zm1.77 4.622c0-.5-.155-.903-.462-1.209-.307-.305-.717-.458-1.228-.458h-1.785v6.138h1.784c.468 0 .868-.163 1.197-.49.328-.327.492-.72.492-1.179v-2.802h.002zM20.644 29.682V10.489h4.429c1.169 0 2.222.3 3.16.902.803.511 1.377 1.301 1.722 2.374.188.57.282 1.25.282 2.034 0 1.286-.35 2.317-1.05 3.092a2.976 2.976 0 0 1-1.032.75c.657.245 1.215.73 1.674 1.455.302.49.526 1.123.672 1.899.073.397.11.842.11 1.33 0 1.215-.235 2.245-.705 3.092a4.154 4.154 0 0 1-1.55 1.591c-.75.45-1.497.674-2.238.674h-5.474zm3.193-11.356h1.236c.918 0 1.534-.438 1.847-1.317.115-.327.172-.73.172-1.21 0-.795-.197-1.397-.595-1.806-.365-.377-.84-.567-1.424-.567h-1.236v4.9zm0 8.494h1.236c1 0 1.695-.505 2.081-1.515.136-.347.204-.746.204-1.195 0-1.072-.21-1.85-.626-2.342-.376-.45-.93-.672-1.66-.672h-1.235v5.724z"/>
+		</symbol>
+		<symbol id="arrow-down" fill="currentColor" viewBox="0 0 512 512"><path d="M424 259c-6 0-11 2-16 6L278 393V1c0-12-10-22-23-22-12 0-22 10-22 22v392L103 265c-5-4-11-6-16-6-6 0-12 2-16 6-9 9-9 23 0 32l168 166c10 9 23 9 32 0l170-166c9-9 9-23 0-32-4-4-10-6-17-6"/></symbol>
+		<symbol id="arrow-left" fill="currentColor" viewBox="0 0 512 512"><path d="M220 45c0 6-3 12-7 17L79 200h410c12 0 23 11 23 25 0 13-11 24-23 24H79l134 138c4 5 7 11 7 17 0 7-3 13-7 18-10 9-24 9-33 0L7 242c-9-10-9-25 0-34L180 26c9-9 23-9 33 0 4 5 7 11 7 19"/></symbol>
+		<symbol id="arrow-right" fill="currentColor" viewBox="0 0 512 512"><path d="M291 32c0 6 3 12 7 17l133 135H23c-13 0-23 11-23 24s10 24 23 24h408L298 367c-4 4-7 10-7 16s3 12 7 17c10 9 24 9 33 0l173-176c9-9 9-23 0-33L331 15c-9-10-23-10-33 0-4 4-7 10-7 17"/></symbol>
+		<symbol id="arrow-up" fill="currentColor" viewBox="0 0 512 512"><path d="M424 189c-6 0-11-2-16-6L278 55v392c0 12-10 22-23 22-12 0-22-10-22-22V55L103 183c-5 4-11 6-16 6-6 0-12-2-16-6-9-9-9-23 0-32L239-15c10-9 23-9 32 0l170 166c9 9 9 23 0 32-4 4-10 6-17 6"/></symbol>
+		<symbol id="book" fill="currentColor" viewBox="0 0 512 512"><path d="M484 437H284c-7 0-14 7-14 15h-28c0-8-7-15-14-15H28V110h15v285c0 8 6 14 14 14h52c24 0 47-4 69-11 6-2 12-3 19-3 16 0 31 6 42 17l7 7c5 5 15 5 20 0l7-7c11-11 26-17 42-17 7 0 13 1 19 3 22 7 45 11 69 11h52c8 0 14-6 14-14V110h15zM71 82h29v227c0 8 6 15 14 15 39 0 75 16 101 44-15-3-31-2-46 3-19 6-39 9-60 9H71zm57-85c51 6 95 39 114 88v271c-28-34-69-56-114-60zm142 91l3-3c11-11 26-17 42-17 7 0 13 1 19 3 22 7 45 11 69 11h38v298h-38c-21 0-41-3-60-9-9-3-18-5-28-5-16 0-31 4-45 12zm228-6h-29V68c0-8-6-15-14-15h-52c-21 0-41-3-60-9-9-3-18-5-28-5-20 0-39 7-54 19-28-55-85-90-147-90-8 0-14 6-14 14v71H57c-8 0-14 7-14 15v14H14C6 82 0 88 0 96v356c0 7 6 14 14 14h199c0 8 7 14 15 14h56c8 0 15-6 15-14h199c8 0 14-7 14-14V96c0-8-6-14-14-14z"/></symbol>
+		<symbol id="cc-by" fill="currentColor" viewBox="0 0 512 512"><path d="M256 134c-23 0-34-12-34-35s11-35 34-35 35 12 35 35-12 35-35 35m50 13c5 0 9 2 11 4 4 4 6 7 6 12v100h-29v120h-76V263h-29V163c0-5 2-8 6-12 2-2 6-4 11-4h100M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc-nc-eu" fill="currentColor" viewBox="0 0 512 512"><path d="M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72M67 158c-8 22-12 43-12 66 0 55 20 103 59 142s87 59 142 59c38 0 72-10 103-28 31-19 55-45 73-77l-126-55h-89c4 12 8 22 13 29 13 13 31 20 54 20 15 0 31-3 47-10l9 46c-19 10-40 15-64 15-43 0-77-15-100-47-11-15-19-33-23-53h-27v-30h22v-7c0-1 1-3 1-6s1-5 1-6h-24v-29h5l-64-29m249 58l135 59c4-16 6-33 6-51 0-56-20-103-59-142s-87-59-142-59c-35 0-67 8-97 25-29 16-54 38-72 66l81 36c3-5 7-11 14-19 25-28 56-42 94-42 24 0 45 4 63 12l-12 47c-14-7-29-10-45-10-22 0-39 7-52 23-3 3-6 8-8 14l29 12h70v29h-5"/></symbol>
+		<symbol id="cc-nc-jp" fill="currentColor" viewBox="0 0 512 512"><path d="M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72M65 165c-7 18-10 38-10 59 0 55 20 103 59 142s87 59 142 59c36 0 69-9 100-27 30-18 54-42 72-72l-78-34v34h-64v56h-61v-56h-63v-37h63v-19l-6-12h-57v-38h27L65 165m221 124h57l-54-25-3 6v19m64-52l99 44c5-19 8-39 8-57 0-56-20-103-59-142s-87-59-142-59c-36 0-69 9-99 26-30 18-54 41-72 71l81 35-28-50h66l39 85 23 10 42-95h66l-63 115h39v17"/></symbol>
+		<symbol id="cc-nc" fill="currentColor" viewBox="0 0 512 512"><path d="M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72M67 157c-8 22-12 44-12 67 0 55 20 103 59 142s87 59 142 59c38 0 72-10 103-29 32-19 56-44 73-76l-91-41c-3 16-11 29-24 38-13 10-27 16-44 18v37h-28v-37c-27 0-52-10-75-30l34-34c17 15 35 23 55 23 8 0 15-2 22-7 6-4 9-10 9-18 0-6-3-11-7-15l-24-11-29-13-39-16-124-57m259 63l124 55c4-15 7-32 7-51 0-56-20-103-59-142s-87-59-142-59c-35 0-67 8-96 25-30 16-54 38-72 66l93 42c4-12 12-22 24-31 11-8 24-12 40-13V74h28v38c24 2 44 9 62 23l-32 33c-15-10-29-15-43-15-8 0-15 2-19 4-7 4-10 9-10 16 0 3 1 5 2 6l31 14 22 9 40 18"/></symbol>
+		<symbol id="cc-nd" fill="currentColor" viewBox="0 0 512 512"><path d="M167 208v-42h178v42H167m0 78v-42h178v42H167m89-308c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc-pd" fill="currentColor" viewBox="0 0 512 512"><path d="M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72M67 158c-8 22-12 43-12 66 0 55 20 103 59 142s87 59 142 59c38 0 72-10 103-28 31-19 55-45 73-77l-217-96c1 18 6 35 14 49 9 14 22 22 39 22 13 0 24-5 33-14l3-3 36 43c-1 1-3 2-5 4s-4 3-4 4c-21 15-45 22-70 22-29 0-56-10-81-30s-38-52-38-96c0-11 1-21 3-32l-78-35m158 18l226 99c4-16 6-33 6-51 0-56-20-103-59-142s-87-59-142-59c-35 0-67 8-97 25-29 16-54 38-72 66l76 34c22-35 55-52 100-52 30 0 56 9 77 28l-40 41-7-7c-8-5-17-8-27-8-18 0-31 9-41 26"/></symbol>
+		<symbol id="cc-remix" fill="currentColor" viewBox="0 0 512 512"><path d="M417 228l5 2v70l-5 2-60 25-2 1-3-1-129-53-4-2-63 27-64-28v-62l60-25-1-1v-70l66-28 151 62v61l49 20m-70 81v-44h-1v-1l-113-46v44l113 47v-1l1 1m7-57l40-17-37-15-39 16 36 16m53 38v-43l-45 18v43l45-18M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc-sa" fill="currentColor" viewBox="0 0 512 512"><path d="M255 94c39 0 70 13 92 38 23 24 34 56 34 95 0 38-12 69-35 94-25 26-56 38-92 38-27 0-52-8-73-25-20-17-31-40-36-71h62c2 29 20 44 54 44 17 0 31-7 42-22 10-15 15-35 15-60 0-26-4-46-14-59-10-14-24-21-42-21-33 0-51 15-55 44h18l-49 48-48-48h18c5-31 18-54 37-70 20-17 44-25 72-25m1-116c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc-share" fill="currentColor" viewBox="0 0 512 512"><path d="M356 153c4 0 8 2 11 4 2 3 4 6 4 10v181c0 3-2 6-4 9-3 3-7 4-11 4H223c-4 0-7-1-10-4s-4-6-4-9v-53h-53c-4 0-7-2-10-4-2-3-4-7-4-11V100c0-4 1-7 3-9s5-4 10-5h135c3 0 6 1 9 4s4 6 4 10v53h53m-135 0h55v-40H169v154h40V167c0-4 1-7 4-10 1-1 4-2 8-4m122 182V180H236v155h107M256-22c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc-zero" fill="currentColor" viewBox="0 0 512 512"><path d="M256 82c37 0 63 13 78 41 16 28 23 61 23 101 0 39-7 72-23 100-15 27-41 41-78 41s-63-14-78-41c-16-28-23-61-23-100 0-40 7-73 23-101 15-28 41-41 78-41m-44 142c0 6 1 17 2 34l54-100c5-8 4-15-3-21-4-1-7-2-9-2-29 0-44 30-44 89m44 88c29 0 44-29 44-88 0-14-1-28-3-43l-60 104c-8 11-6 19 6 24 0 1 1 1 3 1 0 0 1 0 1 1 0 0 2 0 4 1h5m0-334c68 0 126 24 174 72s72 106 72 174-24 125-72 174c-48 48-106 72-174 72s-125-24-174-72c-48-49-72-106-72-174S34 98 82 50c49-48 106-72 174-72m0 447c55 0 103-20 142-59s59-87 59-142c0-56-20-103-59-142s-87-59-142-59-103 20-142 59-59 86-59 142c0 55 20 103 59 142s87 59 142 59"/></symbol>
+		<symbol id="cc" fill="currentColor" viewBox="0 0 512 512"><path d="M253-22c68 0 126 23 174 70s73 104 75 172c0 68-23 127-70 175s-105 73-173 75c-68 0-126-23-175-70-48-48-73-105-74-173S32 100 79 52c48-48 106-73 174-74m6 440c53-1 99-21 136-59 38-38 56-84 56-138-1-54-21-100-59-137-39-37-85-55-138-55-54 1-100 21-137 59s-55 84-55 138c1 54 21 100 59 137s84 55 138 55m-63-153c13 0 23-7 29-21l29 16c-7 12-15 21-26 26-11 7-23 11-35 11-22 0-39-7-52-20-13-12-19-30-19-53s6-41 19-54 30-20 49-20c30 0 51 12 64 34l-32 16c-3-6-7-11-12-14s-10-4-14-4c-21 0-31 14-31 42 0 13 2 23 7 30 6 7 14 11 24 11m136 0c14 0 24-7 28-21l30 16c-6 11-15 20-25 26-11 7-23 11-36 11-22 0-39-7-51-20-13-12-20-30-20-53 0-22 7-40 20-54 12-13 29-20 50-20 28 0 49 12 61 34l-31 16c-3-6-7-11-12-14s-9-4-14-4c-21 0-32 14-32 42 0 12 3 22 8 30 6 7 14 11 24 11"/></symbol>
+		<symbol id="facebook" fill="currentColor" viewbox="0 0 512 512"><path d="M451 5c7 0 13 2 17 7 5 4 7 10 7 17v390c0 7-2 13-7 17-4 5-10 7-17 7H339V273h57l9-66h-66v-42c0-11 3-19 7-24 5-5 13-8 26-8h35V73c-12-1-29-2-51-2-26 0-46 7-62 23-15 15-23 36-23 64v49h-57v66h57v170H61c-7 0-13-2-17-7-5-4-7-10-7-17V29c0-7 2-13 7-17 4-5 10-7 17-7z"/></symbol>
+		<symbol id="graph" fill="currentColor" viewBox="0 0 512 512"><path d="M130 446c10 0 18-9 18-18V260c0-11-9-19-18-19H20c-10 0-17 9-17 19v167c0 10 8 18 17 18h110zM38 279h73v129H38zm163 167h110c10 0 18-9 18-18V11c0-11-9-19-18-19H201c-10 0-18 9-18 19v417c0 9 8 18 18 18zm18-417h73v379h-73zm273 60H382c-10 0-18 9-18 19v319c0 10 9 18 18 18h110c10 0 17-9 17-18V108c0-11-7-19-17-19zm-18 319h-73V126h73z"/></symbol>
+		<symbol id="like" fill="currentColor" viewBox="0 0 512 512"><path d="M132 11c-34 0-68 12-93 38-52 51-52 135 0 186l198 197c6 7 18 7 25 0 66-65 132-131 198-197 51-51 51-134 0-186-52-51-135-51-187 0l-24 24-24-24c-26-26-59-38-93-38zm68 63l37 37c6 6 18 6 25 0l36-36c38-38 99-38 137 0 37 37 37 97 0 135-62 62-124 123-186 185L64 210c-38-38-38-98 0-136 40-36 99-38 136 0z"/></symbol>
+		<symbol id="search" fill="currentColor" viewBox="0 0 512 512"><path d="M493 384L368 259c18-29 29-62 29-99 0-106-86-192-192-192S13 54 13 160s86 192 192 192c36 0 70-11 99-28l125 124c9 9 23 9 32 0l32-32c9-9 9-23 0-32zm-288-96c-71 0-128-57-128-128S134 32 205 32c70 0 128 57 128 128s-58 128-128 128z"/></symbol>
+		<symbol id="share-books" fill="currentColor" viewBox="0 0 512 512"><path d="M240 188v36h36zm56-28h36l-36-36zM256-32C115-32 0 83 0 224s115 256 256 256 256-115 256-256S397-32 256-32zm40 256v104c0 9-7 16-16 16h-96c-9 0-16-7-16-16V184c0-9 7-16 16-16h56v3l4-3 52 52-3 4zm56-64v104c0 9-7 16-16 16h-24v-16h24v-88h-40c-9 0-16-7-16-16v-40h-40v32h-16v-32c0-9 7-16 16-16h56v3l4-3 52 52-3 4zm-128 64v-40h-40v144h96v-88h-40c-9 0-16-7-16-16z"/></symbol>
+		<symbol id="speechbubble" fill="currentColor" viewBox="0 0 512 512"><path d="M375 169H123c-7 0-12-7-12-14 0-8 5-14 12-14h252c7 0 12 6 12 14 0 7-5 14-12 14zm-29 55c0-8-6-14-13-14H123c-7 0-12 6-12 14s5 14 12 14h210c7 0 13-6 13-14zm99 125h18c27 0 49-22 49-48V78c0-27-22-48-49-48H49C22 30 0 52 0 78v223c0 26 22 47 49 47h305l45 70zm16-291c13 0 23 10 23 23v224c0 13-10 23-23 23h-32l-31 48-31-48H51c-13 0-23-10-23-23V81c0-13 10-23 23-23z"/></symbol>
+		<symbol id="twitter" fill="currentColor" viewbox="0 0 512 512"><path d="M161 433c193 0 299-161 299-300v-14c20-15 38-34 52-55-19 9-40 14-60 17 22-13 38-34 46-59-21 13-43 21-67 26-32-35-84-44-126-21s-64 71-53 117c-84-4-163-44-216-110C8 82 22 144 68 175c-17 0-33-5-48-13v1c0 50 36 94 85 104-16 4-32 5-48 2 14 43 54 72 98 73-37 30-83 46-130 45-8 0-17 0-25-1 48 31 104 47 161 47"/></symbol>
+	</defs>
+</svg>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	
+	<header class="header" role="banner">
+		<div class="header__inside">
+			<div class="header__brand">
+				<a aria-label="Understanding Document Accessibility" href="https://pressbooks.library.ryerson.ca/">
+											<img class="header__logo--img" src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks.png" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks.png 400w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks-300x45.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks-65x10.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks-225x34.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/2018/11/RUPressbooks-350x53.png 350w" alt="Logo for Ryerson University Pressbooks" />									</a>
+			</div>
+			<div class="header__nav">
+				<a class="header__nav-icon js-header-nav-toggle" href="#navigation">Toggle Menu<span class="header__nav-icon__icon"></span></a>
+				<nav class="js-header-nav" id="navigation">
+					<ul id="nav-primary-menu" class="nav--primary">
+						<li><a href="https://pressbooks.library.ryerson.ca/docs">Home</a></li><li><a href="https://pressbooks.library.ryerson.ca/docs/front-matter/introduction/">Read</a></li><li><a href="https://pressbooks.library.ryerson.ca/docs/wp-login.php?redirect_to=https%3A%2F%2Fpressbooks.library.ryerson.ca%2Fdocs%2Fchapter%2Fgoogle-sheets%2F">Sign in</a></li><li class="header__search js-search"><div class="header__search__form"><form role="search" method="get" class="search-form" action="https://pressbooks.library.ryerson.ca/docs/">
+	<label>
+		<span class="screen-reader-text">Search in book:</span>
+		<input type="search" class="search-field" placeholder="Search in book &hellip;" value="" name="s" />
+	</label>
+	<button type="submit" class="search-submit">
+		<svg class="icon--svg"><use href="#search" /></svg>
+		<span class="screen-reader-text" >Search</span>
+	</button>
+</form>
+</div></li>					</ul>
+				</nav>
+			</div>
+		</div>
+					<div class="reading-header">
+				<nav class="reading-header__inside">
+										<div class="reading-header__toc dropdown">
+						<div class="reading-header__toc__title">Contents</div>
+						<div class="block-reading-toc" hidden>
+							<ol class="toc">
+	<li id="toc-front-matter-1192" class="toc__front-matter miscellaneous toc__front-matter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/front-matter/introduction/">Introduction</a></li><li id="toc-front-matter-1675" class="toc__front-matter miscellaneous toc__front-matter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/front-matter/how-to-use-this-resource/">How to Use This Resource</a></li><li id="toc-front-matter-1713" class="toc__front-matter miscellaneous toc__front-matter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/front-matter/accessibility-statement/">Accessibility Statement</a></li><li id="toc-front-matter-1137" class="toc__front-matter acknowledgements toc__front-matter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/front-matter/acknowledgements/">Acknowledgements</a></li>	<li id="toc-part-1216" class="toc__part toc__part--full"><p class="toc__title">About Document Accessibility</p><ol class="toc__chapters"><li id="toc-chapter-1220" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/about-accessibility/">About Accessibility</a></li><li id="toc-chapter-1742" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/the-case-against-pdfs/">The Case Against PDFs</a></li></ol></li><li id="toc-part-23" class="toc__part toc__part--full"><p class="toc__title">Authoring Techniques for Accessible Office Documents: Word Processing Applications</p><ol class="toc__chapters"><li id="toc-chapter-1810" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/google-docs/">Google Docs</a></li><li id="toc-chapter-25" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-word/">Microsoft Word 2013, 2016, and 2019</a></li><li id="toc-chapter-93" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-word-2011-mac/">Microsoft Word for Mac 2011, 2016, and 2019</a></li><li id="toc-chapter-95" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-word-2010/">Microsoft Word 2010</a></li><li id="toc-chapter-563" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-word-2008-for-mac/">Microsoft Word 2008 for Mac</a></li><li id="toc-chapter-566" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-word-2007/">Microsoft Word 2007</a></li><li id="toc-chapter-97" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/pages-for-mac/">Pages for Mac</a></li><li id="toc-chapter-99" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/openoffice-libreoffice/">OpenOffice Writer and LibreOffice Writer</a></li></ol></li><li id="toc-part-54" class="toc__part toc__part--full toc__parent"><p class="toc__title">Authoring Techniques for Accessible Office Documents: Spreadsheet Applications</p><ol class="toc__chapters"><li id="toc-chapter-71" class="toc__chapter standard toc__chapter--empty toc__selected"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/google-sheets/">Google Sheets</a></li><li id="toc-chapter-56" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-excel/">Microsoft Excel 2010, 2013, 2016, and 2019</a></li><li id="toc-chapter-571" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-excel-2008-for-mac/">Microsoft Excel for Mac 2008, 2011, 2016, and 2019</a></li><li id="toc-chapter-965" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-excel-2007/">Microsoft Excel 2007</a></li><li id="toc-chapter-108" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/numbers-for-mac/">Numbers for Mac</a></li><li id="toc-chapter-110" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/openoffice-calc/">OpenOffice Calc</a></li></ol></li><li id="toc-part-60" class="toc__part toc__part--full"><p class="toc__title">Authoring Techniques for Accessible Office Documents: Presentation Applications</p><ol class="toc__chapters"><li id="toc-chapter-82" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/google-slides/">Google Slides</a></li><li id="toc-chapter-62" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-powerpoint/">Microsoft PowerPoint 2010, 2013, 2016, and 2019</a></li><li id="toc-chapter-113" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-powerpoint-for-mac/">Microsoft PowerPoint for Mac 2008, 2011, 2016, and 2019</a></li><li id="toc-chapter-115" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-powerpoint-2007/">Microsoft PowerPoint 2007</a></li><li id="toc-chapter-120" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/keynote/">Keynote for Mac</a></li><li id="toc-chapter-122" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/openoffice-impress/">OpenOffice Impress</a></li></ol></li><li id="toc-part-65" class="toc__part toc__part--full"><p class="toc__title">PDF Production Applications</p><ol class="toc__chapters"><li id="toc-chapter-89" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/adobe-indesign/">Adobe InDesign CS6 and CC</a></li><li id="toc-chapter-67" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/adobe-acrobat-11-pro-and-dc/">Adobe Acrobat 11 Pro and DC</a></li><li id="toc-chapter-1312" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/adobe-acrobat-10-pro/">Adobe Acrobat 10 Pro</a></li><li id="toc-chapter-1314" class="toc__chapter standard toc__chapter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/chapter/adobe-acrobat-9-pro/">Adobe Acrobat 9 Pro</a></li></ol></li>	<li id="toc-back-matter-2072" class="toc__back-matter resources toc__back-matter--empty"><p class="toc__title"><a href="https://pressbooks.library.ryerson.ca/docs/back-matter/document-accessibility-resources/">Document Accessibility Resources</a></li></ol> <!-- end #toc -->
+						</div>
+					</div>
+															<h1 class="reading-header__title" ><a href="https://pressbooks.library.ryerson.ca/docs/" title="Go to the cover page of Understanding Document Accessibility" rel="home">Understanding Document Accessibility</a></h1>
+
+					<div class="reading-header__end-container">
+											</div>
+				</nav>
+			</div>
+			</header>
+
+	<main id="main">
+	<div id="content" class="site-content">
+<div class='part-title'><p><small>Authoring Techniques for Accessible Office Documents: Spreadsheet Applications</small></p></div>			<section data-type="chapter" class="standard post-71 chapter type-chapter status-publish hentry">
+<header>
+	<h1 class="entry-title">
+	Google Sheets	</h1>
+		</header>
+<div id="ez-toc-container" class="ez-toc-v2_0_11 counter-hierarchy ez-toc-transparent">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title">Page Contents</p>
+<span class="ez-toc-title-toggle"><a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"><i class="ez-toc-glyphicon ez-toc-icon-toggle"></i></a></span></div>
+<nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Usage_Notes" title="Usage Notes">Usage Notes</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Technique_1_Use_Accessible_Templates" title="Technique 1. Use Accessible Templates">Technique 1. Use Accessible Templates</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Technique_2_Set_Document_Language" title="Technique 2. Set Document Language">Technique 2. Set Document Language</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Technique_3_Provide_Text_Alternatives_for_Images_and_Graphical_Objects" title="Technique 3. Provide Text Alternatives for Images and Graphical Objects">Technique 3. Provide Text Alternatives for Images and Graphical Objects</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Technique_4_Format_Your_Cells" title="Technique 4. Format Your Cells">Technique 4. Format Your Cells</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-6" href="#Technique_5_Use_Cell_Addressing" title="Technique 5. Use Cell Addressing">Technique 5. Use Cell Addressing</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-7" href="#Technique_6_Create_Accessible_Charts" title="Technique 6. Create Accessible Charts">Technique 6. Create Accessible Charts</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-8" href="#Technique_7_Provide_Structure_for_Tables" title="Technique 7. Provide Structure for Tables">Technique 7. Provide Structure for Tables</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#Technique_8_Use_Other_Content_Structuring_Features" title="Technique 8. Use Other Content Structuring Features">Technique 8. Use Other Content Structuring Features</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#Technique_9_Make_Content_Easier_to_See" title="Technique 9. Make Content Easier to See">Technique 9. Make Content Easier to See</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Technique_10_Make_Content_Easier_to_Understand" title="Technique 10. Make Content Easier to Understand">Technique 10. Make Content Easier to Understand</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#Technique_11_Check_Accessibility" title="Technique 11. Check Accessibility">Technique 11. Check Accessibility</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Technique_12_Use_Accessibility_Features_when_Saving/Exporting_to_Other_Formats" title="Technique 12. Use Accessibility Features when Saving/Exporting to Other Formats">Technique 12. Use Accessibility Features when Saving/Exporting to Other Formats</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#Technique_13_Consider_Using_Accessibility_Support_Applications/Plugins" title="Technique 13. Consider Using Accessibility Support Applications/Plugins">Technique 13. Consider Using Accessibility Support Applications/Plugins</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#Accessibility_Help" title="Accessibility Help">Accessibility Help</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-16" href="#References_and_Resources" title="References and Resources">References and Resources</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-17" href="#Acknowledgments" title="Acknowledgments">Acknowledgments</a></li></ul></nav></div>
+<div style="text-align: right"><button class="rl-collapsible-section-toggle-button">Expand / Collapse All</button></div>
+<div class="rl-collapsible-section ">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Usage_Notes"></span><button aria-expanded="true">Usage Notes<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>At the time of testing (December 2019), <a href="https://docs.google.com/spreadsheets/" target="_blank" rel="noopener noreferrer">Google Sheets</a> lacks some features that enable accessible office document authoring, most notably: the ability to indicate changes in natural language, programmatically determined named styles, and a separate document title field.</p>
+<p>No accessibility checking feature is built into Google Sheets; however, you can install a third-party add-on called <a href="https://www.grackledocs.com/grackle-sheets-accessible-spreadsheets/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a>. Grackle is a third-party plug-in that includes an accessibility checker along with other features that enhance accessibility (see <a href="https://pressbooks.library.ryerson.ca/docs/chapter/google-docs#gdoc11">Technique 11</a>). Due to the nature of Google Sheets, some accessibility features, such as tables, are only fully accessible when exporting the document to another format, like an HTML file.</p>
+<h3>What’s an “Office Document”?</h3>
+<p>You should use these techniques when you are using Google Sheets to create documents that are:</p>
+<ul>
+<li><strong>Intended to be used by people </strong>(i.e., not computer code),</li>
+<li><strong>Text-based </strong> (i.e., not simply images, although they may contain images),</li>
+<li><strong>Fully printable </strong>(i.e., where dynamic features are limited to automatic page numbering, table of contents, etc. and do not include audio, video, or embedded interactivity),</li>
+<li><strong>Self-contained </strong> (i.e., without hyperlinks to other documents, unlike web content), and</li>
+<li><strong>Typical of office-style workflows </strong>(Reports, letters, memos, budgets, presentations, etc.).</li>
+</ul>
+<p><strong>If you are creating forms, web pages, applications, or other dynamic and/or interactive content, these techniques will still be useful to you, but you should also consult the </strong><a href="http://www.w3.org/WAI/intro/wcag.php" target="_blank" rel="noopener noreferrer"><strong>W3C-WAI Web Content Accessibility Guidelines (WCAG 2.0) </strong></a><strong> because these are specifically designed to provide guidance for highly dynamic and/or interactive content. </strong></p>
+<h3>File Formats</h3>
+<p>Google Sheets does not have a default file format, as it is a web-based authoring tool.</p>
+<p>Google Sheets offers various spreadsheet processor and web format saving options. Most of these have not been checked for accessibility, but some information and/or instructions are available for the following formats in <a href="#gsheet12">Technique 12</a>:</p>
+<ul>
+<li>Microsoft Excel (.xlsx)</li>
+<li>OpenDocument Format (.ods)</li>
+<li>PDF Document (.pdf)</li>
+<li>HTML (.html, zipped)</li>
+<li>Comma-separated values (.csv, current sheet)</li>
+<li>Tab-separated values (.tsv, current sheet)</li>
+</ul>
+<h3>Document Conventions</h3>
+<p>We have tried to formulate these techniques so that they are useful to all authors, regardless of whether they use a mouse. However, for clarity there are several instances where mouse-only language is used. Below are the mouse-only terms and their keyboard alternatives:</p>
+<ul>
+<li><strong>*Right-click:</strong> To right-click with the keyboard, select the object using the Shift+Arrow keys and then press either (1) the “Right-Click” key (some keyboard have this to the right of the spacebar) or Shift+F10.</li>
+</ul>
+<h3>Disclaimer and Testing Details:</h3>
+<p><strong>Following these techniques will increase the accessibility of your documents, but it does not guarantee accessibility to any specific disability groups </strong>. In cases where more certainty is required, it is recommended that you test the office documents with end users with disabilities, including screen reader users. Files are also easily saved as other file formats (see <a href="#gsheet12">Technique 12</a>).</p>
+<div class="textbox textbox--learning-objectives">
+<div class="textbox__content">
+<p><strong>Editor’s note: </strong>Since the content of this page has been heavily updated from the original article (<a href="https://adod.idrc.ocadu.ca/googlespreadsheet.html" target="_blank" rel="noopener noreferrer">Authoring Techniques for Accessible Office Documents: Google docs: Spreadsheets</a>), the usual editor’s notes that flag new content will be omitted. The application-specific steps and screenshots were updated in December 2019.</p>
+</div>
+</div>
+</div>
+</div>
+<p><a id="gsheets1"></a></p>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_1_Use_Accessible_Templates"></span><button aria-expanded="false">Technique 1. Use Accessible Templates<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>Google Sheets lacks support for some accessibility features, such as table headers that repeat. With this in mind, be cautious of templates available in the Google Sheets template gallery and be sure that they comply the techniques discussed here.</p>
+<p>All office documents start with a template, which can be as simple as a blank standard-sized page or as complex as a nearly complete document with text, graphics and other content. For example, a “Meeting Minutes” template might include headings for information relevant to a business meeting, such as “Actions” above a table with rows to denote time and columns for actions of the meeting.</p>
+<p>Because templates provide the starting-point for so many documents, accessibility is critical. If you are unsure whether a template is accessible, you should check a sample document produced when the template is used (see <a href="#gsheet11">Technique 11</a>).</p>
+<p>Google Sheets’s default template for new documents is a blank spreadsheet. The basic installation also includes a wide variety of templates ranging from blank service invoices to blank project management schedules. These are all accessible by virtue of being blank.</p>
+<p>It is possible to create your own templates from scratch in Google Sheets. As well, you can edit and modify the existing templates, ensuring their accessibility as you do so and saving them as a new template.</p>
+<h4>To select a template</h4>
+<ol>
+<li> Go to <a href="https://docs.google.com/spreadsheets/" target="_blank" rel="noopener noreferrer">Google Sheets</a>.</li>
+<li>At the top right, click on <strong>Template Gallery</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery.png" alt="Image demonstrates the location of the Template gallery on the Google Sheets home page." width="728" height="224" class="alignnone size-full wp-image-1872" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery.png 728w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery-300x92.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery-65x20.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery-225x69.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-template-gallery-350x108.png 350w" /></li>
+<li>Select a template.</li>
+<li>A copy of the template will open.</li>
+</ol>
+<h4>To create an accessible template</h4>
+<ol>
+<li>Create a new spreadsheet (from the default template or from an existing template).<br />
+<em>Note: </em>If creating a template from an existing document, go to <strong>File</strong> &gt; <strong>Make a copy</strong>. Type a name and choose where to save it, then, click <strong>Ok</strong>.</li>
+<li>Rename your document. Be sure to indicate that the document is an accessible template by using terms such as “accessible” (e.g., “Accessible Memo Template”). This will improve its searchability and promote its use as an accessible template.</li>
+<li>Ensure that you follow techniques in this document. You may also check the accessibility (see <a href="#gsheet11">Technique 11</a>).</li>
+</ol>
+<h4>To share your accessible template as a new document</h4>
+<p>You can share your accessible template, but it may be more useful to share the file as copy that other users can add to their Google Drive.</p>
+<ol>
+<li>Go to the address bar change the end of the URL before sending it.</li>
+<li>Replace “edit” at the end of the URL with “copy”.<br />
+<em>For example:<br />
+</em><em><strong>Before:</strong> </em>http://docs.google.com/spreadsheet/d/12345678/<strong>edit</strong><br />
+<em><strong>After:</strong></em> http://docs.google.com/spreadsheet/d/12345678/<strong>copy</strong></li>
+<li>Send the modified copy link.</li>
+<li>When the recipient follows the modified copy link, they’re instructed to click on <strong>Make a copy</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template.png" alt="Image demonstrates the Copy Document message that appears when a recipient follows your modified copy link of your document's address." width="634" height="260" class="alignnone size-full wp-image-1873" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template.png 634w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template-300x123.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template-65x27.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template-225x92.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-copy-template-350x144.png 350w" />
+</li>
+<li>They can then work on a copy of the accessible template.</li>
+</ol>
+<p>For more information, see the resources below:</p>
+<ul>
+<li><a href="https://support.google.com/a/users/answer/9308885" target="_blank" rel="noopener noreferrer">Google: Create document templates</a></li>
+<li><a href="https://support.google.com/docs/answer/2494822" target="_blank" rel="noopener noreferrer"></a><a href="https://support.google.com/a/users/answer/9308866" target="_blank" rel="noopener noreferrer">Google: Share “Make a copy” links to your files</a></li>
+</ul>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_2_Set_Document_Language"></span><button aria-expanded="false">Technique 2. Set Document Language<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>At this time (December 2019), Google Sheets does not offer an explicit language selection mechanism to indicate the natural language of your spreadsheet or changes in natural language at any point within the content (e.g., a few cells containing text in a different language than the rest of the spreadsheet). Google Sheets defaults the natural language to the language selected for your Google Account (see <a href="https://support.google.com/docs/answer/187189" target="_blank" rel="noopener noreferrer">Google: Change Your Typing Language</a>).</p>
+<p>When exporting to other document formats, there is no guarantee that the natural language of your Google Account will be indicated as the natural language of your document. In order for assistive technologies (e.g., screen readers) to be able to present your document accurately, it is important to indicate the natural language of the document. If a different natural language is used for a paragraph or selected text, this also needs to be clearly indicated.</p>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_3_Provide_Text_Alternatives_for_Images_and_Graphical_Objects"></span><button aria-expanded="false">Technique 3. Provide Text Alternatives for Images and Graphical Objects<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>Google Sheets offers a mechanism for adding alternative text or longer descriptions to images and objects where it can be readily accessed by screen reader users. While you can add alt text, you will need to ensure that you provide longer descriptions in the body of the document, near the images and objects. While this solution is not optimal for screen reader users and will complicate your own accessibility testing, it is necessary until long descriptions are supported.<strong> </strong></p>
+<p>When using images or other graphical objects, such as charts and graphs, it is important to ensure that the information you intend to convey by the image is also conveyed to people who cannot see the image. This can be accomplished by adding concise alternative text to each image. If an image is too complicated to concisely describe in the alternative text alone (artwork, flowcharts, etc.), provide a short text alternative and a longer description as well.</p>
+<div class="textbox shaded">
+<h4>Tips for writing alternative text</h4>
+<ul type="disc">
+<li>Try to answer the question &#8220;what information is the image conveying?&#8221;</li>
+<li>If the image does not convey any useful information, leave the alternative text blank</li>
+<li>If the image contains meaningful text, ensure all of the text is replicated</li>
+<li>Alternative text should be fairly short, usually a sentence or less and rarely more than two sentences</li>
+<li>If more description is required (e.g., for a chart or graph), provide a short description in the alternative text (e.g., a summary of the trend) and more detail in the long description, see below</li>
+<li>Test by having others review the document with the images replaced by the alternative text</li>
+</ul>
+</div>
+<div class="textbox shaded">
+<h4>Tips for writing longer descriptions</h4>
+<ul type="disc">
+<li>Long descriptions should be used when text alternatives (see above) are insufficient to answer the question &#8220;what information is the image conveying?&#8221;</li>
+<li>In some situations, the information being conveyed will be how an image looks (e.g., an artwork, architectural detail, etc.). In these cases, try to describe the image without making too many of your own assumptions.</li>
+<li>One approach is to imagine you are describing the image to a person over the phone</li>
+<li>Ensure that you still provide concise alternative text to help readers decide if they are interested in the longer description</li>
+</ul>
+<p>Alternatively, you can include the same information conveyed by the image within the body of the document, providing the images as an alternate to the text. In that case, you do not have to provide alternate text within the image.</p>
+</div>
+<h4><em>To add alternative text to images and graphical objects </em></h4>
+<h5>For images in a cell</h5>
+<ol>
+<li>Right-click* on the image.</li>
+<li>Select <strong>Alt Text</strong> from the contextual menu.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text1.png" alt=": Image demonstrates the location of the Alt text function in the right-click context menu." width="259" height="291" class="alignnone size-full wp-image-1902" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text1.png 259w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text1-65x73.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text1-225x253.png 225w" /></li>
+<li>Add your alt text to the <strong>Description </strong>field.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-300x217.png" alt="Image demonstrates the Alt Text pop-up menu with focus on the Description field." width="300" height="217" class="alignnone wp-image-1903 size-medium" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-300x217.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-65x47.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-225x163.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-350x253.png 350w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1.png 541w" /></li>
+</ol>
+<h5>For images placed over cells</h5>
+<ol>
+<li>In the top right corner of the image, click on the three dots.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text2.png" alt="Image demonstrates location of three dots that accesses the context menu containing Alt Text functions." width="348" height="382" class="alignnone size-full wp-image-1905" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text2.png 348w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text2-273x300.png 273w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text2-65x71.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text2-225x247.png 225w" /></li>
+<li>From the drop-down menu, select <strong>Alt text</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text3.png" alt="Image demonstrates the location of the Alt Text menu from located in the context menu of an image." width="263" height="348" class="alignnone size-full wp-image-1907" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text3.png 263w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text3-227x300.png 227w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text3-65x86.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-alt-text3-225x298.png 225w" /></li>
+<li>In the <strong>Description</strong> field type or paste appropriate alt text.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-300x217.png" alt="Image demonstrates the Alt Text pop-up menu with focus on the Description field." width="300" height="217" class="alignnone wp-image-1903 size-medium" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-300x217.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-65x47.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-225x163.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1-350x253.png 350w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-1.png 541w" /></li>
+</ol>
+<p><em>Note: </em>The image used in the alt text screenshots above are by John Tenniel from <em>Alice&#8217;s Adventures in Wonderland</em> from the original 1865 edition of the book.</p>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_4_Format_Your_Cells"></span><button aria-expanded="false">Technique 4. Format Your Cells<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>As you begin adding content, your spreadsheet will require structuring to bring meaning to the data, make it easier to navigate, and help assistive technologies read it accurately. One of the easiest ways to do this is to ensure that you properly format the cells.</p>
+<h3>4.1 Named Styles</h3>
+<p>At this time (December 2019), Google Sheets does not offer named styles functionality.</p>
+<p>You should make use of the named styles that are included with the office application (e.g., “Heading”, “Result”, etc.) before creating your own styles or using the character formatting tools directly. Named styles help your readers understand why something was formatted in a given way, which is especially helpful when there are multiple reasons for the same formatting (e.g., it is common to use italics for emphasis, Latin terms and species names).</p>
+<p>For more information on formatting using named styles, see <a href="#gsheet9">Technique 6</a>.</p>
+<p><em>Note:</em> While office application suites support headings in much the same way, the named styles often differ.</p>
+<p>Formatting header and result cells brings order to the spreadsheet and makes it easier for users to navigate effectively. For example, you can format header rows and columns using “Heading” styles to apply bolded, enlarged, and italicized text (among other characteristics). You may also want to format cells containing results of calculations to appear bold and underlined to help distinguish them from the rest of your data.</p>
+<h3>4.2 Other Cell Characteristics</h3>
+<p>Ensure your cells are formatted to properly represent your data, including number and text attributes.</p>
+<h4>To format cell characteristics</h4>
+<ol>
+<li>Highlight the cells that you want to format<br />
+<em>Note:</em> to format a row or column, select the row or column indicator and follow the next steps</li>
+<li>Go to the menu icon bar</li>
+<li>Select the icon or drop-down list for the format you would like to apply (e.g., <strong>Format as currency</strong>, <strong>Format as percent</strong>, <strong>More formats</strong>)<br />
+<em>Note:</em> When formatting your spreadsheet, it is best to avoid merging cells. At times, it may seem easier to present your data by merging cells, but this can make it more difficult for users of assistive technologies and people navigating your spreadsheet using the keyboard.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format.png" alt="Image demonstrates location of format icons in menu icon bar." width="403" height="566" class="alignnone size-full wp-image-1875" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format.png 403w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format-214x300.png 214w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format-65x91.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format-225x316.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-num-format-350x492.png 350w" /></li>
+</ol>
+<p>For more details, see the following articles from the Google Help Center:</p>
+<ul>
+<li><a href="https://support.google.com/docs/answer/46973" target="_blank" rel="noopener noreferrer">How to edit and format a spreadsheet</a> (includes how to format your entire spreadsheet with themes)</li>
+<li><a href="https://support.google.com/docs/answer/56470">How to format numbers in a spreadsheet</a></li>
+</ul>
+<p><span style="text-align: initial;font-size: 1em"></div>
+</div>
+<p></span></p>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_5_Use_Cell_Addressing"></span><button aria-expanded="false">Technique 5. Use Cell Addressing<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<h3>5.1 Define Names</h3>
+<p>Naming the different data ranges within your spreadsheet makes it easier to navigate through the document and find specific information. By associating a meaningful name to a data range, you will be enhancing the readability of your document. These named ranges can be referenced in multiple locations of your document and within calculations and equations.</p>
+<h4>To define a name</h4>
+<ol>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1">Select the cells you would like to name</li>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1">Go to menu item: <b>Data &gt; Named ranges</b>. A menu will open on the right.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-named-ranges.png" alt="Image demonstrates the location of the Named Ranges function in the Data menu." width="248" height="588" class="alignnone size-full wp-image-1877" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-named-ranges.png 248w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-named-ranges-127x300.png 127w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-named-ranges-65x154.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-named-ranges-225x533.png 225w" /></li>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1"><span style="font-size: 1em">Type the range name you want (see <a href="#range-names">Range Names</a>, below). </span></li>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1">To change the range, click the Spreadsheet Grid icon.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-named-ranges-menu.png" alt="Image demonstrates location of Range Name text box and data range option in Range names sidebar." width="300" height="215" class="alignnone wp-image-1878 size-full" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-named-ranges-menu.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-named-ranges-menu-65x47.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-named-ranges-menu-225x161.png 225w" /></li>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1">Select a range in the spreadsheet or type the new range into the text box, then click <b>Ok</b>.</li>
+<li class="extended-list indent-1" data-extended-list="1" data-indent="1">Click <b>Done</b>.</li>
+</ol>
+<div class="textbox">
+<p><strong><a id="range-names"></a>Range names:</strong></p>
+<ul>
+<li>Can contain only letters, numbers, and underscores.</li>
+<li>Can&#8217;t start with a number, or the words &#8220;true&#8221; or &#8220;false.&#8221;</li>
+<li>Can&#8217;t contain any spaces or punctuation.</li>
+<li>Must be 1–250 characters.</li>
+<li>Can&#8217;t be in either A1 or R1C1 syntax. For example, you might get an error if you give your range a name like &#8220;A1:B2&#8221; or &#8220;R1C1:R2C2.&#8221;</li>
+</ul>
+</div>
+<h4>Edit or delete a named range</h4>
+<ol>
+<li>Select <strong>Data</strong>, then <strong>Named ranges</strong>.</li>
+<li>On the named range you want to edit or delete, click <strong>Edit</strong>.
+<ul>
+<li><em>To edit the range:</em> Enter a new name or range, then click <strong>Done</strong>.</li>
+<li><em>To delete the named range:</em> Next to the name, click <strong>Delete range</strong>. On the menu that opens, click <strong>Remove</strong>.</li>
+<li><em>Note:</em> When you delete a named range, any formulas that reference it will no longer work. Protected ranges that reference a named range will use the cell values and continue to work.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_6_Create_Accessible_Charts"></span><button aria-expanded="false">Technique 6. Create Accessible Charts<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>Spreadsheet applications support various types of charts, which can be used to display your spreadsheet data in meaningful ways for your audience. It is important to ensure that your chart is as accessible as possible to all members of your audience. All basic accessibility considerations that are applied to the rest of your document must also be applied to your charts and the elements within your charts. For example, use shape and color, rather than color alone, to convey information. As well, some further steps should be taken to ensure that the contents are your chart are appropriate labeled to give users reference points that will help to correctly interpret the information.</p>
+<h4>To create an accessible chart</h4>
+<ol>
+<li>Go to menu item: <strong>Insert &gt; Chart </strong></li>
+<li>In the <strong>Chart Editor </strong>, a data range has been pre-selected and will appear in the box labeled Data. (Note: If this range is incorrect, enter a new range in the box labeled <strong>Data </strong>. To update the data range by manually highlighting the cells, select the <strong>Select range… </strong> link. This opens the <strong>What data? </strong> dialog, which allows you to highlight the data range and select <strong>OK </strong>.)</li>
+<li>In the <strong>Chard Editor </strong> dialog, select the <strong>Use row 1 as headers </strong> check box if the first row of your data is a header row</li>
+<li>Select the chart type from the <strong>Recommended charts </strong> section</li>
+<li>Select the <strong>Customize </strong> tab</li>
+<li>In the <strong>Chart section </strong>, enter a title for the chart in the <strong>Chart title </strong> box</li>
+<li>Select the <strong>Name </strong>link and enter a name for the chart in the <strong>Chart name </strong> box</li>
+<li>In the <strong>Axis </strong>section, enter a title for the vertical axis in the <strong>Vertical name </strong> box</li>
+<li>Select the <strong>Horizontal </strong> link and enter a title for the horizontal axis in the <strong>Horizontal name </strong> box</li>
+<li>Define any other available options that may be associated with the chart</li>
+<li>Select <strong>Insert </strong></li>
+</ol>
+<h4>To add titles and labels</h4>
+<ol>
+<li>Double-click on the chart you want to change.</li>
+<li>At the right, click <strong>Customize</strong>.</li>
+<li>Select <strong>Series</strong>.<br />
+<em>Optional:</em> Next to &#8220;Apply to,&#8221; choose the data series you want to add a label to.</li>
+<li>Click <strong>Data labels</strong>.<br />
+<em>Optional:</em> Under &#8220;Position,&#8221; choose where you want the data labels to show.<br />
+<em>Optional:</em> Make changes to the label font.</li>
+</ol>
+<h4>To add alternative text to a chart</h4>
+<ol>
+<li>In the top right corner of the chart, click on the three dots.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-menu.png" alt="Image demonstrates the location of the three-dots and the menu item of Alt Text." width="158" height="260" class="alignnone size-full wp-image-1884" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-menu.png 158w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-menu-65x107.png 65w" /></li>
+<li>From the drop-down menu, select <strong>Alt text</strong>.</li>
+<li>In the <strong>Description</strong> field type or paste appropriate alt text.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-300x213.png" alt="Image demonstrates the Alt Text menu where a description can be added for a chart." width="300" height="213" class="alignnone wp-image-1885 size-medium" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-300x213.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-65x46.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-225x160.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text-350x249.png 350w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-alt-text.png 541w" /></li>
+</ol>
+<h3>Other Chart Considerations</h3>
+<ul>
+<li>When creating line charts, use the formatting options to create different types of dotted lines to facilitate legibility for users who are color blind</li>
+<li>Change the default colors to a color safe or gray-scale palette</li>
+<li>Use the formatting options to change predefined colors, ensuring that they align with sufficient contrast requirements (see <a href="#gsheet9">Technique 9</a>)</li>
+</ul>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_7_Provide_Structure_for_Tables"></span><button aria-expanded="false">Technique 7. Provide Structure for Tables<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>At this time (December 2019), Google Sheets does not include an “Insert Table” feature.</p>
+<p>If you use the <a href="https://www.grackledocs.com/grackle-sheets-accessible-spreadsheets/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a> add-on, tables can be given structure and table headings can be indicated. While these fixes won’t be useful for making tables more accessible in Google Sheets, it does allow you to export the document into another format with appropriate table tags intact. For more on Grackle Sheets, see <a href="#gsheet11">Technique 11</a>.</p>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_8_Use_Other_Content_Structuring_Features"></span><button aria-expanded="false">Technique 8. Use Other Content Structuring Features<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>While cell formatting is the most common method of structuring documents, other content structuring features should be used where appropriate:</p>
+<h3>8.1 Add a Document Title</h3>
+<p>At this time, Google Sheets makes use of a single document name. Within Google Sheets, this serves well as a title, but when exporting to ODT, the document name is used to form the file name and the ODT “Title” properties field is left blank.</p>
+<p>In case the document is ever converted into another format (e.g., HTML or PDF), it should be given a descriptive and meaningful title.</p>
+<h4>To change the file name of the current document</h4>
+<ol start="1" type="1">
+<li>Go to menu item: <strong>File &gt; Rename</strong></li>
+<li>In the <strong>Rename Document </strong> dialog, enter a new document name</li>
+<li>Click <strong>OK </strong></li>
+</ol>
+<h3>8.2 Avoid “Floating” Elements</h3>
+<p>Avoid &#8220;floating&#8221; elements (other than charts) such as floating images, objects, tables or text boxes. Similarly, avoid placing drawing objects directly into the document (e.g., as borders, to create a diagram). Instead, create borders with page layout tools and insert complete graphical objects.</p>
+<p>To learn how to insert images and graphical object into Google Sheets, see <a href="https://support.google.com/docs/answer/9224754" target="_blank" rel="noopener noreferrer">Google: Add an image to a spreadsheet</a>.</p>
+<h3>8.3 Use Descriptive Sheet Names</h3>
+<p>In Google Sheets, spreadsheets have the default name &#8220;Sheet1&#8221; and so on. To improve the accessibility and navigability of your spreadsheets, follow these recommendations:</p>
+<ul>
+<li>Name sheets with a sheet name that describes its content.</li>
+<li>Delete unused sheets to avoid unnecessary navigation.</li>
+</ul>
+<h4>To rename a spreadsheet</h4>
+<ol>
+<li>At the bottom of your Google Sheet, click on the drop-down arrow beside the sheet name.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-tab.png" alt="Image demonstrates the location of the Rename function in the sheet title's context menu." width="303" height="418" class="alignnone size-full wp-image-1909" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-tab.png 303w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-tab-217x300.png 217w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-tab-65x90.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-tab-225x310.png 225w" /><br />
+<em>Note: </em>Alternately, you can double click on the sheet name.</li>
+<li> Type a descriptive name for your sheet and hit <strong>Enter</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-sheet.png" alt="Image demonstrates the location of the sheet title when renaming a sheet." width="228" height="106" class="alignnone size-full wp-image-1910" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-sheet.png 228w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-sheet-65x30.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheet-rename-sheet-225x105.png 225w" /></li>
+</ol>
+</div>
+</div>
+<p><a id="gsheet9"></a></p>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_9_Make_Content_Easier_to_See"></span><button aria-expanded="false">Technique 9. Make Content Easier to See<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<h3>9.1 Format of Text</h3>
+<p>When formatting text, especially when the text is likely to be printed, try to:</p>
+<ul type="disc">
+<li>Use font sizes between 12 and 18 points for cell contents.</li>
+<li>Use fonts of normal weight, rather than bold or light weight fonts. If you do choose to use bold fonts for emphasis, use them sparingly.</li>
+<li>Use standard fonts with clear spacing and easily recognized upper and lower case characters. Sans serif fonts (e.g., Arial, Verdana) may sometimes be easier to read than serif fonts (e.g., Times New Roman, Garamond).</li>
+<li>Avoid large amounts of text set all in caps, italic or underlined.</li>
+<li>Use normal or expanded character spacing, rather than condensed spacing.</li>
+<li>Avoid animated or scrolling text.</li>
+</ul>
+<p><strong>But can’t users just zoom in? </strong> Office applications do typically include accessibility features such as the ability to magnify documents and support for high contrast modes. However, because printing is an important aspect of many workflows and changing font sizes directly will change document details such the pagination, the layout of tables, etc., it is best practice to always format text for a reasonable degree of accessibility.</p>
+<h3>9.2 Use Sufficient Contrast</h3>
+<p>The visual presentation of text and images of text should have a contrast ratio of at least 4.5:1. To help you determine the contrast, here are some examples on a white background:</p>
+<ul type="disc">
+<li>Very good contrast (Foreground=black, Background=white, Ratio=21:1)</li>
+<li>Acceptable contrast (Foreground=#767676, Background=white, Ratio=4.54:1)</li>
+<li>Unacceptable contrast (Foreground=#AAAAAA, Background=white, Ratio=2.32:1)</li>
+</ul>
+<p>Also, always use a single solid color for a text background rather than a pattern.<br />
+In order to determine whether the colors in your document have sufficient contrast, you can consult an online contrast checker, such as:</p>
+<ul>
+<li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener noreferrer">WebAIM: Contrast Checker</a></li>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php" target="_blank" rel="noopener noreferrer">Juicy Studio: Luminosity Color Contrast Ratio Analyzer </a></li>
+<li><a href="http://www.joedolson.com/color-contrast-tester.php" target="_blank" rel="noopener noreferrer">Joe Dolson Color Contrast Spectrum Tester </a></li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php" target="_blank" rel="noopener noreferrer">Joe Dolson Color Contrast Comparison </a></li>
+</ul>
+<h3>9.3 Avoid Using Color Alone</h3>
+<p>Color should not be used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. In order to spot where color might be the only visual means of conveying information, you can create a screenshot of the document and then view it with online gray-scale converting tools, such as:</p>
+<ul>
+<li>GrayBit v2.0: Grayscale Conversion Contrast Accessibility Tool</li>
+</ul>
+<div class="textbox textbox--learning-objectives">
+<div class="textbox__content">
+<p><strong>Editor&#8217;s note: </strong>GrayBit v2.0 is no longer available. However, multiple tools can be found online: <a href="https://www.google.com/search?q=convert+image+to+grayscale+online" target="_blank" rel="noopener noreferrer">Google Search: gray-scale conversion tool</a>.</p>
+</div>
+</div>
+<h3>9.4 Avoid Relying on Sensory Characteristics</h3>
+<p>The instructions provided for understanding and operating content should not rely solely on sensory characteristics such as the color or shape of content elements. Here are two examples:</p>
+<ul type="disc">
+<li>Do not track changes by simply changing the color of text you have edited and noting the color. Instead use Google Sheets’s review functionality features to track changes, such as revision history.</li>
+<li>Do not distinguish between images by referring to their appearance (e.g. ,“the bigger one”). Instead, label each image with a figure number and use that for references.</li>
+</ul>
+<h3>9.5 Avoid Using Images of Text</h3>
+<p>Before you use an image to control the presentation of text (e.g., to ensure a certain font or color combination), consider whether you can achieve the same result by styling “real text”. If this is not possible, as with logos containing stylized text, make sure to provide alternative text for the image following the techniques noted above.
+</p></div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_10_Make_Content_Easier_to_Understand"></span><button aria-expanded="false">Technique 10. Make Content Easier to Understand<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<h3>10.1 Write Clearly</h3>
+<p>By taking the time to design your content in a consistent way, it will be easier to access, navigate and interpret for all users:</p>
+<ul type="disc">
+<li>Whenever possible, write clearly with short sentences.</li>
+<li>Introduce acronyms and spell out abbreviations.</li>
+<li>Avoid making the document too “busy” by using lots of whitespace and by avoiding too many different colors, fonts and images.</li>
+<li>If content is repeated on multiple pages within a document or within a set of documents (e.g., headings, footings, etc.), it should occur consistently each time it is repeated.</li>
+</ul>
+<h3>10.2 Navigational Instructions</h3>
+<p>Provide a general description of the spreadsheet contents and instructions on how to navigate the data effectively. The best way to do this is to make a cell at the beginning of the data (e.g., A1) with this information. It will be the first cell accessed by assistive technologies. If you are using this cell for a label or data, you can attach a comment note to the cell containing navigational instructions.</p>
+<h3>10.3 Provide Context for Hyperlinks</h3>
+<p>Hyperlink text in your document should be meaningful when read out of context. To be an effective navigation aid, the link text should describe the destination of the link.</p>
+<p>Consider the experience of screen reader users: Generally, screen readers generate a list of links, and screen reader users navigate this list alphabetically. Hyperlink text such as &#8220;click here&#8221; or &#8220;more&#8221; is meaningless in this context.</p>
+<p>In order to be useful to someone using a screen reader, ensure that hyperlink text is self-describing and meaningful on its own.</p>
+<h4>To add hyperlinks with meaningful text</h4>
+<ol>
+<li>Go to menu item: <strong>Insert &gt; Link. </strong>Alternately, you can select the text you&#8217;d like to add a link to and press Ctrl+K (or Cmd+K on Macs).</li>
+<li>In the pop-up box, enter descriptive text in the <strong>Text </strong>display box.</li>
+<li>Enter the link address in the <strong>Link</strong>.</li>
+<li>Select <strong><strong>Apply</strong></strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link.png" alt="Image demonstrates location of Text to display box and Link address box." width="457" height="142" class="alignnone size-full wp-image-1868" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link.png 457w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link-300x93.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link-65x20.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link-225x70.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/10/gdoc-link-350x109.png 350w" /></li>
+</ol>
+</div>
+</div>
+<p><a id="gsheet11"></a></p>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_11_Check_Accessibility"></span><button aria-expanded="false">Technique 11. Check Accessibility<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>At this time (December 2019), Google Sheets does not offer a mechanism to check for potential accessibility errors in your document prior to publishing. However, a third-party add-on called <a href="https://www.grackledocs.com/grackle-sheets-accessible-spreadsheets/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a> can be used to check the accessibility of your workbook (see below).</p>
+<p>In order to get some indication of the accessibility of your document or template (see <a href="#gsheets1">Technique 1</a>), then you may consider saving the file into HTML or PDF in order to perform an accessibility check in one of those formats (see <a href="#gsheets-evaluate-a11y">Evaluating the Accessibility in Other Formats</a>).</p>
+<h3><a id="gsheets-grackle-sheets"></a>Grackle Sheets</h3>
+<p><strong>What is Grackle Sheets?</strong> <a href="https://www.grackledocs.com/grackle-sheets-accessible-spreadsheets/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a> is a third-party add-on that runs on spreadsheets created in Google Sheets. It helps with checking and improving the digital accessibility of your document. Due to the nature of Google Sheets, some accessibility features, such as tables, are only fully accessible when exporting the document to another format, like an HTML file.</p>
+<p><strong>How does it work?</strong> After Grackle is launched, It scans the current spreadsheet for accessibility issues and identifies and locates errors. Feedback appears in a sidebar that is docked on right-side of the screen. By exploring the sidebar, you can immediately learn about accessibility issues and find and fix the detected errors by interacting with the Grackle sidebar.</p>
+<p><em>Note: </em>Grackle&#8217;s accessibility checker is free to use; however, the ability to export and produce accessible HTML spreadsheets, and so on, is only free for the first 30 days (as of December 2019).</p>
+<p>At the time of testing, Grackle Sheets performs the following 13 accessibility checks:</p>
+<ul>
+<li>Sheets
+<ul>
+<li>Sheets document needs a proper title</li>
+<li>Sheet names should be descriptive</li>
+<li>The number of sheets should be reasonable</li>
+<li>Avoid making sheets too large</li>
+<li>Sheets should not be empty</li>
+</ul>
+</li>
+<li>Tables
+<ul>
+<li>Tables should have headers</li>
+<li>Tables should not be too long</li>
+<li>The number of tables should be reasonable</li>
+<li>The use of merged cells is not recommended</li>
+<li>Avoid isolated cells</li>
+</ul>
+</li>
+<li>Charts
+<ul>
+<li>Charts should have alternate text</li>
+</ul>
+</li>
+<li>Contents
+<ul>
+<li>High color contrast should be used</li>
+<li>Fine print should be avoided</li>
+</ul>
+</li>
+</ul>
+<h4>How to install Grackle Sheets</h4>
+<p><a href="https://www.grackledocs.com/how-to-install/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a> can be installed from the <strong>Add-ons</strong> menu of a Google Docs document.</p>
+<ol>
+<li>Open a <a href="https://docs.google.com/document" target="_blank" rel="noopener noreferrer">Google document</a>.</li>
+<li>Select <strong>Add-ons</strong> &gt; <strong>Get Add-ons</strong>.
+<ul>
+<li>Search for <strong>&#8220;Grackle&#8221;</strong> in the search field.</li>
+<li>Select the add-on and click <strong>Install</strong>.</li>
+</ul>
+</li>
+<li><em>Note:</em> A message will appear requesting access to data that the add-on needs to work. Review the message and click <strong>Allow</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow-151x300.png" alt="Image demonstrates the message window that appears when installing Grackle, which requests access to user data." width="151" height="300" class="alignnone wp-image-1900 size-medium" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow-151x300.png 151w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow-65x129.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow-225x446.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow-350x694.png 350w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-allow.png 474w" /></li>
+</ol>
+<h4>How to launch and use Grackle Sheets</h4>
+<p><a href="https://www.grackledocs.com/how-it-works-grackles-sheets/" target="_blank" rel="noopener noreferrer">Grackle Sheets</a> is simple to launch and is accessed from the <strong>Add-ons</strong> menu.</p>
+<ol>
+<li>Open a <a href="https://docs.google.com/document" target="_blank" rel="noopener noreferrer">Google document</a></li>
+<li>From the <strong>Add-ons </strong>menu, select <strong>Grackle Docs</strong>, then select<strong> Launch</strong>.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch.png" alt="Image demonstrates the location of Grackle Docs add-on, under the Add-ons menu." width="385" height="261" class="alignnone size-full wp-image-1901" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch.png 385w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch-300x203.png 300w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch-65x44.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch-225x153.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-launch-350x237.png 350w" /></li>
+<li>A sidebar launches that identifies errors and warnings.
+<ul>
+<li>Clicking on each error and warning will expand the selection and provide guidance on how to resolve each issue.</li>
+<li>Select the &#8220;Locate&#8221; button on any flagged item will take you to that line of the document to review.</li>
+</ul>
+</li>
+<li>Continue to review and address each flagged item.
+<ul>
+<li>Select the &#8220;Re-Check&#8221; button at the top of the sidebar to update the report.</li>
+<li>Continue to revise until all checks have passed.<br />
+<img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar-274x1024.png" alt="Image demonstrates the Grackle Sheets side bar with all accessibility checks successfully remediated." width="274" height="1024" class="alignnone wp-image-1911 size-large" srcset="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar-274x1024.png 274w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar-80x300.png 80w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar-65x243.png 65w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar-225x841.png 225w, https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/07/gsheets-grackle-sidebar.png 303w" /></li>
+</ul>
+</li>
+</ol>
+<p><em>Note: </em>During testing, we noticed that Grackle Sheets may flag a chart as needing alt text even though alt text has been provided.</p>
+<p>Automated accessibility checkers cannot be trusted to check for all accessibility concerns, so be sure to review the recommended techniques in this document.</p>
+<h3><a id="gsheets-evaluate-a11y"></a>Evaluating Accessibility in Other Formats</h3>
+<h4>To evaluate HTML accessibility</h4>
+<p>If you wish to check the accessibility of your document or template (see <a href="#gsheets1">Technique 1</a>), one option is to save it into HTML format and use one of the web accessibility checkers available online. Such as:</p>
+<ul>
+<li><a href="http://achecker.ca/checker/index.php" target="_blank" rel="noopener noreferrer">AChecker </a></li>
+<li><a href="http://wave.webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM Wave Web Accessibility Evaluation Tool </a></li>
+</ul>
+<h4>To evaluate PDF accessibility</h4>
+<p>If you saved your document in tagged PDF format, you can use the following tools and steps to evaluate the accessibility of the PDF document:</p>
+<ul>
+<li><a href="https://acrobat.adobe.com/" target="_blank" rel="noopener noreferrer">Adobe Acrobat Professional</a></li>
+<li><a href="https://commonlook.com/accessibility-software/pdf-validator/" target="_blank" rel="noopener noreferrer">CommonLook PDF Evaluator</a></li>
+<li><a href="https://www.access-for-all.ch/ch/pdf-werkstatt/pdf-accessibility-checker-pac.html" target="_blank" rel="noopener noreferrer">PDF Accessibility Checker (PAC) </a> – a free alternative provided by “Access for all”</li>
+</ul>
+<h4>To evaluate PDF accessibility in Adobe Acrobat Professional</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt; Full Check… </strong></li>
+<li>In the <strong>Full Check </strong> dialog, select all the checking option</li>
+<li>Select the <strong>Start Checking </strong> button</li>
+</ol>
+<div class="textbox textbox--learning-objectives">
+<div class="textbox__content">
+<p><strong>Editor&#8217;s note: </strong>For detailed instructions, see our section on <a href="https://pressbooks.library.ryerson.ca/docs/chapter/adobe-acrobat-11-pro-and-dc/" target="_blank" rel="noopener noreferrer">how to check accessibility using Adobe Acrobat Professional</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<p><a id="gsheet12"></a></p>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_12_Use_Accessibility_Features_when_Saving/Exporting_to_Other_Formats"></span><button aria-expanded="false">Technique 12. Use Accessibility Features when Saving/Exporting to Other Formats<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>In some cases, additional steps must be taken in order to ensure accessibility information is preserved when saving/exporting to formats other than the default.</p>
+<h3>Share a presentation in HTML view</h3>
+<p>When using Google Slides&#8217; HTML view, your  whole presentation is displayed in a single, scrollable HTML page, instead of displaying the presentation one slide at a time. This is a helpful feature if your audience includes people who use screen readers.</p>
+<p>To access a presentation in HTML view, use the keyboard shortcut Ctrl + Alt + Shift + p (Windows or Chrome OS) or ⌘ + Option + Shift + p (Mac).</p>
+<h3>Export to alternate formats</h3>
+<ol>
+<li>Go to menu item: <strong>File &gt; Download as </strong></li>
+<li>Select the file type</li>
+</ol>
+<h4>PDF</h4>
+<p>PDF documents are not always accessible. Accessible PDF documents are often called “Tagged PDF” because they include “tags” that encode structural information required for accessibility. To evaluate the accessibility of your PDF document, see <a href="#gsheet11">Technique 11</a>.</p>
+<h4>To clean up your HTML file</h4>
+<ul>
+<li>Remove unnecessary styles, line breaks, etc.</li>
+<li>Remove unnecessary id, class, and attributes</li>
+<li>Remove font tags</li>
+<li>Remove styles in the &lt;head&gt; tag</li>
+<li>Ensure the &lt;th&gt; tags have a scope attribute</li>
+<li>Remove &lt;p&gt; tags nested inside &lt;th&gt; and &lt;td&gt; tags</li>
+<li>Check for accessibility (see <a href="#gsheet11">Technique 11</a>)<br />
+<em>Note:</em> you may wish to use HTML editors or utilities to help with this process.</li>
+</ul>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Technique_13_Consider_Using_Accessibility_Support_Applications/Plugins"></span><button aria-expanded="false">Technique 13. Consider Using Accessibility Support Applications/Plugins<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<em>Disclaimer:</em> This list is provided for information purposes only. It is not exhaustive and inclusion of an application or plug-in on the list does not constitute a recommendation or guarantee of results.</p>
+<ul>
+<li><a href="http://extensions.services.openoffice.org/en/project/ooo2gd" target="_blank" rel="noopener noreferrer">OOo2GD</a> – an extension that allows you to export, update and import all your documents, spreadsheet and presentations between OpenOffice.org applications and Google docs.</li>
+<li><a href="http://www.google.com/google-d-s/accessibility/spreadsheets.html" target="_blank" rel="noopener noreferrer">Google Sheets Section 508 Compliance</a></li>
+<li><a href="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=181110" target="_blank" rel="noopener noreferrer">Keyboard shortcuts for Google Sheets</a></li>
+<li><a href="https://support.google.com/docs/answer/6199477?hl=en" target="_blank" rel="noopener noreferrer">Google: Make your document or presentation more accessible</a></li>
+</ul>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Accessibility_Help"></span><button aria-expanded="false">Accessibility Help<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>If you are interested in what features are provided to make using Google Sheets more accessible to users, documentation is provided through online articles and Help forums:</p>
+<ul>
+<li>Go to menu item: <strong>Help &gt; Google Docs Help Center </strong></li>
+</ul>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="References_and_Resources"></span><button aria-expanded="false">References and Resources<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<ol>
+<li><a href="https://support.google.com/docs/topic/9054603" target="_blank" rel="noopener noreferrer">Google Sheets Online Help Center</a></li>
+<li><a href="http://www.gawds.org/show.php?contentid=28" target="_blank" rel="noopener noreferrer">GAWDS Writing Better Alt Text</a></li>
+<li><a href="https://support.google.com/docs/answer/181110" target="_blank" rel="noopener noreferrer">Google: Keyboard shortcuts for Google Sheets</a></li>
+<li><a href="https://support.google.com/docs/answer/6199477?hl=en" target="_blank" rel="noopener noreferrer">Google: Make your document or presentation more accessible</a></li>
+</ol>
+</div>
+</div>
+<div class="rl-collapsible-section rl-collapsed">
+<h2 class="rl-collapsible-section-title"><span class="ez-toc-section" id="Acknowledgments"></span><button aria-expanded="false">Acknowledgments<span class="rl-collapsible-section-button-indicator"></span></button><span class="ez-toc-section-end"></span></h2>
+<div class="rl-collapsible-section-content">
+<p>This document was produced as part of the <a href="https://adod.idrc.ocadu.ca" target="_blank" rel="noopener noreferrer">Accessible Digital Office Document (ADOD) Project</a>.</p>
+<p>This project has been developed by the Inclusive Design Research Centre, OCAD University as part of an EnAbling Change Partnership project with the Government of Ontario and UNESCO (United Nations Educational, Scientific and Cultural Organization).</p>
+<p><img src="https://pressbooks.library.ryerson.ca/docs/wp-content/uploads/sites/78/2019/08/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" />
+</div>
+</div>
+<hr />
+<p><strong>Source:</strong> <a href="https://adod.idrc.ocadu.ca/googlespreadsheet.html" target="_blank" rel="noopener noreferrer">Authoring Techniques for Accessible Office Documents: Google Sheets</a> by the <a href="https://idrc.ocadu.ca/" target="_blank" rel="noopener noreferrer">Inclusive Design Research Centre</a> (IDRC) used under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC-BY-SA 3.0</a>.</p>
+</section>
+</div><!-- #content -->
+					<nav class="nav-reading " role="navigation">
+		<div class="nav-reading__previous js-nav-previous">
+											<a href="https://pressbooks.library.ryerson.ca/docs/chapter/openoffice-libreoffice/" title="Previous: OpenOffice Writer and LibreOffice Writer">
+					<svg class="icon--svg"><use href="#arrow-left" /></svg>
+										Previous: OpenOffice Writer and LibreOffice Writer				</a>
+					</div>
+		<div class="nav-reading__next js-nav-next">
+											<a href="https://pressbooks.library.ryerson.ca/docs/chapter/microsoft-excel/" title="Next: Microsoft Excel 2010, 2013, 2016, and 2019">
+										Next: Microsoft Excel 2010, 2013, 2016, and 2019					<svg class="icon--svg"><use href="#arrow-right" /></svg>
+				</a>
+					</div>
+		<button class="nav-reading__up" >
+			<svg class="icon--svg"><use href="#arrow-up" /></svg>
+			<span class="screen-reader-text">Back to top</span>
+		</button>
+		</nav>
+		
+					<div class="block block-reading-meta">
+						<div class="block-reading-meta__inner">
+							
+							<div class="block-reading-meta__subsection">
+								<h2 class="section__subtitle block-reading-meta__subtitle">License</h2>
+																	<p>
+										<div class="license-attribution"><p><img src="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg" alt="Icon for the Creative Commons Attribution-ShareAlike 4.0 International License" /></p><p><a rel="cc:attributionURL" href="https://pressbooks.library.ryerson.ca/docs" property="dc:title">Understanding Document Accessibility</a> by <span property="cc:attributionName">The Chang School, Ryerson University</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where otherwise noted.</p></div>									</p>
+																							</div>
+														<div class="block-reading-meta__subsection">
+								<h2 class="section__subtitle block-reading-meta__subtitle">Share This Book</h2>
+								<div class="block-reading-meta__share">
+									<a class="sharer" data-sharer="twitter" data-title="Check out this great book on Pressbooks." data-url="https://pressbooks.library.ryerson.ca/docs/chapter/google-sheets/" data-via="pressbooks"><svg role="img" aria-labelledby="twitter-logo" class="icon--svg"><title id="twitter-logo">Share on Twitter</title><use href="#twitter"/></svg></a>								</div>
+							</div>
+													</div>
+					</div>
+						</main>
+
+
+<footer class="footer
+ footer--reading">
+	<div class="footer__inner">
+		<section class="footer__pressbooks">
+			<a class="footer__pressbooks__icon" href="https://pressbooks.com" title="Pressbooks">
+								<svg class="icon--svg">
+					<use href="#icon-pressbooks" />
+				</svg>
+			</a>
+			<div class="footer__pressbooks__links">
+								<p class="footer__pressbooks__links__title"><a href="https://pressbooks.com">Powered by <span class="pressbooks">Pressbooks</span></a></p>
+				<ul class="footer__pressbooks__links__list">
+					<li><a href="https://pressbooks.com/help-and-support/">Guides and Tutorials</a></li>
+									</ul>
+			</div>
+			<div class="footer__pressbooks__social">
+				<a href="https://www.youtube.com/user/pressbooks" title="Pressbooks on YouTube">
+					<img class="youtube-link" src="https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png" alt="YouTube">
+					<span class="screen-reader-text">Pressbooks on YouTube</span>
+				</a>
+				<a class="twitter" href="https://twitter.com/intent/follow?screen_name=pressbooks" title="Pressbooks on Twitter">
+					<svg class="icon--svg">
+						<use href="#twitter" />
+					</svg>
+				<span class="screen-reader-text">Pressbooks on Twitter</span></a>
+			</div>
+
+		</section>
+	</div><!-- .container -->
+</footer><!-- .footer -->
+<script type="text/javascript">
+		jQuery( document ).ready( function( $ ) {
+
+			//https://core.trac.wordpress.org/ticket/48657
+			$(".mu_register.wp-signup-container").attr("role","main");
+
+		} );
+	</script><script>
+ga('create', 'UA-156273083-1', 'auto', 'bookTracker');
+ga('bookTracker.send', 'pageview');
+</script>
+<link rel='stylesheet' id='rl-collapsible-section-style-css'  href='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/rl-collapsible-section//css/rl-collapsible-section.css?ver=0.0.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/pressbooks/assets/dist/scripts/glossary-tooltip.js?id=ba856e3e5051d51fd857'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/hypothesis/js/nohighlights.js?ver=0.6.0'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/hypothesis/js/showhighlights.js?ver=0.6.0'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/scripts/jquery.localScroll.js?id=75f2414f7a6394497c86'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/themes/pressbooks-book/dist/scripts/details-element-polyfill.js?id=60ad7c2161011e153d53&#038;ver=2.4.0'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-includes/js/wp-embed.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/rl-collapsible-section//js/rl-collapsible-section.js?ver=0.0.7'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js?ver=2.2.0'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","width":"auto","scroll_offset":"30"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pressbooks.library.ryerson.ca/docs/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.11-1588702238'></script>
+</div>
+</body>
+</html>

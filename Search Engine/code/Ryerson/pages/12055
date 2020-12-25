@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+
+	<title>Student Initiative Funding</title>
+
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+    <meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Ryerson University" />
+	<meta property="og:url" content="https://www.ryerson.ca/studentlife/programs/student-initiativefund/" />
+	<meta property="og:title" content="Student Initiatives Fund"> </meta>
+		 
+		 
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" value="https://www.ryerson.ca/studentlife/programs/student-initiativefund/" />
+	<meta name="twitter:site" content="@RyersonU"> </meta>
+	<meta name="twitter:title" content="Student Initiatives Fund"> </meta>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="resources/ryersonlayout/favicon.ico" />
+	
+	
+
+
+
+
+
+	<link rel="stylesheet" href="/pfacs/resources/ryersonlayout/clientlib-all.59215c5dd3216a6b9ae948ad0fbd2614.css" type="text/css" />
+	<script type="text/javascript" src="/pfacs/resources/ryersonlayout/clientlib-all.0f4eaa37fa6a051f95754b1f26b6988e.js"></script>
+ 
+	<link href="/pfacs/resources/ryersonlayout/accent.792082.default.css" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" href="/pfacs/resources/ryersonlayout/font-awesome/css/font-awesome.css" type="text/css" />
+
+
+
+
+
+<script type="text/javascript">
+//var $theme = jQuery.noConflict();
+
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+
+
+</script>
+   
+</head>
+ 
+
+
+    
+
+     
+          
+
+<body>
+
+
+   
+<div class="resGlobalHeader">
+
+	<div class="global-header-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="res-global-header">
+						<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+						<nav role="navigation" aria-label="global" class="navbar navbar-default">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/pfacs/resources/ryersonlayout/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University" />
+									</a>
+									<button id="gh-other-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-other-content" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span>
+									</button>
+									<button id="gh-info-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-info-content" aria-expanded="false">
+										<span class="sr-only">Toggle information</span> <span class="fa fa-info-circle"></span>
+									</button>
+									<button id="gh-search-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-search-content" aria-expanded="false">
+										<span class="sr-only">Toggle search</span> <span class="fa fa-search"></span>
+									</button>
+								</div>
+								<div class="navbar-content">
+									<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+										<div class="input-group gh-search-container">
+											<label for="search" class="sr-only">Search Site and People</label>
+											<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off" />
+											<span class="input-group-btn">
+												<button aria-label="Search" class="btn btn-default" type="submit">
+													<i class="fa fa-search" title="Search Ryerson.ca"></i>
+												</button>
+											</span>
+										</div>
+									</form>
+									
+										<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="https://www.ryerson.ca/about/">About</a></li>
+													<li><a href="https://www.ryerson.ca/programs/">Programs</a></li>
+													<li><a href="https://www.ryerson.ca/admissions/">Admissions</a></li>
+													<li><a href="https://www.ryerson.ca/campus-life/">Campus Life</a></li>
+													<li><a href="https://www.ryerson.ca/research/">Research &amp; Innovation</a></li>
+												</ul></li>
+										</ul>
+									
+									<ul id="gh-other-content" class="nav navbar-nav collapse navbar-collapse navbar-right">
+										<li class="visible-xs"><a href="https://www.ryerson.ca/about/">About</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/research/">Research &amp; Innovation</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="https://www.ryerson.ca/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="https://www.ryerson.ca/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="https://www.ryerson.ca/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									<ul id="gh-info-content" class="nav navbar-nav collapse navbar-collapse navbar-right">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="https://www.ryerson.ca/future-students/">Future Students</a></li>
+												<li><a href="https://www.ryerson.ca/current-students/">Current Students</a></li>
+												<li><a href="https://www.ryerson.ca/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="https://www.ryerson.ca/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="https://www.ryerson.ca/alumni/">Alumni</a></li>
+												<li><a href="https://www.ryerson.ca/media/">Media</a></li>
+												<li><a href="https://www.ryerson.ca/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/media/">Media</a></li>
+										<li class="visible-xs"><a href="https://www.ryerson.ca/giving/">Donors</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+							
+							<div class="res-local-header">
+								<div class="row template-local-header">
+									<div class="local-header-section col-xs-12">
+									
+									<div class="res-local-header">
+										<div class="row template-local-header">
+											<div class="local-header-section col-xs-12">
+																		
+
+												<div class="site-heading">
+												
+												    <a href="https://www.ryerson.ca/studentlife/">
+												        Student Life - Portal
+												    </a>
+												
+												</div>
+			
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+<div class="resHorizontalNavigation">
+	<div class="container">
+	    <div class="row">
+	        <div class="col-xs-12">
+	            <nav role="navigation" aria-label="primary" class="navbar res-horizontal-navigation">
+	                <!-- Navigation Header -->
+	                <div class="navbar-header">
+	                    <span class="navbar-brand visible-xs">
+	                        
+	                        <a href="https://www.ryerson.ca/content/ryerson/studentlife.html">Home</a>
+	                        
+	                    </span>
+	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#6bddc143-1bc2-46c1-97ce-2d4ee33f53ce" aria-expanded="false">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <i class="fa fa-chevron-down"></i>
+	                    </button>
+	                </div>
+	                <!-- Navigation Links -->
+	                <div class="collapse navbar-collapse" id="6bddc143-1bc2-46c1-97ce-2d4ee33f53ce">
+	                    <ul class="nav navbar-nav">
+							
+										<li class="">
+											<a href="https://www.ryerson.ca/studentlife/programs/student-initiativefund/">
+												Exit Portal
+											</a>
+										</li>
+									
+										
+						</ul>
+	                </div>
+	            </nav>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+<div class="container" style="margin-bottom: 100px">
+	<div class="row template-content">
+        <div role="main" id="mainContent" class="content-area-section col-md-12 col-sm-12">
+			<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area
+			</div>
+        
+			
+
+			<div class="content stackparsys">
+				<div class="container">
+	  
+	  <h1>Please log in to proceed</h1>
+	  
+	  <div>
+			
+			<p>
+			
+			<a href="/pfacs/login">Login to continue</a>. You'll be taken to Ryerson's CAS sign on page to authenticate.</p>
+	  </div>
+     
+    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer class="res-local-footer-wrapper">
+	<div class="container">
+		<div class="resLocalFooter">
+			<div class="res-local-footer">
+				<div class="row template-local-footer">
+					<div class="col-xs-12"> 
+						<div class="content stackparsys">
+							<div class="resThreeColEven section">
+								<div class="row">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div class="stackparsys">
+											<div class="resText parbase section">
+												<div class="res-text richtextContent background-hidden" id="aca154d5-bb09-4a48-9160-2863bb74cc1b">
+													<p><strong>Quick Links</strong></p> 
+													<ul> 
+													   	<li><a href="https://connectru.ryerson.ca/" target="_blank">ConnectRU</a></li> 
+													   	<li><a href="https://www.ryerson.ca/content/ryerson/studentlife/leadership/">RU Leadership</a></li> 
+													   	<li><a href="https://www.ryerson.ca/content/ryerson/studentlife/trimentoring/">Mentorship</a></li> 
+													   	<li><a href="https://www.ryerson.ca/content/ryerson/studentlife/internationalsupport/">International Support</a></li> 
+													</ul> 
+												</div>
+												<script>$(document).ready(function(){addCoursePopover("#aca154d5-bb09-4a48-9160-2863bb74cc1b");});</script>
+											</div>
+										</div>
+									</div> 
+									<div class="clearfix visible-xs-block">
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div class="stackparsys">
+											<div class="resText parbase section">
+												<div class="res-text richtextContent background-hidden" id="c84bea5b-ab63-4082-a3cc-c483d55091fe">
+													<p><strong>Visit Us</strong></p> 
+													<p>350 Victoria Street<br /> Toronto, Ontario, Canada<br /> M5B 2K3</p> 
+													<p>POD-60</p> 
+												</div>
+												<script>
+												//<![CDATA[
+													$(document).ready(function(){addCoursePopover("#c84bea5b-ab63-4082-a3cc-c483d55091fe");});
+												//]]>
+												</script>
+											</div>
+										</div>
+									</div> 
+									<div class="clearfix visible-xs-block">
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div class="stackparsys">
+											<div class="resSocialLinks section">
+												<div class="res-link-buttons text-left">
+													<ul class="list-inline">
+											            <li>
+											                <a href="https://twitter.com/rustudentlife">
+											                    <i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i>
+											                    <span class="sr-only">Twitter</span>
+											                </a>
+											            </li>
+											            
+											            
+											            
+											            <li>
+											                <a href="https://www.instagram.com/rustudentlife">
+											                    <i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i>
+											                    <span class="sr-only">Instagram</span>
+											                </a>
+											            </li>
+											        </ul>
+											   	</div>
+											</div>
+										</div>
+									</div> 
+									<div class="clearfix visible-lg-block"></div>
+									<div class="clearfix visible-md-block"></div>
+									<div class="clearfix visible-sm-block"></div>
+									<div class="clearfix visible-xs-block"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+		
+<div class="resGlobalFooter">
+	<footer class="resGlobalFooter" role="contentinfo">
+		<div class="top-middle-container"> <!-- top-middle-container starts -->
+			<div class="container">
+
+			<!-- Footer Top -->
+			<div class="row footer-top">
+			    <div class="col-sm-9 col-xs-6">
+			        <strong>Ryerson University</strong>
+			    </div>
+			    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+			        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+			        </a>
+			    </div>
+			</div>
+			
+			<!-- Footer Middle -->
+			<div class="row collapse in footer-middle" id="footer-data">
+			    <div class="col-sm-9 col-xs-6 text-left">
+			        <address>
+			            350 Victoria Street<br />
+			            Toronto, ON M5B 2K3<br />
+			            <abbr title="Phone">P:</abbr> (416) 979-5000
+			        </address>
+			        <ol class="breadcrumb min">
+			            <li><a href="https://www.ryerson.ca/contact/">Directory</a></li>
+			            <li><a href="https://www.ryerson.ca/maps/">Maps and Directions</a></li>
+			        </ol>
+			    </div>
+			    <div class="col-sm-3 col-xs-6 text-right">
+			        <p>Follow Ryerson</p>
+			        <p>
+			            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+			            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+			            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+			            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+			            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+			        </p>
+			        <ol class="breadcrumb min">
+			            <li><a href="https://www.ryerson.ca/jobs/">Careers</a></li>
+			            <li><a href="https://www.ryerson.ca/media/">Media Room</a></li>
+			        </ol>
+			    </div>
+			</div>
+			
+			</div>
+		</div> <!-- top-middle-container ends -->
+		
+		<div class="bottom-container"> <!-- bottom-container starts -->
+			<div class="container">
+			
+			<!-- Footer Bottom -->
+			<div class="row footer-bottom">
+			    <div class="col-xs-12">
+			        <ol class="breadcrumb min">
+			            <li><a href="https://www.ryerson.ca/privacy/">Privacy Policy</a></li>
+			            <li><a href="https://www.ryerson.ca/accessibility/">Accessibility</a></li>
+			            <li><a href="https://www.ryerson.ca/terms-conditions/">Terms &amp; Conditions</a></li>
+			        </ol>
+			    </div>
+			    <div class="col-xs-12">
+					version:<span>2.9</span> |
+					build:<span>125 tags/v2.9.mr14 f9b6d5c70777c21eb2828178c65eabb0a2415ede</span>
+				</div>
+			</div>
+			
+			</div>
+		</div> <!-- bottom-container ends -->
+	</footer>
+</div>
+			
+</body>    
+</html>

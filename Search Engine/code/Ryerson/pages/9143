@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/graduate/datascience/courses/" >
+		<meta property="og:title" content="Courses" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/graduate/datascience/courses/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Courses"> 
+		 
+        
+        
+        <title>Courses - Data Science and Analytics - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.FFC609.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/graduate/datascience/">
+				        Data Science and Analytics
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/graduate/datascience.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#e4cc8594-56ca-4739-91b5-2ab4ccea53d8" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="e4cc8594-56ca-4739-91b5-2ab4ccea53d8">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/graduate/datascience/'>Home</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/about/'>About</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/admission/'>Admission</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/faculty/'>Faculty</a>
+									</li>
+								
+									<li class="active">
+										<a href='/graduate/datascience/courses/'>Courses</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/students/'>Students</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/contact/'>Contact</a>
+									</li>
+								
+									<li class="">
+										<a href='/graduate/datascience/news/'>News</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+        		<main id="mainContent" class="content-area-section col-md-12 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Program Courses and Requirements</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="95f89d60-df44-4cca-85df-9018de0ba13f" >
+
+    <p>The requirements for successful completion of the MSc Data Science and Analytics are:</p> 
+<ol> 
+ <li><p>Four (4) required courses</p> </li> 
+ <li><p>Two (2) elective courses</p> </li> 
+ <li><p>Two (2) seminar courses</p> </li> 
+ <li><p>Major Research Project</p> </li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#95f89d60-df44-4cca-85df-9018de0ba13f");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Required Courses
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="302db612-a8b7-475c-94b5-5c4d9b79ec11" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1499775724698-ds-8001-designs-of-algorithms-and-programming-for-massive-data" role="tab" data-toggle="collapse" data-parent="#302db612-a8b7-475c-94b5-5c4d9b79ec11" href="#accordion-content-1499775724698-ds-8001-designs-of-algorithms-and-programming-for-massive-data" aria-controls="accordion-content-1499775724698-ds-8001-designs-of-algorithms-and-programming-for-massive-data" aria-expanded="false">
+                            DS 8001 Designs of Algorithms and Programming for Massive Data
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499775724698-ds-8001-designs-of-algorithms-and-programming-for-massive-data" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499775724698-ds-8001-designs-of-algorithms-and-programming-for-massive-data">
+                    <div class="panel-body ">
+                        <div class="1499775724698 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ac0fa883-b66d-4075-9493-92eb7e422713" >
+
+    <p>To introduce students to the theory and design of algorithms to acquire and process large dimensional data. Advanced data structures, graph algorithms,&nbsp;and algebraic algorithms. Complexity analysis, complexity classes, and NP-completeness, approximation algorithms and parallel algorithms. Study of algorithmic techniques and modeling frameworks that facilitate the analysis of massively large amounts of data. Introduction to information retrieval, streaming algorithms and analysis of web searches and crawls.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ac0fa883-b66d-4075-9493-92eb7e422713");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1499775724720-ds-8002-machine-learning-" role="tab" data-toggle="collapse" data-parent="#302db612-a8b7-475c-94b5-5c4d9b79ec11" href="#accordion-content-1499775724720-ds-8002-machine-learning-" aria-controls="accordion-content-1499775724720-ds-8002-machine-learning-" aria-expanded="false">
+                            DS 8002 Machine Learning 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499775724720-ds-8002-machine-learning-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499775724720-ds-8002-machine-learning-">
+                    <div class="panel-body ">
+                        <div class="1499775724720 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="14017ba2-fb7e-4515-9126-1051ff2c58f4" >
+
+    <p>Overview of artificial learning systems. Supervised and unsupervised learning. Statistical models. Decision trees. Clustering. Feature extraction. Artificial neural networks. Reinforcement learning. Applications to pattern recognition and data mining.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#14017ba2-fb7e-4515-9126-1051ff2c58f4");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1499775724724-ds-8003-management-of-big-data-and-big-data-tools" role="tab" data-toggle="collapse" data-parent="#302db612-a8b7-475c-94b5-5c4d9b79ec11" href="#accordion-content-1499775724724-ds-8003-management-of-big-data-and-big-data-tools" aria-controls="accordion-content-1499775724724-ds-8003-management-of-big-data-and-big-data-tools" aria-expanded="false">
+                            DS 8003 Management of Big Data and Big Data Tools
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499775724724-ds-8003-management-of-big-data-and-big-data-tools" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499775724724-ds-8003-management-of-big-data-and-big-data-tools">
+                    <div class="panel-body ">
+                        <div class="1499775724724 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="49127f88-6c97-460c-a5b7-dd971f45f37b" >
+
+    <p>The course will discuss data management techniques for storing and analyzing very large amounts of data. The emphasis will be on columnar databases and on Map Reduce as a tool for creating parallel algorithms that can process very large amounts of data. Big Data applications, Columnar stores, distributed databases, Hadoop, Locality Sensitive Hashing (LSH), Dimensionality reduction, Data streams, unstructured data processing, NoSQL, and NewSQL.&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#49127f88-6c97-460c-a5b7-dd971f45f37b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1499775724737-ds-8004-data-mining-and-prescriptive-analysis-" role="tab" data-toggle="collapse" data-parent="#302db612-a8b7-475c-94b5-5c4d9b79ec11" href="#accordion-content-1499775724737-ds-8004-data-mining-and-prescriptive-analysis-" aria-controls="accordion-content-1499775724737-ds-8004-data-mining-and-prescriptive-analysis-" aria-expanded="false">
+                            DS 8004 Data Mining and Prescriptive Analysis 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499775724737-ds-8004-data-mining-and-prescriptive-analysis-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499775724737-ds-8004-data-mining-and-prescriptive-analysis-">
+                    <div class="panel-body ">
+                        <div class="1499775724737 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3ac34807-d0dc-4baf-aa55-34ebca8ecbca" >
+
+    <p>The course teaches to use data to recommend optimum course of action to achieve the optimum outcome and to formulate new products and services in a data driven manner. The course will cover all these issues and will illustrate the whole process by examples. Special emphasis will be given to data mining and computational techniques as well as optimization and stochastic optimization techniques. Prerequisite: DS8002.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3ac34807-d0dc-4baf-aa55-34ebca8ecbca");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Program Electives
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="f2672719-f4cf-488c-8389-80b0de3ba8ef" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1515090487610-ds-8006-social-media-analytics" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1515090487610-ds-8006-social-media-analytics" aria-controls="accordion-content-1515090487610-ds-8006-social-media-analytics" aria-expanded="false">
+                            DS 8006 Social Media Analytics
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1515090487610-ds-8006-social-media-analytics" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1515090487610-ds-8006-social-media-analytics">
+                    <div class="panel-body ">
+                        <div class="1515090487610 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="321f327f-4597-486b-b1da-bdcbac096e96" >
+
+    <p>The course will cover fundamental concepts and tools in Social Network Analysis by showing how AI, math, and statistical methods are used to study them. The topics include: weblog analysis, centrality in social networks, influence, sentiment analysis and opinion mining, information cascades, multimedia analysis, reasoning and prediction with social media and modeling behaviour. The lab component of the class will use R or Python to develop and analyze network models. Prerequisite: DS8002</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#321f327f-4597-486b-b1da-bdcbac096e96");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1515090489441-ds-8007-advanced-data-visualization" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1515090489441-ds-8007-advanced-data-visualization" aria-controls="accordion-content-1515090489441-ds-8007-advanced-data-visualization" aria-expanded="false">
+                            DS 8007 Advanced Data Visualization
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1515090489441-ds-8007-advanced-data-visualization" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1515090489441-ds-8007-advanced-data-visualization">
+                    <div class="panel-body ">
+                        <div class="1515090489441 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="bacad33c-d2c8-4e79-a289-3cbc00799f22" >
+
+    <p>Overview of data visualization. Basic visualization design and evaluation principles. Learn to acquire, parse, and analyze large datasets. Techniques for visualizing multivariate, temporal, text-based, geospatial, hierarchical, and network/ graph data using tools such as ggplot2, R, D3, etc.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#bacad33c-d2c8-4e79-a289-3cbc00799f22");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1515090490570-ds-8008-nlp--text-mining-" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1515090490570-ds-8008-nlp--text-mining-" aria-controls="accordion-content-1515090490570-ds-8008-nlp--text-mining-" aria-expanded="false">
+                            DS 8008 NLP (Text Mining)
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1515090490570-ds-8008-nlp--text-mining-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1515090490570-ds-8008-nlp--text-mining-">
+                    <div class="panel-body ">
+                        <div class="1515090490570 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ba74aad2-39d3-45b7-8459-91f2f0bce3ba" >
+
+    <p>The course covers important topics in text mining including: basic natural language processing techniques, document representation, text categorization and clustering, document summarization, sentiment analysis, social network and social media analysis, probabilistic topic models and text visualization. Prerequisites: DS8002 and DS8003</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ba74aad2-39d3-45b7-8459-91f2f0bce3ba");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1515090584826-ds-8009-special-topics-in-data-science-and-analytics" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1515090584826-ds-8009-special-topics-in-data-science-and-analytics" aria-controls="accordion-content-1515090584826-ds-8009-special-topics-in-data-science-and-analytics" aria-expanded="false">
+                            DS 8009 Special Topics in Data Science and Analytics
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1515090584826-ds-8009-special-topics-in-data-science-and-analytics" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1515090584826-ds-8009-special-topics-in-data-science-and-analytics">
+                    <div class="panel-body ">
+                        <div class="1515090584826 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="cf02d7b7-e5d8-49a5-af90-ad4fd203b76c" >
+
+    <p>This course consists of lectures, seminars and readings covering the latest advances and research in data science and analytics. The course description will be announced prior to scheduling of the course. Please note that this course may not be offered every year.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#cf02d7b7-e5d8-49a5-af90-ad4fd203b76c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534428930695-ds-8010-interactive-learning-in-decision-process" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1534428930695-ds-8010-interactive-learning-in-decision-process" aria-controls="accordion-content-1534428930695-ds-8010-interactive-learning-in-decision-process" aria-expanded="false">
+                            DS 8010 Interactive Learning in Decision Process
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534428930695-ds-8010-interactive-learning-in-decision-process" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534428930695-ds-8010-interactive-learning-in-decision-process">
+                    <div class="panel-body ">
+                        <div class="1534428930695 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="93035eed-ead3-477c-80c0-ba6e6372b5c5" >
+
+    <p>This course focuses on topics related to reinforcement learning. The course will cover making multiple-stage decisions under uncertainty, heuristic search in planning, Markov decision processes, dynamic programming, temporal-difference learning including Q-learning, Monte Carlo reinforcement learning methods, function approximation methods, and the integration of learning and planning. Other topics can be included as well. Prerequisites: DS8002</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#93035eed-ead3-477c-80c0-ba6e6372b5c5");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534428957388-ds-8011-bayesian-statistics-and-machine-learning" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1534428957388-ds-8011-bayesian-statistics-and-machine-learning" aria-controls="accordion-content-1534428957388-ds-8011-bayesian-statistics-and-machine-learning" aria-expanded="false">
+                            DS 8011 Bayesian Statistics and Machine Learning
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534428957388-ds-8011-bayesian-statistics-and-machine-learning" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534428957388-ds-8011-bayesian-statistics-and-machine-learning">
+                    <div class="panel-body ">
+                        <div class="1534428957388 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="1653452f-c7a2-4f8c-a3be-41f34e3f7d47" >
+
+    <p>This course will cover modern machine learning techniques from a Bayesian probabilistic perspective. Bayesian probability allows us to model and reason about all types of uncertainty. The result is a powerful, consistent framework for approaching many problems that arise in machine learning, including parameter estimation, model comparison, and decision making. We will begin with a high-level introduction to Bayesian inference, then proceed to cover more-advanced topics. Prerequisites: DS8002.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#1653452f-c7a2-4f8c-a3be-41f34e3f7d47");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1570138885875-ds-8013-deep-learning" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1570138885875-ds-8013-deep-learning" aria-controls="accordion-content-1570138885875-ds-8013-deep-learning" aria-expanded="false">
+                            DS 8013 Deep Learning
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1570138885875-ds-8013-deep-learning" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1570138885875-ds-8013-deep-learning">
+                    <div class="panel-body ">
+                        <div class="1570138885875 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0c6e93ed-e3a6-4f0c-b534-b958c82b64c3" >
+
+    <p>The course aims to present the mathematical, statistical and computational challenges of building stable representations for high-dimensional data, such as images, text and data. The topics include: Convolutional neural networks. Autoencoders, their sparse, denoising variants, and their training. Regularization methods for preventing overfitting. Stacked autoencoders and end-to-end networks. Recurrent and recursive networks. Multimodal approaches. Deep architectures for vision, speech, natural language processing, and reinforcement learning. Prerequisite: DS8002. &nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0c6e93ed-e3a6-4f0c-b534-b958c82b64c3");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594321535320-ds8014-graph-mining" role="tab" data-toggle="collapse" data-parent="#f2672719-f4cf-488c-8389-80b0de3ba8ef" href="#accordion-content-1594321535320-ds8014-graph-mining" aria-controls="accordion-content-1594321535320-ds8014-graph-mining" aria-expanded="false">
+                            DS8014 Graph Mining
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594321535320-ds8014-graph-mining" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594321535320-ds8014-graph-mining">
+                    <div class="panel-body ">
+                        <div class="1594321535320 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b9028f88-0e26-4463-9b74-170b69f20112" >
+
+    <p>This course will cover methods and practical algorithms for exploring and analyzing graphs. We will also cover applications in various domains (e.g., web, social science, computer networks, neuroscience). The topics that we will cover include ranking, label propagation, clustering and community detection, similarity, and anomaly detection in the graph setting, and tools&nbsp; to handle graph data. Students will have the chance to programmatically<br> analyze graph datasets.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b9028f88-0e26-4463-9b74-170b69f20112");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="47c3c1c0-ee41-4634-98c1-a9e02aaaedc5" >
+
+    
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#47c3c1c0-ee41-4634-98c1-a9e02aaaedc5");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="54435004-6443-46b0-b6ea-72157aafc388" >
+
+    <p>Other elective courses are offered by other graduate programs at Ryerson University. Enrollment in these courses is contingent on course availability (not all courses are offered in Winter term or every year), space availability and are subject to approval from the Program Director and the instructor of a particular course. Please note that students are strongly encouraged to prioritize program electives above when choosing their elective courses.</p> 
+<p>The list of these courses and their academic definitions are available in the&nbsp;<a href="https://www.ryerson.ca/graduate/calendar/programs-and-courses/data-science-analytics/">Graduate Calendar.</a></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#54435004-6443-46b0-b6ea-72157aafc388");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    3. Seminar Courses
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="9c5b6e67-77ea-48ee-ae65-8a6f11643b2a" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1499775724638-ds-8005-soft-skills--communication-and-ethics-" role="tab" data-toggle="collapse" data-parent="#9c5b6e67-77ea-48ee-ae65-8a6f11643b2a" href="#accordion-content-1499775724638-ds-8005-soft-skills--communication-and-ethics-" aria-controls="accordion-content-1499775724638-ds-8005-soft-skills--communication-and-ethics-" aria-expanded="false">
+                            DS 8005 Soft Skills, Communication and Ethics 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499775724638-ds-8005-soft-skills--communication-and-ethics-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499775724638-ds-8005-soft-skills--communication-and-ethics-">
+                    <div class="panel-body ">
+                        <div class="1499775724638 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="78682086-7217-4c93-a5ef-0b43c0bdf423" >
+
+    <p>The course will focus on communicating and presenting data analytics and modeling results. It aims at building the competency in story telling from numbers. The course also covers ethical and social impacts of data science, analytics and AI. Prerequisite: DS8012</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#78682086-7217-4c93-a5ef-0b43c0bdf423");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534429273725-ds8012-research-skills" role="tab" data-toggle="collapse" data-parent="#9c5b6e67-77ea-48ee-ae65-8a6f11643b2a" href="#accordion-content-1534429273725-ds8012-research-skills" aria-controls="accordion-content-1534429273725-ds8012-research-skills" aria-expanded="false">
+                            DS8012 Research Skills
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534429273725-ds8012-research-skills" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534429273725-ds8012-research-skills">
+                    <div class="panel-body ">
+                        <div class="1534429273725 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="885c6e12-cde0-4a43-baa2-efd188bb73b4" >
+
+    <p>This course will be an introduction to research preparation, experimental design, methods of data collection, exploratory data analysis, and understanding threats to validity of results with aim to prepare student for MRP work.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#885c6e12-cde0-4a43-baa2-efd188bb73b4");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    4. Major Research Project
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b311b365-d864-499f-9269-bbf775f05b2f" >
+
+    <p>The student is required to conduct an applied advanced research project. The project will be carried out under the guidance of a supervisor. On completion of the project, the results are submitted in a technical report format to an examining committee and the student will make an oral presentation of the report to the committee for assessment and grading of the report. The student is expected to provide evidence of competence in the carrying out of a technical project and present a sound understanding of the material associated with the research project. This is a “Milestone.”</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b311b365-d864-499f-9269-bbf775f05b2f");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="contact resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="fe6a0841-3d72-4af6-94b5-216f86c1422f" >
+
+    <p><strong>Yeates School of Graduate Studies<br> </strong>1 Dundas St. West (11th floor)<br> Toronto, ON M5S 2Z3</p> 
+<p>&nbsp;</p> 
+<p><strong>CONTACT US<br> Email:</strong>&nbsp;<a href="mailto:grdadmit@ryerson.ca">grdadmit@ryerson.ca</a><br> <strong>Website:</strong>&nbsp;<a href="/graduate/admissions">www.ryerson.ca/graduate/admissions</a><strong><br> Phone:</strong>&nbsp;(416) 979-5150<br> <strong>Fax:</strong>&nbsp;(416) 979-5153</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#fe6a0841-3d72-4af6-94b5-216f86c1422f");});</script></div>
+
+				</div>
+				<div class="col-md-6">
+					<div class="map resMap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-map">
+    
+        <div id="dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5" class="res-map-content res-map-placeholder" style="height: 300px;" aria-hidden="true">
+        	<div class="res-map-overlay res-map-600px">
+	        	<img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/map-marker.png" alt=""/>
+	        	<button>Click to Activate Map</button>
+        	</div>
+        </div>
+        <div class="sr-only">Map of 1 Dundas St. West Toronto, ON M5S 2Z3</div>
+        <script>
+        	jQuery(document).on('_initmaps', function(event) {
+                jQuery("#dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5 button").click(function() {
+                	jQuery("#dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5.res-map-placeholder").removeClass('res-map-placeholder');
+                    var isInResLocalFooter = true;
+                    var latLng = JSON.parse('{"lat": 43.6558668, "lng": -79.3819145}');
+                    if(!isInResLocalFooter) {
+                        if(latLng != null){
+                            drawDynamicMapByLatLng('dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5',latLng,'600px',18,false);
+                        } else{
+                            drawDynamicMapByAddress('dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5','1 Dundas St. West Toronto, ON M5S 2Z3','600px',18,false);
+                        }
+                    } else {
+                        if(latLng != null){
+                            drawStaticMapByLatLng('dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5',latLng,'1 Dundas St. West Toronto, ON M5S 2Z3','1140px','600px',18,false);
+                        } else{
+                            drawStaticMapByAddress('dd8bd30b-e67f-47ef-b4f8-6e589e96bcd5','1 Dundas St. West Toronto, ON M5S 2Z3','1140px','600px',18,false);
+                        }
+                    }
+                });
+            });
+        </script>
+    
+    
+    
+</div>
+</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<div class="content_one resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b3419ab6-cdb7-415d-a81d-4a860762e1bd" >
+
+    <div>
+ <strong></strong>
+</div>
+<div>
+ <ul></ul>
+</div>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b3419ab6-cdb7-415d-a81d-4a860762e1bd");});</script></div>
+
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<div class="content_two resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="96f217a3-3dd5-4ac5-b3e1-51e7b87896ae" >
+
+    <div>
+ <strong></strong>
+</div>
+<div>
+ <ul></ul>
+</div>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#96f217a3-3dd5-4ac5-b3e1-51e7b87896ae");});</script></div>
+
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<div class="content_three resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="98fa5d5a-a04b-4c45-ba7f-b57a5e888951" >
+
+    <div>
+ <strong></strong>
+</div>
+<div>
+ <ul></ul>
+</div>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#98fa5d5a-a04b-4c45-ba7f-b57a5e888951");});</script></div>
+
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<div class="social_links resSocialLinks">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="res-link-buttons text-right">
+
+
+    
+    
+        <ul class="list-inline">
+            
+            <li>
+                <a href="https://www.facebook.com/ryersonu">
+                    <i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://twitter.com/ryersonu">
+                    <i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://www.youtube.com/ryersonutube">
+                    <i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            
+        </ul>
+    
+
+</div>
+</div>
+
+				</div>
+			</div> 
+
+			
+		</div>
+	</div>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'GDFLIEMHOBFLEODHPGKMLFCLECJPFJOHJPGMKNIPKGHPCPEAJLGEPEHOJFMCIFKAHJABNFDFAADDIGLLIEMAJACNAALBMGIFALBGMBFIHAHKPMJLIEJGMJFFHAJPFDKL',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'GJEINEGCPDLELHCCLCHOPDFJEPJJPMBEKCBAIFDJKIMNAJBHGDDGLKJEKDNAGAKAHFDBEIDJAALAFMCGCBLAEEKLAAGHALLGJGHKJIHEBHBBACEGJOELCOJLJNMPOGBJ',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

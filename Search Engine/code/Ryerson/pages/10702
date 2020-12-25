@@ -1,0 +1,4516 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/google/getting-started/google-groups/guide/" >
+		<meta property="og:title" content="Google Groups Guide" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/google/getting-started/google-groups/guide/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Google Groups Guide"> 
+		 
+        
+        
+        <title>Google Groups Guide - G Suite Website - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/google/">
+				        G Suite at Ryerson University
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/google.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#e9fe9aa4-5aac-49cd-8e14-207aa3efc086" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="e9fe9aa4-5aac-49cd-8e14-207aa3efc086">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/google/why-gsuite-apps/'>Why G Suite?</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/privacy/'>Privacy and Security</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/access-apps/'>Access G Suite</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/teach-with-gsuite-apps/'>Teach with G Suite</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/guides/'>How-To Guides</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+        		<main id="mainContent" class="content-area-section col-md-9 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Google Groups Guide</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="728dead9-21f2-404a-a1f7-efa2d4a6cd69">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<a class="imageOverlayLink" href="/google/getting-started/google-groups/">
+<img src="/content/dam/google/getting-started/google-groups/guide/back-to-groups-help-center.png" alt="Back to Google Groups Help Centre"/>
+
+
+
+</a>   
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<div class="caption richtextContent">
+	<h2>Contents</h2> 
+<ul> 
+ <li><a href="#getstarted">Getting Started</a></li> 
+ <li><a href="#groupfeatures">Group Features</a></li> 
+ <li><a href="#howtouse">How to Use</a> 
+  <ul> 
+   <li><a href="#groupmembers">Group Members</a></li> 
+   <li><a href="#adjustsettings">Adjust Settings</a></li> 
+  </ul> </li> 
+</ul>
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#728dead9-21f2-404a-a1f7-efa2d4a6cd69');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "728dead9-21f2-404a-a1f7-efa2d4a6cd69"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e02993f5-e74e-4e8d-80f6-9e18a5875eeb" >
+
+    <p><a name="getstarted" id="getstarted"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e02993f5-e74e-4e8d-80f6-9e18a5875eeb");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="abe1245e-0585-4b83-b824-56a4a45a4624">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-1.png" alt="group of three students"/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Getting Started
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#abe1245e-0585-4b83-b824-56a4a45a4624');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "abe1245e-0585-4b83-b824-56a4a45a4624"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="0e5ccea4-0c33-4153-a9b0-b0bf959e99d1" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("0e5ccea4-0c33-4153-a9b0-b0bf959e99d1", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498846782716-mailing-lists" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498846782716-mailing-lists" aria-controls="accordion-content-1498846782716-mailing-lists" aria-expanded="false">
+                            Mailing Lists
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498846782716-mailing-lists" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498846782716-mailing-lists">
+                    <div class="panel-body ">
+                        <div class="1498846782716 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="235219dc-e077-4a0b-ab66-7c64d590acee" >
+
+    <p>Google Groups allows you to create and participate in an online forum with a shared group.&nbsp;Google Groups allows you to read group posts through an online interface, to schedule group meetings, and to share Google Calendars and Google Documents with the group. Google Groups is available on request from faculty and staff.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#235219dc-e077-4a0b-ab66-7c64d590acee");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498846796346-requesting-a-mailing-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498846796346-requesting-a-mailing-list" aria-controls="accordion-content-1498846796346-requesting-a-mailing-list" aria-expanded="false">
+                            Requesting a Mailing List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498846796346-requesting-a-mailing-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498846796346-requesting-a-mailing-list">
+                    <div class="panel-body ">
+                        <div class="1498846796346 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ffe0d30d-b656-4c29-890f-cd533ec6281c" >
+
+    <p>Faculty and staff can fill the Mailing List (Google Group) Request Form available at&nbsp;<a href="https://my.ryerson.ca/">my.ryerson.ca</a>. To do so:</p> 
+<ol> 
+ <li>Log into the my.ryerson portal with your my.ryerson username and password.</li> 
+ <li>Under the 'Self Service' module, click on&nbsp;<strong>Courses and Organizations</strong>.</li> 
+ <li>Under the 'Requests' section, click on&nbsp;<strong>Mailing List (Google Group)</strong>.</li> 
+ <li>Select&nbsp;<strong>Request a Mailing List</strong></li> 
+</ol> 
+<p>Select the list type that you would like to use.&nbsp; The three available are:<br> <a href="http://www.ryerson.ca/google/getting-started/google-groups/guide.html#accordion-1499193754905-course-mailing-list">Course</a>,&nbsp;<a href="http://www.ryerson.ca/google/getting-started/google-groups/guide.html#accordion-1499193841389-program-mailing-list">Program</a>&nbsp;and&nbsp;<a href="http://www.ryerson.ca/google/getting-started/google-groups/guide.html#accordion-1499193848948-general-purpose-mailing-list">General Purpose</a>&nbsp;mailing list.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ffe0d30d-b656-4c29-890f-cd533ec6281c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499263779469-filling-a-course-mailing-list-request" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499263779469-filling-a-course-mailing-list-request" aria-controls="accordion-content-1499263779469-filling-a-course-mailing-list-request" aria-expanded="false">
+                            Filling a Course Mailing List Request
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499263779469-filling-a-course-mailing-list-request" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499263779469-filling-a-course-mailing-list-request">
+                    <div class="panel-body ">
+                        <div class="1499263779469 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="80a815f6-997a-4666-a4ff-b86d025ca687" >
+
+    <p>After following the steps for Requesting a Mailing List, proceed with:</p> 
+<ol> 
+ <li>Select the option of&nbsp;<strong>Course</strong>&nbsp;list type.</li> 
+ <li>Choose either a one-term mailing list or a two-term list.</li> 
+ <li>Click all the courses that you want to be included in your course list.</li> 
+ <li>Click&nbsp;<strong>Submit</strong>.</li> 
+</ol> 
+<p>You will receive an email confirmation sent to your @ryerson.ca address once the course&nbsp; mailing list is created.</p> 
+<p>Note: You must use an @ryerson.ca account to administer a Google Groups course list. You can add a non @ryerson.ca address as an additional poster to your course list.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#80a815f6-997a-4666-a4ff-b86d025ca687");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499263790237-filling-a-program-mailing-list-request" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499263790237-filling-a-program-mailing-list-request" aria-controls="accordion-content-1499263790237-filling-a-program-mailing-list-request" aria-expanded="false">
+                            Filling a Program Mailing List Request
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499263790237-filling-a-program-mailing-list-request" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499263790237-filling-a-program-mailing-list-request">
+                    <div class="panel-body ">
+                        <div class="1499263790237 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="80ebb04e-6a5f-437c-a9a3-0d0ab9e91c69" >
+
+    <p>After following the steps for Requesting a Mailing List, proceed with:</p> 
+<ol> 
+ <li>Select the option of&nbsp;<strong>Program</strong>&nbsp;list type.</li> 
+ <li>Select the&nbsp;<strong>Program Code</strong>&nbsp;from the drop down menu (mandatory).</li> 
+ <li>Select the appropriate&nbsp;<strong>Program Year</strong>&nbsp;for the chosen code (mandatory).</li> 
+ <li>Click the applicable&nbsp;<strong>Academic Plan</strong>&nbsp;(optional).</li> 
+ <li>Click&nbsp;<strong>Add Program</strong>&nbsp;if you want to add more codes and repeat steps 2 to 5.</li> 
+ <li>Click&nbsp;<strong>Submit</strong>.</li> 
+</ol> 
+<p>You will receive an email confirmation sent to your @ryerson.ca address once the program mailing list is created.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#80ebb04e-6a5f-437c-a9a3-0d0ab9e91c69");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499263806862-filling-a-general-purpose-mailing-list-request" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499263806862-filling-a-general-purpose-mailing-list-request" aria-controls="accordion-content-1499263806862-filling-a-general-purpose-mailing-list-request" aria-expanded="false">
+                            Filling a General Purpose Mailing List Request
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499263806862-filling-a-general-purpose-mailing-list-request" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499263806862-filling-a-general-purpose-mailing-list-request">
+                    <div class="panel-body ">
+                        <div class="1499263806862 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f30f2db8-60ee-41e5-be24-2045ccd4796e" >
+
+    <p>After following the steps for Requesting a Mailing List, proceed with:</p> 
+<ol> 
+ <li>Select the option of&nbsp;<strong>General Purpose</strong>&nbsp;list type.</li> 
+ <li>Provide the following information:
+  <ul> 
+   <li>requested mailing list email address</li> 
+   <li>requested mailing list name to be displayed</li> 
+   <li>purpose of this list (the list must be used for Ryerson purposes)</li> 
+   <li>approximate number of list members</li> 
+   <li>approximate number of postings per week</li> 
+  </ul> </li> 
+ <li>Click&nbsp;<strong>Submit</strong>.</li> 
+</ol> 
+<p>You will receive an email confirmation sent to your @ryerson.ca address once the general purpose mailing list is created.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f30f2db8-60ee-41e5-be24-2045ccd4796e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498847098920-membership-limits" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498847098920-membership-limits" aria-controls="accordion-content-1498847098920-membership-limits" aria-expanded="false">
+                            Membership Limits
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498847098920-membership-limits" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498847098920-membership-limits">
+                    <div class="panel-body ">
+                        <div class="1498847098920 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8d667432-1c85-4cac-89cb-b3b841edaa17" >
+
+    <p>Please see <a href="https://support.google.com/a/answer/6099642?hl=en&amp;topic=14869&amp;ctx=topic&amp;visit_id=1-636347885250398457-766620169&amp;rd=1" target="_blank">Google Groups Policies and Limits<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a> for more information.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8d667432-1c85-4cac-89cb-b3b841edaa17");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498847108848-member-invitation-addition-limits" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498847108848-member-invitation-addition-limits" aria-controls="accordion-content-1498847108848-member-invitation-addition-limits" aria-expanded="false">
+                            Member Invitation/Addition Limits
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498847108848-member-invitation-addition-limits" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498847108848-member-invitation-addition-limits">
+                    <div class="panel-body ">
+                        <div class="1498847108848 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ff6c94a6-6dca-4147-9679-2a3e2524e285" >
+
+    <p>Please see&nbsp;<a href="https://support.google.com/a/answer/6099642?hl=en&amp;topic=14869&amp;ctx=topic&amp;visit_id=1-636347885250398457-766620169&amp;rd=1">Google Groups Policies and Limits<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a>&nbsp;for more information.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ff6c94a6-6dca-4147-9679-2a3e2524e285");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9d77ee28-1b30-4d48-8ce7-83f810691edb" >
+
+    <p><a name="groupfeatures" id="groupfeatures"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9d77ee28-1b30-4d48-8ce7-83f810691edb");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="9f7a7013-5502-4dd2-b287-b4967c4c5a90">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-2.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Group Features
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#9f7a7013-5502-4dd2-b287-b4967c4c5a90');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "9f7a7013-5502-4dd2-b287-b4967c4c5a90"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="9d13c176-6f01-4c71-b0d7-5b4f40ea782f" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("9d13c176-6f01-4c71-b0d7-5b4f40ea782f", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193754905-course-mailing-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193754905-course-mailing-list" aria-controls="accordion-content-1499193754905-course-mailing-list" aria-expanded="false">
+                            Course Mailing List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193754905-course-mailing-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193754905-course-mailing-list">
+                    <div class="panel-body ">
+                        <div class="1499193754905 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4bbfa786-100b-450b-bc65-4ba363e21434" >
+
+    <p>Course mailing lists are offered to facilitate Ryerson's faculty to communicate with students in their courses. An instructor can request a list for a course/section they are currently teaching. These lists can be used for the distribution of information and also for online discussions with students. Only students taking your course in the current academic year will be included and &nbsp;provided access to this group.</p> 
+<p>The lists are active for the terms the course is running, e.g. for a two term course, if the instructor chose the two term option at the time of requesting the list, the list will be active for two terms.</p> 
+<p>Also see section <strong>Filling a Course Mailing List Request</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4bbfa786-100b-450b-bc65-4ba363e21434");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193841389-program-mailing-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193841389-program-mailing-list" aria-controls="accordion-content-1499193841389-program-mailing-list" aria-expanded="false">
+                            Program Mailing List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193841389-program-mailing-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193841389-program-mailing-list">
+                    <div class="panel-body ">
+                        <div class="1499193841389 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d0510195-04ac-4a1d-a3a5-744c3f8a7b43" >
+
+    <p>Program lists allow staff and instructors to communicate with students based on program code and year. Only students with the specified Program Code, Program Year and Academic Plan (optional) will be included in your list.</p> 
+<p>Lists can be separated by year so please specify the year(s) to include. Please keep in mind that students that are out of phase may appear on the wrong year. Moreover, those students that join the department and fast-track will also be in the wrong year. Yet, this separation by year works for the majority of students.</p> 
+<p>An authorization is required from the Chair, Dean, Director or Manager after you submit your request for Program mailing list. If you have not already done so, please ensure a&nbsp;Dean, Chair, Director or Manager sends an email authorizing your request to&nbsp;<a href="mailto:help@ryerson.ca">help@ryerson.ca</a>.</p> 
+<p>Also see section <strong>Filling a Program Mailing List Request</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d0510195-04ac-4a1d-a3a5-744c3f8a7b43");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193848948-general-purpose-mailing-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193848948-general-purpose-mailing-list" aria-controls="accordion-content-1499193848948-general-purpose-mailing-list" aria-expanded="false">
+                            General Purpose Mailing List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193848948-general-purpose-mailing-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193848948-general-purpose-mailing-list">
+                    <div class="panel-body ">
+                        <div class="1499193848948 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f3554071-9808-479a-bbcf-f0557030ec9d" >
+
+    <p>General Purpose mailing lists can be used for the Ryerson related purposes to communicate among Academic groups, committees and departments. Most of the staff and faculty lists fall under this category.</p> 
+<p>An authorization is required from the Chair, Dean, Director or Manager after you submit your request for General Purpose mailing list. If you have not already done so, please ensure a&nbsp;Dean, Chair, Director or Manager sends an email authorizing your request to&nbsp;<a href="mailto:help@ryerson.ca">help@ryerson.ca</a>.</p> 
+<p>Also see section <strong>Filling a General Purpose Mailing List Request</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f3554071-9808-479a-bbcf-f0557030ec9d");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193855850-accessing-my-mailing-lists-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193855850-accessing-my-mailing-lists-" aria-controls="accordion-content-1499193855850-accessing-my-mailing-lists-" aria-expanded="false">
+                            Accessing My Mailing Lists 
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193855850-accessing-my-mailing-lists-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193855850-accessing-my-mailing-lists-">
+                    <div class="panel-body ">
+                        <div class="1499193855850 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5982a7c1-fcfa-4be0-9400-57fb33b2553b" >
+
+    <ol> 
+ <li>Log into the <a href="https://my.ryerson.ca">my.ryerson portal</a>&nbsp;and look under&nbsp;<strong>Apps</strong>&nbsp;and click&nbsp;<strong>Google Groups</strong>.<br> or<br> Log into your Ryerson&nbsp;<strong>Gmail</strong>, click on the&nbsp;<strong>Apps</strong>&nbsp;icon in top right corner of the screen. Click on the&nbsp;<strong>Groups</strong>&nbsp;icon in the Apps box.</li> 
+ <li>Click on&nbsp;<strong>My groups</strong>&nbsp;from either the left side menu to see a list of all groups you are a member of.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5982a7c1-fcfa-4be0-9400-57fb33b2553b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193864576-reading-and-sending-a-message" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193864576-reading-and-sending-a-message" aria-controls="accordion-content-1499193864576-reading-and-sending-a-message" aria-expanded="false">
+                            Reading and Sending a Message
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193864576-reading-and-sending-a-message" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193864576-reading-and-sending-a-message">
+                    <div class="panel-body ">
+                        <div class="1499193864576 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9ac5a6cc-faa4-41b5-9f9d-179d1ddc9cdd" >
+
+    <p>You can read and, if you are given posting rights by the group Manager, you can send messages either through the web interface or through the email.</p> 
+<p><strong>Using the web interface:</strong></p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing my Mailing Lists</a>).</li> 
+ <li>Ensure you are on the&nbsp;<strong>My Groups</strong>&nbsp;screen via the left side menu. A list of all your subscribed groups appears.</li> 
+ <li>Click on a group name. The Topics screen appears with a list of all current topics. Notice that all of the unread posts are bolded.</li> 
+ <li>Click on the topic you want to read. The first post in the topic (created when the topic was created) is displayed on top followed by all responses.</li> 
+ <li>If you have posting rights, click on the&nbsp;<strong>Reply all</strong>&nbsp;button (left turning arrows) located under the message or to the right side of the date posted. A reply field appears with a formatting toolbar at the bottom.&nbsp;[The formatting toolbar does not show up for members, only managers].<p><em><br> Tip: Click on the&nbsp;<strong>Post reply</strong>&nbsp;button&nbsp;in the first post to reply to the original topic creator. Click on&nbsp;<strong>Reply to Author</strong>&nbsp;under&nbsp;<strong>More&nbsp;</strong>(three dots) to reply to the poster through private email. Click on&nbsp;<strong>Forward&nbsp;</strong>under&nbsp;<strong>More</strong>&nbsp;to forward the post to an email address.</em></p> </li> 
+ <li>Type your reply in the reply field.</li> 
+ <li>(optional) Format your reply using options in the formatting toolbar.</li> 
+ <li>Click the&nbsp;<strong>Post Message</strong>&nbsp;button to reply to that post.</li> 
+</ol> 
+<p>&nbsp;</p> 
+<p><strong>Using the email:</strong></p> 
+<p>If you have posting rights, you can send a message to your group without having to log into your Google Group's page. Simply send an email to the email address associated with your group (e.g.,&nbsp;<em>GroupAddress</em>@ryerson.ca).</p> 
+<ol> 
+ <li>Click on the email in your inbox. The contents of the email are displayed.</li> 
+ <li>Select&nbsp;<strong>Reply</strong>&nbsp;to respond to the whole group or&nbsp;<strong>Reply to all</strong>&nbsp;to respond to the whole group and sender. &nbsp;<br> Note: The&nbsp;<strong>Reply</strong>&nbsp;depends on the list setting for&nbsp;<strong>Post replies to</strong>&nbsp;option found in Group Settings (Enable Advanced in the top right) &gt; Email options. If set to&nbsp;<strong>The author of the message only</strong>, then the sender will receive the message.&nbsp;<br> </li> 
+ <li>Click&nbsp;<strong>Send</strong>&nbsp;to post your reply.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9ac5a6cc-faa4-41b5-9f9d-179d1ddc9cdd");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1499193870393-post-messages-on-behalf-of-the-group" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499193870393-post-messages-on-behalf-of-the-group" aria-controls="accordion-content-1499193870393-post-messages-on-behalf-of-the-group" aria-expanded="false">
+                            Post Messages on Behalf of the Group
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499193870393-post-messages-on-behalf-of-the-group" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499193870393-post-messages-on-behalf-of-the-group">
+                    <div class="panel-body ">
+                        <div class="1499193870393 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="68fc74a4-5b5e-4000-ad2a-dacc484e979a" >
+
+    <p>Group Managers can post a message as the Group rather than as their own personal account (the receiver will see the message from Group). This could be useful for departmental postings, newsletters, other communication with group members.</p> 
+<p>To enable posting as the group, select:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing my Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;and select the&nbsp;name of the group you want to edit.</li> 
+ <li>Click&nbsp;<strong>Group Settings</strong>&nbsp;in the left menu. (Note: If you cannot see the&nbsp;<strong>Group Settings</strong>&nbsp;button you are not the manager of the group).</li> 
+ <li>Select Posting Policies.</li> 
+ <li>Under the "Who can post as group" setting, select&nbsp;<strong>Group Managers</strong>&nbsp;(We recommend only allowing Group Managers to have this option).</li> 
+ <li>Press Save Changes.</li> 
+</ol> 
+<p>Once this group permission is set, if posting a new topic through the web interface, you can change the "From" field so that the message will be sent out as the Group's name displayed and not your own personal email address. To change the From field, click on your email address when in a reply or a new conversation and select the Group's name from the drop down menu.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#68fc74a4-5b5e-4000-ad2a-dacc484e979a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0e623baa-bc9c-4f11-a7db-ebb9b519e03e" >
+
+    <h2><a name="howtouse" id="howtouse"></a>How to Use&nbsp;</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0e623baa-bc9c-4f11-a7db-ebb9b519e03e");});</script></div>
+
+				
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="caf38899-1bda-45c6-b6d0-561afd58eaa8" >
+
+    <p><a name="groupmembers" id="groupmembers"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#caf38899-1bda-45c6-b6d0-561afd58eaa8");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="3db41aa3-01d7-4312-9008-f385edd598cc">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-3.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Group Members
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#3db41aa3-01d7-4312-9008-f385edd598cc');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "3db41aa3-01d7-4312-9008-f385edd598cc"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="314e8c38-c2ca-4714-8e92-110bf9c1fc72" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("314e8c38-c2ca-4714-8e92-110bf9c1fc72", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848657715-adding-members-to-my-groups" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848657715-adding-members-to-my-groups" aria-controls="accordion-content-1498848657715-adding-members-to-my-groups" aria-expanded="false">
+                            Adding Members To My Groups
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848657715-adding-members-to-my-groups" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848657715-adding-members-to-my-groups">
+                    <div class="panel-body ">
+                        <div class="1498848657715 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5111f086-6dd8-4040-961f-781a3d48456d" >
+
+    <p>Adding members to your list depends on what&nbsp;type of mailing list&nbsp;you have.</p> 
+<p><strong><br> Course and Program Mailing Lists</strong></p> 
+<p>The system itself will add members for both the Course mailing lists and Program mailing lists as updated student data is received from Enrolment Services every 24 hrs.</p> 
+<p>Any attempt to add members manually will be overwritten every night when the system refreshes itself. To add Managers or Members who can post to lists that are system generated like Course and Program lists, please email us&nbsp;at help@ryerson.ca.</p> 
+<p><strong><br> General Purpose Mailing Lists</strong></p> 
+<p>There are two ways to add members to your General Purpose mailing list (group). You can either use the Invite members option (where the member gets asked whether they would like to join your group) or you can use Direct add members option (where the members are added without being asked).</p> 
+<p><strong><br> Invite Members</strong></p> 
+<p>This method can only be used to invite Ryerson members with a Ryerson email address. To invite external (non-Ryerson) members, please use the&nbsp;<a href="#direct">Direct Add Members</a>&nbsp;method. To do so:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Click&nbsp;<strong>People &gt; members</strong>&nbsp;under the left-hand side menu.</li> 
+ <li>Click <strong>Add members</strong> (Note: If you cannot invite members you are not the manager of the group).</li> 
+ <li>Unselect the&nbsp;<strong>Directly add members</strong>&nbsp;option.</li> 
+ <li>Type email addresses of the people you want to invite in the Group members field, separated by commas.</li> 
+ <li>Write an invitation message.</li> 
+ <li>Review and click the&nbsp;<strong>Send invites</strong>&nbsp;button.</li> 
+</ol> 
+<p><strong>To review outstanding invites</strong>:</p> 
+<ol> 
+ <li>Select&nbsp;<strong>People &gt; Pending Members</strong>.</li> 
+</ol> 
+<p><strong><br> <a name="direct" id="direct"></a>Direct Add Members</strong></p> 
+<p>This option is used to add a member without asking for their permission. Manager and Owner permissions can also be given to new members in these steps. The steps are:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;<strong>&nbsp;name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Click&nbsp;<strong>People &gt; members</strong>&nbsp;under the left-hand side menu.</li> 
+ <li>Click&nbsp;<strong>Add members&nbsp;</strong>(Note: If you cannot invite members you are not the manager of the group).</li> 
+ <li>Ensure the <strong>Directly add members<strong>&nbsp;</strong></strong>option is selected.</li> 
+ <li>Type email addresses of the people you want to invite as members in the&nbsp;<strong>Group members</strong>&nbsp;field, separated by commas. If you want to add someone as a manager or owner type their name in the&nbsp;<strong>Group Managers</strong>&nbsp;or&nbsp;<strong>Group Owners</strong>&nbsp;field respectively.</li> 
+ <li>Write an invitation message.</li> 
+ <li>Review and click the&nbsp;<strong>Add members</strong>&nbsp;button.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5111f086-6dd8-4040-961f-781a3d48456d");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848662971-adding-external-members" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848662971-adding-external-members" aria-controls="accordion-content-1498848662971-adding-external-members" aria-expanded="false">
+                            Adding External Members
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848662971-adding-external-members" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848662971-adding-external-members">
+                    <div class="panel-body ">
+                        <div class="1498848662971 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="1d6084f9-5182-47aa-8289-0aa67eefd1e5" >
+
+    <p>By default, you should be able to add external users with non-Ryerson email addresses to your General Purpose groups directly. Use the&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1498848657715-adding-members-to-my-groups">Direct Add Members</a>&nbsp;method.</p> 
+<p>In case, you have problems, ensure to check these settings:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Select&nbsp;<strong>Group Settings &gt; Member Privacy</strong>.</li> 
+ <li>Ensure the&nbsp;<strong>Identification required for new members</strong>&nbsp;field has the option <strong>"Either display name or organization profile"</strong>&nbsp;selected.</li> 
+ <li>Select Group Settings &gt; General.</li> 
+ <li>Select <strong>On&nbsp;</strong>for <strong>Allow External Members</strong>.</li> 
+ <li>Press&nbsp;<strong>Save Changes</strong>.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#1d6084f9-5182-47aa-8289-0aa67eefd1e5");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848673003-assigning-posting-permissions-to-members" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848673003-assigning-posting-permissions-to-members" aria-controls="accordion-content-1498848673003-assigning-posting-permissions-to-members" aria-expanded="false">
+                            Assigning Posting Permissions to Members
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848673003-assigning-posting-permissions-to-members" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848673003-assigning-posting-permissions-to-members">
+                    <div class="panel-body ">
+                        <div class="1498848673003 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="97bf3821-76cc-4407-979c-6796c7588524" >
+
+    <ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Click&nbsp;<strong>People &gt; Members</strong>&nbsp;under the left-hand side menu.</li> 
+ <li>Search for a member in the search box at the top or select a member from the list.</li> 
+ <li>Make sure to check the box in front of the names of the selected members. (The box appears when your cursor hovers over the profile pictures)</li> 
+ <li>Click&nbsp;<strong>Change Posting</strong>&nbsp;in the top right and select <strong>Allowed</strong>.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#97bf3821-76cc-4407-979c-6796c7588524");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848678763-accepting-requests-to-join-your-group" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848678763-accepting-requests-to-join-your-group" aria-controls="accordion-content-1498848678763-accepting-requests-to-join-your-group" aria-expanded="false">
+                            Accepting Requests to Join Your Group
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848678763-accepting-requests-to-join-your-group" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848678763-accepting-requests-to-join-your-group">
+                    <div class="panel-body ">
+                        <div class="1498848678763 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="32152e2f-915b-4390-9ff9-48c888beaa1e" >
+
+    <p>To view and accept requests to join your group:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Click&nbsp;<strong>People &gt; Pending Members&nbsp;</strong>under the left-hand side menu.</li> 
+ <li>Click the checkbox next to the person who wishes to join your group. Two buttons appear: Approve applicant and Reject applicant.</li> 
+ <li>Click&nbsp;<strong>Approve applicant</strong>&nbsp;or&nbsp;<strong>Reject applicant</strong>&nbsp;beside the applicant.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#32152e2f-915b-4390-9ff9-48c888beaa1e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848683795-subscribe-to-an-existing-mailing-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848683795-subscribe-to-an-existing-mailing-list" aria-controls="accordion-content-1498848683795-subscribe-to-an-existing-mailing-list" aria-expanded="false">
+                            Subscribe to an Existing Mailing List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848683795-subscribe-to-an-existing-mailing-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848683795-subscribe-to-an-existing-mailing-list">
+                    <div class="panel-body ">
+                        <div class="1498848683795 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9b0a46fe-625a-4914-a42f-11c0ea46d626" >
+
+    <p>There are a few ways to subscribe to an existing mailing list. If this is a Course or Program list and you are student, you are automatically added because of your registration information. The Owner/Manager is responsible for the registration information used to populate these lists. Any changes are to be requested with an email to&nbsp;<a href="mailto:help@ryerson.ca">help@ryerson.ca</a>. &nbsp;&nbsp;</p> 
+<p>Faculty and Staff can ask to get access to lists using the following methods:</p> 
+<ol> 
+ <li>If you know the list Owner/Manager, you can contact them and ask to be added.</li> 
+ <li>You can <a href="https://support.google.com/groups/answer/1067205?hl=en">find an existing list and join using the web interface<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> for the Groups mailing list.</li> 
+ <li>Send a blank email to&nbsp;<a href="mailto:listname+subscribe@ryerson.ca">listname+subscribe@ryerson.ca</a>, replacing listname with the email address for the Groups list. The list Owner/Manager will receive your request and will approve your membership. Only for public lists you will be directly added to the list.</li> 
+</ol> 
+<p><strong>Note:</strong>&nbsp;List Managers are required to check their lists to see if there are any&nbsp;outstanding <a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1498848657715-adding-members-to-my-groups">invites</a>&nbsp;or&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1498848678763-accepting-requests-to-join-your-group">join requests</a>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9b0a46fe-625a-4914-a42f-11c0ea46d626");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848689995-unsubscribe-from-an-existing-mailing-list-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848689995-unsubscribe-from-an-existing-mailing-list-" aria-controls="accordion-content-1498848689995-unsubscribe-from-an-existing-mailing-list-" aria-expanded="false">
+                            Unsubscribe From an Existing Mailing List 
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848689995-unsubscribe-from-an-existing-mailing-list-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848689995-unsubscribe-from-an-existing-mailing-list-">
+                    <div class="panel-body ">
+                        <div class="1498848689995 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e7657480-3794-417d-9620-e971786b875b" >
+
+    <p>There are two ways to unsubscribe from a mailing list (choose&nbsp;<strong>either one</strong>&nbsp;of them):</p> 
+<ul> 
+ <li>You can leave multiple groups at a single time using the web interface. To do this: 
+  <ol> 
+   <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing my Mailing Lists</a>).</li> 
+   <li>Click&nbsp;<strong>My Groups</strong>&nbsp;and you will see a listing of all Google Groups lists you are subscribed to.</li> 
+   <li>Click&nbsp;<strong>Leave this group&nbsp;</strong>for all the groups you want to leave/unsubscribe. &nbsp;</li> 
+  </ol> </li> 
+ <li>Send a blank email to&nbsp;<a href="mailto:listname+unsubscribe@ryerson.ca">listname+unsubscribe@ryerson.ca</a>&nbsp; replacing listname with the email address for the Groups list. You may have to verify your email address. You will receive an email confirming that you have been removed from the Groups list.</li> 
+</ul> 
+<p>For students on Course or Program lists, you are automatically added because of your registration information and cannot unsubscribe.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e7657480-3794-417d-9620-e971786b875b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498848696235-subscribe-a-group-to-another-group" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498848696235-subscribe-a-group-to-another-group" aria-controls="accordion-content-1498848696235-subscribe-a-group-to-another-group" aria-expanded="false">
+                            Subscribe a Group to Another Group
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498848696235-subscribe-a-group-to-another-group" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498848696235-subscribe-a-group-to-another-group">
+                    <div class="panel-body ">
+                        <div class="1498848696235 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e39c0176-9127-486e-b9cc-545c92e51d11" >
+
+    <p>You can add or subscribe the Google groups you manage to another Google group that you manage.&nbsp;If you have a group A which needs to subscribe to group B, here is what to do:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;(group A from our example).</li> 
+ <li>Click&nbsp;<strong>People &gt; Members</strong>&nbsp;under the left-hand side menu.</li> 
+ <li>Click&nbsp;<strong>Add members</strong>. Decide if you will be adding this group B as a Group member or a Group manager and place the name of the group in the appropriate text box. Add a welcome message if you please and adjust the subscription level for the subgroup.<br> </li> 
+ <li>Fill in the name of the group you want to subscribe to (group B from our example) in the&nbsp;<strong>Add subscription</strong>&nbsp;field. Once added, the group subscription will be listed in the Subscriptions field.</li> 
+</ol> 
+<p>Note: Once a Google Group is added as a member to another group, it will be indicated at the top of the Google Group name where you see the count of members as 1 subgroup is part of the membership.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e39c0176-9127-486e-b9cc-545c92e51d11");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5d6f116d-250f-4d18-ba20-2d9ef1bf1022" >
+
+    <p><a name="adjustsettings" id="adjustsettings"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5d6f116d-250f-4d18-ba20-2d9ef1bf1022");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="0dbe1405-d1f3-4923-8a41-db6835324100">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-4.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Adjust Settings
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#0dbe1405-d1f3-4923-8a41-db6835324100');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "0dbe1405-d1f3-4923-8a41-db6835324100"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="e998e47e-8e58-4955-8fda-88bd9fea0759" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("e998e47e-8e58-4955-8fda-88bd9fea0759", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1559241486359-secure-your-groups" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1559241486359-secure-your-groups" aria-controls="accordion-content-1559241486359-secure-your-groups" aria-expanded="false">
+                            Secure your Groups
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1559241486359-secure-your-groups" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1559241486359-secure-your-groups">
+                    <div class="panel-body ">
+                        <div class="1559241486359 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="28e9d6b6-8d8a-4bdf-9c46-6c1eb0459c55" >
+
+    <p>You can audit access to your Google Group by going to the privacy section of your Group's About page. There you will see:</p> 
+<ul> 
+ <li>who can see the group</li> 
+ <li>who can view members</li> 
+ <li>who can view conversations</li> 
+ <li>who can post and any moderation on the posts</li> 
+ <li>who can join the group</li> 
+</ul> 
+<p>By default the discoverability of your group is set to "group members". Group members will be able to also view the group in search results and will be able to see the About page of the group. Non-group members will not be able to find the group or access it even if they have a link.</p> 
+<p>Under <strong>Group settings</strong> &gt;&nbsp;<strong>General&nbsp;</strong>&gt; <strong>Who can see group</strong>, you can now set your Group to be discoverable by:</p> 
+<ul> 
+ <li>Group members</li> 
+ <li>Organization members</li> 
+ <li>Anyone on the web</li> 
+</ul> 
+<p>As a group manager, you can choose to not store conversation history in Google Groups and have members only receive emails of all the posts. To turn off conversations history in Google Groups go to <strong>Group settings&gt;Posting policies&gt;Conversation history.</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#28e9d6b6-8d8a-4bdf-9c46-6c1eb0459c55");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498849808853-configure-email-options" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498849808853-configure-email-options" aria-controls="accordion-content-1498849808853-configure-email-options" aria-expanded="false">
+                            Configure Email Options
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498849808853-configure-email-options" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498849808853-configure-email-options">
+                    <div class="panel-body ">
+                        <div class="1498849808853 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d50c72e7-f1d8-4292-9f3f-b6243fcc2e42" >
+
+    <p>Using the Email Options menu, you can customize the emails sent to your group. These options will let you:</p> 
+<ul> 
+ <li>Add a subject prefix&nbsp;or&nbsp;email footer&nbsp;</li> 
+ <li>Set up an auto response</li> 
+ <li>Choose how replies are shared with the group</li> 
+ <li>Select the maximum size of&nbsp;a message sent to your group</li> 
+ <li>Tell people&nbsp;when a message they send isn't received by the group</li> 
+</ul> 
+<p>To change the following settings, go to:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;<strong>&nbsp;name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Go to&nbsp;<strong>Group Settings</strong>.</li> 
+ <li>Make your changes (all the given options are explained below) and click&nbsp;<strong>Save Changes&nbsp;</strong>at the</li> 
+</ol> 
+<p><strong>Subject Prefix</strong></p> 
+<p>Setting this option will add text to the subject lines of all messages posted to the group. It is&nbsp;<strong>recommended</strong>&nbsp;to surround a prefix with [ ] brackets. If you chose your group name to be added here, all email notifications subject lines will have <em>[yourgroupname]</em> as the prefix, e.g. <em>[acc101-year1]</em>.</p> 
+<p><strong>Email Footer</strong></p> 
+<p>Google Groups provides you with two choices for email footers, <strong>Standard Groups Footer&nbsp;</strong>and <strong>Include a custom footer</strong>. By selecting one or both of these options, you will have default text appearing on the bottom of your message.</p> 
+<p>With<strong>&nbsp;Standard Groups Footer</strong>&nbsp;selected and using "demogroup" as an example, your message will display as follows:</p> 
+<p>To unsubscribe from this group and stop receiving emails from it, send an email to demogroup+unsubscribe@ryerson.ca. To view this discussion on the web visit https://groups.google.com/a/ryerson.ca/d/msg/demo/topic-id/message-id</p> 
+<p>With <strong>Include a custom footer</strong>&nbsp;selected and using "demogroup" as an example, your message will display as follows:</p> 
+<p>--<br> This line is for custom footer text<br> ---</p> 
+<p>Any External email accounts will receive by default the following:<br> You received this message because you are subscribed to the Google Groups "demogroup" group.</p> 
+<p><strong>Auto Replies</strong></p> 
+<p>Setting this option will automatically send a response when someone emails your group.</p> 
+<ul> 
+ <li>Enable auto-reply to&nbsp;<strong>members</strong>&nbsp;inside the organization.</li> 
+ <li>Enable auto-reply to&nbsp;<strong>non-members</strong>&nbsp;inside the organization.</li> 
+ <li>Enable auto-reply to&nbsp;<strong>members</strong>&nbsp;outside the organization.</li> 
+ <li>Enable auto-reply to&nbsp;<strong>non-members</strong>&nbsp;outside the organization.</li> 
+</ul> 
+<p>Check the box next to the option you like best, then type your text into the box that appears below. You can select more than one box as well as different replies for members and non-members.</p> 
+<p><strong>Post Replies To</strong></p> 
+<p>Group managers can decide if an email is either automatically sent to the entire group, only to the author, or only to the managers (Ensure&nbsp;<strong>Advanced&nbsp;</strong>options are enabled in the top right).&nbsp;Check the box next to the option you like best:</p> 
+<ul> 
+ <li>All group members -&nbsp;Automatically send email replies to everyone in the Group.</li> 
+ <li>Group managers only - Only Group managers receive the email reply.</li> 
+ <li>Group owners only - Not recommended to use this option.&nbsp;</li> 
+ <li>The author of the message only -&nbsp;Sends a message to the original sender of the email.</li> 
+ <li>Sender choose recipient&nbsp;<strong>(default)</strong><br> 
+  <ul> 
+   <li>Selecting “Reply to author” will send the response to the person who sent the original message.</li> 
+   <li>Selecting “Reply all” will send the response to the entire Group, as well as the author of the original message.</li> 
+  </ul> </li> 
+ <li>A custom address - Specify an email address to receive all replies.</li> 
+</ul> 
+<p>If you are a member and want to know who will receive your response, you can click the&nbsp;<strong>Reply/To</strong>&nbsp;field within your email.</p> 
+<p><em><strong>Note:&nbsp;</strong>&nbsp;Resetting the&nbsp;<strong>Post Replies To</strong>&nbsp;option will not change the posting permissions for your list. If your list is set so that only Managers and Members with posting access can post, this will remain the same.</em></p> 
+<p><strong>Max Message Size is 25MB</strong><br> </p> 
+<p>The maximum size of a message you can send to the group is a maximum of 25MB.</p> 
+<p><strong>Rejected Message Notifications</strong></p> 
+<p>This option enables a group manager to let members know if the group does not receive a message. By default, rejected message notifications are&nbsp;<strong>not</strong>&nbsp;enabled for a Google Group.</p> 
+<p>To enable rejected message notifications, check the&nbsp;<strong>ON</strong>&nbsp;circle under Rejected message notifications. (Ensure&nbsp;<strong>Advanced</strong>&nbsp;options is enabled in the top right)</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d50c72e7-f1d8-4292-9f3f-b6243fcc2e42");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498849810477-configure-spam-settings" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498849810477-configure-spam-settings" aria-controls="accordion-content-1498849810477-configure-spam-settings" aria-expanded="false">
+                            Configure Spam Settings
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498849810477-configure-spam-settings" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498849810477-configure-spam-settings">
+                    <div class="panel-body ">
+                        <div class="1498849810477 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="56b39901-d498-4690-b760-0db6943eb222" >
+
+    <p>When your Google Group receives an email identified as spam, it will be held for review by group managers and will NOT be routed to recipients' spam folders.&nbsp;The group manager(s) will receive an email with the subject line:<br> </p> 
+<p><em>Moderator's spam report for [yourgroupaddress]@ryerson.ca</em></p> 
+<p>If the message has been incorrectly identified as spam, you can follow the link in the spam notification in order to approve and release the message.</p> 
+<p>Please note that the Group's spam filter is independent from the spam filters in each individual mailbox. In other words, a moderator may release a message from the Group's spam filter, but after being sent to the individual members of the group, the message may still get caught by each of their spam filters if identified as such.</p> 
+<p>You can change the way your spam is handled by going to&nbsp;<strong>Group Settings &gt; Posting Policies &gt; Spam message handling</strong>. (Ensure&nbsp;<strong>Advanced</strong>&nbsp;is enabled in the top right)</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#56b39901-d498-4690-b760-0db6943eb222");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498849818109-opt-out-of-email-notifications" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498849818109-opt-out-of-email-notifications" aria-controls="accordion-content-1498849818109-opt-out-of-email-notifications" aria-expanded="false">
+                            Opt Out of Email Notifications
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498849818109-opt-out-of-email-notifications" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498849818109-opt-out-of-email-notifications">
+                    <div class="panel-body ">
+                        <div class="1498849818109 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d683e933-6615-4b40-a8a9-d627ee30be41" >
+
+    <p>As a member of various lists/groups, you may want to receive No Emails for some time, eg. going on vacation etc.</p> 
+<p>To set the option of No Emails, follow:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong> and in the&nbsp;<strong>Subscription</strong>&nbsp;column of the group you wish to turn off emails for, select&nbsp;<strong>Each email</strong>&nbsp;dropdown button and select&nbsp;<strong>No Email</strong>.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d683e933-6615-4b40-a8a9-d627ee30be41");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498849835725-set-up-a-forum-like-group-list" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498849835725-set-up-a-forum-like-group-list" aria-controls="accordion-content-1498849835725-set-up-a-forum-like-group-list" aria-expanded="false">
+                            Set Up a Forum-Like Group List
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498849835725-set-up-a-forum-like-group-list" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498849835725-set-up-a-forum-like-group-list">
+                    <div class="panel-body ">
+                        <div class="1498849835725 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8f51bf82-7b6d-4fb7-9c86-8b076f560342" >
+
+    <ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;(group A from our example).</li> 
+ <li>Click <strong>Group settings </strong>&gt;<strong>&nbsp;Posting policies&nbsp;</strong>(Ensure <strong>Advanced</strong>&nbsp;is enabled in the top right).</li> 
+ <li>Uncheck&nbsp;<strong>Allow Email posting</strong>.</li> 
+ <li>Make sure&nbsp;<strong>Allow web posting</strong>&nbsp;option is checked.</li> 
+</ol> 
+<p>If the above settings are set, a user who emails the Group will get back a Delivery Status Notification (Failure) email that says, "Technical details of permanent failure: The group&nbsp;<em>yourgroup@ryerson.ca</em>&nbsp;does not allow posting through email."</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8f51bf82-7b6d-4fb7-9c86-8b076f560342");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1498849874647-update-email-bounce-status" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1498849874647-update-email-bounce-status" aria-controls="accordion-content-1498849874647-update-email-bounce-status" aria-expanded="false">
+                            Update Email Bounce Status
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1498849874647-update-email-bounce-status" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1498849874647-update-email-bounce-status">
+                    <div class="panel-body ">
+                        <div class="1498849874647 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="058564f9-b0e3-4e2f-82db-1b4019458720" >
+
+    <p>If a group member bounces a message delivered to the group, the member will enter a bounce state. Group Managers can view a list of bouncing group members by:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="/content/ryerson/google/getting-started/google-groups/guide.html#accordion-1499193855850-accessing-my-mailing-lists-">Accessing my Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;&nbsp;<strong>name of the group</strong>&nbsp;(group A from our example).</li> 
+ <li>Click&nbsp;<strong>People</strong>&nbsp;&gt;&nbsp;<strong>Members&nbsp;</strong>under the left-hand side menu.</li> 
+ <li>Click the&nbsp;<strong>Bouncing</strong>&nbsp;button at the top of the main screen. All the members whose email addresses are bouncing group messages are listed here.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#058564f9-b0e3-4e2f-82db-1b4019458720");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1539193682231-view-display-names" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1539193682231-view-display-names" aria-controls="accordion-content-1539193682231-view-display-names" aria-expanded="false">
+                            View Display Names
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1539193682231-view-display-names" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1539193682231-view-display-names">
+                    <div class="panel-body ">
+                        <div class="1539193682231 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="17cedc2c-276e-4152-a206-ec521542e4d3" >
+
+    <p>If the Display Name, on the All Members list is showing as "(not set)" you can reset the option to display employee names and students email addresses.&nbsp;</p> 
+<p>To change the following settings, go to:</p> 
+<ol> 
+ <li>Access Google Groups (refer to&nbsp;<a href="#accordion-1499193855850-accessing-my-mailing-lists-">Accessing My Mailing Lists</a>).</li> 
+ <li>Click&nbsp;<strong>My Groups</strong>&nbsp;&gt;<strong>&nbsp;name of the group</strong>&nbsp;you want to edit.</li> 
+ <li>Click&nbsp;<strong>Group settings&nbsp;</strong>from the left side panel.</li> 
+ <li>Scroll down to the&nbsp;<strong>Member privacy&nbsp;</strong>section.</li> 
+ <li>From the drop down menu called&nbsp;<strong>Identification required for new members</strong>, choose either of the three options.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#17cedc2c-276e-4152-a206-ec521542e4d3");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Quick Links
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonDefault">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://groups.google.com/a/ryerson.ca/" target="_blank">
+	                        	
+	                            <span>Login to Google Groups</span>
+	                        	<span class='sr-only'>, external link, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://www.ryerson.ca/ccs/services/applications/cas/login_help/" target="_blank">
+	                        	
+	                            <span>Login Help</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://support.google.com/groups/?hl=en" target="_blank">
+	                        	
+	                            <span>Google Groups Support Website</span>
+	                        	<span class='sr-only'>, external link, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://support.google.com/a/users/answer/9299934" target="_blank">
+	                        	
+	                            <span>Google Groups Cheat Sheet</span>
+	                        	<span class='sr-only'>, external link, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    What&#039;s new in Google Groups
+    
+        <i aria-hidden='true' class='icon fa fa-newspaper-o'></i>
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resNewsStack section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+	
+	
+		<div class="41fbcaa9-fb65-4da6-816a-27a991579e5a row">
+		
+			<div class="stackContentMain col-sm-12"></div>
+		</div>
+		<script>
+		jQuery(document).ready(function() {
+			jQuery(".41fbcaa9-fb65-4da6-816a-27a991579e5a .stackContentMain").initStackComponent({
+				type:"news",
+                uuid:"41fbcaa9-fb65-4da6-816a-27a991579e5a",
+		        url:"/content/ryerson/google/getting-started/google-groups/inheritedContent/jcr:content/resRightSidebar/content/resnewsstack",
+		        limit:"10",
+		        resultsPerPage:5,
+		        offset:"0",
+		        gridColumnClass:"col-lg-4 col-md-4 col-sm-12 col-xs-12",
+		        displayAs:"list",
+		        enableFilteringByTags:false,
+		        paginationType:"numbered",
+		        filterTags:[],
+		        tagDisplay:"uncategorized",
+		        tagFiltering:"additive",
+		        categorizedTags:[],
+		        enableSearch:false,
+		        displayItems:{
+		        	displayAuthor:false,
+		        	displayCategory:false,
+		        	displayDate:true,
+		        	displayTitle:"title",
+		        	displaySubTitle:false,
+		        	displaySummary:false,
+		        	displayTags:false
+		        },
+		        gridLayout:{
+		        	gridColumnClass:"col-lg-4 col-md-4 col-sm-12 col-xs-12",
+		        	deviceLarge:3,
+		        	deviceMedium:3,
+		        	deviceSmall:1,
+		        	deviceExtraXSmall:1
+		        }
+			})
+		});
+		</script>
+	
+
+</div>
+
+				</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="375591ac-b8a0-4113-9d23-dfa17d0fc6cb" >
+
+    <p><strong>Computing and Communications Services</strong></p> 
+<p> <a href="/ccs/contact/">Help Desk</a></p> 
+<p>&nbsp;Students:&nbsp;416-979-5000 x556840</p> 
+<p>&nbsp;Faculty:&nbsp;416-979-5000 x556806</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#375591ac-b8a0-4113-9d23-dfa17d0fc6cb");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e5aef8ed-75da-4afc-a18b-c85e680147d1" >
+
+    <p><strong>CCS Office</strong></p> 
+<p>LIB B-99 (Library Building - Basement)<br> 350 Victoria Street, Toronto, ON M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e5aef8ed-75da-4afc-a18b-c85e680147d1");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resMap section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-map">
+    
+        <div id="c1600361-c0a1-48ae-85ac-0c62c2dcc19b" class="res-map-content res-map-placeholder" style="height: 300px;" aria-hidden="true">
+        	<div class="res-map-overlay res-map-600px">
+	        	<img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/map-marker.png" alt=""/>
+	        	<button>Click to Activate Map</button>
+        	</div>
+        </div>
+        <div class="sr-only">Map of 350 Victoria Street, Toronto, ON, M5B 2K3, Canada</div>
+        <script>
+        	jQuery(document).on('_initmaps', function(event) {
+                jQuery("#c1600361-c0a1-48ae-85ac-0c62c2dcc19b button").click(function() {
+                	jQuery("#c1600361-c0a1-48ae-85ac-0c62c2dcc19b.res-map-placeholder").removeClass('res-map-placeholder');
+                    var isInResLocalFooter = true;
+                    var latLng = JSON.parse('{"lat": 43.65829859999999, "lng": -79.3807846}');
+                    if(!isInResLocalFooter) {
+                        if(latLng != null){
+                            drawDynamicMapByLatLng('c1600361-c0a1-48ae-85ac-0c62c2dcc19b',latLng,'600px',20,true);
+                        } else{
+                            drawDynamicMapByAddress('c1600361-c0a1-48ae-85ac-0c62c2dcc19b','350 Victoria Street, Toronto, ON, M5B 2K3, Canada','600px',20,true);
+                        }
+                    } else {
+                        if(latLng != null){
+                            drawStaticMapByLatLng('c1600361-c0a1-48ae-85ac-0c62c2dcc19b',latLng,'350 Victoria Street, Toronto, ON, M5B 2K3, Canada','1140px','600px',20,true);
+                        } else{
+                            drawStaticMapByAddress('c1600361-c0a1-48ae-85ac-0c62c2dcc19b','350 Victoria Street, Toronto, ON, M5B 2K3, Canada','1140px','600px',20,true);
+                        }
+                    }
+                });
+            });
+        </script>
+    
+    
+    
+</div>
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'JDALMKDDKLGECONOHMOPBBCCEKIDDHCIHMHHIJEHBGDAPHKBBGKGMCMMDKNMEHKEOKABEOKNAAANANLNFIDAKEKDAAFNEMGFHNCGCLMLAELALFBMNJJANDHODOKIFFJE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'PKNGHKCDIGCCLHAAEPNPAKLDFLJKIMAOHEDCNAONAMJOKADKCJJDNEEDNJEJLOOBPALBHBFFAAJLPMMMIMLAGMPIAAAMEEKHDPDPIPIBKOPEOCDOEIEOBEGNJEGFCFIE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

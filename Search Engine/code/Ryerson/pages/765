@@ -1,0 +1,3377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="shortcut icon" href="/static/img/ryerson.favicon.jpg"/>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Expertise Finder"/>
+<meta name="copyright" content="Copyright Expertise Finder"/>
+
+<title>Faculty of Arts &bull; Ryerson University Faculty Experts</title>
+
+
+<meta name="description" content="Search and connect with experts in Faculty of Arts. It's fast and free."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="INDEX, FOLLOW, NOARCHIVE, NOODP, NOYDIR"/>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="/static/js/typeahead.bundle.min.js"></script>
+<script src="/static/js/jquery.mark.min.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/static/css/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/static/css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+<!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/tippy.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@charset "utf-8";
+
+@font-face
+{
+    font-family: 'proxima-reg';
+    src: url('/static/fonts/proxima_nova_regular.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-italic';
+    src: url('/static/fonts/proxima_nova_italic.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-bold';
+    src: url('/static/fonts/proxima_nova_bold.otf') format('opentype');
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    font-family: 'proxima-reg', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+html, body, p, div, button, input, select, textarea, .pure-g [class *= "pure-u"]
+{
+    font-family: 'proxima-reg', sans-serif;
+    font-size: 18px;
+}
+
+.notxtstyle
+{
+    text-decoration: none;
+}
+
+.bold
+{
+    font-family: 'proxima-bold', sans-serif;
+}
+
+.italic
+{
+    font-family: 'proxima-italic', sans-serif;
+}
+
+.rf
+{
+    float: right;
+}
+
+.lf
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: red;
+}
+
+.blockify 
+{
+    display: block;
+}
+
+.iblockify 
+{
+    display: inline-block;
+}
+
+#globalwrapper
+{
+    background-color: #E6E6E6;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.grayBorderedBox
+{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    border-collapse: separate;
+}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65257357-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65257357-1');
+</script>
+
+
+<style type="text/css">
+#mainHeader
+{
+    background-color: white; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    z-index: 1030; 
+    
+    padding-top: 15px; 
+    
+}
+
+#top_notification
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffaa;
+    margin-top: 15px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 39px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.label
+{
+    color: #fff;
+    background-color: #d73d32;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.activeSettingsBtn, .settingsBtn
+{
+    content: "";
+    height: 5px; 
+    width: 30px;
+    float: left;
+    margin: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activeSettingsBtn
+{
+    border-top: 5px solid #0078E7; 
+    border-bottom: 15px double #0078E7; 
+}
+
+.settingsBtn
+{
+    border-top: 5px solid black; 
+    border-bottom: 15px double black; 
+}
+
+#settingsMenu
+{
+    position: fixed;
+    z-index: 2000;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    top: -999px;
+    left: -999px;
+}
+
+.txt-nav-btn, .icon-nav-btn
+{
+    margin: 0 1% 0 0;
+    float: right;
+}
+
+.txt-nav-btn
+{
+    min-width: 6%;
+}
+
+#logoHolder
+{
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+#searchholder
+{
+    width: 33%;
+    display: inline-block;
+    margin: 0 0 0 1%;
+}
+
+#searchholder2
+{
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+nav form, #searchholder2 form 
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+nav form input, #searchholder2 form input 
+{
+    outline: none;
+}
+
+nav form input[type="text"], #searchholder2 form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#searchBtn, #searchBtn2
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+}
+
+footer
+{
+    background-color: white; 
+    padding: 15px 2%; 
+    margin: 0; 
+    border-top: 2px solid #d3d3d3;
+}
+
+#orgAddress, #poweredBy
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#orgAddress
+{
+    float: left;
+}
+
+#poweredBy
+{
+    float: right;
+    text-align: center;
+}
+
+.twitter-typeahead {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.typeahead 
+{
+    background-color: #fff;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-size: 1.2em !important;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100% !important;
+    padding: 3px 65px 3px 10px !important;
+    -webkit-transition: border-color 1s ease !important; 
+    -moz-transition: border-color 1s ease !important; 
+    -o-transition: border-color 1s ease !important; 
+    transition: border-color 1s ease !important;
+    outline: none !important;
+}
+
+.tt-menu 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tt-suggestion 
+{
+    padding: 3px 65px 3px 10px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tt-suggestion:hover 
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion.tt-cursor 
+{
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion p 
+{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #top_notification
+    {
+        height: 50px; 
+        padding: 0 7%;
+    }
+
+    .txt-nav-btn, .icon-nav-btn
+    {
+        margin: 0 15px 0 0;
+    }
+
+    .txt-nav-btn
+    {
+        width: 140px;
+    }
+
+    .icon-nav-btn
+    {
+        width: 40px;
+    }
+
+    #searchholder, #searchholder2, #logoHolder
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #logoHolder a 
+    {
+        margin: 0 auto 15px auto;
+    }
+
+    #searchholder > div, #searchholder2 > div
+    {
+        clear: both;
+    }
+
+    #searchholder form, #searchholder2 form
+    {
+        width: 250px;
+        margin: 0 15px 0 0;
+        float: right;
+    }
+
+    #searchholder form input[type="text"], #searchholder2 form input[type="text"]
+    {
+        width: 250px;
+    }
+
+    footer 
+    {
+        padding: 15px; 
+    }
+
+    #orgAddress, #poweredBy
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #orgAddress
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .typeahead 
+    {
+        background-color: #fff;
+        -moz-box-sizing: border-box !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        font-size: 1.2em !important;
+        min-height: 40px;
+        border: 1px solid rgba(0,0,0,0.3);
+        width: 250px;
+        padding: 3px 65px 3px 10px !important;
+        -webkit-transition: border-color 1s ease !important; 
+        -moz-transition: border-color 1s ease !important; 
+        -o-transition: border-color 1s ease !important; 
+        transition: border-color 1s ease !important;
+        outline: none !important;
+    }
+}
+</style>
+
+<style type="text/css">
+#sresults {
+  margin: 0 2%;
+  min-width: 750px;
+  padding: 0;
+}
+
+.sresult {
+  width: 240px;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.sresult:hover {
+  border: 1px solid #a3a3a3;
+}
+
+.sresultphoto {
+  width: 140px;
+  border-radius: 100%;
+  padding: 4px;
+  margin: 1em auto;
+  display: block;
+  border: 2px solid #d5d5d5;
+}
+
+.categories {
+  margin: 0.5em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.categories a {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.expertise {
+  list-style-type: none;
+  outline: 0;
+  margin: 0.5em 0;
+  padding: 0 1em;
+}
+
+.expertise li {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.3em;
+}
+
+.viewprofile {
+  background-color: #d73d32;
+  width: 88%;
+  margin: 0.5em auto 1em auto;
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.2em;
+}
+
+.linkify {
+  color: #0078E7;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    #sresults {
+        width: 300px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .sresult {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+}
+</style>
+
+</head>
+<body>
+<div id="globalwrapper">
+
+<nav id="mainHeader">
+<div id="logoHolder">
+<a href="http://ryerson.ca/" class="blockify" style="width: 100px;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/>
+</a>
+</div>
+<div id="searchholder">
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead" type="text" name="query" placeholder="Name or Expertise">
+<button id="searchBtn" type="submit" class="pure-button pure-button-primary" aria-label="Search"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<div></div>
+</div>
+<script type="text/javascript">
+var search_button = $('#searchBtn');
+var search_box = $('.typeahead');
+search_box.css('padding-right', search_button.outerWidth() + 20 + 'px');
+search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+
+var menuHTML = '<div id="flexMenu" class="pure-menu pure-menu-open"><ul> \
+<li><a href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a></li> \
+<li><a href="/">Faculty Experts - Home</a></li> \
+<li><a href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Faculty Signup</a></li> \
+</ul></div>';
+
+var buttonsHTML = '<a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a><a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="/">Faculty Experts - Home</a>';
+
+var slideMenu = function () {
+    var collapsed = $('.settingsBtn');
+    var opened = $('.activeSettingsBtn');
+    
+    if (collapsed.length)
+    {
+        collapsed.removeClass('settingsBtn');
+        collapsed.addClass('activeSettingsBtn');
+
+        var settingsMenu = $(document.createElement('div'));
+        settingsMenu.html(menuHTML);
+        settingsMenu.attr('id', 'settingsMenu');
+        settingsMenu.addClass('js-added');
+        $('#globalwrapper').prepend(settingsMenu);
+        settingsMenu.css('top', $('#mainHeader').outerHeight() + "px");
+        settingsMenu.css('left');
+        settingsMenu.css('left', '0');
+    }
+    else
+    {
+        opened.removeClass('activeSettingsBtn');
+        opened.addClass('settingsBtn');
+        $('#settingsMenu').remove();
+    }
+};
+
+var insertHeader = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if ($('.js-added').length)
+        $('.js-added').remove();
+
+    if (vw > 768)
+    {
+        
+        $('#searchholder').after(buttonsHTML);
+        
+        var nav_buttons = $('.txt-nav-btn');
+        nav_buttons.css('box-sizing', 'border-box');
+        nav_buttons.css('height', search_box.outerHeight() + "px");
+    }
+    else
+    {
+        var sbutton = $(document.createElement('div'));
+        sbutton.addClass('settingsBtn js-added');
+        sbutton.click(slideMenu);
+        if ($('#logoHolder').length > 0)
+        {
+            $('#logoHolder').after(sbutton);
+        }
+        else
+        {
+            $('#mainHeader').prepend(sbutton);
+        }
+    }
+};
+
+insertHeader();
+$(window).resize(function(){insertHeader()});
+
+var hideLogoOnScroll = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw < 768)
+    {
+        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0)
+        {
+            $('#logoHolder').remove();
+        }
+        else
+        {
+            if ($('#logoHolder').length === 0) 
+            {
+                $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+            }
+        }
+    }
+    else
+    {
+        if ($('#logoHolder').length === 0) 
+        {
+            $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+        }
+    }
+};
+
+$(window).resize(hideLogoOnScroll);
+$(window).scroll(hideLogoOnScroll);
+</script>
+
+<div class="clear"></div>
+<div id="top_notification">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline; font-size: 18px;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#top_notification").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+
+</nav>
+
+<div id="pushedContainer">
+
+<div id="sresults">
+<p style="padding: 1.2em 0; font-size: 1.6em; margin: 0; text-align: center;" class="bold">Faculty of Arts Experts</p>
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 0 0 1.5em 0;" class="bold">Experts in Department of Criminology</p>
+
+
+
+<div class="grayBorderedBox sresult" id="dan-horner">
+<img class="sresultphoto" src="/static/img/dan-horner.jpg" alt="Photo of Dan Horner"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dan Horner</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Political%20violence">Political violence</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Protest">Protest</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Quebec%20history%20and%20society">Quebec history and society</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/dan-horner">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tammy-landau">
+<img class="sresultphoto" src="/static/img/tammy-landau.jpg" alt="Photo of Tammy Landau"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tammy Landau</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Crime">Crime</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Criminology">Criminology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Critical%20victimology">Critical victimology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Law%20reform">Law reform</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tammy-landau">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="anne-marie-singh">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Anne-Marie Singh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Anne-Marie Singh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Crime">Crime</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Criminology">Criminology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Diversity%20in%20policing">Diversity in policing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Legal%20reform%20on%20policing">Legal reform on policing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/anne-marie-singh">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jane-sprott">
+<img class="sresultphoto" src="/static/img/ryerson_92.jpeg" alt="Photo of Jane Sprott"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jane Sprott</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Bail%20release%20and%20sentencing">Bail release and sentencing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Criminal%20justice%20policy">Criminal justice policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Criminology">Criminology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Public%20perceptions%20of%20crime">Public perceptions of crime</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jane-sprott">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="kim-varma">
+<img class="sresultphoto" src="/static/img/ryerson_119.jpeg" alt="Photo of Kim Varma"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Kim Varma</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Criminology">Criminology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Parental%20involvement%20in%20youth%20justice">Parental involvement in youth justice</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Welfare%20fraud">Welfare fraud</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Youth%20courts">Youth courts</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/kim-varma">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of English</p>
+
+
+
+<div class="grayBorderedBox sresult" id="jason-boyd">
+<img class="sresultphoto" src="/static/img/ryerson_95.jpeg" alt="Photo of Jason Boyd"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jason Boyd</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Gaming">Digital Gaming</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Humanities%20and%20Literature">Digital Humanities and Literature</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Storytelling">Digital Storytelling</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=English%20Literature">English Literature</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jason-boyd">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="irene-gammel">
+<img class="sresultphoto" src="/static/img/irene-gammel.jpg" alt="Photo of Irene Gammel"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Irene Gammel</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Literature%20of%20crisis%2C%20trauma%20and%20mourning.">Literature of crisis, trauma and mourning.</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Public%20humanities.">Public humanities.</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=War%2C%20culture%20and%20the%20media.%20Narrative%20of%20loss%20and%20grieving.">War, culture and the media. Narrative of loss and grieving.</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/irene-gammel">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sarah-henstra">
+<img class="sresultphoto" src="/static/img/ryerson_187.jpeg" alt="Photo of Sarah Henstra"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sarah Henstra</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Feminist%20remembrance">Feminist remembrance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Loss%2C%20grief%20and%20mourning%20in%20the%20arts">Loss, grief and mourning in the arts</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Modern%20British%20fiction">Modern British fiction</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Public%20commemoration%20and%20monuments">Public commemoration and monuments</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sarah-henstra">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="andrew-omalley">
+<img class="sresultphoto" src="/static/img/andrewOmalleyC.jpeg" alt="Photo of Andrew O&#39;Malley"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Andrew O&#39;Malley</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=18th%20Century%20Children%27s%20Literature">18th Century Children's Literature</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=19th%20Century%20Children%27s%20Literature">19th Century Children's Literature</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Children%27s%20Literature%20and%20Culture">Children's Literature and Culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Children%E2%80%99s%20Literature%20and%20Culture">Children’s Literature and Culture</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/andrew-omalley">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="ruth-panofsky">
+<img class="sresultphoto" src="/static/img/ruth-panofsky.jpg" alt="Photo of Ruth Panofsky"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ruth Panofsky</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Authorship%20studies">Authorship studies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20authors%20and%20their%20audience">Canadian authors and their audience</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20literature">Canadian literature</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20publishing%20history">Canadian publishing history</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ruth-panofsky">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="elizabeth-podnieks">
+<img class="sresultphoto" src="/static/img/ryerson_61.jpeg" alt="Photo of Elizabeth Podnieks"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Elizabeth Podnieks</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Anais%20Nin">Anais Nin</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emily%20Holmes%20Coleman">Emily Holmes Coleman</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Feminist%20Modernisms">Feminist Modernisms</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Representations%20of%20parents%20in%20literature">Representations of parents in literature</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/elizabeth-podnieks">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Languages, Literatures &amp; Cultures</p>
+
+
+
+<div class="grayBorderedBox sresult" id="marco-fiola">
+<img class="sresultphoto" src="/static/img/marco-fiola.jpg" alt="Photo of Marco Fiola"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Marco Fiola</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Interpretation">Interpretation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Language%20barriers%20in%20public%20service">Language barriers in public service</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Official%20languages">Official languages</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Translation">Translation</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/marco-fiola">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="dana-osborne">
+<img class="sresultphoto" src="/static/img/dana-osborne.jpg" alt="Photo of Dana Osborne"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dana Osborne</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ethnography%20and%20community-based%20research">Ethnography and community-based research</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Intercultural%20Communication">Intercultural Communication</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Linguistic%20Anthropology">Linguistic Anthropology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Philippines">Philippines</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/dana-osborne">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jamin-pelkey">
+<img class="sresultphoto" src="/static/img/jaminPelkeyC.jpeg" alt="Photo of Jamin Pelkey"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jamin Pelkey</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Chinese%20languages">Chinese languages</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Language%20change%2C%20meaning%20and%20culture">Language change, meaning and culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Origins%20of%20language">Origins of language</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Philosophy%20of%20language">Philosophy of language</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jamin-pelkey">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="stephanie-walshmatthews">
+<img class="sresultphoto" src="/static/img/stephanie-walshmatthews.jpg" alt="Photo of Stephanie Walsh Matthews"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Stephanie Walsh Matthews</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Autism%20spectrum%20disorder">Autism spectrum disorder</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Culture">Culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Human%20robot%20interaction">Human robot interaction</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Language">Language</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/stephanie-walshmatthews">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Geography and Environmental Studies</p>
+
+
+
+<div class="grayBorderedBox sresult" id="harald-bauder">
+<img class="sresultphoto" src="/static/img/ryerson_82.jpeg" alt="Photo of Harald Bauder"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Harald Bauder</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Border%20studies">Border studies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Borders">Borders</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Citizenship">Citizenship</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Civil%20society">Civil society</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/harald-bauder">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sutama-ghosh">
+<img class="sresultphoto" src="/static/img/sutamaGhoshC.jpeg" alt="Photo of Sutama Ghosh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sutama Ghosh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ethnic%20Enclaves">Ethnic Enclaves</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=High-Rise%20Neighbourhoods">High-Rise Neighbourhoods</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Racialization%20and%20Discrimination">Racialization and Discrimination</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Rental%20Housing%20Demand%20and%20Supply">Rental Housing Demand and Supply</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sutama-ghosh">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tor-oiamo">
+<img class="sresultphoto" src="/static/img/tor-oiamo.jpg" alt="Photo of Tor Oiamo"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tor Oiamo</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Air%20Pollution">Air Pollution</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20Modelling">Environmental Modelling</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Exposure%20Assessment">Exposure Assessment</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Geographic%20Information%20Systems%20%28GIS%29">Geographic Information Systems (GIS)</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tor-oiamo">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="lu-wang">
+<img class="sresultphoto" src="/static/img/lu-wang.jpeg" alt="Photo of Lu Wang"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Lu Wang</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Access%20to%20health%20care">Access to health care</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ethnic%20economy">Ethnic economy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Health%20geography">Health geography</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigrant%20consumer%20behaviour">Immigrant consumer behaviour</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/lu-wang">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of History</p>
+
+
+
+<div class="grayBorderedBox sresult" id="carl-benn">
+<img class="sresultphoto" src="/static/img/carlBennC.jpeg" alt="Photo of Carl Benn"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Carl Benn</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Colonial%20North%20America">Colonial North America</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Early%20Toronto">Early Toronto</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Material%20Culture">Material Culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Museums%20and%20Historic%20Sites">Museums and Historic Sites</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/carl-benn">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="art-blake">
+<img class="sresultphoto" src="/static/img/ryerson_223.jpeg" alt="Photo of Art Blake"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Art Blake</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=U.S.%20contemporary%20culture">U.S. contemporary culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=U.S.%20history">U.S. history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Urban%20culture">Urban culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Urban%20history">Urban history</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/art-blake">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jenny-carson">
+<img class="sresultphoto" src="/static/img/ryerson_103.jpeg" alt="Photo of Jenny Carson"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jenny Carson</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=African-American%20history">African-American history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=American%20women%27s%20labour%20history">American women's labour history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour%20history">Labour history</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jenny-carson">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="catherine-ellis">
+<img class="sresultphoto" src="/static/img/catherine-ellis.jpg" alt="Photo of Catherine Ellis"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Catherine Ellis</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=British%20culture">British culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=British%20Labour%20Party">British Labour Party</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=British%20politics">British politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=British%20society">British society</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/catherine-ellis">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="yunxiang-gao">
+<img class="sresultphoto" src="/static/img/ryerson_218.jpeg" alt="Photo of Yunxiang Gao"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Yunxiang Gao</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Asia%3A%20Modern%20East%20Asia%2C%20with%20an%20emphasis%20on%20China">Asia: Modern East Asia, with an emphasis on China</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Asian%20Diasporas%20in%20the%20Americas">Asian Diasporas in the Americas</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Culture%3A%20Sports%2C%20Physical%20Culture%2C%20Fashion%2C%20Cinema">Culture: Sports, Physical Culture, Fashion, Cinema</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gender%20and%20Women">Gender and Women</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/yunxiang-gao">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="martin-greig">
+<img class="sresultphoto" src="/static/img/ryerson_141.jpeg" alt="Photo of Martin Greig"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Martin Greig</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=British%20empire">British empire</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=European%20history">European history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Great%20Britain">Great Britain</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20Scotland">History of Scotland</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/martin-greig">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="ingrid-hehmeyer">
+<img class="sresultphoto" src="/static/img/ryerson_87.jpeg" alt="Photo of Ingrid Hehmeyer"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ingrid Hehmeyer</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20astronomy">History of astronomy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20magic">History of magic</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20science%20and%20technology">History of science and technology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20water%20management">History of water management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ingrid-hehmeyer">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jennifer-hubbard">
+<img class="sresultphoto" src="/static/img/ryerson_101.jpeg" alt="Photo of Jennifer Hubbard"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jennifer Hubbard</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20history">Environmental history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20biology">History of biology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20fisheries%20science">History of fisheries science</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jennifer-hubbard">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tomaz-jardim">
+<img class="sresultphoto" src="/static/img/ryerson_203.jpeg" alt="Photo of Tomaz Jardim"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tomaz Jardim</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=20th%20century%20Europe">20th century Europe</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Concentration%20camp%20perpetrators">Concentration camp perpetrators</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Holocaust">Holocaust</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Modern%20Germany">Modern Germany</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tomaz-jardim">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="arne-kislenko">
+<img class="sresultphoto" src="/static/img/arne-kislenko.jpeg" alt="Photo of Arne Kislenko"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Arne Kislenko</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cold%20War">Cold War</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Contemporary%20Intelligence">Contemporary Intelligence</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Espionage">Espionage</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%20Policy">Immigration Policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/arne-kislenko">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="ron-stagg">
+<img class="sresultphoto" src="/static/img/ryerson_181.jpeg" alt="Photo of Ron Stagg"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ron Stagg</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20constitutional%20history">Canadian constitutional history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian-American%20relations">Canadian-American relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Civil%20rights%20history">Civil rights history</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20as%20depicted%20in%20film">History as depicted in film</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ron-stagg">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Economics</p>
+
+
+
+<div class="grayBorderedBox sresult" id="eric-kam">
+<img class="sresultphoto" src="/static/img/ryerson_65.jpeg" alt="Photo of Eric Kam"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Eric Kam</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Implications%20of%20monetary%20growth">Implications of monetary growth</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Interest%20rates">Interest rates</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20monetary%20economics">International monetary economics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Macroeconomics">Macroeconomics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/eric-kam">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="amy-peng">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Amy Peng"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Amy Peng</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Collective%20bargaining">Collective bargaining</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gender%20wage%20gap">Gender wage gap</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Inflation">Inflation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour%20economics">Labour economics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/amy-peng">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Philosophy</p>
+
+
+
+<div class="grayBorderedBox sresult" id="elizabeth-trott">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Elizabeth Trott"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Elizabeth Trott</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Architecture%20and%20design">Architecture and design</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20culture">Canadian culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20philosophy">Canadian philosophy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Philosophy%20of%20human%20nature">Philosophy of human nature</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/elizabeth-trott">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Politics and Public Administration</p>
+
+
+
+<div class="grayBorderedBox sresult" id="tariq-amin-khan">
+<img class="sresultphoto" src="/static/img/ryerson_200.jpeg" alt="Photo of Tariq Amin-Khan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tariq Amin-Khan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Diaspora%20communities%20in%20Canada%20racialization">Diaspora communities in Canada racialization</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ethnicity%20and%20nationalism">Ethnicity and nationalism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Multiculturalism">Multiculturalism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Pakistan%20politics">Pakistan politics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tariq-amin-khan">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tuna-baskoy">
+<img class="sresultphoto" src="/static/img/ryerson_207.jpeg" alt="Photo of Tuna Baskoy"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tuna Baskoy</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Communications%20policy">Communications policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Competition/antitrust%20policy">Competition/antitrust policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=E-democracy">E-democracy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=E-government">E-government</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tuna-baskoy">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="cathy-crowe-1">
+<img class="sresultphoto" src="/static/img/cathy-crowe-1.jpg" alt="Photo of Cathy Crowe"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Cathy Crowe</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Affordable%20Housing">Affordable Housing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Homelessness">Homelessness</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Nursing">Nursing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Public%20Policy">Public Policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/cathy-crowe-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="grace-edward-galabuzi">
+<img class="sresultphoto" src="/static/img/ryerson_78.jpeg" alt="Photo of Grace-Edward Galabuzi"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Grace-Edward Galabuzi</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour%20market%20in%20Canada">Labour market in Canada</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Police%20and%20race%20relations">Police and race relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Socio-economic%20status%20of%20ethnic%20groups%20in%20Canada">Socio-economic status of ethnic groups in Canada</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/grace-edward-galabuzi">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="rob-goodman-1">
+<img class="sresultphoto" src="/static/img/rob-goodman-1.jpg" alt="Photo of Rob Goodman"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Rob Goodman</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Political%20rhetoric">Political rhetoric</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Political%20theory">Political theory</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Speeches%20and%20speechwriting">Speeches and speechwriting</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=U.S.%20politics">U.S. politics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/rob-goodman-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="christopher-gore">
+<img class="sresultphoto" src="/static/img/christopher-gore.jpg" alt="Photo of Christopher Gore"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Christopher Gore</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=African%20politics%2C%20especially%20East%20Africa">African politics, especially East Africa</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cities/municipal%20environmental%20policy">Cities/municipal environmental policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Climate%20change">Climate change</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Energy%20and%20climate%20change">Energy and climate change</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/christopher-gore">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="greg-inwood">
+<img class="sresultphoto" src="/static/img/ryerson_80.jpeg" alt="Photo of Greg Inwood"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Greg Inwood</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada-United%20States%20relations">Canada-United States relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Federalism">Federalism</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/greg-inwood">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="duncan-maclellan">
+<img class="sresultphoto" src="/static/img/ryerson_57.jpeg" alt="Photo of Duncan MacLellan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Duncan MacLellan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Educational%20policy%20at%20local%20and%20provincial%20levels">Educational policy at local and provincial levels</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Municipal%20politics">Municipal politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Urban%20governance">Urban governance</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/duncan-maclellan">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="pamela-palmater">
+<img class="sresultphoto" src="/static/img/ryerson_56.jpeg" alt="Photo of Pamela Palmater"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Pamela Palmater</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Aboriginal%20and%20Treaty%20rights">Aboriginal and Treaty rights</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=First%20Nations%20governance">First Nations governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Human%20rights">Human rights</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Indigenous%20law%20and%20policy">Indigenous law and policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/pamela-palmater">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="wayne-petrozzi">
+<img class="sresultphoto" src="/static/img/wayne-petrozzi.jpeg" alt="Photo of Wayne Petrozzi"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Wayne Petrozzi</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=American%20political%20culture">American political culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=American%20politics">American politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20public%20administration">Canadian public administration</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/wayne-petrozzi">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="arthur-ross">
+<img class="sresultphoto" src="/static/img/ryerson_19.jpeg" alt="Photo of Arthur Ross"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Arthur Ross</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%20settlement%20and%20social%20welfare">Immigration settlement and social welfare</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/arthur-ross">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="daniel-rubenson">
+<img class="sresultphoto" src="/static/img/danielRubensonC.jpeg" alt="Photo of Daniel Rubenson"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Daniel Rubenson</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Elections%20and%20voting%20behaviour">Elections and voting behaviour</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Electoral%20systems">Electoral systems</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Leadership">Leadership</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/daniel-rubenson">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sanjay-ruparelia">
+<img class="sresultphoto" src="/static/img/sanjay-ruparelia.jpg" alt="Photo of Sanjay Ruparelia"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sanjay Ruparelia</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=India%20election">India election</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=India-China%20relations">India-China relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Indian%20foreign%20policy">Indian foreign policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20development">International development</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sanjay-ruparelia">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="mitu-sengupta">
+<img class="sresultphoto" src="/static/img/mituSenguptaC.jpeg" alt="Photo of Mitu Sengupta"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Mitu Sengupta</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Global%20poverty">Global poverty</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Indian%20economy%20and%20politics">Indian economy and politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20development">International development</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Millennium%20Development%20Goals">Millennium Development Goals</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/mitu-sengupta">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="john-shields">
+<img class="sresultphoto" src="/static/img/ryerson_108.jpeg" alt="Photo of John Shields"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">John Shields</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%20and%20settlement">Immigration and settlement</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour">Labour</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Nonprofit%20service%20providers">Nonprofit service providers</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/john-shields">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="myer-siemiatycki">
+<img class="sresultphoto" src="/static/img/ryerson_158.jpeg" alt="Photo of Myer Siemiatycki"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Myer Siemiatycki</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20politics">Canadian politics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%20policy">Immigration policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour%20policy">Labour policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Municipal%20politics">Municipal politics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/myer-siemiatycki">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Psychology</p>
+
+
+
+<div class="grayBorderedBox sresult" id="martin-antony">
+<img class="sresultphoto" src="/static/img/martin-antony.jpeg" alt="Photo of Martin Antony"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Martin Antony</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Anxiety">Anxiety</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Clinical%20psychology">Clinical psychology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive-behavioural%20therapy">Cognitive-behavioural therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Fear">Fear</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/martin-antony">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="diana-brecher">
+<img class="sresultphoto" src="/static/img/diana-brecher.jpg" alt="Photo of Diana Brecher"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Diana Brecher</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Anxiety">Anxiety</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Clinical%20Supervision">Clinical Supervision</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive%20Behavioural%20Therapy">Cognitive Behavioural Therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Depression">Depression</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/diana-brecher">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tara-burke">
+<img class="sresultphoto" src="/static/img/ryerson_199.jpeg" alt="Photo of Tara Burke"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tara Burke</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Alibis">Alibis</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Juries">Juries</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Pre-trial%20publicity">Pre-trial publicity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Psychology%20and%20law">Psychology and law</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tara-burke">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="colleen-carney">
+<img class="sresultphoto" src="/static/img/colleen-carney.jpeg" alt="Photo of Colleen Carney"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Colleen Carney</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive%20Behaviour%20Therapy">Cognitive Behaviour Therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Depression">Depression</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Fatigue">Fatigue</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Insomnia">Insomnia</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/colleen-carney">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="stephanie-cassin">
+<img class="sresultphoto" src="/static/img/stephanie-cassin.jpeg" alt="Photo of Stephanie E. Cassin"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Stephanie E. Cassin</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Bariatric%20%28weight%20loss%29%20surgery">Bariatric (weight loss) surgery</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive%20behavioural%20therapy">Cognitive behavioural therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Eating%20disorders">Eating disorders</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Obesity">Obesity</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/stephanie-cassin">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="todd-girard">
+<img class="sresultphoto" src="/static/img/ryerson_202.jpeg" alt="Photo of Todd Girard"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Todd Girard</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Brain%20imaging">Brain imaging</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=FMRI">FMRI</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Intelligence%20assessment">Intelligence assessment</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Memory">Memory</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/todd-girard">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="trevor-hart">
+<img class="sresultphoto" src="/static/img/trevor-hart.jpeg" alt="Photo of Trevor Hart"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Trevor Hart</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=At-risk%20youth">At-risk youth</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gay/bisexual%20men">Gay/bisexual men</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Health%20outcomes%20among%20people%20with%20HIV">Health outcomes among people with HIV</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Health%20psychology">Health psychology</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/trevor-hart">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tae-hart">
+<img class="sresultphoto" src="/static/img/ryerson_197.jpeg" alt="Photo of Tae Hart"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tae Hart</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cancer%20and%20couples">Cancer and couples</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Colorectal%20cancer">Colorectal cancer</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Coping%20with%20chronic%20illness">Coping with chronic illness</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ethics%20in%20psychology">Ethics in psychology</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tae-hart">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="karen-milligan-1">
+<img class="sresultphoto" src="/static/img/karen-milligan-1.jpg" alt="Photo of Karen Milligan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Karen Milligan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Child%20Mental%20Health">Child Mental Health</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Child%20Psychology">Child Psychology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emotion%20Management">Emotion Management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Maternal%20Substance%20Use">Maternal Substance Use</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/karen-milligan-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="candice-monson">
+<img class="sresultphoto" src="/static/img/candice-monson.jpeg" alt="Photo of Candice Monson"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Candice Monson</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Anxiety">Anxiety</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive-behavioral%20therapy">Cognitive-behavioral therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Couple%20therapy">Couple therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Intimate%20relationships">Intimate relationships</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/candice-monson">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="frank-russo">
+<img class="sresultphoto" src="/static/img/frank-russo.jpg" alt="Photo of Frank Russo"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Frank Russo</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Affective%20Neuroscience">Affective Neuroscience</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cognitive%20Neuroscience">Cognitive Neuroscience</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emotional%20Communication">Emotional Communication</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Hearing%20aids%20and%20cochlear%20implants">Hearing aids and cochlear implants</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/frank-russo">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="george-swede">
+<img class="sresultphoto" src="/static/img/george-swede.jpg" alt="Photo of George Swede"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">George Swede</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Psychology%20of%20art%20and%20creativity">Psychology of art and creativity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Short-form%20poetry">Short-form poetry</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/george-swede">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Sociology</p>
+
+
+
+<div class="grayBorderedBox sresult" id="patrizia-albanese">
+<img class="sresultphoto" src="/static/img/ryerson_166.jpeg" alt="Photo of Patrizia Albanese"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Patrizia Albanese</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20Forces%20families">Canadian Forces families</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Childcare">Childcare</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Children%20and%20youth%20in%20society">Children and youth in society</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Family%20policies">Family policies</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/patrizia-albanese">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jacqui-gringas">
+<img class="sresultphoto" src="/static/img/jacqui-gringas.jpg" alt="Photo of Jacqui Gingras"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jacqui Gingras</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Academic%20activism">Academic activism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Community%20activism">Community activism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Fat/%22Obesity%22%20Stigma">Fat/"Obesity" Stigma</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Federal%20politics">Federal politics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jacqui-gringas">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="camille-hernandez-ramdwar">
+<img class="sresultphoto" src="/static/img/camilleRandwarC.jpeg" alt="Photo of Camille Hernandez-Ramdwar"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Camille Hernandez-Ramdwar</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Caribbean%20cultures">Caribbean cultures</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Caribbean%20tourism">Caribbean tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Children%20of%20Caribbean%20immigrants%20identity">Children of Caribbean immigrants identity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Mixed%20race%20identity">Mixed race identity</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/camille-hernandez-ramdwar">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="melanie-knight-1">
+<img class="sresultphoto" src="/static/img/melanie-knight-1.jpg" alt="Photo of Mélanie Knight"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Mélanie Knight</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Anti-Black%20racism">Anti-Black racism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Black%20activism">Black activism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Black%20Canadian%20History">Black Canadian History</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Black%20collective%20economic%20initiatives">Black collective economic initiatives</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/melanie-knight-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="mustafa-koc">
+<img class="sresultphoto" src="/static/img/mustafa-koc.jpg" alt="Photo of Mustafa Koc"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Mustafa Koc</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Food%20policy">Food policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Food%20security">Food security</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%2C%20Refugees%2C%20Force%20Population%20Movements">Immigration, Refugees, Force Population Movements</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Migrants%20and%20Refugees">Migrants and Refugees</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/mustafa-koc">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="paul-moore">
+<img class="sresultphoto" src="/static/img/ryerson_168.jpeg" alt="Photo of Paul Moore"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Paul Moore</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Entertainment%20and%20public%20culture">Entertainment and public culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20mass%20market">History of mass market</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20newspaper%20comic%20strips">History of newspaper comic strips</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=History%20of%20urban%20modernity%20in%20North%20America">History of urban modernity in North America</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/paul-moore">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="stephen-muzzatti">
+<img class="sresultphoto" src="/static/img/ryerson_193.jpeg" alt="Photo of Stephen Muzzatti"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Stephen Muzzatti</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Animals%20and%20Society%20%28HAS%29">Animals and Society (HAS)</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Crime%20and%20consumerism">Crime and consumerism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Death%20and%20dying">Death and dying</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Italian-Canadian%20community">Italian-Canadian community</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/stephen-muzzatti">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="alan-sears">
+<img class="sresultphoto" src="/static/img/ryerson_4.jpeg" alt="Photo of Alan Sears"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Alan Sears</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Collective%20bargaining">Collective bargaining</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Education%20policy">Education policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Labour%20movement">Labour movement</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Left-wing%20social%20movements">Left-wing social movements</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/alan-sears">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="pamela-sugiman">
+<img class="sresultphoto" src="/static/img/pamela-sugiman.jpg" alt="Photo of Pamela Sugiman"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Pamela Sugiman</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Equity%20and%20diversity">Equity and diversity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Japanese%20Canadian%20internment%20%20during%20World%20War%20II">Japanese Canadian internment  during World War II</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Memory%20and%20oral%20histories">Memory and oral histories</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Race%20and%20racism%20in%20Canada">Race and racism in Canada</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/pamela-sugiman">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="cheryl-teelucksingh">
+<img class="sresultphoto" src="/static/img/ryerson_38.jpeg" alt="Photo of Cheryl Teelucksingh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Cheryl Teelucksingh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20Justice">Environmental Justice</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Green%20Economy%20and%20Green%20Jobs">Green Economy and Green Jobs</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigration%20Settlement%20Patterns%20in%20Toronto">Immigration Settlement Patterns in Toronto</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Race%20and%20Ethnicity%20in%20Canada">Race and Ethnicity in Canada</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/cheryl-teelucksingh">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="anna-triandafyllidou-1">
+<img class="sresultphoto" src="/static/img/anna-triandafyllidou-1.jpg" alt="Photo of Anna Triandafyllidou"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Anna Triandafyllidou</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20immigration%20policy">Canadian immigration policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Covid-19%20and%20migration">Covid-19 and migration</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cultural%20diversity%20governance">Cultural diversity governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Europe">Europe</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/anna-triandafyllidou-1">View Profile</a>
+</div>
+
+
+</div>
+<div class="clear" style="height: 2em;"></div>
+<script type="text/javascript">
+$('.sresult').hover(
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #b3b3b3');
+    },
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #d5d5d5');
+    }
+);
+
+var scaleCards = function () {
+    var maxHeight = 0;
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (vw > 768)
+    {
+        if ( (vw - 0.02*vw*2) / 300 >= 3 )
+        {
+            var cards_per_row = Math.floor((vw - 0.02*vw*2) / 300);
+            $('#sresults').css('width', 300 * cards_per_row + "px");
+            $('#sresults').css('margin', '0 auto');
+            $('.sresult').css('width', '290px');
+        }
+        else
+        {
+            $('#sresults').css('width', Math.floor((vw - 0.02*vw*2) / 250) + "px");
+            $('#sresults').css('margin', '0 auto');
+        }
+    }
+
+    var categories = $('.categories');
+    var shadedSections = $('.shadedSection');
+    var sresults = $('.sresult');
+
+    var getMaxHeight = function (index, element) {
+        maxHeight = ($(element).height() > maxHeight) ? $(element).height() : maxHeight;
+    };
+
+    var setHeight = function (index, element) {
+        $(element).height(maxHeight + "px");
+    };
+
+    maxHeight = 0;
+    categories.each(getMaxHeight);
+    categories.each(setHeight);
+    maxHeight = 0;
+    shadedSections.each(getMaxHeight);
+    shadedSections.each(setHeight);
+    maxHeight = 0;
+    sresults.each(getMaxHeight);
+    sresults.each(setHeight);
+};
+
+var removeStyleTags = function () {
+    var sresults = $('#sresults, .sresult, .categories, .shadedSection');
+    sresults.each(function (index, element) {$(element).removeAttr('style')});
+};
+
+$(window).load(scaleCards);
+$(window).resize(function () {removeStyleTags(); _.debounce(scaleCards, 100)();});
+</script>
+
+</div>
+<script type="text/javascript">
+if (document.getElementById('mainHeader') !== null) {
+    jQuery.fn.headerPush = function () {
+        if ($('#mainHeader').css('display') !== 'none') 
+        {
+            this.css("padding-top", $('#mainHeader').outerHeight() + "px");
+        }
+        else
+        {
+            this.css("padding-top", "0");
+        }
+        return this;
+    }
+
+    $('#pushedContainer').headerPush();
+    $(window).resize(function(){$('#pushedContainer').headerPush()});
+}
+</script>
+<div id="footerpusher"></div>
+</div>
+
+<footer>
+<p id="orgAddress">
+&copy; <script type="text/javascript">var year = new Date().getFullYear(); $('#orgAddress').append(year)</script> | Ryerson University | 350 Victoria Street, Toronto, Ontario, Canada M5B 2K3 | (416) 979-5000
+</p>
+<p id="poweredBy">
+Powered by
+<a href="https://expertisefinder.com/" rel="nofollow"><img src="/static/img/expertise_finder_logo.png" style="height: 45px; display: block; margin: 0 auto; padding-top: 5px;" alt="Link to expertisefinder.com"/></a>
+</p>
+<div class="clear"></div>
+</footer>
+<script type="text/javascript">
+var setFooterHeight = function () {
+    var globalwrapper = $('#globalwrapper');
+    var pusher = $('#footerpusher');
+    var footer_size = $('footer').outerHeight() + "px";
+
+    globalwrapper.css('margin-bottom', "-" + footer_size);
+    pusher.height(footer_size);
+};
+
+setFooterHeight();
+$(window).resize(setFooterHeight);
+</script>
+
+<script type="text/javascript">
+var fetchQuery = null;
+var fetchResultsCallback = null;
+
+var fetchResults = _.debounce(function() {
+    $.get('/suggester?query=' + fetchQuery, function(data) {
+        if(fetchResultsCallback)
+	    fetchResultsCallback(data);
+    });
+}, 300);
+
+$('#suggest-enabled .typeahead').typeahead(
+  {
+    hint: false,
+    highlight: false,
+    minLength: 1
+  },
+  {
+    name: 'suggestions',
+    limit: 10,
+    display: 'suggestion',
+    source: function(query, syncResults, asyncResults) {
+        fetchQuery = query;
+        fetchResultsCallback = asyncResults;
+        fetchResults();
+    }
+  }
+).on("typeahead:render", function() {
+    var searchTerm = $(this).val();
+    $(".tt-suggestion").each(function () {
+        $(this).mark(
+            searchTerm,
+            {
+                'element': 'strong',
+                'className': '',
+                'separateWordSearch': false,
+                'acrossElements': true,
+                'accuracy': 'partially',
+                'diacritics': true,
+                'caseSensitive': false,
+                'filter': function (node, term, totalCounter, counter) {
+                    if (counter >= 1) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        );
+    });
+});
+</script>
+</body>
+</html>

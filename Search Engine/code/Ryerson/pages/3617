@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/engineering-architectural-science/stories-events/2020/11/driving-cybersecurity-solutions-for-smart-transportation-systems/" >
+		<meta property="og:title" content="Driving cybersecurity solutions for smart transportation systems" > 
+		 
+		<meta property="og:image" content="https://www.ryerson.ca/content/dam/engineering-architectural-science/stories-events/2020/2020-11/Smart-Transport-Header.jpg" > 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/engineering-architectural-science/stories-events/2020/11/driving-cybersecurity-solutions-for-smart-transportation-systems/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Driving cybersecurity solutions for smart transportation systems"> 
+		 
+        <meta name="twitter:image" content="https://www.ryerson.ca/content/dam/engineering-architectural-science/stories-events/2020/2020-11/Smart-Transport-Header.jpg">
+        
+        <title>Driving cybersecurity solutions for smart transportation systems - Faculty of Engineering and Architectural Science - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "news";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.5BC2F4.5BC2F4.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/engineering-architectural-science/">
+				        Faculty of Engineering &amp; Architectural Science
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/engineering-architectural-science.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bde8618e-d728-4a44-850e-8e8faffc6809" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="bde8618e-d728-4a44-850e-8e8faffc6809">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/engineering-architectural-science/about/'>About</a>
+									</li>
+								
+									<li class="">
+										<a href='/engineering-architectural-science/students/'>Students</a>
+									</li>
+								
+									<li class="">
+										<a href='/engineering-architectural-science/programs/'>Programs</a>
+									</li>
+								
+									<li class="">
+										<a href='/engineering-architectural-science/research/'>Research</a>
+									</li>
+								
+									<li class="">
+										<a href='/engineering-architectural-science/community-engagement/'>Community Engagement</a>
+									</li>
+								
+									<li class="">
+										<a href='/engineering-architectural-science/entrepreneurship/'>Entrepreneurship</a>
+									</li>
+								
+									<li class="active">
+										<a href='/engineering-architectural-science/stories-events/'>Stories & Events</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/engineering-architectural-science/stories-events.html">Stories & Events</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#384a621e-ef5c-4087-8f93-e61aaf0efa6d" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="384a621e-ef5c-4087-8f93-e61aaf0efa6d">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/engineering-architectural-science/stories-events/stories.html'>Stories</a>
+</li>
+<li class="list-group-item">
+<a href='/engineering-architectural-science/stories-events/events.html'>Events</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-7 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<article>
+	<div class="resNewsEmbed resNews">
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="title">Driving cybersecurity solutions for smart transportation systems</h1>
+<div class="subTitle">Researchers are developing solutions to protect the smart systems that are the future of transportation</div>
+
+
+<div class="date">November 12, 2020</div>
+
+
+</div>
+
+	<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="d52a0b79-f828-4679-bee1-d40cd0a023fd">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/engineering-architectural-science/stories-events/2020/2020-11/Bilal-Farooq.jpg"/>
+
+
+
+
+					 
+						<div class="caption richtextContent">
+	<p>Researcher Bilal Farooq and the Laboratory of Innovations in Transportation Lab are developing cybersecurity solutions to address potential vulnerabilities in smart and adaptive traffic systems.</p>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#d52a0b79-f828-4679-bee1-d40cd0a023fd');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "d52a0b79-f828-4679-bee1-d40cd0a023fd"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3170db65-8883-42c6-9aa6-4de4518841b5" >
+
+    <p>Transportation technology is shifting gears towards turning streets into networks of connected and autonomous vehicles and intelligent traffic systems. At Ryerson’s <a href="https://litrans.ca/">Laboratory of Innovations in Transportation Lab<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> (LiTrans Lab), researchers are developing solutions to protect the smart systems that are the future of transportation, from vulnerabilities that could result in traffic disruptions to privacy breaches.</p> 
+<p>Engineering professor and Canada Research Chair in Disruptive Transportation Technologies and Services <a href="https://www.ryerson.ca/civil/people/faculty/bilal-farooq/">Bilal Farooq</a> and his team at LiTrans are researching solutions to address the potential cybersecurity vulnerabilities in smart and adaptive traffic systems. The lab has developed digital defences in the form of game theory and reinforcement learning-based solutions to counter a type of distributed attack, known as a Sybil attack, that could cause disruptions in connected traffic flow.</p> 
+<p>Traffic disruptions aren’t the only cybersecurity concern when it comes to the future of transportation. Federated machine learning is a tool that can be used to protect the privacy of citizen information while creating machine learning models that can be used to build better smart mobility and smart city systems. LiTrans has created a blockchain-based solution for the detection and neutralization of possible attempts by a malicious actor to inject bad data into a model’s learning pool to hinder training.</p> 
+<p>Finally, the lab has developed the Blockchain-based Smart Mobility Data-market (BSMD) platform to address cybersecurity and privacy concerns around people’s data. Without a cybersecurity solution, people’s identities, activities, preferences and movement patterns could potentially be breached. The BSMD platform would give users more control and protection of their data, allowing them to choose with whom they share information like their location or movement habits and preferences.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3170db65-8883-42c6-9aa6-4de4518841b5");});</script></div>
+
+				</div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+			        	<div class="res-share-page-wrapper">
+			        		<div class="res-share-heading">Share This</div>
+			        		<div class="res-share-icons">
+								<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&t=Driving+cybersecurity+solutions+for+smart+transportation+systems" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+								<a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&via=RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+								<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&title=Driving+cybersecurity+solutions+for+smart+transportation+systems&summary=&source=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+								<a href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&media=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fdam%2Fengineering-architectural-science%2Fstories-events%2F2020%2F2020-11%2FSmart-Transport-Header.jpg&description=" target="_blank"><i class="fa fa-pinterest icon-circle" title="Pinterest" aria-hidden="true"></i><span class="sr-only">Pinterest, opens new window</span></a>
+								<a href="https://www.reddit.com/submit?url=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&title=Driving+cybersecurity+solutions+for+smart+transportation+systems" target="_blank"><i class="fa fa-reddit-alien icon-circle" title="Reddit" aria-hidden="true"></i><span class="sr-only">Reddit, opens new window</span></a>
+								<a href="https://www.tumblr.com/share?v=3&u=http%3A%2F%2Fwww.ryerson.ca%2Fcontent%2Fryerson%2Fengineering-architectural-science%2Fstories-events%2F2020%2F11%2Fdriving-cybersecurity-solutions-for-smart-transportation-systems&t=Driving+cybersecurity+solutions+for+smart+transportation+systems&s=" target="_blank"><i class="fa fa-tumblr icon-circle" title="Tumblr" aria-hidden="true"></i><span class="sr-only">Tumblr, opens new window</span></a>
+			                </div>
+			        	</div>
+		        	
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7b7e3fef-e3d3-4f65-a16e-71705259dc72" >
+
+    <h2>Undergraduate Engineering Admissions</h2> 
+<p><a href="tel:416-542-5870">416-542-5870</a><br> <a href="mailto:askeng@ryerson.ca">askeng@ryerson.ca</a></p> 
+<h2>Undergraduate Architecture Admissions</h2> 
+<p>416-979-5036<br> <a href="https://ryerson.intelliresponse.com/">Ask Ryerson Portal<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></p> 
+<h2>Graduate Admissions</h2> 
+<p>416-979-5150<br> <a href="mailto:grdadmit@ryerson.ca">grdadmit@ryerson.ca</a></p> 
+<h2>Dean's Office</h2> 
+<p>416-979-5000 ext. 6948<br> <a href="https://www.ryerson.ca/engineering-architectural-science/about/staff-contacts/">Dean's Office Directory</a></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7b7e3fef-e3d3-4f65-a16e-71705259dc72");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="039164f8-6994-4c37-95d0-84110e7c3743" >
+
+    <h2>Campus Location</h2> 
+<p>George Vari Engineering and Computing Centre<br> ENG-359<br> 245 Church Street (at Gould Street)<br> Toronto</p> 
+<h2>Dean's Office Hours of Operation</h2> 
+<p>8:30 a.m. - 4:30 p.m.<br> Monday to Friday or by appointment</p> 
+<h2>Mailing Address</h2> 
+<p>Faculty of Engineering and Architectural Science<br> Ryerson University<br> 350 Victoria St.&nbsp;<br> Toronto, Ontario<br> M5B 2K3</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#039164f8-6994-4c37-95d0-84110e7c3743");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6a661cb5-a7ee-42ed-b24d-bc3ae2e55ab1" >
+
+    
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6a661cb5-a7ee-42ed-b24d-bc3ae2e55ab1");});</script></div>
+
+				
+
+				
+				<div class="resMap section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-map">
+    
+        <div id="efd75899-9fa1-4872-8927-d882a9409b80" class="res-map-content res-map-placeholder" style="height: 300px;" aria-hidden="true">
+        	<div class="res-map-overlay res-map-600px">
+	        	<img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/map-marker.png" alt=""/>
+	        	<button>Click to Activate Map</button>
+        	</div>
+        </div>
+        <div class="sr-only">Map of 245 Church Street, Toronto, ON, M5B 1Z2, Canada</div>
+        <script>
+        	jQuery(document).on('_initmaps', function(event) {
+                jQuery("#efd75899-9fa1-4872-8927-d882a9409b80 button").click(function() {
+                	jQuery("#efd75899-9fa1-4872-8927-d882a9409b80.res-map-placeholder").removeClass('res-map-placeholder');
+                    var isInResLocalFooter = true;
+                    var latLng = JSON.parse('{"lat": 43.657564, "lng": -79.3772027}');
+                    if(!isInResLocalFooter) {
+                        if(latLng != null){
+                            drawDynamicMapByLatLng('efd75899-9fa1-4872-8927-d882a9409b80',latLng,'600px',18,true);
+                        } else{
+                            drawDynamicMapByAddress('efd75899-9fa1-4872-8927-d882a9409b80','245 Church Street, Toronto, ON, M5B 1Z2, Canada','600px',18,true);
+                        }
+                    } else {
+                        if(latLng != null){
+                            drawStaticMapByLatLng('efd75899-9fa1-4872-8927-d882a9409b80',latLng,'245 Church Street, Toronto, ON, M5B 1Z2, Canada','1140px','600px',18,true);
+                        } else{
+                            drawStaticMapByAddress('efd75899-9fa1-4872-8927-d882a9409b80','245 Church Street, Toronto, ON, M5B 1Z2, Canada','1140px','600px',18,true);
+                        }
+                    }
+                });
+            });
+        </script>
+    
+    
+    
+</div>
+</div>
+
+				
+
+				
+				<div class="resSocialLinks section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="res-link-buttons text-right">
+
+
+    
+    
+        <ul class="list-inline">
+            
+            
+            <li>
+                <a href="https://twitter.com/ryersonfeas" target="_blank">
+                    <i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter, opens new window</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://www.youtube.com/channel/UC_tvfR7YByVoGufm-NIxGxg" target="_blank">
+                    <i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube, opens new window</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://instagram.com/ryersonfeas" target="_blank">
+                    <i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram, opens new window</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+        </ul>
+    
+
+</div>
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'LOHMBEHMJOLJMKFHEGHLJGDCOHJJEJCMLMOFOFOFFOJIMLMPAANHOJIMKPJOANIMODDBHFHMAAMHKNOMAANAHLPEAAALGBHGBIANNOJFPNOLIKCKIPDEFNGBGJAHHJLL',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'MKBCKCLGJLIGGPDEDCOKGHNOCIHPAAHNMDEBBPGDLLLGKMFHHOBBFBMKCJHHEAGHDGJBFDIIAAINPICFCEJALPGDAAAHCDFKBGJDIDHPIFFDCLFODKEGCNHCBJKGKAPF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

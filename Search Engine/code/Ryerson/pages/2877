@@ -1,0 +1,1285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="shortcut icon" href="/static/img/ryerson.favicon.jpg"/>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Expertise Finder"/>
+<meta name="copyright" content="Copyright Expertise Finder"/>
+
+<title>Ryerson University Faculty Experts &bull; Home</title>
+
+
+<meta name="description" content="Search engine for journalists to find Ryerson University faculty experts. It's fast and free."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="INDEX, FOLLOW, NOARCHIVE, NOODP, NOYDIR"/>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="/static/js/typeahead.bundle.min.js"></script>
+<script src="/static/js/jquery.mark.min.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/static/css/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/static/css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+<!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/tippy.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@charset "utf-8";
+
+@font-face
+{
+    font-family: 'proxima-reg';
+    src: url('/static/fonts/proxima_nova_regular.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-italic';
+    src: url('/static/fonts/proxima_nova_italic.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-bold';
+    src: url('/static/fonts/proxima_nova_bold.otf') format('opentype');
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    font-family: 'proxima-reg', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+html, body, p, div, button, input, select, textarea, .pure-g [class *= "pure-u"]
+{
+    font-family: 'proxima-reg', sans-serif;
+    font-size: 18px;
+}
+
+.notxtstyle
+{
+    text-decoration: none;
+}
+
+.bold
+{
+    font-family: 'proxima-bold', sans-serif;
+}
+
+.italic
+{
+    font-family: 'proxima-italic', sans-serif;
+}
+
+.rf
+{
+    float: right;
+}
+
+.lf
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: red;
+}
+
+.blockify 
+{
+    display: block;
+}
+
+.iblockify 
+{
+    display: inline-block;
+}
+
+#globalwrapper
+{
+    background-color: #E6E6E6;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.grayBorderedBox
+{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    border-collapse: separate;
+}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65257357-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65257357-1');
+</script>
+
+
+<style type="text/css">
+#mainHeader
+{
+    background-color: white; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    z-index: 1030; 
+    
+    padding-top: 15px; 
+    
+}
+
+#top_notification
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffaa;
+    margin-top: 15px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 39px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.label
+{
+    color: #fff;
+    background-color: #d73d32;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.activeSettingsBtn, .settingsBtn
+{
+    content: "";
+    height: 5px; 
+    width: 30px;
+    float: left;
+    margin: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activeSettingsBtn
+{
+    border-top: 5px solid #0078E7; 
+    border-bottom: 15px double #0078E7; 
+}
+
+.settingsBtn
+{
+    border-top: 5px solid black; 
+    border-bottom: 15px double black; 
+}
+
+#settingsMenu
+{
+    position: fixed;
+    z-index: 2000;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    top: -999px;
+    left: -999px;
+}
+
+.txt-nav-btn, .icon-nav-btn
+{
+    margin: 0 1% 0 0;
+    float: right;
+}
+
+.txt-nav-btn
+{
+    min-width: 6%;
+}
+
+#logoHolder
+{
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+#searchholder
+{
+    width: 33%;
+    display: inline-block;
+    margin: 0 0 0 1%;
+}
+
+#searchholder2
+{
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+nav form, #searchholder2 form 
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+nav form input, #searchholder2 form input 
+{
+    outline: none;
+}
+
+nav form input[type="text"], #searchholder2 form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#searchBtn, #searchBtn2
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+}
+
+footer
+{
+    background-color: white; 
+    padding: 15px 2%; 
+    margin: 0; 
+    border-top: 2px solid #d3d3d3;
+}
+
+#orgAddress, #poweredBy
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#orgAddress
+{
+    float: left;
+}
+
+#poweredBy
+{
+    float: right;
+    text-align: center;
+}
+
+.twitter-typeahead {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.typeahead 
+{
+    background-color: #fff;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-size: 1.2em !important;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100% !important;
+    padding: 3px 65px 3px 10px !important;
+    -webkit-transition: border-color 1s ease !important; 
+    -moz-transition: border-color 1s ease !important; 
+    -o-transition: border-color 1s ease !important; 
+    transition: border-color 1s ease !important;
+    outline: none !important;
+}
+
+.tt-menu 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tt-suggestion 
+{
+    padding: 3px 65px 3px 10px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tt-suggestion:hover 
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion.tt-cursor 
+{
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion p 
+{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #top_notification
+    {
+        height: 50px; 
+        padding: 0 7%;
+    }
+
+    .txt-nav-btn, .icon-nav-btn
+    {
+        margin: 0 15px 0 0;
+    }
+
+    .txt-nav-btn
+    {
+        width: 140px;
+    }
+
+    .icon-nav-btn
+    {
+        width: 40px;
+    }
+
+    #searchholder, #searchholder2, #logoHolder
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #logoHolder a 
+    {
+        margin: 0 auto 15px auto;
+    }
+
+    #searchholder > div, #searchholder2 > div
+    {
+        clear: both;
+    }
+
+    #searchholder form, #searchholder2 form
+    {
+        width: 250px;
+        margin: 0 15px 0 0;
+        float: right;
+    }
+
+    #searchholder form input[type="text"], #searchholder2 form input[type="text"]
+    {
+        width: 250px;
+    }
+
+    footer 
+    {
+        padding: 15px; 
+    }
+
+    #orgAddress, #poweredBy
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #orgAddress
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .typeahead 
+    {
+        background-color: #fff;
+        -moz-box-sizing: border-box !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        font-size: 1.2em !important;
+        min-height: 40px;
+        border: 1px solid rgba(0,0,0,0.3);
+        width: 250px;
+        padding: 3px 65px 3px 10px !important;
+        -webkit-transition: border-color 1s ease !important; 
+        -moz-transition: border-color 1s ease !important; 
+        -o-transition: border-color 1s ease !important; 
+        transition: border-color 1s ease !important;
+        outline: none !important;
+    }
+}
+</style>
+
+<style type="text/css">
+.hidify {
+    display: none;
+}
+
+#STN
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #FFFFAA;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 55px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+ 
+#STN > label
+{
+    font-size: 14px;
+}
+
+#STN > a
+{
+    font-size: 20px;
+}
+
+#desktopbutton
+{
+    margin: 75px 2% 0 0;
+}
+
+#centralizer {
+    padding: 3em 0;
+}
+
+#logoNsearch form {
+    display: block;
+    position: relative;
+    width: 40%;
+    min-width: 470px;
+    margin: 1.1em auto 2em auto;
+}
+
+.bigtypeahead 
+{
+    min-height: 50px !important;
+}
+
+#logoNsearch form input 
+{
+    outline: none;
+}
+
+#logoNsearch form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    min-height: 50px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#logoNsearch form button
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+    min-height: 46px;
+}
+
+#cardContainer {
+    width: 70%;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.smallCard, .specialSmallCard {
+    width: 30%;
+    padding: 0;
+    float: left;
+}
+
+.largeCard, .specialLargeCard {
+    width: 35%;
+    float: left;
+    padding: 0;
+    margin: 0 2%;
+}
+
+.cardPadder {
+    padding: 1em;
+}
+
+.sectionHeader {
+    font-weight: normal;
+    font-size: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background: linear-gradient(#444, #222) repeat scroll 0% 0% #222;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.spacify {
+    display: block;
+    margin-bottom: 0.6em;
+}
+
+.linkify {
+  color: #0078E7;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+}
+
+#profsignup {
+    width: 100%;
+    text-align: center;
+    margin: 2em auto;
+    clear: both;
+    display: block;
+}
+
+@media only screen and (max-height: 910px) {
+    #STN
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #FFFFAA;
+        border-bottom: 2px solid #EBDF6C;
+        width: 100%;
+        height: 35px;   
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -moz-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        cursor: pointer;
+    }
+ 
+    #STN > label
+    {
+        font-size: 13px;
+    }
+  
+    #STN > a
+    {
+        font-size: 18px;
+    }
+
+    #desktopbutton
+    {
+        margin: 50px 2% 0 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1160px) {
+    #STN
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #FFFFAA;
+        border-bottom: 2px solid #EBDF6C;
+        width: 100%;
+        height: 35px;   
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -moz-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        cursor: pointer;
+    }
+ 
+    #STN > label
+    {
+        font-size: 13px;
+    }
+  
+    #STN > a
+    {
+        font-size: 18px;
+    }
+
+    #desktopbutton
+    {
+        margin: 50px 2% 0 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #mainHeader
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #centralizer 
+    {
+        padding: 0;
+    }
+    
+    #STN, #logoNsearch, #desktopbutton
+    {
+        display: none;
+    }
+
+    #searchholder
+    {
+        text-align: center;
+    }
+
+    #searchholder form 
+    {
+        margin: 0 !important;
+        float: none !important;
+    }
+
+    #searchholder form input[type="text"] 
+    {
+        width: 250px;
+    }
+
+    #cardContainer 
+    {
+        width: 300px;
+        min-width: 300px;
+        box-sizing: border-box;
+    }
+
+    .smallCard, .specialSmallCard, .largeCard, .specialLargeCard
+    {
+        width: 300px;
+        float: none;
+        margin: 1.2em 0;
+    }
+}
+</style>
+
+</head>
+<body>
+<div id="globalwrapper">
+
+<nav id="mainHeader">
+<div id="logoHolder">
+<a href="https://ryerson.ca/" class="blockify" style="width: 100px;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/>
+</a>
+</div>
+<div id="searchholder">
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead" type="text" name="query" placeholder="Name or Expertise">
+<button id="searchBtn" type="submit" class="pure-button pure-button-primary" aria-label="Search"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<div></div>
+</div>
+<script type="text/javascript">
+var search_button = $('#searchBtn');
+var search_box = $('.typeahead');
+search_box.css('padding-right', search_button.outerWidth() + 20 + 'px');
+search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+
+var menuHTML = '<div id="flexMenu" class="pure-menu pure-menu-open"><ul> \
+<li><a href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a></li> \
+<li><a href="/">Faculty Experts - Home</a></li> \
+<li><a href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Faculty Signup</a></li> \
+</ul></div>';
+
+var buttonsHTML = '<a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a><a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="/">Faculty Experts - Home</a>';
+
+var slideMenu = function () {
+    var collapsed = $('.settingsBtn');
+    var opened = $('.activeSettingsBtn');
+    
+    if (collapsed.length)
+    {
+        collapsed.removeClass('settingsBtn');
+        collapsed.addClass('activeSettingsBtn');
+
+        var settingsMenu = $(document.createElement('div'));
+        settingsMenu.html(menuHTML);
+        settingsMenu.attr('id', 'settingsMenu');
+        settingsMenu.addClass('js-added');
+        $('#globalwrapper').prepend(settingsMenu);
+        settingsMenu.css('top', $('#mainHeader').outerHeight() + "px");
+        settingsMenu.css('left');
+        settingsMenu.css('left', '0');
+    }
+    else
+    {
+        opened.removeClass('activeSettingsBtn');
+        opened.addClass('settingsBtn');
+        $('#settingsMenu').remove();
+    }
+};
+
+var insertHeader = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if ($('.js-added').length)
+        $('.js-added').remove();
+
+    if (vw > 768)
+    {
+        
+        $('#searchholder').after(buttonsHTML);
+        
+        var nav_buttons = $('.txt-nav-btn');
+        nav_buttons.css('box-sizing', 'border-box');
+        nav_buttons.css('height', search_box.outerHeight() + "px");
+    }
+    else
+    {
+        var sbutton = $(document.createElement('div'));
+        sbutton.addClass('settingsBtn js-added');
+        sbutton.click(slideMenu);
+        if ($('#logoHolder').length > 0)
+        {
+            $('#logoHolder').after(sbutton);
+        }
+        else
+        {
+            $('#mainHeader').prepend(sbutton);
+        }
+    }
+};
+
+insertHeader();
+$(window).resize(function(){insertHeader()});
+
+var hideLogoOnScroll = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw < 768)
+    {
+        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0)
+        {
+            $('#logoHolder').remove();
+        }
+        else
+        {
+            if ($('#logoHolder').length === 0) 
+            {
+                $('#mainHeader').prepend('<div id="logoHolder"><a href="https://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+            }
+        }
+    }
+};
+
+$(window).resize(hideLogoOnScroll);
+$(window).scroll(hideLogoOnScroll);
+</script>
+
+<div class="clear"></div>
+<div id="top_notification">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline; font-size: 18px;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#top_notification").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+
+</nav>
+
+<div id="pushedContainer">
+
+<div id="STN">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#STN").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+<a id="desktopbutton" class="pure-button pure-button-primary txt-nav-btn" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a>
+<div id="centralizer">
+<div id="logoNsearch">
+<a href="https://ryerson.ca/" class="blockify" style="width: 300px; margin: 0 auto;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 300px;"/>
+</a>
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead bigtypeahead" type="text" name="query" placeholder="Name or Expertise">
+<button type="submit" class="pure-button pure-button-primary" aria-label="Search"><span style="color: white;" class="fa fa-lg fa-search"></span></button>
+</div>
+</form>
+</div>
+<div id="cardContainer">
+<p style="margin: 2em 0; font-size: 1.1em; display: block; text-align: center;"><a class="notxtstyle linkify" target="_self" href="https://experts.ryerson.ca/french-speaking-experts">Des Experts Qui Parlent Français - French Speaking Experts</a></p>
+<div id="facultyminview" class="smallCard grayBorderedBox">
+<h2 class="sectionHeader">Browse by Faculty</h2>
+<div class="cardPadder">
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Arts">Faculty of Arts</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Communication and Design">Faculty of Communication and Design</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Community Services">Faculty of Community Services</a>
+<a id="facultyexpander" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Expand >></a>
+</div>
+</div>
+<div id="facultymaxview" class="specialSmallCard grayBorderedBox">
+<h2 class="sectionHeader">Browse by Faculty</h2>
+<div class="cardPadder">
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Arts">Faculty of Arts</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Communication and Design">Faculty of Communication and Design</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Community Services">Faculty of Community Services</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Engineering and Architectural Science">Faculty of Engineering and Architectural Science</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Faculty of Science">Faculty of Science</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/Ted Rogers School of Management">Ted Rogers School of Management</a>
+<a class="notxtstyle linkify spacify" href="https://experts.ryerson.ca/faculties/The G. Raymond Chang School of Continuing Education">The G. Raymond Chang School of Continuing Education</a>
+<a id="facultyshrinker" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Shrink &lt;&lt;</a>
+</div>
+</div>
+<div id="mrminview" class="largeCard grayBorderedBox">
+<h2 class="sectionHeader">Media Relations</h2>
+<div class="cardPadder">
+<span>Michelle Grady</span><br/>
+<span>Media Relations Officer</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:mgrady@ryerson.ca">mgrady@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 7161</span><br/><br/>
+<a id="mrexpander" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Expand >></a>
+</div>
+</div>
+<div id="mrmaxview" class="specialLargeCard grayBorderedBox">
+<h2 class="sectionHeader">Media Relations</h2>
+<div class="cardPadder">
+<span>Michelle Grady</span><br/>
+<span>Media Relations Officer</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:mgrady@ryerson.ca">mgrady@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 7161</span>
+<br/><br/>
+<span>Karen Benner</span><br/>
+<span>Associate Director, University Communications</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:karen.benner@ryerson.ca">karen.benner@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 3494</span>
+<br/><br/>
+<span>Ted Rogers School of Management:</span>
+<br/><br/>
+<span>Nadine Habib</span><br/>
+<span>Media and Rich Content Specialist</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:nadine.habib@ryerson.ca">nadine.habib@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 3608</span>
+<br/><br/>
+<a id="mrshrinker" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Shrink &lt;&lt;</a>
+</div>
+</div>
+<div id="departmentminview" class="smallCard grayBorderedBox">
+<h2 class="sectionHeader">Browse by Department</h2>
+<div class="cardPadder">
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Daphne Cockwell School of Nursing">Daphne Cockwell School of Nursing</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Aerospace Engineering">Department of Aerospace Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Architectural Science">Department of Architectural Science</a>
+<a id="departmentexpander" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Expand >></a>
+</div>
+</div>
+<div id="departmentmaxview" class="specialSmallCard grayBorderedBox">
+<h2 class="sectionHeader">Browse by Department</h2>
+<div class="cardPadder">
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Daphne Cockwell School of Nursing">Daphne Cockwell School of Nursing</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Aerospace Engineering">Department of Aerospace Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Architectural Science">Department of Architectural Science</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Chemical Engineering">Department of Chemical Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Chemistry and Biology">Department of Chemistry and Biology</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Civil Engineering">Department of Civil Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Computer Science">Department of Computer Science</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Criminology">Department of Criminology</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Economics">Department of Economics</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Electrical, Computer, and Biomedical Engineering">Department of Electrical, Computer, and Biomedical Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of English">Department of English</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Geography and Environmental Studies">Department of Geography and Environmental Studies</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of History">Department of History</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Languages, Literatures & Cultures">Department of Languages, Literatures & Cultures</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Mathematics">Department of Mathematics</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Mechanical and Industrial Engineering">Department of Mechanical and Industrial Engineering</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Philosophy">Department of Philosophy</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Physics">Department of Physics</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Politics and Public Administration">Department of Politics and Public Administration</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Psychology">Department of Psychology</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Department of Sociology">Department of Sociology</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Midwifery Education Program">Midwifery Education Program</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/RTA School of Media">RTA School of Media</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Accounting and Finance">School of Accounting and Finance</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Child and Youth Care">School of Child and Youth Care</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Creative Industries">School of Creative Industries</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Disability Studies">School of Disability Studies</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Early Childhood Studies">School of Early Childhood Studies</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Fashion">School of Fashion</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Graphic Communication Management">School of Graphic Communication Management</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Health Services Management">School of Health Services Management</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Image Arts">School of Image Arts</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Interior Design">School of Interior Design</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Journalism">School of Journalism</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Nutrition">School of Nutrition</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Occupational and Public Health">School of Occupational and Public Health</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Performance">School of Performance</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Professional Communication">School of Professional Communication</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Social Work">School of Social Work</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/School of Urban and Regional Planning">School of Urban and Regional Planning</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Ted Rogers School of Business Management">Ted Rogers School of Business Management</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Ted Rogers School of Hospitality and Tourism">Ted Rogers School of Hospitality and Tourism</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Ted Rogers School of Information Technology Management">Ted Rogers School of Information Technology Management</a>
+<a class="linkify spacify notxtstyle" href="https://experts.ryerson.ca/departments/Ted Rogers School of Retail Management">Ted Rogers School of Retail Management</a>
+<a id="departmentshrinker" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Shrink &lt;&lt;</a>
+</div>
+</div>
+<div class="clear"></div>
+<div id="profsignup"><span class="bold">Faculty member who wants a profile? </span><a class="notxtstyle linkify" style="word-wrap: break-word;" href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Submit your information.</a></div>
+</div>
+<div class="clear"></div>
+</div>
+<script type="text/javascript">
+var center_page = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if (vw > 768) {
+        var search_box = $('.typeahead');
+        search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+        search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+  
+        var search_box_h = $('.typeahead').outerHeight();
+        $('#logoNsearch form button').outerHeight(search_box_h - 4 + "px");
+        $('.typeahead').css('padding-right', $('#logoNsearch form button').outerWidth() + 20 + "px");
+
+        var maxHeight = 0;
+        var getMaxHeight = function (index, element) {
+            maxHeight = ($(element).height() > maxHeight) ? $(element).height() : maxHeight;
+        };
+        var setHeight = function (index, element) {
+            $(element).height(maxHeight + "px");
+        };
+
+        var cards = $('.smallCard, .largeCard');
+        cards.each(getMaxHeight);
+        cards.each(setHeight);
+
+        var content_height = $('#centralizer').height();
+        if (content_height < vh - $('footer').outerHeight() - 60) {
+            var gap = (vh - $('footer').outerHeight() - content_height) / 2;
+            $('#centralizer').css('padding', Math.floor(gap) + 'px 0');
+        }
+    }     
+};
+
+var removeStyleTags = function () {
+    var elements = $('#centralizer, #logoNsearch form button, .typeahead, .smallCard, .largeCard');
+    elements.each(function (index, element) {$(element).removeAttr('style')});
+};
+
+$(window).load(function () {
+    $('#facultymaxview').addClass('hidify');
+    $('#mrmaxview').addClass('hidify');
+    $('#departmentmaxview').addClass('hidify');
+    $('#facultyexpander').click(
+        function () {
+            $('#facultyminview').addClass('hidify');
+            $('#facultymaxview').removeClass('hidify');
+        }
+    );
+    $('#mrexpander').click(
+        function () {
+            $('#mrminview').addClass('hidify');
+            $('#mrmaxview').removeClass('hidify');
+        }
+    );
+    $('#departmentexpander').click(
+        function () {
+            $('#departmentminview').addClass('hidify');
+            $('#departmentmaxview').removeClass('hidify');
+        }
+    );
+    $('#facultyshrinker').click(
+        function () {
+            $('#facultymaxview').addClass('hidify');
+            $('#facultyminview').removeClass('hidify');
+        }
+    );
+    $('#mrshrinker').click(
+        function () {
+            $('#mrmaxview').addClass('hidify');
+            $('#mrminview').removeClass('hidify');
+        }
+    );
+    $('#departmentshrinker').click(
+        function () {
+            $('#departmentmaxview').addClass('hidify');
+            $('#departmentminview').removeClass('hidify');
+        }
+    );
+    center_page();
+});
+$(window).resize(function () {removeStyleTags(); _.debounce(center_page, 100)();});
+</script>
+
+</div>
+<script type="text/javascript">
+if (document.getElementById('mainHeader') !== null) {
+    jQuery.fn.headerPush = function () {
+        if ($('#mainHeader').css('display') !== 'none') 
+        {
+            this.css("padding-top", $('#mainHeader').outerHeight() + "px");
+        }
+        else
+        {
+            this.css("padding-top", "0");
+        }
+        return this;
+    }
+
+    $('#pushedContainer').headerPush();
+    $(window).resize(function(){$('#pushedContainer').headerPush()});
+}
+</script>
+<div id="footerpusher"></div>
+</div>
+
+<footer>
+<p id="orgAddress">
+&copy; <script type="text/javascript">var year = new Date().getFullYear(); $('#orgAddress').append(year)</script> | Ryerson University | 350 Victoria Street, Toronto, Ontario, Canada M5B 2K3 | (416) 979-5000
+</p>
+<p id="poweredBy">
+Powered by
+<a href="https://expertisefinder.com/" rel="nofollow"><img src="/static/img/expertise_finder_logo.png" style="height: 45px; display: block; margin: 0 auto; padding-top: 5px;" alt="Link to expertisefinder.com"/></a>
+</p>
+<div class="clear"></div>
+</footer>
+<script type="text/javascript">
+var setFooterHeight = function () {
+    var globalwrapper = $('#globalwrapper');
+    var pusher = $('#footerpusher');
+    var footer_size = $('footer').outerHeight() + "px";
+
+    globalwrapper.css('margin-bottom', "-" + footer_size);
+    pusher.height(footer_size);
+};
+
+setFooterHeight();
+$(window).resize(setFooterHeight);
+</script>
+
+<script type="text/javascript">
+var fetchQuery = null;
+var fetchResultsCallback = null;
+
+var fetchResults = _.debounce(function() {
+    $.get('/suggester?query=' + fetchQuery, function(data) {
+        if(fetchResultsCallback)
+	    fetchResultsCallback(data);
+    });
+}, 300);
+
+$('#suggest-enabled .typeahead').typeahead(
+  {
+    hint: false,
+    highlight: false,
+    minLength: 1
+  },
+  {
+    name: 'suggestions',
+    limit: 10,
+    display: 'suggestion',
+    source: function(query, syncResults, asyncResults) {
+        fetchQuery = query;
+        fetchResultsCallback = asyncResults;
+        fetchResults();
+    }
+  }
+).on("typeahead:render", function() {
+    var searchTerm = $(this).val();
+    $(".tt-suggestion").each(function () {
+        $(this).mark(
+            searchTerm,
+            {
+                'element': 'strong',
+                'className': '',
+                'separateWordSearch': false,
+                'acrossElements': true,
+                'accuracy': 'partially',
+                'diacritics': true,
+                'caseSensitive': false,
+                'filter': function (node, term, totalCounter, counter) {
+                    if (counter >= 1) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        );
+    });
+});
+</script>
+</body>
+</html>

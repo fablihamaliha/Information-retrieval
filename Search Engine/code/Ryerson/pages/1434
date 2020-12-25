@@ -1,0 +1,2098 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en" >
+
+
+<head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content=""> 
+<meta name="description" content=""> 
+<title>
+Enrol/Drop/Swap a Block of Students - 
+RAMSS Support - 
+ Ryerson University
+</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "genTemplate";
+
+var runMode = "publish"; 
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+<link rel="stylesheet" href="/etc.clientlibs/ryerson/static/template960/clientlibs.36be2b12c65de021d107136d257e5067.css" type="text/css">
+ 
+<script type="text/javascript" src="/etc.clientlibs/ryerson/static/template960/clientlibs.7cf27b65cf30a5df7740ba7b7f949f0d.js"></script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var $theme = jQuery.noConflict();
+
+</script>
+   
+<link id="scriptGenMainPrintCSS" href="/content/dam/static/print.css" rel="stylesheet" type="text/css" media="print"> 
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+   	<!-- red -->
+	<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+	
+    <!-- yellow -->
+	<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+	
+	<!-- system -->
+	<div id="systemAlert"></div>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="siteWrapper">
+    <a id="skip_to_content" href="" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a> 
+        <div class="pageWrapper">
+     
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="globalNavigation">
+    <a href="/" class="globalLogo"><img src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/ryerson_logo.png" width="89" height="43" alt="Ryerson University" title="Ryerson University"/></a>
+    <div class="searchArea">
+    <div class="globalLinks"><a href="https://my.ryerson.ca/">my.ryerson.ca</a>&nbsp; | &nbsp;<a href="/contact">Directory</a></div>
+    <div id="searchwrapper">
+		<form method="GET" action="/search" class="resSearch">
+			<label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="q">Search Ryerson.ca</label>
+			<label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="i">Submit Search</label> 
+			<input type="text" placeholder="Search Ryerson.ca" id="q" name="q" class="searchbox">
+			<input type="image" alt="Submit Search" value="" class="searchbox_submit" id="i" src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/submit.png"> 
+		</form>
+    </div>
+    </div>
+</div>
+          
+                  <div class="header parbase">
+
+
+
+
+
+
+
+
+    
+
+    
+ 
+ 
+	     <style type="text/css">
+	     .sf-menu{
+	        margin-top:-50px;
+	     }
+        
+
+.siteHeaderContainer {
+    background-image:url("/content/dam/RAMSSsupport/header_RAMSS.png");
+    height:200px;
+    width:960px;
+    position: relative;
+    background-color:#333333;
+
+}
+
+.siteHeaderContainer h1 {
+    color: #FFFFFF;
+    font-family: UniversCondensed;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    position:relative;
+    bottom:30px;
+    left:40px;
+    position: absolute;
+}
+
+
+.siteHeaderContainer .wayfinderNav ul li {
+    zoom:1;
+    color:#FFFFFF;
+    font-weight: bold;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    display:block;
+    padding:6px; 
+    padding-top:0px;
+    width:auto;
+    list-style-type: none;
+    display:inline;
+    position:relative;
+}
+.sf-menu ul li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.85;
+}
+.sf-menu li li li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.85;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+    color:#FFFFFF;
+    text-decoration: none;
+    border-right: none;
+    font-family: UniversCondensed, Arial;
+
+}
+
+.siteHeaderContainer .wayfinderNav ul li a {
+    color:#FFFFFF !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.siteHeaderContainer .siteNav {
+    zoom:1;
+    color: #ffffff;
+    width:960px;
+    height:50px;
+    bottom:0px;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.8;
+    vertical-align:middle;
+    text-align:center;
+    position: absolute;
+}
+
+#megaMenuContainer {
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    margin-top:-50px;
+}
+
+#megaMenu {
+    zoom:1;
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.8;
+}
+
+.links {
+    zoom:1;
+    display: none;
+    background-color: #111111;
+    height: 0px;
+    position: absolute;
+    float: left;
+    width: 960px;
+    overflow: hidden;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.85;
+    top:261px;
+}
+
+.subLinks {
+    position: relative;  
+    color: #FFFFFF !important;
+    float: left;
+    padding-top: 15px;  
+    padding-bottom: 1000px;margin-bottom: -1000px;
+}
+
+.subLinks a {
+    color: #FFFFFF;
+    font-size: 15px;  
+    margin-left: 20%; 
+    text-decoration:none; 
+}
+    
+
+     
+.megaMenuColumn a.megaTitle{
+    color:#005a9c;
+    padding-top:25px;
+    font-weight:bold;
+
+}
+.megaMenuColumn a.megaSubTitle{
+    color:#FFFFFF;
+    padding-top:8px !important;
+
+}
+.megaMenuColumn div.subLinks{
+    background-color:#111111; 
+}
+
+</style>
+
+<!--[if IE 7]> 
+<style>
+.siteHeaderContainer .wayfinderNav ul li {
+    margin-left:5px;
+}
+.siteHeaderContainer .wayfinderNav {
+    position:relative;
+    top:40px;
+    left:15px;
+}
+
+.MainMenuSubMenuAdjustHeight{
+height:0px;
+}
+</style>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<script type="text/javascript">
+     var updateMenuJSON = false;
+     var updateWayfinderJSON = false;
+     var fireCheckEvent = false;
+  function assembleTree(parentNode,dataArr){
+	  console.log(dataArr); 
+      var c;
+      for(c=0;c<dataArr.length;c++){
+          newNode = parentNode.appendChild({"text":dataArr[c].text,"expandable":true,"expanded":true,"leaf":true,"isMegaTitle":dataArr[c].isMegaTitle});
+          if(dataArr[c].children.length > 0){
+              assembleTree(newNode,dataArr[c].children); 
+          }
+      }
+  } 
+  
+  function getJson(treeNode) {
+	 // console.log("thisone");
+         treeNode.expandChildNodes();
+         var json = {};
+         //console.log(treeNode);
+         var attributes = treeNode.attributes;
+         for(var item in attributes){
+             if (item == 'src' || item == 'text' || item == "isMegaTitle") {
+                 //console.log(item + " : " + attributes[item]);   //only use required attributes
+                 json[item] = attributes[item];
+             }
+         }
+         json.children = [];
+         if(treeNode.childNodes.length > 0){
+             for (var i=0; i < treeNode.childNodes.length; i++) {
+                 json.children.push(getJson(treeNode.childNodes[i]));
+             }
+         }
+         return json;
+     }
+
+  function getMenuStyle(_elem, _style){
+      var computedStyle;
+      if (_elem != 'undefined' && (typeof _elem.currentStyle != 'undefined'))
+        { computedStyle = _elem.currentStyle; }
+      else
+        { computedStyle = document.defaultView.getComputedStyle(_elem, null); }
+
+      return computedStyle[_style];
+      
+    }
+  </script> 
+
+<div class="siteHeaderContainer" style="top:0px;">
+<img src="/etc.clientlibs/ryerson/static/legacyAssets/resources/images/transparentimage.gif" alt="" style="top:0px;">
+   <div class="wayfinderNav">
+    <ul>
+</ul>
+
+  </div>
+  
+<a href="/content/ryerson/RAMSSsupport">
+
+  <h1>
+    
+  RAMSS Support
+
+  
+  </h1>
+  </a>
+  
+       <div class="siteNav"> </div> 
+      
+</div> 
+<div ><ul class="sf-menu sf-navbar">
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/index.html">Home</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/registrars_office.html">Registrar's Office</a>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/ugrad_grad.html">Students</a>
+<ul class="MainMenuSubMenuAdjustHeight">
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/getting_started.html">Getting Started</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics.html">Academics</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/search_for_classes.html">How to Search for Classes</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/how-to-enrol.html">How to Enrol</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/drop_a_class.html">How to Drop a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/swap_a_class.html">How to Swap a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/advisement_report.html">How to View My Advisement Report</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/change_plan_or_major.html">How to Change My Plan or Major</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/transfer_credit_evaluation.html">How to Apply for Transfer Credits</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/transfer_credit_report.html">How to View My Transfer Credit Report</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/request_letter.html">How to Request a Letter</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/view_unofficial_transcript.html">How to View My Unofficial Transcript</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/request_official_transcript.html">How to Request Ryerson Official Transcripts</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/apply_to_graduate.html">How to Apply to Graduate</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/select_a_minor.html">How to Select a Minor for Graduation</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/online_grad_doc.html">How to Submit an Online Graduation Document Courier Request</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/change_concentration.html">How to Add, Change or Delete a Concentration</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/academics/apply-letter-permission.html">How to Apply for a Letter of Permission</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/admissions.html">Admissions</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/financial_aid.html">View Awards and Scholarships</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/personal_information.html">Personal Information</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/student_fees.html">Student Fees</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/student_fees/refund.html">Request A Refund</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/student_fees/inquire_on_my_account.html">How to Inquire on my Account</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/ugrad_grad/support.html">Student Support</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/Chang.html">Chang School Students</a>
+<ul class="MainMenuSubMenuAdjustHeight">
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/getting_started.html">Getting Started</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics.html">Academics</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/search_for_classes.html">How to Search for Classes</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/enrol_with_validation.html">How to Enrol (With Validation)</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/enrol_without_validation.html">How to Enrol (Without Validation)</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/drop_a_class.html">How to Drop a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/swap_a_class.html">How to Swap a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/transfer_credit_report.html">How to View My Transfer Credit Report</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/view_unofficial_transcript.html">How to View My Unofficial Transcript</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/apply_to_graduate.html">How to Apply to Graduate</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/academics/certificate_registration.html">How to Register in a Certificate</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/financial_aid.html">Financial Aid</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/inquire_on_my_account.html">How to Inquire on My Account</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/personal_info.html">Personal Information</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/student_fees.html">Student Fees</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/Chang/support.html">Student Support</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/faculty.html">Faculty</a>
+<ul class="MainMenuSubMenuAdjustHeight">
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/facultycentre.html">Faculty Centre</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/classroster.html">Class Roster</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/graderoster.html">Grade Roster</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/entering_grades.html">Entering Grades</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/excel_files.html">Opening Excel Files</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/faculty/support.html">Faculty Support</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/admin.html">Admin Support</a>
+<ul class="MainMenuSubMenuAdjustHeight">
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/gettingstarted.html">Getting Started</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/gettingstarted/student_center.html">Student Center</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/gettingstarted/inquire.html">Inquire on Student Account</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/gettingstarted/tcreport.html">View a Transfer Credit Report</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/gettingstarted/advisement_report.html">View an Advisement Report</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/academics.html">Academics</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/academics/enrol.html">Enrol a Student in a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/academics/drop.html">Drop a Class</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/academics/swap.html">Swap a Class</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/block.html">Block Enrolment</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/block/class_block.html">Create a Class Block</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/block/block_of_students.html">Enrol/Drop/Swap a Block of Students</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/probation.html">Probationary Contract</a>
+<ul>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/probation/enter.html">Enter a Probationary Contract</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/probation/maintain.html">Maintain a Probationary Contract</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/GPA.html">GPA Calculation</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/admin/support.html">Admin Support</a>
+</li>
+</ul>
+</li>
+<li class="menuItem">
+<a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="/content/ryerson/RAMSSsupport/tutorials.html">Helpful Tutorials</a>
+<ul class="MainMenuSubMenuAdjustHeight">
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/tutorials/popups.html">Allowing Pop-Ups</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/tutorials/cache.html">Clearing Browser Cache</a>
+</li>
+<li class="menuItem">
+<a class="menuDivider heightAdjust menuText" href="/content/ryerson/RAMSSsupport/tutorials/browsers.html">Supported Browsers</a>
+</li>
+</ul>
+</li>
+</ul></div>
+
+        <div class="MainMenuSubMenuAdjustHeight"></div>
+    
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var calcWidth = 0;
+    
+        jQuery('ul.sf-menu').supersubs({ 
+            minWidth:    12,   // minimum width of sub-menus in em units 
+            maxWidth:    27,   // maximum width of sub-menus in em units 
+            extraWidth:  1     // extra width can ensure lines don't sometimes turn over 
+                               // due to slight rounding differences and font-family 
+        }).superfish({
+            "speed":200,
+            "dropShadows":false, 
+            "autoArrows":true,
+            pathClass:'currentPathNav'
+        });
+    
+    
+                jQuery('.sf-menu > .menuItem').each(function(index) {
+                    calcWidth += parseInt(jQuery(this).width(), 10)+6;
+                }); 
+            jQuery('.sf-menu').css("width",calcWidth);
+            
+}); 
+</script> 
+
+<style>
+
+/*----- Updated February 5, 2015 SA-----*/
+
+.text {
+    font: 14px/1.4 'Source Sans Pro', sans-serif;
+    line-height: 19px;
+    font-size:14px;
+}
+
+.text p {
+    font: 14px 'Open Sans', sans-serif !important;
+    line-height: 21px !important;
+}
+
+.text .p li {
+    font: 14px 'Open Sans', sans-serif !important;
+    line-height: 16px;
+}
+
+
+.text p a:link {
+    color:#1B5A98 !important;
+text-decoration: none;
+}
+
+.text p a:visited {
+    color:#1B5A98 !important;
+}
+
+.text a:link a:visited a:hover a:active {
+    color:#1B5A98 !important;
+}
+
+/*----- May 26 -----*/
+
+.navy-button {
+        -webkit-font-smoothing: antialiased;
+	background-color:#114776;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff !important;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+        width:auto !important;
+        padding: 0 15px 0 15px !important;
+	text-decoration:none;
+	text-align:center;
+}.navy-button:hover {
+	background-color:#2D93D6;
+}.navy-button:active {
+	position:relative;
+	top:1px;
+}
+
+.text li a:link {
+    color:#1B5A98 !important;
+text-decoration: none;
+}
+
+.text li a:visited {
+    color:#1B5A98 !important;
+}
+
+
+/*----- January 9, 2015 SA-----*/
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 43px;
+    color: #003B65;
+}
+
+.siteHeaderContainer h1 {
+    bottom: 84px !important;
+    font-weight: 0;
+    letter-spacing: 0px;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+h3 {
+    color: #003B65 !important;
+    font-size: 1.45em;
+    font-weight: 400;
+}
+
+/*----- February 5, 2015 SA-----*/
+.textComponent img {
+   border-style: solid;
+border-width: 1px;
+border-color: #DADADA;
+}
+
+/*----- Apr 1, 2016 SK ----*/
+
+.sf-menu {
+    padding-left: 29px;
+}
+
+/*--- Oct 26 Accessibility Improvements MI ---*/
+
+.sf-menu li a:focus {
+color:#FFD700 !important;
+} 
+
+.sf-menu li a:hover {
+color:#FFD700 !important;
+} 
+
+.sf-menu li li a {
+opacity:1 !important;
+} 
+
+.sf-menu li li a:focus {
+color:#FFD700 !important;
+} 
+
+.sf-menu li li a:hover {
+color:#FFD700 !important;
+} 
+</style>
+</div>
+
+                  
+          <div class="contentArea">
+          
+          <script>
+          var returnVal = false;
+          function containsCurrPage(item){
+              
+              //returnval is being set to false on each recursi ve call
+              jQuery(item).each(function(k,v){
+                 if(jQuery(v).attr('class') != undefined && jQuery(v).attr('class').indexOf("currPage") >= 0){
+                     jQuery(v).children("ul").children("li").children("ul").each(function(x,xx){
+                         jQuery(xx).remove();
+                     });
+                       returnVal = true;
+                 }
+                 
+                 if(jQuery(v).children() != null && jQuery(v).children().length > 0){
+                     jQuery(v).children().each(function(kk,vv){containsCurrPage(vv);});
+                 }
+             });
+             return returnVal;
+          }
+          
+          
+          </script>
+              <div class="mt_leftNav" style="width:0px;">
+                
+                 <style>
+</style>
+
+                   <div style="clear:both;"></div>
+                   <div style="overflow:hidden;">
+                   <div id="componentLEFT">
+                   <div class="leftContainer">
+                   
+                </div>
+                </div>
+               </div>
+              </div>
+              <div class="mt_mainContent" style="width:940px;">
+              <div class="center parsys"><div class="uiwReference section">
+
+
+
+
+
+
+
+
+   
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj781986594" class="allToolbarSelector"></div>
+    
+    
+    
+    
+ <script> 
+
+</script>
+
+<div id="component781986594"> 
+<div class="refContainer">
+
+ <div class="uiwimage uiwImage parbase">
+
+
+
+
+
+
+
+
+
+
+                                                           
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj1619447775" class="allToolbarSelector"></div>
+    
+    
+    
+    
+           
+<script>                                                       
+                                                                                     
+</script>  
+<div id="component1619447775"  class="imageComponent">   
+<div class="wholeImage"> 
+
+     <div id="cq-image-jsp-/content/ryerson/RAMSSsupport/index/jcr:content/center/uiwimage" class="image" style=""><a href="https://my.ryerson.ca/"><img src="/content/ryerson/RAMSSsupport/index/jcr%3acontent/center/uiwimage.img.png/1437485237235.png" alt="RAMSS - Sign in to my.ryerson.ca" title="RAMSS - Sign in to my.ryerson.ca" class="cq-dd-image cStyles"></a> 
+        <div  class="captionText" style="padding-bottom:5px;padding-left:5px;padding-right:5px;text-align:left;clear:both;">
+        
+        </div>
+        </div> 
+     </div>
+     <div style="clear:both;"></div>
+     </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  
+ </div> 
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="columns uiwColumns section">
+
+
+
+
+
+
+
+
+   
+
+          
+
+                                                   
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj466539896" class="allToolbarSelector"></div>
+    
+    
+    
+     
+ 
+<div id="component466539896"  class="columnsComponent">  
+
+
+<div class="wholeGrid">
+<div class="colCount colCount_0_0" style="float:left;width:100%;" >
+       <div style="padding-top:-1px;margin-top:1px;"> 
+       <div class="conContainer_0_0 parsys"><div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj1397717356" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component1397717356" class="textComponent">  
+
+<div class="text"><h1>How to Enrol/Drop/Swap a Block of Students</h1></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj482712860" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component482712860" class="textComponent">  
+
+<div class="text"><p>When you have a group of students that you want to enrol, drop or swap in one or more classes, you can set up a Student Block containing these students and then you can process one enrolment request for the whole block.</p> 
+<p>For example, if you need to drop 90 students from a class, you can create a Student Block containing the 90 students, drop the block of students from the class with one enrolment request. Then use the Student Block again to enrol them in another class.&nbsp;</p> 
+<p>You can enrol a group of students in a class&nbsp;from <strong>Records and Enrolment</strong> on <strong>the Main Menu</strong>.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu1.jpg" alt="Records and Enrolment option under Main Menu"></p> 
+<hr></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="title section">
+
+
+
+
+
+
+
+
+
+<a class="defaultPageTitle">Enrol/Drop/Swap a Group of Students</a></div>
+<div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj1248543084" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component1248543084" class="textComponent">  
+
+<div class="text"><ol> 
+ <li>On the menu bar, click <strong>Main Menu</strong> and then click the following:
+  <ul> 
+   <li><strong>Records and Enrolment</strong></li> 
+   <li><strong>Enrol Students</strong></li> 
+   <li><strong>Block Enrolment</strong></li> 
+  </ul> </li> 
+</ol> 
+<p>There are three block enrolment functions available:</p> 
+<ul> 
+ <li><strong>Block Enrol Merge</strong> – to enrol drop or swap one or more students in one or more classes</li> 
+ <li><strong>Create Class Block</strong> – to create a block of classes that you are going to enrol, drop or swap one or more students</li> 
+ <li><strong>Create Student Block</strong> – to create a block of students that you are going to enrol in one or more classes</li> 
+</ul></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="uiwAccordion parbase section">
+
+
+
+
+
+
+
+
+
+
+    
+    
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj660809804" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+                                                                                     
+</script> 
+
+<div id="component660809804" class="accordionComponent">  
+<div class="accordionContainer">
+
+
+<div class="openAll"><a href=""><img src="/etc.clientlibs/ryerson/static/uiResources/resources/uiwAccordion/panel_open.png" alt=""/>Open All</a></div>
+<div class="closeAll"><a href=""><img src="/etc.clientlibs/ryerson/static/uiResources/resources/uiwAccordion/panel_close.png" alt=""/>Close All</a></div>
+<div style="clear:both;margin-top:10px;"></div>
+
+<div class="accordion">
+    <div class="header">Create a Student Block</div>
+	<div class="content">
+	<div class="tab1 parsys"><div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj256877013" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component256877013" class="textComponent">  
+
+<div class="text"><ol start="2"> 
+ <li>Click the <strong>Create Student Block</strong>.</li> 
+ <li>Click the <strong>the Add a New Value</strong> tab.</li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu2.jpg" alt="Add a New Value tab on Create Class Block page"><br> The first thing you must do is give your Student Block an identifier that you can use to call it up at a later time. You can use up to five letters, five numbers or any combination of both for this identifier.</p> 
+<ol start="4"> 
+ <li>Enter an identifier for the <strong>Student Enrolment Block</strong>.</li> 
+ <li>Click&nbsp;<img src="/content/dam/RAMSSsupport/admin/add_button.jpg" style="padding: 0px; border: none;" alt="Add button"></li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu3.jpg" alt="Block Enrolment Students page with box to enter Description"><br> You must now enter a Description of your Student Block to help you further identify the block if you call it up at a later time.</p> 
+<ol start="6"> 
+ <li>Enter a description in the <strong>Description</strong> box.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu4.jpg" alt="Block Enrolment Students page with boxes to enter student's ID, Academic Career, and Plus button to add new student entry"></li> 
+ <li>Enter a student's <strong>ID</strong>.</li> 
+ <li>Enter a student's <strong>Academic Career</strong>.</li> 
+ <li>Click <img src="/content/dam/RAMSSsupport/add.jpg" style="padding: 0px; border: none;" alt="Add"> to add a new row for student-entry.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu5.jpg" alt="Block Enrolment Students page with all data entered"></li> 
+ <li>Continue adding student this way until the list is complete.</li> 
+</ol> 
+<p><br> <strong>If you have a long list of students to enter, you might want to use this keying tip:</strong></p> 
+<ul> 
+ <li><strong>Enter student ID, press tab twice</strong></li> 
+ <li><strong>Enter Academic Career, press tab twice</strong></li> 
+ <li><strong>Press Enter<br> &nbsp;</strong></li> 
+</ul> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu6.jpg" alt="Block Enrolment Students page with data for multiple students entered"></p> 
+<ol start="11"> 
+ <li>Click&nbsp;<img src="/content/dam/RAMSSsupport/admin/save.jpg" style="padding: 0px; border: none;" alt="Save button"></li> 
+</ol> 
+<p><br> <strong>You can go back and edit this Student Block at any time.</strong></p></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj1070788701" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component1070788701" class="textComponent">  
+
+<div class="text"><p><img src="/content/dam/RAMSSsupport/RAMSS_Admin.png" alt="Admin"> <b>Note:</b><br> <br> If you want to perform an enrol, drop or swap for this Student Block into multiple classes, you can create a Class Block. See the <a href="/RAMSSsupport/admin/block/class_block.html"><strong>How to Create a Class Block</strong></a> job aid for details.</p></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+	</div>
+	</div>
+
+<div class="accordion">
+    <div class="header">Enrol, Drop or Swap a Student Block</div>
+	<div class="content">
+	<div class="tab2 parsys"><div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj790800106" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component790800106" class="textComponent">  
+
+<div class="text"><p><img src="/content/dam/RAMSSsupport/admin/block_stu7.jpg" alt="Add Merge Process link on Block Enrolment Students page"></p> 
+<ol start="12"> 
+ <li>Click the <strong>Add Merge Process</strong> link.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu8.jpg" alt="Block Enrol Merge tab with Student Block identifier box"></li> 
+ <li>Enter the <strong>Student Block</strong> identifier.</li> 
+</ol> 
+<p><br> If you don’t remember the Student Block identifier, click <img src="/content/dam/RAMSSsupport/magnify.jpg" style="padding: 0px; border: none;" alt="Search icon"> beside the Student Block box and select it from a list on Student Blocks.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu9.jpg" alt="Detail/Create link under Block Enrol Merge tab"></p> 
+<ol start="14"> 
+ <li>Click the <strong>Detail/Create</strong> link below Class Block.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu10.jpg" alt="Create Customized Class Block page with options to enter Term, Action, and Class Number"></li> 
+ <li>Enter the <strong>Term</strong>.</li> 
+ <li>Select an <strong>Action Reason</strong> from the drop-down box.</li> 
+ <li>Click <img src="/content/dam/RAMSSsupport/magnify.jpg" style="padding: 0px; border: none;" alt="Search icon"> to search for the <strong>Class Nbr</strong>.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu11.jpg" alt="Enter Search Criteria window with box to enter Course Subject"></li> 
+ <li>Enter the 3 or 4-letter code for the <strong>Course Subject</strong> from the academic calendar.<br> For example: 
+  <ul> 
+   <li>ENG – for Undergrad English courses</li> 
+   <li>CENG – for Continuing Education English courses</li> 
+  </ul> </li> 
+ <li>Enter the <strong>Course Number</strong>.</li> 
+ <li>Click <strong>SEARCH</strong>.<br> <img src="/content/dam/RAMSSsupport/admin/block_stu12.jpg" alt="Search Results window with button to select class"></li> 
+ <li>Click <strong>select class</strong> beside the class you wish to choose.</li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu13.jpg" alt="Overrides section with checkbox options on Create Customized Class Block page"><br> You may need to override some of the requirements to get this enrolment request to complete successfully with no errors. Your security level will determine which overrides you can select.</p> 
+<ol start="22"> 
+ <li>Select the Overrides that you want to apply.</li> 
+</ol> 
+<p><br> You can add another class by clicking <img src="/content/dam/RAMSSsupport/add.jpg" style="padding: 0px; border: none;" alt="Add"> in the top right-hand corner. This will add a new row where you can add a class.</p> 
+<p>To view all the classes and their overrides, click <strong>View All</strong>.</p> 
+<ol start="23"> 
+ <li>Click <img src="/content/dam/RAMSSsupport/admin/OK.jpg" style="padding: 0px; border: none;" alt="OK button"><br> <img src="/content/dam/RAMSSsupport/admin/block_stu14.jpg" alt="Merge button under Block Enrol Merge tab"></li> 
+ <li>Click&nbsp;<img src="/content/dam/RAMSSsupport/admin/merge.jpg" style="padding: 0px; border: none;" alt="Merge button"><br> <img src="/content/dam/RAMSSsupport/admin/block_stu15.jpg" alt="Submit button under Block Enrol Merge tab"></li> 
+ <li>Click&nbsp;<img src="/content/dam/RAMSSsupport/admin/submit.jpg" style="padding: 0px; border: none;" alt="Submit button"></li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu16.jpg" alt="Request Status under Block Enrol Merge tab showing an error"><br> Your enrolment request has now processed. The status of the request shows in the Request Status box.</p> 
+<p>If you get errors, you can retrieve the errors and look at the student to see the individual enrolment request and select overrides to deal with the errors.</p></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+	</div>
+	</div>
+
+<div class="accordion">
+    <div class="header">Address Errors</div>
+	<div class="content">
+	<div class="tab3 parsys"><div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj297650698" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component297650698" class="textComponent">  
+
+<div class="text"><p><img src="/content/dam/RAMSSsupport/admin/block_stu17.jpg" alt="Filtering Criteria section with Detail Status menu and Retrieve button under Block Enrol Merge tab"></p> 
+<ol start="26"> 
+ <li>From the <strong>Detail Status</strong> box, select a message type you want work with.</li> 
+ <li>Click&nbsp;<img src="/content/dam/RAMSSsupport/admin/retrieve.jpg" style="padding: 0px; border: none;" alt="Retrieve button"></li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu18.jpg" alt="Detail link next to student under Block Enrol Detail tab"><br> This shows all the students with errors and the possible details of errors encountered. You can then work your way through the list, selecting the overrides to apply to each individual student in order to achieve a successful enrolment request.</p> 
+<ol start="28"> 
+ <li>Click the <strong>DETAIL</strong> link beside the student you want to work with.</li> 
+</ol> 
+<p><img src="/content/dam/RAMSSsupport/admin/block_stu19.jpg" alt="Block Enrol Detail 1 tab"><br> You can now select overrides needed to get rid of the error. Then click the <strong>Block Enrol Merge</strong> tab and try the enrolment request again.</p> 
+<p>To change the overrides for another student click the <strong>Block Enrl Detail1</strong> tab.</p></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="text uiwText parbase section">
+
+
+
+
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+   
+    <!-- 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     --> 
+   
+    
+    <div id="toolbarObj1670287585" class="allToolbarSelector"></div>
+    
+    
+    
+    
+<script>                                                       
+
+</script>
+<div id="component1670287585" class="textComponent">  
+
+<div class="text"><p><img src="/content/dam/RAMSSsupport/RAMSS_Admin.png" alt="Admin"> <b>Note:</b><br> <br> If you continue to have problems enrolling a Student Block, contact the Business Process Unit at extension <strong>2292</strong> or send an email to <strong><a href="mailto:adminsupport@ryerson.ca">adminsupport@ryerson.ca</a></strong>.</p></div>
+
+<div style="clear:both;"></div>
+</div>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+	</div>
+	</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery("#component660809804 .accordion").accordion({
+        header: "div.header",
+        autoHeight: false,
+        collapsible:true,
+        active:false
+       
+    });
+
+    jQuery("#component660809804 .openAll").click(function(event){
+        event.preventDefault();
+    	jQuery("#component660809804 .accordion").each(function (idx, item) {
+    	    if (jQuery(item).accordion("option", "active") === false) {
+    	    	jQuery(item).accordion('activate', 0);
+    	    }
+    	});
+    });
+    jQuery("#component660809804 .closeAll").click(function(event){
+    	event.preventDefault();
+        jQuery("#component660809804 .accordion").each(function (idx, item) {
+            	jQuery(item).accordion("option", "active",false);
+        });
+    });
+    
+});
+ </script>
+ 
+</div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+ </div>
+       </div><div style="clear:both;"></div>
+        <div style="clear:both;"></div>
+        
+    <div style="clear:both;"></div>
+</div>
+</div>
+<script> 
+      
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+              </div>
+              <div class="mt_rightFeature" style="width:0px;">
+                 <style>
+</style>
+
+                  <div id="componentRIGHT">
+                  <div class="rightContainer">
+                
+                </div>
+                </div>
+              </div>
+          <div class="mt_Footer">
+                
+                   <div id="component1092833214">
+                   <div class="footerContainer">
+                
+                 
+                </div>
+                </div>
+              </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer"> 
+        <div>
+        <script type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write("&copy; " + year + " Ryerson University");
+        </script>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        </div>
+        <br>
+        <ul>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/accessibility/">Accessibility</a></li>
+        <li><a href="/ryerson.ca/terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+    </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+            #component1248543084 .text{
+                padding-bottom:10px !important;
+            }
+
+            #component1070788701 .text{
+                padding-top:10px !important;
+            border:1px dashed #DADADA !important;
+            padding-right:20px !important;
+            padding-bottom:10px !important;
+            min-height:110px !important;
+            margin-bottom:20px !important;
+            }
+
+            #component1070788701 img{
+                padding-top:0px !important;
+            border:none !important;
+            height:120px !important;
+            float:left !important;
+            }
+
+            #component482712860 .text{
+                padding-bottom:20px !important;
+            }
+
+            #component1619447775 .cStyles{
+                border:none !important;
+            float:right !important;
+            }
+
+            #component1619447775 .wholeImage{
+                border-bottom:1px solid grey !important;
+            }
+
+            #component466539896 > .wholeGrid:first-child{
+                padding:30px !important;
+            }
+
+            #component1670287585 .text{
+                padding-top:10px !important;
+            border:1px dashed #DADADA !important;
+            padding-right:20px !important;
+            padding-bottom:10px !important;
+            min-height:110px !important;
+            margin-bottom:20px !important;
+            }
+
+            #component1670287585 img{
+                padding-top:0px !important;
+            border:none !important;
+            height:120px !important;
+            float:left !important;
+            }
+
+</style> 
+    </div>     
+    </div> 
+        </div>
+    <style media="print">
+        .mt_leftNav{
+            width:0px !important;
+        }
+        .mt_mainContent{
+        width:100.0%  !important;
+        }
+        .mt_rightFeature{
+        width:0.0%  !important;
+        }
+        .pageWrapper{
+                width:672px !important;
+        }
+        .mt_Footer{
+            width:100% !important;
+        }
+        .searchArea{
+            visibility:hidden !important;
+        }
+    </style>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+piAId = '456672';
+piCId = '60636';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+    
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'ALMGDCDCKAFLDMHNPLJGAGHHFJIBIDIGCAIBAJDMKBGMOOJGEOABBOKOMMLHBFIJNGDBINOGAADCCGPKNCCAJHFJAANGIIMMBIANHAAMOEIMCCDDJOBHONFADPHFFADN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'HPNLAMFLAIBIKONOBMNKHCMLOAPHDIJCOPKLFKNNDFHNDNKKHJNDMCCJIOCJBOCBIHIBOJIEAADOHBNLOAAADIAIAAOLMMODFMDCGOBDJDAMAKBKDIKNNANPIOJJNLEC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

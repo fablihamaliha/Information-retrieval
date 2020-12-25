@@ -1,0 +1,638 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script>
+
+ NewImg = new Array (
+ 
+      "images/mathhome1.jpg",
+ 
+      "images/mathhome2.jpg",
+ 
+      "images/mathhome3.jpg",
+	  
+	  "images/mathhome4.jpg",
+ 
+      "images/mathhome5.jpg",
+ 
+      "images/mathhome6.jpg",
+	  
+	  "images/mathhome7.jpg",
+	  
+      "images/mathhome8.jpg",
+ 
+      "images/mathhome9.jpg",
+	  
+	  "images/mathhome10.jpg",
+ 
+      "images/mathhome11.jpg",
+
+	  "images/mathhome12.jpg",
+ 
+      "images/mathhome13.jpg",
+ 
+	  "images/mathhome14.jpg",
+ 
+      "images/mathhome15.jpg",
+
+	  "images/mathhome16.jpg",
+ 
+      "images/mathhome17.jpg",
+
+	  "images/mathhome18.jpg",
+ 
+      "images/mathhome19.jpg",
+
+	  "images/mathhome20.jpg"
+ 
+
+           );
+ 
+      /* as many or few images and the path to them */
+
+       
+ var ImgNum = 0;
+  var ImgLength = NewImg.length - 1;
+   var delay = 18000; /* Time delay between Slides in milliseconds */
+    var lock = false;
+     var run;
+
+    function chgImg(direction) {
+       if (document.images) {
+        	ImgNum = ImgNum + direction;
+     if (ImgNum > ImgLength) { ImgNum = 0; }
+     if (ImgNum < 0) { ImgNum = ImgLength; }
+        document.slideshow.src = NewImg[ImgNum];
+      }
+
+      }
+
+
+
+function auto() {
+
+if (lock == true) {
+
+lock = false;
+
+window.clearInterval(run);
+
+}
+
+else if (lock == false) {
+
+lock = true;
+
+run = setInterval("chgImg(1)", delay);
+
+}
+
+}
+
+
+
+
+</script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+ function playIntro(streamName){
+	 fullText='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="314" height="176" id="FLVPlayer"><param name="movie" value="math.swf" /><param name="quality" value="high" /><param name="wmode" value="opaque" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=SkinOverPlaySeekMute&amp;appName='+streamName+'.flv&amp;streamName='+streamName+'&amp;isLive=false&amp;bufferTime=0&amp;autoPlay=true&amp;autoRewind=false" /><param name="swfversion" value="8,0,0,0" /><!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you dont want users to see the prompt. --><param name="expressinstall" value="Scripts/expressInstall.swf" /><!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. --><!--[if !IE]>--><object type="application/x-shockwave-flash" data="math.swf" width="314" height="176"><!--<![endif]--><param name="quality" value="high" /><param name="wmode" value="opaque" /><param name="scale" value="noscale" /><param name="salign" value="lt" /><param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=SkinOverPlaySeekMute&amp;appName=vod/'+streamName+'.flv&amp;streamName='+streamName+'&amp;isLive=false&amp;bufferTime=0&amp;autoPlay=true&amp;autoRewind=false" /><param name="swfversion" value="8,0,0,0" /><param name="expressinstall" value="Scripts/expressInstall.swf" /><!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. --><div><h4>Content on this page requires a newer version of Adobe Flash Player.</h4><p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p></div><!--[if !IE]>--></object><!--<![endif]--></object>';
+	 document.getElementById('tour_intro_div').innerHTML = fullText;
+ }
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Department of Mathematics - Ryerson University</title>
+<link href="css/math_home.new.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/home_bkgrd_wide.jpg);
+	background-color: #FFFFFF;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+}
+-->
+</style></head>
+
+<body onLoad="javascript:auto()" >
+<!-- main site container here -->
+<div id="containerhome" style="border: 0px solid blue;">
+
+<!-- header with logos -->
+ <div id="mainheaderhome" style="border: 0px solid red;">
+	 
+   <table width="100%" border="0" cellspacing="0" cellpadding="2">
+     <tr colspan="4"><td><img src="images/20x20.gif" width="20" height="50"></td>
+     </tr>
+     <tr>
+       <td rowspan="2" align="right" valign="bottom"><img src="images/ryelogo_shell.png" width="309" height="250" border="0" usemap="#Map"></td>
+       <td colspan="2" align="left" valign="bottom"><img src="images/homelogo_right2.png" width="467" height="80"></td>
+      </tr>
+     <tr>
+       <td align="left" valign="top"><div id="tour_intro_div"><a href="#" onClick="playIntro('2010_02_19_634021850132183750_tour-intro');return false;"><img src="images/mathhome1.jpg" name="slideshow" width="314" height="176" border="0"></a></div></td>
+       <td rowspan="2" align="left" valign="top"><img src="images/home_image3.jpg" alt="cloud math" width="193" height="232" border="0"><br><div class="hometwitter" id="hometwitter">
+
+<table width="145" border="0" cellspacing="0" cellpadding="0" class="twitter" >
+
+  <tr>
+    <td width="28" align="left" valign="top"><a href="http://twitter.com/mathryerson"><img src="images/twitter_icon.gif" 
+    alt="Twitter" width="21" height="22" border="0"></a></td>
+    <td width="117" align="left" valign="top"><a href="http://twitter.com/mathryerson">Follow us<br>on Twitter</a></td>
+  </tr>
+  
+  <tr>
+    <td width="28" align="left" valign="top"><a href="http://www.youtube.com/watch?v=zAd96YOKTFA"><img src="images/YouTube.gif" 
+    alt="Twitter" width="21" height="22" border="0"></a></td>
+    <td width="117" align="left" valign="top"><a href="http://www.youtube.com/watch?v=zAd96YOKTFA">Follow us<br>on Youtube</a></td>
+  </tr>
+  
+</table></div></td>
+     </tr>
+     <tr>
+       <td colspan="2" align="left" valign="top"><div id="navhome"><br>
+      
+<div id="navtable">    
+   
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    
+    <td align="left" valign="top"><ul>
+      <li><strong><a href="about/index.html">ABOUT US</a></strong></li>
+      <li><a href="about/inthenews.html">In the News</a></li>
+      <li><a href="about/contactus.html">Contact Us</a></li>
+      <li><a href="http://www.ryerson.ca/science/">Faculty of Science</a></li>
+      <li><a href="events/index.html">Events</a></li>
+    </ul></td>
+    
+
+
+<td align="left" valign="top"><ul>
+	 <ul id="navgrd">
+      <li><strong><a href="undergrad/">UNDERGRADUATE</a></strong></li>
+        <li><a href="undergrad/mia_overview.html">Math & Its Applications &raquo;</a>
+          <ul>
+		  <li><a href="undergrad/courses-mia.html">&nbsp; Courses offered</a></li>
+		  <li><a href="undergrad/scholarships.html">&nbsp; Scholarships</a></li>
+          </ul></li>
+		  
+          <li><a href="undergrad/fm_overview.html">Financial Mathematics &raquo;</a>
+          <ul>
+          <li><a href="undergrad/courses-fm.html">&nbsp; Courses offered</a></li>
+          <li><a href="undergrad/scholarships.html">&nbsp; Scholarships</a></li>
+          </ul></li>
+          <li><a href="http://www.ryerson.ca/mathcentre/" TARGET="_blank">Math Assistance Centre</a></li>
+         <li><a href="undergrad/seminars.html">Seminars</a></li> 
+          </ul> </td>
+     
+  <td align="left" valign="top"><ul>
+<ul id="navgrd">
+ 	  <li><strong><a href="http://math.ryerson.ca/graduate/">GRADUATE</a></strong></li>
+      <li><a href="graduate/degree.html">MSc &raquo;</a>
+      <ul>   
+      <li><a href="graduate/overview.html">&nbsp; Overview</a></li>
+      <li><a href="graduate/admissions.html">&nbsp; Admission Requirements</a></li>   
+      <li><a href="http://math.ryerson.ca/graduate/degree.html">&nbsp; Degree Requirements</a></li>
+      <li><a href="graduate/courses.html">&nbsp; Courses Offered</a></li>   
+      <li><a href="graduate/pastgraduates.html">&nbsp; Past Graduates</a></li>
+      <li><a href="graduate/thesis-mrp.html">&nbsp; Thesis/MRP</a></li>
+      <li><a href="graduate/scholarships.html">&nbsp; Scholarships</a></li>
+      </ul></li>
+      
+      
+      <li><a href="graduate/admissions-phd.html">PhD &raquo;</a>
+            <ul
+      <li><a href="graduate/overview-phd.html">&nbsp; Overview</a></li>
+      <li><a href="graduate/admissions-phd.html">&nbsp; Admission Requirements</a></li>
+       <li><a href="graduate/degree-phd.html">&nbsp; Degree Requirements</a></li>
+      <li><a href="graduate/courses-phd.html">&nbsp; Courses Offered</a></li>   
+      <li><a href="graduate/scholarships-phd.html">&nbsp; Scholarships</a></li>
+      </ul></li>
+
+      
+      </ul>    </td>
+    
+
+  
+    
+    <td align="left" valign="top"><ul>
+      <li><strong><a href="research/">RESEARCH</a></strong></li>
+      <li><a href="https://www.ryerson.ca/biomathematics-fluids-group/">Biomathematics and Fluids</a></li>
+      <li><a href="http://www.ryerson.ca/financial-math-group/">Financial Mathematics</a></li>
+      <li><a href="http://www.ryerson.ca/graphs-group">Graphs at Ryerson</a></li>
+      <li><a href="http://www.math.ryerson.ca/ramlab/index.html">RAMLab</a></li>
+      <li><a href="research/seminars.html">Seminars</a></li>
+    </ul>    </td>
+    
+    <td align="left" valign="top"><ul>
+      <li><strong><a href="people/">PEOPLE</a></strong></li>
+      <li><a href="people/index.html#faculty">Faculty/Staff</a></li>
+      <li><a href="people/index.html#postdocs">Post Docs</a></li>
+      <li><a href="people/index.html#instructors">Instructors</a></li>
+    </ul>    </td>
+  </tr>
+</table>
+
+</div>
+
+</div></td>
+      </tr>
+   </table>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+ <!--  
+   <p>&nbsp;</p>
+-->   
+   <div id="newsevents">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	  <td align="left" valign="top"><a href="http://math.ryerson.ca/research/seminars.html"><img src="images/upcoming.gif" 
+    alt="Upcoming Events" width="403" height="35" border="0"></a></td>
+    <td align="left" valign="top"><a href="http://math.ryerson.ca/about/inthenews.html"><img src="images/latestnews.gif" 
+    width="433" height="35" alt="Latest News" border="0"></a></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+
+
+
+
+
+
+<!--
+<strong><a href="research/seminars.html#DC">Departmental Colloquium</a></strong><br>
+
+<p><strong><a href="research/seminars.html#MS">Master's Seminar Series</a></strong><br>
+
+<strong><a href="research/seminars.html#GAR">Graphs at Ryerson</a></strong><br>	
+
+<strong><a href="research/seminars.html#B&F">Biomathematics and Fluids Seminars</a></strong><br>
+
+<strong><a href="research/seminars.html#FM">Financial Mathematics Seminars</a></strong><br>	 OLD
+<strong><a href="research/seminars.html#DC">Departmental Colloquium</a></strong><br>
+
+<strong><a href="./finmath_share/seminars.html">Financial Mathematics Seminars</a></strong><br>	 NEW
+
+
+-->
+
+
+
+<!-- UPCOMING  -------- UPCOMING  ------ UPCOMING  ---- -->
+
+
+<!--
+<p>
+<strong><a href="#">Mathematics Departmental Social</a></strong><br>	
+<strong>Thursday, September 26, 2019 at 11am = 2pm Sears Atrium, 3rd Floor, 245 Church Street</strong><br>
+
+The Mathematics and Its Applications and Financial Mathematics student <br>
+unions welcome you to attend our annual Mathematics Departmental Social
+</p>
+
+-->
+
+<p>
+<strong><a href="research/seminars.html#DC">Departmental Colloquium</a></strong><br>
+</p>
+
+<p>
+<strong><a href="research/seminars.html#GAR">Graphs at Ryerson</a></strong><br>	
+<strong>Thursday, September 19, 2019 at 11:00am, Location: ENG-210</strong><br>
+Dr. Melissa Huggan<br>
+Title:  Simultaneous Moves with Cops and an Insightful Robber<br>
+
+</p>
+
+
+
+
+
+<p>
+<strong><a href="research/seminars.html#B&F">Mathematical Biology and Applied Analysis Seminars</a></strong><br>
+<strong>Friday, September 20, 2019 12:00pm-1:00pm, Location: ENG-210</strong><br>
+Dr. Ratnasingham Shivaji, UNC Greensboro<br>
+<a href="./research/pdfs/2019/Shivaji2019-Abstract.pdf">
+Existence and multiplicity of positive radial solutions for<br>
+singular superlinear elliptic systems in the exterior of a ball
+<img height="18"src="../images/icon_pdf.gif" width="18" align="texttop" /></a>
+</p>
+
+
+<p>
+<strong><a href="research/seminars.html#B&F">Mathematical Biology and Applied Analysis Seminars</a></strong><br>
+<strong>Friday, September 27, 2019 03:00pm-04:00pm, Location: ENG-210</strong><br>
+Professor Messoud Efendiyev James D. Murray Distinguished Visiting Professor University of Waterloo<br>
+<a href="./research/pdfs/2019/Sept-27-2019.pdf">Mathematical modelling of life science problems
+<img height="18"src="../images/icon_pdf.gif" width="18" align="texttop" /></a>
+
+</p>
+
+
+
+<p>
+<strong><a href="#">Undergraduate Thesis Presentations</a></strong><br>	
+<strong>Thursday, April 26th, 2019 11:00am-2pm, Location: ENG-210</strong><br>
+<a href="./pdfs/Theses-2019.pdf"><strong>Theses 2019</strong></a> <img height="18"
+src="../images/icon_pdf.gif" width="18" align="texttop" />
+<br>
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td>
+
+
+
+
+
+<!-- LATEST NEWS  -------- LATEST NEWS ------ LATEST NEWS ---- -->
+
+<td align="left" valign="top">
+
+<p>
+<strong>
+Dexter Barrows and Brittany Pittman received the prestigious NSERC Canada Postgraduate Scholarship-Doctoral (NSERC PGS-D) for 2020-2023.
+</strong>
+</P>
+
+<p>
+<strong>
+Fahimeh Saei Manesh received the prestigious NSERC Canada Graduate Scholarship-Master's (NSERC CGS-M) for 2020-2021.
+</strong>
+</p>
+
+<p>
+Congratulations to Dexter, Brittany and Fahimeh! Their profiles can be viewed <a href="https://www.ryerson.ca/science/newsevents/news/Meet-FOS-Graduate-Scholarship-Winners-Fall-2020"> here</a>.
+</p>
+
+
+<p>
+<strong>Congratulations to Shengzhong Chen on being awarded an<a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSD-BESCD_eng.asp" > Alexander Graham Bell Canada Graduate Scholarship-Doctoral (NSERC CGS-D)!</a></strong><br>
+
+</p>
+
+
+<p>
+
+<p>
+<strong>Congratulations to Cui Chen on being awarded an<a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp" > 
+NSERC CGS-M Scholarship!</a></strong><br>
+
+</p>
+
+
+
+<p>
+
+<strong><a href="#">Spring 2020 Virtual Graduation Celebration</a></strong><br>
+Congratulations to graduates from our Financial Mathematics and Mathematics and Its Applications programs. We are so proud of you!
+&nbsp
+<a href="/images/convocation/S20MathGrads.jpeg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+
+</p>
+
+
+<!--
+<p>
+
+
+<strong><a href="#">Mathematics and its Applications Graduates 2019</a></strong><br>
+Spring 2019 Convocation Ceremony-congratulations to all our Mathematics and Its Applications graduates! So proud of you! 
+&nbsp
+<a href="/images/convocation/MIAGrads_Spring2019.jpeg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+<br>
+<a href="/images/convocation/MIAGradList2019.jpeg">Grad List
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+
+
+
+
+</p>
+
+
+<p>
+
+<strong><a href="#">Financial Mathematics Graduates 2019</a></strong><br>
+Spring 2019 Convocation Ceremony-congratulations to all our Financial Mathematics graduates!  So proud of you! 
+&nbsp
+<a href="/images/convocation/FinMathGrads_Spring2019.jpeg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+<br>
+<a href="/images/convocation/FinMatGradList2019.jpeg">Grad List
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+
+
+
+
+</p>
+<p>
+
+<strong><a href="#">Financial Mathematics Graduates 2019</a></strong><br>
+Spring 2019 Convocation Ceremony-congratulations to all our Financial Mathematics graduates!  So proud of you! 
+&nbsp
+<a href="/images/convocation/FinMathGrads_Spring2019.jpeg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+<br>
+<a href="/images/convocation/FinMatGradList2019.jpeg">Grad List
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+
+
+
+
+</p>
+-->
+
+<!--
+
+<p>
+
+<strong><a href="#">Inaugural Math Undergraduate Theses poster presentation 2019</a></strong><br>
+Congrats to our MTH40A/B students: <br>
+Marko Vukovic, Susan Stanley, Kenji Hewitt, Reaz Huq, Jaimie Porthiyas, <br>
+Gabrielle Turcotte, Anny-Aysel Ineza Sadia Billoo
+ 
+<a href="/images/awards/2019/UndergradThesisGroup_April26_2019.jpeg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" />  
+</a>
+
+<a href="/images/awards/2019/SupervisorsStudents_UndergradThesesPoster_2019.jpg">
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" /> <br>
+</a>
+
+
+
+</p>
+
+
+<p>
+
+<strong>Congratulations to our 2019 Program-Wide Dennis Mock Student Leadership Award Recipients:<strong> <br>
+<a href="/images/awards/2019/March28_2018.jpg"> Ynez Buenconsejo, Financial Mathematics and Alexander Nazareth, Mathematics and Its Applications. <br>
+
+
+
+<img height="18"src="/images/awards/image_link.png" width="18" align="texttop" /> <br>
+</a>
+
+
+
+</p>
+-->
+
+
+<!--
+<p>
+
+<strong><a href="./about/pdfs/Info_Session_for_March_2018.pdf">Upcoming Open House Info Session</a></strong>
+<img height="18"src="/images/msc/icon_pdf.gif" width="18" align="texttop" /> <br>
+<strong><a href="./about/pdfs/Info_Session_for_March_2018.pdf">MSc in Applied Mathematics</a></strong><br>
+<strong> Wednesday, March 14, 2018 from 3:30pm to 4:30pm <br>
+Location: 245 Church St. Room ENG-210</strong><br>
+</p>
+
+<p>
+<strong><a href="./about/pdfs/Info_Session_for_March_2018.pdf">PhD in Mathematical Modelling & Methods</a></strong><br>
+<strong> Wednesday, March 14, 2018 from 4:30pm to 5:00pm <br>
+Location: 245 Church St. Room ENG-210</strong><br>
+
+</p>
+
+-->
+
+	
+<!--	
+
+<p>
+<strong> <a href="#">Spring 2017 Convocation Ceremony</a></strong><br>
+Congrats to our Mathematics and Its Applications grads- <br>
+ S. Botta, J. Cheng, R. Chhoukdean, N. Chopra, M. Curro, N. Datoo, <br> G. Franco,
+J. Griffiths, O. Hanson, M. Nikolic, S. Orr,  N. Papalabropoulos, <br>J. Prajza, G. Patrascu, L. Shepherd, L. Tran.
+<a href="./images/convocation/S17Convocation_MIAgrads.jpg" TARGET="_blank">
+<img align="absmiddle" src="../images/msc/image_link.png" width="18" height="18" border="0" alt=""></a>
+
+</p>
+
+
+
+
+<p>
+	
+<strong> <a href="#">Spring 2017 Convocation Ceremony</a></strong><br>
+Congrats to our FinMath grads-  N. Andjelkovic, S. Chen, Z. Greenwald, <br>
+A. Matan, N. Mohsin, T. Sang, H. Singh, B. Wong, K. Yan
+<a href="./images/convocation/S17Convocation_FinMaths.jpg" TARGET="_blank">
+<img align="absmiddle" src="../images/msc/image_link.png" width="18" height="18" border="0" alt=""></a>
+
+</p>
+
+	-->	
+
+
+
+	
+
+
+
+
+	
+
+    
+
+<!--    
+   
+   
+
+    
+    
+-->  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Pie day stuff
+
+<p>
+<strong> Join us for our third anual Pi-day celebrations</strong><br>
+<img height="38"src="/images/Pi-Day-Banner.png" width="58" align="texttop" /> <br>
+</p>
+
+
+-->
+
+
+
+
+
+</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top"><div id="homefooter"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2" align="left"><hr></td>
+    </tr>
+  <tr>
+    <td align="left">Department of Mathematics,  Ryerson University,  350 Victoria St., Toronto, ON, Canada, M5B 2K3</td>
+    <td align="right">© 2019 Ryerson University | <a href="about/contactus.html">Contact Us</a></td>
+  </tr>
+</table>
+</div></td>
+    </tr>
+</table>
+
+</div>
+
+  </div>
+
+</div>
+</div>
+
+<map name="Map"><area shape="rect" coords="115,183,305,248" href="http://www.ryerson.ca" alt="Ryerson University">
+</map></body>
+</html>

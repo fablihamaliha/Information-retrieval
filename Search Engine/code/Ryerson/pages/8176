@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://digital.library.ryerson.ca/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+  <title>Search results | Digital Repository</title>
+  <link type="text/css" rel="stylesheet" href="https://digital.library.ryerson.ca/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://digital.library.ryerson.ca/sites/default/files/css/css__LeQxW73LSYscb1O__H6f-j_jdAzhZBaesGL19KEB6U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://digital.library.ryerson.ca/sites/default/files/css/css_-aM5c0euwB-sEmIY8D8KcSlNEMIX9xJdht9Yik0oMU8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://digital.library.ryerson.ca/sites/default/files/css/css_RM2MuFlDy3a6FcV1TlMokjey4-hK-DfyptDLfgGw12M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://digital.library.ryerson.ca/sites/default/files/css/css_zHcsNa6y9AaVy7lAmsYriec3nyHTDFSeuYx2kqVembk.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://digital.library.ryerson.ca/sites/default/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://digital.library.ryerson.ca/sites/default/files/js/js_N1xvDAlbWIJV1B7EF6wIaLxrOi_Sosol4R3iD_cSWPw.js"></script>
+<script src="https://digital.library.ryerson.ca/sites/default/files/js/js_9CLG1J-g80d8pEgK-vygqdVzgudluddk9XV5u3muKNY.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-890753-18", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"rula","theme_token":"erAZEo1vFh2T1ZGSxPLc_BL0iQQEgX2apoLxZX3o_FQ","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/js\/bootstrap.min.js":1,"sites\/all\/modules\/rula_islandora_solr_search\/js\/advanced_search.js":1,"sites\/all\/modules\/islandora_solr_search\/js\/flot\/jquery.flot.min.js":1,"sites\/all\/modules\/islandora_solr_search\/js\/islandora_solr_facets.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/islandora\/css\/islandora.base.css":1,"sites\/all\/modules\/islandora\/css\/islandora.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_collection\/css\/islandora_basic_collection.base.css":1,"sites\/all\/modules\/islandora_solution_pack_collection\/css\/islandora_basic_collection.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_image\/css\/islandora_basic_image.theme.css":1,"sites\/all\/modules\/islandora_batch\/css\/views_table_contextual_links_fix.css":1,"sites\/all\/modules\/islandora_bookmark\/css\/islandora_bookmark.css":1,"sites\/all\/modules\/islandora_fits\/css\/islandora_fits.css":1,"sites\/all\/modules\/islandora_solution_pack_pdf\/css\/islandora_pdf.theme.css":1,"sites\/all\/modules\/islandora_premis\/css\/islandora_premis.css":1,"sites\/all\/modules\/islandora_solr_search\/css\/islandora_solr.base.css":1,"sites\/all\/modules\/islandora_solr_metadata\/css\/islandora_solr_metadata.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/islandora_solr_search\/css\/islandora_solr.theme.css":1,"sites\/all\/modules\/islandora_usage_stats\/css\/usage_views.css":1,"misc\/ui\/jquery.ui.slider.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.1.0\/css\/font-awesome.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/css\/bootstrap.min.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.min.css":1,"sites\/all\/themes\/rula\/css\/style.css":1}},"islandoraSolrRangeSlider":{"mods_originInfo_dateIssued_mdt":{"facet_field":"mods_originInfo_dateIssued_mdt","form_key":0,"data":[{"date":"2002-01-01T00:00:00Z","bucket":"2002","count":17},{"date":"2003-01-01T00:00:00Z","bucket":"2003","count":86},{"date":"2004-01-01T00:00:00Z","bucket":"2004","count":130},{"date":"2005-01-01T00:00:00Z","bucket":"2005","count":125},{"date":"2006-01-01T00:00:00Z","bucket":"2006","count":75},{"date":"2007-01-01T00:00:00Z","bucket":"2007","count":162},{"date":"2008-01-01T00:00:00Z","bucket":"2008","count":197},{"date":"2009-01-01T00:00:00Z","bucket":"2009","count":284},{"date":"2010-01-01T00:00:00Z","bucket":"2010","count":210},{"date":"2011-01-01T00:00:00Z","bucket":"2011","count":255},{"date":"2012-01-01T00:00:00Z","bucket":"2012","count":361},{"date":"2013-01-01T00:00:00Z","bucket":"2013","count":161},{"date":"2014-01-01T00:00:00Z","bucket":"2014","count":1},{"date":"2015-01-01T00:00:00Z","bucket":"2015","count":null}],"slider_color":"#edc240"}},"urlIsAjaxTrusted":{"\/islandora\/search\/mods_identifier_path_ms:dissertations*":true},"islandoraSolrDatepickerRange":{"mods_originInfo_dateIssued_mdt":{"datepickerRange":"-100:+3","formKey":0}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="navbar-is-static-top html not-front not-logged-in one-sidebar sidebar-first page-islandora page-islandora-search page-islandora-search-mods-identifier-path-msdissertations">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header id="navbar" role="banner" class="navbar navbar-static-top navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+            <a class="logo navbar-btn pull-left" href="https://library.ryerson.ca" title="Home">
+        <img src="https://digital.library.ryerson.ca/sites/default/files/rula-logo.png" alt="Home" />
+      </a>
+      
+            <a class="name navbar-brand" href="/" title="Home">Digital Repository</a>
+      
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first last leaf"><a href="/user/login" title="">Log in</a></li>
+</ul>                                      </nav>
+      </div>
+      </div>
+</header>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      <div class="region region-header clearfix">
+    <section id="block-menu-menu-browse" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first last expanded dropdown"><a href="http://digital.library.ryerson.ca/islandora/" title="" class="dropdown-toggle" data-toggle="dropdown">Browse <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/browse/contributors" title="All content by Contributor">Contributors</a></li>
+<li class="leaf"><a href="/browse/subjects" title="All content by Subject">Subjects</a></li>
+<li class="leaf"><a href="/islandora/object/RULA%3Aresearch" title="Scholarly research (articles, reports, books, etc)">Research</a></li>
+<li class="leaf"><a href="/islandora/object/RULA%3Aetd" title="Graduate student research (Theses &amp; Dissertations)">Theses</a></li>
+<li class="leaf"><a href="/browse/programs" title="Theses by Program">Programs (Theses)</a></li>
+<li class="last leaf"><a href="/islandora/object/RULA%3Aundergraduate" title="Undergraduate student research">Undergraduate</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="block-islandora-solr-simple" class="block block-islandora-solr clearfix">
+
+      
+  <form action="/islandora/search/mods_identifier_path_ms:dissertations*" method="post" id="islandora-solr-simple-search-form" accept-charset="UTF-8"><div><div class="form-inline form-wrapper form-group" id="edit-simple"><div class="form-item form-item-islandora-simple-search-query form-type-textfield form-group"> <label class="control-label" for="edit-islandora-simple-search-query">Search Term</label>
+<input class="form-control form-text" type="text" id="edit-islandora-simple-search-query" name="islandora_simple_search_query" value="" size="15" maxlength="128" /></div><button type="submit" id="edit-submit" name="op" value="search" class="btn btn-primary form-submit">search</button>
+</div><input type="hidden" name="form_build_id" value="form-PQCm7NCQ5cwOzuv69mynWihf37u62Ag6KJfv7g-CCNI" />
+<input type="hidden" name="form_id" value="islandora_solr_simple_search_form" />
+</div></form>
+</section>
+  </div>
+  </header> <!-- /#page-header -->
+
+  <div class="row">
+
+          <aside class="col-sm-3" role="complementary">
+          <div class="region region-sidebar-first well well-sm">
+    <section id="block-islandora-solr-basic-facets" class="block block-islandora-solr clearfix">
+
+        <h2 class="block-title"> </h2>
+    
+  <div class="islandora-solr-facet-wrapper"><div class="panel panel-default"><div class="panel-heading"><h3>Date</h3><button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapse-date">-</button></div><div id="collapse-date" class="panel-collapse collapse in"><div class="panel-body"><div class="islandora-solr-range-slider"><form action="/islandora/search/mods_identifier_path_ms:dissertations*" method="post" id="islandora-solr-range-slider-form-0" accept-charset="UTF-8"><div><input type="hidden" name="range_slider_term_0" value="mods_originInfo_dateIssued_mdt" />
+
+<div class="range-slider-fromto" id="range-slider-fromto-0">
+  <span class="range-slider-from">
+    2002  </span>
+   - 
+  <span class="range-slider-to">
+    2015  </span>
+</div>
+<div class="date-range-slider-gap">
+  (years)</div>
+<div id="slider-amount-0"></div>
+<div id="date-range-slider-canvas-0" class="date-range-slider-canvas-wrapper"></div>
+<div id="date-range-slider-0"></div>
+<input class="range-slider-hidden-from-0" type="hidden" name="range_slider_hidden_from" value="2002-01-01T00:00:00Z" />
+<input class="range-slider-hidden-to-0" type="hidden" name="range_slider_hidden_to" value="2015-01-01T00:00:00Z" />
+<button type="submit" id="edit-range-slider-submit" name="range_slider_submit_0" value="Filter" class="btn btn-primary form-submit icon-before"><span class="icon glyphicon glyphicon-filter" aria-hidden="true"></span>
+ Filter</button>
+<input type="hidden" name="form_build_id" value="form-EL_xMlBkXBcRicxl57mgU_EoCVgisI9pOt6psoP5FMg" />
+<input type="hidden" name="form_id" value="islandora_solr_range_slider_form_0" />
+</div></form></div><div class="islandora-solr-date-filter"><form action="/islandora/search/mods_identifier_path_ms:dissertations*" method="post" id="islandora-solr-date-filter-form-0" accept-charset="UTF-8"><div><input type="hidden" name="date_filter_facet_field_0" value="mods_originInfo_dateIssued_mdt" />
+<span class="date-filter-toggle-text">Specify date range: <a href="#" class="toggle-date-range-filter date-range-collapsed">Show</a></span><div class="date-range-filter-wrapper"><div class="description">Format: 2020/12/01</div><div class="form-item form-item-date-filter-date-filter-from form-type-textfield form-group"> <label class="control-label" for="edit-date-filter-date-filter-from">From</label>
+<input class="islandora-solr-datepicker-0 form-control form-text" type="text" id="edit-date-filter-date-filter-from" name="date_filter[date_filter_from]" value="" size="10" maxlength="128" /></div><div class="form-item form-item-date-filter-date-filter-to form-type-textfield form-group"> <label class="control-label" for="edit-date-filter-date-filter-to">To</label>
+<input class="islandora-solr-datepicker-0 form-control form-text" type="text" id="edit-date-filter-date-filter-to" name="date_filter[date_filter_to]" value="" size="10" maxlength="128" /></div><button type="submit" id="edit-date-filter-date-filter-submit" name="date_filter_facet_field_0" value="Filter" class="btn btn-primary form-submit icon-before"><span class="icon glyphicon glyphicon-filter" aria-hidden="true"></span>
+ Filter</button>
+</div><input type="hidden" name="form_build_id" value="form-2F7_gizgoLH5K-YC--9CxFVm27Aj-JgCeiZrZKcqnbU" />
+<input type="hidden" name="form_id" value="islandora_solr_date_filter_form_0" />
+</div></form></div></div></div></div></div><div class="islandora-solr-facet-wrapper"><div class="panel panel-default"><div class="panel-heading"><h3>Item Type</h3><button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapse-item type">-</button></div><div id="collapse-item type" class="panel-collapse collapse in"><div class="panel-body">
+<ul class="islandora-solr-facet">
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_genre_ms%3A%22thesis%22">thesis</a>		<span class="count">(2057)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_genre_ms%3A%22thesis%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_genre_ms%3A%22thesis%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_genre_ms%3A%22article%22">article</a>		<span class="count">(4)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_genre_ms%3A%22article%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_genre_ms%3A%22article%22" class="minus">-</a>		</span>
+	</li>
+	</ul>
+</div></div></div></div><div class="islandora-solr-facet-wrapper"><div class="panel panel-default"><div class="panel-heading"><h3>Subject</h3><button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapse-subject">-</button></div><div id="collapse-subject" class="panel-collapse collapse in"><div class="panel-body">
+<ul class="islandora-solr-facet">
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Wireless%5C%20communication%5C%20systems%22">Wireless communication systems</a>		<span class="count">(36)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Wireless%5C%20communication%5C%20systems%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Wireless%5C%20communication%5C%20systems%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Signal%5C%20processing%22">Signal processing</a>		<span class="count">(26)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Signal%5C%20processing%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Signal%5C%20processing%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Image%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22">Image processing -- Digital techniques</a>		<span class="count">(24)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Image%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Image%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Computer%5C%20algorithms%22">Computer algorithms</a>		<span class="count">(23)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Computer%5C%20algorithms%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Computer%5C%20algorithms%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Finite%5C%20element%5C%20method%22">Finite element method</a>		<span class="count">(21)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Finite%5C%20element%5C%20method%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Finite%5C%20element%5C%20method%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Immigrants%22">Immigrants</a>		<span class="count">(19)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Immigrants%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Immigrants%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22George%5C%20Eastman%5C%20House%5C%20%5C-%5C-%5C%20Photograph%5C%20collections%22">George Eastman House -- Photograph collections</a>		<span class="count">(18)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22George%5C%20Eastman%5C%20House%5C%20%5C-%5C-%5C%20Photograph%5C%20collections%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22George%5C%20Eastman%5C%20House%5C%20%5C-%5C-%5C%20Photograph%5C%20collections%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Emigration%5C%20and%5C%20immigration%22">Emigration and immigration</a>		<span class="count">(17)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Emigration%5C%20and%5C%20immigration%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Emigration%5C%20and%5C%20immigration%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Neural%5C%20networks%5C%20%5C%28Computer%5C%20science%5C%29%22">Neural networks (Computer science)</a>		<span class="count">(17)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Neural%5C%20networks%5C%20%5C%28Computer%5C%20science%5C%29%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Neural%5C%20networks%5C%20%5C%28Computer%5C%20science%5C%29%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Strains%5C%20and%5C%20stresses%22">Strains and stresses</a>		<span class="count">(16)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Strains%5C%20and%5C%20stresses%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Strains%5C%20and%5C%20stresses%22" class="minus">-</a>		</span>
+	</li>
+	</ul>
+
+<ul class="islandora-solr-facet hidden">
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Mobile%5C%20communication%5C%20systems%22">Mobile communication systems</a>		<span class="count">(15)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Mobile%5C%20communication%5C%20systems%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Mobile%5C%20communication%5C%20systems%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Toronto%5C%20%5C%28Ont.%5C%29%22">Toronto (Ont.)</a>		<span class="count">(15)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Toronto%5C%20%5C%28Ont.%5C%29%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Toronto%5C%20%5C%28Ont.%5C%29%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Photographs%5C%20%5C-%5C-%5C%20Conservation%5C%20and%5C%20restoration%22">Photographs -- Conservation and restoration</a>		<span class="count">(14)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Photographs%5C%20%5C-%5C-%5C%20Conservation%5C%20and%5C%20restoration%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Photographs%5C%20%5C-%5C-%5C%20Conservation%5C%20and%5C%20restoration%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Signal%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22">Signal processing -- Digital techniques</a>		<span class="count">(14)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Signal%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Signal%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Imaging%5C%20systems%5C%20in%5C%20medicine%22">Imaging systems in medicine</a>		<span class="count">(13)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Imaging%5C%20systems%5C%20in%5C%20medicine%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Imaging%5C%20systems%5C%20in%5C%20medicine%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Space%5C%20%5C%28Architecture%5C%29%22">Space (Architecture)</a>		<span class="count">(13)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Space%5C%20%5C%28Architecture%5C%29%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Space%5C%20%5C%28Architecture%5C%29%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Architecture%5C%20and%5C%20society%22">Architecture and society</a>		<span class="count">(12)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Architecture%5C%20and%5C%20society%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Architecture%5C%20and%5C%20society%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Computational%5C%20fluid%5C%20dynamics%22">Computational fluid dynamics</a>		<span class="count">(12)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Computational%5C%20fluid%5C%20dynamics%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Computational%5C%20fluid%5C%20dynamics%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Image%5C%20processing%22">Image processing</a>		<span class="count">(12)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Image%5C%20processing%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Image%5C%20processing%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Sewage%5C%20%5C-%5C-%5C%20Purification%5C%20%5C-%5C-%5C%20Biological%5C%20treatment%22">Sewage -- Purification -- Biological treatment</a>		<span class="count">(12)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_subject_topic_ms%3A%22Sewage%5C%20%5C-%5C-%5C%20Purification%5C%20%5C-%5C-%5C%20Biological%5C%20treatment%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_subject_topic_ms%3A%22Sewage%5C%20%5C-%5C-%5C%20Purification%5C%20%5C-%5C-%5C%20Biological%5C%20treatment%22" class="minus">-</a>		</span>
+	</li>
+	</ul>
+<a href="#" class="soft-limit">Show more</a></div></div></div></div><div class="islandora-solr-facet-wrapper"><div class="panel panel-default"><div class="panel-heading"><h3>Program</h3><button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#collapse-program">-</button></div><div id="collapse-program" class="panel-collapse collapse in"><div class="panel-body">
+<ul class="islandora-solr-facet">
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Electrical%5C%20and%5C%20Computer%5C%20Engineering%22">Electrical and Computer Engineering</a>		<span class="count">(345)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Electrical%5C%20and%5C%20Computer%5C%20Engineering%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Electrical%5C%20and%5C%20Computer%5C%20Engineering%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Mechanical%5C%20and%5C%20Industrial%5C%20Engineering%22">Mechanical and Industrial Engineering</a>		<span class="count">(272)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Mechanical%5C%20and%5C%20Industrial%5C%20Engineering%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Mechanical%5C%20and%5C%20Industrial%5C%20Engineering%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Civil%5C%20Engineering%22">Civil Engineering</a>		<span class="count">(194)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Civil%5C%20Engineering%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Civil%5C%20Engineering%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Immigration%5C%20and%5C%20Settlement%5C%20Studies%22">Immigration and Settlement Studies</a>		<span class="count">(181)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Immigration%5C%20and%5C%20Settlement%5C%20Studies%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Immigration%5C%20and%5C%20Settlement%5C%20Studies%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Environmental%5C%20Applied%5C%20Science%5C%20and%5C%20Management%22">Environmental Applied Science and Management</a>		<span class="count">(159)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Environmental%5C%20Applied%5C%20Science%5C%20and%5C%20Management%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Environmental%5C%20Applied%5C%20Science%5C%20and%5C%20Management%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Photographic%5C%20Preservation%5C%20and%5C%20Collections%5C%20Management%22">Photographic Preservation and Collections Management</a>		<span class="count">(114)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Photographic%5C%20Preservation%5C%20and%5C%20Collections%5C%20Management%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Photographic%5C%20Preservation%5C%20and%5C%20Collections%5C%20Management%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Chemical%5C%20Engineering%22">Chemical Engineering</a>		<span class="count">(93)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Chemical%5C%20Engineering%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Chemical%5C%20Engineering%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Architecture%22">Architecture</a>		<span class="count">(84)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Architecture%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Architecture%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Aerospace%5C%20Engineering%22">Aerospace Engineering</a>		<span class="count">(83)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Aerospace%5C%20Engineering%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Aerospace%5C%20Engineering%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Communication%5C%20and%5C%20Culture%22">Communication and Culture</a>		<span class="count">(71)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Communication%5C%20and%5C%20Culture%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Communication%5C%20and%5C%20Culture%22" class="minus">-</a>		</span>
+	</li>
+	</ul>
+
+<ul class="islandora-solr-facet hidden">
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Computer%5C%20Science%22">Computer Science</a>		<span class="count">(70)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Computer%5C%20Science%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Computer%5C%20Science%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Psychology%22">Psychology</a>		<span class="count">(66)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Psychology%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Psychology%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Molecular%5C%20Science%22">Molecular Science</a>		<span class="count">(58)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Molecular%5C%20Science%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Molecular%5C%20Science%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Biomedical%5C%20Physics%22">Biomedical Physics</a>		<span class="count">(50)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Biomedical%5C%20Physics%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Biomedical%5C%20Physics%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Early%5C%20Childhood%5C%20Studies%22">Early Childhood Studies</a>		<span class="count">(43)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Early%5C%20Childhood%5C%20Studies%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Early%5C%20Childhood%5C%20Studies%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Urban%5C%20Development%22">Urban Development</a>		<span class="count">(38)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Urban%5C%20Development%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Urban%5C%20Development%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Building%5C%20Science%22">Building Science</a>		<span class="count">(31)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Building%5C%20Science%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Building%5C%20Science%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Nursing%22">Nursing</a>		<span class="count">(26)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Nursing%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Nursing%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Applied%5C%20Mathematics%22">Applied Mathematics</a>		<span class="count">(17)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Applied%5C%20Mathematics%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Applied%5C%20Mathematics%22" class="minus">-</a>		</span>
+	</li>
+		<li>
+		<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Fashion%22">Fashion</a>		<span class="count">(15)</span>
+		<span class="plusminus">
+			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=mods_extension_degree_department_ms%3A%22Fashion%22" class="plus">+</a>			<a rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;f%5B0%5D=-mods_extension_degree_department_ms%3A%22Fashion%22" class="minus">-</a>		</span>
+	</li>
+	</ul>
+<a href="#" class="soft-limit">Show more</a></div></div></div></div>
+</section>
+  </div>
+        
+              </aside>  <!-- /#sidebar-first -->
+    
+    <section class="col-sm-9">
+            <a id="main-content"></a>
+                    <h1 class="page-header">Search results</h1>
+                        <ol class="breadcrumb"><li><a title="mods_identifier_path_ms:dissertations*" rel="nofollow" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0">dissertations*</a><span class="islandora-solr-breadcrumb-super"> <a title="Remove mods_identifier_path_ms:dissertations*" rel="nofollow" href="/islandora/search/%20?islandora_solr_search_navigation=0">(x)</a></span></li>
+<li class="active">Search results</li>
+</ol>                                        <div class="region region-content">
+    <section id="block-islandora-solr-sort" class="block block-islandora-solr clearfix">
+
+      
+  <ul class="islandora-solr-sort"><li><a class="active" rel="nofollow" title="Relevance" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;sort=score%20asc">Relevance <span class="icon-after icon glyphicon glyphicon-chevron-down" data-toggle="tooltip" data-placement="bottom" title="sort ascending" aria-hidden="true"></span>
+</a></li>
+<li><a class="" rel="nofollow" title="Date" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?islandora_solr_search_navigation=0&amp;sort=mods_originInfo_dateIssued_dt%20desc">Date </a></li>
+</ul>
+</section>
+<section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+<div id="islandora-solr-top">
+    <div id="islandora-solr-result-count">(1 - 10 of 2,061)</div>
+</div>
+<div class="islandora-solr-content">
+  <div class="text-center"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=1">2</a></li>
+<li><a title="Go to page 3" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=2">3</a></li>
+<li><a title="Go to page 4" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=3">4</a></li>
+<li><a title="Go to page 5" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=4">5</a></li>
+<li class="pager-ellipsis disabled"><span>…</span></li>
+<li class="next"><a href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=1">next</a></li>
+<li class="pager-last"><a href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=206">last</a></li>
+</ul></div>    <div class="islandora islandora-solr-search-results">
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block odd">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A1612" title="Development Of Precast Barrier Wall System For Bridge Decks"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A1612/datastream/TN/view" alt="Development Of Precast Barrier Wall System For Bridge Decks" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A1612" title="Development Of Precast Barrier Wall System For Bridge Decks">Development Of Precast Barrier Wall System For Bridge Decks</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2008              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Patel%2C%5C%20Gaurang%5C%20%5C%28Author%5C%29%22">Patel, Gaurang (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Sennah%2C%5C%20Khaled%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Sennah, Khaled (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Kianoush%2C%5C%20Reza%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Kianoush, Reza (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Walls%5C%20%5C-%5C-%5C%20Design%5C%20and%5C%20construction%22">Walls -- Design and construction</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Precast%5C%20concrete%5C%20construction%22">Precast concrete construction</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Concrete%5C%20walls%5C%20%5C-%5C-%5C%20Design%5C%20and%5C%20construction%22">Concrete walls -- Design and construction</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Bridges%5C%20%5C-%5C-%5C%20Floors%5C%20%5C-%5C-%5C%20Design%5C%20and%5C%20construction%22">Bridges -- Floors -- Design and construction</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Bridges%5C%20%5C-%5C-%5C%20Floors%5C%20%5C-%5C-%5C%20Testing%22">Bridges -- Floors -- Testing</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Bridges%5C%20%5C-%5C-%5C%20Floors%22">Bridges -- Floors</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Civil%5C%20Engineering%22">Civil Engineering</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Applied%5C%20Science%5C%20%5C%28MASc%5C%29%22">Master of Applied Science (MASc)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block even">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A1300" title="Towards greener aviation : a comparative study on the substitution of standard jet fuel with algal based second generation biofuels"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A1300/datastream/TN/view" alt="Towards greener aviation : a comparative study on the substitution of standard jet fuel with algal based second generation biofuels" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A1300" title="Towards greener aviation : a comparative study on the substitution of standard jet fuel with algal based second generation biofuels">Towards greener aviation : a comparative study on the substitution of standard jet fuel with algal based second generation biofuels</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2011              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Haddad%2C%5C%20Mona%5C%20Abdul%5C%20Majid%5C%20%5C%28Author%5C%29%22">Haddad, Mona Abdul Majid (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Fawaz%2C%5C%20Zouheir%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Fawaz, Zouheir (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Algae%5C%20%5C-%5C-%5C%20Biotechnology%22">Algae -- Biotechnology</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Algae%5C%20products%22">Algae products</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Biomass%5C%20energy%5C%20%5C-%5C-%5C%20Economic%5C%20aspects%22">Biomass energy -- Economic aspects</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Jet%5C%20planes%5C%20%5C-%5C-%5C%20Fuel%5C%20%5C-%5C-%5C%20Environmental%5C%20aspects%22">Jet planes -- Fuel -- Environmental aspects</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Aircraft%5C%20industry%5C%20%5C-%5C-%5C%20Economic%5C%20aspects%22">Aircraft industry -- Economic aspects</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Aircraft%5C%20industry%5C%20%5C-%5C-%5C%20Environmental%5C%20aspects%22">Aircraft industry -- Environmental aspects</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Environmental%5C%20Applied%5C%20Science%5C%20and%5C%20Management%22">Environmental Applied Science and Management</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Applied%5C%20Science%5C%20%5C%28MASc%5C%29%22">Master of Applied Science (MASc)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block odd">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A2232" title="Documenting Honour: Examining “Honour Killings” And Muslim Representation In Documentary FilmILM"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A2232/datastream/TN/view" alt="Documenting Honour: Examining “Honour Killings” And Muslim Representation In Documentary FilmILM" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A2232" title="Documenting Honour: Examining “Honour Killings” And Muslim Representation In Documentary FilmILM">Documenting Honour: Examining “Honour Killings” And Muslim Representation In Documentary FilmILM</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2012              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Phillips%2C%5C%20Sara%5C%20Jo%5C%20L.%5C%20%5C%28Author%5C%29%22">Phillips, Sara Jo L. (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Honor%5C%20killings%22">Honor killings</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Women%5C%20%5C-%5C-%5C%20Crimes%5C%20against%22">Women -- Crimes against</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Honor%5C%20%5C-%5C-%5C%20Social%5C%20aspects%22">Honor -- Social aspects</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Victims%5C%20of%5C%20family%5C%20violence%22">Victims of family violence</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Immigration%5C%20and%5C%20Settlement%5C%20Studies%22">Immigration and Settlement Studies</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Arts%5C%20%5C%28MA%5C%29%22">Master of Arts (MA)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block even">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A1420" title="The British Press Agencies Collection At The AGO"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A1420/datastream/TN/view" alt="The British Press Agencies Collection At The AGO" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A1420" title="The British Press Agencies Collection At The AGO">The British Press Agencies Collection At The AGO</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2009              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Streiman%2C%5C%20Rebecca%5C%20%5C%28Author%5C%29%22">Streiman, Rebecca (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Hackett%2C%5C%20Sophie%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Hackett, Sophie (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Art%5C%20Gallery%5C%20of%5C%20Ontario%5C%20%5C-%5C-%5C%20Photograph%5C%20collections%22">Art Gallery of Ontario -- Photograph collections</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Photojournalism%5C%20%5C-%5C-%5C%20Great%5C%20Britain%22">Photojournalism -- Great Britain</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Photographic%5C%20Preservation%5C%20and%5C%20Collections%5C%20Management%22">Photographic Preservation and Collections Management</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Arts%5C%20%5C%28MA%5C%29%22">Master of Arts (MA)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block odd">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A1505" title="3-DOF Longitudinal Flight Simulation Modeling And Design Using MATLAB/SIMULINK"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A1505/datastream/TN/view" alt="3-DOF Longitudinal Flight Simulation Modeling And Design Using MATLAB/SIMULINK" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A1505" title="3-DOF Longitudinal Flight Simulation Modeling And Design Using MATLAB/SIMULINK">3-DOF Longitudinal Flight Simulation Modeling And Design Using MATLAB/SIMULINK</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2012              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Ahmed%2C%5C%20Umair%5C%20%5C%28Author%5C%29%22">Ahmed, Umair (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Alighanbari%2C%5C%20Hekmat%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Alighanbari, Hekmat (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Flight%5C%20simulators%5C%20%5C-%5C-%5C%20Mathematical%5C%20models%22">Flight simulators -- Mathematical models</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Flight%5C%20simulators%5C%20%5C-%5C-%5C%20Longitudinal%5C%20studies%22">Flight simulators -- Longitudinal studies</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Aerospace%5C%20Engineering%22">Aerospace Engineering</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Engineering%5C%20%5C%28MEng%5C%29%22">Master of Engineering (MEng)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block even">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A454" title="The conceptual development of mental health and illness in preschool children"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A454/datastream/TN/view" alt="The conceptual development of mental health and illness in preschool children" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A454" title="The conceptual development of mental health and illness in preschool children">The conceptual development of mental health and illness in preschool children</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2007              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Bell%2C%5C%20Rosanna%5C%20%5C%28Author%5C%29%22">Bell, Rosanna (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Boudreau%2C%5C%20Jean%5C-Paul%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Boudreau, Jean-Paul (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Child%5C%20psychopathology%22">Child psychopathology</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Children%22">Children</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Mentally%5C%20ill%5C%20children%22">Mentally ill children</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Early%5C%20Childhood%5C%20Studies%22">Early Childhood Studies</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Arts%5C%20%5C%28MA%5C%29%22">Master of Arts (MA)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block odd">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A871" title="The challenge of refugee determination in a self-interested world"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A871/datastream/TN/view" alt="The challenge of refugee determination in a self-interested world" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A871" title="The challenge of refugee determination in a self-interested world">The challenge of refugee determination in a self-interested world</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2007              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Singh%2C%5C%20Parminder%5C%20%5C%28Author%5C%29%22">Singh, Parminder (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Refugees%22">Refugees</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Emigration%5C%20and%5C%20immigration%22">Emigration and immigration</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Australia%22">Australia</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Canada%22">Canada</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22United%5C%20States%22">United States</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Immigration%5C%20and%5C%20Settlement%5C%20Studies%22">Immigration and Settlement Studies</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Arts%5C%20%5C%28MA%5C%29%22">Master of Arts (MA)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block even">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A2079" title="Regime-Switching Behaviour In US Equity Indices: Two State Model With Kalman Filter Tracking And Finite State Machine Trading System"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A2079/datastream/TN/view" alt="Regime-Switching Behaviour In US Equity Indices: Two State Model With Kalman Filter Tracking And Finite State Machine Trading System" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A2079" title="Regime-Switching Behaviour In US Equity Indices: Two State Model With Kalman Filter Tracking And Finite State Machine Trading System">Regime-Switching Behaviour In US Equity Indices: Two State Model With Kalman Filter Tracking And Finite State Machine Trading System</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2012              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Little%2C%5C%20Timothy%5C%20%5C%28Author%5C%29%22">Little, Timothy (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Index%5C%20mutual%5C%20funds%5C%20%5C-%5C-%5C%20United%5C%20States%22">Index mutual funds -- United States</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Kalman%5C%20filtering%22">Kalman filtering</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Signal%5C%20processing%5C%20%5C-%5C-%5C%20Digital%5C%20techniques%22">Signal processing -- Digital techniques</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Electrical%5C%20and%5C%20Computer%5C%20Engineering%22">Electrical and Computer Engineering</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Applied%5C%20Science%5C%20%5C%28MASc%5C%29%22">Master of Applied Science (MASc)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block odd">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A446" title="Imaging a colonial presence : a photograph album of the S.M.S. Bismarck South Pacific Expedition 1878-1800"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A446/datastream/TN/view" alt="Imaging a colonial presence : a photograph album of the S.M.S. Bismarck South Pacific Expedition 1878-1800" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A446" title="Imaging a colonial presence : a photograph album of the S.M.S. Bismarck South Pacific Expedition 1878-1800">Imaging a colonial presence : a photograph album of the S.M.S. Bismarck South Pacific Expedition 1878-1800</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2007              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22LeBlanc%2C%5C%20Jennifer%5C%20Beth%5C%20%5C%28Author%5C%29%22">LeBlanc, Jennifer Beth (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Nordstrom%2C%5C%20Alison%5C%20%5C%28Thesis%5C%20advisor%5C%29%22">Nordstrom, Alison (Thesis advisor)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Photography%5C%20in%5C%20ethnology%22">Photography in ethnology</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Commercial%5C%20photography%22">Commercial photography</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Landscape%5C%20photography%22">Landscape photography</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Oceania%22">Oceania</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Corvettes%22">Corvettes</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Warships%22">Warships</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Photographic%5C%20Preservation%5C%20and%5C%20Collections%5C%20Management%22">Photographic Preservation and Collections Management</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Arts%5C%20%5C%28MA%5C%29%22">Master of Arts (MA)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+              <!-- Search result -->
+      <div class="islandora-solr-search-result clear-block even">
+        <div class="islandora-solr-search-result-inner">
+          <!-- Thumbnail -->
+          <dl class="solr-thumb">
+            <dt>
+              <a href="/islandora/object/RULA%3A2456" title="Review Of Stormwater Management In Ontario And A Case Study On The Etobicoke Exfiltration System"><img typeof="foaf:Image" class="img-responsive" src="/islandora/object/RULA%3A2456/datastream/TN/view" alt="Review Of Stormwater Management In Ontario And A Case Study On The Etobicoke Exfiltration System" /></a>            </dt>
+            <dd></dd>
+          </dl>
+          <!-- Metadata -->
+          <dl class="solr-fields islandora-inline-metadata">
+                          <dt class="solr-label fgs-label-s">
+                Title              </dt>
+              <dd class="solr-value fgs-label-s">
+                <a href="/islandora/object/RULA%3A2456" title="Review Of Stormwater Management In Ontario And A Case Study On The Etobicoke Exfiltration System">Review Of Stormwater Management In Ontario And A Case Study On The Etobicoke Exfiltration System</a>              </dd>
+                          <dt class="solr-label mods-origininfo-dateissued-mdt">
+                Date              </dt>
+              <dd class="solr-value mods-origininfo-dateissued-mdt">
+                2012              </dd>
+                          <dt class="solr-label dc-contributor-s">
+                Author(s)              </dt>
+              <dd class="solr-value dc-contributor-s">
+                <a href="/islandora/search/dc.contributor_s%3A%22Ternier%2C%5C%20Sabrina%5C%20%5C%28Author%5C%29%22">Ternier, Sabrina (Author)</a>, <a href="/islandora/search/dc.contributor_s%3A%22Ryerson%5C%20University%5C%20%5C%28Degree%5C%20grantor%5C%29%22">Ryerson University (Degree grantor)</a>              </dd>
+                          <dt class="solr-label mods-subject-topic-ms">
+                Subject(s)              </dt>
+              <dd class="solr-value mods-subject-topic-ms">
+                <a href="/islandora/search/mods_subject_topic_ms%3A%22Watershed%5C%20management%5C%20%5C-%5C-%5C%20Ontario%5C%20%5C-%5C-%5C%20Etobicoke%22">Watershed management -- Ontario -- Etobicoke</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Urban%5C%20runoff%5C%20%5C-%5C-%5C%20Ontario%5C%20%5C-%5C-%5C%20Management%22">Urban runoff -- Ontario -- Management</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Storm%5C%20sewers%5C%20%5C-%5C-%5C%20Mathematical%5C%20models%22">Storm sewers -- Mathematical models</a>, <a href="/islandora/search/mods_subject_topic_ms%3A%22Water%5C%20quality%5C%20management%5C%20%5C-%5C-%5C%20Mathematical%5C%20models%22">Water quality management -- Mathematical models</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-department-ms">
+                Program              </dt>
+              <dd class="solr-value mods-extension-degree-department-ms">
+                <a href="/islandora/search/mods_extension_degree_department_ms%3A%22Environmental%5C%20Applied%5C%20Science%5C%20and%5C%20Management%22">Environmental Applied Science and Management</a>              </dd>
+                          <dt class="solr-label mods-extension-degree-name-ms">
+                Degree              </dt>
+              <dd class="solr-value mods-extension-degree-name-ms">
+                <a href="/islandora/search/mods_extension_degree_name_ms%3A%22Master%5C%20of%5C%20Applied%5C%20Science%5C%20%5C%28MASc%5C%29%22">Master of Applied Science (MASc)</a>              </dd>
+                      </dl>
+        </div>
+      </div>
+          </div>
+    <div class="text-center"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=1">2</a></li>
+<li><a title="Go to page 3" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=2">3</a></li>
+<li><a title="Go to page 4" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=3">4</a></li>
+<li><a title="Go to page 5" href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=4">5</a></li>
+<li class="pager-ellipsis disabled"><span>…</span></li>
+<li class="next"><a href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=1">next</a></li>
+<li class="pager-last"><a href="/islandora/search/mods_identifier_path_ms%3Adissertations%2A?page=206">last</a></li>
+</ul></div></div>
+
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+</div>
+<footer class="footer container">
+  </footer>
+  <script src="https://digital.library.ryerson.ca/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+</body>
+</html>

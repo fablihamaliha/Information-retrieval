@@ -1,0 +1,1049 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="shortcut icon" href="/static/img/ryerson.favicon.jpg"/>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Expertise Finder"/>
+<meta name="copyright" content="Copyright Expertise Finder"/>
+
+<title>James Tiessen &bull; Ryerson University Faculty Experts</title>
+
+
+<meta name="keywords" content=""/>
+<meta name="robots" content="INDEX, FOLLOW, NOARCHIVE, NOODP, NOYDIR"/>
+
+<meta name="description" content="Expert in Canada-Japan relations, Covid-19 and health care policy, Health and Long Term Care Policy and Management and Japanese healthcare policy"/>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="/static/js/typeahead.bundle.min.js"></script>
+<script src="/static/js/jquery.mark.min.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/static/css/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/static/css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+<!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/tippy.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@charset "utf-8";
+
+@font-face
+{
+    font-family: 'proxima-reg';
+    src: url('/static/fonts/proxima_nova_regular.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-italic';
+    src: url('/static/fonts/proxima_nova_italic.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-bold';
+    src: url('/static/fonts/proxima_nova_bold.otf') format('opentype');
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    font-family: 'proxima-reg', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+html, body, p, div, button, input, select, textarea, .pure-g [class *= "pure-u"]
+{
+    font-family: 'proxima-reg', sans-serif;
+    font-size: 18px;
+}
+
+.notxtstyle
+{
+    text-decoration: none;
+}
+
+.bold
+{
+    font-family: 'proxima-bold', sans-serif;
+}
+
+.italic
+{
+    font-family: 'proxima-italic', sans-serif;
+}
+
+.rf
+{
+    float: right;
+}
+
+.lf
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: red;
+}
+
+.blockify 
+{
+    display: block;
+}
+
+.iblockify 
+{
+    display: inline-block;
+}
+
+#globalwrapper
+{
+    background-color: #E6E6E6;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.grayBorderedBox
+{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    border-collapse: separate;
+}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65257357-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65257357-1');
+</script>
+
+
+<style type="text/css">
+#mainHeader
+{
+    background-color: white; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    z-index: 1030; 
+    
+    padding-top: 15px; 
+    
+}
+
+#top_notification
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffaa;
+    margin-top: 15px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 39px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.label
+{
+    color: #fff;
+    background-color: #d73d32;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.activeSettingsBtn, .settingsBtn
+{
+    content: "";
+    height: 5px; 
+    width: 30px;
+    float: left;
+    margin: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activeSettingsBtn
+{
+    border-top: 5px solid #0078E7; 
+    border-bottom: 15px double #0078E7; 
+}
+
+.settingsBtn
+{
+    border-top: 5px solid black; 
+    border-bottom: 15px double black; 
+}
+
+#settingsMenu
+{
+    position: fixed;
+    z-index: 2000;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    top: -999px;
+    left: -999px;
+}
+
+.txt-nav-btn, .icon-nav-btn
+{
+    margin: 0 1% 0 0;
+    float: right;
+}
+
+.txt-nav-btn
+{
+    min-width: 6%;
+}
+
+#logoHolder
+{
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+#searchholder
+{
+    width: 33%;
+    display: inline-block;
+    margin: 0 0 0 1%;
+}
+
+#searchholder2
+{
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+nav form, #searchholder2 form 
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+nav form input, #searchholder2 form input 
+{
+    outline: none;
+}
+
+nav form input[type="text"], #searchholder2 form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#searchBtn, #searchBtn2
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+}
+
+footer
+{
+    background-color: white; 
+    padding: 15px 2%; 
+    margin: 0; 
+    border-top: 2px solid #d3d3d3;
+}
+
+#orgAddress, #poweredBy
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#orgAddress
+{
+    float: left;
+}
+
+#poweredBy
+{
+    float: right;
+    text-align: center;
+}
+
+.twitter-typeahead {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.typeahead 
+{
+    background-color: #fff;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-size: 1.2em !important;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100% !important;
+    padding: 3px 65px 3px 10px !important;
+    -webkit-transition: border-color 1s ease !important; 
+    -moz-transition: border-color 1s ease !important; 
+    -o-transition: border-color 1s ease !important; 
+    transition: border-color 1s ease !important;
+    outline: none !important;
+}
+
+.tt-menu 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tt-suggestion 
+{
+    padding: 3px 65px 3px 10px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tt-suggestion:hover 
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion.tt-cursor 
+{
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion p 
+{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #top_notification
+    {
+        height: 50px; 
+        padding: 0 7%;
+    }
+
+    .txt-nav-btn, .icon-nav-btn
+    {
+        margin: 0 15px 0 0;
+    }
+
+    .txt-nav-btn
+    {
+        width: 140px;
+    }
+
+    .icon-nav-btn
+    {
+        width: 40px;
+    }
+
+    #searchholder, #searchholder2, #logoHolder
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #logoHolder a 
+    {
+        margin: 0 auto 15px auto;
+    }
+
+    #searchholder > div, #searchholder2 > div
+    {
+        clear: both;
+    }
+
+    #searchholder form, #searchholder2 form
+    {
+        width: 250px;
+        margin: 0 15px 0 0;
+        float: right;
+    }
+
+    #searchholder form input[type="text"], #searchholder2 form input[type="text"]
+    {
+        width: 250px;
+    }
+
+    footer 
+    {
+        padding: 15px; 
+    }
+
+    #orgAddress, #poweredBy
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #orgAddress
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .typeahead 
+    {
+        background-color: #fff;
+        -moz-box-sizing: border-box !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        font-size: 1.2em !important;
+        min-height: 40px;
+        border: 1px solid rgba(0,0,0,0.3);
+        width: 250px;
+        padding: 3px 65px 3px 10px !important;
+        -webkit-transition: border-color 1s ease !important; 
+        -moz-transition: border-color 1s ease !important; 
+        -o-transition: border-color 1s ease !important; 
+        transition: border-color 1s ease !important;
+        outline: none !important;
+    }
+}
+</style>
+
+<style type="text/css">
+.hidify {
+    display: none;
+}
+
+#omnicontainer {
+    width: 750px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#profilephoto {
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+#nameSection {
+    width: 720px;
+    padding: 15px;
+    margin: 1em 0;
+    position: relative;
+}
+
+#nameSection > h1 {
+    font-size: 2em;
+}
+
+#generalDetails {
+    float: right;
+    padding-left: 15px;
+    width: 505px;
+    margin: 0;
+}
+
+#contactInfo {
+    margin-top: 1.5em;
+    padding: 0.5em;
+    display: block;
+    border: 1px solid #d5d5d5;
+    background-color: #f2f2f2;
+    font-size: 0.9em;
+}
+
+.singleCard {
+    width: 230px;
+    margin: 0 20px 20px 0;
+    float: left;
+    padding: 0;
+}
+
+.doubleCard {
+    width: 480px;
+    margin: 0 0 20px 0;
+    float: left;
+    padding: 0;
+}
+
+.cardPadder {
+    padding: 1em;
+}
+
+.sectionHeader {
+    font-weight: normal;
+    font-size: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background: linear-gradient(#444, #222) repeat scroll 0% 0% #222;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.underlined {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.spacify {
+    display: block;
+    margin-bottom: 0.6em;
+}
+
+.linkify {
+  color: #0078E7;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    #omnicontainer {
+        width: 310px;
+        min-width: 310px;
+        margin: 0 auto;
+    }
+
+    #profilephoto {
+        margin: 0 auto 1em auto;
+        float: none;
+        display: block;
+    }
+
+    #nameSection {
+        width: 280px;
+    }
+
+    #nameSection > h1 {
+        font-size: 1.6em;
+    }
+
+    #generalDetails {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .singleCard, .doubleCard {
+        width: 310px;
+        margin: 1em auto;
+        float: none;
+        padding: 0;
+    }
+}
+</style>
+
+</head>
+<body>
+<div id="globalwrapper">
+
+<nav id="mainHeader">
+<div id="logoHolder">
+<a href="http://ryerson.ca/" class="blockify" style="width: 100px;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/>
+</a>
+</div>
+<div id="searchholder">
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead" type="text" name="query" placeholder="Name or Expertise">
+<button id="searchBtn" type="submit" class="pure-button pure-button-primary" aria-label="Search"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<div></div>
+</div>
+<script type="text/javascript">
+var search_button = $('#searchBtn');
+var search_box = $('.typeahead');
+search_box.css('padding-right', search_button.outerWidth() + 20 + 'px');
+search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+
+var menuHTML = '<div id="flexMenu" class="pure-menu pure-menu-open"><ul> \
+<li><a href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a></li> \
+<li><a href="/">Faculty Experts - Home</a></li> \
+<li><a href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Faculty Signup</a></li> \
+</ul></div>';
+
+var buttonsHTML = '<a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a><a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="/">Faculty Experts - Home</a>';
+
+var slideMenu = function () {
+    var collapsed = $('.settingsBtn');
+    var opened = $('.activeSettingsBtn');
+    
+    if (collapsed.length)
+    {
+        collapsed.removeClass('settingsBtn');
+        collapsed.addClass('activeSettingsBtn');
+
+        var settingsMenu = $(document.createElement('div'));
+        settingsMenu.html(menuHTML);
+        settingsMenu.attr('id', 'settingsMenu');
+        settingsMenu.addClass('js-added');
+        $('#globalwrapper').prepend(settingsMenu);
+        settingsMenu.css('top', $('#mainHeader').outerHeight() + "px");
+        settingsMenu.css('left');
+        settingsMenu.css('left', '0');
+    }
+    else
+    {
+        opened.removeClass('activeSettingsBtn');
+        opened.addClass('settingsBtn');
+        $('#settingsMenu').remove();
+    }
+};
+
+var insertHeader = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if ($('.js-added').length)
+        $('.js-added').remove();
+
+    if (vw > 768)
+    {
+        
+        $('#searchholder').after(buttonsHTML);
+        
+        var nav_buttons = $('.txt-nav-btn');
+        nav_buttons.css('box-sizing', 'border-box');
+        nav_buttons.css('height', search_box.outerHeight() + "px");
+    }
+    else
+    {
+        var sbutton = $(document.createElement('div'));
+        sbutton.addClass('settingsBtn js-added');
+        sbutton.click(slideMenu);
+        if ($('#logoHolder').length > 0)
+        {
+            $('#logoHolder').after(sbutton);
+        }
+        else
+        {
+            $('#mainHeader').prepend(sbutton);
+        }
+    }
+};
+
+insertHeader();
+$(window).resize(function(){insertHeader()});
+
+var hideLogoOnScroll = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw < 768)
+    {
+        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0)
+        {
+            $('#logoHolder').remove();
+        }
+        else
+        {
+            if ($('#logoHolder').length === 0) 
+            {
+                $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+            }
+        }
+    }
+    else
+    {
+        if ($('#logoHolder').length === 0) 
+        {
+            $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+        }
+    }
+};
+
+$(window).resize(hideLogoOnScroll);
+$(window).scroll(hideLogoOnScroll);
+</script>
+
+<div class="clear"></div>
+<div id="top_notification">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline; font-size: 18px;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#top_notification").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+
+</nav>
+
+<div id="pushedContainer">
+
+<div id="omnicontainer">
+<div class="grayBorderedBox" id="nameSection">
+<h1 class="underlined" style="width: 100%; margin: 0 0 0.5em 0; padding: 0;">James Tiessen</h1>
+<img id="profilephoto" src="/static/img/james-tiessen.jpg" alt="Photo of James Tiessen"/>
+<p id="generalDetails">
+
+
+<span class="spacify">Associate Professor</span>
+
+
+
+<span class="spacify">Director of the Master of Health Administration (Community Care)</span>
+
+
+
+
+<a class="linkify spacify notxtstyle" href="/faculties/Ted%20Rogers%20School%20of%20Management">Ted Rogers School of Management</a>
+
+
+<a class="linkify spacify notxtstyle" href="/departments/Ted%20Rogers%20School%20of%20Business%20Management">Ted Rogers School of Business Management</a>
+
+<span id="contactInfo">
+<span class="spacify">
+<span style="color: #777777;" class="fa fa-location-arrow"></span>
+<span style="padding-left: 10px;">Toronto, Ontario</span>
+</span>
+
+
+<span class="spacify">
+<span style="color: #777777;" class="fa fa-at"></span>
+<a id="email_address_1" class="linkify notxtstyle" style="padding-left: 10px;" href="mailto:jhtiessen@ryerson.ca">jhtiessen@ryerson.ca</a>
+</span>
+<script type="text/javascript">
+$('#email_address_1').click(function () {
+    gtag('config', 'UA-65257357-1', {
+        'custom_map': {'dimension2': 'email_clicked'}
+    });
+    gtag('event', 'expert_contacted', {'email_clicked': 'james-tiessen'});
+});
+</script>
+
+
+
+
+<span class="spacify">
+<span style="color: #777777;" class="fa fa-phone"></span>
+<span style="padding-left: 10px;">Office:</span>
+<span class="spacify">
+
+<span style="padding-left: 30px;">(416) 979-5000 ext. 2545</span><br/>
+
+</span>
+</span>
+
+
+</span>
+</p>
+<div class="clear"></div>
+</div>
+
+<div class="singleCard grayBorderedBox">
+<h2 class="sectionHeader">Expert In</h2>
+<div class="cardPadder">
+
+<a class="notxtstyle linkify spacify" href="/search?query=Canada-Japan%20relations">Canada-Japan relations</a>
+
+<a class="notxtstyle linkify spacify" href="/search?query=Covid-19%20and%20health%20care%20policy">Covid-19 and health care policy</a>
+
+<a class="notxtstyle linkify spacify" href="/search?query=Health%20and%20Long%20Term%20Care%20Policy%20and%20Management">Health and Long Term Care Policy and Management</a>
+
+<a class="notxtstyle linkify spacify" href="/search?query=Japanese%20healthcare%20policy">Japanese healthcare policy</a>
+
+</div>
+</div>
+
+
+
+<div class="singleCard grayBorderedBox">
+<h2 class="sectionHeader">Links</h2>
+<div class="cardPadder">
+
+<a class="notxtstyle linkify spacify" href="http://www.ryerson.ca/tedrogersschool/hsm/faculty/james-tiessen/" target="_blank">Faculty Page</a>
+
+</div>
+</div>
+
+
+<div id="mrminview" class="singleCard grayBorderedBox">
+<h2 class="sectionHeader">Media Relations</h2>
+<div class="cardPadder">
+<span>Michelle Grady</span><br/>
+<span>Media Relations Officer</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:mgrady@ryerson.ca">mgrady@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 7161</span><br/><br/>
+<a id="mrexpander" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Expand >></a>
+</div>
+</div>
+<div id="mrmaxview" class="singleCard grayBorderedBox">
+<h2 class="sectionHeader">Media Relations</h2>
+<div class="cardPadder">
+<span>Michelle Grady</span><br/>
+<span>Media Relations Officer</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:mgrady@ryerson.ca">mgrady@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 7161</span>
+<br/><br/>
+<span>Karen Benner</span><br/>
+<span>Associate Director, University Communications</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:karen.benner@ryerson.ca">karen.benner@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 3494</span>
+<br/><br/>
+<span>Ted Rogers School of Management:</span>
+<br/><br/>
+<span>Nadine Habib</span><br/>
+<span>Media and Rich Content Specialist</span><br/>
+<a class="notxtstyle linkify" style="word-wrap: break-word;" href="mailto:nadine.habib@ryerson.ca">nadine.habib@ryerson.ca</a><br/>
+<span>(416) 979-5000 ext. 3608</span>
+<br/><br/>
+<a id="mrshrinker" style="display: block; text-decoration: underline; color: black; text-align: right; cursor: pointer;">Click to Shrink &lt;&lt;</a>
+</div>
+</div>
+<div class="clear" style="height: 2em;"></div>
+</div>
+<script type="text/javascript">
+var scaleProfileCards = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw > 768)
+    {
+        var available_space = Math.floor(0.7*vw)
+        
+        if (available_space > 750)
+        {
+            $('#omnicontainer').css('width', available_space + "px");
+            $('#nameSection').css('width', available_space + "px");
+            $('#nameSection').css('box-sizing', 'border-box');
+            $('#nameSection').css('padding', '1%');
+            $('#nameSection').css('margin-bottom', '2%');
+
+            var generalDetailsSize = available_space - Math.ceil(0.03*available_space) - 205;
+            $('#generalDetails').css('width', generalDetailsSize - 300 + "px");
+            $('#generalDetails').css('padding-left', '1%');
+            $('#generalDetails').css('float', 'left');
+
+            $('#contactInfo').css('width', '300px');
+            $('#contactInfo').css('position', 'absolute');
+            $('#contactInfo').css('right', '1%');
+            $('#contactInfo').css('bottom', '5%');
+
+            $('.singleCard').css('width', '30%');
+            $('.singleCard').css('margin', '0 2% 2% 0');
+            $('.singleCard').css('box-sizing', 'border-box');
+            $('.doubleCard').css('width', '68%');
+            $('.doubleCard').css('margin', '0 0 2% 0');
+            $('.doubleCard').css('box-sizing', 'border-box');
+        }
+    }
+};
+
+var removeStyleTags = function () {
+    var elements = $('#omnicontainer, #generalDetails, #nameSection, #contactInfo, .singleCard, .doubleCard');
+    elements.each(function (index, element) {$(element).removeAttr('style')});
+};
+
+$(window).load(function () {
+    
+    $('#mrmaxview').addClass('hidify');
+    $('#mrexpander').click(
+        function () {
+            $('#mrminview').addClass('hidify');
+            $('#mrmaxview').removeClass('hidify');
+        }
+    );
+    $('#mrshrinker').click(
+        function () {
+            $('#mrmaxview').addClass('hidify');
+            $('#mrminview').removeClass('hidify');
+        }
+    );
+    scaleProfileCards();
+});
+$(window).resize(function () {removeStyleTags(); _.debounce(scaleProfileCards, 100)();});
+</script>
+
+</div>
+<script type="text/javascript">
+if (document.getElementById('mainHeader') !== null) {
+    jQuery.fn.headerPush = function () {
+        if ($('#mainHeader').css('display') !== 'none') 
+        {
+            this.css("padding-top", $('#mainHeader').outerHeight() + "px");
+        }
+        else
+        {
+            this.css("padding-top", "0");
+        }
+        return this;
+    }
+
+    $('#pushedContainer').headerPush();
+    $(window).resize(function(){$('#pushedContainer').headerPush()});
+}
+</script>
+<div id="footerpusher"></div>
+</div>
+
+<footer>
+<p id="orgAddress">
+&copy; <script type="text/javascript">var year = new Date().getFullYear(); $('#orgAddress').append(year)</script> | Ryerson University | 350 Victoria Street, Toronto, Ontario, Canada M5B 2K3 | (416) 979-5000
+</p>
+<p id="poweredBy">
+Powered by
+<a href="https://expertisefinder.com/" rel="nofollow"><img src="/static/img/expertise_finder_logo.png" style="height: 45px; display: block; margin: 0 auto; padding-top: 5px;" alt="Link to expertisefinder.com"/></a>
+</p>
+<div class="clear"></div>
+</footer>
+<script type="text/javascript">
+var setFooterHeight = function () {
+    var globalwrapper = $('#globalwrapper');
+    var pusher = $('#footerpusher');
+    var footer_size = $('footer').outerHeight() + "px";
+
+    globalwrapper.css('margin-bottom', "-" + footer_size);
+    pusher.height(footer_size);
+};
+
+setFooterHeight();
+$(window).resize(setFooterHeight);
+</script>
+
+<script type="text/javascript">
+var fetchQuery = null;
+var fetchResultsCallback = null;
+
+var fetchResults = _.debounce(function() {
+    $.get('/suggester?query=' + fetchQuery, function(data) {
+        if(fetchResultsCallback)
+	    fetchResultsCallback(data);
+    });
+}, 300);
+
+$('#suggest-enabled .typeahead').typeahead(
+  {
+    hint: false,
+    highlight: false,
+    minLength: 1
+  },
+  {
+    name: 'suggestions',
+    limit: 10,
+    display: 'suggestion',
+    source: function(query, syncResults, asyncResults) {
+        fetchQuery = query;
+        fetchResultsCallback = asyncResults;
+        fetchResults();
+    }
+  }
+).on("typeahead:render", function() {
+    var searchTerm = $(this).val();
+    $(".tt-suggestion").each(function () {
+        $(this).mark(
+            searchTerm,
+            {
+                'element': 'strong',
+                'className': '',
+                'separateWordSearch': false,
+                'acrossElements': true,
+                'accuracy': 'partially',
+                'diacritics': true,
+                'caseSensitive': false,
+                'filter': function (node, term, totalCounter, counter) {
+                    if (counter >= 1) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        );
+    });
+});
+</script>
+</body>
+</html>

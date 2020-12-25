@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://relab.blog.ryerson.ca/xmlrpc.php" />
+	<title>RE/Lab &#8211; The Responsive Ecologies Lab @ Ryerson University</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="RE/Lab &raquo; Feed" href="https://relab.blog.ryerson.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RE/Lab &raquo; Comments Feed" href="https://relab.blog.ryerson.ca/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/relab.blog.ryerson.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=639092c3ea5f1c9c1e23387ee3c430b9"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://relab.blog.ryerson.ca/wp-includes/css/dist/block-library/style.min.css?ver=639092c3ea5f1c9c1e23387ee3c430b9' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css'  href='//fonts.googleapis.com/css?family=Cantata+One|Lato:300,700' type='text/css' media='all' />
+<link rel='stylesheet' id='theme_stylesheet-css'  href='https://relab.blog.ryerson.ca/wp-content/themes/magazine-basic/style.css?ver=639092c3ea5f1c9c1e23387ee3c430b9' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css'  href='https://relab.blog.ryerson.ca/wp-content/themes/magazine-basic/library/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://relab.blog.ryerson.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="https://relab.blog.ryerson.ca/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://relab.blog.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://relab.blog.ryerson.ca/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//relab.blog.ryerson.ca/?wordfence_lh=1&hid=5634EA064EC48B9D5B05564C541C2938');
+</script><style>
+#site-title a,#site-description{color:#dd9933 !important}
+#page{background-color:#ffffff}
+.entry-meta a,.entry-content a,.widget a{color:#ff6e00}
+</style>
+	
+	<!-- Google Analytics tracking code output by Beehive Analytics Pro https://premium.wpmudev.org/project/beehive-analytics-pro/ -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','beehive_ga');
+
+function beehive_ga_track() {
+			beehive_ga( 'create', 'UA-10265998-4', 'auto' ); // Create network tracking.
+					beehive_ga( 'set', 'anonymizeIp', true ); // Anonymize IP.
+							beehive_ga( 'send', 'pageview' ); // Send pageview.
+		}
+
+beehive_ga_track(); // Load tracking.
+</script>
+<!-- End Google Analytics --><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; background-image: url("https://relab.blog.ryerson.ca/wp-content/themes/magazine-basic/library/images/solid.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+	</head>
+
+<body class="home blog custom-background">
+	<div id="page" class="grid  ">
+		<header id="header" class="row" role="banner">
+			<div class="c12">
+				<div id="mobile-menu">
+					<a href="#" class="left-menu"><i class="fa fa-reorder"></i></a>
+					<a href="#"><i class="fa fa-search"></i></a>
+				</div>
+				<div id="drop-down-search"><form role="search" method="get" class="search-form" action="https://relab.blog.ryerson.ca/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></div>
+
+								<div class="title-logo-wrapper fl">
+										<div class="header-group">
+												<h1 id="site-title"><a href="https://relab.blog.ryerson.ca" title="RE/Lab" rel="home">RE/Lab</a></h1>
+						<div id="site-description">The Responsive Ecologies Lab @ Ryerson University</div>					</div>
+				</div>
+
+									<a href="https://relab.blog.ryerson.ca" title="RE/Lab" rel="home"><img id="header-img" src="https://relab.blog.ryerson.ca/files/2018/01/cropped-labtvs-3.jpg" width="1311" height="305" alt="" /></a>
+					
+				<div id="nav-wrapper">
+					<div class="nav-content">
+						<nav id="site-navigation" class="menus clearfix" role="navigation">
+							<h3 class="screen-reader-text">Main menu</h3>
+							<a class="screen-reader-text" href="#primary" title="Skip to content">Skip to content</a>
+							<div class="menu"><ul>
+<li class="page_item page-item-125"><a href="https://relab.blog.ryerson.ca/about/">About RE/Lab</a>
+<li class="page_item page-item-185"><a href="https://relab.blog.ryerson.ca/edge-lab/">EDGE Lab</a>
+<li class="page_item page-item-187"><a href="https://relab.blog.ryerson.ca/synlab-2/">SynLab</a>
+<li class="page_item page-item-192"><a href="https://relab.blog.ryerson.ca/aroma-lab/">Aroma Lab</a>
+</ul></div>
+						</nav><!-- #site-navigation -->
+
+											</div>
+				</div>
+
+			</div><!-- .c12 -->
+		</header><!-- #header.row -->
+
+		<div id="main" class="row">	<div id="primary" class="c6 push3" role="main">
+					<div class="row">
+				<article id="post-219" class="c12 post-219 post type-post status-publish format-standard hentry category-events">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/events/" rel="category tag">Events</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2018/11/16/219/" rel="bookmark">Making noise and learning about sound.</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/jnolan/" title="Posts by Jason" rel="author">Jason</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2018-11-16">November 16, 2018</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <p>This is a great short video of Kurt Thumlert&#8217;s grad students visiting the lab playing with various sound tools last week.</p>
+<p><iframe src="https://player.vimeo.com/video/301098448?app_id=122963" width="560" height="315" frameborder="0" title="relab" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-219 --><!-- 3 cols --><div class="three-col-wrapper">	<article id="post-158" class="three-col c4 post-158 post type-post status-publish format-standard hentry category-core-faculty category-news">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/core-faculty/" rel="category tag">Core Faculty</a>, <a href="https://relab.blog.ryerson.ca/category/news/" rel="category tag">News</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2018/01/06/camigobot-creating-virtual-soundscapes-with-robotic-senses/" rel="bookmark">C/AMIGObot: Creating virtual soundscapes with robotic senses</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/jnolan/" title="Posts by Jason" rel="author">Jason</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2018-01-06">January 6, 2018</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <p>C/AMIGObot: Creating virtual soundscapes with robotic senses first appeared in Ryerson&#8217;s <a href="http://www.ryerson.ca/research/publications/newsletter/nov-dec-2016/#3">INNOVATION NEWSLETTER</a></p>
+<p><img loading="lazy" class="alignnone size-medium wp-image-159" src="http://relab.blog.ryerson.ca/files/2017/01/1481224778863-400x218.jpg" alt="Jason with robot" width="400" height="218" srcset="https://relab.blog.ryerson.ca/files/2017/01/1481224778863-400x218.jpg 400w, https://relab.blog.ryerson.ca/files/2017/01/1481224778863-170x93.jpg 170w, https://relab.blog.ryerson.ca/files/2017/01/1481224778863-768x419.jpg 768w, https://relab.blog.ryerson.ca/files/2017/01/1481224778863.jpg 880w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>Jason Nolan has been immersed in virtual reality (VR) in its various permutations for decades, long before its most recent incarnations of high-definition headsets and experiences.</p>
+<p>“VR and augmented reality (AR) are most often associated with immersive visual environments, but AR/VR environments run the gamut from text-based simulations that have been around since the early 1980s to vibro-tactile hardware and the present trend in the form of VR glasses,” said Nolan, a professor with Ryerson’s School of Early Childhood Studies. “My present AR/VR project focuses on an interactive environment-sensing robot that we are calling ‘C/AMIGObot: A Creative Autonomous Mobile Interactive Generative-music Object roBot,’ which generates sound based on data from over 20 sensors.” These sensors can detect environmental information such as proximity to objects and people, ambient noise, environmental factors, and light intensity.</p>
+<p>Nolan’s cross-disciplinary team is finishing the second prototype of the C/AMIGObot and hopes to begin field testing in the new year to assess how this method of “sonifying” spaces might influence our perception and understanding of the physical spaces around us. He is the director of the Responsive Ecologies Lab and the Experiential Design and Gaming Environments Lab, where the project is housed.</p>
+<p>C/AMIGObot’s virtuality is perceived through auditory stimulation of space and participants, rather than through sight. C/AMIGObot takes the data that its sensors collect and uses it to generate ambient sound that in turn represents spaces virtually. “All of this information is processed into data that can then be assigned to various elements of music synthesis such as various generators and oscillators, and circuits,” says Nolan. “This would enable the general public or musicians to create music with the data generated by physical spaces, micro-environmental conditions, and how the individuals move in and about the space.”</p>
+<p>Potential uses for the C/AMIGObot run the gamut from helping children to understand their learning environments, to modifying the perception of institutional spaces, to giving musicians tools to rethink how musical compositions represent and interact in mixed-reality (AR/VR) spaces.</p>
+<p>Nolan is autistic, and this project is centred on Nolan’s curiosity about how young children explore and physically engage with sensory information as the foundation for their learning. The project is heavily influenced by the British musician and producer Brian Eno, and his ideas and work in generative and ambient music. Nolan believes that moving beyond an “ocular-centric perspective” offers new research, design and learning opportunities.</p>
+<p>“Though I primarily see C/AMIGObot as a learning tool to encourage people to re-think how we perceive spaces, I look forward to supporting new ways of interacting with and through the spaces in which we live,” said Nolan.</p>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-158 -->	<article id="post-190" class="three-col c4 post-190 post type-post status-publish format-standard hentry category-announcements">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/announcements/" rel="category tag">Announcements</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2017/12/06/vr-study-participants-needed/" rel="bookmark">VR study: Participants needed</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/melanie1-mcbride/" title="Posts by Instructor" rel="author">Instructor</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2017-12-06">December 6, 2017</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <p>Participants Needed — Pays $10.00 gift card for Volunteering</p>
+<p>The Responsive Ecologies Laboratory (RE/Lab) at Ryerson University is looking for volunteers to participate in a study about virtual reality games. In the study you will play up to two demos of a virtual reality game, followed by questionnaires and an interview. The study takes about 60 minutes, including demonstrations and breaks. To be eligible, you have to be an adult (i.e. at least 18 years old).</p>
+<p>The study pays a $10.00 gift card for your time.</p>
+<p>Please contact us at <a href="mailto:jnolan@ryerson.ca">jnolan@ryerson.ca</a> with &#8220;virtual reality games&#8221; in the subject as soon as possible, if you are interested.</p>
+<p>Jason Nolan<br />
+Associate Professor<br />
+School of Early Childhood Studies<br />
+Ryerson University, Toronto, Ontario, Canada</p>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-190 -->	<article id="post-153" class="three-col c4 post-153 post type-post status-publish format-standard hentry category-industry-collaborations tag-phantomcompass">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/industry-collaborations/" rel="category tag">industry collaborations</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2016/10/06/phantom-compass-collab-with-relab/" rel="bookmark">Phantom Compass Collaboration with RE/Lab</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/jnolan/" title="Posts by Jason" rel="author">Jason</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2016-10-06">October 6, 2016</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <h2 class="null">FOR IMMEDIATE RELEASE</h2>
+<p><img loading="lazy" class="alignnone size-medium wp-image-154" src="http://relab.blog.ryerson.ca/files/2016/10/Screen-Shot-2016-10-06-at-11.39.54-AM-400x386.png" alt="phantomcompass logo" width="400" height="386" srcset="https://relab.blog.ryerson.ca/files/2016/10/Screen-Shot-2016-10-06-at-11.39.54-AM-400x386.png 400w, https://relab.blog.ryerson.ca/files/2016/10/Screen-Shot-2016-10-06-at-11.39.54-AM-170x164.png 170w, https://relab.blog.ryerson.ca/files/2016/10/Screen-Shot-2016-10-06-at-11.39.54-AM.png 474w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><strong>Award-winning video game company partners with Ryerson University to develop advanced Virtual Reality experiences</strong></p>
+<div>
+<p><em>Innovative game developers partner with Ryerson University’s RE/Lab to explore the application of VR in special needs education, health care, and more.</em></p>
+</div>
+<div>TORONTO, September 26, 2016 &#8212; Phantom Compass, the award-winning game developer behind fantasy pinball mashup <em>Rollers of the Realm</em> (available on Steam and PlayStation Network) and upcoming ‘80s car combat tribute <em>Auto-Age: Standoff</em>, today announced breakthroughs in understanding of VR game design through research collaboration with Ryerson University’s <a href="http://relab.blog.ryerson.ca/">Responsive Ecologies Lab (RE/Lab)</a>.</div>
+<p><a href="http://bit.ly/PhantomRELab">Read more</a>&#8230;</p>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-153 -->	<article id="post-146" class="three-col c4 post-146 post type-post status-publish format-standard hentry category-3d-printing category-hacks">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/3d-printing/" rel="category tag">3d printing</a>, <a href="https://relab.blog.ryerson.ca/category/hacks/" rel="category tag">hacks</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2016/10/05/146/" rel="bookmark">nice joystick hack</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/jnolan/" title="Posts by Jason" rel="author">Jason</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2016-10-05">October 5, 2016</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <p>JW in @ryersonu @ReLabRye using our 3D printed joystick jig &amp; handmade cable to use @proloquo2go via @get_tecla</p>
+<div id="attachment_147" style="width: 410px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-147" loading="lazy" class="size-medium wp-image-147" src="http://relab.blog.ryerson.ca/files/2016/10/IMG_1106-400x251.jpg" alt="Jig and joystick hack" width="400" height="251" srcset="https://relab.blog.ryerson.ca/files/2016/10/IMG_1106-400x251.jpg 400w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1106-170x107.jpg 170w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1106-768x481.jpg 768w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1106-1024x642.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /><p id="caption-attachment-147" class="wp-caption-text">Jig and joystick hack</p></div>
+<p>originally <a href="https://twitter.com/jasonnolan/status/783638426293719040" target="_blank">tweeted</a>.</p>
+<p>Here are some close ups of the joystick and the 3d printed jig to turn the 8 way switch into a 4 way switch so it could be used with the @proloquo2go &amp; @get_tecla</p>
+<div id="attachment_150" style="width: 410px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-150" loading="lazy" class="size-medium wp-image-150" src="http://relab.blog.ryerson.ca/files/2016/10/IMG_1102-400x300.jpg" alt="4 way joystick hack with jig" width="400" height="300" srcset="https://relab.blog.ryerson.ca/files/2016/10/IMG_1102-400x300.jpg 400w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1102-170x128.jpg 170w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1102-768x576.jpg 768w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1102-1024x768.jpg 1024w" sizes="(max-width: 400px) 100vw, 400px" /><p id="caption-attachment-150" class="wp-caption-text">side view</p></div>
+<div id="attachment_149" style="width: 310px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-149" loading="lazy" class="size-medium wp-image-149" src="http://relab.blog.ryerson.ca/files/2016/10/IMG_1101-300x400.jpg" alt="4 way joystick hack with jig" width="300" height="400" srcset="https://relab.blog.ryerson.ca/files/2016/10/IMG_1101-300x400.jpg 300w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1101-128x170.jpg 128w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1101-768x1024.jpg 768w" sizes="(max-width: 300px) 100vw, 300px" /><p id="caption-attachment-149" class="wp-caption-text">4 way joystick hack with jig</p></div>
+<div id="attachment_148" style="width: 310px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-148" loading="lazy" class="size-medium wp-image-148" src="http://relab.blog.ryerson.ca/files/2016/10/IMG_1100-300x400.jpg" alt="8way joystick viewed from bottom" width="300" height="400" srcset="https://relab.blog.ryerson.ca/files/2016/10/IMG_1100-300x400.jpg 300w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1100-128x170.jpg 128w, https://relab.blog.ryerson.ca/files/2016/10/IMG_1100-768x1024.jpg 768w" sizes="(max-width: 300px) 100vw, 300px" /><p id="caption-attachment-148" class="wp-caption-text">8way joystick viewed from bottom</p></div>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-146 -->	<article id="post-135" class="three-col c4 post-135 post type-post status-publish format-standard hentry category-core-faculty category-news">
+
+	    <header>
+                <div class="post-category"><a href="https://relab.blog.ryerson.ca/category/core-faculty/" rel="category tag">Core Faculty</a>, <a href="https://relab.blog.ryerson.ca/category/news/" rel="category tag">News</a></div>
+            <h2 class="entry-title taggedlink"><a href="https://relab.blog.ryerson.ca/2016/03/09/ryerson-eyeopener-features-lab-director/" rel="bookmark">Ryerson Eyeopener features lab director</a></h2>
+    <div class="entry-meta">
+        by <span class="vcard author"><span class="fn"><a href="https://relab.blog.ryerson.ca/author/jnolan/" title="Posts by Jason" rel="author">Jason</a></span></span>&nbsp;&bull;&nbsp;<time class="published" datetime="2016-03-09">March 9, 2016</time>    </div>
+</header>
+
+	    <div class="entry-content">
+		    <p>Ryerson&#8217;s eyeopener features RE/Lab director in <a href="http://theeyeopener.com/2016/03/remodelling-the-world-to-fit-your-life/">Ryerson prof&#8217;s project remodels the world to fit your life</a> focusing on our project in Bolivia.</p>
+<p><a href="http://relab.blog.ryerson.ca/files/2016/03/JasonNolanEdgeLab-01.jpg"><img loading="lazy" src="http://relab.blog.ryerson.ca/files/2016/03/JasonNolanEdgeLab-01-400x266.jpg" alt="JasonNolanEdgeLab-01" width="400" height="266" class="alignnone size-medium wp-image-136" srcset="https://relab.blog.ryerson.ca/files/2016/03/JasonNolanEdgeLab-01-400x266.jpg 400w, https://relab.blog.ryerson.ca/files/2016/03/JasonNolanEdgeLab-01-170x113.jpg 170w, https://relab.blog.ryerson.ca/files/2016/03/JasonNolanEdgeLab-01.jpg 680w" sizes="(max-width: 400px) 100vw, 400px" /></a> </p>
+	    </div><!-- .entry-content -->
+
+	    
+	</article><!-- #post-135 --></div><!-- eof 3 cols -->			</div>
+			<div id="pagination"><div class="total-pages">Page 1 of 4</div><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://relab.blog.ryerson.ca/page/2/">2</a>
+<a class="page-numbers" href="https://relab.blog.ryerson.ca/page/3/">3</a>
+<a class="page-numbers" href="https://relab.blog.ryerson.ca/page/4/">4</a>
+<a class="next page-numbers" href="https://relab.blog.ryerson.ca/page/2/">&raquo;</a></div>	</div><!-- #primary -->
+		<div id="secondary" class="c3 pull6" role="complementary">
+		
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://relab.blog.ryerson.ca/2018/11/16/219/">Making noise and learning about sound.</a>
+									</li>
+											<li>
+					<a href="https://relab.blog.ryerson.ca/2018/01/06/camigobot-creating-virtual-soundscapes-with-robotic-senses/">C/AMIGObot: Creating virtual soundscapes with robotic senses</a>
+									</li>
+											<li>
+					<a href="https://relab.blog.ryerson.ca/2017/12/06/vr-study-participants-needed/">VR study: Participants needed</a>
+									</li>
+											<li>
+					<a href="https://relab.blog.ryerson.ca/2016/10/06/phantom-compass-collab-with-relab/">Phantom Compass Collaboration with RE/Lab</a>
+									</li>
+											<li>
+					<a href="https://relab.blog.ryerson.ca/2016/10/05/146/">nice joystick hack</a>
+									</li>
+					</ul>
+
+		</aside>	</div><!-- #secondary.widget-area -->
+
+			<div id="tertiary" class="c3 end" role="complementary">
+			<aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-332384"><a href="https://relab.blog.ryerson.ca/category/ontarioais/">#OntarioAIS</a>
+</li>
+	<li class="cat-item cat-item-216293"><a href="https://relab.blog.ryerson.ca/category/3d-printing/">3d printing</a>
+</li>
+	<li class="cat-item cat-item-42021"><a href="https://relab.blog.ryerson.ca/category/announcements/">Announcements</a>
+</li>
+	<li class="cat-item cat-item-332395"><a href="https://relab.blog.ryerson.ca/category/artist-in-residence/">Artist in Residence</a>
+</li>
+	<li class="cat-item cat-item-332382"><a href="https://relab.blog.ryerson.ca/category/core-faculty/">Core Faculty</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://relab.blog.ryerson.ca/category/events/">Events</a>
+</li>
+	<li class="cat-item cat-item-40758"><a href="https://relab.blog.ryerson.ca/category/hacks/">hacks</a>
+</li>
+	<li class="cat-item cat-item-332401"><a href="https://relab.blog.ryerson.ca/category/industry-collaborations/">industry collaborations</a>
+</li>
+	<li class="cat-item cat-item-191"><a href="https://relab.blog.ryerson.ca/category/news/">News</a>
+</li>
+	<li class="cat-item cat-item-11723"><a href="https://relab.blog.ryerson.ca/category/research-assistants/">Research Assistants</a>
+</li>
+			</ul>
+
+			</aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>
+			<ul>
+					<li><a href='https://relab.blog.ryerson.ca/2018/11/'>November 2018</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2018/01/'>January 2018</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2017/12/'>December 2017</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2016/10/'>October 2016</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2016/03/'>March 2016</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2016/02/'>February 2016</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2015/11/'>November 2015</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2015/08/'>August 2015</a></li>
+	<li><a href='https://relab.blog.ryerson.ca/2015/07/'>July 2015</a></li>
+			</ul>
+
+			</aside>		</div><!-- #tertiary.widget-area -->
+			</div> <!-- #main.row -->
+</div> <!-- #page.grid -->
+
+<footer id="footer" role="contentinfo">
+
+	<div id="footer-content" class="grid ">
+		<div class="row">
+
+			<p class="copyright c12">
+				<span class="fl">Copyright &copy; 2020 <a href="https://relab.blog.ryerson.ca">RE/Lab</a>. All Rights Reserved.</span>
+				<span class="fr">The Magazine Basic Theme by <a href="https://themes.bavotasan.com/">bavotasan.com</a>.</span>
+			</p><!-- .c12 -->
+
+		</div><!-- .row -->
+	</div><!-- #footer-content.grid -->
+
+</footer><!-- #footer -->
+
+
+			<script type="text/javascript">
+				var _paq = _paq || [];
+				_paq.push(["setDocumentTitle", "5093/" + document.title]);
+	_paq.push(["setCookieDomain", "*.blog.ryerson.ca"]);
+	_paq.push(["setDomains", "*.blog.ryerson.ca"]);
+				_paq.push(['trackPageView']);
+								(function () {
+					var u = "https://stats1.wpmudev.com/";
+					_paq.push(['setTrackerUrl', u + 'track/']);
+					_paq.push(['setSiteId', '24081']);
+					var d   = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+					g.type  = 'text/javascript';
+					g.async = true;
+					g.defer = true;
+					g.src   = 'https://stats.wpmucdn.com/analytics.js';
+					s.parentNode.insertBefore(g, s);
+				})();
+			</script>
+			<script type="text/javascript" id="branda-content-footer-js">
+var branda_footer_node = document.createElement('div');
+var branda_footer = document.createAttribute('id');
+branda_footer.value = 'branda_content_footer';
+branda_footer_node.setAttributeNode( branda_footer );
+branda_footer = document.createAttribute('style');
+branda_footer.value = '';
+branda_footer_node.setAttributeNode( branda_footer );
+branda_footer_node.innerHTML = "<p class=\"adminfooter\" style=\"text-align: center;\">This site is hosted by <a href=\"http:\/\/blog.ryerson.ca\">blog.ryerson.ca<\/a>. Opinions expressed in this site do not necessarily represent those of Ryerson University.<\/p>";
+branda_footer = document.getElementsByTagName( 'footer' );
+if ( branda_footer.length ) {
+	branda_footer = branda_footer[ branda_footer.length - 1 ];
+	branda_footer.appendChild( branda_footer_node, branda_footer.firstChild );
+}
+</script>
+<script type='text/javascript' src='https://relab.blog.ryerson.ca/wp-content/themes/magazine-basic/library/js/theme.js?ver=639092c3ea5f1c9c1e23387ee3c430b9' id='theme_js-js'></script>
+<script type='text/javascript' src='https://relab.blog.ryerson.ca/wp-includes/js/wp-embed.min.js?ver=639092c3ea5f1c9c1e23387ee3c430b9' id='wp-embed-js'></script>
+</body>
+</html>

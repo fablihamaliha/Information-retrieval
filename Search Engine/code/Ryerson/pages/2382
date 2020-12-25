@@ -1,0 +1,2866 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/ccs/services/email_and_learning/email-spam-phishing/" >
+		<meta property="og:title" content="Handling Email Spam and Phishing" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/ccs/services/email_and_learning/email-spam-phishing/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Handling Email Spam and Phishing"> 
+		 
+        
+        
+        <title>Handling Email Spam and Phishing - Computing and Communications Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/ccs/">
+				        Computing and Communications Services (CCS)
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/ccs.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#b0a7af08-306f-4528-89f4-d51d6e7dd49b" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="b0a7af08-306f-4528-89f4-d51d6e7dd49b">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/ccs/about/'>About CCS</a>
+									</li>
+								
+									<li class="active">
+										<a href='/ccs/services/'>Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/ccs/contact/'>Contact Us</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/ccs/services.html">Services</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#0ed6b43e-ea4c-4be3-a689-2532025a00ac" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="0ed6b43e-ea4c-4be3-a689-2532025a00ac">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item parent">
+<a href='/ccs/services/email_and_learning.html'>Email and Learning Systems</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning/gsuiteapps.html'>G Suite at Ryerson</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning/gmail.html'>Gmail</a>
+</li>
+<li class="list-group-item selected">
+<a href='/ccs/services/email_and_learning/email-spam-phishing.html'>Handling Email Spam and Phishing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning/brightspacebyD2L.html'>Brightspace by D2L</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning/myryerson_portal.html'>my.ryerson Portal</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/accounts.html'>Accounts</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software.html'>Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/labsandprinting.html'>Labs & Printing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity.html'>IT Security</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections.html'>Network and Wireless</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/hardware.html'>Hardware</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/mediaservices.html'>Media Services</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/webcontentmgmt.html'>Web and Content Management</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/phonesfaxing.html'>Telephones and Faxing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/applications.html'>Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/cabling.html'>Cabling</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/chargeableservices.html'>Fees and Chargebacks</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/AtoZcatalogue.html'>Service Catalogue</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Handling Email Spam and Phishing</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resimagetext resImageText">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="710a6470-bee5-4e6c-8fed-503dc5194d50">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/Section-Banners/Email-Learning-Systems-Banner-3.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#710a6470-bee5-4e6c-8fed-503dc5194d50');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "710a6470-bee5-4e6c-8fed-503dc5194d50"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resHtmlSnippet section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061" class="res-html-snippet">
+	
+	
+        <h1> Spam <i class="fa fa-ban" aria-hidden="true"></i> </h1>
+    
+	
+</div>
+
+<script>
+$("#rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 input, #rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 select").each(function(i, v) {
+	if (!$(this).hasClass('form-control')) {
+		if ($(this).is("input[type='file']")) {
+			$(this).attr('id', 'rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061_upload'+i).wrap("<span class='htmlSnippetForm'></span>").after("<label for='rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061_upload"+i+"' class='customInput'>Choose file</label>");
+		} else {
+			$(this).wrap("<span class='htmlSnippetForm'></span>").after("<span class='customInput'></span>");
+		}
+	}
+});
+</script>
+
+	<style>
+		#rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 iframe{ height:;}
+		@media screen and (min-width: 768px) { #rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 iframe{ height:;} }
+		@media screen and (min-width: 992px) { #rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 iframe{ height:;} }
+		@media screen and (min-width: 1200px) { #rye-5d65dc9a-34f8-4a94-96ec-fc180c4df061 iframe{ height:;} }
+	</style>
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c4e833e8-2272-4354-8c81-d71c86147efb" >
+
+    <p>Email spam is unsolicited mass email. Some spam email can contain offensive content or it may have an attachment that contains a virus that has the potential to harm your computer or the network.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c4e833e8-2272-4354-8c81-d71c86147efb");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="762e9f0d-615f-4f3a-956d-c69906de0846" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("762e9f0d-615f-4f3a-956d-c69906de0846", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1505238648292-ryerson-mail-filter-system" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1505238648292-ryerson-mail-filter-system" aria-controls="accordion-content-1505238648292-ryerson-mail-filter-system" aria-expanded="false">
+                            Ryerson Mail Filter System
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1505238648292-ryerson-mail-filter-system" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1505238648292-ryerson-mail-filter-system">
+                    <div class="panel-body ">
+                        <div class="1505238648292 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9361d89d-d4b7-462d-a64f-932dbfac5d14" >
+
+    <p>All incoming outside email messages are passed through the Ryerson mail filters to determine whether they are legitimate senders or from "spammers".</p> 
+<ul> 
+ <li>Sometimes legitimate messages are falsely flagged as spam. These messages may be&nbsp;<a href="/content/ryerson/ccs/services/email_and_learning/email-spam-phishing.html#accordion-1505237556518-forward-a-message-with--full-headers-">forwarded with full headers</a>&nbsp;to&nbsp;<a href="mailto:notspam@ryerson.ca">notspam@ryerson.ca</a>. &nbsp;</li> 
+ <li>Some messages that are spam will make it past Ryerson's spam filters. These messages may be<a href="/content/ryerson/ccs/services/email_and_learning/email-spam-phishing.html#accordion-1505237556518-forward-a-message-with--full-headers-">&nbsp;forwarded with full headers</a>&nbsp;to&nbsp;<a href="mailto:spamrec@ryerson.ca">spamrec@ryerson.ca</a>.</li> 
+</ul> 
+<p>Appropriate measures will be taken to try and reduce the amount of incoming spam and reduce the number of messages that have been falsely flagged as spam.</p> 
+<p>Currently, incoming outside email messages passed through the Ryerson mail filters which are considered to be spam are quarantined and not delivered to your mailbox. &nbsp;This may cause potential problems because some legitimate messages are falsely flagged as spam, quarantined and the users don’t know about it. &nbsp;Currently, users contact CCS to check if a message they were expecting has been quarantined and if so CCS will manually release the message from quarantine.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9361d89d-d4b7-462d-a64f-932dbfac5d14");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1505238715894-manage-email-spam" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1505238715894-manage-email-spam" aria-controls="accordion-content-1505238715894-manage-email-spam" aria-expanded="false">
+                            Manage Email Spam
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1505238715894-manage-email-spam" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1505238715894-manage-email-spam">
+                    <div class="panel-body ">
+                        <div class="1505238715894 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8799b715-a12f-4fd9-9aad-fa92de4bbe1d" >
+
+    <p>Find more on how to <a href="https://www.ryerson.ca/ccs/services/ITSecurity/protecting-your-identity/managing-spam/">manage spam</a> in your Ryerson Gmail account.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8799b715-a12f-4fd9-9aad-fa92de4bbe1d");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1505237556518-forward-a-message-with--full-headers-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1505237556518-forward-a-message-with--full-headers-" aria-controls="accordion-content-1505237556518-forward-a-message-with--full-headers-" aria-expanded="false">
+                            Forward a Message With “Full Headers”
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1505237556518-forward-a-message-with--full-headers-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1505237556518-forward-a-message-with--full-headers-">
+                    <div class="panel-body ">
+                        <div class="1505237556518 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="cbce57eb-38dc-49ef-9fc9-5be385b6a796" >
+
+    <p>Often when CCS troubleshoots an email issue, or reported spam, it’s useful to have the “full headers” of a message. &nbsp;This helps to accurately&nbsp;track where a message came from. &nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#cbce57eb-38dc-49ef-9fc9-5be385b6a796");});</script></div>
+
+				
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1505238306404-rmail" href="#tab-content-1505238306404-rmail" role="tab" data-toggle="tab" aria-controls="tab-content-1505238306404-rmail" aria-expanded="true">
+                        <span class="text">RMail</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1505238310419-gmail" href="#tab-content-1505238310419-gmail" role="tab" data-toggle="tab" aria-controls="tab-content-1505238310419-gmail" aria-expanded="false">
+                        <span class="text">Gmail</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1505238313202-thunderbird" href="#tab-content-1505238313202-thunderbird" role="tab" data-toggle="tab" aria-controls="tab-content-1505238313202-thunderbird" aria-expanded="false">
+                        <span class="text">Thunderbird</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1505238317763-outlook-2010" href="#tab-content-1505238317763-outlook-2010" role="tab" data-toggle="tab" aria-controls="tab-content-1505238317763-outlook-2010" aria-expanded="false">
+                        <span class="text">Outlook 2010</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1505238306404-rmail" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1505238306404-rmail">
+                    <div class="1505238306404 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a98d8ce1-3408-4375-8014-f23622f4b5ca" >
+
+    <ol> 
+ <li>Right click the email subject line and click Other. . .</li> 
+ <li>Click Display Full Headers.</li> 
+ <li>Copy the text to clipboard.</li> 
+ <li>Paste the text into a new message.</li> 
+</ol> 
+<div>
+ <strong>To report spam:</strong>
+</div> 
+<div>
+ Mark the message and click the&nbsp;
+ <strong>Spam</strong>&nbsp;button above the message. This will send a copy of the message to CCS and move it to the Spam folder
+</div>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a98d8ce1-3408-4375-8014-f23622f4b5ca");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1505238310419-gmail" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1505238310419-gmail">
+                    <div class="1505238310419 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="2c065e19-4f38-4bb6-bbc8-ef3aba02cac8" >
+
+    <ol> 
+ <li>Select the message.</li> 
+ <li>Using the drop-down menu in the upper-right, select&nbsp;<strong>Show original</strong>.</li> 
+ <li>Click <strong>Copy to clipboard</strong>.</li> 
+ <li>Paste into a new message.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#2c065e19-4f38-4bb6-bbc8-ef3aba02cac8");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1505238313202-thunderbird" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1505238313202-thunderbird">
+                    <div class="1505238313202 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ba1db47b-246d-4979-83a7-db02affda32d" >
+
+    <ol> 
+ <li>Select the message.</li> 
+ <li>From the View menu select&nbsp;<strong>Headers&nbsp;</strong>then&nbsp;<strong>All.</strong></li> 
+ <li>Forward the message.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ba1db47b-246d-4979-83a7-db02affda32d");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1505238317763-outlook-2010" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1505238317763-outlook-2010">
+                    <div class="1505238317763 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="70f33bf9-d4d4-480f-af32-b611767a9c1d" >
+
+    <ol> 
+ <li>Double-click the message to open it in a new window. &nbsp;</li> 
+ <li>Click the <strong>File</strong> tab in the new window and click the&nbsp;<strong>Properties</strong>&nbsp;button. &nbsp;</li> 
+ <li>The headers are in the bottom portion of the window (beside Internet headers:). Copy headers.</li> 
+ <li>Forward the original message and paste the copied headers into that message before sending it.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#70f33bf9-d4d4-480f-af32-b611767a9c1d");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1505237557821-reporting-messages-falsely-categorized-as-spam" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1505237557821-reporting-messages-falsely-categorized-as-spam" aria-controls="accordion-content-1505237557821-reporting-messages-falsely-categorized-as-spam" aria-expanded="false">
+                            Reporting Messages Falsely Categorized as Spam
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1505237557821-reporting-messages-falsely-categorized-as-spam" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1505237557821-reporting-messages-falsely-categorized-as-spam">
+                    <div class="panel-body ">
+                        <div class="1505237557821 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1505238445443-rmail" href="#tab-content-1505238445443-rmail" role="tab" data-toggle="tab" aria-controls="tab-content-1505238445443-rmail" aria-expanded="true">
+                        <span class="text">RMail</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1505238445915-ryerson-webmail" href="#tab-content-1505238445915-ryerson-webmail" role="tab" data-toggle="tab" aria-controls="tab-content-1505238445915-ryerson-webmail" aria-expanded="false">
+                        <span class="text">Ryerson Webmail</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1505238446395-gmail" href="#tab-content-1505238446395-gmail" role="tab" data-toggle="tab" aria-controls="tab-content-1505238446395-gmail" aria-expanded="false">
+                        <span class="text">Gmail</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1505238445443-rmail" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1505238445443-rmail">
+                    <div class="1505238445443 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ac16c4bd-c6aa-41e6-8c0c-3b818da073fb" >
+
+    <ul> 
+ <li>Forward the message with full headers to&nbsp;<a href="mailto:notspam@ryerson.ca">notspam@ryerson.ca.</a></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ac16c4bd-c6aa-41e6-8c0c-3b818da073fb");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1505238445915-ryerson-webmail" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1505238445915-ryerson-webmail">
+                    <div class="1505238445915 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d2b0f359-80b3-42c0-b59f-dfec48c8e73c" >
+
+    <ul> 
+ <li>From the Spam folder, mark the message as “not spam” by clicking the&nbsp;<strong>not spam</strong>&nbsp;button above the message. This will send a copy of the message to CCS and move the message to your Inbox.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d2b0f359-80b3-42c0-b59f-dfec48c8e73c");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1505238446395-gmail" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1505238446395-gmail">
+                    <div class="1505238446395 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4a261bd9-d664-4980-84ca-09fb5125ba85" >
+
+    <ul> 
+ <li>Mark the message as “not spam” by clicking the&nbsp;<strong>not spam</strong>&nbsp;button above the message.</li> 
+ <li>If the yellow bar above the message (“Why is this message in Spam?”) indicates that it was blocked due to your “organization's request” (see below), forward the message (with full headers) to&nbsp;<a href="mailto:notspam@ryerson.ca">notspam@ryerson.ca</a>.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4a261bd9-d664-4980-84ca-09fb5125ba85");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="4bb2f408-a4cb-4832-9ca5-971340500986">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/services/email-learning-systems/email-spam-phishing/GmailSpamNotice.jpg" title="Example of yellow bar above the message " alt="Example of yellow bar above the message "/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#4bb2f408-a4cb-4832-9ca5-971340500986');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "4bb2f408-a4cb-4832-9ca5-971340500986"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1505237558324-using-the-ryerson-logo-in-your-gmail-signature" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1505237558324-using-the-ryerson-logo-in-your-gmail-signature" aria-controls="accordion-content-1505237558324-using-the-ryerson-logo-in-your-gmail-signature" aria-expanded="false">
+                            Using the Ryerson Logo in Your Gmail Signature
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1505237558324-using-the-ryerson-logo-in-your-gmail-signature" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1505237558324-using-the-ryerson-logo-in-your-gmail-signature">
+                    <div class="panel-body ">
+                        <div class="1505237558324 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="887df0f5-144d-4fa4-8125-57e2da7be43a" >
+
+    <p>Because of the way some external sites block Google content, it’s best to use an image from the Ryerson <a href="https://www.ryerson.ca/brand/visual-toolkit/university-logo/" target="_blank">branding site<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, opens in new window</span></a>. Download and unzip the <strong>Logo Download</strong> file. Upload the <strong>Ryerson-rgb.png</strong> file to your My Drive on Google Drive.<br> <br> You can add this to your Gmail signature. Click on the gear<strong>&nbsp;</strong>icon and select <strong>Settings&nbsp;</strong>&gt;&nbsp;<strong>General&nbsp;</strong>&gt;&nbsp;<strong>Signature</strong>. Then use the&nbsp;<strong>Insert Image&nbsp;</strong>icon<strong>,&nbsp;</strong>select the <strong>My Drive </strong>tab and click the <strong>Ryerson-rgb.png</strong> file. Click on <strong>Select</strong>. Click on the image and choose the appropriate size.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#887df0f5-144d-4fa4-8125-57e2da7be43a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Phishing
+    
+        <i aria-hidden='true' class='icon fa fa-search'></i>
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="c1 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="47838ae5-305f-4112-abab-854751b4ba8c" >
+
+    <p>Ryerson receives an increasing number of phishing emails each day - these emails are designed to deceive you into giving away confidential information like your Ryerson username and password, credit card number or bank account information.</p> 
+<p>Protect yourself whenever using email by knowing how to recognize phishing attempts so you can report and delete them.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#47838ae5-305f-4112-abab-854751b4ba8c");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="53895369-5827-40ab-99fa-44864d24e987" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("53895369-5827-40ab-99fa-44864d24e987", true); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1522338383119-common-traits-of-phishing-emails" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1522338383119-common-traits-of-phishing-emails" aria-controls="accordion-content-1522338383119-common-traits-of-phishing-emails" aria-expanded="false">
+                            Common Traits of Phishing Emails
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1522338383119-common-traits-of-phishing-emails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1522338383119-common-traits-of-phishing-emails">
+                    <div class="panel-body ">
+                        <div class="1522338383119 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0f4ce6f0-2298-42bb-b2d0-a33c32cf01ae" >
+
+    <ul> 
+ <li>The sender's address is suspicious.</li> 
+ <li>The To field is blank or for another person.</li> 
+ <li>The email includes typos or grammatical errors.</li> 
+ <li>The message contains an urgent request for personal information.</li> 
+ <li>The message requires immediate action to avoid a problem like losing access to your Ryerson account.</li> 
+ <li>When you hover over a link or button in the email, it directs you to an address (usually suspicious) unrelated to the text in the link.</li> 
+ <li>We've provided some samples to help you detect phishing emails. Many of these examples are derived from phishing emails that were sent to Ryerson email addresses. The links in these examples have been slightly modified to make them less dangerous but please don't attempt to visit these sites.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0f4ce6f0-2298-42bb-b2d0-a33c32cf01ae");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1501184913152-suspicious-senders" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1501184913152-suspicious-senders" aria-controls="accordion-content-1501184913152-suspicious-senders" aria-expanded="false">
+                            Suspicious Senders
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1501184913152-suspicious-senders" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1501184913152-suspicious-senders">
+                    <div class="panel-body ">
+                        <div class="1501184913152 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="854b472e-ba1e-411a-a899-2666e7865aa8" >
+
+    <p>Here is an example where the sender is pretending the email is from a ryerson address, but the actual address is really from uniswa.szabc.</p> 
+<p><img src="/content/dam/ccs/services/ITsecurity/1_PH.jpg" alt="Email sender appears as 'no-reply@ryerson.ca' but next to it, you find that it's from 'pjmusi@uniswa.szabc' "></p> 
+<p>Here is an example of an email that claims to be from FedEx where the actual address is from specweldfab.revitalsite.comabc.</p> 
+<p><img src="/content/dam/ccs/services/ITsecurity/2_PH.jpg" alt="Email sender field states 'FedEx International Ground' however, to the right you will find the actual address of 'richard.shepherd@specweldfab.revitalsite.comabc'"></p> 
+<p>It’s always worth taking a moment to carefully check the full email address of the sender.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#854b472e-ba1e-411a-a899-2666e7865aa8");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1501184918513-urgent-requests-for-personal-information" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1501184918513-urgent-requests-for-personal-information" aria-controls="accordion-content-1501184918513-urgent-requests-for-personal-information" aria-expanded="false">
+                            Urgent Requests for Personal Information
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1501184918513-urgent-requests-for-personal-information" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1501184918513-urgent-requests-for-personal-information">
+                    <div class="panel-body ">
+                        <div class="1501184918513 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="814bc4d3-b6ff-4f6c-a5f0-f348b00d59af" >
+
+    <p>Here is part of an urgent request that included a link to a fake Ryerson login page:</p> 
+<p><img src="/content/dam/ccs/services/ITsecurity/3_PH.jpg" alt="Phishing email stating, 'Due to high numbers of inactive library accounts on our server, you are urged to validate your library account within a week after receiving this e-mail'"></p> 
+<p>Here’s another example of an urgent request:</p> 
+<p><img src="/content/dam/ccs/services/ITsecurity/4_PH.jpg" alt="Phishing email stating, 'We would be shutting down several RYERSON MAIL Accounts. You will have to confirm your RYERSON MAIL Account. So you are required to provide us with the following information.  Full Name: Username: Password: Telephone'"></p> 
+<p>Both of these fake messages include tell-tale grammatical errors and demand you take action to avoid losing access to your account.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#814bc4d3-b6ff-4f6c-a5f0-f348b00d59af");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1501184925784-suspicious-links" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1501184925784-suspicious-links" aria-controls="accordion-content-1501184925784-suspicious-links" aria-expanded="false">
+                            Suspicious Links
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1501184925784-suspicious-links" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1501184925784-suspicious-links">
+                    <div class="panel-body ">
+                        <div class="1501184925784 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="44efcb2a-8bb4-4ec3-a332-7ddb5596b8d3" >
+
+    <p>Hovering over a link with your mouse and carefully checking the URL is one of the best ways to detect a phishing email. If you are using a tablet or smartphone carefully press and hold the link, rather than tap, to reveal the true URL. Here's an example of a link that goes to a fake Ryerson login page hosted in a server in another country.</p> 
+<p>If you hover over the link without clicking you will see a very long URL (it may appear in the bottom-left of your browser) like this:</p> 
+<p><img src="/content/dam/ccs/services/ITsecurity/5_PH.jpg" alt="Hovering over the link within the email reveals a much longer URL at the bottom of the screen."></p> 
+<p><br> It may remind you of what you see in the location field of your browser when you log into the my.ryerson.ca&nbsp;portal. But it is not the same. Here is the valid address that you see when you login to&nbsp;my.ryerson.ca:</p> 
+<p>https://<strong>cas.ryerson.ca</strong>/login?service=https%3A%2F%2Fmy.ryerson.ca%2FLogin</p> 
+<p>Aside from the fact the fake link is longer, how can you tell which one is a link to a server at Ryerson and which one is not?</p> 
+<ol> 
+ <li>The legitimate URL has a forward slash after cas<strong>.ryerson.ca</strong>/, the fake one has a forward slash after&nbsp;cas.ryerson.ca<strong>.eduq.tkabc/</strong>.</li> 
+ <li>Another give away is that the fake URL starts with&nbsp;<strong>http://</strong>&nbsp;while the valid one starts with&nbsp;<strong>https://</strong>. Ryerson login pages will always start with the secure&nbsp;<strong>https://</strong>.</li> 
+</ol> 
+<p>Here is a fake URL that has been well-crafted to look like a Ryerson address:</p> 
+<p>https://<strong>cas-ryerson.com</strong>/login?service=https%3A%2F%3Fmy.ryerson.ca%2FLogin</p> 
+<p>Notice how a hyphen has replaced the dot. A valid Ryerson host name that isn’t simply https://www.ryerson.ca must end with .ryerson.ca/</p> 
+<p>Let's look at two fedex URLs. Which one takes you to a Fedex site and which one to somewhere more dangerous?</p> 
+<ol> 
+ <li>https://www.fedex.com/apps/myprofile/loginandcontact/?locale=en_ca</li> 
+ <li>http://www.fedex.info.szabc/apps/myprofile/loginandcontact/?locale=en_ca</li> 
+</ol> 
+<p>To tell the difference, locate the first forward slash after the&nbsp;https://:</p> 
+<ol> 
+ <li>https://www.fedex.com<strong>/</strong>apps/myprofile/loginandcontact/?locale=en_ca</li> 
+ <li>http://www.fedex.info.szabc<strong>/</strong>apps/myprofile/loginandcontact/?locale=en_ca</li> 
+</ol> 
+<p>The first link takes you to the real&nbsp;fedex.com&nbsp;site. The second just has fedex in the name.</p> 
+<p><strong>If you aren't sure about a link, type a link that you know is correct like&nbsp;my.ryerson.ca&nbsp;or fedex.com&nbsp;into the location bar of your browser instead of clicking.</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#44efcb2a-8bb4-4ec3-a332-7ddb5596b8d3");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1501184932272-what-about-g-suite-links-" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1501184932272-what-about-g-suite-links-" aria-controls="accordion-content-1501184932272-what-about-g-suite-links-" aria-expanded="false">
+                            What About G Suite Links?
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1501184932272-what-about-g-suite-links-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1501184932272-what-about-g-suite-links-">
+                    <div class="panel-body ">
+                        <div class="1501184932272 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="bf3eeef9-ea87-4231-a636-282ace9dfae2" >
+
+    <p>The Ryerson community makes extensive use of G Suite apps including Drive, Calendar, and Groups. The URLs for these applications can be very long but they all start with a host name that ends with&nbsp;<strong>.google.com</strong>:</p> 
+<ul> 
+ <li>https://drive<strong>.google.com/</strong></li> 
+ <li>https://docs<strong>.google.com/</strong></li> 
+ <li>https://calendar<strong>.google.com/</strong></li> 
+</ul> 
+<p>The host name always ends before the first forward slash with&nbsp;<strong>.google.com/</strong></p> 
+<p>Some attackers have used personal Google accounts and Google Forms to try to get people to "login" to a Google Form. This is relatively easy to spot because Google Forms don't look like Ryerson's or Google's login screens. Google has even added a warning at the bottom of every Google Form that says: "Never submit passwords through Google Forms."</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#bf3eeef9-ea87-4231-a636-282ace9dfae2");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1501184939008-report-a-phishing-email" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1501184939008-report-a-phishing-email" aria-controls="accordion-content-1501184939008-report-a-phishing-email" aria-expanded="false">
+                            Report a Phishing Email
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1501184939008-report-a-phishing-email" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1501184939008-report-a-phishing-email">
+                    <div class="panel-body ">
+                        <div class="1501184939008 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7015a483-4f3b-4ce4-b6ee-5a77eb774b5d" >
+
+    <ul> 
+ <li>Forward the email to&nbsp;<a href="mailto:spamrec@ryerson.ca">spamrec@ryerson.ca</a>; (If you know how to&nbsp;<a href="/content/ryerson/ccs/services/email_and_learning/email-spam-phishing.html#accordion-1505237556518-forward-a-message-with--full-headers-">forward the complete headers of the email</a>&nbsp;please include them.)<br> <br> </li> 
+ <li>Delete the email from your mailbox without clicking on any hyperlinks or attachments.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7015a483-4f3b-4ce4-b6ee-5a77eb774b5d");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1522337771446-what-to-check-if-your-account-has-been-compromised" role="tab" data-toggle="collapse" data-parent="#53895369-5827-40ab-99fa-44864d24e987" href="#accordion-content-1522337771446-what-to-check-if-your-account-has-been-compromised" aria-controls="accordion-content-1522337771446-what-to-check-if-your-account-has-been-compromised" aria-expanded="false">
+                            What to Check if Your Account has been Compromised
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1522337771446-what-to-check-if-your-account-has-been-compromised" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1522337771446-what-to-check-if-your-account-has-been-compromised">
+                    <div class="panel-body ">
+                        <div class="1522337771446 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="79fc1697-1cd2-4439-b436-4d559c4c3a6a" >
+
+    <p><strong>Gmail</strong></p> 
+<p>Click on the&nbsp;<strong>gear&nbsp;</strong>icon and select<strong>&nbsp;Settings&nbsp;</strong>&gt;&nbsp;<strong>Accounts. &nbsp;</strong>Verify that all information beside “Send mail as:” is correct.</p> 
+<p>Click on the&nbsp;<strong>gear&nbsp;</strong>icon and select<strong>&nbsp;Settings&nbsp;</strong>&gt;&nbsp;<strong>Forwarding and POP/IMAP</strong>. Check that your mail isn’t being forwarded to anywhere you don’t want it to be.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#79fc1697-1cd2-4439-b436-4d559c4c3a6a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				
+				</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'FAGNMPEMPNAJFAHCEKEBIAPLLEBHNOFLJKLELACAFNPBODILBAKKGDIAHOAAKMBHHONBOPMFAAELPHNCGFHAHHJFAALGGBBIHLPFKEPMGCOFFGLBMHFJJANOJMPEIBAP',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'OOOAGCFJBPNMOMGAOPJAGALBIMOLCMHEBGDEONCCMFACBNMPJAINJBEPFGCIAMEPPKOBAGLHAACGEHGPJOAAOLCIAACHMFLFFPNJFKJEMEGNBCHKFCFMDNJDNBLNOAFA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

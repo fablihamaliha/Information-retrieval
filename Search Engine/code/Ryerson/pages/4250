@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html lang="en-US" id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en-US" id="ie7" class="lt-ie9 lt-ie8 no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en-US" id="ie8" class="lt-ie9 no-js">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+
+	<title>Ryerson University Library -  Closed Stacks Request Form  | Ryerson University Library and Archives</title>
+	<meta charset="UTF-8">
+    <link href="//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library2012//js/jquery-1.5.2.min.js"></script>;
+	
+	
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style_ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv-printshiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/respond.min.js"></script>
+	<![endif]-->
+	
+			<link href="https://library.cf.ryerson.ca/forms/main.css" rel="stylesheet" type="text/css" />
+		
+		<!--[if IE]>
+			<style>
+			.item {
+			margin: 5px;
+			padding: 5px;
+			}
+			</style>
+		<![EndIf]-->
+		<style type="text/css">
+			em {
+				color:#AA0000;
+				font-weight:bold;	
+			}
+		</style>
+		
+		<script type="text/javascript">
+        </script>
+		
+		
+		<script language="javascript" type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library09/javascript/CalendarControl.js"></script>
+		<link href="https://library.cf.ryerson.ca/Templates/Library09/CalendarControl.css" rel="stylesheet" type="text/css" />
+		
+<script type="text/javascript">
+<!--
+    _CF_checksubmit_form = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head>
+
+<body class="left-sidebar two-column">
+<div id="page">
+	<header id="branding" role="banner">
+            <div id="sitename">
+                <div class="skip-link"><a class="assistive-text" href="#access">Skip to main menu</a></div>
+                <a href="http://library.ryerson.ca/"><img src="https://library.cf.ryerson.ca/Templates/Library2012/images/RULA_logo.png" alt="Ryerson University Library &amp; Archives" /></a>
+            </div> <!-- end div logo_images -->
+            <div id="askushead"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822&referrer=http%3A//library.ryerson.ca/info/contactus/&bId=16"><img src="http://library.ryerson.ca/wp-content/themes/rula/images/ask_us_libguides_sm.png" alt="Need Help? Ask Us"></a></div>
+ 			<div style="clear: both;"></div>
+
+<nav id="access" role="navigation">
+	<h3 class="assistive-text">Main menu</h3>
+	<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to content">Skip to content</a></div>
+	<div id="top-nav">
+		<ul id="top-nav-list">
+			<li id="menu-item-449" class="menu-item"><a title="Library Catalogue for Books, Media, Journals" href="http://catalogue.library.ryerson.ca/">Catalogue</a></li>
+			<li id="menu-item-448" class="menu-item"><a href="http://library.ryerson.ca/guides">Research Help</a></li>
+			<li id="menu-item-447" class="menu-item"><a title="Browse the list of Databases and Indexes" href="http://library.ryerson.ca/articles/">Articles</a></li>
+			<li id="menu-item-831" class="menu-item"><a title="List of Library Services" href="http://library.ryerson.ca/services/">Services</a></li>
+			<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About the Library" href="http://library.ryerson.ca/info/">About Us</a></li>
+			
+			<li id="menu-item-443" class="menu-item menu-item-has-children"><a title="Special and Digital Collections" href="http://library.ryerson.ca/collections/">Collections &#9660</a>
+				<ul class="sub-menu">
+					<li id="menu-item-20" class="menu-item"><a href="http://library.ryerson.ca/asc/">Archives and Special Collections</a></li>
+					<li id="menu-item-442" class="menu-item"><a title="GeoData Maps &amp; Statistics" href="http://library.ryerson.ca/gmdc">GeoData Maps &#038; Statistics</a></li>
+					<li id="menu-item-444" class="menu-item"><a title="Ryerson&#8217;s Institutional Repository" href="http://library.ryerson.ca/collections/digital-commons/">RULA Digital Repository</a></li>
+				</ul>
+			</li>
+			<li class="menu-item menu-item-search">
+				<!-- Search this Site Section -->
+				<form id="sitesearch" role="search" name="sitesearch" method="get" action="http://search.ryerson.ca/search"> 
+					<input type="hidden" name="site" value="Library" /> 
+					<input type="hidden" name="output" value="xml_no_dtd" /> 
+					<input type="hidden" name="client" value="default_frontend" />								
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<label for="sitesearchbox" class="assistive-text">Search the Library website</label>
+					<input type="search" id="sitesearchbox" name="q" maxlength="255" value="Search the Library Website" onClick="if(this.value=='Search the Library Website') {this.value='';}"/> 
+					<input type="image" src="http://library.ryerson.ca/wp-content/themes/rula/images/search_icon_small.png" alt="Submit Search"  /> 
+				</form> 
+			</li>
+			<li style="clear:both;border:0;"></li>
+		</ul>
+	<div style="clear:both;"></div>
+	</div>
+</nav><!-- #access -->
+			
+			
+	</header><!-- #branding -->
+<!--  End of: Main Navigation -->
+
+
+
+
+
+<div id="primary" class="">
+    
+         <div class="breadcrumbs"><a href="http://library.ryerson.ca">Home</a> &gt; <a href="http://catalogue.library.ryerson.ca/">Catalogue</a> &gt; Closed Stacks Request Form </div>
+        
+		<h1>Closed Stacks Request Form</h1>
+		
+			
+		
+		<p>
+			<form name="submit_form" id="submit_form" action="&#x2f;forms&#x2f;closed_request_form.cfm" method="post" onsubmit="return _CF_checksubmit_form(this)">
+			<br />
+			<strong>Contact Information:</strong> <br />
+			<br />
+			<table width="500px" border="1">
+				<tbody>
+				<tr>
+					<td align="right" width="50%"><font color="#FF0000">*</font> Name:</td>
+					<td><input type="text" size="30" name="Name"  /></td>
+				</tr>
+				<tr>
+					<td align="right">Library barcode:</td>
+					<td><input type="text" size="13" maxlength="13" name="ID"  /></td>
+				</tr>
+				<tr>
+					<td align="right">Telephone:</td>
+					<td><input type="text" size="30" maxlength="19" name="Phone"  /></td>
+				</tr>
+				<tr>
+					<td align="right"><font color="#FF0000">*</font> Email:</td>
+					<td><input type="text" size="30" name="Email"  /></td>
+		  		</tr>
+				</tbody>
+			</table>	
+			<br />
+			<strong>Request Information:</strong> <br />
+			<br />
+			<table width="500px" border="1">
+			<tbody>
+			  <tr>
+				<td align="right">Periodical Title :</td>
+				<td><input type="text" size="20" name="periodTitle"  /></td>
+			  </tr>
+			  <tr>
+				<td align="right">Call Number :</td>
+				<td><input type="text" size="20" name="callnum"  /></td>
+			  </tr>
+			  <tr>
+				<td align="right">Volume :</td>
+				<td>Month: <input type="text" size="5" name="vol_mon"  /> &nbsp;&nbsp;
+					No: <input type="text" size="2" name="vol_no"  />&nbsp;&nbsp;
+					Year: <input type="text" size="4" name="vol_year"  /></td>
+			  </tr>
+			  <tr>
+				<td align="right">Pickup Date: </td>
+				<td><input size="10" name="pickupDate" onFocus="showCalendarControl(this);"  /></td>
+			  </tr>
+			  <tr>
+				<td align="right">Pickup Time: </td>
+				<td>
+					<select name="pickupTime">
+						
+							<option value="0.333333333332"  >
+								08:00 AM
+							</option>
+						
+							<option value="0.354166666665"  >
+								08:30 AM
+							</option>
+						
+							<option value="0.374999999999"  >
+								09:00 AM
+							</option>
+						
+							<option value="0.395833333332"  >
+								09:30 AM
+							</option>
+						
+							<option value="0.416666666665"  >
+								10:00 AM
+							</option>
+						
+							<option value="0.437499999999"  >
+								10:30 AM
+							</option>
+						
+							<option value="0.458333333332"  >
+								11:00 AM
+							</option>
+						
+							<option value="0.479166666665"  >
+								11:30 AM
+							</option>
+						
+							<option value="0.499999999999"  >
+								12:00 PM
+							</option>
+						
+							<option value="0.520833333332"  >
+								12:30 PM
+							</option>
+						
+							<option value="0.541666666665"  >
+								01:00 PM
+							</option>
+						
+							<option value="0.562499999999"  >
+								01:30 PM
+							</option>
+						
+							<option value="0.583333333332"  >
+								02:00 PM
+							</option>
+						
+							<option value="0.604166666665"  >
+								02:30 PM
+							</option>
+						
+							<option value="0.624999999999"  >
+								03:00 PM
+							</option>
+						
+							<option value="0.645833333332"  >
+								03:30 PM
+							</option>
+						
+							<option value="0.666666666665"  >
+								04:00 PM
+							</option>
+						
+							<option value="0.687499999999"  >
+								04:30 PM
+							</option>
+						
+							<option value="0.708333333332"  >
+								05:00 PM
+							</option>
+						
+							<option value="0.729166666665"  >
+								05:30 PM
+							</option>
+						
+							<option value="0.749999999999"  >
+								06:00 PM
+							</option>
+						
+							<option value="0.770833333332"  >
+								06:30 PM
+							</option>
+						
+							<option value="0.791666666665"  >
+								07:00 PM
+							</option>
+						
+							<option value="0.812499999999"  >
+								07:30 PM
+							</option>
+						
+							<option value="0.833333333332"  >
+								08:00 PM
+							</option>
+						
+							<option value="0.854166666665"  >
+								08:30 PM
+							</option>
+						
+							<option value="0.874999999999"  >
+								09:00 PM
+							</option>
+						
+							<option value="0.895833333332"  >
+								09:30 PM
+							</option>
+						
+							<option value="0.916666666665"  >
+								10:00 PM
+							</option>
+						
+					</select>
+				</td>
+			  </tr>
+			</tbody>
+			</table>
+			<br />
+			  <strong>Additional Notes:</strong> <br />
+			  <br />
+			<table width="500px" border="1">
+			<tbody>
+			  <tr>
+				<td><textarea rows="6" name="Notes" cols="50"></textarea></td>
+			  </tr>
+			</tbody>
+			</table>
+			
+				
+			<p>
+				<strong><font color="#FF0000">*</font> Enter text as it is displayed in the image below</strong> <br />
+				
+				<script src='https://www.google.com/recaptcha/api.js'></script>
+				<div class="g-recaptcha" data-sitekey="6Ld9qEwUAAAAAPTHSrinYnmJWYuPsCWUou0ZbqQs"></div> 
+			</p>
+			
+			<br />
+			<br />
+			<input name="submit_form" id="submit_form"  type="submit" value="Submit" />
+			or
+			<input name="Clear" id="Clear"  type="reset" value="Clear the Form" /> </form>
+			
+			</p>
+           </td>
+        </tr>
+      </table>
+	
+		
+</div>  
+
+
+    <div id="secondary">
+            
+			<h3 class="navhead">Library Locations</h3>
+		    <ul class="navlist">
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/6th/">6th Floor </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/7th/">7th Floor </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/8th/">8th Floor </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/9th/">9th Floor </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/10th/">10th Floor </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/archives/">Archives</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/atlases/">Atlases</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/av/">Audio-Visual</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/closed/">Closed Stacks</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/fashion-resources/">Fashion Resources Collection</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/gmdc/">Geospatial Map &amp; Data Centre</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/maps/">Maps</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/microforms/">Microforms</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/news/">Newspapers</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/oversize/">Oversize</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/periodicals/">Periodicals</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/popular/">Popular Reading Collection</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/quickshare/">Quickshare</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/rare/">Rare Books</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/refdesk/">Reference Desk</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/ref/">Reference</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/reserve/">Reserve</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/sp1/">Special Collections</a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/statcan/">Statistics Canada </a></li>
+		    	<li class="navitem"><a href="http://library.ryerson.ca/locations/wc/">Writing Centre</a></li>
+		    	
+		    	
+			</ul> 
+		
+    </div>
+    
+       
+  		<footer id="colophon" role="contentinfo">
+            <div id="footer"> 		
+				<p> 
+					<a href="http://library.ryerson.ca">Home</a> | <a href="/info/accessibility" data-ga-event="Footer,Link,Accessibility">Accessibility </a> | <a href="/contactus" data-ga-event="Footer,Link,Contactus">Contact Us</a> | <a href="http://library.ryerson.ca/copyright" data-ga-event="Footer,Link,Copyright">Copyright</a> | <a href="/siteindex">Site Index</a> |  
+                    <a href="http://www.facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371?ref=mf" data-ga-event="Footer,SocialMedia,Facebook"><img src="//library.ryerson.ca/wp-content/themes/rula/images/facebook_icon.gif" alt="Facebook" title="Facebook" /></a> 
+                    <a href="http://www.twitter.com/ryersonlibrary" data-ga-event="Footer,SocialMedia,Twitter"><img src="//library.ryerson.ca/wp-content/themes/rula/images/twitter_icon.png" alt="Twitter" width="16" height="16" /></a> 
+                    <a href="http://www.flickr.com/photos/ryersonlibrary" data-ga-event="Footer,SocialMedia,Flickr"><img src="//library.ryerson.ca/wp-content/themes/rula/images/flickr_icon.gif" alt="Flickr" width="16" height="16" /></a> 
+                    <a href="http://www.youtube.com/user/ryersonlibrary/videos" data-ga-event="Footer,SocialMedia,Youtube"><img src="//library.ryerson.ca/wp-content/themes/rula/images/youtube_icon.png" alt="YouTube" width="16" height="16" /></a>
+                    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=46e7ea505e28c621582d37a391b705d6&_render=rss" data-ga-event="Footer,SocialMedia,RSS"><img src="//library.ryerson.ca/wp-content/themes/rula/images/feed_icon.png" alt="RSS Feed" width="16" height="16" /></a> | 
+                                    &copy;2015 <a href="http://www.ryerson.ca/" data-ga-event="Footer,SocialMedia,RU"><img src="//library.ryerson.ca/wp-content/themes/rula/images/RUfooter_logo.gif" alt="Ryerson University" width="114" height="20" /></a>
+				</p> 
+			</div>
+    </footer> 
+	</div><!-- page -->
+
+	<script type="text/javascript"> 
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+        var pageTracker = _gat._getTracker("UA-890753-3");
+        pageTracker._trackPageview();
+    </script>
+
+
+</body>
+</html>

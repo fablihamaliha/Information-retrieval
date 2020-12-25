@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1" />
+    <meta name="title" content="Kodak Canada Corporate Archives and Heritage Collection - Archives &amp;amp; Special Collections" />
+<meta name="description" content="The Kodak Canada collection contains records and artifacts from the Kodak Heights manufacturing facility in Toronto, as well as the historical coll..." />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Kodak Canada Corporate Archives and Heritage Collection - Archives &amp;amp; Special Collections</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link href="/vendor/imageflow/imageflow.packed.css" media="screen" rel="stylesheet" type="text/css" />
+<link media="all" href="/plugins/rulaArchivesPlugin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/css/fullWidthTreeView.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/vendor/jstree/themes/default/style.min.css" media="screen" rel="stylesheet" type="text/css" />
+            <script src="/vendor/jquery.js" type="text/javascript"></script>
+<script src="/plugins/sfDrupalPlugin/vendor/drupal/misc/drupal.js" type="text/javascript"></script>
+<script src="/vendor/yui/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="/vendor/yui/element/element-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/button/button-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/container/container_core-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/menu/menu-min.js" type="text/javascript"></script>
+<script src="/vendor/modernizr.js" type="text/javascript"></script>
+<script src="/vendor/jquery-ui.js" type="text/javascript"></script>
+<script src="/vendor/jquery.ui.resizable.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery.expander.js" type="text/javascript"></script>
+<script src="/vendor/jquery.masonry.js" type="text/javascript"></script>
+<script src="/vendor/jquery.imagesloaded.js" type="text/javascript"></script>
+<script src="/vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<script src="/vendor/URI.js" type="text/javascript"></script>
+<script src="/vendor/meetselva/attrchange.js" type="text/javascript"></script>
+<script src="/js/qubit.js" type="text/javascript"></script>
+<script src="/js/treeView.js" type="text/javascript"></script>
+<script src="/js/clipboard.js" type="text/javascript"></script>
+<script src="/vendor/imageflow/imageflow.packed.js" type="text/javascript"></script>
+<script src="/js/blank.js" type="text/javascript"></script>
+<script src="/js/imageflow.js" type="text/javascript"></script>
+<script src="/js/treeviewTypes.js" type="text/javascript"></script>
+<script src="/js/pager.js" type="text/javascript"></script>
+<script src="/js/treeViewPager.js" type="text/javascript"></script>
+<script src="/js/fullWidthTreeView.js" type="text/javascript"></script>
+<script src="/vendor/jstree/jstree.min.js" type="text/javascript"></script>
+<script src="/js/dominion.js" type="text/javascript"></script>
+  <script type="text/javascript">
+//<![CDATA[
+jQuery.extend(Qubit, {"relativeUrlRoot":""});
+//]]>
+</script></head>
+  <body class="yui-skin-sam sfRadPlugin index">
+
+    
+
+
+<header id="top-bar">
+
+    <a id="logo" rel="home" href="https://library.ryerson.ca" title=""><img alt="Ryerson University Library" src="/plugins/rulaArchivesPlugin/images/logo.png" /></a>  
+      <h1 id="site-name" class="hidden-tablet hidden-phone">
+      <a rel="home" title="Home" href="/index.php/"><span>Archives &amp; Special Collections</span></a>    </h1>
+  
+  <nav>
+
+    
+  <div id="user-menu">
+    <button class="top-item top-dropdown" data-toggle="dropdown" data-target="#"
+      aria-expanded="false">
+        Log in    </button>
+
+    <div class="top-dropdown-container">
+
+      <div class="top-dropdown-arrow">
+        <div class="arrow"></div>
+      </div>
+
+      <div class="top-dropdown-header">
+        <h2>Have an account?</h2>
+      </div>
+
+      <div class="top-dropdown-body">
+
+        <form action="/index.php/user/login" method="post">
+          <input type="hidden" name="next" value="https://archives.library.ryerson.ca/index.php/kodak-canada-corporate-archives-and-heritage-collection" id="next" />
+          <div class="form-item form-item-email">
+  <label for="email">Email <span class="form-required" title="This field is required.">*</span></label>
+  <input type="text" name="email" id="email" />
+  
+</div>
+
+          <div class="form-item form-item-password">
+  <label for="password">Password <span class="form-required" title="This field is required.">*</span></label>
+  <input type="password" name="password" autocomplete="off" id="password" />
+  
+</div>
+
+          <button type="submit">Log in</button>
+
+        </form>
+
+      </div>
+
+      <div class="top-dropdown-bottom"></div>
+
+    </div>
+  </div>
+
+
+    
+          <div id="language-menu" data-toggle="tooltip" data-title="Language">
+
+  <button class="top-item" data-toggle="dropdown" data-target="#" aria-expanded="false">Language</button>
+
+  <div class="top-dropdown-container">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Language</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+                  <li class="active">
+            <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection;rad?sf_culture=en" title="English">English</a>          </li>
+                  <li>
+            <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection;rad?sf_culture=fr" title="français">français</a>          </li>
+                  <li>
+            <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection;rad?sf_culture=es" title="español">español</a>          </li>
+                  <li>
+            <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection;rad?sf_culture=nl" title="Nederlands">Nederlands</a>          </li>
+                  <li>
+            <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection;rad?sf_culture=pt" title="português">português</a>          </li>
+              </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    
+    
+    
+  </nav>
+
+  
+</header>
+
+
+<div id="search-bar" class="container">
+  <div class="row">
+    <div class="span2">
+      <div id="browse-menu">
+
+  <button class="top-dropdown" data-toggle="dropdown" data-target="#" aria-expanded="false">Browse</button>
+
+  <div class="top-dropdown-container top-dropdown-container-right">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Browse</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+        <li class="active leaf" id="node_browseInformationObjects"><a href="/index.php/informationobject/browse" title="Archival descriptions">Archival descriptions</a></li><li class="leaf" id="node_browseActors"><a href="/index.php/actor/browse" title="Authority records">Authority records</a></li><li class="leaf" id="node_browseRepositories"><a href="/index.php/repository/browse" title="Archival institutions">Archival institutions</a></li><li class="leaf" id="node_browseFunctions"><a href="/index.php/function/browse" title="Functions">Functions</a></li><li class="leaf" id="node_browseSubjects"><a href="/index.php/taxonomy/index/id/35" title="Subjects">Subjects</a></li><li class="leaf" id="node_browsePlaces"><a href="/index.php/taxonomy/index/id/42" title="Places">Places</a></li><li class="leaf" id="node_browseDigitalObjects"><a href="/index.php/informationobject/browse?view=card&amp;onlyMedia=1&amp;topLod=0" title="Digital objects">Digital objects</a></li>      </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    </div>
+    <div class="span10">
+      <div id="search-form-wrapper" role="search">
+
+  <h2>Search</h2>
+
+  <form action="/index.php/informationobject/browse" data-autocomplete="/index.php/search/autocomplete" autocomplete="off">
+
+    <input type="hidden" name="topLod" value="0"/>
+    <input type="hidden" name="sort" value="relevance"/>
+
+          <input type="text" name="query" value="" placeholder="Search Special Collections"/>
+    
+    <button><span>Search</span></button>
+
+    <div id="search-realm" class="search-popover">
+
+      
+    </div>
+
+  </form>
+    <div class="search-realm-advanced">
+    <a href="/index.php/informationobject/browse?showAdvanced=1&topLod=0">
+      Advanced search&nbsp;&raquo;
+    </a>
+  </div>
+
+</div>
+    </div>
+  </div>
+</div>
+
+    
+    <div id="wrapper" class="container" role="main">
+
+      
+        
+      <div class="row">
+
+        <div class="span3">
+
+          <div id="sidebar">
+
+                
+<div class="repository-logo">
+  <a href="/index.php/special-collections">
+          <img alt="Go to Special Collections" src="/uploads/r/special-collections/conf/logo.png" />      </a>
+</div>
+
+<ul id="treeview-menu" class="nav nav-tabs">
+    <li class="active">
+    <a href="#treeview-search" data-toggle="#treeview-search">
+      Quick search    </a>
+  </li>
+</ul>
+
+<div id="treeview" data-current-id="2847" data-sortable="false">
+
+  
+    <input type="button" id="fullwidth-treeview-reset-button" class="c-btn c-btn-submit" value="Reset" />
+    <input type="button" id="fullwidth-treeview-more-button" class="c-btn c-btn-submit" data-label="%1% more" value="" />
+    <span id="fullwidth-treeview-collection-url" data-collection-url="/index.php/kodak-canada-corporate-archives-and-heritage-collection"></span>
+
+  
+</div>
+
+<div id="treeview-search" class="force-show">
+
+  <form method="get" action="/index.php/search?collection=2847" data-not-found="No results found.">
+    <div class="search-box">
+      <input type="text" name="query" placeholder="Search" />
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+  </form>
+
+</div>
+
+
+          </div>
+
+        </div>
+
+        <div class="span9">
+
+          <div id="main-column">
+
+            
+  <h1>Fonds SC 2005.001 - Kodak Canada Corporate Archives and Heritage Collection</h1>
+
+  
+  
+  
+
+            <div class="row">
+
+              <div class="span7">
+
+                
+  
+<div class="section" id="coverflow">
+
+  <div class="imageflow clearfix" id="imageflow">
+          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="All out-doors invites your Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Tor..." src="/uploads/r/special-collections/f/2/d/f2de07fc6dd5d17694dcb943ffc6dc7b4edb026201ea3d43edb75d0d000f7e2b/2005_142.jpg" />          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="All out-doors invites your Kodak : Autographic Kodaks at your dealer's - $6.50 up / Canadian Koda..." src="/uploads/r/special-collections/1/9/0/190524b1312ff37aa11191bf9ee35dc7a4a171febdaf88778c8ca19ceeba3820/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="Take a Kodak with you : Autographic Kodaks at your dealer's $6.50 up / Canadian Kodak Co., Limite..." src="/uploads/r/special-collections/5/b/f/5bf4847061189eefe92d64025abfcad9d7353855c4eb08d5e16d5e097746805a/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada-2" alt="Take a Kodak with you : Autographic Kodaks at your dealer's $6.50 up / Canadian Kodak Co., Limite..." src="/uploads/r/special-collections/3/b/f/3bfc527cec1b89272bba8fe0b56a80b45a36f01cf79da5f4e5cbff5e6077931f/2005_142.jpg" />          <img longdesc="/index.php/apportez-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-canada" alt="Apportez votre Kodak : Kodaks Autographiques de $6.50 en montant. / Canadian Kodak Co., Limited, ..." src="/uploads/r/special-collections/0/9/6/096b8be55721058fddb8429c2546f1b48afc34f431d0d0f6a2dcb5e46f7aeca2/2005_142.jpg" />          <img longdesc="/index.php/lheure-de-recreation-est-lheure-de-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-company-limited-toronto-canada" alt="L'heure de récréation est l'heure de votre Kodak : Kodaks autographiques de $6.50 en montant. / C..." src="/uploads/r/special-collections/4/4/8/4481ad7237befa18707896103417724177bb92b18e8c942700318829e63bf0f8/2005_142.jpg" />          <img longdesc="/index.php/apportez-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-canada-2" alt="Apportez votre Kodak : Kodaks Autographiques de $6.50 en montant. / Canadian Kodak Co., Limited, ..." src="/uploads/r/special-collections/5/c/5/5c57b167b49feed3a4e39a6ae087e7bd723078fe20b03f4927fc0bd9ca2e4a94/2005_142.jpg" />          <img longdesc="/index.php/laissez-suivre-votre-kodak-canadian-kodak-company-limited-toronto" alt="Laissez suivre votre Kodak / Canadian Kodak Company, Limited, Toronto" src="/uploads/r/special-collections/e/7/6/e7693eb94f73de2e476afbf18810b307619aa2b4e6e9e5f85b6213529ad11dc4/2005_142.jpg" />          <img longdesc="/index.php/les-records-de-votre-kodak-rappelent-vos-jours-de-vacances-kodaks-autographiques-de-6-50-en-montant-chez-le-distributeur-canadian-kodak-co-limited-toronto" alt="Les records de votre Kodak rappelent vos jours de vacances : Kodaks Autographiques de $6.50 en mo..." src="/uploads/r/special-collections/7/e/0/7e0858ba83a11f2e623a845947edfa6b314d9f19176ef90fd9d41ada5b96086e/2005_142.jpg" />          <img longdesc="/index.php/kodak-brings-your-vacation-back-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Kodak brings your vacation back : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak C..." src="/uploads/r/special-collections/5/0/2/50254ddf45d4ab5cdf0a90b4ad6408f88812e9e9a541be82f1222838e010ac71/2005_142.jpg" />          <img longdesc="/index.php/kodak-brings-your-vacation-back-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-2" alt="Kodak brings your vacation back : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak C..." src="/uploads/r/special-collections/7/2/b/72b7541f51ce224616eb4b40bb35c9e864d724ee8cff76bf915d47ce5766694d/2005_142.jpg" />          <img longdesc="/index.php/lheure-de-recreation-est-lheure-de-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-company-limited-toronto" alt="L'heure de récréation est l'heure de votre KODAK : Kodaks autographiques de $6.50 en montant. / C..." src="/uploads/r/special-collections/c/0/9/c094aabd54e0864a0066917527de6f296dd6fd48305ec5256e86557f157890a1/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/1/e/1/1e1cadcec0f36b607e44f5d6dbb9ba43cec143495fc46dfc13e3bc073108a975/2005_142.jpg" />          <img longdesc="/index.php/seul-votre-kodak-peut-garder-fidelement-les-souvenirs-de-noel-et-du-jour-de-lan-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto" alt="Seul votre Kodak peut garder fidèlement les souvenirs de Noël et du Jour de l'an : Kodaks Autogra..." src="/uploads/r/special-collections/9/b/e/9be75a1f8056be757b48a6b1504a1b1c8849bae065b790929b59e259e6fa283f/2005_142.jpg" />          <img longdesc="/index.php/seul-votre-kodak-peut-garder-fidelement-les-souvenirs-de-noel-et-du-jour-de-lan-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-2" alt="Seul votre Kodak peut garder fidèlement les souvenirs de Noël et du Jour de l'an : Kodaks Autogra..." src="/uploads/r/special-collections/6/8/5/685beea3f6d2bd331e0326d82a38bd576a276a13b0a4009c7d8426289ee58523/2005_142.jpg" />          <img longdesc="/index.php/kodak-kodaks-autographiques-de-9-00-en-montant-chez-le-distributeur-kodak-canadian-kodak-co-limited-toronto-canada" alt="KODAK : Kodaks autographiques de $9.00 en montant. Chez le distributeur Kodak / Canadian Kodak Co..." src="/uploads/r/special-collections/2/e/9/2e91621d6b1131951a2e8742ab06cbad47ae8a59969d290679f0b16dbf2a763e/2005_142.jpg" />          <img longdesc="/index.php/les-kodaks-juniors-15-00-27-00-suivant-la-grandeur-chez-le-distributeur-kodak-canadian-kodak-co-limited-toronto-canada" alt="Les KODAKS Juniors $15.00 à $27.00 Suivant la grandeur : Chez le distributeur Kodak / Canadian Ko..." src="/uploads/r/special-collections/f/c/b/fcbab4b85509c667e47ba548518260c1e59c0655aefac9d58adb544abb6337a2/2005_142.jpg" />          <img longdesc="/index.php/objectif-anastigmat-kodak-f-7-7-et-le-kodak-junior-autographique-no-2c-un-camera-superieur-equippe-dun-objectif-superieur-23-00-canadian-kodak-co-limited-toronto-canada" alt="Objectif Anastigmat Kodak f.7.7 et le Kodak Junior Autographique No. 2C : Un caméra supérieur équ..." src="/uploads/r/special-collections/8/4/1/84119b35d1d951113205cb2f6859f9f8c428d6dec1203687b638e3df23b49895/2005_142.jpg" />          <img longdesc="/index.php/les-jours-dhiver-accueillent-votre-kodak-kodaks-autographiques-chez-le-distributeur-pres-de-vous-canadian-kodak-co-limited-toronto-canada" alt="Les jours d'hiver accueillent votre Kodak : Kodaks Autographiques chez le distributeur près de vo..." src="/uploads/r/special-collections/7/8/1/78171ce71e9a80a0a84cefc72ddb103832fb49e139310a480c8d7683253ec1e5/2005_142.jpg" />          <img longdesc="/index.php/brownie-no-2a-portraits-2-1-2-x-4-1-4-prix-3-50-canadian-kodak-co-limited-toronto-canada" alt="Brownie No. 2A : Portraits 2 1/2 x 4 1/4 Prix $3.50 / Canadian Kodak Co., Limited - Toronto, Canada" src="/uploads/r/special-collections/a/d/c/adcb6cf50eecbb531b08eb203e826904cf422885333b575c942530ca43012132/2005_142.jpg" />          <img longdesc="/index.php/en-partant-pour-le-college-vous-aimerez-sans-doute-une-photographie-prise-avec-votre-kodak-kodaks-autographiques-de-6-50-en-montant-chez-distributeur-kodak-pres-vous-canadian-kodak-co-limited-toronto" alt="En partant pour le collège vous aimerez sans doute une photographie prise avec votre Kodak : Koda..." src="/uploads/r/special-collections/7/a/6/7a66af1e27560266ba2f71166501be1c677e0344950d7720ef9d9b9ae3b87418/2005_142.jpg" />          <img longdesc="/index.php/un-coup-de-kodak-en-passant-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto" alt="Un coup de Kodak en passant : Kodaks Autographiques de $6.50 en montant. / Canadian Kodak Co., Li..." src="/uploads/r/special-collections/b/b/6/bb6c7585a0608ab1eb65e87a404070f123d2fd56b0bdc821c41312f3026debcd/2005_142.jpg" />          <img longdesc="/index.php/votre-kodak-racontera-mieux-lhistoire-kodaks-autographiques-de-6-50-en-montant-chez-le-distributeur-canadian-kodak-co-limited-toronto" alt="Votre Kodak racontera mieux l'histoire : Kodaks Autographiques de $6.50 en montant chez le distri..." src="/uploads/r/special-collections/d/a/b/dab6a6b370560b1c187f640f0c12111f54bcf3d7f547773290b294bdff6ec04b/2005_142.jpg" />          <img longdesc="/index.php/seul-votre-kodak-peut-garder-fidelement-les-souvenirs-de-noel-et-du-jour-de-lan-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-3" alt="Seul votre Kodak peut garder fidèlement les souvenirs de Noël et du Jour de l'an : Kodaks Autogra..." src="/uploads/r/special-collections/0/1/2/012afa8909cbb9177178c5e03a90ed5f26862b6748bed2807385579bddade77c/2005_142.jpg" />          <img longdesc="/index.php/keep-story-of-children-with-autographic-kodak-autographic-kodaks-9-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Keep the story of the children with an Autographic Kodak : Autographic Kodaks $9 up, at your deal..." src="/uploads/r/special-collections/d/1/9/d197f30072e96e351924d7efa59f3048ada2023ee3599133cccc9aea04ce467d/2005_142.jpg" />          <img longdesc="/index.php/junior-kodaks-15-to-27-according-to-size-and-style-every-essential-for-good-picture-making-nothing-else-canadian-kodak-co-limited-toronto-canada" alt="The Junior Kodaks $15 to $27 according to size and style : Every essential for good picture-makin..." src="/uploads/r/special-collections/4/f/e/4fe27bcc9a4f4b4d3fbbdbc772e186c3ddc85b91c67c68f423e11d9deda8111e/2005_142.jpg" />          <img longdesc="/index.php/kodak-anastigmat-f-7-7-and-no-2c-autographic-kodak-jr-superior-camera-equipped-with-superior-lens-canadian-kodak-co-limited-toronto-canada" alt="Kodak Anastigmat f.7.7 and the No. 2C Autographic Kodak, Jr. : A superior camera equipped with a ..." src="/uploads/r/special-collections/6/8/3/683c10004e11026cd9a194aa579898bcf102b72ab4a8c18455bb181bacce7621/2005_142.jpg" />          <img longdesc="/index.php/winter-days-invite-your-kodak-canadian-kodak-co-limited-toronto-canada" alt="Winter days invite your Kodak / Canadian Kodak Co., Limited, Toronto, Canada" src="/uploads/r/special-collections/5/1/c/51ce31ae2e96f29cde92b234ea208573b6aef689f96114e3375ab417ae221ae9/2005_142.jpg" />          <img longdesc="/index.php/graflex-ask-for-1922-graflex-catalog-free-from-us-or-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Graflex : Ask for the 1922 Graflex catalog--free from us or at your dealer's / Canadian Kodak Co...." src="/uploads/r/special-collections/5/d/d/5dd528a1b39f3d3a6b577f4c89be6d7e8f6f8e115dca38574cd0607fca95262b/2005_142.jpg" />          <img longdesc="/index.php/let-your-kodak-catch-picture-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada" alt="Let your Kodak catch the picture : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Tor..." src="/uploads/r/special-collections/4/4/b/44b3a166828037021e8e1bae05620f9ef6866eace0c98286cdaa69b6e117a947/2005_142.jpg" />          <img longdesc="/index.php/no-2a-brownie-pictures-2-1-2-x-4-1-4-inches-price-3-50-at-kodak-dealers-canadian-kodak-co-limited-toronto-canada" alt="The No. 2A Brownie - Pictures--2 1/2 x 4 1/4 inches - price--$3.50 : At Kodak dealers' / Canadian..." src="/uploads/r/special-collections/9/e/2/9e22c5fff27e5691ffb55722d2b71fc4dc55523d582ab5cfd137d6b72ff5c828/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada" alt="Keep the story with a Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/e/d/b/edb894d077be4621ea9d39e83f8ce470d8c1aafa7bd2ed21686fbbf806f3917e/2005_142.jpg" />          <img longdesc="/index.php/no-1a-autographic-kodak-jr-at-all-dealers-canadian-kodak-co-limited-toronto-canada" alt="No. 1A Autographic Kodak, Jr. : At all dealers' / Canadian Kodak Co., Limited, Toronto, Canada" src="/uploads/r/special-collections/3/d/7/3d723d1acd169237f89d5c74c4e5af1860100bfefebf9e745394ced7d74118f2/2005_142.jpg" />          <img longdesc="/index.php/graflex-graflex-catalog-free-by-mail-or-at-kodak-dealers-canadian-kodak-co-limited-toronto-canada" alt="Graflex : Graflex catalog free by mail or at Kodak dealers'. / Canadian Kodak Co., Limited, Toron..." src="/uploads/r/special-collections/a/1/2/a12a415994ed35b89aae25e27b1b461cd4e1be6dee1165cfdaf95257bd1a0e29/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="Take a Kodak with you : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto, Canada" src="/uploads/r/special-collections/4/9/8/498fdbb4b3e50d8135038e002aaecd4e04f33919f4ff96c7e06da49dc5118fc6/2005_142.jpg" />          <img longdesc="/index.php/graflex-graflex-catalog-by-mail-or-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Graflex : Graflex catalog by mail or at your dealer's / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/c/7/1/c715f37a8171bde43560c1c64d4e78f790e845056f0313d53dceceec77d438e7/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-kodak-film-in-yellow-box-over-counter-all-over-world-canadian-kodak-co-limited-toronto-canada" alt="Take a Kodak with you : Kodak film in the yellow box, over the counter all over the world. / Cana..." src="/uploads/r/special-collections/c/7/1/c715f37a8171bde43560c1c64d4e78f790e845056f0313d53dceceec77d438e7/2005_142.jpg" />          <img longdesc="/index.php/kodak-brings-your-vacation-back-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-3" alt="Kodak brings your vacation back : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak C..." src="/uploads/r/special-collections/6/7/2/67256764cecf3210a7fecc1d7072aeffbb28f59a59cda9c395749e72dd4f5127/2005_142.jpg" />          <img longdesc="/index.php/graflex-1922-graflex-catalogue-free-from-us-or-your-dealer-canadian-kodak-co-limited-toronto-canada" alt="Graflex : The 1922 Graflex catalogue--free from us or your dealer. / Canadian Kodak Co., Limited,..." src="/uploads/r/special-collections/6/5/6/656c05e933e3d521e43808305440c7c58c0ed8cac1ec37151cf097f9aa213e64/2005_142.jpg" />          <img longdesc="/index.php/kodak-as-you-go-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto" alt="Kodak as you go : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/8/2/2/822186f22a3883ab6619f65db7cff499623fbce89810f24d8ec84e630ca1ffe0/2005_142.jpg" />          <img longdesc="/index.php/let-kodak-tell-story-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Let Kodak tell the story : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co., Lim..." src="/uploads/r/special-collections/7/1/2/71293acbf336df79a70d858295ec99aa5312a8f119a15d0efb93b6cba157ad7f/2005_142.jpg" />          <img longdesc="/index.php/no-1-autographic-kodak-special-50-at-your-dealers-canadian-kodak-co-limited-toronto" alt="No. 1 Autographic Kodak Special : $50--at your dealer's / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/e/e/e/eee929ef6042a3de827cb634db212d2f63a3e589330764e64eedf3158e9ecb8b/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-2" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/1/b/7/1b75404bf718c9c50e2d470f8b5e58c059d68cbbd44a2dc4e608ffa36700fec1/2005_142.jpg" />          <img longdesc="/index.php/no-1-autographic-kodak-special-pictures-2-1-4-x-3-1-4-price-50-see-this-special-at-your-dealers-canadian-kodak-co-limited-toronto" alt="No. 1 Autographic Kodak, Special - Pictures 2 1/4 x 3 1/4 - Price $50 : See this Special at your ..." src="/uploads/r/special-collections/5/b/a/5ba2b5abd9ce0bacaecc0b95bcbcc88d538ce90d09cc17514cf99f0a5496be39/2005_142.jpg" />          <img longdesc="/index.php/junior-kodaks-15-to-27-according-to-size-and-style-every-essential-for-good-picture-making-nothing-else-canadian-kodak-co-limited-toronto-canada-2" alt="The Junior Kodaks $15 to $27 according to size and style : Every essential for good picture-makin..." src="/uploads/r/special-collections/d/d/0/dd0d2d54896b23c11f4ee191036bd086be1f6b60821b3085cf6d56c10f1ec3f7/2005_142.jpg" />          <img longdesc="/index.php/winter-days-invite-your-kodak-autographic-kodaks-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Winter days invite your Kodak : Autographic Kodaks at your dealer's / Canadian Kodak Co., Limited..." src="/uploads/r/special-collections/1/3/d/13da9694a7115ebc40a3320c2b1bba3bc67667909f82f8949d35c8a2b9bd92e7/2005_142.jpg" />          <img longdesc="/index.php/no-3a-autographic-kodak-with-kodak-anastigmat-lens-f-7-7-pictures-3-1-4-x-5-1-2-inches-price-27-50-canadian-kodak-co-limited-toronto-canada" alt="No. 3A Autographic Kodak with Kodak Anastigmat lens f.7.7 : Pictures-- 3 1/4 x 5 1/2 inches Price..." src="/uploads/r/special-collections/d/c/5/dc55462fb7ff4811d828464cd61ef3daca511fcb02e67778ddc1c82413f794df/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-2" alt="Keep the story with a Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/c/d/6/cd624bfb2a4b7fc739ee4dc25dd1d92f55cea8a2acb3f5a99aff53b1d5b796d9/2005_142.jpg" />          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada" alt="All out-doors invites your Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Tor..." src="/uploads/r/special-collections/f/4/1/f4110f5fe5be5a63f7912480f2ab89629bcde3a235c7f322bf32e7ae8a75656f/2005_142.jpg" />          <img longdesc="/index.php/no-1a-autographic-kodak-jr-at-all-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="No. 1A Autographic Kodak, Jr. : At all dealers' / Canadian Kodak Co., Limited, Toronto, Canada" src="/uploads/r/special-collections/d/5/a/d5aad98eaf36b7f103ca3cf737bf130df25023c1d36ad432bf15b3c49559b194/2005_142.jpg" />          <img longdesc="/index.php/for-childrens-vacation-brownie-brownie-cameras-2-00-and-up-at-kodak-dealers-canadian-kodak-co-limited-toronto-canada" alt="For the children's vacation, a Brownie : Brownie cameras $2.00 and up, at Kodak dealers'. / Canad..." src="/uploads/r/special-collections/8/b/2/8b2234c9764570d4b52e9857bb33530278ac01efa427d7aa287c822ee3867bf0/2005_142.jpg" />          <img longdesc="/index.php/no-2c-autographic-kodak-junior-with-kodak-anastigmat-lens-f-7-7-canadian-kodak-co-limited-toronto-canada" alt="No. 2C Autographic Kodak Junior with Kodak Anastigmat lens f.7.7 : Canadian Kodak Co., Limited, T..." src="/uploads/r/special-collections/1/3/a/13a1bc83b8a496556329bdb6c4ddd884d31c806570e34da84b13c39bc7bd9940/2005_142.jpg" />          <img longdesc="/index.php/kodak-brings-your-vacation-back-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-4" alt="Kodak brings your vacation back : Autographic Kodaks $6.50 up / At your dealer's / Canadian Kodak..." src="/uploads/r/special-collections/6/7/b/67b1cc08a2d179fd0828877b94042ee4f1676573b82ffb6bfd2ca2ad4af0a599/2005_142.jpg" />          <img longdesc="/index.php/no-3a-autographic-kodak-made-in-canada-canadian-kodak-co-limited-toronto" alt="No. 3A Autographic Kodak : Made in Canada / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/5/8/3/5831c4a368338b1e68bad51e6284e6cc57c6cb2f5b09258d42ebaf32021a2bfb/2005_142.jpg" />          <img longdesc="/index.php/off-for-college-of-course-you-want-picture-with-your-kodak-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Off for college--of course you want a picture with your Kodak : Autographic Kodaks $6.50 up at yo..." src="/uploads/r/special-collections/d/c/9/dc901cc0e1be23d2d76f8f771649b1039b3d8d93c5e4ac49daa4e965ab41a458/2005_142.jpg" />          <img longdesc="/index.php/made-in-canada-no-1-autographic-kodak-jr-combines-pocket-compactness-and-ease-of-operation-in-attractive-inexpensive-camera-price-12-canadian-kodak-co-limited-toronto" alt="Made in Canada - No. 1 Autographic Kodak, Jr. : Combines pocket compactness and ease of operation..." src="/uploads/r/special-collections/9/b/0/9b011c6f59603e3999e21af32768feea8deb40fb8ae028628691ac9b59d2365e/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-3" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/b/9/d/b9dff3e94763c13eab71a5b8ea2515c9b4759d65016e29310782930d624f3798/2005_142.jpg" />          <img longdesc="/index.php/let-your-kodak-catch-picture-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-2" alt="Let your Kodak catch the picture : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Tor..." src="/uploads/r/special-collections/d/8/9/d89a5e47a04f3be973b38df6f8a048e5b837cdc189ef52227f66a83d1d7bf650/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-3" alt="Keep the story with a Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/e/e/2/ee262481c3bf0f2383bc200b88c56b9d7c4dacb157c90589886fe74b33eb0540/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-4" alt="Keep the story with a Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/2/5/2/2520e512aa3f33cb451d6de9aa2ab19909bdcfd0f71597296d36b7254d4d2da7/2005_142.jpg" />          <img longdesc="/index.php/they-are-your-pictures-kodak-and-brownie-catalog-free-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="They are your Pictures : Kodak and Brownie catalog free at your dealer's / Canadian Kodak Co., Li..." src="/uploads/r/special-collections/7/7/5/7759b72416d2272e06e75bdd6d8bed42fd44b9483253e9af8f202c3afd376113/2005_142.jpg" />          <img longdesc="/index.php/they-are-your-pictures-kodak-and-brownie-catalog-free-at-your-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="They are your Pictures : Kodak and Brownie catalog free at your dealer's / Canadian Kodak Co., Li..." src="/uploads/r/special-collections/c/5/a/c5a6e1df9560e870ef720347c9e9dba5cc3acd156dc97f5b28c7ddc6eb642435/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Take a Kodak with you : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co., Limite..." src="/uploads/r/special-collections/0/1/0/010bbb335eeafa40089f59e8f4d45c26244adb3e0856b6fd37c6bffb73f95ce4/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="Take a Kodak with you : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co., Limite..." src="/uploads/r/special-collections/9/0/6/906da31138af86bc11cdc2d9d71413aacf44c76712ca1eeb21fbb9f0566bb8af/2005_142.jpg" />          <img longdesc="/index.php/let-kodak-sell-your-livestock-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Let Kodak sell your livestock : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co...." src="/uploads/r/special-collections/4/9/5/495d2b2258cfbf14e9269e24c0104996d1ac727e55655e185e9e7da83b13dcb1/2005_142.jpg" />          <img longdesc="/index.php/let-kodak-sell-your-livestock-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="Let Kodak sell your livestock : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co...." src="/uploads/r/special-collections/1/0/0/1002216eaff5171ba1cf4c904e0557d3195a2fed8df4d23adb15da027cf267a6/2005_142.jpg" />          <img longdesc="/index.php/kodak-on-farm-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Kodak on the farm : Autographic Kodaks $6.50 up at your dealer's / Canadian Kodak Co., Limited, T..." src="/uploads/r/special-collections/a/e/6/ae6290be09dedc32daa6019dc6022d09fea2c2284eedbc8e8058655bf6fcec2a/2005_142.jpg" />          <img longdesc="/index.php/kodak-on-farm-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="Kodak on the farm : Autographic Kodaks $6.50 up--At your dealer's / Canadian Kodak Co., Limited, ..." src="/uploads/r/special-collections/1/5/f/15f7899fb6d350b54fbe650a842c56218b696feef96222305d74bedcf517f842/2005_142.jpg" />          <img longdesc="/index.php/on-farm-there-are-pictures-for-pleasure-and-practical-pictures-which-help-in-business-of-farming-and-they-are-all-easy-for-your-kodak-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto" alt="On the farm there are pictures for pleasure, and practical pictures which help in the business of..." src="/uploads/r/special-collections/e/5/1/e51ae93fa930ac701f1e5ed3563b189a7ab88d63732e7340a3bff1b51ad825e2/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/a/7/4/a74be8ebede515466ed04023193d5667c6aaa204d1184c987280f0ef387fd2b2/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-4" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/6/f/7/6f7935c042f0c237df1b7374c1cc0ec5161dbf83a87feb1882224b35a5d1771f/2005_142.jpg" />          <img longdesc="/index.php/keep-story-of-children-with-autographic-kodak-autographic-kodaks-9-up-at-your-dealers-canadian-kodak-co-limited-toronto-2" alt="Keep the story of the children with an Autographic Kodak : Autographic Kodaks $9 up, at your deal..." src="/uploads/r/special-collections/0/c/a/0cac9dcabb78d8b8acafda5f950ab09d18c71be34470f253db5835f1d87aa2da/2005_142.jpg" />          <img longdesc="/index.php/pour-faire-les-records-de-la-vie-de-vos-enfants-servez-vous-dun-kodak-autographique-kodaks-autographiques-de-9-00-en-montant-chez-le-distributeur-kodak-canadian-kodak-co-limited-toronto-canada" alt="Pour faire les records de la vie de vos enfants, servez-vous d'un Kodak Autographique : Kodaks Au..." src="/uploads/r/special-collections/1/6/c/16c58b422fe535b4c9cf4b3fb9241a7dcab16068051323f7d488dc1ac76c467e/2005_142.jpg" />          <img longdesc="/index.php/winter-days-invite-your-kodak-canadian-kodak-co-limited-toronto-canada-2" alt="Winter days invite your Kodak : Canadian Kodak Co., Limited, Toronto, Canada" src="/uploads/r/special-collections/1/e/a/1ea9cc557cf4b27ced1a8623b7cb064632821ab47168ad09ca35001139e76863/2005_142.jpg" />          <img longdesc="/index.php/les-jours-dhiver-accueillent-votre-kodak-kodaks-autographiques-chez-le-distributeur-pres-de-vous-canadian-kodak-co-limited-toronto-canada-2" alt="Les jours d'hiver accueillent votre Kodak : Kodaks Autographiques chez le distributeur près de vo..." src="/uploads/r/special-collections/f/3/9/f396e424c6c6aaff90b92bddad2d299aa569fed220c8146b4fff2b5fa5a31a0c/2005_142.jpg" />          <img longdesc="/index.php/loccasion-exige-le-concours-de-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-canada" alt="L'Occasion exige le concours de votre Kodak : Kodaks Autographiques de $6.50 en montant / Canadia..." src="/uploads/r/special-collections/8/5/5/8559f201f264ab97fa742cd3f1c6c673a6a476579775dae5ed56ff53f294514c/2005_142.jpg" />          <img longdesc="/index.php/let-your-kodak-catch-picture-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-3" alt="Let your Kodak catch the picture : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited / To..." src="/uploads/r/special-collections/a/0/b/a0b1baa66cd25c2a4d82ac20cbcf68019747f7cdc0aba330daa5123efa0af79a/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-7-50-up-canadian-kodak-co-limited-toronto-canada-5" alt="Keep the story with a Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/5/c/b/5cb76081d31e8fb0156db991ae44737e556ecbaa7f920043a5ac9c8a7d012bfe/2005_142.jpg" />          <img longdesc="/index.php/les-memoires-de-kodak-sont-permanents-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-canada" alt="Les mémoires de Kodak sont permanents : Kodaks Autographiques de $6.50 en montant / Canadian Koda..." src="/uploads/r/special-collections/2/9/9/299bcc6d144846f583dde03e0d0a691a026bbbc601037fd12fdc65c0b450e93e/2005_142.jpg" />          <img longdesc="/index.php/lheure-de-recreation-est-lheure-de-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-company-limited-toronto-canada-2" alt="L'heure de récréation est l'heure de votre Kodak : Kodaks autographiques de $6.50 en montant / Ca..." src="/uploads/r/special-collections/b/2/d/b2d90b9b1c66b9b8635aad8e2a6f65b17f848e38205190fb0a92dd690eb2b9d0/2005_142.jpg" />          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-7-50-up-canadian-kodak-company-limited-toronto-canada" alt="All out-doors invites your Kodak : Autographic Kodaks $7.50 up / Canadian Kodak Company, Limited,..." src="/uploads/r/special-collections/3/f/c/3fc627fda87ff7c855c74e0635be07fda9d48f4a8164972e0c647c33d0f0e0c0/2005_142.jpg" />          <img longdesc="/index.php/lheure-de-recreation-est-lheure-de-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-company-limited-toronto-canada-3" alt="L'heure de récréation est l'heure de votre Kodak : Kodaks autographiques de $6.50 en montant. / C..." src="/uploads/r/special-collections/9/d/1/9d181d22be334c3ce2070375c76e021fb97b1175e5603c68b951cd574603edbe/2005_142.jpg" />          <img longdesc="/index.php/graflex-graflex-catalog-free-by-mail-or-at-kodak-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="Graflex : Graflex catalog free by mail or at Kodak dealers'. / Canadian Kodak Co., Limited, Toron..." src="/uploads/r/special-collections/9/8/0/9800bb36615ea0161245a12277fa198abc3c1b04eb12eb719ddf8fceff9d7df5/2005_142.jpg" />          <img longdesc="/index.php/apportez-votre-kodak-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-canada-3" alt="Apportez votre Kodak : Kodaks Autographiques de $6.50 en montant. / Canadian Kodak Co., Limited, ..." src="/uploads/r/special-collections/2/6/a/26a6d1b2b689283d7175473c8a7681c6c8eedd84fa577f831e502fd59e123b13/2005_142.jpg" />          <img longdesc="/index.php/laissez-suivre-votre-kodak-canadian-kodak-co-limited-toronto" alt="Laissez suivre votre Kodak / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/2/e/b/2eb279f266d921681ff740e58105381145fa6ea68abbe6c0197ce6aa433ed4d3/2005_142.jpg" />          <img longdesc="/index.php/graflex-graflex-catalog-by-mail-or-at-your-dealers-canadian-kodak-co-limited-toronto-2" alt="Graflex : Graflex catalog by mail or at your dealer's / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/d/e/b/deb5578fbe7ae061be1870c5607623d38b875767d9d928bb7b9fe6b71525cbe9/2005_142.jpg" />          <img longdesc="/index.php/les-records-de-votre-kodak-rappelent-vos-jours-de-vacances-kodaks-autographiques-de-6-50-en-montant-chez-le-distributeur-canadian-kodak-co-limited-toronto-2" alt="Les records de votre Kodak rappelent vos jours de vacances : Kodaks Autographiques de $6.50 en mo..." src="/uploads/r/special-collections/9/5/0/950f12ebd41c72ce4c8a3875bfe471a2d521b74a65e1be2f1e3edc92ff84342e/2005_142.jpg" />          <img longdesc="/index.php/keep-kodak-story-of-children-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-canada" alt="Keep a Kodak story of the children : Autographic Kodaks $6.50 up at your dealer's / Canadian Koda..." src="/uploads/r/special-collections/2/0/6/206e8540308c098ee1a4107eac0edf521c4041af202a4df9045f6e3420e8ff75/2005_142.jpg" />          <img longdesc="/index.php/graflex-ask-for-1922-graflex-catalog-free-from-us-or-at-your-dealers-canadian-kodak-co-limited-toronto-canada-2" alt="Graflex : Ask for the 1922 Graflex catalog--free from us or at your dealer's / Canadian Kodak Co...." src="/uploads/r/special-collections/2/0/e/20ea5574f4981921a06ac25ed590abe833fa467e93d203431a557782f94c28a9/2005_142.jpg" />          <img longdesc="/index.php/graflex-1922-graflex-catalogue-free-from-us-or-your-dealer-canadian-kodak-co-limited-toronto-canada-2" alt="Graflex : The 1922 Graflex catalogue--free from us or your dealer. / Canadian Kodak Co., Limited,..." src="/uploads/r/special-collections/3/b/5/3b559ef3856a33b15e673978b4ebdc48b21579b29e4f8d0365a8446d68019773/2005_142.jpg" />          <img longdesc="/index.php/retenez-lhistoire-des-enfants-au-moyen-dun-kodak-kodaks-autographiques-de-6-50-en-montant-chez-tous-les-distributeurs-canadian-kodak-co-limited-toronto" alt="Retenez l'histoire des enfants au moyen d'un Kodak : Kodaks Autographiques de $6.50 en montant ch..." src="/uploads/r/special-collections/a/0/7/a07d429ea19ccaa7457e8e46973929a4b838bc55edaeeb3f484125c6afda8165/2005_142.jpg" />          <img longdesc="/index.php/un-coup-de-kodak-en-passant-kodaks-autographiques-de-6-50-en-montant-canadian-kodak-co-limited-toronto-2" alt="Un coup de Kodak en passant : Kodaks Autographiques de $6.50 en montant. / Canadian Kodak Co., Li..." src="/uploads/r/special-collections/1/8/9/18944ecf11cd67e0dd5736f0b2ed05af3e4da856ae528d4cd8db4972e6e4577c/2005_142.jpg" />          <img longdesc="/index.php/kodak-as-you-go-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-2" alt="Kodak as you go : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/b/4/3/b433bd02ee3002e65e2cc4f88f76b991b9d1ee83d56a5abe043e5250120ee524/2005_142.jpg" />          <img longdesc="/index.php/let-kodak-tell-story-autographic-kodaks-6-50-up-at-your-dealers-canadian-kodak-co-limited-toronto-2" alt="Let Kodak tell the story : Autographic Kodaks $6.50 up--at your dealer's / Canadian Kodak Co., Li..." src="/uploads/r/special-collections/e/a/f/eaf40b1c3d94b6e2cb0125f88d5b264759c776d670729da5a4664d983d2140a4/2005_142.jpg" />          <img longdesc="/index.php/keep-christmas-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-5" alt="Keep Christmas with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto" src="/uploads/r/special-collections/4/b/4/4b4a8103b95f2df2a84dc5393f8b32302e2a2bc3ecb162934c8278ed544b775b/2005_142.jpg" />          <img longdesc="/index.php/keep-story-with-kodak-autographic-kodaks-6-50-up-canadian-kodak-co-limited-toronto-canada" alt="Keep the story with a Kodak : Autographic Kodaks $6.50 up / Canadian Kodak Co., Limited, Toronto,..." src="/uploads/r/special-collections/d/e/c/decd635e2fb832e7f6ba36371338ffce39d0a372ba5ed222a48e973b9de077f3/2005_142.jpg" />          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada-2" alt="All out-doors invites your kodak : Autographic Kodaks at your dealer’s - $6.50 up / Canadian Koda..." src="/uploads/r/special-collections/3/2/9/3298447c8d280aa0815f6bcb49c121c58ea900b30c6fccf9c1642b861d608ef7/2005_142.jpg" />          <img longdesc="/index.php/all-out-doors-invites-your-kodak-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada-3" alt="All out-doors invites your Kodak : Autographic Kodaks at your dealer’s - $6.50 up / Canadian Koda..." src="/uploads/r/special-collections/c/3/d/c3d182caf196e051f6070ed7f23c24d0d3ae7bba6ab06ed8e584bfd6fadd7c7c/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada-3" alt="Take a Kodak with you : Autographic Kodaks at your dealer’s - $6.50 up / Canadian Kodak Co., Limi..." src="/uploads/r/special-collections/1/9/0/190524b1312ff37aa11191bf9ee35dc7a4a171febdaf88778c8ca19ceeba3820/2005_142.jpg" />          <img longdesc="/index.php/take-kodak-with-you-autographic-kodaks-at-your-dealers-6-50-up-canadian-kodak-co-limited-toronto-canada-4" alt="Take a Kodak with you : Autographic Kodaks at your dealer’s - $6.50 up / Canadian Kodak Co., Limi..." src="/uploads/r/special-collections/4/d/3/4d32eac5993286ab74d74bb00b0dd4015615672afeb977cc7ebd09729929c9d1/2005_142.jpg" />      </div>
+
+      <div class="result-count">
+      Results 1 to 100 of 164      <a href="/index.php/informationobject/browse?ancestor=2847&topLod=0&view=card&onlyMedia=1">Show all</a>
+    </div>
+  
+</div>
+
+
+                                  <div id="content">
+                    
+
+
+
+
+  <div class="digital-object-reference">
+      
+
+      <img alt="Original Digital object not accessible" src="/uploads/r/null/2/7/2/27289a0d8a6ab661cfae7ff6ac8ceb4dc90e280733299f2fdc0846b135352b63/KodakCanadaCollection_141.jpg" />  
+  </div>
+
+<section id="titleAndStatementOfResponsibilityArea">
+
+      <span anchor="titleAndStatementOfResponsibilityArea" title="Edit title and statement of responsibility area"><h2>Title and statement of responsibility area</h2></span>  
+  <div class="field">
+  <h3>Title proper</h3>
+  <div class="title">
+    <p>Kodak Canada Corporate Archives and Heritage Collection</p>
+  </div>
+</div>
+
+  <div class="field">
+    <h3>General material designation</h3>
+    <div class="generalMaterialDesignation">
+      <ul>
+                  <li>Object</li>
+                  <li>Textual record</li>
+                  <li>Graphic material</li>
+                  <li>Moving images</li>
+              </ul>
+    </div>
+  </div>
+
+
+  <div class="field">
+  <h3>Parallel title</h3>
+  <div class="parallelTitle">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Other title information</h3>
+  <div class="otherTitleInformation">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Title statements of responsibility</h3>
+  <div class="titleStatementsOfResponsibility">
+    
+  </div>
+</div>
+
+  <div class="field">
+    <h3>Title notes</h3>
+    <div class="titleNotes">
+      <ul>
+                  <li>Attributions and conjectures: Supplied by cataloguer.</li>
+              </ul>
+    </div>
+  </div>
+
+  <div class="field">
+  <h3>Level of description</h3>
+  <div class="levelOfDescription">
+    <p>Fonds</p>
+  </div>
+</div>
+
+  <div class="repository">
+    <div class="field">
+  <h3>Repository</h3>
+  <div>
+    <a href="/index.php/special-collections" title="Special Collections">Special Collections</a>
+  </div>
+</div>
+  </div>
+
+  <div class="field">
+  <h3>Reference code</h3>
+  <div class="referenceCode">
+    <p>SC 2005.001</p>
+  </div>
+</div>
+
+</section> <!-- /section#titleAndStatementOfResponsibilityArea -->
+
+<section id="editionArea">
+
+      <span anchor="editionArea" title="Edit edition area"><h2>Edition area</h2></span>  
+  <div class="field">
+  <h3>Edition statement</h3>
+  <div class="editionStatement">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Edition statement of responsibility</h3>
+  <div class="editionStatementOfResponsibility">
+    
+  </div>
+</div>
+
+</section> <!-- /section#editionArea -->
+
+<section class="section" id="classOfMaterialSpecificDetailsArea">
+
+      <span anchor="classOfMaterialSpecificDetailsArea" title="Edit class of material specific details area"><h2>Class of material specific details area</h2></span>  
+
+  <div class="field">
+  <h3>Statement of scale (cartographic)</h3>
+  <div class="statementOfScale">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Statement of projection (cartographic)</h3>
+  <div class="statementOfProjection">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Statement of coordinates (cartographic)</h3>
+  <div class="statementOfCoordinates">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Statement of scale (architectural)</h3>
+  <div class="statementOfScale">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Issuing jurisdiction and denomination (philatelic)</h3>
+  <div class="issuingJurisdictionAndDenomination">
+    
+  </div>
+</div>
+</section> <!-- /section#classOfMaterialSpecificDetailsArea -->
+
+<section class="section" id="datesOfCreationArea">
+
+      <span anchor="datesOfCreationArea" title="Edit dates of creation area"><h2>Dates of creation area</h2></span>  
+  <div class="datesOfCreation">
+    <div class="field">
+  <h3>Date(s)</h3>
+
+  <div xmlns:dc="http://purl.org/dc/elements/1.1/" about="https://archives.library.ryerson.ca/index.php/kodak-canada-corporate-archives-and-heritage-collection">
+
+    <ul>
+              <li>
+          <div class="date">
+            <span property="dc:date" start="" end="">1895-2006</span>
+                          <span class="date-type">(Creation)</span>
+                        <dl>
+                              <dt>Creator</dt>
+                <dd>Kodak Canada Inc.</dd>
+                                                      </dl>
+
+          </div>
+        </li>
+          </ul>
+
+  </div>
+</div>
+  </div>
+
+</section> <!-- /section#datesOfCreationArea -->
+
+<section id="physicalDescriptionArea">
+
+      <span anchor="physicalDescriptionArea" title="Edit physical description area"><h2>Physical description area</h2></span>  
+  <div class="field">
+  <h3>Physical description</h3>
+  <div class="physicalDescription">
+    <p>29 m of textual records.<br/>36 m of photographs (ca. 7,500 b&amp;w, ca. 7,600 col., ca. 13,000 negatives, ca. 34,000 slides, 867 COL. transparencies).<br/>8 audiocassettes. - 1 audio reel. - 4 film reels. - 11 optical discs. - 183 videocassettes. - 2 video reels.<br/>ca. 350 architectural drawings.<br/>35 ad ledgers.<br/>139 posters.<br/>11 m published material</p>
+  </div>
+</div>
+
+</section> <!-- /section#physicalDescriptionArea -->
+
+<section id="publishersSeriesArea">
+
+      <span anchor="publishersSeriesArea" title="Edit publisher's series area"><h2>Publisher's series area</h2></span>  
+  <div class="field">
+  <h3>Title proper of publisher's series</h3>
+  <div class="titleProperOfPublishersSeries">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Parallel titles of publisher's series</h3>
+  <div class="parallelTitleOfPublishersSeries">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Other title information of publisher's series</h3>
+  <div class="otherTitleInformationOfPublishersSeries">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Statement of responsibility relating to publisher's series</h3>
+  <div class="statementOfResponsibilityRelatingToPublishersSeries">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Numbering within publisher's series</h3>
+  <div class="numberingWithinPublishersSeries">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Note on publisher's series</h3>
+  <div class="noteOnPublishersSeries">
+    
+  </div>
+</div>
+
+</section> <!-- /section#publishersSeriesArea -->
+
+<section id="archivalDescriptionArea">
+
+      <span anchor="archivalDescriptionArea" title="Edit archival description area"><h2>Archival description area</h2></span>  
+        <div class="field">
+      <h3>Name of creator</h3>
+      <div>
+
+        <div class="creator">
+                      <a href="/index.php/kodak-canada-inc-2" title="Kodak Canada Inc.">Kodak Canada Inc.</a>                  </div>
+
+                  <div class="datesOfExistence">
+            (1900-)
+          </div>
+        
+                  <div class="field">
+                                                  <h3>Administrative history</h3>
+            <div class="history">
+              <p>Canadian Kodak Ltd., which became Kodak Canada Inc. in 1979, manufactured photographic films, papers and equipment for over a century in Toronto, Ontario. The company formed the Canadian branch of the successful Eastman Kodak Company, and officially opened its doors in 1900 at 41 Colborne Street under the direction of John G. Palmer. The company expanded and moved to 588 King Street West in 1908, but already plans were underway for an expansive complex to the north of the city. In 1912, Canadian Kodak purchased 25 acres of farmland near Weston Road and Eglinton Avenue to build a major manufacturing facility known as Kodak Heights. By 1925, there were over 900 employees working in seven buildings at Kodak Heights. Over the years, the company earned a reputation for having a cooperative and supportive relationship with its employees, adopting many of the successful practices in place at Eastman Kodak in Rochester, New York. In 1940, an Employee's Building was constructed to accommodate the activities of the flourishing Recreation Club, the Department Mangers' Club, and the Kodak Heights Camera Club. During the 1990s, the rise of digital media began to have a serious impact on manufacturing programs at Kodak facilities around the world, causing the Eastman Kodak Company to reduce its production of traditional print photography by one third globally. The company chose to focus on digital products, which did not require the extensive facilities used in the production of traditional photographic materials. On December 9, 2004, Kodak Canada Ltd. informed its employees that manufacturing operations in traditional film products would cease entirely at Kodak Heights. The company's facility faced the same fate as many of its foreign counterparts in England, Australia and France, being completely abandoned and demolished shortly after closure in 2005. Kodak Canada still maintains a sales and support office in downtown Toronto, while the manufacture of traditional photographic chemistry has returned to Rochester.</p>            </div>
+          </div>
+        
+      </div>
+    </div>
+            <div class="field">
+      <h3>Name of creator</h3>
+      <div>
+
+        <div class="creator">
+                      <a href="/index.php/eastman-kodak-company-2" title="Eastman Kodak Company">Eastman Kodak Company</a>                  </div>
+
+                  <div class="datesOfExistence">
+            (1888 -)
+          </div>
+        
+                  <div class="field">
+                                                  <h3>Administrative history</h3>
+            <div class="history">
+                          </div>
+          </div>
+        
+      </div>
+    </div>
+            <div class="field">
+      <h3>Name of creator</h3>
+      <div>
+
+        <div class="creator">
+                      <a href="/index.php/canadian-kodak-co-limited-2" title="Canadian Kodak Co., Limited">Canadian Kodak Co., Limited</a>                  </div>
+
+        
+                  <div class="field">
+                                                  <h3>Biographical history</h3>
+            <div class="history">
+                          </div>
+          </div>
+        
+      </div>
+    </div>
+      
+      <div class="field">
+  <h3>Custodial history</h3>
+  <div class="custodialHistory">
+    
+  </div>
+</div>
+  
+  <div class="field">
+  <h3>Scope and content</h3>
+  <div class="scopeAndContent">
+    <p>The Kodak Canada collection contains records and artifacts from the Kodak Heights manufacturing facility in Toronto, as well as the historical collection belonging to the Kodak Heritage Collection Museum. The collection consists of photographs, negatives, advertising records, magazines, pamphlets, daily record books, recipe books, cameras and other photographic equipment produced by Kodak Canada Inc., or other Kodak plants around the world. The collection includes a small selection of financial records, blueprints for Kodak facilities in Canada, and other corporate ephemera, as well as photographs of events, buildings and individual employees that illustrate the social life of the company.</p>
+  </div>
+</div>
+
+</section> <!-- /section#archivalDescriptionArea -->
+
+<section class="section" id="notesArea">
+
+      <span anchor="notesArea" title="Edit notes area"><h2>Notes area</h2></span>  
+      <div class="field">
+  <h3>Physical condition</h3>
+  <div class="physicalCondition">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Immediate source of acquisition</h3>
+  <div class="immediateSourceOfAcquisition">
+    <p>In the spring of 2005 many of Kodak Canada's corporate records were donated to the Ryerson University Library to form the core collection of the new Special Collections department. Along with the photo files, trade circulars and record books that helped inform the business operations at Kodak Heights, Ryerson also received the contents of the Kodak Heritage Collection Museum. The museum was established in 1999 in anticipation of the company's centennial, but was short-lived, closing its doors when Kodak Heights ceased operations.</p>
+  </div>
+</div>
+  
+  <div class="field">
+  <h3>Arrangement</h3>
+  <div class="arrangement">
+    <p>This collection was originally arranged according to material type and efforts are currently underway to re-connect the records to their original locations and purposes through browseable hierarchies. A complete finding aid to the collection is available and more materials have yet to be added to the descriptive series.</p>
+  </div>
+</div>
+
+  <div class="field">
+    <h3>Language of material</h3>
+    <div class="languageOfMaterial">
+      <ul>
+              </ul>
+    </div>
+  </div>
+
+  <div class="field">
+    <h3>Script of material</h3>
+    <div class="scriptOfMaterial">
+      <ul>
+              </ul>
+    </div>
+  </div>
+
+  
+  <div class="field">
+  <h3>Location of originals</h3>
+  <div class="locationOfOriginals">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Availability of other formats</h3>
+  <div class="availabilityOfOtherFormats">
+    <p>Digital images of some of the advertisements in the collection are available.</p>
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Restrictions on access</h3>
+  <div class="restrictionsOnAccess">
+    <p>Open. Records are available for consultation without restriction.</p>
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Terms governing use, reproduction, and publication</h3>
+  <div class="termsGoverningUseReproductionAndPublication">
+    
+  </div>
+</div>
+
+  <div class="field">
+  <h3>Finding aids</h3>
+  <div class="findingAids">
+    <p>A finding aid to the collection is available.</p>
+  </div>
+</div>
+
+  
+  <div class="field">
+  <h3>Associated materials</h3>
+  <div class="associatedMaterials">
+    <p>Gordon Meinecke fonds<br/>Yvonne Flavelle-Arthur Hurill fonds<br/>Nicholas and Marilyn M. Graver collection [Kodak publications]<br/>Kodakery and Studio Light magazines<br/>Heritage Camera Collection</p>
+  </div>
+</div>
+
+  <div class="relatedMaterialDescriptions">
+    <div class="field">
+
+      <h3>Related materials</h3>
+  
+  <div>
+    <ul>
+                                                                                                                                                                                                                                                              <li><a href="/index.php/heritage-camera-collection" title="Heritage Camera Collection">Heritage Camera Collection</a></li>
+                  </ul>
+  </div>
+
+</div>
+  </div>
+
+  <div class="field">
+  <h3>Accruals</h3>
+  <div class="accruals">
+    <p>Accruals: 2008.007. Further accruals are expected.</p>
+  </div>
+</div>
+
+        
+  
+  <div class="alternativeIdentifiers">
+    <div class="field">
+
+  <h3>Alternative identifier(s)</h3>
+
+  <div>
+      </div>
+
+</div>
+  </div>
+
+     
+</section> <!-- /section#notesArea -->
+
+<section id="standardNumberArea">
+
+      <span anchor="standardNumberArea" title="Edit standard number area"><h2>Standard number area</h2></span>  
+  <div class="field">
+  <h3>Standard number</h3>
+  <div class="standardNumber">
+    
+  </div>
+</div>
+
+</section> <!-- /section#standardNumberArea -->
+
+<section id="accessPointsArea">
+
+      <span anchor="accessPointsArea" title="Edit access points"><h2>Access points</h2></span>  
+  <div class="subjectAccessPoints">
+    <div class="field">
+
+      <h3>Subject access points</h3>
+  
+  <div>
+    <ul>
+              <li>
+                                                          <a href="/index.php/photographs-2" title="Photographs">Photographs</a>                  </li>
+              <li>
+                                                          <a href="/index.php/advertising" title="Advertising">Advertising</a>                  </li>
+              <li>
+                                                          <a href="/index.php/trade-literature" title="Trade literature">Trade literature</a>                  </li>
+              <li>
+                                                          <a href="/index.php/research-industrial" title="Research, Industrial">Research, Industrial</a>                  </li>
+              <li>
+                                                          <a href="/index.php/photographic-industry" title="Photographic industry">Photographic industry</a>                  </li>
+              <li>
+                                                          <a href="/index.php/photographic-industry-employees" title="Photographic industry--Employees">Photographic industry--Employees</a>                  </li>
+              <li>
+                                                          <a href="/index.php/image-making-equipment" title="image making equipment">image making equipment</a>                                                &raquo;
+                        <a href="/index.php/photography-equipment-and-supplies" title="Photographic equipment">Photographic equipment</a>                  </li>
+          </ul>
+  </div>
+
+</div>
+  </div>
+
+  <div class="placeAccessPoints">
+    <div class="field">
+
+      <h3>Place access points</h3>
+  
+  <div>
+    <ul>
+              <li>
+                                                          <a href="/index.php/north-america-2" title="North and Central America">North and Central America</a>                                                &raquo;
+                        <a href="/index.php/canada-2" title="Canada">Canada</a>                                                &raquo;
+                        <a href="/index.php/ontario-2" title="Ontario">Ontario</a>                                                &raquo;
+                        <a href="/index.php/toronto-on-2" title="Toronto">Toronto</a>                  </li>
+          </ul>
+  </div>
+
+</div>
+  </div>
+
+  <div class="nameAccessPoints">
+    <div class="field">
+
+      <h3>Name access points</h3>
+  
+  <div>
+    <ul>
+      
+                        <li><a href="/index.php/eastman-kodak-company-2" title="Eastman Kodak Company">Eastman Kodak Company</a><span class="note2"> (Subject)</span></li>
+                                <li><a href="/index.php/kodak-canada-inc-2" title="Kodak Canada Inc.">Kodak Canada Inc.</a><span class="note2"> (Subject)</span></li>
+                                <li><a href="/index.php/canadian-kodak-co-limited-2" title="Canadian Kodak Co., Limited">Canadian Kodak Co., Limited</a><span class="note2"> (Subject)</span></li>
+                                                                                                                                                                                                        </ul>
+  </div>
+
+</div>
+  </div>
+
+  <div class="genreAccessPoints">
+    <div class="field">
+
+      <h3>Genre access points</h3>
+  
+  <div>
+    <ul>
+          </ul>
+  </div>
+
+</div>
+  </div>
+
+</section> <!-- /section#accessPointsArea -->
+
+<section class="section" id="descriptionControlArea">
+
+      <span anchor="descriptionControlArea" title="Edit control area"><h2>Control area</h2></span>  
+      <div class="field">
+  <h3>Description record identifier</h3>
+  <div class="descriptionRecordIdentifier">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Institution identifier</h3>
+  <div class="institutionIdentifier">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Rules or conventions</h3>
+  <div class="rulesOrConventions">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Status</h3>
+  <div class="status">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Level of detail</h3>
+  <div class="levelOfDetail">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Dates of creation, revision and deletion</h3>
+  <div class="datesOfCreationRevisionAndDeletion">
+    
+  </div>
+</div>
+  
+      <div class="field">
+      <h3>Language of description</h3>
+      <div class="languageOfDescription">
+        <ul>
+                  </ul>
+      </div>
+    </div>
+  
+      <div class="field">
+      <h3>Script of description</h3>
+      <div class="scriptOfDescription">
+        <ul>
+                  </ul>
+      </div>
+    </div>
+  
+      <div class="field">
+  <h3>Sources</h3>
+  <div class="sources">
+    
+  </div>
+</div>
+  
+</section> <!-- /section#descriptionControlArea -->
+
+
+  <div class="digitalObjectMetadata">
+    
+<section>
+
+      <span title="Edit digital object"><h2>Digital object metadata</h2></span>  
+  
+  
+            <div class="field">
+  <h3>Filename</h3>
+  <div class="filename">
+    <p>KodakCanadaCollection.jpg</p>
+  </div>
+</div>
+      
+      <div class="field">
+  <h3>Latitude</h3>
+  <div class="latitude">
+    
+  </div>
+</div>
+    <div class="field">
+  <h3>Longitude</h3>
+  <div class="longitude">
+    
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Media type</h3>
+  <div class="mediaType">
+    <p>Image</p>
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Mime-type</h3>
+  <div class="mimeType">
+    <p>image/jpeg</p>
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Filesize</h3>
+  <div class="filesize">
+    441.4 KiB
+  </div>
+</div>
+  
+      <div class="field">
+  <h3>Uploaded</h3>
+  <div class="uploaded">
+    October 13, 2015 4:20 PM
+  </div>
+</div>
+  
+  
+</section>
+  </div>
+  <div class="digitalObjectRights">
+    <section>
+
+  <span title="Edit digital object"><h2>Digital object (Master) rights area</h2></span>
+  
+</section>
+
+<section>
+
+  
+    <span title="Edit digital object"><h2>Digital object (Reference) rights area</h2></span>
+    
+  
+</section>
+
+<section>
+
+  
+    <span title="Edit digital object"><h2>Digital object (Thumbnail) rights area</h2></span>
+    
+  
+</section>
+  </div>
+
+<section id="accessionArea">
+
+  <h2>Accession area</h2>
+
+  <div class="accessions">
+      </div>
+</section> <!-- /section#accessionArea -->
+
+
+                  </div>
+                
+                  <section class="actions">
+  <ul>
+
+      
+      
+      
+      
+  </ul>
+</section>
+
+              </div>
+
+              <div class="span2">
+
+                <div id="context-menu">
+
+                  
+  <section id="action-icons">
+  <ul>
+
+    <li class="separator"><h4>Clipboard</h4></li>
+
+    <li class="clipboard">
+      <button class="clipboard-wide"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="kodak-canada-corporate-archives-and-heritage-collection"
+    data-title="Add"
+  data-alt-title="Remove">
+  Add</button>
+    </li>
+
+    <li class="separator"><h4>Explore</h4></li>
+
+    <li>
+      <a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection/informationobject/reports">
+        <i class="fa fa-print"></i>
+        Reports      </a>
+    </li>
+
+    
+    <li>
+              <a href="/index.php/informationobject/browse?collection=2847&topLod=0">
+      
+        <i class="fa fa-list"></i>
+        Browse as list      </a>
+    </li>
+
+    <li>
+      <a href="/index.php/informationobject/browse?collection=2847&topLod=0&view=card&onlyMedia=1">
+        <i class="fa fa-picture-o"></i>
+        Browse digital objects      </a>
+    </li>
+
+    
+    <li class="separator"><h4>Export</h4></li>
+
+          <li>
+        <a href="https://archives.library.ryerson.ca/downloads/exports/dc/fdf1bc5669e8ff5ba45d02fded729feb.dc.xml">
+          <i class="fa fa-upload"></i>
+          Dublin Core 1.1 XML        </a>
+      </li>
+        
+    
+    
+    
+      </ul>
+</section>
+
+  <div class="field">
+
+      <h4>Related subjects</h4>
+  
+  <div>
+    <ul>
+              <li>
+                                                          <a href="/index.php/photographs-2" title="Photographs">Photographs</a>                  </li>
+              <li>
+                                                          <a href="/index.php/advertising" title="Advertising">Advertising</a>                  </li>
+              <li>
+                                                          <a href="/index.php/trade-literature" title="Trade literature">Trade literature</a>                  </li>
+              <li>
+                                                          <a href="/index.php/research-industrial" title="Research, Industrial">Research, Industrial</a>                  </li>
+              <li>
+                                                          <a href="/index.php/photographic-industry" title="Photographic industry">Photographic industry</a>                  </li>
+              <li>
+                                                          <a href="/index.php/photographic-industry-employees" title="Photographic industry--Employees">Photographic industry--Employees</a>                  </li>
+              <li>
+                                                          <a href="/index.php/image-making-equipment" title="image making equipment">image making equipment</a>                                                &raquo;
+                        <a href="/index.php/photography-equipment-and-supplies" title="Photographic equipment">Photographic equipment</a>                  </li>
+          </ul>
+  </div>
+
+</div>
+
+  <div class="field">
+
+      <h4>Related people and organizations</h4>
+  
+  <div>
+    <ul>
+                                            <li><a href="/index.php/kodak-canada-inc-2" title="Kodak Canada Inc.">Kodak Canada Inc.</a> <span class="note2">(Creator)</span></li>
+                                                    <li><a href="/index.php/eastman-kodak-company-2" title="Eastman Kodak Company">Eastman Kodak Company</a> <span class="note2">(Creator)</span></li>
+                                                    <li><a href="/index.php/canadian-kodak-co-limited-2" title="Canadian Kodak Co., Limited">Canadian Kodak Co., Limited</a> <span class="note2">(Creator)</span></li>
+                                    
+                        <li><a href="/index.php/eastman-kodak-company-2" title="Eastman Kodak Company">Eastman Kodak Company</a><span class="note2"> (Subject)</span></li>
+                                <li><a href="/index.php/kodak-canada-inc-2" title="Kodak Canada Inc.">Kodak Canada Inc.</a><span class="note2"> (Subject)</span></li>
+                                <li><a href="/index.php/canadian-kodak-co-limited-2" title="Canadian Kodak Co., Limited">Canadian Kodak Co., Limited</a><span class="note2"> (Subject)</span></li>
+                                                                                                                                                                                                        </ul>
+  </div>
+
+</div>
+
+  <div class="field">
+
+      <h4>Related places</h4>
+  
+  <div>
+    <ul>
+              <li>
+                                                          <a href="/index.php/north-america-2" title="North and Central America">North and Central America</a>                                                &raquo;
+                        <a href="/index.php/canada-2" title="Canada">Canada</a>                                                &raquo;
+                        <a href="/index.php/ontario-2" title="Ontario">Ontario</a>                                                &raquo;
+                        <a href="/index.php/toronto-on-2" title="Toronto">Toronto</a>                  </li>
+          </ul>
+  </div>
+
+</div>
+
+  <div class="field">
+
+      <h4>Related genres</h4>
+  
+  <div>
+    <ul>
+          </ul>
+  </div>
+
+</div>
+
+  
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+    <footer>
+
+  
+  
+  <div id="print-date">
+    Printed: 2020-12-01  </div>
+
+</footer>
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-890753-20', 'auto');
+        ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

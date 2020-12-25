@@ -1,0 +1,55 @@
+<html>
+<head>
+
+    <title>Teaching Assignment</title>
+
+    <link rel="stylesheet" type="text/css" href="/tai/surface/resources/angular/styles.css" />
+    <style>
+        .ang-comp, body {
+            height: 100vh !important;
+            margin: 0;
+            overflow-y: hidden;
+        }
+
+        app-root {
+            height: 100vh !important;
+            overflow-y: hidden;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function msieversion() {
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+            {
+                return true;
+            }
+            else  // If another browser, return 0
+            {}
+
+            return false;
+        }
+
+        function checkVersion(){
+            if(msieversion())
+                alert("The browser you are using is not supported for this application. Please access this application through another browser.");
+        }
+    </script>
+
+</head>
+<body onload="checkVersion()">
+    <div class="ang-comp">
+        <app-root></app-root>
+    </div>
+
+
+    <script type="text/javascript" src="/tai/surface/resources/angular/runtime.js"></script>
+    <script type="text/javascript" src="/tai/surface/resources/angular/polyfills.js"></script>
+    <script type="text/javascript" src="/tai/surface/resources/angular/scripts.js"></script>
+    <script type="text/javascript" src="/tai/surface/resources/angular/main.js"></script>
+
+</body>
+</html>

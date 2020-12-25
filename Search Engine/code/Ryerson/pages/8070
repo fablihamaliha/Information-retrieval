@@ -1,0 +1,780 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-14', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/gmdc/xmlrpc.php" />
+
+  <title>Noel &#8211; Geospatial Map &amp; Data Centre</title>
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Feed" href="https://library.ryerson.ca/gmdc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Comments Feed" href="https://library.ryerson.ca/gmdc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Posts by Noel Feed" href="https://library.ryerson.ca/gmdc/author/n2damba/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/gmdc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/gmdc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/gmdc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/gmdc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<script src='https://library.ryerson.ca/gmdc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/gmdc\/wp-login.php?redirect_to=%2Fgmdc%2Fauthor%2Fn2damba%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/gmdc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/gmdc/wp-json/wp/v2/users/40" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/gmdc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/gmdc/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitemadar.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Noel" />
+<meta property="og:url" content="https://library.ryerson.ca/gmdc/author/n2damba/" />
+<meta property="profile:first_name" content="Noel" />
+<meta property="profile:last_name" content="Damba" />
+<meta property="og:site_name" content="Geospatial Map &amp; Data Centre" />
+<meta property="og:image" content="https://secure.gravatar.com/avatar/628fef3227ca1e42214d8b18bc634a98?s=200&amp;r=g" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@ryersonlibrary" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+
+<!-- End Jetpack Open Graph Tags -->
+			<style type="text/css" id="wp-custom-css">
+				/* Quick things for Fall 2020 Homepage */
+.rylib-homepage-bento .wp-block-column {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 10px #4CA6E8 solid;
+}
+.rylib-homepage-bento h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.rylib-homepage-bento ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.rylib-homepage-bento a {
+	color: #000;
+}
+
+.rylib-homepage-news h2, .rylib-homepage-workshops h2 {
+	color: #0F306B;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.rylib-homepage-news ul {
+	list-style: none;
+	padding: 2em;
+	background: #FFF;
+}
+.rylib-homepage-news ul li:last-child {
+	padding-bottom: 0;
+}
+.rylib-homepage-news a {
+	color: #000;
+}
+.rylib-homepage-news a:visited {
+	color: #000;
+}
+.rylib-homepage-workshops a, .rylib-homepage-workshops a:visited { color: #000 }
+.rylib-homepage-workshops ul {
+	padding: 0;
+	list-style: none;
+}
+div.rylib-homepage-workshops li {
+	padding-bottom: 1em;
+}
+.rylib-homepage-workshops .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+.rylib-homepage-workshops .event .datewrap {
+	text-align: right;
+	min-width: 95px;
+}
+
+.rylib-homepage-workshops .event .date {
+	font-size: 1.25em;
+}
+
+.rylib-homepage-workshops .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.rylib-homepage-workshops .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+.rylib-homepage-workshops .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.rylib-homepage-workshops .event .description a:hover {
+	text-decoration: underline;
+}
+
+.rylib-land-ack {
+	background: #FFF;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.rylib-land-ack p {
+	margin: 0;
+}
+
+.rylib-land-ack .wp-block-buttons {
+	position: absolute;
+	right: 1.5em;
+}
+
+.rylib-land-ack .wp-block-button .wp-block-button__link {
+	background: #4EA5E8;
+	border-radius: 0;
+}
+ul.rylib-bento li {
+	padding-bottom: 1em;
+}
+ul.wp-block-rss li {
+	padding-bottom: 1em
+}
+			</style>
+		</head>
+
+<body class="archive author author-n2damba author-40">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Geospatial Map & Data Centre will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/gmdc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/gmdc">Geospatial Map &amp; Data Centre</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/gmdc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-local-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2393"><a title="Geospatial Data &amp; GIS" href="https://library.ryerson.ca/gmdc/madar/geo-data/">Geospatial Data &#038; GIS</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a title="Paper Map Inventory" href="https://library.ryerson.ca/gmdc/madar/maps/">Paper Map Inventory</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2281"><a title="Statistics and Data" href="https://library.ryerson.ca/gmdc/stats-data/">Statistics and Data</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3172"><a title="About Us" href="https://library.ryerson.ca/gmdc/madar/about/">About Us</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			
+			
+			
+<article id="post-3628" class="post-3628 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2020/09/24/drape-2019-is-coming-to-the-geoportal/">DRAPE 2019 is coming to the GeoPortal</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2020/09/24/drape-2019-is-coming-to-the-geoportal/" title="6:46 pm" rel="bookmark"><time class="entry-date" datetime="2020-09-24T18:46:17-04:00" pubdate>September 24, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><b>DRAPE 2019</b> will be available <a title="http://geo2.scholarsportal.info/#r/details/_uri@=118578443" href="http://geo2.scholarsportal.info/#r/details/_uri@=118578443" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://geo2.scholarsportal.info/%23r/details/_uri@%3D118578443&amp;source=gmail&amp;ust=1601061594501000&amp;usg=AFQjCNH-Th8H1V2ySW_kN5J9o7SJ8PDoJQ"> via the GeoPortal</a>.  This dataset is not complete yet. Additional tiles will be received over the coming months (a complete list of what tiles are available and pending can be found via LIO&#8217;s new <a title="https://lio.maps.arcgis.com/apps/webappviewer/index.html?extent=-78.442130,43.998332,-74.271968,46.368575&amp;id=f01350dd98944585a034352bc05acb79&amp;showLayers=DRAPE%202019%20-%20UTM18(CSRS)%20-%201km%20Ortho%20Tiles" href="https://lio.maps.arcgis.com/apps/webappviewer/index.html?extent=-78.442130,43.998332,-74.271968,46.368575&amp;id=f01350dd98944585a034352bc05acb79&amp;showLayers=DRAPE%202019%20-%20UTM18(CSRS)%20-%201km%20Ortho%20Tiles" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=https://lio.maps.arcgis.com/apps/webappviewer/index.html?extent%3D-78.442130,43.998332,-74.271968,46.368575%26id%3Df01350dd98944585a034352bc05acb79%26showLayers%3DDRAPE%25202019%2520-%2520UTM18(CSRS)%2520-%25201km%2520Ortho%2520Tiles&amp;source=gmail&amp;ust=1601061594501000&amp;usg=AFQjCNEH94oyE8nA9iDO07EoEUm0dZVwlg">web app</a>). The service will be loaded in full once the complete product is received. Currently, the GeoPortal record includes information on what tiles are available and on how to request the data.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2020/09/24/drape-2019-is-coming-to-the-geoportal/" title="Permalink to DRAPE 2019 is coming to the GeoPortal" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3628 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3545" class="post-3545 post type-post status-publish format-standard hentry category-uncategorized">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2019/03/25/whats-new-in-arcgis-online-march-2019/">What&#8217;s New in ArcGIS Online (March 2019)</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2019/03/25/whats-new-in-arcgis-online-march-2019/" title="3:48 pm" rel="bookmark"><time class="entry-date" datetime="2019-03-25T15:48:44-04:00" pubdate>March 25, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><strong>ArcGIS Online was updated</strong> this week, and this latest release adds many useful new features and enhancements! You can read more about the updates in the Esri blog post at <a href="https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-in-arcgis-online-march-2019/" data-saferedirecturl="https://www.google.com/url?q=https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-in-arcgis-online-march-2019/&amp;source=gmail&amp;ust=1553610400533000&amp;usg=AFQjCNHCFXOIJG9bFiOJVGUUBojePlSecw"> https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-in-arcgis-online-march-2019/</a>.</p>
+<p>&nbsp;</p>
+<p>Here are just a few highlights:</p>
+<ul>
+<li><strong>Configurable Apps: </strong><em>Interactive Legend</em> is a new app that allows you to explore feature layers in the map by interacting with the legend.</li>
+<li><strong>App Builders: </strong>Web AppBuilder has a new <em>Network Trace widget</em>.</li>
+<li><strong>Mapping &amp; Visualization: </strong>Symbol sets have been updated in Map Viewer. You can now display georeferenced photos on a map by uploading a .zip file containing them.</li>
+<li><strong>Spatial Analytics: </strong><em>Generate Tessellations</em> is a new tool that creates bins over a study area, determined by a specified extent, shape, and size. Tessellations are useful because they allow you to split geography into regular shapes.</li>
+<li><strong>Sharing &amp; Collaboration:</strong> A new <em>location filter</em> helps you find items in your organization that are located in a specific place or region, or at specified latitude, longitude coordinates.</li>
+<li><strong>Living Atlas:</strong> The <em>OpenStreetMap vector basemap</em> maintained and hosted by Esri, is no longer in beta. Small areas can be exported for offline use. <em>Radiant Solutions NaturalVue 2.0</em>, a virtually cloud-free global imagery mosaic, is coming soon as a tile layer in ArcGIS Online and Living Atlas.</li>
+<li><strong>Learn ArcGIS:</strong> Recently published new resources, including a webinar on climate change mapping that shows you how you can use ArcGIS Pro to analyze climate data.</li>
+<li><strong>Apps for the Field:</strong> Collector for ArcGIS can now be used alongside another app in Split View mode. External GNSS receivers are now supported in the Survey123 field app.</li>
+<li><strong>Insights for ArcGIS: </strong>A redesigned and enhanced home page and support for distributed collaborations.</li>
+<li><strong>Data Management: </strong>When you create a tile package in ArcGIS Pro 2.3 and later, you can specify a new file format—.tpkx. The .tpkx file format is an open specification tile package format that uses a simplified file structure, which allows developers to read and write files to the format. A new <em>Arcade Attachments()</em> function can be used during field calculations to calculate values based on attachments and their properties.</li>
+<li><strong>Admin: </strong>ArcGIS Online now has more rigorous password requirements for new and updated accounts. If your organization has set up enterprise logins, you can now add members automatically using their enterprise ID. The sign-in experience in ArcGIS Online has been updated and streamlined, making it easier to sign in.</li>
+</ul>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/uncategorized/" rel="category tag">Uncategorized</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2019/03/25/whats-new-in-arcgis-online-march-2019/" title="Permalink to What&#8217;s New in ArcGIS Online (March 2019)" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3545 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3529" class="post-3529 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2019/01/09/esri-moocs-spatial-analysis-geo-apps/">Esri MOOCs: Spatial Analysis &amp; Geo Apps</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2019/01/09/esri-moocs-spatial-analysis-geo-apps/" title="10:46 am" rel="bookmark"><time class="entry-date" datetime="2019-01-09T10:46:38-05:00" pubdate>January 9, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>Two Esri <strong>MOOCs</strong> are starting on February 6<sup>th</sup>. These Massive Open Online Courses are free, self-paced, and those who complete a course will receive a certificate.</p>
+<p>&nbsp;</p>
+<p><strong>Going Places with Spatial Analysis</strong>: This six week course is for those who wish to gain a deeper understanding of spatial data analysis. Register for this course here:</p>
+<p><a href="https://www.esri.com/training/catalog/57660f19bb54adb30c9454b0/going-places-with-spatial-analysis/" data-saferedirecturl="https://www.google.com/url?q=https://www.esri.com/training/catalog/57660f19bb54adb30c9454b0/going-places-with-spatial-analysis/&amp;source=gmail&amp;ust=1547134233262000&amp;usg=AFQjCNGEipEt45ISZxjxIlZdJ3yUK6MV2A">https://www.esri.com/training/catalog/57660f19bb54adb30c9454b0/going-places-with-spatial-analysis/</a>.</p>
+<p>&nbsp;</p>
+<p><strong>Do-It-Yourself Geo Apps: </strong>This four week course will show you how to combine location and narrative in one application to better communicate and broadcast your story, create custom web applications that solve problems in your community, and build powerful native applications for iOS and Android devices without touching a piece of code. Register for this course here: <a href="https://www.esri.com/training/catalog/57660ed7bb54adb30c9454a3/do-it-yourself-geo-apps/" data-saferedirecturl="https://www.google.com/url?q=https://www.esri.com/training/catalog/57660ed7bb54adb30c9454a3/do-it-yourself-geo-apps/&amp;source=gmail&amp;ust=1547134233262000&amp;usg=AFQjCNGAjswFtl0dEjDKP0fdUrXGKK94Rw"> https://www.esri.com/training/catalog/57660ed7bb54adb30c9454a3/do-it-yourself-geo-apps/</a>.</p>
+<p>&nbsp;</p>
+<p>If you have any questions, please contact us at <a href="mailto:highered@esri.ca"> highered@esri.ca</a>.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2019/01/09/esri-moocs-spatial-analysis-geo-apps/" title="Permalink to Esri MOOCs: Spatial Analysis &amp; Geo Apps" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3529 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3518" class="post-3518 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2018/11/26/new-data-available-in-the-geoportal/">New data available in the GeoPortal</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2018/11/26/new-data-available-in-the-geoportal/" title="4:46 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-26T16:46:51-05:00" pubdate>November 26, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>The GeoPortal is pleased to let you know that the following datasets have now been loaded into the GeoPortal:</p>
+<ul>
+<li>City of London 2009-2013, 2017</li>
+<li>Census Districts  (CD) and Census Subdistricts (CSD), 1871</li>
+<li>Enumeration Areas (EA), 1971</li>
+<li>FRI Digital Aerial Imagery update (imagery now available in four seamless UTM zones, as opposed to a series of blocks and boundaries)</li>
+<li>DMTI Postal Code Suite (several years that had previously been missed)</li>
+<li>Agricultural Resources Inventory (ARI) 2017 &#8211; This is an update from the 1983 ARI, but differs from that data both in terms of coverage area and the way that the data has been classified. The 1983 dataset provides information on specific crops and field use, whereas this dataset broadly denotes land use. Both are available in the Portal.</li>
+</ul>
+<ul>
+<li>Ontario School Board Boundaries, 2015-2016</li>
+<li>Canadian Weather Stations, 1971-2000</li>
+</ul>
+<p>In addition to these new datasets, we have also made LIO’s topographic cache available as an basemap option in the GeoPortal. This detailed map was added based off of conversations had at our last in-person meeting in April (thanks to all those who suggested this!).  It is available by clicking on <strong>Base Maps </strong>from the upper right corner of the GeoPortal and selecting <strong>LIO Topographic.</strong></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2018/11/26/new-data-available-in-the-geoportal/" title="Permalink to New data available in the GeoPortal" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3518 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3515" class="post-3515 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2018/11/08/cannabis-stats-hub/">Cannabis Stats Hub</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2018/11/08/cannabis-stats-hub/" title="6:41 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-08T18:41:14-05:00" pubdate>November 8, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>Statistics Canada is the national statistical office. The agency ensures Canadians have the key information on Canada&#8217;s economy, society and environment that they require to function effectively as citizens and decision makers.  New on Statistics Canada is the <a href="https://www150.statcan.gc.ca/n1/pub/13-610-x/13-610-x2018001-eng.htm">Cannabis Stats Hub</a> website.  This page allows users to look up Canadian statistics on the following topics: health, justics, economy and prices.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2018/11/08/cannabis-stats-hub/" title="Permalink to Cannabis Stats Hub" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3515 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3343" class="post-3343 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2018/01/17/lio-data-now-available-in-the-geoportal/">LIO data now available in the GeoPortal</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2018/01/17/lio-data-now-available-in-the-geoportal/" title="11:45 am" rel="bookmark"><time class="entry-date" datetime="2018-01-17T11:45:54-05:00" pubdate>January 17, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><span lang="EN-CA">The open data collection available through Land Information Ontario (LIO) is now fully discoverable in the <a href="http://geo2.scholarsportal.info">GeoPortal</a>! As a result of this launch, users can search for the newest LIO data, view metadata, and initiate a download of the data through the LIO download data request service directly in the GeoPortal. This has been made possible through an automated process of metadata harvesting, which pulls records directly from LIO’s site. This script will continue to run on a weekly basis, so that we always maintain the most current metadata and links.</span></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2018/01/17/lio-data-now-available-in-the-geoportal/" title="Permalink to LIO data now available in the GeoPortal" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3343 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3340" class="post-3340 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2018/01/16/new-data-available-in-the-geoportal-toronto-orthoimagery/">New data available in the GeoPortal: Toronto Orthoimagery</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2018/01/16/new-data-available-in-the-geoportal-toronto-orthoimagery/" title="4:15 pm" rel="bookmark"><time class="entry-date" datetime="2018-01-16T16:15:15-05:00" pubdate>January 16, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>We are pleased to let you know that the following datasets have now been loaded into the <a href="http://geo2.scholarsportal.info/">GeoPortal</a>:</p>
+<ul>
+<li>City of Brantford, 2015 &amp; 2017</li>
+<li>City of Toronto OrthoImagery, 2011, 2012 &amp; 2013</li>
+<li>SWOOP 2010 TIFF (4 bands; includes elevation)</li>
+<li>SWOOP 2015 Algonquin</li>
+<li>Guelph OrthoImagery, 2012 &amp; 2016</li>
+<li>COOP 2016</li>
+</ul>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2018/01/16/new-data-available-in-the-geoportal-toronto-orthoimagery/" title="Permalink to New data available in the GeoPortal: Toronto Orthoimagery" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3340 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3279" class="post-3279 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2017/09/05/67000-historic-maps-now-available-for-download/">67,000 Historic Maps Now Available For Download</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2017/09/05/67000-historic-maps-now-available-for-download/" title="4:02 pm" rel="bookmark"><time class="entry-date" datetime="2017-09-05T16:02:07-04:00" pubdate>September 5, 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>Since 1996, the <a href="http://www.davidrumsey.com">Rumsey collection’s online database has been open to all</a>, currently offering anyone with an internet connection access to 67,000 maps from all over the globe, spanning five centuries of cartography.  Rumsey’s holdings constitute, a thorough collection of maps and though its physical housing at Stanford is a huge boon to academic researchers, <a href="http://www.davidrumsey.com">its online archive</a> is yours for the browsing, searching, and downloading, whoever and wherever you are.  Click <a href="https://www.davidrumsey.com/">HERE</a> to explore this wonderfully vast collection of online historic maps!</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2017/09/05/67000-historic-maps-now-available-for-download/" title="Permalink to 67,000 Historic Maps Now Available For Download" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3279 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3274" class="post-3274 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2017/09/01/arcgis-desktop-10-5-1-is-available-for-download/">ArcGIS Desktop 10.5.1 is available for download</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2017/09/01/arcgis-desktop-10-5-1-is-available-for-download/" title="4:28 pm" rel="bookmark"><time class="entry-date" datetime="2017-09-01T16:28:55-04:00" pubdate>September 1, 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>The Geospatial Map and Data Centre is pleased to announce that <span lang="EN-US">ArcGIS Desktop 10.5.1 is now available to students.  Click <a href="https://library.ryerson.ca/gmdc/madar/gis/software/arcgis/">THIS</a> link to request and download the newest version of the ArcGIS software.</span></p>
+<p>The Ryerson University Library &amp; Archives (RULA) along with the Departments of Geography, Civil Engineering , Urban and Regional Planning and Chemistry and Biology share the cost and administer the ESRI Software – Campus Site License for access to the <strong>ArcGIS</strong> Suite of software. In addition to institutional access for ArcGIS Desktop software via the GIS &amp; Data and/or departmental labs, students/staff/faculty in these participating departments or associated graduate programs may request <strong>ONE</strong> copy of ArcGIS Desktop – Student Edition software for academic use (teaching, research, educational purposes). Commercial use of the software is prohibited.</p>
+<p><a href="http://library.ryerson.ca/gmdc/madar/gis/software/arcgis/">Request ArcGIS Desktop – Student Edition</a></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2017/09/01/arcgis-desktop-10-5-1-is-available-for-download/" title="Permalink to ArcGIS Desktop 10.5.1 is available for download" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3274 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-3202" class="post-3202 post type-post status-publish format-standard hentry category-new-data">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/gmdc/2017/05/02/new-high-resolution-digital-elevation-model-lidar/">New High-Resolution Digital Elevation Model / LiDAR</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/gmdc/2017/05/02/new-high-resolution-digital-elevation-model-lidar/" title="3:41 pm" rel="bookmark"><time class="entry-date" datetime="2017-05-02T15:41:22-04:00" pubdate>May 2, 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/gmdc/author/n2damba/" title="View all posts by Noel" rel="author">Noel</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><span lang="EN-CA">Now available: the High Resolution Digital Elevation Model (HRDEM), at a resolution of 2 metres. The HRDEM consists of a Digital Terrain Model (DTM), a Digital Surface Model (DSM) and others derived data.   This first release covers 106,000 km<sup>2</sup><span class="m_-3949205241712587898m_-5123363329051905156m_3483759477969818181apple-converted-space"> </span>(3%) of the 3.5 million km<sup>2<span class="m_-3949205241712587898m_-5123363329051905156m_3483759477969818181apple-converted-space"> </span></sup>planned for the Canadian southern territory, and includes areas in New Brunswick, Nova Scotia, Quebec, and Manitoba.<u></u><u></u></span></p>
+<p><span lang="EN-CA">This new product is generated from airborne LiDAR data acquired in partnership with provinces and territories to provide high accuracy data with minimum distortion.  The HRDEM is part of the CanElevation collection created in support of the National Elevation Strategy implemented by Natural Resources Canada.  This strategy aims to increase Canada’s coverage of high-resolution elevation data and increase product accessibility.<u></u><u></u></span></p>
+<p><span lang="EN-CA">For more details consult the<span class="m_-3949205241712587898m_-5123363329051905156m_3483759477969818181apple-converted-space"> </span><a href="http://ftp.maps.canada.ca/pub/elevation/dem_mne/highresolution_hauteresolution/HRDEM_Product_Specification.pdf" target="_blank" rel="noopener noreferrer">product specifications</a>. You can download this data on the<span class="m_-3949205241712587898m_-5123363329051905156m_3483759477969818181apple-converted-space"> </span><a href="http://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995" target="_blank" rel="noopener noreferrer">Open Government</a><span class="m_-3949205241712587898m_-5123363329051905156m_3483759477969818181apple-converted-space"> </span>website.</span></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/gmdc/category/new-data/" rel="category tag">New Data</a> by <a href="https://library.ryerson.ca/gmdc/author/n2damba/">Noel</a>. Bookmark the <a href="https://library.ryerson.ca/gmdc/2017/05/02/new-high-resolution-digital-elevation-model-lidar/" title="Permalink to New High-Resolution Digital Elevation Model / LiDAR" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-3202 -->
+
+			
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true" />
+
+		
+	<nav class="navigation pagination" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">&larr;</span> <span class="nav-prev-text">Newer <span class="nav-short">Posts</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://library.ryerson.ca/gmdc/author/n2damba/page/2/">2</a>
+<a class="next page-numbers" href="https://library.ryerson.ca/gmdc/author/n2damba/page/2/"><span class="nav-next-text">Older <span class="nav-short">Posts</span></span> <span aria-hidden="true">&rarr;</span></a></div>
+	</nav>
+	</div><!-- .pagination-wrapper -->
+
+	
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  <aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3><form action="https://library.ryerson.ca/gmdc" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="5">New Data&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="4">News&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="7">Software&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1">Uncategorized&nbsp;&nbsp;(1)</option>
+</select>
+</form>
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                    
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/gmdc/files/2017/08/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202049.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.2',blog:'78839024',post:'0',tz:'-5',srv:'library.ryerson.ca'} ]);
+	_stq.push([ 'clickTrackerInit', '78839024', '0' ]);
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'FBMAJBPBPCKAGLEJFBCBCAEHLGEBEAJOGOGKJNOHGOGKCKENKCADPPHPAMJPKIGAPAHBBOFFAAFNPJGKIJJAIGFCAADNNMMIAKGHBLPCCIMECAILKHOLNOIFBHDLAKAB',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

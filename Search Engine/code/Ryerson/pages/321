@@ -1,0 +1,214 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0031)http://ask.ryerson.ca/index.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Ryerson undergraduate, Ryerson admissions, Ryerson undergraduate admissions, Ryerson undergrad, undergraduate admissions, academic programs, Ryerson degrees, attending Ryerson, Ryerson registration">
+<meta name="description" content="Ryerson University undergraduate degree programs in arts and sciences, including admission requirements, how to apply, scholarships and housing">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://www.ryerson.ca/favicon.ico" type="image/x-icon">
+<link href="css/irStyles.css" rel="stylesheet" type="text/css">
+<title>RYERSON UNIVERSITY - Undergraduate Students</title>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<style type="text/css"></style></head>
+<body>
+  <div id="irMastHead">
+    <a href="https://www.ryerson.ca/admissions/undergraduate/">
+      <div class="row">
+      <img src="images/Ryerson-Logo.png" alt="RYERSON UNIVERSITY - Undergraduate Students" />
+      <img src="images/ask-ryerson.png" style="float:right;" alt="ASK RYERSON UNIVERSITY - Undergraduate Students" />
+      </div>
+    </a>
+  </div>
+  <div id="irMastHeadMobile" style="display:none">
+    <a href="http://www.ryerson.ca/undergraduate/admission/">
+    <div class="row">
+      <img src="images/Ryerson-Logo.png" alt="RYERSON UNIVERSITY - Undergraduate Students" />
+      <img src="images/ask-ryerson.png" style="float:right; margin-right:15px;" alt="ASK RYERSON UNIVERSITY - Undergraduate Students" />
+      </div>
+    </a>
+  </div>
+
+  <div id="irFrame">
+
+    <!-- end left navigation -->
+    <!-- main content -->
+    <!-- this component gets a short include file from the main subdirectory for the section which sets the proper width content div -->
+    <div id="main_content_both">
+
+
+
+      <div id="irQuestionForm">
+        <form id="questionForm" method="post" action="index.jsp">
+          <div>
+            <input type="submit" id="AskButton" name="NormalRequest" style="display:none" value="Submit"/>
+            <input type="hidden" name="interfaceID" value="1"/>
+            <input type="hidden" name="sessionId" value="ead9a000-342f-11eb-a3e8-31e99e3d42f3"/>
+            <input type="hidden" name="id" id="respId" value="-1"/>
+            <input type="hidden" name="requestType"/>
+            <input type="hidden" name="source" id="sourceId" value="1"/>
+            <input type="text" id="question" name="question" value="Ask your question here" size="55" maxlength="250" onfocus="if(this.value == 'Type a question here. Use a complete sentence.'){ this.value='';}else{this.select();}" onblur="if(this.value=='') this.value='Type a question here. Use a complete sentence.';" class="irQuestionBox ui-autocomplete-input"/>
+            <input type="submit" id="AskButton" name="NormalRequest" style="display:none" value="Submit"/>
+          </div>
+        </form>
+        <div id="irQuestionBlurb">
+          <span class="askryersonsubtext">After typing in question press "Enter" key for results.</span>
+        </div>
+      </div>
+
+      <hr size="1" width="100%" align="center">
+      <div id="main_content_panel">
+        <!-- Start IR Code //-->
+        
+        <div id="irWelcome">
+          <!-- IntelliResponse content start  -->
+
+          <p><span class="style1"><i><b>Ask Ryerson</b> </i>is a web-based resource for Ryerson community members. This tool is available to you 24 hours a day, 7 days a week, and 365 days a year.</span><br>
+          </i></p>
+          <!--p>&nbsp;</p-->
+          <p><b>Search Tips:</b></p>
+          <ul>
+            <li>Ask your question in the form of a <b>complete</b> sentence like "How do I apply?"</li>
+            <li>Ask simple questions.</li>
+            <li>Ask just one question at a time.</li>
+            <li>Click "Top10" for our most asked questions.</li>
+            <li>Take a look at the "You may be interested in..." and "Related" drop-down boxes for more answers you might be interested in.</li> </ul></FONT> </B>            </p>
+          </div>
+           <a href="javascript:window.open('','_parent','');window.close();"><h1 class="closeLink">Close Window</h1></a>
+          </div>
+         
+          
+  <!-- End IR Code //-->
+  <!-- IntelliResponse content end  -->
+
+  <div class="right-panel">
+    
+
+
+  <div id="topQuestionsTitle">Top Questions This Week</div>
+  <div id="irTopQuestionsItems">
+    <ol>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=40&amp;question=What+are+the+admission+requirements" class="table">What are the admission requirements?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=418&amp;question=How+do+I+transfer+from+another+university+or+college+to+Ryerson" class="table">How do I transfer from another university or college to Ryerson?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=35&amp;question=How+do+I+apply" class="table">How do I apply?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=88&amp;question=What+programs+do+you+offer" class="table">What programs do you offer?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=42&amp;question=What+is+the+status+of+my+application" class="table">What is the status of my application?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=37&amp;question=When+is+the+application+deadline" class="table">When is the application deadline?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=2434&amp;question=Why+am+I+on+academic+probation+for+OSAP" class="table">Why am I on academic probation for OSAP?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=126&amp;question=How+can+I+get+in+touch+with+Admissions" class="table">How can I get in touch with Admissions?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=222&amp;question=Where+do+I+send+my+transcripts" class="table">Where do I send my transcripts?</a></li>
+
+      <li><a href="/?requestType=NormalRequest&amp;source=4&amp;id=123&amp;question=How+do+I+drop+a+course" class="table">How do I drop a course?</a></li>
+
+
+    </ol>
+  </div>
+  <br/><br/>
+
+  </div>
+
+  </div>
+</div>
+
+<!-- end main content  -->
+
+<!-- end main content area -->
+<BR clear="all">
+  <!-- footer -->
+  <div id="footer_area">
+    
+    <!--
+    <div id="footer_blurb">
+      &copy; Ryerson University &nbsp;&nbsp;&nbsp;
+      <a href="http://www.ryerson.ca/ryerson.ca/webpolicy.html">Web Policy</a> &nbsp;&nbsp;&nbsp;
+      <a href="http://www.ryerson.ca/ryerson.ca/privacy.html">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
+      <a href="http://www.ryerson.ca/accessibility/">Accessibility</a>
+    </div>
+
+
+  </div>
+    //-->
+
+    <!-- end footer -->
+
+  </div>
+  <!-- end viewport and site frame -->
+
+</div>
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+
+
+<script>
+  NORMALIZATION_TOKENS = "()|?! \t\n\r\".,";
+  sessionId="ead9a000-342f-11eb-a3e8-31e99e3d42f3";
+  interfaceId="1";
+  var lastWordSubmitted;
+  $(document).ready(function() {
+  $("#question").autocomplete({
+  source: function (request, response) {
+  var inputString = request.term;
+  var tokens = inputString.split(/[()|?! \t\n\r\".,]/);
+  var newString = tokens[tokens.length-1].replace("lastWordSubmitted","");
+  if ((newString.length > 3) ||
+  (NORMALIZATION_TOKENS.indexOf(inputString.charAt(inputString.length-1))!=-1
+  && NORMALIZATION_TOKENS.indexOf(inputString.charAt(inputString.length-
+  2))==-1) )
+  {
+  lastWordSubmitted=tokens[tokens.length-1];
+  $.getJSON("/IntelliSuggest", {term: inputString, SESSIONID:
+  sessionId, interfaceID: interfaceId}, function(data) {
+  response(data);
+});
+}
+},
+select: function (event, ui) {
+$("#questionForm input#respId").val(ui.item.secret);
+$("#questionForm input#sourceId").val(9);
+setTimeout(function () {
+$("#questionForm input#AskButton").click();
+}, 1000);
+return false;
+},
+delay:200,
+minLength:2,
+focus: function() {
+return false;
+}
+}).data("autocomplete")._renderItem = function( ul, item ) {
+return $( "<li></li>" )
+.data( "item.autocomplete", item )
+.append( "<a>"+ item.label + "</a>" )
+.appendTo( ul );
+};
+});
+</script>
+</body>
+</html>

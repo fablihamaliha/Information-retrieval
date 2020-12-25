@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+
+<head>
+    <title>Using Gmail and Google Calendar Effectively - Learning Events Calendar - Ryerson University</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <meta name="upk-gateway" content="http://www.ryerson.ca/hrelearning/lec/stdhemi/hint_gateway.html"/>
+    <meta name="upk-namespace" content="app.ca.ryerson.hr.lec;en"/>
+    <meta name="upk-context" content="PubEventView"/>
+
+    <meta name="theme-color" content="#004c9b"/>
+
+    
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Learning Events Calendar - Ryerson University"/>
+        <meta property="og:url" content="https://hr.apps.ccs.ryerson.ca/lec/public/event/177"/>
+        <meta property="og:title"/>
+        <meta property="og:description"/>
+        <meta property="og:image" content="https://hr.apps.ccs.ryerson.ca/lec/public/event/image/16by9/2"/>
+        <meta property="og:image:width" content="1920px"/>
+        <meta property="og:image:height" content="1080px"/>
+
+        <meta name="description"/>
+    
+    
+
+    <script>
+        var cqMode = "DISABLED";
+        var cqTemplate = "general";
+        var runMode = "publish";
+    </script>
+
+    <link href="/lec/ryerson/clientlib-all.css?cacheBuster=3" type="text/css" rel="stylesheet"/>
+    <script src="/lec/ryerson/clientlib-all.js?cacheBuster=3" type="text/javascript"></script>
+
+    
+
+    <script src="/lec/js/ru.lib.js?cacheBuster=3" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="/lec/css/main.css?cacheBuster=3" type="text/css"/>
+
+    <link rel="icon" sizes="192x192" href="/lec/favicon_192x192.png?cacheBuster=3"/>
+
+    
+
+</head>
+<body>
+<!-- Start Global Header -->
+<div class="resGlobalHeader">
+    <div class="global-header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="res-global-header">
+                        <a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+                        <nav role="navigation" aria-label="global" class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="https://www.ryerson.ca/">
+                                        <img src="/lec/ryerson/clientlib-site/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University"/>
+                                    </a>
+                                    <button id="gh-other-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-other-content" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span>
+                                    </button>
+                                    
+                                </div>
+                                <div class="navbar-content">
+                                    <div class="navbar-right">
+                                        <ul id="gh-info-content" class="nav navbar-nav navbar-left" role="presentation">
+                                            
+                                        </ul>
+                                        <ul id="gh-other-content" class="nav navbar-nav collapse navbar-collapse navbar-left">
+                                            <!-- Kept this here for example of global links in mobile-->
+                                            
+                                            
+                                            
+                                            <li class="call-to-action"><a href="javascript:IasOpenGateway()">Help</a>
+                                            </li>
+                                            
+                                            <li class="call-to-action">
+                                                <a href="/lec/user/profile">Log In</a></li>
+                                            
+                                            
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Global Header-->
+
+<!-- Start Local Header -->
+<div class="res-local-header-wrapper" role="banner">
+    <div class="container">
+        <div class="resLocalHeader">
+            <div class="res-local-header">
+                <div class="row template-local-header">
+                    <div class="local-header-section col-xs-12">
+                        <div class="res-local-header">
+                            <div class="row template-local-header">
+                                <div class="local-header-section col-xs-12">
+                                    <div class="site-heading">
+                                        <a href="/lec/">Learning Events Calendar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="resHorizontalNavigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav role="navigation" aria-label="primary" class="navbar res-horizontal-navigation">
+                    <!-- Navigation Header -->
+                    <div class="navbar-header">
+                        <span class="navbar-brand visible-xs"><a href="/lec/">Home</a></span>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-navigation-menu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span> <i class="fa fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <!-- Navigation Links -->
+                    <div class="collapse navbar-collapse" id="local-navigation-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="/lec/public/event">Events</a></li>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Local Header -->
+
+<!-- Start Content -->
+<div class="container">
+    <div class="row template-content">
+
+        <!-- Start Left Navigation Menu -->
+        
+            
+                <aside role="complementary" class="left-sidebar-section col-md-2 col-sm-12 ">
+                    <div class="resVerticalNavigation">
+                        <nav role="navigation" aria-label="secondary" class="navbar res-vertical-navigation">
+                            <!-- Navigation Header -->
+                            <div class="navbar-header">
+                                <span class="navbar-brand visible-xs">
+                                    <a href="/lec/public/event">Events</a>
+                                </span>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#child-navigation-menu" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <!-- Navigation Links -->
+                            <div class="collapse navbar-collapse" id="child-navigation-menu">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=0">All Events</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list/online?categoryId=0">Online Offerings</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=1">Career Development</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=2">Financial Systems &amp; Management</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=4">Health &amp; Safety</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=7">Inclusion</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=8">Interpersonal Skills</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=9">Leadership</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=10">Policy &amp; Governance</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=11">Ryerson Community</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=6">Teaching</a>
+                                    </li>
+                                    <li class="list-group-item selected">
+                                        <a href="/lec/public/event/list?categoryId=5">Technology</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/lec/public/event/list?categoryId=3">Wellbeing</a>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    
+                </aside>
+            
+        
+        <!-- End Left Navigation Menu -->
+
+        <div role="main" id="mainContent" class="content-area-section col-sm-12 col-md-10">
+            <div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+
+            <div class="beforeContent stackparsys">
+                <!-- Start Alert Header -->
+                
+    
+
+                <!-- End Alter Header -->
+            </div>
+
+            
+
+            <div class="content stackparsys">
+    
+    
+    
+
+
+    <div class="section resImageText">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="thumbnail">
+                    <img alt="" src="/lec/public/event/image/16by5/2"/>
+
+                    <h1 class="overlayText">Using Gmail and Google Calendar Effectively</h1>
+
+                    <div class="caption richtextContent">
+                        <div class="row">
+                            <div class="col-sm-8" style="margin-top: 15px;">
+                                <p>
+                                    
+                                    
+                                    
+                                        
+                                        <b>Cost:</b> Free<br/>
+                                        
+                                        
+                                        
+                                    
+                                </p>
+                                
+                                
+                            </div>
+                            <div class="col-sm-4" style="margin-top: 15px;">
+                                <div class="resButtons section" style="margin-bottom: 0;">
+                                    <div class="res-buttons">
+                                        <div class="buttonDefault">
+                                            
+                                            <div class="row">
+                                                <div class="row-height">
+                                                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                                                        <div class="inside inside-full-height" onclick="showContacts()" style="cursor: pointer;">
+                                                            <button type="button" class="btn btn-default btn-block" onclick="showContacts()">
+                                                                <span>Contact</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="row-height">
+                                                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                                                        <div class="inside inside-full-height" onclick="share()" style="cursor: pointer;">
+                                                            <button type="button" class="btn btn-default btn-block" onclick="share()">
+                                                                <span>Share</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                            <hr/>
+                            <div class="parbase resTable section">
+                                <div class="dataTables_wrapper dt-bootstrap no-footer">
+                                    <table aria-label="Begin Listing Results" class="table table-striped table-borderless dataTable no-footer" id="data_table_rel" role="grid" style="width: 100%;">
+                                        <thead>
+                                        <tr role="row">
+                                            
+                                            <th>Upcoming Dates</th>
+                                            
+                                            <th>Seats Remaining</th>
+                                            <th><span class="sr-only">Action Buttons</span></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        
+                                        <tr role="row">
+                                            <td colspan="3">
+                                                No upcoming
+                                                sections
+                                                are currently scheduled.
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        
+
+                        <hr/>
+                        <p><strong>Gmail and Google Calendar</strong> is available to all Ryerson students, faculty and staff, providing a complete web-based productivity solution including email, calendar, contacts, document editing, file storage, and more. It offers unlimited storage for your email and files, and the ability to access all your content from any device with an internet connection.</p><p>Since Ryerson offered G Suite for Education in 2012, more and more users and departments are fully utilizing the features G Suite has to offer.&nbsp;</p><p>This 2 hour Introduction to Gmail and Google Calendar training course focuses heavily on Gmail and Google Calendar, and provides a brief introduction to other G Suite applications.</p><ul><li>Sign in to your G Suite account</li><li>G Suite common interface, accessing apps and account settings</li><li>Overview of Gmail interface</li><li>Compose and send email in Gmail</li><li>Use labels and understand Conversation View in Gmail</li><li><strong>New Gmail features</strong> like Snooze, Nudges, and Hover Actions</li><li>Perform advanced search in Gmail</li><li>App integrations: Hangouts, Calendar, Keep, Tasks</li><li>Access Gmail settings</li><li>Create and organize contacts and contact groups</li><li>Overview of Google Calendar interface</li><li>Create calendar events, check free/busy status, and book resources</li><li>Subscribe to a coworker’s calendar</li><li>Access Google Calendar settings</li><li>Introduction to other apps of interest (Drive, Groups, “Even more from Google”)</li></ul><p><strong>***Please Note***:&nbsp;</strong>This hands-on course will require you to log into your own Ryerson Google Apps account (Ryerson Gmail, Google Calendar, or Google Drive, depending on the course).&nbsp;If you have enabled two-factor authentication for your Ryerson account, be sure to bring your device to this training to generate the one-time verification code so you can log in.&nbsp;This device is either your cell phone, your U2F key, or your one-time verification (OTV) device.</p><p><strong>Looking for other G Suite training opportunities? Visit the </strong><a href="https://www.ryerson.ca/google/training/" target="_blank"><strong>Gmail and G Suite Training</strong></a><strong> page.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" data-backdrop="static" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="shareModalLabel">Share</h4>
+                </div>
+                <div class="modal-body">
+                    <p>The buttons below will open an external link to the respective social media platform to share
+                        this event. Clicking the link below will copy the URL to paste elsewhere.</p>
+
+                    <div style="margin-bottom: 15px;">
+                        <div class="form-group">
+                            <div class="col-sm-8 form-text">
+                                <input id="wizlink" style="width:100%"/>
+                            </div>
+                            <div class="col-sm-4 form-text" style="display: none;" id="wizlinkhelp">
+                                Link copied!
+                            </div>
+                            <script type="text/javascript">
+                                /*<![CDATA[*/
+                                $(document).ready(function () {
+                                    var srcprefix = "https:\/\/hr.apps.ccs.ryerson.ca\/lec\/public\/event\/177";
+                                    var input = $('#wizlink');
+                                    input.val(srcprefix);
+
+                                    input.on('click', function () {
+                                        input.select();
+                                        document.execCommand("copy");
+                                        $('#wizlinkhelp').show().delay(1500).fadeOut();
+                                    })
+                                });
+                                /*]]>*/
+                            </script>
+                        </div>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://hr.apps.ccs.ryerson.ca/lec/public/event/177"
+                            target="_blank" class="btn btn-default">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i> Share To Facebook</a>
+
+                    <a href="http://twitter.com/intent/tweet?url=https://hr.apps.ccs.ryerson.ca/lec/public/event/177"
+                            target="_blank" class="btn btn-default">
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i> Share To Twitter</a>
+
+                    <a href="https://www.linkedin.com/shareArticle?url=https://hr.apps.ccs.ryerson.ca/lec/public/event/177"
+                            target="_blank" class="btn btn-default">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i> Share To LinkedIn</a>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        var share = null;
+
+        $(document).ready(function () {
+            share = function () {
+                $('#shareModal').modal('show');
+                $('#shareModalLabel').focus();
+            }
+        });
+
+        /*]]>*/
+    </script>
+
+    
+    <div class="modal fade" data-backdrop="static" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="contactModalLabel">Contacts</h4>
+                </div>
+                <div class="modal-body">
+
+                    
+                        <div class="row">
+                            <label for="c5683" class="col-sm-3 control-label">Contact:</label>
+                            <div id="c5683" class="col-sm-9" style="margin-bottom:15px;">
+                                <span><strong>Matthew Long</strong></span><br/>
+                                
+                                <span>InterlockIT</span><br/>
+                                
+                                <a target="_blank" href="mailto:matthew@interlockit.com?subject=Using Gmail and Google Calendar Effectively">matthew@interlockit.com</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="c6" class="col-sm-3 control-label">Contact:</label>
+                            <div id="c6" class="col-sm-9" style="margin-bottom:15px;">
+                                <span><strong>Amira Rezkalla</strong></span><br/>
+                                <span>G Suite Support Specialist</span><br/>
+                                <span>CCS, Academic Services</span><br/>
+                                
+                                <a target="_blank" href="mailto:amira.rezkalla@ryerson.ca?subject=Using Gmail and Google Calendar Effectively">amira.rezkalla@ryerson.ca</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="c22" class="col-sm-3 control-label">Contact:</label>
+                            <div id="c22" class="col-sm-9" style="margin-bottom:15px;">
+                                <span><strong>Jennifer Parkin</strong></span><br/>
+                                <span>Manager, IT Business Analysis</span><br/>
+                                <span>CCS, Office of the CIO</span><br/>
+                                
+                                <a target="_blank" href="mailto:jparkin@ryerson.ca?subject=Using Gmail and Google Calendar Effectively">jparkin@ryerson.ca</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        var showContacts = null;
+
+        $(document).ready(function () {
+            showContacts = function () {
+                $('#contactModal').modal('show');
+                $('#contactModalLabel').focus();
+            }
+        });
+
+        /*]]>*/
+    </script>
+
+
+</div>
+
+            
+
+            <div class="afterContent stackparsys"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- End Content -->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/static/layout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/rssfeed.css" type="text/css" media="all" />
+<link rel="icon" type="image/png"  href="/icons/msg-seen.png" />
+
+<!-- change title and metadata for each page here -->
+<title>Ryerson Computer Science Webmail Service</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<style type="text/css" title="text/css" media="all">
+img.logo {padding:1em 1em 0 1em;}
+label {font-weight: bold;}
+
+form.lookup div div {border-top:none;}
+
+table#login {padding:0; margin:0;}
+table#login td {vertical-align: top; padding:0.15em 1.5em 0 0;
+font-weight:bold; margin: 0.5em 0;}
+table#login td label {font-size:0.9em;}
+table#login td input {margin:0 0 0.5em 0;}
+</style>
+<script type="text/javascript">
+ <!--
+ var used = false; 
+ function init(){
+   if (self != top) top.location = self.location;
+   if (!used) document.getElementById('credentials').username.focus();  }
+ // -->
+</script>
+</head>
+<body class="home" onload="init()">
+<div id="skip"> <a
+href="#skip-content" accesskey="2">Skip to content</a> </div>
+<div id="header">
+<div id="branding">
+</div>
+</div>
+<div id="dept-title">
+<h1>Ryerson Computer Science Webmail Service Login</h1>
+</div>
+<div id="container"> <a name="skip-content" id="skip-content"></a>
+<div id="content">
+  <div id="content-primary">
+<form method="post" accept-charset="UTF-8" enctype="multipart/form-data"
+      action="https://webmail.cs.ryerson.ca" class="lookup" id="credentials">
+<fieldset>
+<div>
+<table id="login"><tr>
+<td><label for="username">Username</label>
+</td>
+<td class="second">
+<input id="username" name="username" value="" size="16"
+       onfocus="used=true;" />
+</td>
+</tr><tr>
+<td><label for="password">Password</label></td>
+<td class="second">
+<input type="password" id="password" name="password" size="16"
+       onfocus="used=true;" />
+ &nbsp;&nbsp;
+<input type="submit" name="login" value="Login" /></td>
+</tr></table>
+</div>
+</fieldset>
+</form>
+<html>
+<body>
+<centre><img src="./icons/csryelogo.gif" alt="Department of Computer Science Webmail" /><br /></centre>
+</body></html>
+
+</div>
+</div>
+</div>
+</body></html>

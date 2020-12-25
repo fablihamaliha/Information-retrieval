@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html lang="en-US" id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en-US" id="ie7" class="lt-ie9 lt-ie8 no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en-US" id="ie8" class="lt-ie9 no-js">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<title> Accessible Format Request Form | Ryerson University Library and Archives</title>
+	<meta charset="UTF-8">
+    <link href="//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library2012//js/jquery-1.5.2.min.js"></script>;
+	
+	
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style_ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv-printshiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/respond.min.js"></script>
+	<![endif]-->
+	
+		<!--[if IE]>
+			<style>
+			.item {
+			margin: 5px;
+			padding: 5px;
+			}
+			</style>
+		<![EndIf]-->
+		<style type="text/css">
+			em {
+				color:#AA0000;
+				font-weight:bold;	
+			}
+			
+			.form_error {
+				background-color: #FFF0F5;
+				border: 1px solid red;
+				color: red;
+			}
+			
+			.form_success {
+			
+			}
+		</style>
+	
+</head>
+
+<body class="left-sidebar two-column">
+<div id="page">
+	<header id="branding" role="banner">
+            <div id="sitename">
+                <div class="skip-link"><a class="assistive-text" href="#access">Skip to main menu</a></div>
+                <a href="http://library.ryerson.ca/"><img src="https://library.cf.ryerson.ca/Templates/Library2012/images/RULA_logo.png" alt="Ryerson University Library &amp; Archives" /></a>
+            </div> <!-- end div logo_images -->
+            <div id="askushead"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822&referrer=http%3A//library.ryerson.ca/info/contactus/&bId=16"><img src="http://library.ryerson.ca/wp-content/themes/rula/images/ask_us_libguides_sm.png" alt="Need Help? Ask Us"></a></div>
+ 			<div style="clear: both;"></div>
+
+<nav id="access" role="navigation">
+	<h3 class="assistive-text">Main menu</h3>
+	<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to content">Skip to content</a></div>
+	<div id="top-nav">
+		<ul id="top-nav-list">
+			<li id="menu-item-449" class="menu-item"><a title="Library Catalogue for Books, Media, Journals" href="http://catalogue.library.ryerson.ca/">Catalogue</a></li>
+			<li id="menu-item-448" class="menu-item"><a href="http://library.ryerson.ca/guides">Research Help</a></li>
+			<li id="menu-item-447" class="menu-item"><a title="Browse the list of Databases and Indexes" href="http://library.ryerson.ca/articles/">Articles</a></li>
+			<li id="menu-item-831" class="menu-item"><a title="List of Library Services" href="http://library.ryerson.ca/services/">Services</a></li>
+			<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About the Library" href="http://library.ryerson.ca/info/">About Us</a></li>
+			
+			<li id="menu-item-443" class="menu-item menu-item-has-children"><a title="Special and Digital Collections" href="http://library.ryerson.ca/collections/">Collections &#9660</a>
+				<ul class="sub-menu">
+					<li id="menu-item-20" class="menu-item"><a href="http://library.ryerson.ca/asc/">Archives and Special Collections</a></li>
+					<li id="menu-item-442" class="menu-item"><a title="GeoData Maps &amp; Statistics" href="http://library.ryerson.ca/gmdc">GeoData Maps &#038; Statistics</a></li>
+					<li id="menu-item-444" class="menu-item"><a title="Ryerson&#8217;s Institutional Repository" href="http://library.ryerson.ca/collections/digital-commons/">RULA Digital Repository</a></li>
+				</ul>
+			</li>
+			<li class="menu-item menu-item-search">
+				<!-- Search this Site Section -->
+				<form id="sitesearch" role="search" name="sitesearch" method="get" action="http://search.ryerson.ca/search"> 
+					<input type="hidden" name="site" value="Library" /> 
+					<input type="hidden" name="output" value="xml_no_dtd" /> 
+					<input type="hidden" name="client" value="default_frontend" />								
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<label for="sitesearchbox" class="assistive-text">Search the Library website</label>
+					<input type="search" id="sitesearchbox" name="q" maxlength="255" value="Search the Library Website" onClick="if(this.value=='Search the Library Website') {this.value='';}"/> 
+					<input type="image" src="http://library.ryerson.ca/wp-content/themes/rula/images/search_icon_small.png" alt="Submit Search"  /> 
+				</form> 
+			</li>
+			<li style="clear:both;border:0;"></li>
+		</ul>
+	<div style="clear:both;"></div>
+	</div>
+</nav><!-- #access -->
+			
+			
+	</header><!-- #branding -->
+<!--  End of: Main Navigation -->
+
+
+
+
+
+<div id="primary" class="">
+    
+         <div class="breadcrumbs"><a href="https://library.ryerson.ca">Library</a> &raquo; <a href="https://library.ryerson.ca/services/">Services</a> &raquo; <a href="https://library.ryerson.ca/services/disabilities/">Services for Persons with Disabilities</a> &raquo; Accessible Format Request Form</div>
+        
+		
+		<h1>Accessible Format Request Form</h1>				
+		
+			
+			<form method="POST" action="" enctype="multipart/form-data" name="access-form">
+				<p><i>Note:</i> If you have other accessible format requests you
+				will have to fill in this form for each one separately.</p><br />
+
+				<p ><i>Mandatory fields marked with <em>*</em></i></p>
+
+				<p>This service is only available to students who are registered with Academic Accommodation Support.<br />
+				Are you registered with Academic Accommodation Support?</p>
+				
+				<input id="acm" name="acm" value="yes" type="checkbox" required="required" />
+				<label for="acm"><em>*</em> Yes, I am registered with Academic Accommodation Support</label>
+				<br /><br />
+
+				<fieldset id="mainfields" style="display: none;">
+					<legend>Remaining Required Information</legend>
+					<label for="an"><em>*</em> <strong>Please enter the first and last name of your Facilitator:</strong></label><br />
+					<input id="an" type="text" name="an"  size="50" required="required" /><br /><br />
+					
+					<label for="fn"><em>*</em> <strong>Your First Name:</strong></label><br />
+					<input id="fn" type="text" name="fn"  size="50" required="required" /><br /><br />
+					<label for="ln"><em>*</em> <strong>Your Last Name:</strong></label><br />
+					<input id="ln" type="text" name="ln"  size="50" required="required" /><br /><br />
+									
+					<label for="em"><em>*</em> <strong>E-Mail Address:</strong></label><br />
+					<input id="em" type="email" name="em" size="50"  required="required" /><br /><br />
+					
+					<label for="f"><em>*</em> <strong>Desired File Format:</strong></label><br />
+					<select id="f" name="f" required="required">
+						<option value="">-- Please select --</option>
+						<option value="e-text_Word"  >e-text Word</option>
+						<option value="e-text_PDF"  >e-text PDF</option>
+						<option value="Braille_grade1"  >Braille grade 1</option>
+						<option value="Braille_grade2"  >Braille grade 2</option>
+					</select><br /><br />
+					
+					<label for="s"><strong>Which Software will you be using it with?:</strong></label><br />
+					<input id="s" type="text" name="s" size="50"  /><br /><br />
+					
+					
+						
+						<div style="border: 1px solid lightgrey; padding: 1em;">
+						
+							<div style="float: left; margin-right: 2em;">
+								<label for="cc1"><em>*</em> <strong>Course Code:</strong></label><br />
+								<input id="cc1" type="text" name="cc1" size="20"  required="required" />
+							</div>
+							
+							<label for="cs1"><em>*</em> <strong>Course Section:</strong></label><br />
+							<input id="cs1" type="text" name="cs1" size="20"  required="required" /><br /><br />
+							
+							<label for="cn1"><em>*</em> <strong>Course instructor's name:</strong></label><br />
+							<input id="cn1" type="text" name="cn1" size="50"  required="required" /><br /><br />
+							
+							<p>Do you know the specific title(s) of textbook(s) or reading(s) you need?<br /></p>
+							<input id="rd1Y" name="rd1" value="yes" type="radio" />
+							<label for="rd1Y">Yes, I have these details.</label>&nbsp;&nbsp;
+							
+							<input id="rd1N" name="rd1" value="no" type="radio" />
+							<label for="rd1N">No, I do not have these details.<br /><br /></label>
+							
+							<div id="resourceDetails1" style="display: none;">
+								
+		
+									<label for="t1_1"><em>*</em> <strong>Title:</strong></label><br />
+									<input id="t1_1" type="text" name="t1_1" size="50"  /><br /><br />
+					
+									<label for="a1_1"><em>*</em> <strong>Author:</strong></label><br />
+									<input id="a1_1" type="text" name="a1_1" size="50"  /><br /><br />
+									
+									<label for="i1_1"><strong>ISBN:</strong></label><br />
+									<input id="i1_1" type="text" name="i1_1" size="49"  /><br /><br />
+									
+									<label for="y1_1"><em>*</em> <strong>Copyright or publication year (YYYY):</strong></label><br />
+									<input id="y1_1" type="text" name="y1_1" size="50"  /><br /><br />
+								
+								<div id="rInsertPoint1"></div>
+									
+								<button type="button" name="nr1" id="nr1"><b>+</b> Add another reading for this course.</button><br /><br />
+								<input type="hidden" name="rNum1" value="1" id="rNum1">
+							</div>
+						</div>
+						<br />
+					
+					
+					<div id="cInsertPoint"></div>
+					
+					<button type="button" name="newCourse" id="newCourse"><b>+</b> Add readings for a different course.</button><br /><br />
+					<input type="hidden" name="courseNum" value="1" id="courseNum">
+					
+					<p>I acknowledge that I own a printed copy of the textbook, 
+					and that I am registered in the class the textbook is to be 
+					adapted	for use in.</p> 
+					
+					<p>I also acknowledge that I am aware that production of my 
+					material may not begin until I bring my printed copy of
+					the text or proof of purchase to the Library's circulation 
+					desk, to the attention of Kraigen Brown.</p>
+	
+					<input type="checkbox" name="agree" value="yes" required="required" />
+					<label for="agree"><em>*</em> <strong>You have read and agree to the above terms.</strong></label><br /> <br />
+					
+					Please prove you are human and answer the question below. <br />
+					<label for="v"><em>*</em> <strong>If you write 3 directly next to 6 on a paper, what number did you write?</strong></label><br />
+					<input id="v" type="text" name="v" size="10" required="required" /><br /><br />
+					
+					<input type="hidden" name="rnd" value="-70412767">
+					
+					
+					
+					<br />
+					<input id="submit_form" type="submit" name="submit_form" value="Submit" />
+				</fieldset>
+			</form>
+			
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var cCount = parseInt($('#courseNum').val());
+					
+					if ($("#acm").attr("checked")) {
+						$("#mainfields").show(0);
+					}
+					$("#acm").change(function() {
+						if ($("#acm").attr("checked")) {
+							$("#mainfields").show(300);
+						} else {
+							$("#mainfields").hide(300);
+						}
+					});
+					
+					$("#newCourse").click(function() {
+						cCount++;
+						$("#cInsertPoint").append('<div style="border: 1px solid lightgrey; padding: 1em;">' +
+							'<div style="float: left; margin-right: 2em;">' +
+							'	<label for="cc'+cCount+'"><em>*</em> <strong>Course Code:</strong></label><br />' +
+							'	<input id="cc'+cCount+'" type="text" name="cc'+cCount+'" size="20" required="required" />' +
+							'</div>' +
+							
+							'<label for="cs'+cCount+'"><em>*</em> <strong>Course Section:</strong></label><br />'+
+							'<input id="cs'+cCount+'" type="text" name="cs'+cCount+'" size="20" required="required" /><br /><br />'+
+							
+							'<label for="cn'+cCount+'"><em>*</em> <strong>Course instructor\'s name:</strong></label><br />'+
+							'<input id="cn'+cCount+'" type="text" name="cn'+cCount+'" size="50" required="required" /><br /><br />'+
+							
+							'<p>Do you know the specific title(s) of textbook(s) or reading(s) you need?<br /></p>'+
+							'<input id="rd'+cCount+'Y" name="rd'+cCount+'" value="yes" type="radio" />'+
+							'<label for="rd'+cCount+'Y">Yes, I have these details.</label>&nbsp;&nbsp;'+
+							
+							'<input id="rd'+cCount+'N" name="rd'+cCount+'" value="no" type="radio" />'+
+							'<label for="rd'+cCount+'N">No, I do not have these details.<br /><br /></label>'+
+							
+							'<div id="resourceDetails'+cCount+'" style="display: none;">'+
+							'	<label for="t'+cCount+'_1"><em>*</em> <strong>Title:</strong></label><br />'+
+							'	<input id="t'+cCount+'_1" type="text" name="t'+cCount+'_1" size="50" /><br /><br />'+
+				
+							'	<label for="a'+cCount+'_1"><em>*</em> <strong>Author:</strong></label><br />'+
+							'	<input id="a'+cCount+'_1" type="text" name="a'+cCount+'_1" size="50" /><br /><br />'+
+								
+							'	<label for="i'+cCount+'_1"><strong>ISBN:</strong></label><br />'+
+							'	<input id="i'+cCount+'_1" type="text" name="i'+cCount+'_1" size="49" /><br /><br />'+
+								
+							'	<label for="y'+cCount+'_1"><em>*</em> <strong>Copyright or publication year (YYYY):</strong></label><br />'+
+							'	<input id="y'+cCount+'_1" type="text" name="y'+cCount+'_1" size="50" /><br /><br />'+
+							
+							'	<div id="rInsertPoint'+cCount+'"></div>'+
+								
+							'	<button type="button" name="nr'+cCount+'" id="nr'+cCount+'"><b>+</b> Add another reading for this course.</button><br /><br />'+
+								
+							'	<input type="hidden" name="rNum'+cCount+'" value="1" id="rNum'+cCount+'">'+
+							'</div>'+
+							'</div><br />');
+						$("#courseNum").attr('value', cCount);
+					});
+					
+					$("[type=button][name!=newCourse]").live("click", function() {
+						var cNum = $(this).attr("id").substr(2);
+						var rCount = parseInt($('#rNum' + cNum).val());
+						
+						rCount++;
+						$("#rInsertPoint" + cNum).append(
+							'<label for="t'+cNum+'_'+rCount+'"><em>*</em> <strong>Title:</strong></label><br />'+
+							'<input id="t'+cNum+'_'+rCount+'" type="text" name="t'+cNum+'_'+rCount+'" size="50" /><br /><br />'+
+				
+							'<label for="a'+cNum+'_'+rCount+'"><em>*</em> <strong>Author:</strong></label><br />'+
+							'<input id="a'+cNum+'_'+rCount+'" type="text" name="a'+cNum+'_'+rCount+'" size="50" /><br /><br />'+
+								
+							'<label for="i'+cNum+'_'+rCount+'"><strong>ISBN:</strong></label><br />'+
+							'<input id="i'+cNum+'_'+rCount+'" type="text" name="i'+cNum+'_'+rCount+'" size="49" /><br /><br />'+
+								
+							'<label for="y'+cNum+'_'+rCount+'"><em>*</em> <strong>Copyright or publication year (YYYY):</strong></label><br />'+
+							'<input id="y'+cNum+'_'+rCount+'" type="text" name="y'+cNum+'_'+rCount+'" size="50" /><br /><br />'
+						);
+						
+						$("#rn" + cNum).attr('value', rCount);
+					});
+					
+					$.each($('[type=radio][value="yes"]'), function(idx, itm) {
+						if ($(this).attr("checked")) {
+							var num = $(this).attr("name").substr(2);
+							
+							$("#resourceDetails" + num).show(0);
+						}
+					});
+					
+					$('[type=radio][value="yes"]').live("click", function() {
+						var num = $(this).attr("name").substr(2);
+						
+						$("#resourceDetails" + num).show(300);
+						$.each($("#resourceDetails" + num + " > input[type!=hidden][size='50']"), function(idx, itm) {
+							$(itm).attr("required", "required");
+						});
+					});
+					
+					$('[type=radio][value="no"]').live("click", function() {
+						var num = $(this).attr("name").substr(2);
+						
+						$("#resourceDetails" + num).hide(300);
+						$.each($("#resourceDetails" + num + " > input[type!=hidden]"), function(idx, itm) {
+							$(itm).removeAttr("required", "required");
+						});
+					});
+				});
+			</script>
+			
+</div>  
+
+
+    <div id="secondary">
+            
+			<h3><a href="https://library.ryerson.ca/services/disabilities/">Services for Persons with Disabilities</a></h3>
+			<ul class="navlist">
+				<li class="navitem"><img src="https://library.cf.ryerson.ca/forms/accessform/banner.jpg" width="200" alt="Accessible Format Request Form" /></li>
+				
+				<li class="navitem"><a href="http://library.ryerson.ca/services/disabilities/accessibility/">Accessible Format Production Centre</a></li>
+				<li class="navitem"><a href="http://library.ryerson.ca/services/disabilities/closed/">Closed Caption Media</a></li>
+			</ul> 
+		
+    </div>
+    
+       
+  		<footer id="colophon" role="contentinfo">
+            <div id="footer"> 		
+				<p> 
+					<a href="http://library.ryerson.ca">Home</a> | <a href="/info/accessibility" data-ga-event="Footer,Link,Accessibility">Accessibility </a> | <a href="/contactus" data-ga-event="Footer,Link,Contactus">Contact Us</a> | <a href="http://library.ryerson.ca/copyright" data-ga-event="Footer,Link,Copyright">Copyright</a> | <a href="/siteindex">Site Index</a> |  
+                    <a href="http://www.facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371?ref=mf" data-ga-event="Footer,SocialMedia,Facebook"><img src="//library.ryerson.ca/wp-content/themes/rula/images/facebook_icon.gif" alt="Facebook" title="Facebook" /></a> 
+                    <a href="http://www.twitter.com/ryersonlibrary" data-ga-event="Footer,SocialMedia,Twitter"><img src="//library.ryerson.ca/wp-content/themes/rula/images/twitter_icon.png" alt="Twitter" width="16" height="16" /></a> 
+                    <a href="http://www.flickr.com/photos/ryersonlibrary" data-ga-event="Footer,SocialMedia,Flickr"><img src="//library.ryerson.ca/wp-content/themes/rula/images/flickr_icon.gif" alt="Flickr" width="16" height="16" /></a> 
+                    <a href="http://www.youtube.com/user/ryersonlibrary/videos" data-ga-event="Footer,SocialMedia,Youtube"><img src="//library.ryerson.ca/wp-content/themes/rula/images/youtube_icon.png" alt="YouTube" width="16" height="16" /></a>
+                    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=46e7ea505e28c621582d37a391b705d6&_render=rss" data-ga-event="Footer,SocialMedia,RSS"><img src="//library.ryerson.ca/wp-content/themes/rula/images/feed_icon.png" alt="RSS Feed" width="16" height="16" /></a> | 
+                                    &copy;2015 <a href="http://www.ryerson.ca/" data-ga-event="Footer,SocialMedia,RU"><img src="//library.ryerson.ca/wp-content/themes/rula/images/RUfooter_logo.gif" alt="Ryerson University" width="114" height="20" /></a>
+				</p> 
+			</div>
+    </footer> 
+	</div><!-- page -->
+
+	<script type="text/javascript"> 
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+        var pageTracker = _gat._getTracker("UA-890753-3");
+        pageTracker._trackPageview();
+    </script>
+
+
+</body>
+</html>

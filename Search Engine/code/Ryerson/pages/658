@@ -1,0 +1,97 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+<script type="text/javascript" src="/scripts/features.js">
+</script>
+
+<title>AirPAC</title>
+<meta name="viewport" content ="width=device-width">
+<link rel="apple-touch-icon" href="/screens/apple-touch-icon.png"/>
+</head>
+<body>
+<!-- begin toplogo.html file -->
+<div class="header">
+  <div class="headerlogo">
+    <a href="/search"><img alt="WebPAC Mobile" src="/screens/logo.gif"/></a>
+  </div>
+  <div class="headeraccount">
+    <a href="/patroninfo"><img src="/screens/ret2prec.gif"/></a>
+  </div>
+</div>
+<div id="bibShowMore" class="sourceText"><!--Show more copies--></div>
+<div id="noitems" class="sourceText"><!--None available--></div>
+<div id="found1" class="sourceText"><!--found--></div>
+<div id="found2" class="sourceText"><!--in--></div>
+<script type="text/javascript">
+<!-- Hide the JS. Override initSort here.
+function initSort() {
+;
+}
+-->
+</script>
+
+<!--end toplogo.html-->
+
+<!--this is customized <screens/mainmenu.html>-->
+<div class="content">
+  <div class="searchBoxArea">
+    <form class="unpadded" action="/search/" method="get" name="search" id="search">
+      <p>Search the library catalog:</p>
+      <input type="hidden" name="searchtype" value="Y"/>
+      <input name="searcharg" class="box"/>
+      <p></p>
+      <input type="image" src="/screens/submit.gif" name="submit" alt="search"/>
+    </form>
+  </div>
+</div>
+
+
+<!-- begin botlogo.html file -->
+
+<ul class="footer">
+<li><a href="http://catalogue.library.ryerson.ca/search">Catalogue Search (full version)</a></li>
+<li><a href="/screens/libinfo_01.html">Library Information</a></li>
+<li><a href="http://www.ryerson.ca/library">Main Site</a></li>
+</ul>
+<!--<ul class="footerLang"> -->
+<!--<li><a href="/*cht">&#32321;&#39636;&#20013;&#25991;</a></li> -->
+<!--<li><a href="/*chx">&#31616;&#20307;&#20013;&#25991;</a></li>  -->
+<!--<li><a href="/*frf">Fran&#231;ais</a></li> -->
+<!--<li><a href="/*spi">Espa&#241;ol</a></li> -->
+<!--<li><a href="/">English</a></li>
+</ul>-->
+<script type="text/javascript">
+<!-- Hide the JS
+try{
+	replaceClassesByParentID("checkout_form", "input", "submit", "buttonHidden", 2);
+	replaceClassesByParentID("hold_form", "input", "submit", "buttonHidden", 2);
+}
+catch (err){
+}
+try{
+	initBrowseSearch();
+}
+catch (err){
+}
+-->
+</script>
+
+<!-- end botlogo.html file -->
+
+
+<script type="text/javascript">
+<!-- Hide the JS
+	setTimeout("finalPreload()",1);
+-->
+</script>
+<span style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; visibility: visible; font-size: 85%; text-align: center; display: block; ">AirPAC &copy; Innovative Interfaces, Inc.</span>
+</body>
+</html>
+
+

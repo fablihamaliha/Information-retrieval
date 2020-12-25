@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" >
+<head><script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content=""> 
+    <meta name="description" content=""> 
+    <title>Career Opportunities</title>
+
+
+     <link rel="stylesheet" href="/template_components/9602/css/clientlibs.min.css" type="text/css">
+    
+    <script type="text/javascript" src="/template_components/9602/js/clientlibs.min.js"></script>
+
+	<script type="text/javascript">
+        var $theme = jQuery.noConflict();
+    </script>
+   
+	<link id="scriptGenMainPrintCSS" href="/template_components/9602/css/print.css" rel="stylesheet" type="text/css" media="print"> 
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['userID']=true;
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['passwd']=true;
+/* ]]> */</script>
+<script type="text/javascript">
+<!--
+    _CF_checklogin = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+        //form element userID required check
+        if( !_CF_hasValue(_CF_this['userID'], "TEXT", true ) )
+        {
+            _CF_onError(_CF_this, "userID", _CF_this['userID'].value, "Please enter your my.ryerson Username!");
+            _CF_error_exists = true;
+        }
+
+        //form element passwd required check
+        if( !_CF_hasValue(_CF_this['passwd'], "PASSWORD", true ) )
+        {
+            _CF_onError(_CF_this, "passwd", _CF_this['passwd'].value, "Please enter your my.ryerson Password!");
+            _CF_error_exists = true;
+        }
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head>
+
+ 
+
+
+<body>
+
+<div class="siteWrapper">
+	<div class="pageWrapper">
+     
+    <div class="globalNavigation">
+        <a href="/" class="globalLogo"><img src="/template_components/9602/images/ryerson_logo.png" width="89" height="43" alt="Ryerson University" title="Ryerson University"/></a>
+        <div class="searchArea">
+        <div class="globalLinks"><a href="https://my.ryerson.ca/">my.ryerson.ca</a>&nbsp; | &nbsp;<a href="/contact">Directory</a></div>
+        <div id="searchwrapper">
+            <form method="GET" action="http://search.ryerson.ca/search"> 
+                <input name="site" value="default_collection" type="hidden" /> 
+                <input name="output" value="xml_no_dtd" type="hidden" /> 
+                <input name="client" value="default_frontend" type="hidden" /> 
+                <input name="proxystylesheet" value="default_frontend" type="hidden" /> 
+                <label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="q">Search Ryerson.ca</label>
+                <label style="clip: rect(1px, 1px, 1px, 1px); position: absolute;" for="i">Submit Search</label> 
+                <input type="text" placeholder="Search Ryerson.ca" id="q" name="q" class="searchbox">
+                <input type="image" alt="Submit Search" value="" class="searchbox_submit" id="i" src="/template_components/9602/images/submit.png"> 
+            </form>
+        </div>
+        </div>
+    </div>
+          
+	<div class="parbase header">    
+    
+ 
+<link rel="stylesheet" type="text/css" href="/template_components/9602/css/superfish.css"/>
+
+<style type="text/css">
+.sf-menu{
+	margin-top:-50px;
+}
+        
+
+.siteHeaderContainer {
+    background-image:url("/ams/images/web-banner200.jpg");
+    height: 150px;
+    width:960px;
+    position: relative;
+    background-color:#333333;
+}
+
+.siteHeaderContainer h1 {
+    color: #FFF; 
+    font-family: UniversCondensed;
+    font-size: 60px;
+    font-weight: bold;
+    position:relative;
+    bottom:30px;
+    left:40px;
+    position: absolute;
+}
+
+
+
+.siteHeaderContainer .wayfinderNav ul li {
+    zoom:1;
+    color:#FFFFFF;
+    font-weight: bold;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    display:block;
+    padding:6px; 
+    padding-top:0px;
+    width:auto;
+    list-style-type: none;
+    display:inline;
+    position:relative;
+}
+.sf-menu ul li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.8;
+}
+.sf-menu li li li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    opacity:0.8;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+    color:#FFFFFF;
+    text-decoration: none;
+    border-right: none;
+    font-family: UniversCondensed, Arial;
+
+}
+
+.siteHeaderContainer .wayfinderNav ul li a {
+    color:#FFFFFF !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.siteHeaderContainer .siteNav {
+    zoom:1;
+    color: #ffffff;
+    width:960px;
+    height:50px;
+    bottom:0px;
+    filter:alpha(opacity=50)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.8;
+    vertical-align:middle;
+    text-align:center;
+    position: absolute;
+}
+
+#megaMenuContainer {
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    margin-top:-50px;
+}
+
+#megaMenu {
+    zoom:1;
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    filter:alpha(opacity=50)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.8;
+}
+
+.links {
+    zoom:1;
+    display: none;
+    background-color: #111111;
+    height: 0px;
+    position: absolute;
+    float: left;
+    width: 960px;
+    overflow: hidden;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.85;
+    top:361px;
+}
+
+.subLinks {
+    position: relative;  
+    color: #FFFFFF !important;
+    float: left;
+    padding-top: 15px;  
+    padding-bottom: 1000px;margin-bottom: -1000px;
+}
+
+.subLinks a {
+    color: #FFFFFF;
+    font-size: 15px;  
+    margin-left: 20%; 
+    text-decoration:none; 
+}
+    
+
+     
+.megaMenuColumn a.megaTitle{
+    color:#005a9c;
+    padding-top:25px;
+    font-weight:bold;
+
+}
+.megaMenuColumn a.megaSubTitle{
+    color:#FFFFFF;
+    padding-top:8px !important;
+
+}
+.megaMenuColumn div.subLinks{
+    background-color:#111111; 
+}
+
+</style>
+
+<!--[if IE 7]> 
+<style>
+.siteHeaderContainer .wayfinderNav ul li {
+    margin-left:5px;
+}
+.siteHeaderContainer .wayfinderNav {
+    position:relative;
+    top:40px;
+    left:15px;
+}
+
+.MainMenuSubMenuAdjustHeight{
+height:0px;
+}
+</style>
+<![endif]-->
+    
+
+     
+           
+<script type="text/javascript">
+     var updateMenuJSON = false;
+     var updateWayfinderJSON = false;
+     var fireCheckEvent = false;
+  function assembleTree(parentNode,dataArr){
+	  console.log(dataArr); 
+      var c;
+      for(c=0;c<dataArr.length;c++){
+          newNode = parentNode.appendChild({"text":dataArr[c].text,"expandable":true,"expanded":true,"leaf":true,"isMegaTitle":dataArr[c].isMegaTitle});
+          if(dataArr[c].children.length > 0){
+              assembleTree(newNode,dataArr[c].children); 
+          }
+      }
+  } 
+  
+  function getJson(treeNode) {
+	 // console.log("thisone");
+         treeNode.expandChildNodes();
+         var json = {};
+         //console.log(treeNode);
+         var attributes = treeNode.attributes;
+         for(var item in attributes){
+             if (item == 'src' || item == 'text' || item == "isMegaTitle") {
+                 //console.log(item + " : " + attributes[item]);   //only use required attributes
+                 json[item] = attributes[item];
+             }
+         }
+         json.children = [];
+         if(treeNode.childNodes.length > 0){
+             for (var i=0; i < treeNode.childNodes.length; i++) {
+                 json.children.push(getJson(treeNode.childNodes[i]));
+             }
+         }
+         return json;
+     }
+
+  function getMenuStyle(_elem, _style){
+      var computedStyle;
+      if (_elem != 'undefined' && (typeof _elem.currentStyle != 'undefined'))
+        { computedStyle = _elem.currentStyle; }
+      else
+        { computedStyle = document.defaultView.getComputedStyle(_elem, null); }
+
+      return computedStyle[_style];
+      
+    }
+</script> 
+
+<div class="siteHeaderContainer" style="top:0px;">
+	<img src="/template_components/9602/images/transparentimage.gif" alt="" style="top:0px;">
+	<div class="wayfinderNav">
+		<ul></ul>
+	</div>
+  
+    <a href="/ams"><h1>Career Opportunities</h1></a>
+      
+    <div class="siteNav"> </div> 
+      
+</div> 
+
+<div>
+	
+    <ul class="sf-menu sf-navbar">
+		
+            <li class="menuItem">
+                <a style="border-top:none;" class="menuDivider heightAdjust menuTextMain" href="http://www.ryerson.ca/jobs">Home</a>
+            </li>
+        
+    </ul>
+
+</div>
+
+
+
+
+<div class="MainMenuSubMenuAdjustHeight"></div>
+    
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var calcWidth = 0;
+    
+        jQuery('ul.sf-menu').supersubs({ 
+            minWidth:    12,   // minimum width of sub-menus in em units 
+            maxWidth:    27,   // maximum width of sub-menus in em units 
+            extraWidth:  1     // extra width can ensure lines don't sometimes turn over 
+                               // due to slight rounding differences and font-family 
+        }).superfish({
+            "speed":200,
+            "dropShadows":false, 
+            "autoArrows":true,
+            pathClass:'currentPathNav'
+        });
+    
+    
+                jQuery('.sf-menu > .menuItem').each(function(index) {
+                    calcWidth += parseInt(jQuery(this).width(), 10)+6;
+                }); 
+            jQuery('.sf-menu').css("width",calcWidth);
+            
+}); 
+</script> 
+
+
+</div>
+
+                  
+<div class="contentArea">
+
+	<script>
+    var returnVal = false;
+    function containsCurrPage(item){
+        
+        //returnval is being set to false on each recursi ve call
+        jQuery(item).each(function(k,v){
+           if(jQuery(v).attr('class') != undefined && jQuery(v).attr('class').indexOf("currPage") >= 0){
+               jQuery(v).children("ul").children("li").children("ul").each(function(x,xx){
+                   jQuery(xx).remove();
+               });
+                 returnVal = true;
+           }
+           
+           if(jQuery(v).children() != null && jQuery(v).children().length > 0){
+               jQuery(v).children().each(function(kk,vv){containsCurrPage(vv);});
+           }
+       });
+       return returnVal;
+    }
+    </script>
+    <div class="mt_mainContent" style="width:940px;">
+    <div class="center parsys"><div class="uiwText text parbase section">   
+    
+<div class="textComponent">
+	<div class="text">
+  <table width="100%" border="0" cellspacing="2" cellpadding="2" align="center">
+	  <tr valign="top">
+		<td width="45%">
+			<p><b>Please log in with your my.ryerson account or e-mail address.</b></p>
+			  <form name="login" id="login" action="/ams/al.cfm" method="post" onsubmit="return _CF_checklogin(this)">
+				<table  cellspacing="0" cellpadding="5">
+				  <tr>
+					<td align="right">User Name</td>
+					<td><input name="userID" id="userID"  type="text" size="30"  /></td>
+				  </tr>
+				  <tr>
+					<td align="right">Password</td>
+					<td><input name="passwd" id="passwd"  type="password" size="30"  /></td>
+				  </tr>
+				  <tr>
+					<td></td>
+					<td><input name="login" id="login"  type="submit" value="Submit" /></td>
+				  </tr>
+				</table>
+				<input name="post_id" id="post_id"  type="hidden" /><input name="FORWARD_URL" id="FORWARD_URL"  type="hidden" value="/ams/hrcp.cfm?" /><input name="RFAPostingID" id="RFAPostingID"  type="hidden" value="0" /><p style="color:#FF0000;"></p> </form>
+
+		</td>
+		<td width="10%"></td>
+		<td width="45%">
+			<p><b>External Candidate?</b></p>If you do not have a my.ryerson ID you can create an account to login and apply for jobs.<br /><br /><a href="?create">Create Account</a><br /><br /><br />
+			
+			<p><b>Having trouble logging in with your my.ryerson ID?</b></p> Visit CCS's <a href="https://www.ryerson.ca/ccs/services/applications/cas/login_help/" target="new_window">login help</a> page.<br /><br /><br />
+			
+			<p><b>Logging in with an e-mail address and can't remember your password?</b></p>
+			<a href="?password">Reset password</a>
+		</td>
+	  </tr>
+	</table>
+  
+  
+  
+	</div>
+	<div style="clear:both;"></div>
+</div>     
+</div>
+
+</div>
+              </div>
+	<div class="footer"> 
+        <div>
+			<script type="text/javascript">
+                var today = new Date();
+                var year = today.getFullYear();
+                document.write("&copy; " + year + " Ryerson University");
+            </script>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        </div>
+        <br>
+        <ul>
+            <li><a href="http://www.ryerson.ca/privacy/">Privacy Policy</a></li>
+            <li><a href="http://www.ryerson.ca/accessibility/">Accessibility</a></li>
+            <li><a href="http://www.ryerson.ca/ryerson.ca/terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+	</div>    
+
+    </div>     
+    </div> 
+</div>
+    <style media="print">
+        .mt_leftNav{
+            width:0px !important;
+        }
+        .mt_mainContent{
+        width:100.0%  !important;
+        }
+        .mt_rightFeature{
+        width:0.0%  !important;
+        }
+        .pageWrapper{
+                width:672px !important;
+        }
+        .mt_Footer{
+            width:100% !important;
+        }
+        .searchArea{
+            visibility:hidden !important;
+        }
+    </style>
+</body>    
+</html>

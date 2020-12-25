@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google-site-verification" content="cu53wEU2vLPtbNiK9HeBdFaUUmHl-05BvjNQ3u_HrwM" />
+    <meta name="title" content="Welcome to the Ryerson Library Archives &amp;amp; Special Collections - Archives &amp;amp; Special Collections" />
+<meta name="description" content="Access to memory - Open information management toolkit" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Welcome to the Ryerson Library Archives &amp;amp; Special Collections - Archives &amp;amp; Special Collections</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link media="all" href="/plugins/rulaArchivesPlugin/css/main.css" rel="stylesheet" type="text/css" />
+            <script src="/vendor/jquery.js" type="text/javascript"></script>
+<script src="/plugins/sfDrupalPlugin/vendor/drupal/misc/drupal.js" type="text/javascript"></script>
+<script src="/vendor/yui/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="/vendor/yui/element/element-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/button/button-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/container/container_core-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/menu/menu-min.js" type="text/javascript"></script>
+<script src="/vendor/modernizr.js" type="text/javascript"></script>
+<script src="/vendor/jquery-ui.js" type="text/javascript"></script>
+<script src="/vendor/jquery.ui.resizable.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery.expander.js" type="text/javascript"></script>
+<script src="/vendor/jquery.masonry.js" type="text/javascript"></script>
+<script src="/vendor/jquery.imagesloaded.js" type="text/javascript"></script>
+<script src="/vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<script src="/vendor/URI.js" type="text/javascript"></script>
+<script src="/vendor/meetselva/attrchange.js" type="text/javascript"></script>
+<script src="/js/qubit.js" type="text/javascript"></script>
+<script src="/js/treeView.js" type="text/javascript"></script>
+<script src="/js/clipboard.js" type="text/javascript"></script>
+<script src="/js/dominion.js" type="text/javascript"></script>
+  <script type="text/javascript">
+//<![CDATA[
+jQuery.extend(Qubit, {"relativeUrlRoot":""});
+//]]>
+</script></head>
+  <body class="yui-skin-sam staticpage home">
+
+    
+
+
+<header id="top-bar">
+
+    <a id="logo" rel="home" href="https://library.ryerson.ca" title=""><img alt="Ryerson University Library" src="/plugins/rulaArchivesPlugin/images/logo.png" /></a>  
+      <h1 id="site-name" class="hidden-tablet hidden-phone">
+      <a rel="home" title="Home" href="/index.php/"><span>Archives &amp; Special Collections</span></a>    </h1>
+  
+  <nav>
+
+    
+  <div id="user-menu">
+    <button class="top-item top-dropdown" data-toggle="dropdown" data-target="#"
+      aria-expanded="false">
+        Log in    </button>
+
+    <div class="top-dropdown-container">
+
+      <div class="top-dropdown-arrow">
+        <div class="arrow"></div>
+      </div>
+
+      <div class="top-dropdown-header">
+        <h2>Have an account?</h2>
+      </div>
+
+      <div class="top-dropdown-body">
+
+        <form action="/index.php/user/login" method="post">
+          <input type="hidden" name="next" value="https://archives.library.ryerson.ca/" id="next" />
+          <div class="form-item form-item-email">
+  <label for="email">Email <span class="form-required" title="This field is required.">*</span></label>
+  <input type="text" name="email" id="email" />
+  
+</div>
+
+          <div class="form-item form-item-password">
+  <label for="password">Password <span class="form-required" title="This field is required.">*</span></label>
+  <input type="password" name="password" autocomplete="off" id="password" />
+  
+</div>
+
+          <button type="submit">Log in</button>
+
+        </form>
+
+      </div>
+
+      <div class="top-dropdown-bottom"></div>
+
+    </div>
+  </div>
+
+
+    
+          <div id="language-menu" data-toggle="tooltip" data-title="Language">
+
+  <button class="top-item" data-toggle="dropdown" data-target="#" aria-expanded="false">Language</button>
+
+  <div class="top-dropdown-container">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Language</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+                  <li class="active">
+            <a href="/index.php/?sf_culture=en" title="English">English</a>          </li>
+                  <li>
+            <a href="/index.php/?sf_culture=fr" title="français">français</a>          </li>
+                  <li>
+            <a href="/index.php/?sf_culture=es" title="español">español</a>          </li>
+                  <li>
+            <a href="/index.php/?sf_culture=nl" title="Nederlands">Nederlands</a>          </li>
+                  <li>
+            <a href="/index.php/?sf_culture=pt" title="português">português</a>          </li>
+              </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    
+    
+    
+  </nav>
+
+  
+</header>
+
+
+<div id="search-bar" class="container">
+  <div class="row">
+    <div class="span2">
+      <div id="browse-menu">
+
+  <button class="top-dropdown" data-toggle="dropdown" data-target="#" aria-expanded="false">Browse</button>
+
+  <div class="top-dropdown-container top-dropdown-container-right">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Browse</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+        <li class="active leaf" id="node_browseInformationObjects"><a href="/index.php/informationobject/browse" title="Archival descriptions">Archival descriptions</a></li><li class="leaf" id="node_browseActors"><a href="/index.php/actor/browse" title="Authority records">Authority records</a></li><li class="leaf" id="node_browseRepositories"><a href="/index.php/repository/browse" title="Archival institutions">Archival institutions</a></li><li class="leaf" id="node_browseFunctions"><a href="/index.php/function/browse" title="Functions">Functions</a></li><li class="leaf" id="node_browseSubjects"><a href="/index.php/taxonomy/index/id/35" title="Subjects">Subjects</a></li><li class="leaf" id="node_browsePlaces"><a href="/index.php/taxonomy/index/id/42" title="Places">Places</a></li><li class="leaf" id="node_browseDigitalObjects"><a href="/index.php/informationobject/browse?view=card&amp;onlyMedia=1&amp;topLod=0" title="Digital objects">Digital objects</a></li>      </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    </div>
+    <div class="span10">
+      <div id="search-form-wrapper" role="search">
+
+  <h2>Search</h2>
+
+  <form action="/index.php/informationobject/browse" data-autocomplete="/index.php/search/autocomplete" autocomplete="off">
+
+    <input type="hidden" name="topLod" value="0"/>
+    <input type="hidden" name="sort" value="relevance"/>
+
+          <input type="text" name="query" value="" placeholder="Search"/>
+    
+    <button><span>Search</span></button>
+
+    <div id="search-realm" class="search-popover">
+
+      
+    </div>
+
+  </form>
+    <div class="search-realm-advanced">
+    <a href="/index.php/informationobject/browse?showAdvanced=1&topLod=0">
+      Advanced search&nbsp;&raquo;
+    </a>
+  </div>
+
+</div>
+    </div>
+  </div>
+</div>
+
+    
+    <div id="wrapper" class="container" role="main">
+
+      
+        
+      <div class="row">
+
+        <div class="span3">
+
+          <div id="sidebar">
+
+            
+  
+  
+  <section id="popular-this-week">
+
+  <h2>Popular this week</h2>
+  <ul>
+                <li><a href="/index.php/archives-4">Ryerson University Archives<strong>&nbsp;&nbsp;57 visits</strong></a></li>
+                <li><a href="/index.php/star-model-d-6-8-inch-alarm-check-valve">Star model &quot;D&quot; 6 &amp; 8-inch alarm check valve<strong>&nbsp;&nbsp;47 visits</strong></a></li>
+                <li><a href="/index.php/b-frank-stewart">B. Frank Stewart<strong>&nbsp;&nbsp;38 visits</strong></a></li>
+                <li><a href="/index.php/canadian-whites-comic-book-collection">Canadian Whites Comic Book Collection<strong>&nbsp;&nbsp;35 visits</strong></a></li>
+                <li><a href="/index.php/special-collections">Special Collections<strong>&nbsp;&nbsp;34 visits</strong></a></li>
+                <li><a href="/index.php/metropolitan-toronto-school-board-offices">Metropolitan Toronto School Board offices<strong>&nbsp;&nbsp;32 visits</strong></a></li>
+                <li><a href="/index.php/canadian-architect-magazine-fonds">Canadian Architect magazine fonds<strong>&nbsp;&nbsp;32 visits</strong></a></li>
+                <li><a href="/index.php/kodak-canada-corporate-archives-and-heritage-collection">Kodak Canada Corporate Archives and Heritage Collection<strong>&nbsp;&nbsp;32 visits</strong></a></li>
+                <li><a href="/index.php/nicholas-m-and-marilyn-graver-photographic-publications-collection">Nicholas M. and Marilyn A. Graver Photographic Publications Collection<strong>&nbsp;&nbsp;31 visits</strong></a></li>
+                <li><a href="/index.php/remembrance-day">Remembrance Day<strong>&nbsp;&nbsp;31 visits</strong></a></li>
+      </ul>
+
+</section>
+
+
+          </div>
+
+        </div>
+
+        <div class="span9">
+
+          <div id="main-column">
+
+              <h1>Welcome to the Ryerson Library Archives &amp; Special Collections</h1>
+
+            
+                          <div id="content">
+                
+
+
+<div class="page">
+  <p><div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><br/>    <span aria-hidden="true">×</span><br/>  </button><p></p><h2> Open for scheduled appointments only</h2><p>Due to COVID-19, the Ryerson Library Archives and Special Collections reading room is open for scheduled appointments only. Fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEFlq-EZYNNVSkvaDmrJ2rKGtIztuOjLkInx4b8AHSYof70w/viewform?usp=sf_link">Mediated Access Appointment Form</a> to make an appointment. For more information, email us at asc@ryerson.ca.</p>
+<p>The Library has also moved many services and most resources online. For more information, please visit: <a href="https://library.ryerson.ca/blog/2020/03/ryerson-library-resources-and-services-update/">Library Services and Resources Update.</a> For Ryerson campus information, visit: <a href="https://www.ryerson.ca/covid-19/">Ryerson COVID-19 Information and Updates.</a></p> </div>
+<div class="alert alert-info">
+<p></p><h2>A note on language in archival descriptions</h2>
+<p> Ryerson Library Archives &amp; Special Collections consists of historical items and records that may contain offensive, outdated language in their titles and descriptions, and/or may depict individuals or groups, particularly those who are marginalized, in a negative way. Maintaining these records, and making them available to students, researchers, and the public, is important to help to understand the historic and continued burden marginalised communities face.</p><p>We are actively working on updating archival descriptions to name instances of discrimination, contextualize records and use vocabulary that respects the people and events represented in the material. More information about this initiative can be found on <a href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">our website</a>.</p>
+</div>
+<div class="alert alert-success">
+<p></p><h2>Share your experience!</h2>
+<p> We are living in unprecedented times, Ryerson Archives invites the Ryerson community to submit your first hand experience of this epidemic through our <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIKgJ6JIRYYxvtiFxrR9Lys2IZ_IVJx1nnRY56dhDbi8UkZQ/viewform?usp=sf_link">"Covid-19 Ryerson Experience" portal</a>. Submit your text, image, or video documentation of your experience, to serve as the primary source research for future studies.</p>
+</div>
+<p><img src="/plugins/rulaArchivesPlugin/images/Ryerson_Hall_1948279.jpg" style="width: 100%;"></p>
+<p>The Archives serves as the institutional memory of the Ryerson community. The Archives appraises, preserves, and makes accessible a broad range of primary source materials which provide administrative, academic, fiscal, legal, social, and cultural record of Ryerson University.</p>
+<p>Special Collections was established to help support the learning and teaching needs and facilitate the scholarly, research and creative activities of the Ryerson community by acquiring and preserving photography, film and cultural history objects. We have a particular responsibility to help students and staff gain access to objects in niche subject areas and aid them in the interpretation of those objects.</p></p></div>
+
+              </div>
+            
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+    <footer>
+
+  
+  
+  <div id="print-date">
+    Printed: 2020-12-01  </div>
+
+</footer>
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-890753-20', 'auto');
+        ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

@@ -1,0 +1,1040 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-9', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/asc/xmlrpc.php" />
+
+  <title>blackface &#8211; Ryerson Archives &amp; Special Collections</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Feed" href="https://library.ryerson.ca/asc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Comments Feed" href="https://library.ryerson.ca/asc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; blackface Tag Feed" href="https://library.ryerson.ca/asc/tag/blackface/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='child-pages-shortcode-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/css/child-pages-shortcode.min.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/public.css?ver=2.7' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/lightGallery.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dashicons.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='galleria-classic-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.css?ver=1.6.1' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=9.2' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/js/child-pages-shortcode.min.js?ver=1.1.4' id='child-pages-shortcode-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/lightGallery.min.js?ver=1.0' id='slickr-flickr-lightbox-js'></script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/galleria-1.6.1.min.js?ver=1.6.1' id='galleria-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.min.js?ver=1.6.1' id='galleria-classic-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/responsiveslides.min.js?ver=1.54' id='rslides-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/public.js?ver=2.7' id='slickr-flickr-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=%2Fasc%2Ftag%2Fblackface%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/asc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/asc/wp-json/wp/v2/tags/230" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/asc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/asc/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/asc/custom-css/asc_style.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="blackface &#8211; Ryerson Archives &amp; Special Collections" />
+<meta property="og:url" content="https://library.ryerson.ca/asc/tag/blackface/" />
+<meta property="og:site_name" content="Ryerson Archives &amp; Special Collections" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@ryersonlibrary" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			#main {
+	margin-top: 1em;
+}
+span.h1 a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="archive tag tag-blackface tag-230">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Ryerson Archives and Special Collections will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/asc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/asc">Ryerson Archives &amp; Special Collections</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/asc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-site-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261 dropdown"><a title="Research" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Research <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a title="Conduct Research" href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a title="Collection Highlights" href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a title="Language in Archival Descriptions" href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a title="Search our Collections" href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6156 dropdown"><a title="Exhibitions &amp; Events" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Exhibitions &#038; Events <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6159"><a title="Current Exhibits" href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6160"><a title="Previous Exhibits" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/">Previous Exhibits</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157 dropdown"><a title="About Us" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About Us <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a title="Archives" href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a title="Special Collections" href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a title="Donations" href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a title="Hours &amp; Location" href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158 dropdown"><a title="More" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">More <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a title="Records Management" href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a title="Ryerson History" href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a title="Links" href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a title="COVID-19 Archives" href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			
+			
+			
+<article id="post-7749" class="post-7749 post type-post status-publish format-standard hentry category-sc tag-blackface tag-minstrelsy tag-photographs tag-racism tag-racist-images">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/" title="9:09 am" rel="bookmark"><time class="entry-date" datetime="2020-09-03T09:09:57-04:00" pubdate>September 3, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/askyrme/" title="View all posts by Alison" rel="author">Alison</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<h1>By Cheryl Thompson and Emilie Jabouin</h1>
+
+
+
+<h2>Introduction</h2>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>In 2019, I exhibited my SSHRC-Insight Development Grant-funded research, “Newspapers, Minstrelsy and Black Performance at the Theatre: Mapping the Spaces of Nation­Building in Toronto, 1870s to 1930s,” as part of RUBIX, a showcase celebration of the Scholarly Research and Creative (SRC) activity within the Faculty of Communication and Design. At this event, I met Alison Skyrme, Special Collections librarian at Ryerson who suggested that I drop by Special Collections to examine images of blackface in the Kodak Canada Archive.&nbsp;</p>
+
+
+
+<p>I was struck by her invitation because it happens so rarely. Despite the fact that blackface was a popular theatrical form of entertainment from the 1830s through 1960s, performed not only in the professional theatre and in Hollywood films, but also in communities at high schools, athletic clubs, hospitals, at retail, and even summer camps, most people want to hide their blackface artefacts, they do not invite Black researchers to interrogate them. And so, one afternoon in the fall of 2019, I and my graduate student, Emilie Jabouin, scoured through the Kodak Archive’s blackface repertoire. While the images were new to me, I had prior knowledge of the important role that Kodak played in the development of photography. </p>
+
+
+
+<p>The company, which stopped making digital cameras in 2012, was founded by George Eastman in 1888. At that time, the Eastman Kodak Company introduced on the mass market a box camera that allowed users to take their own photographs. For the first time, photography was quick, simple, and accessible. The Kodak box camera was the first commercially available product that allowed users to do little more than press a button to take their own pictures. Within a generation, millions of people were given the ability to produce their own images, they were no longer at the whim of a professional photographer’s stylistic choices in terms of dress, pose, and costume.&nbsp;</p>
+
+
+
+<p>With the proliferation of the photographic “snapshot,” images, and postcards, by the end of the nineteenth century, ideas about the power of photography created a new relationship between image and reality. For example, an advertisement appearing in the <a href="https://repository.duke.edu/dc/eaa/K0495"><em>Ladies’ Home Journal</em> </a>in 1897 declared, “Take a KODAK with You. Make the most of the lure of the first soft days of spring. Picture the parks and the fields and the woods. Let Kodak be your companion on every out-of-door day – twill [sic] give you a fuller joy in the day itself – and afterward the joy of possessing pictures of the places and people that you are interested in.”&nbsp;</p>
+
+
+
+<p></p>
+</div></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="7753" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/cd55dd08-d14c-4062-9772-87a442b694b2/" data-orig-file="https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2.jpeg" data-orig-size="525,800" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Take a Kodak with you! 1912 Advertisement" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-197x300.jpeg" data-large-file="https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-394x600.jpeg" loading="lazy" width="394" height="600" src="https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-394x600.jpeg" alt="Image of a 1912 advertisement for Kodak Cameras, featuring a photograph of a women in a white dress, carrying a Kodak camera and case, and the slogan &quot;Take a Kodak With You!&quot;." class="wp-image-7753" srcset="https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-394x600.jpeg 394w, https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-197x300.jpeg 197w, https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2-98x150.jpeg 98w, https://library.ryerson.ca/asc/files/cd55dd08-d14c-4062-9772-87a442b694b2.jpeg 525w" sizes="(max-width: 394px) 100vw, 394px" /><figcaption>Advertisement from the Ladies Home Journal, 1912. Image from the Duke Universities Library, John W. Hartman Center for Sales, Advertising &amp; Marketing History, Emergence of Advertising in America: 1850-1920 digital collection. Item number 429898.</figcaption></figure></div>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>The mass adoption of photography coincided with blackface’s popularization during vaudeville. Blackface minstrelsy began as a theatrical form of entertainment in New York, Boston, and Philadelphia in the 1830s and 1840s. From its outset blackface was performed by white, mostly male northern performers who crossed racial and gender boundaries by mimicking African Americans (e.g., they would wear bright red lipstick, darken their faces with coal-black make-up, exaggerate their facial expressions, and cross dress) in order to entertain audiences with the supposedly “authentic” music, humour, and dance ostensibly common on southern plantations.&nbsp;</p>
+
+
+
+<p>By the 1880s, the minstrel show had waned in popularity, but vaudeville theatre brought many of its conventions back through the reinvention of the stage into a variety show. When vaudeville appeared, it was unique because unlike the legitimate theatre, vaudeville acts came from all ethnic groups and genders, in all shapes and sizes, ranging from the “respectable” thespian to the circus “freak,” from burlesque to chorus performers. By the mid-1920s, there were no longer vaudeville theatres in Ontario, and a decade later, there was no vaudeville at all, but blackface performance continued.</p>
+
+
+
+<p>This is the sociocultural context that frames the images located within the Kodak Archive. By the 1920s, as blackface declined at the theatre, it was performed on an amateur, local level. The images discussed here range from 1920 to 1923. They predate feature ‘talking pictures’ such as <em>The Jazz Singer</em> (1927), starring Al Jolson in blackface. They were also taken after the First World War, the Spanish Influenza pandemic, and the fight for women’s suffrage – all of which came to their completion in the years between 1918 and 1919. These images reflect both a sentiment of celebration but also nostalgia for ‘simpler times.’</p>
+
+
+
+<p>With this context in mind, we explain how the Kodak Archive came to be, and also how to read images that, from today’s point of view are racist, but functioned at the time under a different guise; they functioned under the auspices of entertainment. How do you contend with such contradictions in the present? Why, and how, must we address the images’ latent racism today, resisting the desire to keep them hidden?&nbsp;</p>
+
+
+
+<p>By talking about these difficult images, we learn how to grapple with our contemporary moment when anti-Black racism still exists, and blackface is still adorned to mimic and defame Black bodies. Our intention is to encourage students, faculty, and researchers to engage with these images so that we can have much needed conversations about the production of racial difference and the anti-Black racism such acts engender.</p>
+</div></div>
+
+
+
+<h2>Kodak Blackface Records</h2>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>The Canadian Kodak Company (later Kodak Canada) arrived in Canada in 1899, and officially opened its offices on Colborne Street in Toronto in 1900. In 1921, the company moved its manufacturing facility to a location near Weston Road and Eglinton Avenue West, and from there, “Kodak Heights” manufactured cameras and other photography equipment, and employed 3,000 people at its peak. Like many companies of this era, Kodak had an athletics club. The Kodak Athletics Association (KAA) was an employee lead group within the company whose leadership was elected by employees. The association organized a variety of events, such as Christmas parties, ladies’ nights, drama club, and dances, in addition to bowling, hockey, volleyball, and softball leagues. The Kodak Heights KAA also organized blackface minstrel shows that can be found in the Kodak Archive.</p>
+
+
+
+<p>There are several themes that can be seen in the Kodak Archive’s blackface images. First, the images reveal a rich history of performing minstrel shows, and of the cultural importance they had for many Canadian families. The song and dance numbers, operas, orchestras, and the ways that these shows functioned as team building opportunities for employees were not unique to Kodak; this was common practice across corporate Canada. The shows were commemorated with formal portraits, and extensive reviews published in the employee newsletter, containing the blackface images. Of all the records, there are a few that stood out to us as examples of amateur blackface performance.</p>
+
+
+
+<p>In “First Annual Kodak Minstrel Show&#8221; (1920), a blackface cast with three white women, as well as two white men who are not in blackface captures what blackface ensembles in racial caricature looked like. What separated the characters in the minstrel show from each other were speech, dress, and geographic location. End-men played tambourine and bones (they were sometimes called Tambo and Brudder Bones) and were portrayed as being of lower class by costume and vernacular. These characters wore satin suits, oversized ties, and curly wigs, and they engaged in jokes and quips with the smartly attired white Interlocutor who commanded centre stage. The Interlocutor, sometimes called the middleman, did not wear blackface. He was a kind of mouthpiece for high culture: his dress and speech were upper class, and the plot usually centred on the End-men putting down the Interlocutor because it would have been funny to see “Black folks” on the plantation making fun of the “civilized” Northerner.&nbsp;</p>
+
+
+
+<p></p>
+</div></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img data-attachment-id="7757" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/2005-001-06-03-734/" data-orig-file="https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287.jpg" data-orig-size="1598,924" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;Business Graphics Datentechnik G&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="First Annual Kodak Minstrel Show" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-300x173.jpg" data-large-file="https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-600x347.jpg" loading="lazy" width="1598" height="924" src="https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287.jpg" alt="Item is a group portrait of a minstel show cast, post on stage, most of whom are white performers in blackface." class="wp-image-7757" srcset="https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287.jpg 1598w, https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-300x173.jpg 300w, https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-600x347.jpg 600w, https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-150x87.jpg 150w, https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-768x444.jpg 768w, https://library.ryerson.ca/asc/files/2005.001.06.03.734-scaled-e1598897144287-1536x888.jpg 1536w" sizes="(max-width: 1598px) 100vw, 1598px" /><figcaption>&#8220;First Annual Kodak Minstrel Show&#8221; (1920). Item number <a href="https://archives.library.ryerson.ca/index.php/kodak-minstrels" data-type="URL" data-id="https://archives.library.ryerson.ca/index.php/kodak-minstrels" target="_blank" rel="noreferrer noopener">2005.001.06.03.734</a> from the Kodak Canada Corporate Archives and Heritage Collection at the Ryerson University Library Archives and Special Collections</figcaption></figure></div>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>Both the American flag and the Union Jack are visible in the image. The American flag likely signaled that the content of the show originated there, while the Union Jack was commonly flown at this time in Canada. The Citizenship Act of 1946 demarcates the moment when Canadians were no longer considered British subjects. In 1965, the Canadian flag replaced the Union Jack as our national flag, then as part of the Centennial Year celebrations two years later, “O Canada” became the official national anthem. Hence, at the time of the Kodak Minstrels, Canadian society was profoundly British, though it was also, paradoxically, becoming increasingly patriotic. For example, in “Second Annual Kodak Minstrel Show, Burgess &amp; Seymour” (1921) two white men stand beside drawings of white women. One man is in blackface as an End Men, and the other, as Interlocutor, is not. One drawing captures a woman with a hat brimmed with the word “Canadian” while the other woman’s hat reads “Kodak.” This not only places the American company in Canada, it also marks Canadianness as something distinct, though culturally, it was quite undefined at this moment in our history.&nbsp;</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img data-attachment-id="7811" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/secondannualkodakminstrelshow/" data-orig-file="https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-scaled.jpg" data-orig-size="2560,1462" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;Business Graphics Datentechnik GmbH&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1573727740&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="SecondAnnualKodakMinstrelShow" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-300x171.jpg" data-large-file="https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-600x343.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-600x343.jpg" alt="" class="wp-image-7811" width="1283" height="733" srcset="https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-600x343.jpg 600w, https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-300x171.jpg 300w, https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-150x86.jpg 150w, https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-768x439.jpg 768w, https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-1536x877.jpg 1536w, https://library.ryerson.ca/asc/files/SecondAnnualKodakMinstrelShow-2048x1170.jpg 2048w" sizes="(max-width: 1283px) 100vw, 1283px" /><figcaption>&#8220;Second Annual Kodak Minstrel Show, Burgess &amp; Symour&#8221; (1921). Item number <a href="https://archives.library.ryerson.ca/index.php/kodak-minstrels" data-type="URL" data-id="https://archives.library.ryerson.ca/index.php/kodak-minstrels" target="_blank" rel="noreferrer noopener">2005.001.06.03.734</a> from the Kodak Canada Corporate Archives and Heritage Collection at the Ryerson University Library Archives and Special Collections</figcaption></figure></div>
+
+
+
+<p>“Third Annual Kodak Minstrel Show, Crystal Theatre&#8221; (1922) is a good example of the extent to which minstrel shows required detailed production, not just with actors in blackface but also musicians, stage set-up, make-up, dress, and costume design. This image is particularly striking because there is a child (between the sixth and seventh End Men, from left to right) who is also in blackface. The boy is dressed all in white, even his shoes. Because community blackface was so common, children were often used as part of the show and/or encouraged to attend. These were not censored events even as they are offensive to viewers today. Some questions that are important to think about in terms of this image are what kind of trauma was ingrained and normalized in this child? How did they process the mimetic racial play that was at work in the performance of blackface?&nbsp;&nbsp;</p>
+
+
+
+<p></p>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img data-attachment-id="7830" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/2005_001_06_03_743/" data-orig-file="https://library.ryerson.ca/asc/files/2005_001_06_03_743.jpg" data-orig-size="1420,1124" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="2005_001_06_03_743" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2005_001_06_03_743-300x237.jpg" data-large-file="https://library.ryerson.ca/asc/files/2005_001_06_03_743-600x475.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/2005_001_06_03_743-600x475.jpg" alt="" class="wp-image-7830" width="1056" height="846"/><figcaption>&#8220;Third Annual Kodak Minstrel Show, Crystal Theatre&#8221; (1922) Item Number <a href="https://archives.library.ryerson.ca/index.php/kodak-minstrels-crystal-theater" data-type="URL" data-id="https://archives.library.ryerson.ca/index.php/kodak-minstrels-crystal-theater" target="_blank" rel="noreferrer noopener">2005.001.06.03.743</a> from the Kodak Canada Corporate Archives and Heritage Collection, at the Ryerson University Library, Archives and Special Collections.</figcaption></figure>
+
+
+<p><span style="font-weight: 400;">Finally, in “Mount Department Minstrels at ‘Girls Night’ Frolic” (1923) nine women appear in blackface, as part of what was dubbed &#8220;An Adamless Evening&#8221;.&nbsp; At this event, women were encouraged to set aside convention and enjoy themselves without their husbands. Eight of them are in blackface dressed in overalls, straw field hats and handkerchiefs as End Men, and the one performing as the Interlocutor is not in blackface sitting on a chair. The performers are not only women in blackface, they are also in drag. Significantly, the minstrel show of the nineteenth century was for all intents and purposes the first drag variety show. Most minstrel troupes were men who wore blackface to sing, dance and tell jokes and while there were female characters, these were typically female impersonators, or as Marjorie Garber describes, “double crossover figures, men playing women, women playing blacks” (276). In this sense, blackface minstrelsy became a site where compulsory heterosexuality was challenged, even as women were also derided through impersonation and misogyny. Michael Rogin explains cross-dressing as challenging binary categories in two ways, “by locating pleasure in the in-between condition (woman dressed as man, white as black) and by parodying the supposedly natural identity” (31). In other words, cross-dressing in the blackface theatre signified not an either/or binary but an intersectional both/and which called into question the repressive gender categories of man and woman, white and black. As it relates to the KAA, however, such performances might have been just “play” or they might have similarly functioned as a form challenging gender roles that would have been derided in ‘real life’ in the 1920s.</span></p>
+<p></p>
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img data-attachment-id="7763" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/adamlessevening/" data-orig-file="https://library.ryerson.ca/asc/files/AdamlessEvening.jpg" data-orig-size="959,568" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Mount Department Minstrels at ‘Girls Night’ Frolic (1923)" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/AdamlessEvening-300x178.jpg" data-large-file="https://library.ryerson.ca/asc/files/AdamlessEvening-600x355.jpg" loading="lazy" width="959" height="568" src="https://library.ryerson.ca/asc/files/AdamlessEvening.jpg" alt="A group portrait of an all female, white minstrel show cast, 8 of whom are in blackface, one who is dressed in top hat and tails." class="wp-image-7763" srcset="https://library.ryerson.ca/asc/files/AdamlessEvening.jpg 959w, https://library.ryerson.ca/asc/files/AdamlessEvening-300x178.jpg 300w, https://library.ryerson.ca/asc/files/AdamlessEvening-600x355.jpg 600w, https://library.ryerson.ca/asc/files/AdamlessEvening-150x89.jpg 150w, https://library.ryerson.ca/asc/files/AdamlessEvening-768x455.jpg 768w" sizes="(max-width: 959px) 100vw, 959px" /><figcaption>&#8220;Mount Department Minstrels at &#8216;Girls Night&#8217; Frolic&#8221; published in the April 1923 edition of &#8220;At Kodak Heights&#8221;, the employee magazine published at the Canadian Kodak company in Toronto. Item number <a href="https://archives.library.ryerson.ca/index.php/at-kodak-heights-canadian-kodak-co" data-type="URL" data-id="https://archives.library.ryerson.ca/index.php/at-kodak-heights-canadian-kodak-co" target="_blank" rel="noreferrer noopener">2005.001.07.05.03</a> in the Kodak Canada Corporate Archives and Heritage Collection at Ryerson University Library, Archives and Special Collections.</figcaption></figure></div>
+
+
+
+<h2>How should we read these images?</h2>
+
+
+
+<p>The initial information about the Kodak Archive was that there was one image in the collection that was known by the Special Collections Library (the collection was processed by contract employees over a number of years), but the extent of the material was not known until a student exhibition, Kodak Canada: The Early Years 1899-1939, which took place at the Ryerson Image Centre. The coverage within the Kodak Heights newsletters was not identified until the dates for the minstrel shows were identified and those issues searched. In other words, the very reason why we have been able to make sense of these images in this collection is because Alison and others put in the work to connect the dots, so to speak, between the images and Canada’s history of blackface.&nbsp;</p>
+
+
+
+<p>These images are difficult. But 2020 has shown us that just because something is difficult does&nbsp; not mean that it should be ignored, minimized, and kept secret for fear that people will think, in this instance, that Ryerson’s Library and/or the University is ‘racist’ for simply having them in their possession. On the contrary, we would argue that in every library across Canada (and the United States) and in the personal collections of those Canadians who are over the age of 70, in particular, there exists blackface image(s) and/or amateur playbill(s) of local shows they either attended and/or participated in as children. The time is now to take these images out of the shadows and bring them into the light so that we can contend with this history that speaks more to who we are as Canadians than the myths people tell themselves to prevent from seeing the reality of the past for what it was – complicated, but also virulently anti-Black.&nbsp;</p>
+
+
+
+<p>As such, reading these images first requires that you engage with secondary sources (see the list below) to understand the sociocultural context of their production. Second, before labelling the images as racist and therefore feeling a sense of shame for even looking at them in the first place, take a breath, step back, and start asking questions about the image. Who is in the image? These images were taken at a time when Canada’s Black population was quite small, and companies like Kodak were undoubtedly all-white spaces. What did these performers know about Black people? If they did not know Black people, where did they draw their caricatures from? What is captured in the image, such as instruments, dress, footwear, etc.? What intersections of race, gender and class are at work? Where was the image placed on the page? Is there a heading? Are the names of the sitters listed, and if so, who are they?&nbsp;</p>
+
+
+
+<p>By asking yourself these questions, you begin the process of unpacking rather than reacting to difficult imagery. And by unpacking, you allow yourself to understand the production of racial difference and the ways in which mimicry not only disempowered the mimetic Other, it also disempowered the actor as it prevented them from seeing Black people as whole people – with lives, families and desires. It also prevented white people from acknowledging their own whiteness and privilege. Ultimately, these images of blackface in the Kodak Archive give us an opportunity to unpack white privilege, rather than declare its existence without understanding how it too, like race, is a social construct that, once identified and acknowledged, can be dismantled. It is only when we are all seen for who we are that we can truly lay the past to rest and move on toward a future based on equity and mutual respect. By unmasking Canada’s history of blackface, we believe we are taking a giant step toward achieving this goal.</p>
+
+
+
+<h2><strong>About the authors:&nbsp;</strong></h2>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="7768" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/cheryl_thompson/" data-orig-file="https://library.ryerson.ca/asc/files/Cheryl_Thompson.jpg" data-orig-size="1500,2253" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D4S&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1567000048&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;85&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.004&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Cheryl_Thompson" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Cheryl_Thompson-200x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/Cheryl_Thompson-399x600.jpg" loading="lazy" width="399" height="600" src="https://library.ryerson.ca/asc/files/Cheryl_Thompson-399x600.jpg" alt="Portrait of Dr. Cheryl Thompson" class="wp-image-7768" srcset="https://library.ryerson.ca/asc/files/Cheryl_Thompson-399x600.jpg 399w, https://library.ryerson.ca/asc/files/Cheryl_Thompson-200x300.jpg 200w, https://library.ryerson.ca/asc/files/Cheryl_Thompson-100x150.jpg 100w, https://library.ryerson.ca/asc/files/Cheryl_Thompson-768x1154.jpg 768w, https://library.ryerson.ca/asc/files/Cheryl_Thompson-1023x1536.jpg 1023w, https://library.ryerson.ca/asc/files/Cheryl_Thompson-1364x2048.jpg 1364w, https://library.ryerson.ca/asc/files/Cheryl_Thompson.jpg 1500w" sizes="(max-width: 399px) 100vw, 399px" /></figure><div class="wp-block-media-text__content">
+<blockquote class="wp-block-quote"><p><strong>Cheryl Thompson</strong> is an Assistant Professor in the <a href="https://www.ryerson.ca/creativeindustries/people/faculty/cthompson/">School of Creative Industries</a> at Ryerson University. Her next book,<a href="https://chbooks.com/Books/U/Uncle"> Uncle: Race, Nostalgia and the Politics of Loyalty</a> will be published by Coach House Books next February. Follow her on twitter at<a href="http://twitter.com/@DrCherylT"> @DrCherylT</a>.</p></blockquote>
+</div></div>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="7770" data-permalink="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/emilie_jabouin/" data-orig-file="https://library.ryerson.ca/asc/files/Emilie_Jabouin.jpg" data-orig-size="816,1223" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;Gabriel Johnson&quot;,&quot;camera&quot;:&quot;NIKON D610&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1547356803&quot;,&quot;copyright&quot;:&quot;2017 LeVue Photography&quot;,&quot;focal_length&quot;:&quot;85&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.005&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Emilie_Jabouin" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Emilie_Jabouin-200x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/Emilie_Jabouin-400x600.jpg" loading="lazy" width="400" height="600" src="https://library.ryerson.ca/asc/files/Emilie_Jabouin-400x600.jpg" alt="Portrait of Emilie Jabouin" class="wp-image-7770" srcset="https://library.ryerson.ca/asc/files/Emilie_Jabouin-400x600.jpg 400w, https://library.ryerson.ca/asc/files/Emilie_Jabouin-200x300.jpg 200w, https://library.ryerson.ca/asc/files/Emilie_Jabouin-100x150.jpg 100w, https://library.ryerson.ca/asc/files/Emilie_Jabouin-768x1151.jpg 768w, https://library.ryerson.ca/asc/files/Emilie_Jabouin.jpg 816w" sizes="(max-width: 400px) 100vw, 400px" /></figure><div class="wp-block-media-text__content">
+<blockquote class="wp-block-quote"><p><strong>Emilie Jabouin</strong> is a PhD Candidate in Communication &amp; Culture, working on her doctoral dissertation at Ryerson/York universities on Black women organizers and journalists in early 20th-century Canada. Emilie is also a story-teller and dance artist who explores the social and cultural histories and expressions of the African diasporas. Find her on Twitter at<a href="http://twitter.com/emilie_jabouin"> @emilie_jabouin</a>.</p></blockquote>
+</div></div>
+
+
+
+<h2>Additional Reading:&nbsp;</h2>
+
+
+
+<p>&nbsp;Backhouse, Constance. 1999. <em><a href="Colour-Coded: A Legal History of Racism in Canada 1900-1950">C</a><a href="http://Colour-Coded: A Legal History of Racism in Canada 1900-1950" data-type="URL" data-id="Colour-Coded: A Legal History of Racism in Canada 1900-1950">olour-Coded: A Legal History of Racism in Canada 1900-195</a><a href="Colour-Coded: A Legal History of Racism in Canada 1900-1950">0</a></em>. Toronto: University of Toronto Press.</p>
+
+
+
+<p>Bean, Annemarie. 1996. “Transgressing the Gender Divide: The Female Impersonator in Nineteenth-Century Blackface Minstrelsy.” In <em>Inside the Minstrel Mask: Readings in Nineteenth-Century Blackface Minstrelsy</em>, eds. Annemarie Bean, James V. Hatch, and Brooks McNamara, 245-256. Hanover and London: Wesleyan University Press.</p>
+
+
+
+<p>Bernstein, Robin. 2011. <em><a href="https://www-jstor-org.ezproxy.lib.ryerson.ca/stable/j.ctt9qgj4w?pq-origsite=summon">Racial Innocence: Performing American Childhood from Slavery to Civil Rights</a></em>. New York: New York University Press.</p>
+
+
+
+<p>Bogle, Donald. 2000. <em><a href="http://catalogue.library.ryerson.ca/record=b1838108">Toms, Coons, Mulattoes, Mammies, &amp; Bucks: An Interpretive History of Blacks in American Films</a></em>. New York: Continuum.</p>
+
+
+
+<p>Boyko, John. 2013. <em><a href="https://catalogue.library.ryerson.ca/record=b2458668">Blood and Daring: How Canada Fought the American Civil War and Forged A Nation</a></em>. Alfred A. Knoff: Toronto.</p>
+
+
+
+<p>Calliste, Agnes. 1993/1994.“<a href="https://muse-jhu-edu.ezproxy.lib.ryerson.ca/article/673870/pdf">Race, Gender and Canadian Immigration Policy: Blacks from the Caribbean, 1900-1932</a>.” <em>Journal of Canadian Studies</em> 28 (4): 131-50.</p>
+
+
+
+<p>Careless, J.M.S. 1990. “The Cultural Setting: Ontario Society to 1914.” In <em><a href="https://catalogue.library.ryerson.ca/record=b1114708" data-type="URL" data-id="https://catalogue.library.ryerson.ca/record=b1114708">Early Stages: Theatre in Ontario 1800-1914</a></em>, ed. Ann Saddlemyer, 18-51. Toronto: University of Toronto Press.</p>
+
+
+
+<p>Carlin, Bob. 2007. <em><a href="https://catalogue.library.ryerson.ca/record=b1747774">The Birth of the Banjo: Joel Walker Sweeney and Early Minstrelsy</a></em>. North Carolina and London: McFarland &amp; Company.</p>
+
+
+
+<p>Cox, Karen L. 2011. <em>Dreaming of Dixie How the South Was Created in American Popular Culture</em>. Chapel Hill: The University of North Carolina Press.</p>
+
+
+
+<p>Davies, Robertson. 1990. “The Nineteenth-Century Repertoire.” In <em><a href="https://catalogue.library.ryerson.ca/record=b1114708">Early Stages: Theatre in Ontario 1800-1914</a></em>, ed. Ann Saddlemyer, 90-122. Toronto: University of Toronto Press.</p>
+
+
+
+<p>Ebanda de B’béri, Boulou, Reid-Maroney, Nina and Handel Kashope Wright. 2014. <em><a href="https://ebookcentral-proquest-com.ezproxy.lib.ryerson.ca/lib/ryerson/detail.action?docID=4669592">The Promised Land: History and Historiography of the Black Experience in Chatham-Kent’s Settlements and Beyond</a></em>. Toronto: University of Toronto Press.</p>
+
+
+
+<p>Ehlers, Nadine. 2012. <em>Racial Imperatives: Discipline, Performativity, and Struggles Against Subjection</em>. Bloomington and Indianapolis: Indiana University Press.</p>
+
+
+
+<p>Fanon, Frantz. 1967. <em><a href="https://catalogue.library.ryerson.ca/record=b2012239">Black Skin, White Masks</a></em>. Translated by Charles Lam Markmann. New York: Grove Press.</p>
+
+
+
+<p>Francis, Daniel. 2011. <em><a href="https://books-scholarsportal-info.ezproxy.lib.ryerson.ca/en/read?id=/ebooks/ebooks0/gibson_crkn/2009-12-01/4/409127">National Dreams: Myth, Memory, and Canadian History</a></em>. Vancouver: Arsenal Pulp Press.</p>
+
+
+
+<p>Frick, John W. 2012. <em><a href="https://catalogue.library.ryerson.ca/record=b2382368">Uncle Tom’s Cabin on the American Stage and Screen</a></em>. Palgrave Macmillan: New York.</p>
+
+
+
+<p>Frost, Karolyn Smardz. 2007. <em><a href="http://catalogue.library.ryerson.ca/record=b1739147">I’ve Got A Home in Glory Land: A Lost Tale of the Underground Railroad</a></em>. New York: Farrar, Straus and Giroux.</p>
+
+
+
+<p>Garber, Marjorie. 1992. <em><a href="https://catalogue.library.ryerson.ca/record=b1207135">Vested Interests: Cross-Dressing &amp; Cultural Anxiety</a></em>. New York and London: Routledge.</p>
+
+
+
+<p>Gilroy, Paul. <em><a href="https://catalogue.library.ryerson.ca/record=b1272968">The Black Atlantic: Modernity and Double Consciousness</a></em>. Cambridge, Massachusetts: Harvard University Press.</p>
+
+
+
+<p>Glenn, Susan. 2000. <em><a href="https://catalogue.library.ryerson.ca/record=b1354892">Female Spectacle: The Theatrical Roots of Modern Feminism</a></em>. Cambridge, Massachusetts: Harvard University Press.</p>
+
+
+
+<p>Hall, Stuart, ed. 1997. <em><a href="https://catalogue.library.ryerson.ca/record=b1267253">Representation: Cultural Representations and Signifying Practices</a></em>. London: Sage Publications.</p>
+
+
+
+<p>Hardy, Dominic. 2007. “Historical Ironies of Henri Julien (1852- 1908): Researching Identity and Graphic Satire Across Languages in Québec.”<em> Working Papers on Design</em> 2: 1-25.</p>
+
+
+
+<p>Harney, Robert F., ed. 1985. <em><a href="https://catalogue.library.ryerson.ca/record=b1026012">Gathering Place: Peoples and Neighbourhoods of Toronto</a>, 1834-1945</em>. Toronto: Multicultural History Society of Ontario.</p>
+
+
+
+<p>Harrison-Kahan, Lori. 2011. <em><a href="https://www-jstor-org.ezproxy.lib.ryerson.ca/stable/j.ctt5hhz60?pq-origsite=summon">The White Negress: Literature, Minstrelsy, and the Black-Jewish Imaginary</a></em>. New Brunswick, New Jersey: Rutgers University Press.</p>
+
+
+
+<p>Higginbotham, Evelyn Brooks. 1993. <em><a href="https://www-fulcrum-org.ezproxy.lib.ryerson.ca/concern/monographs/8g84mm284">Righteous Discontent: The Women’s Movement in the Black Baptist Church 1880-1920</a></em>. Cambridge, MA: Harvard University Press.</p>
+
+
+
+<p>Hochman, Barbara. 2011. <em><a href="https://www-fulcrum-org.ezproxy.lib.ryerson.ca/concern/monographs/6d56zx30h">Uncle Tom’s Cabin and The Reading Revolution: Race, Literacy, Childhood, and Fiction, 1851-1911</a></em>. University of Massachusetts Press: Amherst and Boston.</p>
+
+
+
+<p>Howard, Philip S.S. 2017. “Timeline of Canadian Blackface Incidents.” Retrieved from:<a href="https://mcgill.ca/aapr/files/aapr/blackface-timeline.pdf"> https://mcgill.ca/aapr/files/aapr/blackface-timeline.pdf</a>.&nbsp;</p>
+
+
+
+<p>Johnson, Stephen. 1999. “Uncle Tom and the Minstrels: Seeing Black and White on Stage in Canada West prior to the American Civil War.” In <em>(Post)Colonial Stages: Critical &amp; Creative Views on Drama, Theatre &amp; Performance</em>, ed. Helen Gilbert, 55-63. Coventry: Dangaroo Press.</p>
+
+
+
+<p>Johnson, Stephen. 2012. <em><a href="https://catalogue.library.ryerson.ca/record=b2335279">Burnt Cork: Traditions and Legacies of Blackface Minstrelsy</a></em>. Amherst and Boston: University of Massachusetts Press.</p>
+
+
+
+<p>Kibler, Alison M. 1999. <a href="https://catalogue.library.ryerson.ca/record=b1323974"><em>Rank Ladies: Gender and Cultural Hierarchy in American Vaudeville</em>.</a> Chapel Hill &amp; London: The University of North Carolina Press.</p>
+
+
+
+<p>Lenton-Young, Gerald. 1990. “Variety Theatre.” In <em><a href="https://catalogue.library.ryerson.ca/record=b1114708">Early Stages: Theatre in Ontario 1800-1914</a></em>, ed.&nbsp; Ann Saddlemyer, 166-213. Toronto: University of Toronto Press.</p>
+
+
+
+<p>Lhamon, W.T., Jr. 1998. <em><a href="https://ebookcentral-proquest-com.ezproxy.lib.ryerson.ca/lib/ryerson/detail.action?docID=3414671">Raising Cain: Blackface Performance from Jim Crow to Hip Hop</a></em>. Cambridge: Harvard University Press.</p>
+
+
+
+<p>Lott, Eric. 1993. <em><a href="https://ebookcentral-proquest-com.ezproxy.lib.ryerson.ca/lib/ryerson/detail.action?docID=1318298">Love and Theft: Blackface Minstrelsy and the American Working Class</a></em>. New York and Oxford: Oxford University Press.</p>
+
+
+
+<p>Mahar, William J. 1999. <em>Behind the Burnt Cork Mask: Early Blackface Minstrelsy and Antebellum American Popular Culture</em>. Chicago: University of Illinois Press.</p>
+
+
+
+<p>Mathieu, Sarah-Jane. 2010. <em><a href="https://catalogue.library.ryerson.ca/record=b2032475">North of the Color Line: Migration and Black Resistance in Canada</a>, 1870-1955</em>. Chapel Hill: The University of North Carolina Press.</p>
+
+
+
+<p>Meer, Sarah. 2005. <em><a href="https://catalogue.library.ryerson.ca/record=b1643031">Uncle Tom Mania: Slavery, Minstrelsy &amp; Transatlantic Culture in the 1850s</a></em>. Athens, Georgia: University of Georgia Press.</p>
+
+
+
+<p>Morgan, Jo-Ann. 2007. <em>Uncle Tom&#8217;s Cabin as Visual Culture</em>. Columbia: University of Missouri Press.</p>
+
+
+
+<p>Nicholas, Jane. “<a href="https://muse-jhu-edu.ezproxy.lib.ryerson.ca/article/267471">Gendering the Jubilee: Gender and Modernity in the Diamond Jubilee of Confederation Celebrations, 1927.</a>” <em>The Canadian Historical Review</em>, 90.2 (2009): 247-274.</p>
+
+
+
+<p>Nicks, Joan and Jeannette Sloniowski. 2010. “Entertaining Niagara Falls, Ontario: Minstrel Shows, Theatres, and Popular Pleasures.” In <em><a href="https://catalogue.library.ryerson.ca/record=b1966501">Covering Niagara: Studies in Local Popular Culture</a></em>, ed. Joan Nicks and Barry Keith Grant, 285-310. Waterloo: Wilfrid Laurier University Press.</p>
+
+
+
+<p>Nowatzki, Robert. 2010. <em><a href="https://catalogue.library.ryerson.ca/record=b1971070">Representing African Americans in Transatlantic Abolitionism and Blackface Minstrelsy</a></em>. Louisiana: Louisiana State Press.</p>
+
+
+
+<p>Pickering, Michael. 2008. <a href="https://catalogue.library.ryerson.ca/record=b1812871"><em>Blackface Minstrelsy in Britain</em>.</a> Hampshire, England: Ashgate Publishing.</p>
+
+
+
+<p>Roediger, David R. 2007. <em><a href="https://www-fulcrum-org.ezproxy.lib.ryerson.ca/concern/monographs/w3763684f">The Wages of Whiteness: Race and the Making of the American Working Class</a></em>. London and New York: Verso.</p>
+
+
+
+<p>Rogin, Micheal. 1996. <a href="https://catalogue.library.ryerson.ca/record=b1274472"><em>Blackface, White Noise: Jewish Immigrants in the Hollywood Melting Pot</em>.</a> Berkeley: University of California Press.</p>
+
+
+
+<p>Sammond, Nicholas. 2015. <em>Birth of an Industry: Blackface Minstrelsy and the Rise of American Animation</em>. Durham, North Carolina: Duke University Press.</p>
+
+
+
+<p>Saxton, Alexander. 1990. <em><a href="https://catalogue.library.ryerson.ca/record=b1704933">The Rise and Fall of the White Republic:</a> Class Politics and Mass Culture in Nineteenth-Century America</em>. London and New York: Verso.</p>
+
+
+
+<p>Smith, Shawn Michelle. 1999. <em>American Archives: Gender, Race, and Class in Visual Culture</em>. Princeton, New Jersey: Princeton University Press.</p>
+
+
+
+<p>______. 2004. <em><a href="https://catalogue.library.ryerson.ca/record=b1646068">Photography on the Color Line: W.E.B. Du Bois, Race, and Visual Culture</a></em>. Durham &amp; London: Duke University Press.</p>
+
+
+
+<p>Springhall, John. 2008. <em>T<a href="https://catalogue.library.ryerson.ca/record=b1813536">he Genesis of Mass Culture: Show Business Live in America, 1840 to 1940</a></em>. New York: Palgrave Macmillan.</p>
+
+
+
+<p>Staples, Shirley. 1984. <em>Male-Female Comedy Teams in American Vaudeville 1865-1932</em>. Ann Arbor, Michigan: UMI Research Press.</p>
+
+
+
+<p>Starkey, Brando Simeo. 2015. <em>In Defense of Uncle Tom: Why Blacks Must Police Racial Loyalty</em>. New York: Cambridge.</p>
+
+
+
+<p>Strausbaugh, John. 2006. <em>Black Like You: Blackface, Whiteface, Insult &amp; Imitation in American Popular Culture</em>. London: Penguin Books.</p>
+
+
+
+<p>Taylor, Yuval and Jake Austen. 2012. <em><a href="https://catalogue.library.ryerson.ca/record=b2335494">Darkest America: Black Minstrelsy from Slavery to Hip-Ho</a>p</em>. New York: W.W. Norton &amp; Company.</p>
+
+
+
+<p>Thompson, Cheryl. 2015. “<a href="https://search-proquest-com.ezproxy.lib.ryerson.ca/docview/369696357?pq-origsite=summon">Cultivating Narratives of Race, Faith, and Community: <em>The Dawn of Tomorrow</em>, 1923–1971</a>.” <em>Canadian Journal of History </em>50 (1), 30-67.</p>
+
+
+
+<p>______. 2015. “<a href="https://muse-jhu-edu.ezproxy.lib.ryerson.ca/article/610446">I’s in Town, Honey’: Reading Aunt Jemima Advertising in Canadian Print Media, 1919 to 1962.</a>” <em>Journal of Canadian Studies </em>49 (1), 205-37.<a href="https://doi.org/10.3138/jcs.49.1.205"> https://doi.org/10.3138/jcs.49.1.205</a>.&nbsp;</p>
+
+
+
+<p>______. 2018. “<a href="https://muse-jhu-edu.ezproxy.lib.ryerson.ca/article/731076">Locating ‘Dixie’ in Newspaper Discourse and Theatrical Performance in Toronto, 1880s to 1920</a>s.” <em>Canadian Review of American Studies</em>, published online March 8, 2018.<a href="https://doi.org/10.3138/cras.2017.032"> https://doi.org/10.3138/cras.2017.032</a>.</p>
+
+
+
+<p>______. 2018. “Remembering <em>Uncle Tom’s Cabin</em>.” In <em><a href="https://catalogue.library.ryerson.ca/record=b2830120">The Ward Uncovered: The Archeology of Everyday Life</a></em>, eds. Michael McClelland, Holly Martelle, Tatum Taylor and John Lorinc, 156-162. Toronto: Coach House Books/Alana Wilcox.</p>
+
+
+
+<p>______. 2019. <em>B<a href="https://web-b-ebscohost-com.ezproxy.lib.ryerson.ca/ehost/detail/detail?vid=0&amp;sid=423c479a-823d-4f5a-b7d0-1c339a1cfd07%40pdc-v-sessmgr02&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=2099803&amp;db=nlebk">eauty in a Box: Detangling the Roots of Canada’s Black Beauty Culture</a></em>. Toronto: Wilfrid Laurier Press.</p>
+
+
+
+<p>Toll, Robert C. 1974. <em><a href="https://catalogue.library.ryerson.ca/record=b1097611">Blacking Up: The Minstrel Show in Nineteenth-Century America</a></em>. New York: Oxford University Press.</p>
+
+
+
+<p>Toney, Jared G. 2010. “<a href="https://search-proquest-com.ezproxy.lib.ryerson.ca/docview/1809748008?pq-origsite=summon">Locating Diaspora: Afro-Caribbean Narratives of Migration and Settlement in Toronto</a>, 1914-1929.” <em>Urban History Review</em> 38 (2): 75-87.</p>
+
+
+
+<p>Winks, Robin. 1997 [1971]. <em><a href="https://books-scholarsportal-info.ezproxy.lib.ryerson.ca/en/read?id=/ebooks/ebooks0/gibson_crkn/2009-12-01/1/400573">The Blacks in Canada: A History</a></em>. 2nd ed. Montreal and Kingston: McGill-Queen’s University Press.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-7749" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/sc/" rel="category tag">Special Collections</a> and tagged <a href="https://library.ryerson.ca/asc/tag/blackface/" rel="tag">blackface</a>, <a href="https://library.ryerson.ca/asc/tag/minstrelsy/" rel="tag">minstrelsy</a>, <a href="https://library.ryerson.ca/asc/tag/photographs/" rel="tag">photographs</a>, <a href="https://library.ryerson.ca/asc/tag/racism/" rel="tag">racism</a>, <a href="https://library.ryerson.ca/asc/tag/racist-images/" rel="tag">racist images</a> by <a href="https://library.ryerson.ca/asc/author/askyrme/">Alison</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/" title="Permalink to Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-7749 -->
+
+			
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: Student Voices from 2000</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/">A Comic Book Collection&#8230; from the 1940s!</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-the-expo-watch-camera/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; The Expo Watch Camera</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-jack-layton-library/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; Jack Layton Library</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-6"><a href="https://library.ryerson.ca/asc/category/asc/" title="Posts relating to both Archives and Special Collections">All</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://library.ryerson.ca/asc/category/archives/" title="Posts related to the Archives">Archives</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://library.ryerson.ca/asc/category/contests/">Contests</a>
+</li>
+	<li class="cat-item cat-item-186"><a href="https://library.ryerson.ca/asc/category/did-you-know/">Did you know&#8230;</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://library.ryerson.ca/asc/category/exhibits/">Exhibits</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/">Feature from the Collections</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/">Points of Interest</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="https://library.ryerson.ca/asc/category/sc/">Special Collections</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://library.ryerson.ca/asc/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-4">Archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://library.ryerson.ca/asc/2020/11/'> November 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/09/'> September 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/08/'> August 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/07/'> July 2020 &nbsp;(5)</option>
+	<option value='https://library.ryerson.ca/asc/2020/06/'> June 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/05/'> May 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/04/'> April 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/01/'> January 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2019/11/'> November 2019 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2019/05/'> May 2019 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/11/'> November 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/10/'> October 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/09/'> September 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/08/'> August 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/07/'> July 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/05/'> May 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/01/'> January 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/10/'> October 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/08/'> August 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/04/'> April 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/01/'> January 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/07/'> July 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/05/'> May 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2016/03/'> March 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/02/'> February 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/01/'> January 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/12/'> December 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/10/'> October 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/09/'> September 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/08/'> August 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/07/'> July 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/06/'> June 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/05/'> May 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/04/'> April 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/03/'> March 2015 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2015/02/'> February 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2014/07/'> July 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/04/'> April 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/03/'> March 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/02/'> February 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/01/'> January 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/11/'> November 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/10/'> October 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/09/'> September 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/08/'> August 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/04/'> April 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/03/'> March 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/01/'> January 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/12/'> December 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/10/'> October 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/06/'> June 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/02/'> February 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/01/'> January 2012 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/11/'> November 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/10/'> October 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/09/'> September 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/07/'> July 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/06/'> June 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/05/'> May 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/04/'> April 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/02/'> February 2011 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2011/01/'> January 2011 &nbsp;(4)</option>
+	<option value='https://library.ryerson.ca/asc/2010/12/'> December 2010 &nbsp;(1)</option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson Archives & Special Collections</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LIB 404">LIB 404</a><br>            
+                    350 Victoria Street, 4th Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000 ext. 7027<br>                    Email: <a href="mailto:asc@ryerson.ca">asc@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+          
+                    
+          
+          
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/asc/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/library.ryerson.ca\/asc\/2020\/09\/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images\/":7749};
+	</script>
+					<div id="sharing_email" style="display: none;">
+		<form action="/asc/tag/blackface/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://library.ryerson.ca/asc/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/library.ryerson.ca\/asc\/wp-admin\/admin-ajax.php","nonce":"90def50391","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2020%2F09%2Fblackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images%2F","blog_id":"7","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2' id='jetpack-carousel-js'></script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":""};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=9.2' id='sharing-js-js'></script>
+<script id='sharing-js-js-after'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-tumblr', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'BCFAHCOPHLELNHAKDLDKAFFOLOJCANMEICMOLEOJOEAFGAJFMOFBHDGLHIAMLLEMHOIBAFJBAAMEANOIHHBANMDBAADELPIHMDMFKJEOKJDAKMILIOOAKKHBIBPEMDDE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

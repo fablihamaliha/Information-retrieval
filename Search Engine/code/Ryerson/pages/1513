@@ -1,0 +1,4307 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/websupport/aem-basics/" >
+		<meta property="og:title" content="CQ (AEM) Basics" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/websupport/aem-basics/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="CQ (AEM) Basics"> 
+		 
+        
+        
+        <title>CQ (AEM) Basics - Web Support & Development Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.0077C8.FFA300.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/websupport/">
+				        Ryerson Web Support 
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/websupport.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#144bb3c7-49c4-4a96-bf6a-8bf7ff30a970" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="144bb3c7-49c4-4a96-bf6a-8bf7ff30a970">
+                    <ul class="nav navbar-nav">
+						
+									<li class="active">
+										<a href='/websupport/aem-basics/'>CQ (AEM) Basics</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/responsive-templates/'>Responsive Templates</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/components/'>Component Guide</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/seo-accessibility/'>Accessibility & SEO</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/website-tools/'>Tools</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/web-services/'>Our Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/news-updates/'>Updates</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/get-help/'>Get Help</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/websupport/aem-basics.html">CQ (AEM) Basics</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#4f31a75f-937b-4cc1-994c-46d5f0659bab" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="4f31a75f-937b-4cc1-994c-46d5f0659bab">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/websupport/aem-basics/about-aem-cq.html'>About AEM/CQ CMS</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/access-login-use-aem.html'>Access, login and use CQ (AEM)</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/find-files-site-admin.html'>Site Admin</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/create-edit-page.html'>Create new page</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/sidekick.html'>Sidekick</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/navigation.html'>Navigation</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/page-properties.html'>Page Properties</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/digital-asset-manager.html'>Digital Asset Manager (DAM)</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/activate-deactivate.html'>Activate content</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/versioning.html'>Creating versions</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/start-a-project.html'>Start a new project</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/redirect-options.html'>Redirect Options</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/web-style-guide.html'>Web Style Guide</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/video-tutorials.html'>Video tutorials</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-7 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Getting started</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ce84ff4c-43b5-46f0-afb5-fdb89c466f8f" >
+
+    <p>Ryerson uses a simple drag and drop web content management system (CMS) to create, edit, manage and publish digital content. There is no need to use external scripts or code and no HTML experience is necessary.&nbsp;<br> </p> 
+<p>As long as you have a browser and an internet connection, you can <a href="/content/ryerson/websupport/aem-basics/access-login-use-aem.html">login and edit</a> your site anywhere using <a href="/content/ryerson/ccs/services/connections/secure-connection/ru-vpn2.html">RU-VPN</a> and your Ryerson ID.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ce84ff4c-43b5-46f0-afb5-fdb89c466f8f");});</script></div>
+
+				
+
+				
+				<div class="resFlow section">
+
+
+
+
+
+
+
+
+   
+        
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="74c2ab4e-6872-4cb1-bd99-077b9e3e21a3">
+<div class="flowparsys">
+
+
+
+
+
+
+
+
+
+
+
+					
+<div class="row">
+
+	         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
+	        
+		        <div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="2a571206-1b93-406a-90ff-ac8e7bc2a282">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					<a class="imageOverlayLink" href="/websupport/aem-basics/">
+<img src="/content/dam/websupport/aem-basics/common/welcome-aem-cq.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h2>
+	Before you begin
+	
+	</h2>
+</div>
+</div>
+
+
+</a>
+					 
+						<div class="caption richtextContent">
+	<ul> 
+ <li><a href="/content/ryerson/websupport/aem-basics/about-aem-cq.html">What is a CMS?</a></li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/access-login-use-aem/">Who can use AEM?</a></li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/access-login-use-aem.html">Getting access</a></li> 
+ <li><a href="/content/ryerson/websupport/get-help/request-new-website.html">Request a site</a><br> </li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/start-a-project.html">Start a project</a></li> 
+</ul>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#2a571206-1b93-406a-90ff-ac8e7bc2a282');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "2a571206-1b93-406a-90ff-ac8e7bc2a282"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+	         </div> 
+	        <div class="clearfix visible-xs"></div>
+	         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
+	        
+		        <div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="a663c2aa-dde0-458c-b9c8-b7bcd9697e3b">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					<a class="imageOverlayLink" href="/websupport/aem-basics/find-files-site-admin/">
+<img src="/content/dam/websupport/images-site/common/wireframe-content.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h2>
+	Create content
+	
+	</h2>
+</div>
+</div>
+
+
+</a>
+					 
+						<div class="caption richtextContent">
+	<ul> 
+ <li><a href="/content/ryerson/websupport/aem-basics/find-files-site-admin.html">Find my content</a></li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/create-edit-page.html">Create a new page</a></li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/sidekick.html">Sidekick</a></li> 
+ <li><a href="/content/ryerson/websupport/responsive-templates.html">Responsive templates</a></li> 
+ <li><a href="/content/ryerson/websupport/components.html">Using content components</a></li> 
+</ul>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#a663c2aa-dde0-458c-b9c8-b7bcd9697e3b');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "a663c2aa-dde0-458c-b9c8-b7bcd9697e3b"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+	         </div> 
+	        <div class="clearfix visible-lg"></div><div class="clearfix visible-md"></div><div class="clearfix visible-sm"></div><div class="clearfix visible-xs"></div>
+</div></div>
+
+</div>
+<script>
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "74c2ab4e-6872-4cb1-bd99-077b9e3e21a3"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		$.fn.matchHeight._apply('#'+event.data.layoutID+' > div > div > div > .section:not(.new)');
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Quick reference
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="5182542d-1eba-42b1-9a21-0ada0f28b1a0" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825909153-your-homepage" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825909153-your-homepage" aria-controls="accordion-content-1485825909153-your-homepage" aria-expanded="false">
+                            Your homepage
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825909153-your-homepage" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825909153-your-homepage">
+                    <div class="panel-body ">
+                        <div class="1485825909153 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6e5cf4c9-35ca-4786-9889-aaf0adcbc57a" >
+
+    <p><strong>Which page is my homepage?</strong><br> </p> 
+<ul> 
+ <li>When your site is created in AEM using the responsive templates, the homepage is automatically created for you using a generic <a href="/content/ryerson/websupport/responsive-templates/homepage-template.html">homepage template</a>.<br> </li> 
+ <li>Find your site's name in the left pane of the tree view, nested under "ryerson" - this is your homepage.<br> </li> 
+ <li>To edit your homepage, double click or right-click your site name.&nbsp;<br> </li> 
+ <li>You cannot create a new homepage. You should only create sub-pages for the site beneath your site name.</li> 
+</ul> 
+<p><strong>Where is the index file?</strong></p> 
+<ul> 
+ <li>Index files are no longer required; however, legacy sites use index files for their homepages, and landing pages.<br> </li> 
+</ul> 
+<p>Related:</p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/responsive-templates/homepage-template.html">Generic Homepage Template</a>&nbsp; (<a href="/content/ryerson/websupport/responsive-templates.html">Responsive template</a>)</li> 
+ <li><a href="/content/ryerson/websupport/legacy-templates/750-legacy-template.html">750 pixel template</a> (<a href="/content/ryerson/websupport/legacy-templates.html">Legacy template</a>)<br> </li> 
+ <li><a href="/content/ryerson/websupport/legacy-templates/960-legacy-template.html">960 pixel template</a> (<a href="/content/ryerson/websupport/legacy-templates.html">Legacy template</a>)</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6e5cf4c9-35ca-4786-9889-aaf0adcbc57a");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="dee33bf3-29ed-4bbe-991a-d87451557016">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/aem-basics/best-practices/create-page-homepage.JPG" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent">
+	<p>In this screencapture, 'ryerson' represents ryerson.ca.</p> 
+<p>'about' is a root level page that is also a homepage.</p>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#dee33bf3-29ed-4bbe-991a-d87451557016');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "dee33bf3-29ed-4bbe-991a-d87451557016"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825914919-creating-pages" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825914919-creating-pages" aria-controls="accordion-content-1485825914919-creating-pages" aria-expanded="false">
+                            Creating pages
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825914919-creating-pages" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825914919-creating-pages">
+                    <div class="panel-body ">
+                        <div class="1485825914919 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1491403405477 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c1ec8c9b-2ffd-472e-b641-f4bacb7083c1" >
+
+    <ol> 
+ <li>Navigate to your folder via <a href="/content/ryerson/websupport/aem-basics/find-files-site-admin.html">Site Admin</a><br> </li> 
+ <li>Click once on folder name in tree view (<a href="/content/ryerson/websupport/aem-basics/find-files-site-admin.html#tab-1486311594667-left-pane">left pane</a>)<br> </li> 
+ <li>Click “New”&gt; “New page” in horizontal toolbar</li> 
+ <li>In window: Add <strong>Title<br> </strong><br>  Choose a descriptive title; The title will become your Page Title, navigation label and the H1 on your page.<br> <br> </li> 
+ <li>Add filename (name)</li> 
+ <li>Tick the "Show In Navigation" checkbox (optional)</li> 
+ <li>Select <a href="/content/ryerson/websupport/responsive-templates.html">template</a> type</li> 
+ <li>Click OK</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c1ec8c9b-2ffd-472e-b641-f4bacb7083c1");});</script></div>
+
+				
+
+				
+				<div class="resVideoText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="73d6a3c7-95ec-4b81-92a5-89720ed8d8e7">
+			<div class="col-xs-12">
+				<div class="thumbnail">
+					
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fgosu2aMguw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+
+					
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>$(document).ready(function(){addCoursePopover("#73d6a3c7-95ec-4b81-92a5-89720ed8d8e7");});</script></div>
+
+				</div>
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825921182-making-pages-public-activating" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825921182-making-pages-public-activating" aria-controls="accordion-content-1485825921182-making-pages-public-activating" aria-expanded="false">
+                            Making pages public/Activating
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825921182-making-pages-public-activating" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825921182-making-pages-public-activating">
+                    <div class="panel-body ">
+                        <div class="1485825921182 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="restext resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="2f6d4b4e-cc30-4706-a679-5afd78c0465c" >
+
+    <p>Activation is the process of publishing content to your live website.&nbsp; Every time you make a change, you must activate the file in order for the changes to appear on your live site.</p> 
+<p><strong>What gets activated?&nbsp;</strong></p> 
+<p>Every file that you create or upload to CQ must be activated. This includes webpages, PDF, Word documents, JPG, PNG, etc.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#2f6d4b4e-cc30-4706-a679-5afd78c0465c");});</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1489680685951 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="ac3997e8-d704-4421-a298-5091beb66746">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>While your page is open for editing:</p> 
+<ul> 
+ <li>Click on the<strong>&nbsp;Page tab </strong>in your <strong>Sidekick</strong> <br> </li> 
+ <li>Select <strong>Activate Page</strong>.&nbsp;<br> <br> </li> 
+</ul>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/websupport/aem-basics/sidekick/activate-sidekick.png"><span class='sr-only'>image file</span>
+<img src="/content/dam/websupport/aem-basics/sidekick/activate-sidekick.png" alt=""/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#ac3997e8-d704-4421-a298-5091beb66746');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "ac3997e8-d704-4421-a298-5091beb66746"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+</div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1489680666723 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="feafdf34-b653-4bfe-a893-a3a6277ab782">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>From the Site Admin window:</p> 
+<ul> 
+ <li>Choose your page</li> 
+ <li>Right-click &amp; select&nbsp;<strong>Activate Page</strong>&nbsp;from drop-down</li> 
+</ul> 
+<p>Or:<br> </p> 
+<ul> 
+ <li>Select file, click <strong>Activate</strong>&nbsp;from the horizontal tool bar.</li> 
+</ul> 
+<p><br>  Select multiple files by holding <strong>Ctrl key</strong>&nbsp;while selecting the required files with your mouse, then click <strong>Activate</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/websupport/aem-basics/activate-deactivate/activate-site-admin.png"><span class='sr-only'>image file</span>
+<img src="/content/dam/websupport/aem-basics/activate-deactivate/activate-site-admin.png" title="Site admin view" alt="Site admin view"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#feafdf34-b653-4bfe-a893-a3a6277ab782');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "feafdf34-b653-4bfe-a893-a3a6277ab782"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+</div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1486145049402 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6c918a13-b644-4c4f-a6f6-41559acd0157" >
+
+    <p>Assets can be activated in multiple ways:</p> 
+<ul> 
+ <li>Choose an asset, right click and select activate</li> 
+ <li>Click on an asset, and select activate from the horizontal toolbar</li> 
+ <li>Choose multiple assets by holding down the control button and selecting the assets you want to activate, then right click and select activate or use the activate button in the toolbar</li> 
+ <li>Activated items have green icons next to them, in the Published Column</li> 
+ <li>Deactivated assets have a red icon.</li> 
+ <li>Revisions have a blue icon.<br> </li> 
+ <li>Pending activations have an orange icon.</li> 
+</ul> 
+<p>Deactivating Assets - follow the same process and select "Deactivate"</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6c918a13-b644-4c4f-a6f6-41559acd0157");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="bfea308c-c839-4097-af78-75d5b8c4e00e">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/aem-basics/digital-asset-manager/activate-assets.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#bfea308c-c839-4097-af78-75d5b8c4e00e');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "bfea308c-c839-4097-af78-75d5b8c4e00e"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825938534-renaming-moving-pages" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825938534-renaming-moving-pages" aria-controls="accordion-content-1485825938534-renaming-moving-pages" aria-expanded="false">
+                            Renaming/moving pages
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825938534-renaming-moving-pages" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825938534-renaming-moving-pages">
+                    <div class="panel-body ">
+                        <div class="1485825938534 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="256e673e-2870-4b90-914d-ff36ac08eca6" >
+
+    <p>If you need to move or rename a file, use the Move/Rename option available in page properties or in the horizontal toolbar of the site admin or DAM.&nbsp;&nbsp;</p> 
+<p>&nbsp; Be sure to select all items that appear in the "Adjust/Republish" columns. This ensures that pages referencing the renamed content gets updated and activated. This will avoid broken links or images from appearing on the website.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#256e673e-2870-4b90-914d-ff36ac08eca6");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="c8701932-b883-4ffb-9425-c7b4c3ed8e69">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					<a class="imageOverlayLink" href="/content/dam/websupport/aem-basics/site-admin/rename-republish-adjust-pages.png"><span class='sr-only'>image file</span>
+<img src="/content/dam/websupport/aem-basics/site-admin/rename-republish-adjust-pages.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	
+	Rename or move a page
+	<span aria-hidden='true' class='autoIconLink fa fa-file-image-o'></span>
+	
+</div>
+</div>
+
+
+</a>
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#c8701932-b883-4ffb-9425-c7b4c3ed8e69');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "c8701932-b883-4ffb-9425-c7b4c3ed8e69"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1486145011200 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="06579f54-4a20-4b9e-8eaa-05562ec28ac9" >
+
+    <p>To rename an asset in the DAM, select the asset and choose Move/Rename from the toolbar; or, right-click ont he file and select Move/Rename.</p> 
+<ul> 
+ <li>To change the location of a file, change the path in the Destination field to the folder where you want the asset moved. Click Move.<br> </li> 
+ <li>To rename a file, change the name in the Rename to field. Do not change the file extension. Click Move.<br> </li> 
+ <li>If the file is being moved to another folder and renamed - change both of the above fields. Click Move.</li> 
+</ul> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#06579f54-4a20-4b9e-8eaa-05562ec28ac9");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="0091f956-0626-42eb-8d4f-54c00c1831b8">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/aem-basics/digital-asset-manager/replace-image-redition.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#0091f956-0626-42eb-8d4f-54c00c1831b8');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "0091f956-0626-42eb-8d4f-54c00c1831b8"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490205781204-version-control" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1490205781204-version-control" aria-controls="accordion-content-1490205781204-version-control" aria-expanded="false">
+                            Version control
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490205781204-version-control" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490205781204-version-control">
+                    <div class="panel-body ">
+                        <div class="1490205781204 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="restext_500748061 resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6e408318-68bc-44fd-a225-5ed848b9a17e" >
+
+    <p>Versioning allows you to rollback to a previously saved version(s) of your file. The process of creating&nbsp;versions is not automated.&nbsp;You must manually create every&nbsp;version, including the first one, if you want the ability to restore them in the future.&nbsp;<br> </p> 
+<h2>To create a new version of a page:</h2> 
+<p>1. Open your file/page</p> 
+<p>2. In the Sidekick, select the 4th tab&nbsp;<strong>(Versioning)</strong><br> </p> 
+<p>3. Enter a&nbsp;<strong>Comment</strong>&nbsp;(optional)</p> 
+<p>4. Click the&nbsp;<strong>Create Version</strong>&nbsp;button.<br> <br> A&nbsp;message will display on the page to indicate that the version has been created.</p> 
+<p>For example, "Version 1.2 created for: Election Results."</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6e408318-68bc-44fd-a225-5ed848b9a17e");});</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="69eda447-f1f0-4208-9e0f-35c81b6ecb15" >
+
+    <ul> 
+ <li><a href="/content/ryerson/websupport/aem-basics/versioning.html">Read more on version control</a></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#69eda447-f1f0-4208-9e0f-35c81b6ecb15");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825951408-uploading-images" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825951408-uploading-images" aria-controls="accordion-content-1485825951408-uploading-images" aria-expanded="false">
+                            Uploading images
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825951408-uploading-images" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825951408-uploading-images">
+                    <div class="panel-body ">
+                        <div class="1485825951408 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="37bce173-fac9-47e5-a26a-cb61612ac010" >
+
+    <p>Digital assets such as images and documents are stored, or uploaded,&nbsp; in AEM's <a href="/content/ryerson/websupport/aem-basics/digital-asset-manager.html">Digital Asset Manager</a>, or DAM. Access the DAM via the camera icon:<br> </p> 
+<p><img src="/content/dam/websupport/aem-basics/digital-asset-manager/camera-dam-icon.png" alt=""></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#37bce173-fac9-47e5-a26a-cb61612ac010");});</script></div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1486144983913 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6bac7fed-3f45-4656-ab7a-f80f8748b65d" >
+
+    <ul> 
+ <li>Locate the appropriate subfolder to upload your digital asset.</li> 
+ <li>In the right-hand pane, click <strong>New&gt;New File</strong>.</li> 
+</ul> 
+<ul> 
+ <li><strong>Browse...</strong> to locate the file you want to upload from your computer.</li> 
+ <li>Click <strong>Open</strong> once you have located and selected the appropriate file to upload.<br> </li> 
+ <li>Click<strong> Upload</strong> to add the file to the DAM. 
+  <ul> 
+   <li>If you don't see your file, click the refresh button from the menu bar to refresh the list of files</li> 
+  </ul> </li> 
+ <li>Digital assets will not be viewable on the live site until they are activated. To activate a file: 
+  <ul> 
+   <li>Click on an asset, then click <strong>Activate</strong> in horizontal toolbar</li> 
+   <li>Right-click on the file and select <strong>Activate </strong>&nbsp;</li> 
+  </ul> </li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6bac7fed-3f45-4656-ab7a-f80f8748b65d");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="258efe87-b8f0-4f94-8f7c-a3c58c7d9259">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/aem-basics/digital-asset-manager/upload-new-file-dam.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent">
+	<p>How to upload a new file</p>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#258efe87-b8f0-4f94-8f7c-a3c58c7d9259');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "258efe87-b8f0-4f94-8f7c-a3c58c7d9259"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-opaque" id="58676c2c-3c41-4957-8d90-4dfcd17790c3" >
+
+    <h4> Drag &amp; Drop</h4> 
+<p>Users can also drag and drop assets directly into their DAM folders.<br> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#58676c2c-3c41-4957-8d90-4dfcd17790c3");});</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-opaque" id="e6bcac64-e2f5-45fc-b711-4f9041ad240e" >
+
+    <h3>Best practices</h3> 
+<ul> 
+ <li>Rename files before uploading assets</li> 
+ <li>Use only letters, numbers, hyphens (or underscores)</li> 
+ <li>Do not use spaces in filename</li> 
+ <li>Images should be a minimum of 1200X900 pixels if you are unsure of your page layout (see<strong> Image Specifications</strong> above)<br> </li> 
+ <li>Image file sizes should not exceed 600 KB</li> 
+ <li>Optimize and crop images prior to upload</li> 
+ <li>Acceptable file formats include:
+  <ul> 
+   <li>PDF, Word, PPT, etc.</li> 
+  </ul> </li> 
+ <li>Files that should not be uploaded include:
+  <ul> 
+   <li>Video files - please use Ryecast or YouTube</li> 
+   <li>Executable files</li> 
+  </ul> </li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e6bcac64-e2f5-45fc-b711-4f9041ad240e");});</script></div>
+
+				</div>
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825959910-image-specifications" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825959910-image-specifications" aria-controls="accordion-content-1485825959910-image-specifications" aria-expanded="false">
+                            Image specifications
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825959910-image-specifications" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825959910-image-specifications">
+                    <div class="panel-body ">
+                        <div class="1485825959910 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0b28fc3f-0453-4b07-82d4-6153e8cbb369" >
+
+    <p>Responsive images should be high resolution.&nbsp;</p> 
+<ul> 
+ <li>Images should be PNG or JPG</li> 
+ <li>Do not use GIF files</li> 
+</ul> 
+<p>&nbsp;Minimum sizes (in pixels):</p> 
+<ul> 
+ <li>800X600 (particularly for news, events and page <a href="/content/ryerson/websupport/components/lists-grids.html">grid displays</a>)<br> </li> 
+ <li>1200X900&nbsp; &nbsp;</li> 
+</ul> 
+<p>Slideshow options:</p> 
+<ul> 
+ <li>Homepage (full page width): 2000 by <em>X</em></li> 
+ <li>Content width: 1200 by <em>X</em><br> </li> 
+</ul> 
+<p> Please ensure that all images used in a slideshow are the same dimensions - same width and height.</p> 
+<p>When deciding on a&nbsp;height for slideshow images, choose a size&nbsp;that will not result in&nbsp;the slideshow being so large that it&nbsp;displaces&nbsp;critical content.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0b28fc3f-0453-4b07-82d4-6153e8cbb369");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485825969739-link-to-documents" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485825969739-link-to-documents" aria-controls="accordion-content-1485825969739-link-to-documents" aria-expanded="false">
+                            Link to documents
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485825969739-link-to-documents" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485825969739-link-to-documents">
+                    <div class="panel-body ">
+                        <div class="1485825969739 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d3abfd1e-7d14-4718-af4e-4f272774afd4" >
+
+    <p>In the text editing area of your component, highlight the text where you want to create the link and then select the Hyperlink icon.</p> 
+<p>Then navigate to the page (websites) or file (in the DAM) that you want to link to.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d3abfd1e-7d14-4718-af4e-4f272774afd4");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="0619bf95-010b-41f1-b421-73c706f5539d">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/aem-basics/site-admin/create-link-to-file.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#0619bf95-010b-41f1-b421-73c706f5539d');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "0619bf95-010b-41f1-b421-73c706f5539d"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485826006108-site-navigation" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485826006108-site-navigation" aria-controls="accordion-content-1485826006108-site-navigation" aria-expanded="false">
+                            Site navigation
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485826006108-site-navigation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485826006108-site-navigation">
+                    <div class="panel-body ">
+                        <div class="1485826006108 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a15f3381-04ef-4a43-ad6e-875cfcc18070" >
+
+    <p>Navigation is different across the different templates available in CQ.</p> 
+<p>Review the following pages for the type of template your site was built with.</p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/aem-basics/navigation.html">Responsive navigation</a></li> 
+ <li><a href="/content/ryerson/websupport/legacy-templates.html">Legacy templates</a></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a15f3381-04ef-4a43-ad6e-875cfcc18070");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1485826012838-using-tags" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1485826012838-using-tags" aria-controls="accordion-content-1485826012838-using-tags" aria-expanded="false">
+                            Using tags
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1485826012838-using-tags" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1485826012838-using-tags">
+                    <div class="panel-body ">
+                        <div class="1485826012838 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="restext resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="08d446db-ec72-4e57-8eea-ae0d32cc16f3" >
+
+    <p>Tags are a quick and easy method for classifying content within your website. A tag is a keyword or label that gets applied to your page to help you find or display it again. Tagging can be used to automatically display content based on its tags.<br> </p> 
+<h2>Sample usage:<br> </h2> 
+<p>Stories created using a <a href="/content/ryerson/websupport/responsive-templates/news-template.html">news template</a> within <a href="/content/ryerson/news-events/news.html">Ryerson Today</a>  are tagged 'Research'. These stories are then displayed in a news list within Ryerson Today; however, multiple <a href="/content/ryerson/websupport/components/lists-grids/news-list-or-grid.html">news lists</a> not in Ryerson Today include 'Research' in their content configuration. This means that research stories created in one website can be displayed in multiple sites across ryerson.ca without any additional manual effort.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#08d446db-ec72-4e57-8eea-ae0d32cc16f3");});</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="dda566f8-3be4-48ea-9ab8-b719978b302e" >
+
+    <ul> 
+ <li><a href="/content/ryerson/websupport/aem-basics/using-tags.html">Read more on using tags in CQ</a></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#dda566f8-3be4-48ea-9ab8-b719978b302e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1486055925506-domain-names" role="tab" data-toggle="collapse" data-parent="#5182542d-1eba-42b1-9a21-0ada0f28b1a0" href="#accordion-content-1486055925506-domain-names" aria-controls="accordion-content-1486055925506-domain-names" aria-expanded="false">
+                            Domain names
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1486055925506-domain-names" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1486055925506-domain-names">
+                    <div class="panel-body ">
+                        <div class="1486055925506 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="cb664426-c41f-484e-b646-dbabc0bdb270" >
+
+    <p>All websites in AEM use the Ryerson domain: ryerson.ca. Domain names are part of the identity of the university and communicate the university's image and reputation to our visitors.&nbsp; Consistent domain name usage also helps to improve search rankings.&nbsp;&nbsp; &nbsp;</p> 
+<p>All websites are created on the Ryerson domain in the following way:</p> 
+<p style="margin-left: 40px;">ryerson.ca/-your-name-here &nbsp;</p> 
+<p>Before you <a href="/content/ryerson/websupport/get-help/request-new-website.html">request a new website</a>, please ensure that you choose an appropriate domain name.&nbsp; All URLs should be in lowercase.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#cb664426-c41f-484e-b646-dbabc0bdb270");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resSearch section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div id="a428c7ce-cdb0-4079-9d06-b35dd5e7d3e3">
+	
+		<form method="get" action="/websupport/search/" data-resultstype="site" class="resSearch">
+	
+	<div class="input-group search-container-box"> 
+		<label for="resSearchQa428c7ce-cdb0-4079-9d06-b35dd5e7d3e3" class="sr-only">Search</label> 
+		<input id="resSearchQa428c7ce-cdb0-4079-9d06-b35dd5e7d3e3" class="resSearchQ form-control resultstype-site" name="q" type="text" placeholder="Enter a search term" autocomplete="off">
+		<span class="input-group-btn"> <button aria-label="Search" class="resSearchGo btn btn-default" type="submit"> <i class="fa fa-search" title="Search"></i> </button> </span> 
+	</div>
+	
+		</form>
+	
+	
+</div>
+<script>
+jQuery(document).ready(function() {
+	jQuery("#a428c7ce-cdb0-4079-9d06-b35dd5e7d3e3").initSearchComponent({mode: 'both', displayas: 'box', url: '/websupport/inheritedContent/jcr:content/resRightSidebar/content/ressearch', newContactDir: true});
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Quick links:
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonTransition">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/">
+	                        	
+	                            <span>Make request/Report issue</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://cmshost.ryerson.ca" target="_blank">
+	                        	
+	                            <span>Log in</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/training/">
+	                        	
+	                            <span>Get training</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				
+
+				
+				<div class="resInfographic section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="infoContainer style2 hasIcon">
+	<div class="contentWrapper">
+		<div class='iconContainer'><span aria-hidden='true' class='icon fa fa-home '></span></div>
+		<div class="textContainer"><p><span class="resInfographicBold">Updating from home? <a href="/content/ryerson/ccs/services/connections/secure-connection/ru-vpn2/">Apply for a VPN account</a></span></p></div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="552788d0-0bfd-478e-983f-0007144f6913" >
+
+    <p><strong>Digital Publishing, CCS</strong></p> 
+<p><a href="/maps/?building=LIB">LIB-B-99</a> <br> 350 Victoria Street<br> Toronto, ON M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#552788d0-0bfd-478e-983f-0007144f6913");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="92cf4043-8c25-43cb-a135-50f4c9022400" >
+
+    <p><strong>Need help?</strong></p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/get-help/training.html">CQ/AEM Training</a></li> 
+ <li><a href="/content/ryerson/websupport/get-help.html">Submit an issue</a></li> 
+ <li><a href="/content/ryerson/websupport/web-services.html">Our services<br> </a></li> 
+</ul> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#92cf4043-8c25-43cb-a135-50f4c9022400");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9bdb26f0-2746-41ec-9f32-f9f5badcf999" >
+
+    <p><a href="/content/ryerson/websupport/sitemap.html">Sitemap</a><strong> </strong></p> 
+<p><a href="https://www.youtube.com/user/ryersoncmssupport">YouTube<span class="sr-only">, external link</span></a> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9bdb26f0-2746-41ec-9f32-f9f5badcf999");});</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'PJNAMEMMHMDFAANCCLILCNOKDDHDKHBCOOPCPFKIJCOGIOFPKIKNHEFKDHEHMBNGMCDBGOAHAALMGEOLJGOACPICAADLOGNIMCEFIFCLLNBDLGCKHPBDPBHICGPPIMKJ',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'PLBOIKLJADLFOOLKBJEEGPMGAFFCDIHABEALDNAEEIDMAJMABMDDJNPNNHKHKJILANIBFHGMAAPNAHIMGMHAMMCGAAGOJKPKCLAGNFELAMHBFDBNEGLOCHLFFHNPBGHO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

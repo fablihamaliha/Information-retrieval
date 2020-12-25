@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-15', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/copyright/xmlrpc.php" />
+
+  <title>Physical Classroom &#8211; Copyright at Ryerson</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Copyright at Ryerson &raquo; Feed" href="https://library.ryerson.ca/copyright/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Copyright at Ryerson &raquo; Comments Feed" href="https://library.ryerson.ca/copyright/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Copyright at Ryerson &raquo; Physical Classroom Comments Feed" href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/physical-classroom/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/copyright\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/copyright/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/copyright/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/copyright/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<script src='https://library.ryerson.ca/copyright/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/copyright\/wp-login.php?redirect_to=%2Fcopyright%2Ffaculty%2Fcopyright-faqs%2Fphysical-classroom%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/copyright/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/copyright/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/copyright/wp-json/wp/v2/pages/389" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/copyright/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/copyright/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/physical-classroom/" />
+<link rel='shortlink' href='https://library.ryerson.ca/copyright/?p=389' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/copyright/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fcopyright%2Ffaculty%2Fcopyright-faqs%2Fphysical-classroom%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/copyright/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fcopyright%2Ffaculty%2Fcopyright-faqs%2Fphysical-classroom%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitecopyright.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Physical Classroom" />
+<meta property="og:url" content="https://library.ryerson.ca/copyright/faculty/copyright-faqs/physical-classroom/" />
+<meta property="og:description" content="Audio Visual Materials Can I show a movie from the Library collection to my class? Can I show my own copy of a movie to a class? Can I show a video off-campus? Can I show movies anywhere on campus?…" />
+<meta property="article:published_time" content="2013-07-03T21:07:03+00:00" />
+<meta property="article:modified_time" content="2020-01-14T00:43:07+00:00" />
+<meta property="og:site_name" content="Copyright at Ryerson" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="Physical Classroom" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			ol.copyright-list>li {
+	padding-bottom: 1em;
+}
+.local-header a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="page-template-default page page-id-389 page-child parent-pageid-362">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+    
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/copyright/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/copyright">Copyright at Ryerson</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/copyright">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-local-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1067"><a title="Faculty" href="https://library.ryerson.ca/copyright/faculty/">Faculty</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1068"><a title="Students" href="https://library.ryerson.ca/copyright/students/">Students</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1069"><a title="Policies &#038; Guidelines" href="https://library.ryerson.ca/copyright/policies-guidelines/">Policies &#038; Guidelines</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1070"><a title="Resources" href="https://library.ryerson.ca/copyright/resources/">Resources</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a title="Contact Us" href="https://library.ryerson.ca/copyright/home/contact-us/">Contact Us</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12 col-md-9">
+          
+    
+      
+<article id="post-389" class="post-389 page type-page status-publish hentry">
+			<header class="entry-header">
+			<h1 class="entry-title">Physical Classroom</h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+		
+		<h2>Audio Visual Materials</h2>
+<p><a href="#movie">Can I show a movie from the Library collection to my class?</a><br />
+<a href="#ownmovie">Can I show my own copy of a movie to a class?</a><br />
+<a href="#offcampus">Can I show a video off-campus?</a><br />
+<a href="#campus">Can I show movies anywhere on campus?</a><br />
+<a href="#copy">Can I create a DVD copy from VHS?</a><br />
+<a href="#tv">Can I record a TV program to show in class?</a><br />
+<a href="#youtube">Can I show YouTube videos in class?</a><br />
+<a href="#music">Can I play music in class?</a></p>
+<h2>Course Readings</h2>
+<p><a href="#more">Can I copy more than one article or more than one chapter from a source?</a></p>
+<h2>Handouts</h2>
+<p><a href="#handout">Can I copy a journal article and hand it out to my students?</a><br />
+<a href="#images">May I use copyrighted digital images in class handouts?</a></p>
+<h2>Presentations</h2>
+<p><a href="#pptimage">Can I use copyrighted images in a Powerpoint presentation</a></p>
+<h2>Audio Visual Materials</h2>
+<p><strong><a id="movie" name="movie"></a>Can I show a movie (feature film) from the library collection to my class?</strong></p>
+<p>Yes. The Copyright Modernization Act is in force as of November 7th, 2012 and public performance rights are no longer needed for displaying of movies (feature films and documentaries) in a classroom setting.  All materials purchased by the library before November 2012 were purchased with public performance rights, but this is no longer a requirement for the purchasing of cinematographic works. You would still need rights in some cases if you are streaming on-line material, depending on the licence attached to that streaming content.</p>
+<p>If you need further assistance, please contact the Audio Visual department of the Library (2nd floor, Library or ext. 5099).</p>
+<p><strong><a id="ownmovie" name="ownmovie"></a>Can I show my own copy of a movie (feature film) to a class?</strong></p>
+<p>Yes you can use your own copy, or a rented or borrowed copy of a work as long as such work is not an infringing copy and was legally obtained. The Copyright Modernization Act is in force as of November 7th, 2012 and public performance rights are no longer needed for displaying of movies (feature films and documentaries) in a classroom setting. You would still need rights in some cases if you are streaming on-line material, depending on the licence attached to that streaming content.</p>
+<p><a id="offcampus" name="offcampus"></a><strong>Can I borrow a video from the Library to show off-campus?</strong></p>
+<p>If the use is for an educational or training purpose and the audience is made up primarily of students, the answer is generally yes.</p>
+<p>If the event is for profit or admission is charged, the answer is no.  You would have to clear public performance rights through the distributor. Distributors may not agree to the use for advertising or if admission fees are charged.</p>
+<p>Please contact the copyright owner or holder for clarification of rights beyond the purpose of education or training. The Audio Visual department of the Library (2nd floor, Library or ext. 5099) can facilitate the process by providing information on the company from which the video or film is purchased.</p>
+<p><a id="campus" name="campus"></a><strong>Can I show movies (feature films) anywhere on campus?</strong></p>
+<p>No, except in the classroom or for educational or training purposes. The copyright exception for public performance rights permit use only for education or training &#8211; often meaning the classroom. They do not allow the extended use in dormitories or student pubs or other functions such as information nights or career fairs.</p>
+<p><strong><a id="copy" name="copy"></a>Can I create a DVD copy from VHS?</strong></p>
+<p>No. Reproduction of works without permission from the copyright owner/holder is considered a breach of copyright. It is also a breach of the law to break any digital rights management technologies in order to format shift content or extract content. Please contact the Audio Visual department of the Library (2nd floor, Library or #5099). We will check the resources of other libraries/institutions to see if a legal copy can be loaned. Failing that, we will try to locate the copyright owner/holder to help you make the reproduction request.<a id="tv2" name="tv"></a>.<a id="tv" name="tv"></a></p>
+<p><strong>Can I record a television program to show in class?</strong></p>
+<p>It depends.</p>
+<ul>
+<li>“News and news commentary programs” (but not documentaries) may be taped at the time of broadcast, copies can be retained and shown in the classroom, with no royalty fee.</li>
+<li> For documentary films and other works on television only if it is not commercially available. You must keep records and you may have to pay royalties.</li>
+<li>A single copy of other types of programs (e.g. sports, movies or documentaries), may be taped and retained for evaluation or review purpose (to determine the educational value of showing in class) for up to 30 days. If the copy is shown, you must pay the royalty fee set by the Copyright Board.</li>
+<li>The Audio Visual department of the Library (2nd floor, Library or #5099) can check whether the program can be purchased.</li>
+</ul>
+<p>Check the <a href="http://www.cb-cda.gc.ca/tariffs-tarifs/certified-homologues/2007/20070217-e-b.pdf" class="broken_link">Copyright Board</a> Web Site for details about educational rights.</p>
+<p><a id="youtube" name="youtube"></a><strong>Can I show YouTube videos in class?</strong></p>
+<p>It depends.</p>
+<p><strong>Streaming video</strong>: You can show a YouTube video in class as no public performance rights are necessary in Canada. However, please check that the video has been posted by the legal copyright holder. You can also send a link to a YouTube video to your students for them to view privately. Please make sure you do not send links of material that have been illegally posted by a non-copyright holder.</p>
+<p><strong>Downloading or copying a YouTube video:</strong> You can only download or copy a YouTube video if the download button is activated for that content. The best way to make YouTube material available to your students is through linking.</p>
+<p><strong><a id="music" name="music"></a>Can I play music in class?</strong></p>
+<p>Yes.<strong> </strong> The Copyright Act permits playing a sound recording or live radio broadcast in the classroom for educational purpose. However, to go beyond the classroom for non-educational purpose, a licence has to be obtained from <a href="http://www.socan.ca/">SOCAN</a>, (the <strong>Society of Composers, Authors and Music Publishers of Canada) </strong>the copyright collective.</p>
+<p><a id="av1" name="av1"></a><a id="il3" name="il3"></a><strong>Course readings (print)</strong></p>
+<p><strong><a id="more" name="more"></a>Can I copy more than one article or one chapter from a larger source (ex. four chapters from one book)?</strong></p>
+<p>Only if the four chapters make up less than 10% of the work.If the material is not covered under existing licences you can use the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson University Fair Dealing Guideline</a>. If you go beyond these limits you will need permission to do so. You must obtain written permission from the copyright owner yourself if you exceed the amounts laid out in under existing licences or fair dealing guidelines. However, it is best if requests for material that you would like permissions for are directed to the <a href="http://library.ryerson.ca/services/reserve/">Library E-Reserve Service</a>. We will inquire about permissions on your behalf.</p>
+<h2><strong>Handouts</strong></h2>
+<p><strong><a id="handout" name="handout"></a>Can I photocopy a journal article and hand it out to my students?</strong></p>
+<p>Sometimes using the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson Fair Dealing Guideline</a>.<strong>  </strong>Please note:</p>
+<ul>
+<li>Follow the amount restrictions carefully.</li>
+<li>Do not staple several articles together.  This will become an anthology or a course pack and would be considered a print course pack that might have to be tracked through the Bookstore.</li>
+<li>Do not charge students for your handouts.</li>
+<li>Avoid systematic or accumulative handouts that should have been provided to the students in a course pack format or as approved article links in D2L, made through the <a href="http://library.ryerson.ca/services/reserve/">Library E-Reserve Service</a>. For example, do not hand out your core course readings on a weekly basis. Make sure that the accumulated amount of the reading distributed to students from a single work does not exceed the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson University Fair Dealing Guideline</a>.</li>
+<li>Some digital content from library licensed electronic databases can&#8217;t be handed out &#8211; but student can access this content on their own. SEE: Instructions on <a href="http://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/uaing-library-resources-in-teaching/">How to Check Library Licenced Material</a></li>
+<li>Public Domain and most Open Access and <a href="http://creativecommons.org/">Creative Commons licenced</a> material can be handed out in the classroom freely (please check which of the  <a href="http://creativecommons.org/licenses/">six different Creative Commons licence term</a>s the material has been released under).</li>
+<li>Please make sure that all work is properly cited.</li>
+</ul>
+<p><strong><a id="images" name="images"></a>May I use copyrighted images in class handouts?</strong></p>
+<p>Yes, if the material is from a published work, and you remain within the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson University Fair Dealing Guideline</a>.  Also under a new exception <strong><a href="http://laws-lois.justice.gc.ca/Search/Search.aspx?txtS3archA11=available+through+the+internet&amp;txtT1tl3=%22Copyright+Act%22&amp;h1ts0n1y=0&amp;ddC0nt3ntTyp3=Acts">Section 30.04: Work available through Internet</a> </strong>you can use images that have been posted to the public Internet or web, as long as there is not a clearly visible notice prohibiting educational use, the image has been legally posted, and the site from which you take the material is not a password-protected site, and you do not break &#8220;digital locks&#8221; or technological protection measures (TPMs).</p>
+<p>Library subscribed image databases (e.g. <a href="https://www.artstor.org/artstor-terms/">ARTStor</a>) may permit display and print handouts for educational purposes. Please check terms of use of databases.</p>
+<h2><strong>Presentations</strong></h2>
+<p><strong><a id="pptimage" name="pptimage"></a>May I use copyrighted images in PowerPoint presentations?</strong></p>
+<p>Yes, if projected in classroom.  Under section 29.4(1) of the <em>Copyright Act</em> &#8211; <a href="http://laws-lois.justice.gc.ca/eng/acts/C-42/page-18.html#docCont">Exceptions for Educational Institutions in the Canadian Copyright Act</a>, copyrighted images and images of pages may be included in classroom presentations without permission as long as they are on display for educational purposes on the premises of the institution and there is no commercial version available at a reasonable price. Please include full attribution of this material. If the instructor makes a manual reproduction of material (a hand drawn, or computer drawn graph for example) for projection purposes the commercial version clause does not apply. As well you can use existing licences at the university to make image material available. To check Library-licenced material follow these <a href="http://library.ryerson.ca/copyright/uaing-library-resources-in-teaching/">instructions</a>. Library subscribed image databases (e.g. <a href="https://www.artstor.org/artstor-terms/">ARTStor</a>) usually permit classroom display for educational purposes. If these licences do not cover the work use the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson University Fair Dealing Guideline</a>. If you use fair dealing please cite the souce of the material. For use of work beyond this you will need copyright permission. If you would like to use images in Powerpoint slides that you will post to D2L use the <a href="http://library.ryerson.ca/copyright/policies-guidelines/fair-dealing-guideline/">Ryerson University Fair Dealing Guideline</a>. Also please see <a href="http://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/material-that-you-can-use-freely-in-your-teaching/">Materials You can use Freely in your Teaching</a> for other exceptions.</p>
+		
+		
+		<footer class="entry-meta">
+								</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-389 -->
+
+    </div><!-- #primary -->
+
+    
+<div class="col-xs-12 col-sm-3 widget-area" role="complementary">
+  
+    <aside id="olt-subpages-navigation-widget-2" class="widget widget_subpages_navigation"><h3 class="widget-title"><a href='https://library.ryerson.ca/copyright/faculty/'>Faculty</a></h3>      <ul class="subpages-navi subpages-navi-widget subpages-navi-collapsible subpages-navi-auto-expand">
+          <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/copyright/faculty/teaching/">Copyright &amp; Teaching</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/teaching/one-stop-course-reading-service/">Library E-Reserves</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/teaching/one-stop-course-reading-service-print/">Course Reading Service - Print</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/copyright/faculty/teaching/one-stop-course-reading-service-print/approved-coursepack-vendors/">Coursepack Vendors</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/">Do-It-Yourself Copyright Checking</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/material-that-you-can-use-freely-in-your-teaching/">Material That You Can Use Freely In Your Teaching</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/instructions-on-how-to-check-the-access-copyright-repetoire/">Access Copyright Licence Expiry and What You Need to Do</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/uaing-library-resources-in-teaching/">How to Check Licences of Library Electronic Resources</a>
+            <ul class='children'>
+              <li class="subpages-navi-node subpages-navi-level-3">
+                <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/uaing-library-resources-in-teaching/how-to-create-persistent-links/">How to Create Persistent Links</a>
+              </li>
+              <li class="subpages-navi-node subpages-navi-level-3">
+                <a href="https://library.ryerson.ca/copyright/faculty/teaching/do-it-yourself-copyright-checking/uaing-library-resources-in-teaching/licence-look-up-tool-resources/">Licence Look-up Tool Resources</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/copyright/faculty/quick-copyright-tips-for-rapidly-shifting-your-course-from-in-person-to-online/">Quick Copyright Tips for Rapidly Shifting Your Course From In-person to Online </a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/copyright/faculty/rapidly-shifting-your-course-from-in-person-to-online/">Rapidly shifting your course from in-person to online Copyright Considerations Guide</a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/">Teaching FAQS</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/my-teaching-materials-have-been-posted-online/">My Teaching Materials have been posted online FAQ</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/my-teaching-materials-have-been-posted-online/appendix-a-template-take-down-request-for-instructors/">APPENDIX A - Template Take Down Request for Instructors</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/copyright-faqs-general-questions/">Copyright FAQS - General Questions</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/virtual-classroom/">Virtual Classroom</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1 subpages-navi-current-level">
+        <a href="https://library.ryerson.ca/copyright/faculty/copyright-faqs/physical-classroom/">Physical Classroom</a>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/copyright/faculty/personal-use-private-study-and-research/">Personal Use (Private Study and Research)</a>
+  </li>
+      </ul>
+
+      </aside>
+  
+</div><!-- #secondary .widget-area -->
+
+  </div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                      <li><a href="https://www.facebook.com/RyersonLibrary/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                      <li><a href="https://www.flickr.com/photos/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Flickr"><i class="fa fa-flickr"></i></a></li>
+                    
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/copyright/files/2017/08/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/copyright/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/copyright/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'FBMAJBPBBPKAGLEJFBCBCAEHKKEBEAJOGOGKJNOHGOGKCKENKCADPPHPAMJPKIGAPAHBBOFFAAFNPJGKIJJAIGFCAADNNMMIFCMLDEPCCIMECAFLPLOCBPIFBHDLAKIB',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

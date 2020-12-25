@@ -1,0 +1,777 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Architectural Science - Architectural Science Guide to Library Resources - Research Guides at Ryerson University Library</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noarchive" /><!-- favicon.twig -->
+<link rel="apple-touch-icon" sizes="180x180" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
+<link rel="manifest" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
+<link rel="mask-icon" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="//libapps-ca.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- public_metadata.twig -->
+
+    <!-- auto generated dublin core metadata -->
+    <meta name="DC.Title" content="Research Guides: Architectural Science Guide to Library Resources: Architectural Science"/>
+    <meta name="DC.Creator" content="Nora Mulvaney"/>
+    <meta name="DC.Subject" content="Architecture"/>
+    <meta name="DC.Description" content=""/>
+    <meta name="DC.Publishers" content="Ryerson University Library"/>
+    <meta name="DC.Rights" content="Copyright Ryerson University Library 2020"/>
+    <meta name="DC.Language" content="en"/>
+    <meta name="DC.Identifier" content="https://learn.library.ryerson.ca/architecturalscience/home"/>
+    <meta name="DC.Date.Created" content="Jun 30, 2017"/>
+    <meta name="DC.Date.Modified" content="Nov 17, 2020"/>
+    
+		<meta property="og:title" content="Research Guides: Architectural Science Guide to Library Resources: Architectural Science">
+		<meta property="og:description" content="Research Guides: Architectural Science Guide to Library Resources: Architectural Science">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://learn.library.ryerson.ca/architecturalscience/home">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@springshare"><link rel="stylesheet" href="/web/jquery/css/jquery-ui.min.css?2695" /><link rel="stylesheet" href="/web/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick.css"><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick-theme.css"><link rel="stylesheet" href="/web/css2.5.3/lg-public.min.css" /><script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script><!-- js_include_fallback.twig -->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        jQuery.ui ||
+        document.write('<script src="/web/jquery/js/jquery-ui.min.js?2695">\x3C/script>');
+    </script>
+<!-- !js_include_fallback.twig --><script type="text/javascript" src="/web/js2.5.3/lg-public.min.js"></script><style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-tabs > li > button,
+                        #s-lg-tabs-container .nav-pills > li > a,
+                        #s-lg-tabs-container .nav-pills > li > button {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-tabs > li > button:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > button:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-tabs > .active > button,
+                        #s-lg-tabs-container .nav-pills > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > button {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a,
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > button {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover,
+                        #s-lg-tabs-container .nav-pills > .active > a:hover,
+                        #s-lg-tabs-container .nav-tabs > .active > button:hover,
+                        #s-lg-tabs-container .nav-pills > .active > button:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        #s-lg-tabs-container .nav-tabs button.dropdown-toggle .caret {
+                            margin-left: 2px;
+                            margin-top: -3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 0px 3px;
+                            border-left: 1px solid transparent;
+                            margin-right: 2px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 0px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover,
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link,
+                        .nav-tabs > li > button.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 0px;
+                        box-shadow: none;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 0px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 0px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style><!-- DO NOT EDIT BELOW THIS LINE-->
+<style>body{padding:0;font-size:14px}.alert{overflow-wrap:break-word}.s-lib-side-borders{padding-right:15px;padding-left:15px}.s-ui-helptip .popover-title{margin:0}#s-lg-guide-header-info h1,.s-lib-header h1{font-size:2em}.s-lib-public-side-header h2{font-family:inherit;font-weight:700;line-height:1.25em;font-size:1.75em}#s-lib-scroll-top{display:none !important}#s-lib-footer-public{font-size:0.75em;line-height:1.75em;background:none;border:none}form[id^="s-lg-frm-guide-widget-"]{display:flex}form[id^="s-lg-frm-guide-widget-"] .form-control{min-width:0}.s-lib-public-side-header h2{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;border:0}.s-lib-public-side-header h2>a{color:var(--white)}.s-lib-public-side-header+.txt h3{font-family:inherit;line-height:1.25em;font-weight:700;font-size:1.1em;margin-top:1em;margin-bottom:0.35em}.s-lib-box{border:0;background:var(--white);border-radius:0;box-shadow:none}.txt{margin-top:0;padding:0 1em 1em;background:var(--white)}.txt.pad-top-sm{padding-top:1em}.s-lib-box .s-lib-box-title{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;border:0}.s-lib-box .s-lib-box-title>a{color:var(--white)}.s-lib-box-content{padding:1em 1.5em}.s-lib-box h3{line-height:1.25em;font-size:1.25em;font-weight:700}.s-lib-box h4{line-height:1.1em;font-size:1.1em;font-weight:700}.s-lg-link-list{padding:0;list-style-type:none}.s-lg-link-list li{padding-top:0}.s-lg-link-list>li+li{margin-top:1em}.s-lg-link-list a{font-weight:700}.s-lg-tn{margin-left:0}.margin-right-sm{margin-right:1em !important}.imgshadow{box-shadow:0 5px 5px 0 silver}.rightbuffer{margin-right:2em}#s-lg-az-experts-div #s-lg-box-profile .s-lib-box-title,#s-lg-sb-experts-div #s-lg-box-profile .s-lib-box-title{display:none}#s-lg-az-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-box-content,#s-lg-sb-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-box-content{padding:0}#s-lg-az-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-profile-image img,#s-lg-sb-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-profile-image img{background-color:transparent;border:none;box-shadow:none;padding:0;max-width:auto}.lg-content-box-search .input-append{padding:0 1em 1em;background:var(--white)}.lg-content-box-search .input-append form{display:flex}.lg-content-box-az,.lg-content-box-help{background:var(--white)}.lg-content-box-az a.btn,.lg-content-box-help a.btn{margin-left:1em;margin-bottom:1em}#s-lg-tabs-container .nav-tabs{border-bottom:none}#s-lg-tabs-container .nav-tabs>li{margin-bottom:0;margin-right:1px}#s-lg-tabs-container .nav-tabs>li>a,#s-lg-tabs-container .nav-tabs>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-tabs-container .nav-tabs>li>a:hover,#s-lg-tabs-container .nav-tabs>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-tabs-container .nav-tabs>li.active>a,#s-lg-tabs-container .nav-tabs>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-tabs-container .nav-tabs li{margin-top:0}#s-lg-tabs-container .nav-tabs li.active{background:var(--white)}#s-lg-tabs-container .nav-tabs li.active>a,#s-lg-tabs-container .nav-tabs li.active>a:hover{border:0}#s-lg-tabs-container .nav-tabs li.dropdown{display:flex}#s-lg-tabs-container .nav-tabs li.dropdown .dropdown-toggle{display:flex;align-items:center}#s-lg-tabs-container .nav-tabs li>a.s-lg-tab-top-link,#s-lg-tabs-container .nav-tabs li>a.s-lg-tab-top-link:hover{padding:10px 15px;float:none}#s-lg-tabs-container .nav-pills li{position:relative;background:var(--white)}#s-lg-tabs-container .nav-pills li:hover{background:var(--black)}#s-lg-tabs-container .nav-pills li:hover>a{color:var(--white)}#s-lg-tabs-container .nav-pills li>a{color:var(--black);background:none;border:0;border-radius:0;padding:10px 15px;font-weight:400;text-decoration:underline}#s-lg-tabs-container .nav-pills li>a:hover{background:none;border:0;border-radius:0;padding:10px 15px}#s-lg-tabs-container .nav-pills li>a.s-lg-tab-top-link,#s-lg-tabs-container .nav-pills li>a.s-lg-tab-top-link:hover{padding:10px 15px;padding-right:2em;float:none;font-weight:400}#s-lg-tabs-container .nav-pills li>a.s-lg-tab-drop{top:0;padding:10px 15px !important;background:none}#s-lg-tabs-container .nav-pills .active>a,#s-lg-tabs-container .nav-pills .active>a:hover{color:var(--white);background:var(--black);border:0;border-radius:0;padding:10px 15px}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav{background:var(--main-bg-color);border-top:1px solid var(--main-bg-color);margin-top:0px;margin-left:0;padding-left:20px}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item{padding:10px 15px;border-radius:0 !important;margin:1px 0 0 0;background:var(--white);border:none}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item>a{color:var(--black);background:none;padding:0}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:hover{background:var(--black)}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:hover>a{color:var(--white)}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:first-child{margin-top:0}.s-lg-tabs-side .s-lg-subtab-ul.nav.nav-pills{background:var(--main-bg-color);border-top:1px solid var(--main-bg-color);margin-top:0px;margin-left:0;padding-left:20px}.nav-stacked>li+li{margin-top:1px}#s-lg-hp-nav{background:none;color:var(--black);border-radius:0;margin-bottom:0}#s-lg-hp-nav>ul>li{padding:0}#s-lg-hp-nav ul.nav-pills{border-bottom:none;margin-bottom:0 !important}#s-lg-hp-nav ul.nav-pills>li{margin-bottom:0;margin-right:1px}#s-lg-hp-nav ul.nav-pills>li>a,#s-lg-hp-nav ul.nav-pills>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-hp-nav ul.nav-pills>li>a:hover,#s-lg-hp-nav ul.nav-pills>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-hp-nav ul.nav-pills>li.active>a,#s-lg-hp-nav ul.nav-pills>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-hp-nav ul.nav-pills li+li{margin-left:0}#s-lg-hp-nav ul.nav-pills .s-lg-index-nav-btn>button:focus{outline:1px dotted}#s-lg-hp-nav li#s-lg-hp-nav-bottom{background:var(--white);padding:1em;border-radius:0}#s-lg-guide-list-controls{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-guide-list-controls:after{content:"";clear:both;display:table}#s-lg-guide-list-controls #s-lg-index-list-header{margin:0}#s-lg-index-list{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-index-list .panel-group .panel{border-radius:0;border:0;box-shadow:none}#s-lg-index-list .panel-default>.panel-heading{color:var(--black);background-color:var(--grey);border:0;border-radius:0}#s-lg-index-list .panel-default>.panel-heading a{color:var(--link-color);line-height:2em;display:flex;align-items:center;justify-content:space-between}#s-lg-index-list .panel-default>.panel-heading a .badge{order:2;font-size:1em;line-height:2em;border-radius:2em;height:2em;width:2em;min-width:2em;padding:0}#s-lg-index-list .panel-default .panel-body{border:1px solid var(--grey);border-top:none}#s-lg-index-list .panel-default .panel-body a{font-weight:400}#s-lg-index-list-guides{margin:0}#s-lg-index-list-guides #col-1{padding:0}#s-lg-index-list-guides #col-1 .s-lib-box-content{padding:0}#s-lg-index-list-guides #col-1 .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-index-cols #col2>div{background:var(--white)}.s-lg-facet-div-title{background:var(--ryerson-blue) !important;color:var(--white) !important;font-size:1.25em !important;line-height:1.25em !important;font-weight:700 !important;margin-bottom:0 !important;margin-top:0 !important;padding:1em !important;border-bottom:none !important}.s-lg-facet-div-title>a{color:var(--white) !important}.s-lg-facet-div-content{margin-top:0 !important;padding:0.5em 1em !important;background:var(--white) !important}.s-lg-facet-div-content>label{margin-top:5px}.s-srch-resultlist>strong:after{content:"";clear:both;display:table}.s-srch-result{padding:15px !important;margin:0 !important;border-bottom:1px solid var(--ryerson-blue) !important}#s-lg-srch-local #s-lg-srch-nav-1{padding:0 !important}#s-lg-srch-local #s-lg-srch-form{width:100% !important;padding:10px 0 0 !important}#s-lg-sb-cols .nav-tabs{border-bottom:none;margin-bottom:0 !important}#s-lg-sb-cols .nav-tabs>li{margin-bottom:0;margin-right:1px}#s-lg-sb-cols .nav-tabs>li>a,#s-lg-sb-cols .nav-tabs>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-sb-cols .nav-tabs>li>a:hover,#s-lg-sb-cols .nav-tabs>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-sb-cols .nav-tabs>li.active>a,#s-lg-sb-cols .nav-tabs>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-sb-cols .tab-content{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-sb-cols .tab-content .s-lg-db-panel{background:var(--grey)}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content{display:flex;justify-content:space-between;padding:0}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle{order:0;line-height:35px}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gmeta{order:1;line-height:35px}#s-lg-sb-content-databases #s-lg-db-name-featured,#s-lg-sb-content-databases #s-lg-sb-name-regular{margin-bottom:1.5rem !important;padding:0;background:var(--grey)}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lg-db-panel-title,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lg-db-panel-title{margin:0}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lib-box,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lib-box{background:transparent}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lib-box-idx-guide-list,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lib-box-idx-guide-list{margin:0}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content{padding:0}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle{line-height:35px}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gmeta{line-height:35px}#s-lg-profile-cols #col3 .txt a{font-size:1em !important}#s-lg-az-results #s-lg-db-name-featured,.s-lg-db-name-featured{margin-bottom:10px;border-radius:0;border:none;padding:0 2rem;background:var(--white)}.s-lg-db-panel{margin-bottom:10px;border-radius:0;border:none;padding:0 2rem;background:var(--white)}.s-lg-db-panel .s-lg-db-panel-title{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;margin:0 -2rem}.s-lg-db-panel .s-lg-db-panel-title>a{color:var(--white)}.s-lg-db-panel .s-lg-az-result{border-bottom:0;padding:1em 0}.s-lg-db-panel .s-lg-az-result+.s-lg-az-result{border-top:1px solid var(--grey)}#s-lg-index-cols #col2 div:last-child .txt{display:flex;flex-wrap:wrap;justify-content:space-evenly;padding:0.5em}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-container{width:50%;margin:0;padding:0.5em}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-image{margin:0}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-name{margin:0.5em}#s-lg-index-cols #col2 div:last-child .txt+a{margin:0 1em 1em}@media only screen and (min-width: 600px) and (max-width: 991px){#s-lg-index-cols #col2 div:nth-child(4) .s-lib-featured-profile-container{width:25%}}</style><link rel="stylesheet" href="https://ryersonlibrary.nyc3.digitaloceanspaces.com/rylib-common/v0.2.x/rylib-common.css"/><script src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/rylib-common/v0.2.x/rylib-common.js"></script><script src="//libapps-ca.s3.amazonaws.com/sites/2734/include/autotrack.js"></script><script>
+var springStats = springStats || {};
+springStats.saConfig = springStats.saConfig || {
+    site_id: 2734,
+    tracking_parameters: {"_st_guide_id":693248,"_st_page_id":4911296,"_st_site_id":2734},
+    tracking_server_host: "libguides-proc-ca.springyaws.com"
+};
+</script>
+<script async  src="/web/js/sa.min.js?3116" ></script>
+		<script>
+			springSpace.Common = springSpace.Common || { };
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "https://learn.library.ryerson.ca/";
+			
+			handleScroll=function() {
+                if (false) {
+					var target_elt = "#s-lg-page-section-4911296";
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script>
+        <script>
+            // Enable tooltips.
+            jQuery(function () {
+                try {
+                    springSpace.UI.initPopOvers();
+                    jQuery(".az-bs-tooltip").tooltip();
+                } catch (e) { }
+            });jQuery(window).one('load', function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '693248',_st_page_id: '4911296'});});
+            jQuery(document).ready(function() {
+                handleScroll();
+            });
+        </script></head><body class="s-lg-guide-body">
+<a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a>
+
+<!-- BEGIN: Page Header -->
+<header class="global-header-top"><div class="container"><div class="row"><div class="col-xs-12"><nav class="navbar"><div class="container-fluid"><div class="navbar-header"><a class="navbar-brand" href="https://library.ryerson.ca"><img src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/assets/logos/rylib_logo.svg"/></a><div class="navbar-toggle-wrap"><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false"><span class="sr-only">Toggle search form</span><i class="fa fa-search" title="Toggle search form"></i></button><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false"><span class="sr-only">Toggle navigation</span><i class="fa fa-bars" title="Toggle navigation"></i></button></div></div><div class="collapse navbar-collapse navbar-left" id="site-search-form"><div class="rylib-search-form"><form class="navbar-form" action="/srch.php" method="get"><label class="sr-only" for="site-search">Search Research Guides</label><input id="site-search" type="text" name="s" placeholder="Search Research Guides"/><button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button></form></div></div><div class="collapse navbar-collapse navbar-right" id="global-navigation"><ul class="nav navbar-nav" role="navigation"><li><a href="https://my.ryerson.ca">my.ryerson</a></li><li><a href="https://catalogue.library.ryerson.ca/patroninfo">Renew Loans</a></li></ul></div></div></nav></div></div></div></header><header class="global-header-bottom"><div class="container"><div class="navbar-header"><a class="navbar-brand" href="https://library.ryerson.ca">Home</a><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#global-header-botton" aria-expanded="false"><span class="sr-only">Toggle navigation</span><i class="fa fa-angle-down" title="Toggle navigation"></i></button></div><div class="collapse navbar-collapse" id="global-header-botton"><ul class="nav navbar-nav"><li><a href="https://catalogue.library.ryerson.ca/">Catalogue</a></li><li><a href="https://library.ryerson.ca/articles/">Articles</a></li><li><a href="https://library.ryerson.ca/guides/">Research Help</a></li><li><a href="https://library.ryerson.ca/services/">Services</a></li><li><a href="https://library.ryerson.ca/info/about-us/">About Us</a></li></ul></div></div></header>
+<!-- END: Page Header -->
+<!-- BEGIN: Guide Info Header -->
+<div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+    <nav id="s-lib-bc" aria-label="breadcrumb" role="navigation">
+        
+			<ol id="s-lib-bc-list" class="breadcrumb">
+				
+					<li id="s-lib-bc-customer">
+						<a title="Ryerson University Library"  href="http://library.ryerson.ca">Ryerson University Library
+						</a>
+					</li>
+					<li id="s-lib-bc-site">
+						<a title="Research Guides"  href="https://learn.library.ryerson.ca/">Research Guides
+						</a>
+					</li>
+					<li id="s-lib-bc-guide">
+						<a title="Architectural Science Guide to Library Resources"  href="https://learn.library.ryerson.ca/architecturalscience">Architectural Science Guide to Library Resources
+						</a>
+					</li>
+					<li id="s-lib-bc-page" class="active">Architectural Science
+					</li>
+			</ol>
+    </nav>
+    <div class="pull-right">
+        <div id="s-lg-guide-header-search">
+            
+                <div id="s-lg-guide-search-box">
+                    <form role="search" id="s-lg-guide-search-form" action="https://learn.library.ryerson.ca/srch.php"
+                    method="GET">
+                        <div class="input-group input-group-sm">
+                            <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Search this Guide">
+                            <label class="sr-only" for="s-lg-guide-search-terms">Search this Guide</label><input type="hidden" name="guide_id" value="693248" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">Search</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>        </div>
+        
+    </div>
+    <div id="s-lg-guide-header-info">
+        <h1 id="s-lg-guide-name">Architectural Science Guide to Library Resources: Architectural Science</h1>
+        <div id="s-lg-guide-desc-container">
+            <span id="s-lg-guide-description"></span>
+        </div>
+    </div>
+</div>
+<!-- END: Guide Info Header -->
+<div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med">
+    <div id="s-lg-guide-tabs" class="tabs" role="navigation" aria-label="Guide Pages">
+        <ul class="nav nav-tabs split-button-nav">
+            
+                <li  class="active">
+                    <a
+                        title=""
+                        class="active"
+                        href="https://learn.library.ryerson.ca/architecturalscience/home" 
+                        aria-label="Architectural Science"
+                    >
+                        <span>Architectural Science</span>
+                        
+                    </a>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/architecturalscience/codes" 
+                        aria-label="Codes &amp; Standards"
+                    >
+                        <span>Codes & Standards</span>
+                        
+                    </a>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/architecturalscience/drawings" 
+                        aria-label="Images &amp; Videos"
+                    >
+                        <span>Images & Videos</span>
+                        
+                    </a>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/architecturalscience/toronto" 
+                        aria-label="Toronto Resources"
+                    >
+                        <span>Toronto Resources</span>
+                        
+                    </a>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/architecturalscience/citations" 
+                        aria-label="Citations"
+                    >
+                        <span>Citations</span>
+                        
+                    </a>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/architecturalscience/evaluation" 
+                        aria-label="Evaluating Sources"
+                    >
+                        <span>Evaluating Sources</span>
+                        
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>
+<div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
+<!-- BEGIN: Guide Content -->
+<div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders" tabindex="-1">
+    
+    
+				<div class="row s-lg-row">
+    <div id="s-lg-col-126" class="col-md-12">
+        <div class="s-lg-col-boxes">
+        </div>
+    </div>
+				
+</div>
+				<div class="row s-lg-row">
+    <div id="s-lg-col-1" class="col-md-8">
+        <div class="s-lg-col-boxes">
+							<div id="s-lg-box-wrapper-18207562" class="s-lg-box-wrapper-18207562">
+					<div id="s-lg-box-15443871-container" class="s-lib-box-container">
+						<div id="s-lg-box-15443871" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Books & Course Readings
+                                </h2>
+							<div id="s-lg-box-collapse-15443871" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									
+			<div id="s-lg-content-33633115" class="  clearfix">
+				<h3>Ryerson Library&nbsp;Architecture Collection</h3>
+
+<p>Browse <strong>7th floor stacks</strong>&nbsp;via&nbsp;architecture call number range:&nbsp;<strong><a href="http://catalogue.library.ryerson.ca/search~S0?/darchitecture/darchitecture/1%2C3083%2C10908%2CB/exact&amp;FF=darchitecture&amp;1%2C273%2C"><span class="bold">NA31-NA9428</span></a></strong>&nbsp;&nbsp;<br />
+<em>Note: Reserve books are located on the <strong>main floor</strong><b>&nbsp;(2nd)</b>.&nbsp;</em></p>
+
+<h3>Architecture Search Box</h3>
+
+<form action="http://ryerson.summon.serialssolutions.com/search" method="GET"><input class="search_string" name="s.q" size="40" type="text" /> <input class="buttons-primary-button-style" style="cursor: pointer; color: rgb(255, 255, 255); background-color: #337ab7;" type="submit" value="Search for books, articles, drawings, videos" />&nbsp;</form>
+
+<p>If you need help identifying scholarly/peer-reviewed articles, see&nbsp;this <a href="http://library.ryerson.ca/guides/rusearch/module-two/types-of-sources-4">tutorial</a>.</p>
+
+<p><em><strong>Call Numbers and Library Stack Floors</strong></em></p>
+
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/fe3D5jvQ7FA" width="560"></iframe></p>
+
+<p><strong>* <a href="https://catalogue.library.ryerson.ca/screens/recommend_title.html">Suggest a Title for Purchase online form</a></strong></p>
+
+<h3>Book &amp; Journal&nbsp;Image&nbsp;Boards</h3>
+
+<p><a href="http://www.pinterest.com/sourterrestrial/architecture-journalsmagazines-rula/">Architecture&nbsp;Journals/Magazines @&nbsp;RULA</a></p>
+
+<p><a href="https://www.pinterest.com/sourterrestrial/architecture-books-rula/">Architecture Classics and New&nbsp;Books Available @&nbsp;RULA</a></p>
+
+<h3>E-Books</h3>
+
+<p><strong><a href="https://library.ryerson.ca/eresources/de-gruyter-birkhauser-basics-online-ebooks/">BASICs Architecture eBooks</a></strong>&nbsp;covers&nbsp;subjects of architectural design, presentation, construction, building technology, professional practice, landscape architecture and urbanism.</p>
+
+<p><strong><a href="http://muse.jhu.edu.ezproxy.lib.ryerson.ca/browse/art_and_architecture">Project Muse</a></strong> includes Art &amp; Architecture Titles</p>
+
+<p><strong><a href="https://link-springer-com.ezproxy.lib.ryerson.ca/search?facet-discipline=%22Architecture+%2F+Design%22&amp;just-selected-from-overlay=facet-discipline&amp;just-selected-from-overlay-value=%22Architecture+%2F+Design%22">Springer Books</a></strong>&nbsp;includes Architecture &amp; Design E-Books</p>
+
+<p><strong><a href="http://ezproxy.lib.ryerson.ca/login?url=http://www.knovel.com/">Knovel</a></strong>&nbsp;includes Structural Engineering Titles</p>
+
+<p><strong><a href="http://ezproxy.lib.ryerson.ca/login?url=http://www.engnetbase.com/ejournals/search/advsearch.asp">EngNetBase</a></strong>&nbsp;includes Civil Engineering/HVAC Titles</p>
+
+<h3>ARCHIZINES</h3>
+
+<p><strong>​</strong><a href="http://www.archizines.com/About">Showcase of recent architecture fanzines</a>, journals and magazines from around the world that provide an alternative to the established architectural press.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18207563" class="s-lg-box-wrapper-18207563">
+					<div id="s-lg-box-15443872-container" class="s-lib-box-container">
+						<div id="s-lg-box-15443872" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Journal and Magazine Articles
+                                </h2>
+							<div id="s-lg-box-collapse-15443872" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									<div class="">
+                        <ul id="s-lg-link-list-36442742" class="s-lg-link-list s-lg-link-list-10"><li class="">
+                        
+                    <div id="s-lg-content-9405236" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=bvh"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9405236'});">Avery Index to Architectural Periodicals</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="https://library.ryerson.ca/eresources/avery/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9405236" class="s-lg-database-desc">The Avery Index to Architectural Periodicals indexes periodicals published worldwide on archeology, city planning, interior design, and historic preservation, as well as architecture. Coverage reaches from the 1930s (with selective coverage dating back to the 1860s) to the present.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9389546" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=https://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=aft"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9389546'});">Art Full Text</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="http://library.ryerson.ca/eresources/art/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/?lang=en&tag=EBSCOhost" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9389546" class="s-lg-database-desc">Art Full Text provides comprehensive abstracting and indexing for periodicals published throughout the world. Full-text coverage for selected periodicals is also included.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9405346" class=""><a href="http://archindont.torontopubliclibrary.ca/"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9405346'});">Archindont (Architectural Index for Ontario)</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><img loading="lazy" alt="Has Canadian Content" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7435/Canadian.png" title="Has Canadian Content &nbsp;"/>
+                </li>
+                <li><a href="http://library.ryerson.ca/eresources/archindont/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/?lang=en&tag=Generic" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><img loading="lazy" alt="Open Access Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/8996/Open_Access.png" title="Open Access Resource &nbsp;"/>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9405346" class="s-lg-database-desc">Archindont is a database of architectural information and citations about buildings in Toronto and Ontario appearing in selected books, non-Canadian periodicals and local (Toronto) newspapers.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9389547" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=http://library.artstor.org"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9389547'});">ARTstor</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="https://library.ryerson.ca/eresources/artstor/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9389547" class="s-lg-database-desc">ARTstor includes images covering artistic traditions across many times and cultures and embraces architecture, painting, sculpture, photography, decorative arts, and design as well as many other forms of visual culture. The Image Gallery also embraces an Art History Survey Collection of images selected on the basis of 13 standard art history survey texts.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-34983772" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=https://www.degruyter.com/databasecontent?dbid=bdt&dbsource=/db/bdt"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '34983772'});">Building Types Online</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="https://library.ryerson.ca/eresource/building-types-online/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/generic" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-34983772" class="s-lg-database-desc">Building Types Online is a resource for the study and practice of architectural design. It is based on Birkhäuser's high international standing in professional architecture books, on the knowledge of the authors and editors who are leading experts in their fields, as well as on the technical quality of the illustrations. The database offers exclusive and unparalleled, highly flexible and detailed search and browse access to the contents of the Birkhäuser program on building types. All content was written and selected by internationally renowned authors in architectural design.</div>
+                    </div></li>
+                        
+                            </ul>
+                            </div><div class="">
+                        <ul id="s-lg-link-list-36442743" class="s-lg-link-list s-lg-link-list-2"><li class="">
+                        
+			<div id="s-lg-content-33633117" class=""><span><a href="http://www.ncmodernist.org/colossus#PA" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '33633117'});">Colossus: Architecture Magazine Archive</a> 
+				</span><div id="s-lg-link-desc-33633117" class="s-lg-link-desc">Colossus is the first vast open searchable digital archive of major 20th century architecture publications. Colossus collects and shares architecture magazines from architects and offices and basements and libraries across the country. Titles include Progressive Architect, AIA Journal, House+Home, Architectural Forum, AIA North Carolina, Metro Magazine and Design Life.</div>
+			</div></li>
+                        <li class="">
+                        
+			<div id="s-lg-content-33633118" class=""><span><a href="http://catalogue.library.ryerson.ca/search/t?SEARCH=GA+Document&SUBMIT=Search" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '33633118'});">GA Document</a> 
+				</span><div id="s-lg-link-desc-33633118" class="s-lg-link-desc">GA Document presents the finest in international design, focusing on architecture that expresses our time and striving to record the history of contemporary architecture.</div>
+			</div></li>
+                        <li class="">
+                        
+			<div id="s-lg-content-33633119" class=""><span><a href="https://catalogue.library.ryerson.ca/record=b1101964" target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '33633119'});">GA Houses</a> 
+				</span><div id="s-lg-link-desc-33633119" class="s-lg-link-desc">GA Houses documents outstanding new residential architecture from all over the world</div>
+			</div></li>
+                        
+                            </ul>
+                            </div><div class="">
+                        <ul id="s-lg-link-list-36442747" class="s-lg-link-list s-lg-link-list-10"><li class="">
+                        
+                    <div id="s-lg-content-9405286" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=http://www.jstor.org/search"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9405286'});">JSTOR</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="http://library.ryerson.ca/eresources/jstor/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/?lang=en&tag=JSTOR_Archive_8_Collections" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9405286" class="s-lg-database-desc">JSTOR has created a full text digital archive of core scholarly journals with complete back runs of many titles. As part of JSTOR’s agreement with publishers, current issues (usually the last 3 – 5 years) are not digitized by JSTOR and may be obtained elsewhere. The Ryerson University Library has access to the entire content of JSTOR’s archival journal collections.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9405289" class=""><a href="https://learn.library.ryerson.ca/materialconnexion"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9405289'});">Material ConneXion</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="http://library.ryerson.ca/eresources/material-connexion/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/?lang=en&tag=Material_Connexion" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9405289" class="s-lg-database-desc">Material ConneXion offers a knowledge base with an eclectic collection of innovative materials and processes. The database is updated regularly and frequently with materials juried by a panel of material specialists. It is a resource for all disciplines of design development, including: Architecture, Interior Design, Packaging Design, Retail Design, Industrial Design, Fashion, Apparel & Footwear, Exhibition Design, Textile Design, Landscape Architecture, and Transportation Design and includes the largest selection of sustainable materials and the only Cradle to Cradle materials library in the world: Polymers, Ceramics, Glass, Metals, Cement-based materials, Natural Materials, Carbon-based materials, and Processes.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9389654" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=https://muse.jhu.edu/journals/"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9389654'});">Project MUSE</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="http://library.ryerson.ca/eresources/muse/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="https://ryerson.scholarsportal.info/licenses/?lang=en&tag=Project_Muse" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9389654" class="s-lg-database-desc">Project Muse provides online access to the full text of over 250 quality journal titles from 40 scholarly publishers in the fields of literature and criticism, history, the visual and performing arts, cultural studies, education, political science, gender studies, mathematics and many others.</div>
+                    </div></li>
+                        
+                            </ul>
+                            </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+        </div>
+    </div>
+    <div id="s-lg-col-2" class="col-md-4">
+        <div class="s-lg-col-boxes">
+							<div id="s-lg-box-wrapper-18207568" class="s-lg-box-wrapper-18207568">
+					<div id="s-lg-box-7443216-container" class="s-lib-box-container">
+						<div id="s-lg-box-7443216" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Borrow from Other Libraries
+                                </h2>
+							<div id="s-lg-box-collapse-7443216" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									
+			<div id="s-lg-content-14785236" class="  clearfix">
+				<p><strong>Can&#39;t find what you&#39;re looking for? We can help you borrow it from another library.</strong></p>
+
+<div><a href="https://racer1.scholarsportal.info/en/zportal/zengine?VDXaction=LoginPage" target="_blank"><img alt="" src="http://library.mcmaster.ca/images/racer-print.jpg" style="width: 500px; height: 75px;" /></a></div>
+
+<div>
+<p>Material not held in the collection&nbsp;of Ryerson University Library&nbsp;that is needed for study or research by faculty, students, and staff may be requested at no charge through our Interlibrary Loan Service (ILL) via <strong><a href="http://library.ryerson.ca/services/ill/racer/">RACER</a></strong>.</p>
+
+<p><strong>Please check our Library Catalogue&nbsp;FIRST to make sure we do not own the material you are looking for.&nbsp;</strong></p>
+
+<p><a href="http://racer1.scholarsportal.info/en/zportal/zengine?VDXaction=LoginPage"><strong>LOGIN TO RACER</strong></a><strong> | <a href="http://library.ryerson.ca/services/ill/racer/using-racer/">First Time Users &amp; Other Information about RACER</a></strong></p>
+</div>
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18207564" class="s-lg-box-wrapper-18207564">
+					<div id="s-lg-box-15443873-container" class="s-lib-box-container">
+						<div id="s-lg-box-15443873" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Toronto Buildings Research
+                                </h2>
+							<div id="s-lg-box-collapse-15443873" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									
+			<div id="s-lg-content-33633120" class="  clearfix">
+				<h3>Toronto Research</h3>
+
+<p>Discover significant architectural landmarks and view pictures of old buildings, interactive maps, plans and historical newspaper collections.&nbsp;Download property data, building height, zoning shape files, contours and aerial photography.</p>
+
+<p><a href="http://torontopubliclibrary.typepad.com/local-history-genealogy/2014/03/researching-historic-buildings-in-toronto.html">Researching Historic Buildings in Toronto&nbsp;Neighbourhoods </a></p>
+
+<p><a href="http://catalogue.library.ryerson.ca/search?/dHistoric+buildings+--+Ontario+-+Toronto./dhistoric+buildings+ontario+toronto/1%2C9%2C55%2CB/exact&amp;FF=dhistoric+buildings+ontario+toronto&amp;1%2C31%2C">Historic Buildings - Toronto (Library Catalogue)</a></p>
+
+<p><a href="http://dictionaryofarchitectsincanada.org/">Architects in Canada (Biographical Dictionary)</a></p>
+
+<p><a href="http://www.torontopubliclibrary.ca/history-genealogy/lh-geography-maps.jsp">Digital Archive Toronto Maps</a>&nbsp;</p>
+
+<p><a href="https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/">Open Data Catalogue&nbsp;[3D Massing Data]&nbsp;</a></p>
+
+<p><a href="http://gis.ryerson.ca/pdm_toronto/pdmindex.htm">Property Data Maps - City of Toronto (DWG &amp; PDF Files)</a></p>
+
+<p><a href="http://library.ryerson.ca/gmdc/madar/geo-data/search/toronto/">GeoSpatial&nbsp;Datasets: Toronto</a></p>
+
+<p><a href="http://search.proquest.com.ezproxy.lib.ryerson.ca/avery/advanced?accountid=13631">Avery Index to Architectural Periodicals [Search Canadian Architect, Canadian Interiors, RAIC]</a></p>
+
+<p><a href="http://sextondigital.library.dal.ca/RAIC/">RAIC Journal 1924-1973 [Sexton Digital Initiative]</a></p>
+
+<p><a href="http://www.acotoronto.ca/tobuilt_new.php">TOBuilt: A Database of Buildings in Toronto, Canada</a></p>
+
+<p><a href="http://library.ryerson.ca/eresources/pop/">Toronto Star Newspaper (1894-2012)</a></p>
+
+<p><a href="http://search.proquest.com.ezproxy.lib.ryerson.ca/hnpglobeandmail/news/fromDatabasesLayer?accountid=13631">Globe &amp; Mail Newspaper (1844-2011)</a></p>
+
+<p><a href="http://www.ryerson.ca/campusfacilities/service-request/index.html#tab6">Ryerson Campus Information Request Form</a></p>
+
+		   </div><div class="">
+                        <ul id="s-lg-link-list-36443777" class="s-lg-link-list s-lg-link-list-5"><li class="">
+                        <div id="s-lg-content-33634041" class="s-lg-book clearfix"><div class="s-lg-book-props"><span id="s-lg-book-cover-33634041" class="s-lg-book-cover"><img loading="lazy" alt=""  src="//syndetics.com/index.aspx?isbn=9780771059896/LC.GIF&client=ryera" class="pull-left s-lg-book-cover-img-0" /></span><span id="s-lg-book-title-33634041" class="s-lg-book-title">Toronto Architecture</span><span id="s-lg-book-by-33634041" class="s-lg-book-by"> by </span><span id="s-lg-book-author-33634041" class="s-lg-book-author">Patricia McHugh; Alex Bozikovic</span> <span tabindex="0" class="fa fa-lg fa-info-circle"  data-toggle="popover" data-trigger="hover focus" data-placement="bottom" data-html="true" data-title="Description" data-content="Toronto has been hailed as &quot;the city that works,&quot; &quot;the livable city,&quot; and a &quot;world-class city.&quot; But just what does Toronto look like? And what can the changing image of the city tell us about Toronto&#039;s past -- and its future? Twenty-two self-contained walking tours -- each with an easy-to-follow map -- range over 175 years of Toronto buildings. More than 900 buildings are catalogued- fanciful Victorian houses, graceful spired churches, lush Edwardian factories..." ><span class="sr-only">Toronto has been hailed as "the city that works," "the livable city," and a "world-class city." But just what does Toronto look like? And what can the changing image of the city tell us about Toronto's past -- and its future? Twenty-two self-contained walking tours -- each with an easy-to-follow map -- range over 175 years of Toronto buildings. More than 900 buildings are catalogued- fanciful Victorian houses, graceful spired churches, lush Edwardian factories and warehouses, Art Deco apartments, and new landmarks. Illustrated with over 300 photographs, the guide examines well-known and important buildings as well as the more modest structures in between that form Toronto's cityscape. The original edition of Toronto Architecture- A City Guide by Patricia McHugh is fully revised and expanded by architecture critic Alex Bozikovic. Complete with an illustrated description of Toronto styles, a glossary of architectural terms, and a biographical index of architects, this is the definitive reference to Toronto's buildings -- old and new.</span></span><div class="s-lg-book-prop-callno">Call Number: FC3097.7 M26 2017</div><div class="s-lg-book-prop-isbn">ISBN: 9780771059896</div><div class="s-lg-book-prop-pubdate">Publication Date: 2017-06-27</div></div></div></li>
+                        <li class="">
+                        <div id="s-lg-content-33633121" class="s-lg-book clearfix"><div class="s-lg-book-props"><a href="http://catalogue.library.ryerson.ca/record=b2511021~S0" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '33633121'});"><span id="s-lg-book-cover-33633121" class="s-lg-book-cover"><img loading="lazy" alt=""  src="//syndetics.com/index.aspx?isbn=9780773543492/LC.GIF&client=ryera" class="pull-left s-lg-book-cover-img-0" /></span><span id="s-lg-book-title-33633121" class="s-lg-book-title">Making Toronto Modern: Architecture & Design, 1895-1975</span><span id="s-lg-book-by-33633121" class="s-lg-book-by"> by </span><span id="s-lg-book-author-33633121" class="s-lg-book-author">Christopher Armstrong</span></a> <span tabindex="0" class="fa fa-lg fa-info-circle"  data-toggle="popover" data-trigger="hover focus" data-placement="bottom" data-html="true" data-title="Description" data-content="In the final years of the nineteenth century, Toronto architects started to consider how their city, through progressive architecture and urban planning, could be made &quot;modern.&quot; Making Toronto Modern constructs Toronto&#039;s architectural past to create a compelling narrative of how new ideas about modernism were debated, received, and embodied in new buildings. Through a close examination of political debates, architectural journals, and home design magazines, Christopher Armstrong..." ><span class="sr-only">In the final years of the nineteenth century, Toronto architects started to consider how their city, through progressive architecture and urban planning, could be made "modern." Making Toronto Modern constructs Toronto's architectural past to create a compelling narrative of how new ideas about modernism were debated, received, and embodied in new buildings. Through a close examination of political debates, architectural journals, and home design magazines, Christopher Armstrong describes the competing motivations and ideals that influenced the ways in which the city was built. He shows how radical architectural ideas from Europe began to influence Toronto architects and planners in the 1920s, but that the city's residents proved cautiously conservative about modernism. It was not until the prosperous 1950s that the Modern Movement gained wider acceptance through the work of a new generation of practitioners and by the time Viljo Revell's dramatic New City Hall opened in 1965, it was clear that popular attitudes had undergone significant change. The book profiles major public buildings, university commissions, commercial buildings, and a range of residential architecture - from the homes of the city's richest businessmen in the early twentieth century to modernist works such as the Betel, Horne, and Fraser residences sixty years later. Extensively illustrated with period photographs, many previously unpublished, this broad overview fills a major gap in Toronto's architectural history. A reminder of what is at stake in the reception of new architecture and the factors that shape the development of contemporary architecture, Making Toronto Modern is critical to understanding how Torontonians came to see themselves as living in a world-class city attuned to the avant-garde.</span></span><div class="s-lg-book-prop-callno">Call Number: NA747.T6 A75 2014</div><div class="s-lg-book-prop-isbn">ISBN: 9780773543492</div><div class="s-lg-book-prop-pubdate">Publication Date: 2014-04-01</div></div></div></li>
+                        
+                            </ul>
+                            </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18207567" class="s-lg-box-wrapper-18207567">
+					<div id="s-lg-box-15443876-container" class="s-lib-box-container">
+						<div id="s-lg-box-15443876" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Finding Theses
+                                </h2>
+							<div id="s-lg-box-collapse-15443876" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									
+			<div id="s-lg-content-33633124" class="  clearfix">
+				<h3>Ryerson Theses (Research Papers)</h3>
+
+<ul>
+	<li><a href="http://digital.library.ryerson.ca/islandora/search/Architecture?type=dismax&amp;f[0]=mods_extension_degree_department_ms%3A%22Architectural%5C%20Science%22">RULA Digital Repository (Online)</a></li>
+	<li><a href="http://catalogue.library.ryerson.ca/search/a?SEARCH=Ryerson+University.+School+of+Graduate+Studies.+Program+in+Archi&amp;SUBMIT=Search">MArch Architecture Theses</a></li>
+	<li><a href="http://catalogue.library.ryerson.ca/search/a?Ryerson+University.+School+of+Graduate+Studies.+Program+in+building+science&amp;SUBMIT=Search">Building Science Theses</a></li>
+	<li><a href="http://bit.ly/ARCHpapers">Undergraduate Research Papers</a>&nbsp;</li>
+</ul>
+
+<h3>More Theses (Research Papers)</h3>
+
+<h4><a href="http://ezproxy.lib.ryerson.ca/login?url=http://search.proquest.com/pqdtft?accountid=13631">Proquest Dissertations and Theses</a></h4>
+
+<p>Proquest Dissertations and Theses provides access to the full-text of over 400,000 Masters and PhD theses from 1997 onwards.&nbsp;</p>
+
+<h4><a href="http://www.bac-lac.gc.ca/eng/services/theses/Pages/theses-canada.aspx">Theses Canada Portal</a></h4>
+
+<p>Provides electronic access to the full text of Canadian theses digitized between 1998 and 2002 and provides a record of all other theses in the National Library of Canada&#39;s collection (1965-).</p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18863889" class="s-lg-box-wrapper-18863889">
+					<div id="s-lg-box-15985279-container" class="s-lib-box-container">
+						<div id="s-lg-box-15985279" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Need Help in Person?
+                                </h2>
+							<div id="s-lg-box-collapse-15985279" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									<div id="s-lib-profile-143637" class="s-lib-profile-container"><a href="//learn.library.ryerson.ca/prf.php?account_id=149362"><div id="s-lib-profile-image-143637" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+                <img loading="lazy" src="//libapps-ca.s3.amazonaws.com/accounts/149362/profiles/143637/IMG_20200805_150346192.jpg" alt="Nora Mulvaney's picture" />
+            </div><div id="s-lib-profile-name-143637" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">Nora Mulvaney</div></a><div id="s-lib-profile-email-143637" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email"><a title="nmulvaney@ryerson.ca" href="mailto:nmulvaney@ryerson.ca" class="label label-info">Email Me</a></div>
+            <div id="s-lib-profile-widget-la-143637" class="s-lib-profile-div s-lib-profile-widget-la">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-widget-lc-143637" class="s-lib-profile-div s-lib-profile-widget-lc">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-widget-other-143637" class="s-lib-profile-div s-lib-profile-widget-other">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-contact-143637" class="s-lib-profile-div s-lib-profile-contact"></div>
+            <div id="s-lib-profile-social-143637" class="s-lib-profile-div s-lib-profile-social"></div>
+            <div id="s-lib-profile-subjects-143637" class="s-lib-profile-div s-lib-profile-subjects"><strong>Subjects:</strong><a href="https://learn.library.ryerson.ca/aeroeng">Aerospace Engineering</a>, <a href="https://learn.library.ryerson.ca/arch">Architecture</a>, <a href="https://learn.library.ryerson.ca/biomedeng">Biomedical Engineering</a>, <a href="https://learn.library.ryerson.ca/chemicaleng">Chemical Engineering</a>, <a href="https://learn.library.ryerson.ca/civeng">Civil Engineering</a>, <a href="https://learn.library.ryerson.ca/electrical">Electrical & Computer Engineering</a>, <a href="https://learn.library.ryerson.ca/engineering">Engineering</a>, <a href="https://learn.library.ryerson.ca/indeng">Industrial Engineering</a>, <a href="https://learn.library.ryerson.ca/mecheng">Mechanical & Industrial Engineering</a></div></div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+        </div>
+    </div>
+				
+</div>
+				<div class="row s-lg-row">
+    <div id="s-lg-col-127" class="col-md-12">
+        <div class="s-lg-col-boxes s-lg-box-special">
+							<div id="s-lg-box-wrapper-18207569" class="s-lg-box-wrapper-18207569">
+					<div id="s-lg-box-4411763-container" class="s-lib-box-container">
+						<div id="s-lg-box-4411763" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Creative Commons License
+                                </h2>
+							<div id="s-lg-box-collapse-4411763" >
+								<div class="s-lib-box-content pad-left-none pad-right-none">
+									
+			<div id="s-lg-content-8510419" class="  clearfix">
+				<p>This guide has been created by the Ryerson University Library&nbsp;and is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution International 4.0 License</a> unless otherwise marked.</p>
+
+<p><a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Attribution License" src="//libapps-ca.s3.amazonaws.com/accounts/20919/images/cc-by.png" /></a></p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+        </div>
+    </div>
+				
+</div>
+    <ul id="s-lg-page-prevnext" class="pager s-lib-hide"><li class="previous"></li><li class="next"><a href="https://learn.library.ryerson.ca/architecturalscience/codes"><strong>Next:</strong> Codes & Standards &gt;&gt;</a></li></ul>
+</div>
+<!-- END: Guide Content -->
+<!-- BEGIN: Page Footer -->
+<div id="s-lib-footer-public"
+     class="s-lib-footer footer container  s-lib-side-borders">
+    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
+        <ul id="s-lg-guide-header-attributes" class="">
+            <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
+                <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Nov 17, 2020 11:07 AM</span>            </li>
+            <li id="s-lg-guide-header-url" class="s-lg-h-separator">
+                <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">https://learn.library.ryerson.ca/architecturalscience</span>
+            </li>
+            <li id="s-lg-guide-print-url">
+                <a href="javascript: window.print();"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>
+            </li>
+        </ul>
+        <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
+            <a href="https://ryerson.libapps.com/libapps/login.php?site_id=2734&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTY5MzI0OCZwPTQ5MTEyOTY=">Login to LibApps</a>        </div>
+    </div>
+    <div class="pad-bottom-sm clearfix">
+        <div id="s-lib-footer-support-link" class="pull-right pad-right-med">
+            <a href="mailto:refdesk@ryerson.ca">Report a problem.</a>        </div>
+        <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left">
+            
+                    <span class="s-lg-guide-label">Subjects: </span>
+                    <span class="s-lg-small bold"><a href="https://learn.library.ryerson.ca/sb.php?subject_id=49137">Architecture</a></span>
+                    
+        </div>
+        <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med">
+            
+        </div>
+    </div>
+</div>
+<!-- END: Page Footer -->
+
+			<div id="s-lib-scroll-top">
+				<a href="javascript:void(0);" onclick="jQuery('body').focus();" title="Back to Top" aria-label="Back to Top">
+					<span class="fa-stack fa-lg" aria-hidden="true">
+					  <i class="fa fa-square-o fa-stack-2x"></i>
+					  <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+					</span>
+				</a>
+			</div><div id="s-lib-alert" title="">
+                            <div id="s-lib-alert-content"></div>
+                       </div>
+                <!-- BEGIN: Custom Footer -->
+                
+<footer class="local-footer"><div class="container"><div class="row"> <div class="col-xs-12 col-sm-3"><h4>Ryerson University Library</h4><p><a href="http://www.ryerson.ca/maps/?building=LIB">Library Building</a><br/>350 Victoria Street 2nd Floor<abbr title="Phone">P:</abbr>(416 979-5055)<br/>Fax: (416) 979-5215<br/>Email: <a href="refdesk@ryerson.ca">refdesk@ryerson.ca</a></p><ul class="social"><li><a href="https://twitter.com/ryersonlibrary"> <i class="fa fa-twitter"></i></a></li><li><a href="https://www.instagram.com/ryersonulibrary"> <i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com/user/ryersonlibrary"> <i class="fa fa-youtube"></i></a></li><li><a href="http://apps.library.ryerson.ca/api/merge/"> <i class="fa fa-rss"></i></a></li></ul></div><div class="col-xs-12 col-sm-3"><h4>Links</h4><nav class="local-footer-links"><ul class="menu"><li><a href="https://library.ryerson.ca/services/disabilities/accessibility/">Accessibility Services</a></li><li><a href="https://library.ryerson.ca/copyright">Copyright</a></li><li><a href="https://library.ryerson.ca/info/about-us#contactus">Contact us</a></li><li><a href="https://library.ryerson.ca/siteindex">Site Index</a></li></ul></nav></div><div class="col-xs-12 col-sm-6"><a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.382865,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671"><img class="map" src="https://library.ryerson.ca/wp-content/uploads/rula_map.png" alt="Google map"/></a></div></div></div></footer><footer class="global-footer-top"><div class="container"><div class="row gft-top"><div class="col-xs-6 text-left"><a href="https://www.ryerson.ca"><strong>Ryerson University</strong></a></div><div class="col-xs-6 text-right"><a class="collapse-toggle collapsed" href="#gft-collapse" data-toggle="collapse"></a></div></div><div class="collapse" id="gft-collapse"><div class="row gft-middle"><div class="col-xs-6 text-left">350 Victoria Street<br/>Toronto, ON M5B 2K3<br/><abbr title="Phone">P:</abbr>(416) 979-5000</div><div class="col-xs-6 text-right"><p>Follow Ryerson</p><ul class="social"><li><a href="https://www.facebook.com/ryersonu"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.youtube.com/user/RyersonUTube"><i class="fa fa-youtube"></i></a></li><li><a href="https://www.linkedin.com/company/ryerson-university"><i class="fa fa-linkedin"></i></a></li></ul></div><div class="col-xs-12"><div class="row gft-bottom"><div class="col-xs-6 text-left"><ul class="global-footer-links"><li><a href="https://ryerson.ca/contact/">Directory</a></li><li><a href="https://ryerson.ca/maps/">Maps and Directions</a></li></ul></div><div class="col-xs-6 text-right"><ul class="global-footer-links"><li><a href="https://ryerson.ca/jobs/">Careers</a></li><li><a href="https://ryerson.ca/media/">Media Room</a></li></ul></div></div></div></div></div></div></footer><footer class="global-footer-bottom"><div class="container"><div class="row"><div class="col-xs-12"><ul class="global-footer-links"><li><a href="https://ryerson.ca/privacy/">Privacy Policy</a></li><li><a href="https://ryerson.ca/accessibility/">Accessibility</a></li><li><a href="https://www.ryerson.ca/terms">Terms &amp; Conditions</a></li></ul></div></div></div></footer>
+
+		<!-- END: Custom Footer -->
+<!-- BEGIN: Analytics code --><!-- GOOGLE ANALYTICS TRACKING CODE -->
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-890753-17', 'auto'); ga('require', 'eventTracker', { events: ['click', 'auxclick', 'contextmenu'] }); ga('require', 'outboundLinkTracker', { events: ['click', 'auxclick', 'contextmenu'], linkSelector: 'a:not([ga-on])' }); ga('require', 'outboundFormTracker', { formSelector: '.outbound-track-submits' }); ga('send', 'pageview');</script>
+<script type="text/javascript" src="//libapps-ca.s3.amazonaws.com/sites/2734/include/autotrack.js"></script><!-- END: Analytics code --></body></html>

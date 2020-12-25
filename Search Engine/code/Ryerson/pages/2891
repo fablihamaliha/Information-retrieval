@@ -1,0 +1,2717 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/cue/education/electrical-engineering-101/" >
+		<meta property="og:title" content="Electrical Engineering 101" > 
+		 
+		<meta property="og:image" content="https://www.ryerson.ca/content/dam/cue/education/ElectricalEngineering101.jpg" > 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/cue/education/electrical-engineering-101/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Electrical Engineering 101"> 
+		 
+        <meta name="twitter:image" content="https://www.ryerson.ca/content/dam/cue/education/ElectricalEngineering101.jpg">
+        
+        <title>Electrical Engineering 101 - Centre for Urban Energy - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.009A44.009A44.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/cue/">
+				        Centre for Urban Energy
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/cue.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#a7bfb981-c6c5-468c-8af6-9ac7f4597d1d" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="a7bfb981-c6c5-468c-8af6-9ac7f4597d1d">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/cue/about/'>About</a>
+									</li>
+								
+									<li class="">
+										<a href='/cue/research/'>Research</a>
+									</li>
+								
+									<li class="">
+										<a href='/cue/testing/'>Testing</a>
+									</li>
+								
+									<li class="active">
+										<a href='/cue/education/'>Education</a>
+									</li>
+								
+									<li class="">
+										<a href='/cue/clean-energy-zone/'>Clean Energy Zone</a>
+									</li>
+								
+									<li class="">
+										<a href='/cue/news-events/'>News & events</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/cue/education.html">Education</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#1bfb2be7-4152-4086-8060-a1776a8b917a" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="1bfb2be7-4152-4086-8060-a1776a8b917a">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/cue/education/masters-diploma.html'>Professional Master's</a>
+</li>
+<li class="list-group-item selected">
+<a href='/cue/education/electrical-engineering-101.html'>Electrical Engineering 101</a>
+</li>
+<li class="list-group-item">
+<a href='/cue/education/certificate.html'>Certificate</a>
+</li>
+<li class="list-group-item">
+<a href='/cue/education/exec-ed-energy-innovation.html'>Custom Executive Programs</a>
+</li>
+<li class="list-group-item">
+<a href='/cue/education/compare.html'>Compare programs</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Electrical Engineering 101</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="7fa97d7d-30f3-4a26-8e8d-705926ffba73">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						
+<img src="/content/dam/cue/education/ElectricalEngineering101.jpg"/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	
+	Get familiar with the fundamentals of electricity
+	
+	
+</div>
+</div>
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<div class="caption richtextContent">
+	<p>This seminar series introduces the fundamental concepts of electrical engineering to those without an engineering background looking to break into or advance their career in the energy sector.&nbsp;</p> 
+<p>Electrical Engineering 101 covers the basic properties of electricity, such as power, energy, charge, current and voltage. Concepts such as DC and AC circuit analysis, transformers and electrical machines, interconnected power systems, protection and control, power electronic devices and converters, and renewable energy will also be covered.</p> 
+<p>The series has been updated and revamped for 2020 – based on input from our industry partners and feedback from previous participants – to ensure that those who complete the series are equipped with the very latest foundational tools they need to speak confidently and contribute effectively in energy-related roles.</p>
+</div>  
+						    
+								<div class="optionalButton">
+									<a class="btn btn-default btn-block" href="https://events.eply.com/EE101" target="_blank">
+										
+										<span>Register now for winter 2021</span>
+										<span aria-hidden='true' class='autoIconLink fa fa-external-link'></span><span class='sr-only'>, external link, opens in new window</span>
+									</a>
+								</div>
+							
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#7fa97d7d-30f3-4a26-8e8d-705926ffba73');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "7fa97d7d-30f3-4a26-8e8d-705926ffba73"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-opaque" id="38d6e3ee-fdcc-44f4-a6dc-047f0401c214" >
+
+    <h2>Key features</h2> 
+<p> Industry-approved&nbsp;topics taught by expert instructor</p> 
+<p> 12-week evening program (starts Jan. 20, 2021)</p> 
+<p> Part-time (3 hours per week)</p> 
+<p> 100% online (winter 2021)</p> 
+<p> Receive an official certificate for your resume</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#38d6e3ee-fdcc-44f4-a6dc-047f0401c214");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="f97b925e-6011-4213-bd23-0a3b9f7a613f" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190178036-learning-outcomes" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190178036-learning-outcomes" aria-controls="accordion-content-1504190178036-learning-outcomes" aria-expanded="false">
+                            Learning outcomes
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190178036-learning-outcomes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190178036-learning-outcomes">
+                    <div class="panel-body ">
+                        <div class="1504190178036 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e233b484-3e97-4f6a-8241-c4e17da26fec" >
+
+    <p>The workshop series teaches various basic concepts* of electrical engineering. Successful candidates of this series will be able to:</p> 
+<ul> 
+ <li>Understand the basic properties of electricity, such as power, energy, charge, current and voltage.</li> 
+ <li>Explain the operation of DC and AC circuits.</li> 
+ <li>Compute voltage, current, and power in different parts of simple circuits.</li> 
+ <li>Explain the theory of operation of transformers and alternators.</li> 
+ <li>Identify power electronic devices for different applications.</li> 
+ <li>Explain the theory of operation of power electronic converters.</li> 
+ <li>Identify power system components, connectivity and functionality.</li> 
+ <li>Explain the role of protection and control in power system operation.</li> 
+ <li>Identify different renewable energy sources and explain their roles in modern power systems.</li> 
+</ul> 
+<p>* All concepts are also prererequisites for the <a href="/content/ryerson/cue/education/masters-diploma.html">Professional Master's Diploma Program in Energy and Innovation</a>&nbsp;for which this series can be used as preparation. Please note, however, that completion of this series does not guarantee your admission into this program.&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e233b484-3e97-4f6a-8241-c4e17da26fec");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190179024-topics" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190179024-topics" aria-controls="accordion-content-1504190179024-topics" aria-expanded="false">
+                            Topics
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190179024-topics" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190179024-topics">
+                    <div class="panel-body ">
+                        <div class="1504190179024 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="eb3cf6d7-27a6-42a5-b9c1-c4b0d24ca7ea" >
+
+    <ul> 
+ <li>Week 1: Basic concepts</li> 
+ <li>Week 2: DC circuits</li> 
+ <li>Week 3: AC circuits</li> 
+ <li>Week 4: Transformers</li> 
+ <li>Week 5:&nbsp;Power systems structure, substations and control</li> 
+ <li>Week 6:&nbsp;Interconnected power systems</li> 
+ <li>Week 7: Power system protection</li> 
+ <li>Week 8: Generation and motors</li> 
+ <li>Week 9: Power systems analysis</li> 
+ <li>Week 10: Introduction to renewable energy</li> 
+ <li>Week 11: Electricity hands-on&nbsp;</li> 
+ <li>Week 12: Review and conclusions</li> 
+</ul> 
+<p>A virtual demonstration in the&nbsp;<a href="/content/ryerson/cue/testing/schneider-electric-smart-grid-lab.html">Schneider Electric Smart Grid Laboratory</a>, Canada’s first university-based smart grid lab, may be used to elucidate some of the key power system concepts learned in this course.</p> 
+<p>A copy of all learning materials and a mini electronics kit to take home will be provided to all particpants.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#eb3cf6d7-27a6-42a5-b9c1-c4b0d24ca7ea");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190180102-registration-fees" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190180102-registration-fees" aria-controls="accordion-content-1504190180102-registration-fees" aria-expanded="false">
+                            Registration fees
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190180102-registration-fees" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190180102-registration-fees">
+                    <div class="panel-body ">
+                        <div class="1504190180102 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="66f57c00-def7-4282-9f45-b378bb684a24" >
+
+    <p>$1,300 per person + tax (HST 13%). This is equivalent to approximately $108 per session.</p> 
+<p>If you need to cancel your registration for whatever reason, please notify us at least 7 days prior to the first seminar to obtain a full refund.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#66f57c00-def7-4282-9f45-b378bb684a24");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1578348664567-group-registrations" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1578348664567-group-registrations" aria-controls="accordion-content-1578348664567-group-registrations" aria-expanded="false">
+                            Group registrations
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1578348664567-group-registrations" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1578348664567-group-registrations">
+                    <div class="panel-body ">
+                        <div class="1578348664567 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="50f9c089-546f-41a6-9578-abbb528c85a1" >
+
+    <p>Please <a href="mailto:matthew.kerry@ryerson.ca" target="_blank">contact us<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, opens in new window</span></a> if you are an employer interested in sending your employees to take this series as part of ongoing professional development and HR training initiatives. A discount is available for group registrations of six or more.&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#50f9c089-546f-41a6-9578-abbb528c85a1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190180699-instructor" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190180699-instructor" aria-controls="accordion-content-1504190180699-instructor" aria-expanded="false">
+                            Instructor
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190180699-instructor" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190180699-instructor">
+                    <div class="panel-body ">
+                        <div class="1504190180699 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="4df2008e-bccd-47d5-b9b2-699c1ab5d2f4">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					
+						
+<img src="/content/dam/cue/about/bios/BhanuOpathella.jpg" alt=""/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-8">
+				
+						<div class="caption richtextContent">
+	<p>Dr. Bhanu Opathella is an Energy Storage Specialist at Amp Energy. Over the last 15 years, Dr. Opathella has worked in the utility industry, clean energy sector and academic research sector. He is an expert on power system optimization, clean energy, techno-economic analysis, smart grid and electricity markets.</p> 
+<p>Alongside professional engineering activities, Dr. Opathella also works as a visiting lecturer at Ryerson University. Dr. Opathella has co-authored four white papers for IESO, and published more than 15 peer-reviewed research articles. Dr. Opathella has a Ph.D. degree in electrical engineering and is a registered Professional Engineer in Ontario.</p>
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#4df2008e-bccd-47d5-b9b2-699c1ab5d2f4');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "4df2008e-bccd-47d5-b9b2-699c1ab5d2f4"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190238911-dates-and-times" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190238911-dates-and-times" aria-controls="accordion-content-1504190238911-dates-and-times" aria-expanded="false">
+                            Dates and times
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190238911-dates-and-times" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190238911-dates-and-times">
+                    <div class="panel-body ">
+                        <div class="1504190238911 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="fc5cbe3d-d69b-41c2-8fca-6d5182e0b9c7" >
+
+    <p>Sessions will take place on Wednesday evenings from 6 to 9 p.m. ET. The series will run for 12 weeks from Jan. 20, 2021 to April 7, 2021.&nbsp;</p> 
+<p><strong>Notes:</strong></p> 
+<ul> 
+ <li>This schedule is subject to change.&nbsp;</li> 
+ <li><span>A midterm break may be offered.&nbsp;The instructor will discuss this with the class to reach a consensus.&nbsp;</span></li> 
+ <li><span>A minimum of six registrants are required to conduct the seminar series. This will be confirmed one week prior to the start date. A full refend or an alternative start date will be provided if the series does not run as scheduled.&nbsp;</span></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#fc5cbe3d-d69b-41c2-8fca-6d5182e0b9c7");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1513188974632-location-and-delivery-method" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1513188974632-location-and-delivery-method" aria-controls="accordion-content-1513188974632-location-and-delivery-method" aria-expanded="false">
+                            Location and delivery method
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1513188974632-location-and-delivery-method" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1513188974632-location-and-delivery-method">
+                    <div class="panel-body ">
+                        <div class="1513188974632 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8e046102-85ce-4c38-b79f-d1aed43075d3" >
+
+    <p>The series is normally taught in-person at the&nbsp;<a href="/content/ryerson/cue/about/contact.html">Centre for Urban Innovation</a>, 44 Gerrard St East, Toronto. However, due to&nbsp;<a href="/content/ryerson/cue/news-events/blog/2020/04/update-covid-19.html">COVID-19</a>, sessions will move online, <a href="https://ryerson.zoom.us" target="_blank">via Zoom<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a>, through winter 2021. Two hands-on sessions that normally take place in our labs will be demonstrated virtually.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8e046102-85ce-4c38-b79f-d1aed43075d3");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1578418010862-accessibility" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1578418010862-accessibility" aria-controls="accordion-content-1578418010862-accessibility" aria-expanded="false">
+                            Accessibility
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1578418010862-accessibility" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1578418010862-accessibility">
+                    <div class="panel-body ">
+                        <div class="1578418010862 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0c28b688-c110-4f82-891f-a9a40c2af499" >
+
+    <p>Ryerson is&nbsp;<a href="https://www.ryerson.ca/accessibility/">committed</a>&nbsp;to providing an accessible learning environment. Please&nbsp;contact us if we need to make any accessibility accommodations to ensure your inclusion in this program.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0c28b688-c110-4f82-891f-a9a40c2af499");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1598469002843-faqs" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1598469002843-faqs" aria-controls="accordion-content-1598469002843-faqs" aria-expanded="false">
+                            FAQs
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1598469002843-faqs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1598469002843-faqs">
+                    <div class="panel-body ">
+                        <div class="1598469002843 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7c96c227-ae7c-48fd-b8d7-8c53b5b06d98" >
+
+    <p><strong>Does Electrical Engineering 101 qualify for a tuition credit for tax purposes?<br> </strong>No, currently, it does not, since Electrical Engineering 101 is delivered as a seminar series and not as part of a postgraduate certificate, undergraduate degree or master's program. However, a full tax receipt will be provided to all participants for their records.</p> 
+<p><strong>Are participants required to take any exams or assessments to complete the program?</strong><br> No, they are not. In order to receive a certificate of completion, participants are simply required to attend the in-person sessions, complete any background reading and review any learning materials as directed by the program instructor. There is no formal assessment.&nbsp;</p> 
+<p><strong>I already have an electrical engineering degree. Can I still take Electrical Engineering 101?</strong><br> Absolutely. Even though the series covers the basics, some previous participants have signed up to refresh or update their existing knowledge, especially if it has been a long time since they worked in this field. However, before registering, we would recommend exploring all of our <a href="/content/ryerson/cue/education.html">professional development options</a>&nbsp;and/or contacting us to decide which program is the right fit for you.&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7c96c227-ae7c-48fd-b8d7-8c53b5b06d98");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1504190181239-contact-us" role="tab" data-toggle="collapse" data-parent="#f97b925e-6011-4213-bd23-0a3b9f7a613f" href="#accordion-content-1504190181239-contact-us" aria-controls="accordion-content-1504190181239-contact-us" aria-expanded="false">
+                            Contact us
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1504190181239-contact-us" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1504190181239-contact-us">
+                    <div class="panel-body ">
+                        <div class="1504190181239 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="a708d5b3-d34c-4e85-88f6-ea330abdfadf">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					
+						
+<img src="/content/dam/nestnet/assets/BalaVenkatesh.jpg" alt="Bala Venkatesh"/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-8">
+				
+						<div class="caption richtextContent">
+	<p>If you have any questions about this program, please contact:<br> <br> <strong>Bala Venkatesh</strong><br> Academic Director<br> Centre for Urban Energy at Ryerson University<br> Email:&nbsp;<a href="mailto:bala@ryerson.ca">bala@ryerson.ca</a><br> Phone:&nbsp;416-979-5000, ext. 552974</p>
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#a708d5b3-d34c-4e85-88f6-ea330abdfadf');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "a708d5b3-d34c-4e85-88f6-ea330abdfadf"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColOneTwo section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+
+
+<div class="row">
+	
+		<div class="col-md-4">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resHtmlSnippet section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e" class="res-html-snippet">
+	
+	
+        <!-- Begin MailChimp Signup Form --> 
+<div id="mc_embed_signup"> 
+ <form action="//ryerson.us4.list-manage.com/subscribe/post?u=e6d9566da56b2b11a7346fa1a&amp;id=2b95838c88" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate> 
+  <div id="mc_embed_signup_scroll"> 
+   <h3>Monthly newsletter</h3> Be the first to know about our research activities, programs and events. Your email address will not be used for any other purpose. You can opt out at any time. 
+   <div class="mc-field-group"> 
+    <label for="mce-EMAIL">Email address <span class="asterisk">*</span> </label> 
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"> 
+   </div> 
+   <div id="mce-responses" class="clear"> 
+    <div class="response" id="mce-error-response"></div> 
+    <div class="response" id="mce-success-response"></div> 
+   </div> 
+   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> 
+   <div class="clear">
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+   </div> 
+  </div> 
+ </form> 
+</div>  
+<!--End mc_embed_signup-->
+    
+	
+</div>
+
+<script>
+$("#rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e input, #rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e select").each(function(i, v) {
+	if (!$(this).hasClass('form-control')) {
+		if ($(this).is("input[type='file']")) {
+			$(this).attr('id', 'rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e_upload'+i).wrap("<span class='htmlSnippetForm'></span>").after("<label for='rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e_upload"+i+"' class='customInput'>Choose file</label>");
+		} else {
+			$(this).wrap("<span class='htmlSnippetForm'></span>").after("<span class='customInput'></span>");
+		}
+	}
+});
+</script>
+
+	<style>
+		#rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e iframe{ height:;}
+		@media screen and (min-width: 768px) { #rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e iframe{ height:;} }
+		@media screen and (min-width: 992px) { #rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e iframe{ height:;} }
+		@media screen and (min-width: 1200px) { #rye-9dc5bc03-bb74-42a3-b12b-7a5279a23f5e iframe{ height:;} }
+	</style>
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-md-8">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f666170c-d874-4549-a938-d94069840ae8" >
+
+    <h3 style="text-align: left;"><a href="/content/ryerson/cue/about/supporters.html">Founding sponsors</a></h3>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f666170c-d874-4549-a938-d94069840ae8");});</script></div>
+
+				
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="90a6ba87-f7fb-49c8-93f9-0508b033a649">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8">
+					
+						
+<img src="/content/dam/cue/logos/HydroOne.png" alt="Hydro One"/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-4">
+				
+						<div class="caption richtextContent empty">
+	
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#90a6ba87-f7fb-49c8-93f9-0508b033a649');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "90a6ba87-f7fb-49c8-93f9-0508b033a649"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="dac095f4-7f9d-49cb-b890-bf343b9254ce">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/cue/logos/IESO.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#dac095f4-7f9d-49cb-b890-bf343b9254ce');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "dac095f4-7f9d-49cb-b890-bf343b9254ce"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="27ebeb76-d599-4e06-8c87-d0fc7ffcd06c">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/cue/logos/Toronto-Hydro.png" alt="Toronto Hydro"/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#27ebeb76-d599-4e06-8c87-d0fc7ffcd06c');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "27ebeb76-d599-4e06-8c87-d0fc7ffcd06c"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="700e8f7a-bc8d-4e3e-9a99-8a6bda30b08a" >
+
+    <p style="text-align: left;">® A registered trademark of Toronto Hydro Corporation used under licence. "Toronto Hydro" means Toronto Hydro-Electric System Limited.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#700e8f7a-bc8d-4e3e-9a99-8a6bda30b08a");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resSocialLinks section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="res-link-buttons text-right">
+<p><strong>Follow CUE</strong></p>
+
+    
+    
+        <ul class="list-inline">
+            
+            <li>
+                <a href="https://www.facebook.com/RyersonCUE" target="_blank">
+                    <i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook, opens new window</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://twitter.com/RyersonCUE" target="_blank">
+                    <i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter, opens new window</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://www.youtube.com/user/centreforurbanenergy" target="_blank">
+                    <i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube, opens new window</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="https://www.linkedin.com/school/ryersoncue/" target="_blank">
+                    <i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn, opens new window</span>
+                </a>
+            </li>
+            
+            
+        </ul>
+    
+
+</div>
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="56ded1eb-255f-4d4e-a88d-4fbe994b59d6" >
+
+    <h3 style="text-align: right;">Quick links</h3> 
+<p style="text-align: right;"><a href="/content/ryerson/cue/about/annual-report.html">Annual reports</a><br> <a href="/content/ryerson/cue/about/contact.html">Contact us</a><br> <a href="/content/ryerson/cue/news-events/press.html">Media inquiries</a><br> <a href="/content/ryerson/cue/about/work-with-us.html">Work with us</a></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#56ded1eb-255f-4d4e-a88d-4fbe994b59d6");});</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'CPCALFLCMEJLBEPGFMEMPPMBNEFIPMNNMIJDPBAGACIOCGGMFGMEGAMPANIIEJPBCJOBOKDMAAJCGJIMKDMACLKIAADEGMBLCPJPDPACEFAGLHCJBPIEDGLGJGPNPODJ',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'LFNGIFGLJLCLMHGDIBPHJALKHAHDNAJJBOHPGGDEFFOJFGOAEHKCCLKABOOMHGHBPLLBNKPCAAPHIEKDKHAAIDNOAAPMJNFOHNAJJLOMKBFPIDOGDBFODBBEJGBAMJOC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,4337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google-site-verification" content="cu53wEU2vLPtbNiK9HeBdFaUUmHl-05BvjNQ3u_HrwM" />
+    <meta name="title" content="Archives &amp; Special Collections" />
+<meta name="description" content="Access to memory - Open information management toolkit" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Archives &amp; Special Collections</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link href="/plugins/sfDrupalPlugin/vendor/drupal/misc/ui/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+<link media="all" href="/plugins/rulaArchivesPlugin/css/main.css" rel="stylesheet" type="text/css" />
+            <script src="/vendor/jquery.js" type="text/javascript"></script>
+<script src="/plugins/sfDrupalPlugin/vendor/drupal/misc/drupal.js" type="text/javascript"></script>
+<script src="/vendor/yui/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="/vendor/yui/element/element-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/button/button-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/container/container_core-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/menu/menu-min.js" type="text/javascript"></script>
+<script src="/vendor/modernizr.js" type="text/javascript"></script>
+<script src="/vendor/jquery-ui.js" type="text/javascript"></script>
+<script src="/vendor/jquery.ui.resizable.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery.expander.js" type="text/javascript"></script>
+<script src="/vendor/jquery.masonry.js" type="text/javascript"></script>
+<script src="/vendor/jquery.imagesloaded.js" type="text/javascript"></script>
+<script src="/vendor/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<script src="/vendor/URI.js" type="text/javascript"></script>
+<script src="/vendor/meetselva/attrchange.js" type="text/javascript"></script>
+<script src="/js/qubit.js" type="text/javascript"></script>
+<script src="/js/treeView.js" type="text/javascript"></script>
+<script src="/js/clipboard.js" type="text/javascript"></script>
+<script src="/plugins/sfDrupalPlugin/vendor/drupal/misc/jquery.once.js" type="text/javascript"></script>
+<script src="/plugins/sfDrupalPlugin/vendor/drupal/misc/ui/ui.datepicker.js" type="text/javascript"></script>
+<script src="/vendor/yui/connection/connection-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/datasource/datasource-min.js" type="text/javascript"></script>
+<script src="/vendor/yui/autocomplete/autocomplete-min.js" type="text/javascript"></script>
+<script src="/js/autocomplete.js" type="text/javascript"></script>
+<script src="/js/dominion.js" type="text/javascript"></script>
+  <script type="text/javascript">
+//<![CDATA[
+jQuery.extend(Qubit, {"relativeUrlRoot":""});
+//]]>
+</script></head>
+  <body class="yui-skin-sam informationobject browse">
+
+    
+
+
+<header id="top-bar">
+
+    <a id="logo" rel="home" href="https://library.ryerson.ca" title=""><img alt="Ryerson University Library" src="/plugins/rulaArchivesPlugin/images/logo.png" /></a>  
+      <h1 id="site-name" class="hidden-tablet hidden-phone">
+      <a rel="home" title="Home" href="/index.php/"><span>Archives &amp; Special Collections</span></a>    </h1>
+  
+  <nav>
+
+    
+  <div id="user-menu">
+    <button class="top-item top-dropdown" data-toggle="dropdown" data-target="#"
+      aria-expanded="false">
+        Log in    </button>
+
+    <div class="top-dropdown-container">
+
+      <div class="top-dropdown-arrow">
+        <div class="arrow"></div>
+      </div>
+
+      <div class="top-dropdown-header">
+        <h2>Have an account?</h2>
+      </div>
+
+      <div class="top-dropdown-body">
+
+        <form action="/index.php/user/login" method="post">
+          <input type="hidden" name="next" value="https://archives.library.ryerson.ca/index.php/informationobject/browse" id="next" />
+          <div class="form-item form-item-email">
+  <label for="email">Email <span class="form-required" title="This field is required.">*</span></label>
+  <input type="text" name="email" id="email" />
+  
+</div>
+
+          <div class="form-item form-item-password">
+  <label for="password">Password <span class="form-required" title="This field is required.">*</span></label>
+  <input type="password" name="password" autocomplete="off" id="password" />
+  
+</div>
+
+          <button type="submit">Log in</button>
+
+        </form>
+
+      </div>
+
+      <div class="top-dropdown-bottom"></div>
+
+    </div>
+  </div>
+
+
+    
+          <div id="language-menu" data-toggle="tooltip" data-title="Language">
+
+  <button class="top-item" data-toggle="dropdown" data-target="#" aria-expanded="false">Language</button>
+
+  <div class="top-dropdown-container">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Language</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+                  <li class="active">
+            <a href="/index.php/informationobject/browse?sf_culture=en&amp;sort=identifier&amp;sortDir=asc" title="English">English</a>          </li>
+                  <li>
+            <a href="/index.php/informationobject/browse?sf_culture=fr&amp;sort=identifier&amp;sortDir=asc" title="français">français</a>          </li>
+                  <li>
+            <a href="/index.php/informationobject/browse?sf_culture=es&amp;sort=identifier&amp;sortDir=asc" title="español">español</a>          </li>
+                  <li>
+            <a href="/index.php/informationobject/browse?sf_culture=nl&amp;sort=identifier&amp;sortDir=asc" title="Nederlands">Nederlands</a>          </li>
+                  <li>
+            <a href="/index.php/informationobject/browse?sf_culture=pt&amp;sort=identifier&amp;sortDir=asc" title="português">português</a>          </li>
+              </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    
+    
+    
+  </nav>
+
+  
+</header>
+
+
+<div id="search-bar" class="container">
+  <div class="row">
+    <div class="span2">
+      <div id="browse-menu">
+
+  <button class="top-dropdown" data-toggle="dropdown" data-target="#" aria-expanded="false">Browse</button>
+
+  <div class="top-dropdown-container top-dropdown-container-right">
+
+    <div class="top-dropdown-arrow">
+      <div class="arrow"></div>
+    </div>
+
+    <div class="top-dropdown-header">
+      <h2>Browse</h2>
+    </div>
+
+    <div class="top-dropdown-body">
+      <ul>
+        <li class="active leaf" id="node_browseInformationObjects"><a href="/index.php/informationobject/browse" title="Archival descriptions">Archival descriptions</a></li><li class="leaf" id="node_browseActors"><a href="/index.php/actor/browse" title="Authority records">Authority records</a></li><li class="leaf" id="node_browseRepositories"><a href="/index.php/repository/browse" title="Archival institutions">Archival institutions</a></li><li class="leaf" id="node_browseFunctions"><a href="/index.php/function/browse" title="Functions">Functions</a></li><li class="leaf" id="node_browseSubjects"><a href="/index.php/taxonomy/index/id/35" title="Subjects">Subjects</a></li><li class="leaf" id="node_browsePlaces"><a href="/index.php/taxonomy/index/id/42" title="Places">Places</a></li><li class="leaf" id="node_browseDigitalObjects"><a href="/index.php/informationobject/browse?view=card&amp;onlyMedia=1&amp;topLod=0" title="Digital objects">Digital objects</a></li>      </ul>
+    </div>
+
+    <div class="top-dropdown-bottom"></div>
+
+  </div>
+
+</div>
+    </div>
+    <div class="span10">
+      <div id="search-form-wrapper" role="search">
+
+  <h2>Search</h2>
+
+  <form action="/index.php/informationobject/browse" data-autocomplete="/index.php/search/autocomplete" autocomplete="off">
+
+    <input type="hidden" name="topLod" value="0"/>
+    <input type="hidden" name="sort" value="relevance"/>
+
+          <input type="text" name="query" value="" placeholder="Search"/>
+    
+    <button><span>Search</span></button>
+
+    <div id="search-realm" class="search-popover">
+
+      
+    </div>
+
+  </form>
+    <div class="search-realm-advanced">
+    <a href="/index.php/informationobject/browse?showAdvanced=1&topLod=0">
+      Advanced search&nbsp;&raquo;
+    </a>
+  </div>
+
+</div>
+    </div>
+  </div>
+</div>
+
+    
+    <div id="wrapper" class="container" role="main">
+
+      
+        
+      <div class="row">
+
+        <div class="span3">
+
+          <div id="sidebar">
+
+            
+    <section id="facets">
+
+      <div class="visible-phone facets-header">
+        <a class="x-btn btn-wide">
+          <i class="fa fa-filter"></i>
+          Filters        </a>
+      </div>
+
+      <div class="content">
+
+        
+        <h2>Narrow your results by:</h2>
+
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Language</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-languages">
+    <ul>
+
+      
+      
+              
+        <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">Unique records<span>, 932 results</span></a>          <span class="facet-count" aria-hidden="true">932</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?languages=en&amp;sort=identifier&amp;sortDir=asc">English<span>, 932 results</span></a>          <span class="facet-count" aria-hidden="true">932</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+        
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Creator</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-names">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=2864&amp;sort=identifier&amp;sortDir=asc">Eastman Kodak Company<span>, 2 results</span></a>          <span class="facet-count" aria-hidden="true">2</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=2866&amp;sort=identifier&amp;sortDir=asc">Kodak Canada Inc.<span>, 2 results</span></a>          <span class="facet-count" aria-hidden="true">2</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1479&amp;sort=identifier&amp;sortDir=asc">Daphne Cockwell School of Nursing<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1484&amp;sort=identifier&amp;sortDir=asc">Pitman, Walter George<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1487&amp;sort=identifier&amp;sortDir=asc">Parker, Edward<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1508&amp;sort=identifier&amp;sortDir=asc">Wright, Eric<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1509&amp;sort=identifier&amp;sortDir=asc">Swede, George<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1517&amp;sort=identifier&amp;sortDir=asc">Beresford-Howe, Constance<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1518&amp;sort=identifier&amp;sortDir=asc">Innis, Hugh R.<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?creators=1519&amp;sort=identifier&amp;sortDir=asc">Kneider, Albert P.<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Name</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-names">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=2866&amp;sort=identifier&amp;sortDir=asc">Kodak Canada Inc.<span>, 2 results</span></a>          <span class="facet-count" aria-hidden="true">2</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=13247&amp;sort=identifier&amp;sortDir=asc">School of Image Arts<span>, 2 results</span></a>          <span class="facet-count" aria-hidden="true">2</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1476&amp;sort=identifier&amp;sortDir=asc">Department of Architectural Science<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1498&amp;sort=identifier&amp;sortDir=asc">Department of Civil Engineering<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1499&amp;sort=identifier&amp;sortDir=asc">Department of Development and Alumni Affairs<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1500&amp;sort=identifier&amp;sortDir=asc">G. Raymond Chang School of Continuing Education<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1511&amp;sort=identifier&amp;sortDir=asc">Segal, Brian<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1514&amp;sort=identifier&amp;sortDir=asc">Admissions/Liaison and Advising Department<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1527&amp;sort=identifier&amp;sortDir=asc">Palin, Eric Leese<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?names=1536&amp;sort=identifier&amp;sortDir=asc">Computing and Communications Services<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Place</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-places">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=3125&amp;sort=identifier&amp;sortDir=asc">Canada<span>, 14 results</span></a>          <span class="facet-count" aria-hidden="true">14</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=71614&amp;sort=identifier&amp;sortDir=asc">North and Central America<span>, 14 results</span></a>          <span class="facet-count" aria-hidden="true">14</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=51246&amp;sort=identifier&amp;sortDir=asc">Ontario<span>, 10 results</span></a>          <span class="facet-count" aria-hidden="true">10</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=2862&amp;sort=identifier&amp;sortDir=asc">Toronto<span>, 8 results</span></a>          <span class="facet-count" aria-hidden="true">8</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=13576&amp;sort=identifier&amp;sortDir=asc">Rochester, New York<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=58007&amp;sort=identifier&amp;sortDir=asc">Soviet Union (former Nation)<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=71704&amp;sort=identifier&amp;sortDir=asc">United States<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=97630&amp;sort=identifier&amp;sortDir=asc">Glencoe<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=132732&amp;sort=identifier&amp;sortDir=asc">New York (state)<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?places=248780&amp;sort=identifier&amp;sortDir=asc">Southwest Middlesex<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Subject</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-subjects">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=3749&amp;sort=identifier&amp;sortDir=asc">Fashion<span>, 11 results</span></a>          <span class="facet-count" aria-hidden="true">11</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=2860&amp;sort=identifier&amp;sortDir=asc">Photographic equipment<span>, 8 results</span></a>          <span class="facet-count" aria-hidden="true">8</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=7190&amp;sort=identifier&amp;sortDir=asc">Photography (process)<span>, 8 results</span></a>          <span class="facet-count" aria-hidden="true">8</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=7322&amp;sort=identifier&amp;sortDir=asc">Journalism<span>, 7 results</span></a>          <span class="facet-count" aria-hidden="true">7</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=417527&amp;sort=identifier&amp;sortDir=asc">image making equipment<span>, 7 results</span></a>          <span class="facet-count" aria-hidden="true">7</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=3758&amp;sort=identifier&amp;sortDir=asc">Film<span>, 6 results</span></a>          <span class="facet-count" aria-hidden="true">6</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=8220&amp;sort=identifier&amp;sortDir=asc">Business Administration<span>, 6 results</span></a>          <span class="facet-count" aria-hidden="true">6</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=13110&amp;sort=identifier&amp;sortDir=asc">Photography--History<span>, 6 results</span></a>          <span class="facet-count" aria-hidden="true">6</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=3205&amp;sort=identifier&amp;sortDir=asc">Architecture<span>, 5 results</span></a>          <span class="facet-count" aria-hidden="true">5</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?subjects=3374&amp;sort=identifier&amp;sortDir=asc">Ryerson University--RTA School of Media<span>, 4 results</span></a>          <span class="facet-count" aria-hidden="true">4</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Level of description</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-levelOfDescription">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?levels=221&amp;sort=identifier&amp;sortDir=asc">Fonds<span>, 908 results</span></a>          <span class="facet-count" aria-hidden="true">908</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?levels=223&amp;sort=identifier&amp;sortDir=asc">Collection<span>, 20 results</span></a>          <span class="facet-count" aria-hidden="true">20</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?levels=227&amp;sort=identifier&amp;sortDir=asc">Item<span>, 3 results</span></a>          <span class="facet-count" aria-hidden="true">3</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?levels=226&amp;sort=identifier&amp;sortDir=asc">File<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+<section class="facet ">
+  <div class="facet-header">
+    <h3><a href="#" aria-expanded="">Media type</a></h3>
+  </div>
+
+  <div class="facet-body" id="#facet-mediaTypes">
+    <ul>
+
+      
+              <li class="active">
+          <a title="" href="/index.php/informationobject/browse?sort=identifier&amp;sortDir=asc">All</a>        </li>
+      
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?mediatypes=136&amp;sort=identifier&amp;sortDir=asc">Image<span>, 16 results</span></a>          <span class="facet-count" aria-hidden="true">16</span>
+        </li>
+              
+        <li >
+          <a title="" href="/index.php/informationobject/browse?mediatypes=137&amp;sort=identifier&amp;sortDir=asc">Text<span>, 1 results</span></a>          <span class="facet-count" aria-hidden="true">1</span>
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+      </div>
+
+    </section>
+
+  
+          </div>
+
+        </div>
+
+        <div class="span9">
+
+          <div id="main-column">
+
+              
+  <div class="multiline-header">
+    <img alt="" src="/images/icons-large/icon-archival.png" />    <h1 aria-describedby="results-label">
+              Showing 932 results          </h1>
+    <span class="sub" id="results-label">Archival description</span>
+  </div>
+
+            
+  <section class="header-options">
+
+          <span class="search-filter">
+        Only top-level descriptions                        <a href="/index.php/informationobject/browse?topLod=0" class="remove-filter"><i class="fa fa-times"></i></a>
+      </span>
+    
+                                  
+  </section>
+
+
+            
+  <section class="advanced-search-section">
+
+  <a href="#" class="advanced-search-toggle " aria-expanded="false">Advanced search options</a>
+
+  <div class="advanced-search animateNicely" style="display: none;">
+
+    <form name="advanced-search-form" method="get" action="/index.php/informationobject/browse">
+      
+      <p>Find results with:</p>
+
+      <div class="criteria">
+
+        
+          
+        
+        
+        <div class="criterion">
+
+          <select class="boolean" name="so0">
+            <option value="and">and</option>
+            <option value="or">or</option>
+            <option value="not">not</option>
+          </select>
+
+          <input class="query" type="text" placeholder="Search" name="sq0"/>
+
+          <span>in</span>
+
+          <select class="field" name="sf0">
+            <option value="">Any field</option>
+            <option value="title">Title</option>
+                          <option value="archivalHistory">Archival history</option>
+                        <option value="scopeAndContent">Scope and content</option>
+            <option value="extentAndMedium">Extent and medium</option>
+            <option value="subject">Subject access points</option>
+            <option value="name">Name access points</option>
+            <option value="place">Place access points</option>
+            <option value="genre">Genre access points</option>
+            <option value="identifier">Identifier</option>
+            <option value="referenceCode">Reference code</option>
+            <option value="digitalObjectTranscript">Digital object text</option>
+            <option value="findingAidTranscript">Finding aid text</option>
+            <option value="creator">Creator</option>
+            <option value="allExceptFindingAidTranscript">Any field except finding aid text</option>
+          </select>
+
+          <a href="#" class="delete-criterion"><i class="fa fa-times"></i></a>
+
+        </div>
+
+        <div class="add-new-criteria">
+          <div class="btn-group">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              Add new criteria<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#" id="add-criterion-and">And</a></li>
+              <li><a href="#" id="add-criterion-or">Or</a></li>
+              <li><a href="#" id="add-criterion-not">Not</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <p>Limit results to:</p>
+
+      <div class="criteria">
+
+        
+        <div class="filter-row">
+          <div class="filter">
+            <label for="collection">Top-level description</label>            <select name="collection" class="form-autocomplete" id="collection">
+
+</select>            <input class="list" type="hidden" value="/index.php/informationobject/autocomplete?parent=1&filterDrafts=1"/>
+          </div>
+        </div>
+
+      </div>
+
+      <p>Filter results by:</p>
+
+      <div class="criteria">
+
+        <div class="filter-row triple">
+
+          <div class="filter-left">
+            <div class="form-item form-item-levels">
+  <label for="levels">Level of description</label>
+  <select name="levels" id="levels">
+<option value="" selected="selected"></option>
+<option value="223">Collection</option>
+<option value="97625">Component</option>
+<option value="226">File</option>
+<option value="119859">File part</option>
+<option value="221">Fonds</option>
+<option value="227">Item</option>
+<option value="284">Part</option>
+<option value="224">Series</option>
+<option value="12977">Sous-fonds</option>
+<option value="51255">Sub-series</option>
+<option value="101161">Sub-sub-series</option>
+</select>
+  
+</div>
+          </div>
+
+          <div class="filter-center">
+            <div class="form-item form-item-onlyMedia">
+  <label for="onlyMedia">Digital object available</label>
+  <select name="onlyMedia" id="onlyMedia">
+<option value="" selected="selected"></option>
+<option value="1">Yes</option>
+<option value="0">No</option>
+</select>
+  
+</div>
+          </div>
+
+          <div class="filter-right">
+            <div class="form-item form-item-findingAidStatus">
+  <label for="findingAidStatus">Finding aid</label>
+  <select name="findingAidStatus" id="findingAidStatus">
+<option value="" selected="selected"></option>
+<option value="yes">Yes</option>
+<option value="no">No</option>
+<option value="generated">Generated</option>
+<option value="uploaded">Uploaded</option>
+</select>
+  
+</div>
+          </div>
+
+        </div>
+
+                
+                  <div class="filter-row">
+
+                          <div class="filter-left">
+                <div class="form-item form-item-copyrightStatus">
+  <label for="copyrightStatus">Copyright status</label>
+  <select name="copyrightStatus" id="copyrightStatus">
+<option value="" selected="selected"></option>
+<option value="336">Public domain</option>
+<option value="335">Under copyright</option>
+<option value="337">Unknown</option>
+</select>
+  
+</div>
+              </div>
+            
+                          <div class="filter-right">
+                <div class="form-item form-item-materialType">
+  <label for="materialType">General material designation</label>
+  <select name="materialType" id="materialType">
+<option value="" selected="selected"></option>
+<option value="261">Architectural drawing</option>
+<option value="262">Cartographic material</option>
+<option value="263">Graphic material</option>
+<option value="264">Moving images</option>
+<option value="265">Multiple media</option>
+<option value="266">Object</option>
+<option value="267">Philatelic record</option>
+<option value="268">Sound recording</option>
+<option value="118968">Technical drawing</option>
+<option value="479286">Textile</option>
+<option value="270">Textual record</option>
+</select>
+  
+</div>
+              </div>
+            
+          </div>
+        
+        <div class="filter-row">
+
+          <div class="lod-filter">
+            <label>
+              <input type="radio" name="topLod" value="1" checked>
+              Top-level descriptions            </label>
+            <label>
+              <input type="radio" name="topLod" value="0" >
+              All descriptions            </label>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p>Filter by date range:</p>
+
+      <div class="criteria">
+
+        <div class="filter-row">
+
+          <div class="start-date">
+            <div class="form-item form-item-startDate">
+  <label for="startDate">Start</label>
+  <input placeholder="YYYY-MM-DD" type="text" name="startDate" id="startDate" />
+  
+</div>
+          </div>
+
+          <div class="end-date">
+            <div class="form-item form-item-endDate">
+  <label for="endDate">End</label>
+  <input placeholder="YYYY-MM-DD" type="text" name="endDate" id="endDate" />
+  
+</div>
+          </div>
+
+          <div class="date-type">
+            <label>
+              <input type="radio" name="rangeType" value="inclusive" checked>
+              Overlapping            </label>
+            <label>
+              <input type="radio" name="rangeType" value="exact" >
+              Exact            </label>
+          </div>
+
+          <a href="#" class="date-range-help-icon" aria-expanded="false"><i class="fa fa-question-circle"></i></a>
+
+        </div>
+
+        <div class="alert alert-info date-range-help animateNicely">
+          Use these options to specify how the date range returns results. "Exact" means that the start and end dates of descriptions returned must fall entirely within the date range entered. "Overlapping" means that any description whose start or end dates touch or overlap the target date range will be returned.        </div>
+
+      </div>
+
+      <section class="actions">
+        <input type="submit" class="c-btn c-btn-submit" value="Search"/>
+        <input type="button" class="reset c-btn c-btn-delete" value="Reset"/>
+      </section>
+
+    </form>
+
+  </div>
+
+</section>
+
+  
+    <section class="browse-options">
+      <a  href="/index.php/informationobject/browse?sort=identifier&sortDir=asc&media=print">
+  <i class="fa fa-print"></i>
+  Print preview</a>
+
+      
+      
+      <span>
+        <span class="view-header-label">View:</span>
+
+<div class="btn-group">
+  <a class="btn fa fa-th-large " href="/index.php/informationobject/browse?view=card&amp;sort=identifier&amp;sortDir=asc" title=" "> </a>
+  <a class="btn fa fa-list active" href="/index.php/informationobject/browse?view=table&amp;sort=identifier&amp;sortDir=asc" title=" "> </a></div>
+      </span>
+
+      <div class="pickers">
+        <div id="sort-header">
+  <div class="sort-options">
+
+    <label>Sort by:</label>
+
+    <div class="dropdown">
+
+      <div class="dropdown-selected">
+                                  <span>Identifier</span>
+                  
+      </div>
+
+      <ul class="dropdown-options">
+
+        <span class="pointer"></span>
+
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=lastUpdated&sortDir=asc" data-order="lastUpdated">
+              <span>Date modified</span>
+            </a>
+          </li>
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=alphabetic&sortDir=asc" data-order="alphabetic">
+              <span>Title</span>
+            </a>
+          </li>
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=relevance&sortDir=asc" data-order="relevance">
+              <span>Relevance</span>
+            </a>
+          </li>
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=referenceCode&sortDir=asc" data-order="referenceCode">
+              <span>Reference code</span>
+            </a>
+          </li>
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=startDate&sortDir=asc" data-order="startDate">
+              <span>Start date</span>
+            </a>
+          </li>
+                  <li>
+                        <a href="/index.php/informationobject/browse?sort=endDate&sortDir=asc" data-order="endDate">
+              <span>End date</span>
+            </a>
+          </li>
+              </ul>
+    </div>
+  </div>
+</div>
+
+<div id="sort-header">
+  <div class="sort-options">
+
+    <label>Direction:</label>
+
+    <div class="dropdown">
+
+      <div class="dropdown-selected">
+                                  <span>Ascending</span>
+                  
+      </div>
+
+      <ul class="dropdown-options">
+
+        <span class="pointer"></span>
+
+                  <li>
+                        <a href="/index.php/informationobject/browse?sortDir=desc&sort=identifier" data-order="desc">
+              <span>Descending</span>
+            </a>
+          </li>
+              </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <div id="content" class="browse-content">
+              <div class="search-result media-summary">
+          <p>
+            17 results with digital objects                                    <a href="/index.php/informationobject/browse?onlyMedia=1">
+              <i class="fa fa-search"></i>
+              Show results with digital objects            </a>
+          </p>
+        </div>
+      
+                    
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/macinnis-audiovisual-collection">
+        <div class="preview-container">
+                      <img alt="MacInnis AudioVisual Collection" src="/uploads/r/special-collections/5/7/7/577c4fbd67f6bb4269ce6df61da631733756d462cd020a386f5c8b7c8407e682/MacInnis_Banner_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/macinnis-audiovisual-collection" title="MacInnis AudioVisual Collection">MacInnis AudioVisual Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="macinnis-audiovisual-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2005.002</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">[ca. 1934-2004]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection consists of audio, video and film recordings made by Dr. Joe MacInnis and his team during his underwater dives from the 1970s to 2004. The bulk of the collection concerns the shipwrecks of the Titanic, the Breadalbane and the Edmund Fitzgerald. There are also many films that highlight deep sea ecology and oceanography, particularly hydrothermal vents and deep sea sharks. Most recordings in the collection consist of rough or unedited footage. The collection also includes television and radio programs on which Dr. MacInnis appeared and some video and audio recordings by MacInnis' friends and colleagues. There is a small selection of footage collected by MacInnis for research purposes, including footage of William Beebe and Otis Barton's deep sea dives in their revolutionary 'bathysphere' in 1934.</p></div>
+    
+          <p class="creation-details">MacInnis, Joseph B.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/photograph-film-technology-collection" title="Photograph &amp; Film Technology Collection">Photograph &amp; Film Technology Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="photograph-film-technology-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2005.005</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1880 - 2008</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This collection consists of photographic films, papers and chemicals used by various individuals for amateur or professional purposes. The collection also includes camera accessories, flash equipment, various lenses, exposure meters (light meters) and equpiment used for darkroom processing and printing. This is a growing collection, created to help preserve the materials used for analogue photographic developing, printing and enlarging.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/heritage-camera-collection">
+        <div class="preview-container">
+                      <img alt="Heritage Camera Collection" src="/uploads/r/special-collections/7/5/c/75c9e27af71542740b6d7dbd7c88a14d2582c5520aa4af0feb6d9525532e330d/CameraCollection_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/heritage-camera-collection" title="Heritage Camera Collection">Heritage Camera Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="heritage-camera-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2005.006</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[between ca. 1860 and 2010]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The Heritage Camera Collection is comprised of cameras, mainly from the Wilhem E. Nassau Camera Collection, the Irving G. Rumney fonds, and several other small, individual donations.</p>
+<p>This collection traces the evolution of the tools of popular photography from the turn of the nineteenth century to the current digital age. Many of the cameras were manufactured by Kodak Canada or Eastman Kodak, but there are also examples from many other manufacturers, such as: Ernst Leitz, Minox, Polaroid, Nikon, Rollei, Mamiya, Olympus, Contax, and several companies that pre-date, and were eventually amalgamated into Kodak, including the Rochester Optical Company.</p>
+<p>Items in the collection are arranged in series according on their form and function; the categories are based on the research and publications of Michel Auer and Todd Gustavson, and often overlap chronologically.</p>
+<p>Series are as follows:</p>
+<p>Early cameras<br/>Dry plate cameras<br/>Field cameras<br/>Folding (bellows) cameras<br/>Box and snapsot roll film cameras<br/>Detective cameras<br/>Panoramic cameras<br/>Miniature and sub-miniature cameras<br/>Single lens reflex cameras<br/>Twin lens reflex cameras<br/>35mm cameras<br/>In-camera processing (instant) cameras<br/>Point and shoot caemras<br/>One-time-use cameras<br/>Digital and pre-digital cameras<br/>Toy and promotional cameras<br/>Motion-picture cameras<br/>Video cameras</p>
+<p>To browse the series, click on the &quot;View the list&quot; link under the &quot;See the sous-fonds, series or sub-series lists for this collection&quot; title (to the right of the page).</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/lorne-shields-historical-photograph-collection">
+        <div class="preview-container">
+                      <img alt="Lorne Shields Historical Photograph Collection" src="/uploads/r/null/0/7/5/075ae0db9d33ed30217c5fbe1ac9b1ec1e9102ad9f7622825ee127b60a3c1d4f/ShieldsCollection_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/lorne-shields-historical-photograph-collection" title="Lorne Shields Historical Photograph Collection">Lorne Shields Historical Photograph Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="lorne-shields-historical-photograph-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2008.001</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1840-1970, predominant 1860-1900</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection consists of a large number of studio portrait photographs from the late 19th and early 20th centuries in carte-de-visite or cabinet card formats. There is a large collection of landscape and industrial imagery dating from the Victorian era to the 1960s. The collection also comprises many vernacular photographic albums, good examples of glass and metal photographic processes including cased daguerreotypes, ambrotypes and tintypes. The fonds is comprised of the following 8 series: Portraits (sub-series for Groups and Celebrities), Vernacular Photography (amateur snapshots), Landscapes and Industry (sub-series for Slides), Albums, the A.T. Orr collection and a Miscellaneous group of images which were generally created in mixed media.</p></div>
+    
+          <p class="creation-details">Shields, Lorne</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/teaching-learning-network-tln-productions-canadian-scenics" title="Teaching Learning Network (TLN) Productions Canadian Scenics">Teaching Learning Network (TLN) Productions Canadian Scenics</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="teaching-learning-network-tln-productions-canadian-scenics"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2010.005</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1992-2010</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains RAW camera original tapes in Betacam, and BetacamSP, and subsequent digital copies on DVD, generated by the American television production company Teaching Learning Network (TLN) Productions Ltd. The tapes were generated as part of production on the show &quot;Discover America&quot; - a show that was based on the history of North America through the 20th Century.</p>
+<p>25 Betacams, 7 DVDs.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/toronto-telegram-scrapbooks" title="Toronto Telegram scrapbooks">Toronto Telegram scrapbooks</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="toronto-telegram-scrapbooks"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2011.003</li>
+      
+              <li class="level-description">Item</li>
+      
+                            
+                </ul>
+
+          <div class="scope-and-content"></div>
+    
+          <p class="creation-details">Toronto Telegram</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/theatre-program-collection">
+        <div class="preview-container">
+                      <img alt="Theatre Program Collection" src="/uploads/r/special-collections/0/8/a/08a197b992fd5cf2c9036602e9062da3c9739c51438241720e917b0aa17ec405/Theatre_banner_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/theatre-program-collection" title="Theatre Program Collection">Theatre Program Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="theatre-program-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2011.006</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[ca. 1960] - 2010</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection consists of theatre programs from Great Britain and Ireland, Broadway venues in New York, and from various theatres in the provinces of Quebec and Ontario, including the Shaw and Stratford Festivals. Opera and symphony programmes are also included in this collection.</p>
+<p>To browse the individual items in this series, click on the &quot;View the list&quot; link under the &quot;See the sous-fonds, series or sub-series lists for this collection&quot; title (to the right of the page).</p></div>
+    
+          <p class="creation-details">Canadian Opera Company</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/kodakery-and-studio-light-magazines" title="Kodakery and Studio Light magazines">Kodakery and Studio Light magazines</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="kodakery-and-studio-light-magazines"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2011.01</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1919-1924, 1928, 1931</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>13 Canadian Kodakery magazines dating from 1919-1924 (not a complete run) and 2 Studio Light magazines dating from June 1928 and June 1931.</p></div>
+    
+          <p class="creation-details">Kodak Canada Inc.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/robert-hackborn-fonds" title="Robert Hackborn Fonds">Robert Hackborn Fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="robert-hackborn-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2012.005</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">194? - 2004</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Records: [textual ; graphic ; photographic; audio visual; artifacts ; publications]</p>
+<p>194? - 2004 : 36 Bankers boxes and 23 map cabinet drawers.</p>
+<p>The Robert Hackborn fonds contains the records that Mr. Hackborn generated during the course of his television production career and maintained at his private residence after his retirement in 1993. This includes documentation going back to Mr. Hackborn's youth and earliest professional days. The research value of the records in this fonds is significant as it relates to the history of Canadian television production, and the specific programs that Mr. Hackborn contributed to. As an example, the fonds contains photographic and textual documentation of the earliest stages of the show development process for the important children's television programs Mr. Dressup and Mr. Rogers Neighbourhood. The fonds also contains extensive documentation of the creative processes behind the development of Jim Henson's Fraggle Rock, including images of, and correspondence with Mr. Henson.<br/>During his career, Mr. Hackborn was also responsible for the execution of a very large collection of photographs that document the processes of working on a television set. With a professionally trained eye for composition and his camera, Mr. Hackborn systematically documented the television production process of the shows that he worked on. As a result of this work, the Robert Hackborn Fonds contains an impressive collection of this photographic documentation, which should serve as a valuable resource for future academics looking into the history of Canadian cultural output. Note on arrangement: This Robert Hackborn Fonds has been arranged in a manner that pays as much respect to the concept of Original Order as practically possible. Although the collection has been separated into Series based on General Material Designation in the finding aid and database, the physical arrangement of the collection remains identical to the manner in which Hackborn organized and stored his records, except where issues of physical size made such arrangement impossible. The oversized materials in this collection have therefore been arranged and stored in map cabinets designed to accommodate their physical dimensions. In addition, there is a small collection of oversized objects that have been stored on shelves above the collection owing to their size.<br/>Access: There are no restrictions on access to this collection. Researchers must schedule an appointment with Ryerson Archives &amp; Special Collections in order to view the records, and no records are permitted to leave the reading room or to be loaned out.</p></div>
+    
+          <p class="creation-details">Hackborn, Robert Arthur, Mr., September 22, 1928</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/kodak-lecture-series-fonds" title="Kodak Lecture Series and Image Arts Lectures">Kodak Lecture Series and Image Arts Lectures</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="kodak-lecture-series-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2012.006</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1973-2007</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Commencing in 1973, the Kodak Lecture Series Fonds contains audio and video recordings of lectures presenting the work of photographers, filmmakers, photo-based and new media artists, curators and visual media theorists.<br/>A series of lectures at the School of Image Arts (then known as the Photographic Arts Department) was begun by professor Phil Bergerson in 1975 to support the school's unique curriculum. Bergerson wanted to expose his students to new artists and ideas around photography by inviting internationally known artists, curators and theorists to discuss the art of creating, collecting and curating photography. These lectures were financially supported by Ontario Arts Council Grants and ticket sales. The first series (Photographic Perspectives) was extreamly popular, and Bergerson continued to organize the lectures for the next 9 years.<br/>Kodak Canada Inc. stepped in to sponsor the series in 1984, allowing students and the photographic comminity of Toronto to attend all lectures in the series without charge. The series was re-named the Kodak Chair Lecture series (1986-2007), and motion picture and, over time, video and new media artists and theorists joined the line-up of speakers.<br/>Throughout the series, the lectures were documented, on audiocassette and then video tape. In 2009, the lectures began to be streamed online and archived on the RyeCast websites (<a href="https://ryecast.ryerson.ca/1/page/Channels.aspx">https://ryecast.ryerson.ca/1/page/Channels.aspx</a>). In 2002, the School of Image Arts received funding from the Canada's Digital Collections (CDC) program, through Industry Canada, to create an online multi-media database of over 200 of the participants, using images and footage captured during the lectures. The project, entitled &quot;Images and Ideas: 25 Years of the Kodak Lecture Series&quot;, was completed in 2002 and hosted on the Library and Archives Canada server, along with thousands of other local and national digital projects. The Canada's Digital Collections website is no longer live, but is archived at the Government of Canada website: <a href="http://epe.lac-bac.gc.ca/100/205/301/ic/cdc/E/Alphabet.asp">http://epe.lac-bac.gc.ca/100/205/301/ic/cdc/E/Alphabet.asp</a><br/>In addition to the Kodak Lectures, the fonds contains the audio recordings of the proceedings of the Canadian Perspectives Conference (1979), a Critique Workshop with Gary Winnogrand (1981), a Critical Writing Workshop with A. D..Coleman (1982), the proceedings of the August Sander Symposium (1982) and the Symposium on Photographic Theory (1983).</p></div>
+    
+          <p class="creation-details">Ryerson Image Centre</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/canadian-perspectives-conference-transcript" title="Canadian Perspectives Conference Transcript">Canadian Perspectives Conference Transcript</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="canadian-perspectives-conference-transcript"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2012.006.05.31</li>
+      
+              <li class="level-description">Item</li>
+      
+                                <li class="dates">October 1979</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Item consists on one published transcript of the proceedings of the Canadian perspectives conference conference on Canadian photography.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/international-photographic-exhibitions-publications" title="International photographic exhibitions publications">International photographic exhibitions publications</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="international-photographic-exhibitions-publications"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2012.014</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1985-2011</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This collection contains invitations, pamphlets, takeaways and other publications related to international photographic exhibtions.</p></div>
+    
+          <p class="creation-details">Nordström, Alison</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/robert-macintosh-city-of-toronto-book-collection">
+        <div class="preview-container">
+                      <img alt="Robert MacIntosh City of Toronto Book Collection" src="/uploads/r/special-collections/3/4/9/349bfafb489c2dd344d9d3458f27590004a6db6102ff0913618c737207a9ace3/historyoftoronto_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/robert-macintosh-city-of-toronto-book-collection" title="Robert MacIntosh City of Toronto Book Collection">Robert MacIntosh City of Toronto Book Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="robert-macintosh-city-of-toronto-book-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2013.007</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1807-2004</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collections contains historical and contemporary books on the history of Toronto, featuring tourist guides and souvenirs from the city form the late 19th and early 20th centuries.</p>
+<p>All books are catalogued on our library catalogue: <a href="https://catalogue.library.ryerson.ca/search/X?SEARCH=N:(%22macintosh%22)&amp;SORT=D&amp;b=mspc1">https://catalogue.library.ryerson.ca/search/X?SEARCH=N:(%22macintosh%22)&amp;SORT=D&amp;b=mspc1</a> (search for &quot; from the collection of Robert MacIntosh&quot; )</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/art-history-and-history-of-photography-slides" title="Art history and history of photography slides">Art history and history of photography slides</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="art-history-and-history-of-photography-slides"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2013.010</li>
+      
+              <li class="level-description">Collection</li>
+      
+                            
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains published teaching slides for art history courses, with a focus on the history of photography. Series include Janson's History of Art, 5th Ed., Gardner's Art Through the Ages, Early Canadian Photography, and the National Gallery of Canada.</p></div>
+    
+          <p class="creation-details">National Gallery of Canada</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/alfred-upton-photography-fonds" title="Alfred Upton Photography fonds">Alfred Upton Photography fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="alfred-upton-photography-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2014.006</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1965, 1987</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains photographic camera equipment used by the photographer Alfred S. Upton, and an exhibition catalogue that accompanied a 1987 exhibition of his work at the Pearl Street Gallery in Hamilton, Ontario.</p></div>
+    
+          <p class="creation-details">Upton, Alfred S.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/cinema-esparanca-international-inc-vhs-collection" title="Cinema Esparanca International Inc. - VHS collection">Cinema Esparanca International Inc. - VHS collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="cinema-esparanca-international-inc-vhs-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2014.010</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1970-2004</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains a collection of VHS videocassettes donated to RULA by Andre Bennett - President and CEO of Cinema Esparanca International Inc.</p>
+<p>Cinema Esperança is an international film distribution and production company based in the city of Toronto, Canada that focuses on producing, distributing, and selling thought provoking and entertaining feature films and documentaries that are theatrically viable for both Canadian and international markets.</p>
+<p>The company is committed to producing and marketing quality films &amp; documentaries, in all genres, that are thought-provoking, entertaining, and theatrically viable. Special emphasis is placed on supporting new filmmakers and auteur directors whose visions can be shared with cinema going audiences worldwide.</p>
+<p>The owner, president, and CEO of Cinema Esperança is André Bennett. Before becoming a producer and theatrical distributor, André Bennett was a university professor teaching courses in social and political philosophy at the University of Toronto &amp; McMaster University, Canada. During the last four years of his academic tenure, Bennett used movies, rather than textbooks, to discuss basic concepts and ideas.</p>
+<p>[from: <a href="http://www.cinemalumiere.com/index.php?page=about">http://www.cinemalumiere.com/index.php?page=about</a>]</p></div>
+    
+          <p class="creation-details">Bennett, Andre</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/first-edition-book-award">
+        <div class="preview-container">
+                      <img alt="First Edition Photobook Award" src="/uploads/r/special-collections/9/3/2/9320d78888732b9bcfca80271d91cb555e0d00b17b671a6032b562d6fefa7614/InNocte_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/first-edition-book-award" title="First Edition Photobook Award">First Edition Photobook Award</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="first-edition-book-award"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2015.004</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">2014-2018</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection contains books created by the winners of the First Edition Book Award. The Award was established to honor 3rd year photography students who have made exceptional achievements in photobook production. It provides incentive for them to achieve early recognition that will have a lasting legacy in our collection.</p>
+<p>As part of MPS507, a 3rd year Image Arts class in The Photographic Book, students are expected to conceive of and create their own book. This is, in part, related to work that has been completed in the co-requisite class, MPS506 - Photographic Production. These are both required courses for the Bachelor of Fine Arts (Image Arts) Photography Studies Option.</p>
+<p>The Award was established in 2015, enabling the Library to annually purchase the top five books in the class, as judged by the professor, and the Special Collections Librarian. Books are judged at the year end exhibition of the books and evaluation is focused particularly on design, sequencing, and integration of images and text.</p>
+<p>Winning books are catalogued in the Ryerson Library system, including a note about the award, and housed in Special Collections. Occasional exhibits are created to showcase the works.</p>
+<p>2015 Winners:<br/>Rebecca Zynomirski, Sheila's Tropical Vacation (Toronto: Rebecca Zynomirski, 2014). TR655.Z96 2014<br/>Lodoe Laura Haines, Stateless / Photographs by Lodoe Laura, forward by Tashi Wangdi (Toronto: Lodoe Laura, 2014).<br/>Evan Hutchinson, 43.7000 79.4000 (Toronto: Evan Hutchinson, 2014).<br/>Lucy Lu, Memories of Nowhere : A book by Lucy Lu (Toronto: Lucy Lu, 2014).<br/>Imogen Wallis-Mayer, An Ambiguous Form (Toronto, Imogen Wallis-Mayer, 2014).<br/>Emily Pleasance, My Relative Life : A Mapping of Memories (Toronto, Emily Pleasance, 2014)<br/>Kristina Smith, Orillia: A Photographic Exploration (Toronto, Kristina Smith, 2013).</p>
+<p>2016 Winners:<br/>Andrea Chartrand, Save As. (Toronto: Andrea Chartrand, 2015).<br/>Kayla Blaze Kelley, Dear Dad. (Toronto: Kayla Blaze Kelley, 2015).<br/>Mina Markovic, Komlikovani Identiteti. (Toronto: Mina Markovic, 2015).<br/>Terence Reeves, Looking Outside Looking In. (Toronto: Terence Reeves, 2015).<br/>Gabriel Steele, Jackson. (Toronto: Gabriel Steele, 2015).<br/>Alia Youssef, Self-portraits of my Family in our Backyard. (Toronto: Alia Youssef, 2015).</p>
+<p>2017 Winners:<br/>Adrian Walton-Cordeiro – Contesse De Bertren<br/>Ailene Devries – Two Cities and a River<br/>Fehn Foss – Remembering, Faring<br/>Julia Garnet – Elements<br/>Feline Gerhardt – About Mankind and the Attempt to Increase Significance<br/>Warren Rynkun – The Yard</p>
+<p>2018 Winers:<br/>After Grapefruit, Clea Christakos-Gee<br/>Untitled, Raelene Giffin<br/>In Nocte, Rafaela Conde<br/>In the Water, Lisa McElroy<br/>9869518588, Heather Rattray<br/>Home and Glory, Kalen Huxhan<br/>It’s Good Once You Get There, Hayley Wilsdon</p>
+<p>2019 Winners<br/>How to Run Away, Lucy Alguire<br/>Istanbul, Neha Bokhari<br/>Urban Drift, Bahar Kamali<br/>Cowboy, Austen Ambraska<br/>Shallow Season, Ally Ambler<br/>Overdressed, Jared Miller</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/design-archive-photographic-collection" title="Design Archive photographic collection">Design Archive photographic collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="design-archive-photographic-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2015.005</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987 - 2003</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Design Archive Inc. was the professional company of photographer Robert Burley, who established it in January 1987 and acted as president until January, 2000. Design Archive Inc. specialized in architectural photography: work is project-based, with project locations including commercial centers, businesses, private residences, and public places of note. Interior and exterior architectural structure is the predominant photographic subject, with landscapes and detailed design highlights, furniture, and machinery filling out the collection. In 2003, Burley accepted a full-time teaching position at Ryerson University’s School of Image Arts and suspended work at Design Archive Inc.</p>
+<p>These fonds include photographic materials, including photographic prints, contact sheets, negatives, CDs, and other miscellaneous items that were collected by Design Archive Inc. from 1987 to 2003.</p></div>
+    
+          <p class="creation-details">Burley, Robert</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/phototeria" title="The Phototeria">The Phototeria</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="phototeria"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2015.24</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1925-2007</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection consists of an automatic photobooth, and material related to its original function. Designed by David McCowan and patented on May 21, 1929. The collection includes vintage articles and advertisements, photographs of the booth and members of the McCowan family, the booth itself, along with related accessories.</p></div>
+    
+          <p class="creation-details">McCowan, David A.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/aerial-photographs-of-city-of-toronto" title="Aerial Photographs of the City of Toronto">Aerial Photographs of the City of Toronto</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="aerial-photographs-of-city-of-toronto"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2016.17</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">ca. 1980</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains a series of 522 aerial photographs of the city of Toronto, taken about 1980. The photographs are numbered 1 to 522. An accompanying index of black and white line maps are housed in 7 folders. Numbers on the map index correspond with photograph numbers.</p></div>
+    
+          <p class="creation-details">Ministry of Energy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/childrens-literature-collection" title="Children's Literature Collection">Children's Literature Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="childrens-literature-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2017.001</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1701-1940</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection contains about 2500 texts for children written primarily between the late-nineteenth century and the mid-twentieth century, and continues to grow. The collection has particular strengths in adventure stories, fairy tales, and Canadiana, but also includes strong holdings in poetry, picture books, and pedagogical works such as science texts and primers, along with biographies of notable authors and other scholarly studies. At present, the physical archive can be visited and used by appointment. An online, searchable catalogue is available, together with some featured exhibits of some of the collection's more unique and interesting holdings: <a href="http://www.ryerson.ca/childrenslit/">http://www.ryerson.ca/childrenslit/</a></p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/historical-photographic-processes-collection" title="Historical Photographic Processes Collection">Historical Photographic Processes Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="historical-photographic-processes-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2017.010</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[1800-present]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This collection contains examples of photographic processes from the 1840's until the present.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ryerson-press-donation" title="Ryerson Press Collection">Ryerson Press Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ryerson-press-donation"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2017.014</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1862-1997</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection contains books published by Ryerson Press in Toronto between 1862 and 1971. Subjects include educational texts and guides, Canadian history, religion, fiction and poetry. The collection also includes 3 boxes of records from Ryerson Press, including authors contracts, correspondence, and memorandums.</p></div>
+    
+          <p class="creation-details">The Ryerson Press</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/lantern-slide-collection">
+        <div class="preview-container">
+                      <img alt="Lantern Slide Collection" src="/uploads/r/special-collections/0/a/3/0a3b7d14faa76a642b67a44c51656d9642a208f7ac2e544256f966d81fdfc19f/LanternSlides_small_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/lantern-slide-collection" title="Lantern Slide Collection">Lantern Slide Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="lantern-slide-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2017.017</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1820-1950</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This collection consists of early optical devices commonly known as magic lanterns.  The first report of the construction of a magic lantern is generally considered to be referring to the Dutch scientist Christiaan Huygens in 1659. The lanterns in this collection are dated from the early 1800s until the mid 1900s and include large professional devices as well as consumer models and toy magic lanterns.</p>
+<p>The collection also holds over 500 lantern slides on a wide range of subjects. The slides demonstrate different iterations of glass slide projection and the evolution from hand-painted imagery to  photographic and mechanical slides.</p>
+<p>For more information about the history of magic lantern projection, please see our blog post: <a href="https://library.ryerson.ca/asc/2017/10/new-exhibition-projecting-magic/">https://library.ryerson.ca/asc/2017/10/new-exhibition-projecting-magic/</a></p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/peter-di-gangi-papers" title="Peter Di Gangi Papers">Peter Di Gangi Papers</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="peter-di-gangi-papers"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2018.008</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1906-2011</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The fonds contains records created by Peter Di Gangi (Sicani Research), containing research related to indigenous governance in Canada. The content includes published and unpublished materials and topics include: policy and research papers on indigenous law and policy, federal government reports and statistics, Ontario government reports and statistics (focused on northern and northwestern Ontario), draft reports and intervenor submissions prepared for the Royal Commission on Aboriginal Peoples (RCAP), Assembly of First Nations reports and committee kits, records from the Centre for Treaty Advocacy, policy papers on federal legislation and the Indian Act, social programs, taxation, lands, various court cases and decisions with analyses, materials on the evolution of federal Claims policy and efforts at reform, some material related to United States Indian policy and treaties.</p>
+<p>The fonds has been divided into series by box (35 in total) and further divided into files and items. The series, file, and item titles were  provided by the donor (with some exceptions).</p>
+<p>Names and terminology used in the scope and content field reflect the names and terminology used in the files and on the items and is often outdated and out of use. (i.e. Department of Indian Affairs (DIA); Federation of Saskatchewan Indian Nations). Every attempt has been made to utilize the current names in the creator and access points fields in the records (i. e. Crown-Indigenous Relations and Northern Affairs Canada (CIRNAC); Federation of Sovereign Indigenous Nations (FSIN).</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/frank-g-sommers-director-interviews" title="Frank G. Sommers director interviews">Frank G. Sommers director interviews</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="frank-g-sommers-director-interviews"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2018.019</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1978-1979</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains the text and audio records of interviews conducted by Dr. Frank Sommers with European and Canadian film directors Marianne Ahrne, walerian Browczyk, Bert Haanstra, Claude Jutra, Ettore Scola, and Alain Tanner between 1978 and 1979. Photographs, press clippings, and promotional texts related to films directed by the interviewees are also included.</p></div>
+    
+          <p class="creation-details">Sommers, Frank</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/bass-stereoscopic-photography-collection" title="Bass Stereoscopic Photography Collection">Bass Stereoscopic Photography Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="bass-stereoscopic-photography-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2018.09</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[ca. 1850 - ca. 1996]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection contains stereoscopic photographs, viewers, and cameras, collected by the donors between the 1970's and the 1990's and dating from the 1850's to the 1990's. Material includes a variety of viewers, cameras, photographs, and ephemera relating to three-dimensional photography.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ken-van-velzer-camera-collection-2" title="Ken Van Velzer Collection">Ken Van Velzer Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ken-van-velzer-camera-collection-2"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">2018.10</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[1910-2000?]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection contains Polaroid cameras and accessories. Material includes a variety of cameras, containers, parts and ephemera relating to Polaroid photography</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/archives-newspaper-clipping-files" title="Archives newspaper clipping files">Archives newspaper clipping files</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="archives-newspaper-clipping-files"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">C 001</li>
+      
+              <li class="level-description">Fonds</li>
+      
+      
+                </ul>
+
+          <div class="scope-and-content"><p>The Archives Documentation files are a collection of secondary source clippings from Ryerson and external publications. They are divided into 594 series with all series relating to Ryerson University and its departments, faculty, students, or graduates.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/obsolete-media-formats-collection" title="Obsolete Media Formats Collection">Obsolete Media Formats Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="obsolete-media-formats-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">C 002</li>
+      
+              <li class="level-description">Fonds</li>
+      
+      
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains a collection - gathered from multiple sources - of obsolete audio and visual media formats and playback equipment.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/former-kodak-employee-donations" title="Former Kodak employee donations">Former Kodak employee donations</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="former-kodak-employee-donations"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">C 2011.014</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">[196?-2002]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Series contains programmes for events, film samples, letters to and from Kodak employees in both the Canadian and American branches of the Kodak company. Some published materials are also available in this series.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ron-keeble-fonds" title="Ron Keeble fonds">Ron Keeble fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ron-keeble-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 100</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains one issue of the journal 'Plan Canada. Canadian Institute of Planners'. (issue 26: 2 - April 1986 Neighbourhood Planning). Keeble served as the Guest Editor of this issue of the journal.</p></div>
+    
+          <p class="creation-details">Keeble, Ron</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/joseph-springer-fonds" title="Joseph Springer fonds">Joseph Springer fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="joseph-springer-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 101</li>
+      
+              <li class="level-description">Fonds</li>
+      
+      
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains items authored by Joseph Springer.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/randy-boyagoda-fonds" title="Randy Boyagoda Fonds">Randy Boyagoda Fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="randy-boyagoda-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 109</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">2006-</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains two published books written by Boyagoda.</p></div>
+    
+          <p class="creation-details">Boyagoda, Randy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/walter-g-pitman-fonds" title="Walter G. Pitman fonds">Walter G. Pitman fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="walter-g-pitman-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 11</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1972-1998</li>
+              
+                </ul>
+
+          <div class="scope-and-content"></div>
+    
+          <p class="creation-details">Pitman, Walter George</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/edward-u-schrader-fonds" title="Edward U. Schrader fonds">Edward U. Schrader fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="edward-u-schrader-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 112</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1940 - 1972</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains textual records, graphic items, artifacts, and film items related to the career of Edward Schrader.</p></div>
+    
+          <p class="creation-details">Schrader, Edward U.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ike-morgulis-fonds" title="Ike Morgulis fonds">Ike Morgulis fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ike-morgulis-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 113</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1970 - 1991</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 113.1 - Invitation: Exhibition of Colour Prints, 1986-91.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 113.2 - Polytechnic '71/Open House, 1970-71.<br/>Records are under review. Contact the Archives for information on access.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/alison-acker-fonds" title="Alison Acker fonds">Alison Acker fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="alison-acker-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 115</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986-1998</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of materials written during and after Alison Acker's term as an English Professor at Ryerson University. The fonds is organized into two series: Book - Published, and Articles.</p>
+<p>F 115.01: One book: Children of the Volcano by Alison Acker. Published by Between the Lines, 1986. ISBN 0-919946-66-6 (bound) 0-919946-67-4 (pbk.)</p>
+<p>F 115.02: Two newspaper clippings</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/sidney-schipper-fonds" title="Sidney Schipper fonds">Sidney Schipper fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="sidney-schipper-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 116</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains photocopies of three entries that Schipper contributed or co-contributed to the Canadian Encyclopedia - 'Fur Industry' 'Fashion Design' and 'Clothing Industry'. The copies were made in 1986</p></div>
+    
+          <p class="creation-details">Schipper, Sidney</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/brian-damude-fonds" title="Brian Damude fonds">Brian Damude fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="brian-damude-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 117</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986-2001</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains textual records and promotional material.</p></div>
+    
+          <p class="creation-details">Damude, Brian</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/sandy-zwyer-fonds" title="Sandy Zwyer fonds">Sandy Zwyer fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="sandy-zwyer-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 118</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1977</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains reel to reel audio tapes recorded and donated by Zwyer of a seminar featuring Ian Patterson held at Ryerson in 1977</p></div>
+    
+          <p class="creation-details">Zwyer, Sandy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ron-stagg-fonds" title="Ron Stagg fonds">Ron Stagg fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ron-stagg-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 119</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985-1998</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fond contain various articles and booklets authored by Stagg.</p></div>
+    
+          <p class="creation-details">Stagg, Ron</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/tom-kilner-fonds" title="Tom Kilner fonds">Tom Kilner fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="tom-kilner-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 121</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1900, 1982-1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of articles authored or co-authored by Kilner, as well as historical photographs of Toronto and Ryerson.</p></div>
+    
+          <p class="creation-details">Kilner, Tom</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/stalin-boctor-fonds" title="Stalin A. Boctor fonds">Stalin A. Boctor fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="stalin-boctor-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 124</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987, 1992</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of 2 textbooks, first and second editions, on electric circuitry.</p></div>
+    
+          <p class="creation-details">Boctor, Stalin A.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/robert-b-scott-fonds" title="Robert B. Scott fonds">Robert B. Scott fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="robert-b-scott-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 125</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1967-2014</li>
+              
+                </ul>
+
+          <div class="scope-and-content"></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/adam-fuerstenberg-fonds" title="Adam Fuerstenberg fonds">Adam Fuerstenberg fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="adam-fuerstenberg-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 127</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1962 - 1991</li>
+              
+                </ul>
+
+          <div class="scope-and-content"></div>
+    
+          <p class="creation-details">Fuerstenberg, Adam</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/donald-gillies-fonds" title="Donald Gillies fonds">Donald Gillies fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="donald-gillies-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 128</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1964-1996</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains records created or retained by Donald Gillies during his career at Ryerson in the Business and Image Arts faculties.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/dr-donald-barr-fonds" title="Dr. Donald Barr fonds">Dr. Donald Barr fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="dr-donald-barr-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 129</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1963-1983</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of items created and collected by Donald Barr during his 24 year career with Ryerson in his many roles. They include photographs of the Hockey team, health clinic, and bowling league; trophies; journal articles; a signed hockey stick; along with other artifacts and textual records.</p></div>
+    
+          <p class="creation-details">Barr, Dr. Donald</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/michael-j-doucet-fonds" title="Michael J. Doucet fonds">Michael J. Doucet fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="michael-j-doucet-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 13</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1977-2003</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains textual records including: articles, books, correspondence, reports, clippings and academic papers about and generated by Doucet during his time at Ryerson. Files in this fonds include:</p>
+<p>Journal Articles<br/>Published Books<br/>Correspondence<br/>Reports<br/>Published Papers<br/>Articles<br/>Reivews &amp; Critiques</p></div>
+    
+          <p class="creation-details">Doucet, Michael J.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/kathy-gallagher-ross-fonds" title="Kathy Gallagher Ross fonds">Kathy Gallagher Ross fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="kathy-gallagher-ross-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 131</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1978-1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains books and articles written by Kathleen Gallagher Ross.</p></div>
+    
+          <p class="creation-details">Ross, Kathy Gallagher</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/marc-rosen-fonds" title="Marc Rosen fonds">Marc Rosen fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="marc-rosen-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 132</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986-1998</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of paper, article and reports written by Marc Rosen.</p></div>
+    
+          <p class="creation-details">Rosen, Marc</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/margaret-macmillan-fonds" title="Margaret MacMillan fonds">Margaret MacMillan fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="margaret-macmillan-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 133</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1981-2006</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains: clippings of book reviews written by MacMIllan, correspondence, clippings, and published books written by MacMillan.</p></div>
+    
+          <p class="creation-details">MacMillan, Margaret</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/lindsay-davis-fonds" title="Lindsay Davis fonds">Lindsay Davis fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="lindsay-davis-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 134</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-2003</li>
+              
+                </ul>
+
+          <div class="scope-and-content"></div>
+    
+          <p class="creation-details">Davis, Lindsay</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ron-taber-fonds" title="Ron Taber fonds">Ron Taber fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ron-taber-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 135</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                            
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 135.01 - Speeches and Lectures, 1986-90.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 135.02 - Conductor's Baton: The Band and ROW, 1966.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 135.03 - The Ryerson Band, Band Instruments, 1967-68.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 135.04 - Certificate From National Assoc. Student Personnel...., 1993.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 135.05 - Photographs, 1960s-70s.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 135.06 - Lapel Pin, n.d.<br/>Records are under review. Contact the Archives for information on access.</p></div>
+    
+          <p class="creation-details">Taber, Ron</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/edward-parker-fonds" title="Edward Parker fonds">Edward Parker fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="edward-parker-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 14</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1944-1993</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of memoirs, correspondence, photographs, and course brochures.</p></div>
+    
+          <p class="creation-details">Parker, Edward</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/mitchell-kosny-fonds" title="Mitchell Kosny fonds">Mitchell Kosny fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="mitchell-kosny-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 143</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986 - 1987</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains textual records related to Mitchell Kosny's career at Ryerson.</p></div>
+    
+          <p class="creation-details">Kosny, Mitchell</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/sue-ellen-mesbur-fonds" title="Sue Ellen Mesbur fonds">Sue Ellen Mesbur fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="sue-ellen-mesbur-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 147</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1980s</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 147.1 - Papers, 1982.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 147.2 - Understanding and working with groups, 1989.<br/>Open. Records are available for consultation without restriction.</p></div>
+    
+          <p class="creation-details">Mesbur, Ellen Sue</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/david-amborski-fonds" title="David Amborski fonds">David Amborski fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="david-amborski-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 152</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains 3 papers written/co-written by David Amborski. The papers were prepared for 3 different conferences/meetings.</p></div>
+    
+          <p class="creation-details">Amborski, David</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/empty-record-group-available-number-5" title="Bascom St. John">Bascom St. John</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="empty-record-group-available-number-5"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 160</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1955-1964</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The majority of his fonds consists of materials from when he was an employee of the Globe and Mail, writing a column 'The World of Learning'.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/michael-schreier-fonds" title="Michael Schreier fonds">Michael Schreier fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="michael-schreier-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 161</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1984 - 1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 161.1 - In The Shadow Of The Herdsman: A Masque In Our Time, 1984.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 161.2 - Photograph Catalogue:Michael Schreier Street Portraits, 1986.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 161.3 - In The Shadow Of The Herdsman: A Masque In Our Time, 1984.</p></div>
+    
+          <p class="creation-details">Schreier, Michael</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ziad-saghir-fonds" title="Ziad Saghir fonds">Ziad Saghir fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ziad-saghir-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 162</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">2005</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 162.1 - Papers on Project: Oil Research that is Out of this World by Ziad Saghir, 2005.</p></div>
+    
+          <p class="creation-details">Saghir, Ziad</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/helmut-burkhardt-fonds" title="Helmut Burkhardt fonds">Helmut Burkhardt fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="helmut-burkhardt-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 163</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-2001</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 163.1 - Papers, 1987.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 163.2 - Foundations and Applications of General Systems Theory with a Focus on Science Education : Proceedings : Proceedings: Meeting of the International Society for General Systems Research, 1987.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 163.3 - Transdisciplinary Knowledge Structures and Curriculum Innovation : Proceedings of the Second Canadian Conference on Foundations and Applications of General Science Theory, 1990.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 163.4 - System physics: A uniform approach to branches of classical physics, 1987.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 163.5 - Science for Peace group, 2001.<br/>Records are under review. Contact the Archives for information on access.</p></div>
+    
+          <p class="creation-details">Burkhardt, Helmut (Ken)</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/wendy-cukier-fonds" title="Wendy Cukier fonds">Wendy Cukier fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="wendy-cukier-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 164</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986-2002</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains papers, reports, articles, book chapters, correspondence, and a book written by Wendy Cukier.</p></div>
+    
+          <p class="creation-details">Cukier, Wendy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/michal-j-bardecki-fonds" title="Michal J. Bardecki fonds">Michal J. Bardecki fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="michal-j-bardecki-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 17</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1982-1992</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of papers, articles, reports, book chapters, and abstracts written by Michal Bardecki during his time at Ryerson. Topics include wetland conservation, environmental geography, and resources management.</p></div>
+    
+          <p class="creation-details">Bardecki, Michal J.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/john-mccallum-fonds" title="John McCallum fonds">John McCallum fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="john-mccallum-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 170</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1960-1990</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F170.1 - Stories of God and Jesus. Teachers' Guide To Religious Education - Grade Two, 1945.<br/>F170.2 - Copy Editing:Student Marks Record Book, 1960-80.<br/>F170.3 - Journalism Graduation Banquet menu, 1971.<br/>F170.4 - Letter to Ed DeArmon, 1971.<br/>F170.5 - It Never Happened, 1990.<br/>F170.6 - File: Dental Claim Matter, 1989.<br/>F170.7 - Memoranda: McKessock Case, 1988.<br/>F170.8 - File: Student Slander Case, 1980-1981.<br/>F170.9 - Newspaper: Breakthrough For Women, 1980-1981.<br/>F170.10 - Where Do You Park Your Elephants (And Other Poultry).., 1982-1984.<br/>F170.11 - Making Air Pirates Walk The Plank, 1990.</p></div>
+    
+          <p class="creation-details">McCallum, John</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/judith-waalen-fonds" title="Judith Waalen fonds">Judith Waalen fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="judith-waalen-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 171</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-2002</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains reports, papers, and journal articles authored or co-authored by Judith Waalen. The majority of the work was written and published while she was the Director of the Centre for Quality Research at Ryerson and when she was a professor in the division of Graduate Studies and Research at Canadian Memorial Chiropractic College.</p></div>
+    
+          <p class="creation-details">Waalen, Judith Kelly</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ronald-conrad-fonds" title="Ronald Conrad fonds">Ronald Conrad fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ronald-conrad-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 172</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                            
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains books and manuscript for book written by Ronald Conrad.</p></div>
+    
+          <p class="creation-details">Conrad, Ronald</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/andrew-nemeth-fonds" title="Dr. Andrew Nemeth fonds">Dr. Andrew Nemeth fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="andrew-nemeth-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 173</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains a paper written by Andrew Nemeth.</p></div>
+    
+          <p class="creation-details">Nemeth, Andrew</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/george-lopez-fonds" title="George Lopez fonds">George Lopez fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="george-lopez-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 174</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1865</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 174.1 - Self-help with illustrations of character and conduct, 1865.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/peter-brogden-fonds" title="Peter Brogden fonds">Peter Brogden fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="peter-brogden-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 177</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-1993</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 177.1 - Role of Research at Ryerson, 1987.<br/>Records are under review. Contact the Archives for information on access.</p>
+<p>F 177.2 - Airborne and Satellite Verification of Arms Control Agreements : Past, Present, and Future, 1989.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 177.3 - Aurora Papers 12 : Controlling the Global Arms Threat : Proceedings of a Workshop on The Technology for Arms Control Verification in the 1990s, 1992.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 177.4 - Aurora Papers 22 : Arms Control in the 1990s : Proceedings of a Workshop on Chemical Weapons, Nuclear Weapons and Arms Control in Outer Space, 1993.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/murray-paulin-fonds" title="Murray Paulin fonds">Murray Paulin fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="murray-paulin-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 178</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1958 - 1986</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files related to Ryerson faculty Murray Paulin (Business Administration Department ca. 1958). He taught Economics, Sociology and Philosophy classes. In 1983, he won the Ryerson Faculty Association (RFA) Outstanding Service Award.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/fred-j-travell-fonds" title="Fred J. Travell fonds">Fred J. Travell fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="fred-j-travell-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 179</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1965 - 1966</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 179.1 - Letter:From H.H. Kerr re. Apptmnt. To Faculty Council, 1965.<br/>F 179.2 - Invitations to Ryerson Events, 1966.<br/>Records are under review. Contact the Archives for information on access.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/roberts-freimuts-fonds" title="Roberts Freimuts fonds">Roberts Freimuts fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="roberts-freimuts-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 180</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1978</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of a film created by Roberts Freimuts.</p></div>
+    
+          <p class="creation-details">Freimuts, Roberts</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/james-moore-fonds" title="James A. Moore fonds">James A. Moore fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="james-moore-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 183</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1946 - 1947</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 183.01 - Training/Re-Est.Inst.: Mechanical Draughting Class, 1946.</p>
+<p>F 183.02 - Certificate: Mechanical Drafting Course, TRIT, 1947.</p></div>
+    
+          <p class="creation-details">Moore, James A.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/yvonne-hart-fonds" title="Yvonne Hart fonds">Yvonne Hart fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="yvonne-hart-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 185</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1982 - 1999</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 185.1 - Correspondence, 1982-1999.</p>
+<p>Records are under review. Contact the Archives for information on access.</p></div>
+    
+          <p class="creation-details">Hart, Yvonne</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/ben-carniol-fonds" title="Ben Carniol fonds">Ben Carniol fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="ben-carniol-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 189</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987-2006</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 189.1 - Books - Published, 1987.</p>
+<p>F 189.2 - Journal Articles, 1983-84.</p>
+<p>F 189.3 - Why the 'Other' Toronto Summit is Important, 1988.</p>
+<p>F 189.4 - Metro Network For Social Justice: Toronto Presents Global Links: Photo-Education-In-Sights, 1999.</p>
+<p>F 189.5 - Letters to the Editor, 2005.</p></div>
+    
+          <p class="creation-details">Carniol, Ben</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/kenneth-ken-g-jones-fonds" title="Kenneth (Ken) G. Jones fonds">Kenneth (Ken) G. Jones fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="kenneth-ken-g-jones-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 19</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1981-2005</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains textual records partially documenting Ken Jones' academic and administrative output during his time at Ryerson. It includes books, articles, papers and other materials authored or co-authored by Ken Jones.</p></div>
+    
+          <p class="creation-details">Jones, Kenneth G.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/yolanda-coppolino-fonds" title="Yolanda Coppolino fonds">Yolanda Coppolino fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="yolanda-coppolino-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 190</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1977 - 1987</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 190.01 - Women Managers : Fitting the Mold or Molding the Fit?, 1987.<br/>.</p>
+<p>F 190.02 - A Description of the Evening, Part-Time Instructor /RPI, 1977.</p></div>
+    
+          <p class="creation-details">Coppolino, Yolanda</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/carol-b-seath-fonds" title="Carol B. Seath fonds">Carol B. Seath fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="carol-b-seath-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 191</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 191.1 - Women Managers : Fitting the Mold or Molding the Fit?, 1987.</p></div>
+    
+          <p class="creation-details">Seath, Carol B.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/douglas-r-banting-fonds" title="Douglas R. Banting fonds">Douglas R. Banting fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="douglas-r-banting-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 192</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1987</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of 5 papers authored/co-authored by Douglas R. Banting during his career at Ryerson in the Geography Department. Topics include Geographic Information Systems and storm water watershed.</p></div>
+    
+          <p class="creation-details">Banting, Douglas R.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/dr-james-h-mars-fonds" title="Dr. James H. Mars fonds">Dr. James H. Mars fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="dr-james-h-mars-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 193</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1986-1990</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 193.01 - Riders, Reasons And Recommendations, 1986.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 193.02 - Papers, 1990.<br/>Open. Records are available for consultation without restriction.</p>
+<p>F 193.03 - Studies, 1989.<br/>Records are under review. Contact the Archives for information on access.</p></div>
+    
+          <p class="creation-details">Mars, Dr. James H.</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/dorothy-gillmeister-fonds" title="Dorothy Gillmeister fonds">Dorothy Gillmeister fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="dorothy-gillmeister-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 195</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 195.1 - Mistress Amelia - Poems, 1985.</p></div>
+    
+          <p class="creation-details">Gillmeister, Dorothy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/sheree-lee-olson-fonds" title="Sheree-Lee Olson fonds">Sheree-Lee Olson fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="sheree-lee-olson-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 196</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following file:</p>
+<p>F 196.1 - Mistress Amelia - Poems by Sheree-Lee Olson, 1985.</p></div>
+    
+          <p class="creation-details">Olson, Sheree-Lee</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/robert-cumming-fonds" title="Robert Cumming fonds">Robert Cumming fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="robert-cumming-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 197</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1984</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 197.1 - Chemical Contaminants In Food, 1984.</p>
+<p>F 197.2 - Focus Groups As A Tool In Food Product Development 1984.</p></div>
+    
+          <p class="creation-details">Cumming, Robert</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/robert-greenberg-fonds" title="Robert Greenberg fonds">Robert Greenberg fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="robert-greenberg-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 198</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of a leaflet advertising an exhibition of Greenberg's paintings.</p></div>
+    
+          <p class="creation-details">Greenberg, Robert</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/william-owen-fonds" title="William Owen fonds">William Owen fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="william-owen-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 199</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1983 - 1984</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains the following files:</p>
+<p>F 199.1 - Journal articles, 1984.</p>
+<p>F 199.2 - Papers, 1983.</p>
+<p>Open. Records are available for consultation without restriction.</p></div>
+    
+          <p class="creation-details">Owen, William</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/joanne-harack-hayne-fonds" title="Joanne Harack Hayne fonds">Joanne Harack Hayne fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="joanne-harack-hayne-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 20</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Joanne Harack Hayne was afiliated with the Centre for Advanced Technology Education (CATE) at Ryerson. This fonds contains the report 'managing the education/industry interface' written By Harack Hayne and Michael G. Kahan.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/patricia-jensen-fonds" title="Patricia Jensen fonds">Patricia Jensen fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="patricia-jensen-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 200</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1982-[1991]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains items authored and co-authored by Patricia Izard Jensen in her role as a professor in the Nutrition program at Ryerson University.</p></div>
+    
+          <p class="creation-details">Jensen, Patricia Izard</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/nicholas-m-and-marilyn-graver-photographic-publications-collection">
+        <div class="preview-container">
+                      <img alt="Nicholas M. and Marilyn A. Graver Photographic Publications Collection" src="/uploads/r/null/0/d/f/0df2f3f34efe12c6c5516867ecb0d63f2f94527eb7e8c5a13abb1656497bbe08/Periodicals_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/nicholas-m-and-marilyn-graver-photographic-publications-collection" title="Nicholas M. and Marilyn A. Graver Photographic Publications Collection">Nicholas M. and Marilyn A. Graver Photographic Publications Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="nicholas-m-and-marilyn-graver-photographic-publications-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2005.003</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1893-2005</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection consists of small pamphlets or periodicals issued by camera manufacturers to promote the sale of camera equipment or encourage the use of their films and apparatus. Most issues were published by the Eastman Kodak Company in Rochester, NY, but there are a few issues from other Kodak branches and other photographic companies. A couple of fiction stories and comic books on the topic of crime photography are included as well.</p>
+<p>Many books on the history of photography were also part of the collection, catalogued in the Ryerson Library database:
+<a href="http://innopac.lib.ryerson.ca/search~S0/X?graver+collection&amp;SORT=AX">http://innopac.lib.ryerson.ca/search~S0/X?graver+collection&amp;SORT=AX</a></p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/w-cluff-p-j-cluff-architectural-firm">
+        <div class="preview-container">
+                      <img alt="A.W. Cluff &amp; P.J. Cluff Architectural Firm" src="/uploads/r/null/a/9/f/a9f0bd0d469dff1ff158edcf55dd3200d1ea297553ac666c0cebf943153051cb/Cluff_Collection_Finding_Aid_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/w-cluff-p-j-cluff-architectural-firm" title="A.W. Cluff &amp; P.J. Cluff Architectural Firm">A.W. Cluff &amp; P.J. Cluff Architectural Firm</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="w-cluff-p-j-cluff-architectural-firm"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2006.003</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1950-2006</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>This fonds contains published and grey-literature textual records collected by the architect Pamela Cluff and her firm “A.W. Cluff &amp; P.J. Cluff Architects” and used as part of the firm's small reference library. The items in this collection have a strong subject focus on architecture and interior design for elderly and alternately-abled users.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/gordon-meinecke-fonds" title="Gordon Meinecke fonds">Gordon Meinecke fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="gordon-meinecke-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2007.006</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">[ca. 1950]-2007</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The fonds consists of photographic chemicals, printing paper, film, dry plates, pamphlets, journals, trade circulars and photo bulbs collected by Gordon Meinecke during the course of his career, and from personal interest as a collector of historical artifacts. Meinecke worked in various photographic formats including 11x14, 8x10, 4x5, 2 ¼, and 35mm, sometimes producing prints as large as 30x40 inches. He primarily employed Kodak material for these purposes, but films from other manufacturers of photographic supplies can be found in the fonds, including Agfa Ansco Company, Ilford Limited, Polaroid and Triple Print Film Labs. Antique film packages, produced by companies like The Stanley Dry Plate Company or Dufaycolor Inc., are mainly empty or opened, and were collected for their historical value rather than for photographic use. A selection of photo lamps and flashbulbs from Osram, General Electric and the Wabash Photolamp Corporation are included in the collection, as well as two glass plate drying racks.</p></div>
+    
+          <p class="creation-details">Meinecke, Gordon</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/spira-19th-and-20th-century-foreign-language-photography-publications" title="Spira 19th and 20th century foreign language photography publications">Spira 19th and 20th century foreign language photography publications</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="spira-19th-and-20th-century-foreign-language-photography-publications"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2008.004</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1866-1975</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection contains books and bound periodicals on the subject of photography. Subjects include instructional guides, process descriptions, art photography, early photographic chemistry and product catalogues. Some publications include tipped in photogrpahs. TThe primary language of the collection is German, with a few Spanish, Russian, Czech, and Japanese publications.<br/>Periodicals include:<br/>Allgemeine Photographische Zeitung (January 1924-December 1926)<br/>Photofreund (1924)<br/>Photofreund Jahrbuch (1924-1934)<br/>Photographische Archiv (1866, 1871-1891)<br/>Photographische Correspondenz (1878, 1889-1908, 1928, 1932, 1947-1951)</p></div>
+    
+          <p class="creation-details">Spira, Jonathan</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/leniniana-collection">
+        <div class="preview-container">
+                      <img alt="Leniniana Collection" src="/uploads/r/null/1/5/8/158e2559ff0c686f0773058f998af853367625262eafbd81ad2d463e2f3029b3/LeninianaCollection_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/leniniana-collection" title="Leniniana Collection">Leniniana Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="leniniana-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2008.005</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">1917-2003; predominant 1980-1990</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection consists of more than 800 items featuring the image of Vladimir Ilych Lenin, the founder of the Soviet Union. There is a variety of media, including paper, textile, bronze, alloy, gold, clay, wood, porcelain, stone as well as books, posters, postcards, and 35mm black and white film. The collection was assembled between 1989 and 2003 in Moscow, Leningrad, Kiev, Vilnius and Kaliningrad. The items in the collection have been arranged in the following series: Documentary Films, Posters, Postcards, Books and Periodicals, Records, Pins, Bookplates, Paintings, Rugs and Embroidery, Postage Stamps, Notes, Coins and Commemorative Medals, Sculptures, Reliefs, Flags.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/canadian-architect-magazine-fonds">
+        <div class="preview-container">
+                      <img alt="Canadian Architect magazine fonds" src="/uploads/r/special-collections/2/3/8/238eac61f776f452ee541b8447a5cdc5d47c4e0f0951bcb53affaa02e5ded8a0/CanadianArchitectCollection_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/canadian-architect-magazine-fonds" title="Canadian Architect magazine fonds">Canadian Architect magazine fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="canadian-architect-magazine-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2009.002</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1955-[ca. 1990]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The archive contains thousands of negatives and photographs taken for publication in Canadian Architect magazine. As announced in the magazine's inaugural issue, Canadian Architect reviewed and documented both public and private structures, including churches, homes, businesses, airports, government offices and public spaces. The subjects of the photographs are generally modern Canadian structures, but images of some International sites and early 20th century Canadian buildings can be found in the collection as well. The collection also contains images of entries to the annual national design awards program sponsored by the magazine, the &quot;Awards of Excellence.&quot; The collection also functions as a record of the changing nature of magazine production over the latter part of the 20th century. Canadian Architect was the first business publication in Canada to make engravings on site from original photographs, allowing for a rich selection of both prints and negatives. Instructions by editors and layout artists regarding their eventual printing in the magazine are often written directly on the prints, along with photographer's stamps, credit lines or captions.</p></div>
+    
+          <p class="creation-details">Canadian Architect</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/toronto-film-society-collection" title="Toronto Film Society Collection">Toronto Film Society Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="toronto-film-society-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2009.004</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1970-1985</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>The collection consists of film related literature, films stills and productions packages collected over the course of the Toronto Film Society's history. The books were dispersed to Special Collections stacks or the Library general collection depending on age and condition. Film stills and packages have been catalogued and added to Special Collections. Several boxes of clipping files were also included in the collection and have been retained in Special Collections. Please consult the Library Catalogue for more information on individual titles.</p></div>
+    
+          <p class="creation-details">Toronto Film Society</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/brodie-macpherson-photographic-chemical-fonds" title="Brodie MacPherson photographic chemical fonds">Brodie MacPherson photographic chemical fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="brodie-macpherson-photographic-chemical-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2009.006</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">[19--]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Bottles of photographic chemicals used by Brodie Macpherson in his home lab. Most are glass bottles with cork stoppers, a few Seagram's beer bottles and other re-purposed household containers, with handwritten labels indicating their contents.</p></div>
+    
+          <p class="creation-details">Macpherson, Brodie</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/caroline-wheeler-fonds" title="Caroline Wheeler fonds">Caroline Wheeler fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="caroline-wheeler-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 201</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">1972-2000</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds contains items created and collected by Caroline Wheeler during her time at Ryerson in the Politics and Public Administration Department.</p></div>
+    
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/sylvia-morley-sculpture-collection" title="Sylvia A. Morley Sculpture Collection">Sylvia A. Morley Sculpture Collection</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="sylvia-morley-sculpture-collection"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2010.001</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                                <li class="dates">[19--]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Collection includes Inuit soapstone sculptures, jewelry and carvings, and wooden African tribal masks and figurines.</p></div>
+    
+          <p class="creation-details">Morley, Sylvia Alden</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result has-preview">
+
+      <div class="search-result-preview">
+      <a href="/index.php/paddy-sampson-fonds">
+        <div class="preview-container">
+                      <img alt="Paddy Sampson fonds" src="/uploads/r/special-collections/9/4/8/948803b968c856b2016f1680a91e9a8844aecd8254dceec528591ff55163335b/Sampson_banner_142.jpg" />                  </div>
+      </a>
+    </div>
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/paddy-sampson-fonds" title="Paddy Sampson fonds">Paddy Sampson fonds</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="paddy-sampson-fonds"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2010.003</li>
+      
+              <li class="level-description">Fonds</li>
+      
+                            
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of audio reels and video tapes (VHS, U-Matic and Betacam) with excerpts of interviews, television shows and specials intended for broadcast on the Canadian Broadcasting Corporation's (CBC) English Television Network. The tapes were compiled by Paddy Sampson during the course of his employment with the CBC as a television producer.</p></div>
+    
+          <p class="creation-details">Sampson, Paddy</p>
+    
+  </div>
+
+</article>
+      
+  <article class="search-result">
+
+  
+  <div class="search-result-description">
+
+    <p class="title"><a href="/index.php/glencoe-area-early-photographs" title="[Glencoe area, early photographs]">[Glencoe area, early photographs]</a></p>
+
+    <button class="clipboard"
+  data-clipboard-url="/index.php/user/clipboardToggleSlug"
+  data-clipboard-slug="glencoe-area-early-photographs"
+  data-toggle="tooltip"  data-title="Add to clipboard"
+  data-alt-title="Remove from clipboard">
+  Add to clipboard</button>
+
+    <ul class="result-details">
+
+                <li class="reference-code">F 2010.004</li>
+      
+              <li class="level-description">Collection</li>
+      
+                                <li class="dates">[1912-1918]</li>
+              
+                </ul>
+
+          <div class="scope-and-content"><p>Fonds consists of 12 &quot;Canadian Kodakery&quot; magazines dating from June 1916 to May 1917, 1 issue of &quot;Kodak on the Farm&quot; and 2 issues of &quot;Kodak and Kodak Supplies&quot; with 107 negatives interfiled between the pages. The magazines were used as an arrangement system for negatives of the Glencoe, Ontario area. The pages of the magazines have notes in the margins describing the subject of the negative stored at that page, and tabs have been cut out of the pages much like one would see tabs on a card index. Most of the negatives are consistent with the No. 122 roll film size but a few were taken with a smaller film format.</p></div>
+    
+          <p class="creation-details">Magid, Martin K.</p>
+    
+  </div>
+
+</article>
+            </div>
+
+  
+
+                
+  <section>
+
+    <div class="result-count">
+              Results 1 to 100 of 932          </div>
+
+    <div class="visible-phone">
+      <div class="pager">
+        <ul>
+
+          
+                      <li class="next">
+              <a href="/index.php/informationobject/browse?page=2&amp;sort=identifier&amp;sortDir=asc" title="Next &raquo;">Next &raquo;</a>            </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="hidden-phone">
+      <div class="pagination pagination-centered">
+        <ul>
+
+          
+          
+          
+            
+                              <li class="active"><span>1</span></li>
+              
+                              
+            
+                          <li><a title="Go to page 2" href="/index.php/informationobject/browse?page=2&amp;sort=identifier&amp;sortDir=asc">2</a></li>
+            
+          
+            
+                          <li><a title="Go to page 3" href="/index.php/informationobject/browse?page=3&amp;sort=identifier&amp;sortDir=asc">3</a></li>
+            
+          
+            
+                          <li><a title="Go to page 4" href="/index.php/informationobject/browse?page=4&amp;sort=identifier&amp;sortDir=asc">4</a></li>
+            
+          
+            
+                          <li><a title="Go to page 5" href="/index.php/informationobject/browse?page=5&amp;sort=identifier&amp;sortDir=asc">5</a></li>
+            
+          
+            
+                          <li><a title="Go to page 6" href="/index.php/informationobject/browse?page=6&amp;sort=identifier&amp;sortDir=asc">6</a></li>
+            
+          
+            
+                          <li><a title="Go to page 7" href="/index.php/informationobject/browse?page=7&amp;sort=identifier&amp;sortDir=asc">7</a></li>
+            
+          
+                      <li class="dots"><span>...</span></li>
+            <li class="last">
+              <a href="/index.php/informationobject/browse?page=10&amp;sort=identifier&amp;sortDir=asc" title="10">10</a>            </li>
+          
+                      <li class="next">
+              <a href="/index.php/informationobject/browse?page=2&amp;sort=identifier&amp;sortDir=asc" title="Next &raquo;">Next &raquo;</a>            </li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+    <footer>
+
+  
+  
+  <div id="print-date">
+    Printed: 2020-12-01  </div>
+
+</footer>
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-890753-20', 'auto');
+        ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

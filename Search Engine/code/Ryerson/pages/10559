@@ -1,0 +1,3847 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/google/getting-started/general-guide/" >
+		<meta property="og:title" content="General Guide for Google Apps" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/google/getting-started/general-guide/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="General Guide for Google Apps"> 
+		 
+        
+        
+        <title>General Guide for Google Apps - G Suite Website - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/google/">
+				        G Suite at Ryerson University
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/google.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#b0838db3-28e7-43d0-aba2-5482fe7e61c5" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="b0838db3-28e7-43d0-aba2-5482fe7e61c5">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/google/why-gsuite-apps/'>Why G Suite?</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/privacy/'>Privacy and Security</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/access-apps/'>Access G Suite</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/teach-with-gsuite-apps/'>Teach with G Suite</a>
+									</li>
+								
+									<li class="">
+										<a href='/google/guides/'>How-To Guides</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+        		<main id="mainContent" class="content-area-section col-md-9 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >General Guide for G Suite</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="c989c23f-a5aa-4bb9-bb02-cb38c7859278">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						
+<img src="/content/dam/google/getting-started/general/google-apps-cloud-2.png" alt="Google Apps Icon"/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<div class="caption richtextContent">
+	<h2>Contents</h2> 
+<ul> 
+ <li><a href="#Getting-started">Getting Started</a></li> 
+ <li><a href="#troubleshooting">Troubleshooting</a></li> 
+ <li><a href="#migration">Migration</a></li> 
+ <li><a href="#privacy-and-security">Privacy and Security</a></li> 
+ <li><a href="#features">Features</a></li> 
+</ul>
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#c989c23f-a5aa-4bb9-bb02-cb38c7859278');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "c989c23f-a5aa-4bb9-bb02-cb38c7859278"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="88251f35-03b8-4f1a-8f84-35b7d803beda" >
+
+    <p><a name="Getting-started" id="Getting-started"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#88251f35-03b8-4f1a-8f84-35b7d803beda");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="3c34dc73-27fb-413d-bfe2-2c5bba1a0224">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/general/stock-photo (4).jpeg" alt="My workplace with yellow notes"/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Getting Started
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#3c34dc73-27fb-413d-bfe2-2c5bba1a0224');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "3c34dc73-27fb-413d-bfe2-2c5bba1a0224"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="1fb60a63-4b01-4438-a853-c4172d7ca671" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("1fb60a63-4b01-4438-a853-c4172d7ca671", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475241788-how-do-i-sign-into-g-suite-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475241788-how-do-i-sign-into-g-suite-" aria-controls="accordion-content-1500475241788-how-do-i-sign-into-g-suite-" aria-expanded="false">
+                            How do I sign into G Suite?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475241788-how-do-i-sign-into-g-suite-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475241788-how-do-i-sign-into-g-suite-">
+                    <div class="panel-body ">
+                        <div class="1500475241788 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4074ae00-ab1c-4380-9cb8-d5ce1baa0328" >
+
+    <ol> 
+ <li><p>Go to: <a href="https://my.ryerson.ca/">my.ryerson.ca</a> in any web browser.</p> </li> 
+ <li><p>Click Log in to my.ryerson.</p> </li> 
+ <li><p>You will be prompted by Ryerson's Central Authentication Service (CAS) to log in with your Ryerson credentials. Log in with your username and password.</p> </li> 
+ <li><p>Once logged in, select ‘Apps’ tab and choose which G Suite you wish to use.</p> </li> 
+</ol> 
+<p>If you chose not to opt-in to use Gmail (students and faculty only), you will still log into this service the same way as explained above to access your apps, but you will not see Gmail.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4074ae00-ab1c-4380-9cb8-d5ce1baa0328");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500909025537-when-did-we-migrate-to-g-suite-for-education-at-ryerson-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500909025537-when-did-we-migrate-to-g-suite-for-education-at-ryerson-" aria-controls="accordion-content-1500909025537-when-did-we-migrate-to-g-suite-for-education-at-ryerson-" aria-expanded="false">
+                            When did we migrate to G Suite for Education at Ryerson?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500909025537-when-did-we-migrate-to-g-suite-for-education-at-ryerson-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500909025537-when-did-we-migrate-to-g-suite-for-education-at-ryerson-">
+                    <div class="panel-body ">
+                        <div class="1500909025537 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7ae42cb6-cd32-4800-807e-2151c3d295d5" >
+
+    <p>Ryerson has gone live with G Suite since October 9, 2012.</p> 
+<ul> 
+ <li><p>G Suite became available from Friday October 5th. To use G Suite log into the https://my.ryerson.ca portal and click on the Apps tab.</p> </li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7ae42cb6-cd32-4800-807e-2151c3d295d5");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5ad41625-5133-4e84-8dcc-23a3e2228f5b" >
+
+    <p><a name="troubleshooting" id="troubleshooting"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5ad41625-5133-4e84-8dcc-23a3e2228f5b");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="a9488dc0-4ad5-49a0-8da6-0653759fe169">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/general/stock-photo (2).jpg" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Troubleshooting
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#a9488dc0-4ad5-49a0-8da6-0653759fe169');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "a9488dc0-4ad5-49a0-8da6-0653759fe169"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="7d2324c6-0b04-4298-831a-5532a7d4f6fc" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("7d2324c6-0b04-4298-831a-5532a7d4f6fc", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475304872-can-i-use-google-chrome-offline-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475304872-can-i-use-google-chrome-offline-" aria-controls="accordion-content-1500475304872-can-i-use-google-chrome-offline-" aria-expanded="false">
+                            Can I use Google Chrome offline?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475304872-can-i-use-google-chrome-offline-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475304872-can-i-use-google-chrome-offline-">
+                    <div class="panel-body ">
+                        <div class="1500475304872 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="51dabeb5-6c7a-4f5f-acc5-2504aaedb697" >
+
+    <p>No. Unfortunately Chrome Web Store is a consumer service and subject to the consumer version of its terms of service. Consequently, Ryerson does not have offline access to this service.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#51dabeb5-6c7a-4f5f-acc5-2504aaedb697");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475305920-why-don-t-i--have-the-option-to-change-my-google-token-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475305920-why-don-t-i--have-the-option-to-change-my-google-token-" aria-controls="accordion-content-1500475305920-why-don-t-i--have-the-option-to-change-my-google-token-" aria-expanded="false">
+                            Why don&#039;t I  have the option to Change my Google Token?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475305920-why-don-t-i--have-the-option-to-change-my-google-token-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475305920-why-don-t-i--have-the-option-to-change-my-google-token-">
+                    <div class="panel-body ">
+                        <div class="1500475305920 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0df9adda-802d-4736-9798-485b160f931a" >
+
+    <p>Your Google Token will be available after your account has been created in Google. &nbsp;It may take up to 24 hours.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0df9adda-802d-4736-9798-485b160f931a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475306447-can-i-opt-out-of-gmail-after-i-have-already-opted-in--" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475306447-can-i-opt-out-of-gmail-after-i-have-already-opted-in--" aria-controls="accordion-content-1500475306447-can-i-opt-out-of-gmail-after-i-have-already-opted-in--" aria-expanded="false">
+                            Can I opt-out of Gmail after I have already opted in? 
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475306447-can-i-opt-out-of-gmail-after-i-have-already-opted-in--" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475306447-can-i-opt-out-of-gmail-after-i-have-already-opted-in--">
+                    <div class="panel-body ">
+                        <div class="1500475306447 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e46c107f-d5ad-429e-aabe-57435b525990" >
+
+    <p>As a faculty or student you can opt out of Ryerson’s Gmail provided you have a strong case for it. Provide your reason in an email request to 'help@ryerson.ca' and your case will be handled at an individual basis.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e46c107f-d5ad-429e-aabe-57435b525990");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475327358-how-do-i-delete-an-invitation-after-i-have-sent-it-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475327358-how-do-i-delete-an-invitation-after-i-have-sent-it-" aria-controls="accordion-content-1500475327358-how-do-i-delete-an-invitation-after-i-have-sent-it-" aria-expanded="false">
+                            How do I delete an invitation after I have sent it?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475327358-how-do-i-delete-an-invitation-after-i-have-sent-it-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475327358-how-do-i-delete-an-invitation-after-i-have-sent-it-">
+                    <div class="panel-body ">
+                        <div class="1500475327358 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5407b1c9-8727-4a99-b19b-f14b9e30e99c" >
+
+    <p>You can enable an “Undo send” lab in Google. Go to the gear icon at the top right of your screen. Click on it and select “Settings.” Then click the “General” tab at the top of the Settings page. Scroll down until you find the “Undo Send” lab, then click “Enable.” You can also choose how long you would like to have to option to undo sent items. Scroll down to the bottom of the page to save this action. From that point on you will be given the option to undo a sent item after you’ve hit “Send.” &nbsp;</p> 
+<p><br> The option to retract a message will only be available for the set time you specified. &nbsp;If you also click on any other option within Gmail, your message will delivered and you can no longer have the option to retract.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5407b1c9-8727-4a99-b19b-f14b9e30e99c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="dc6fb626-cfdc-4221-9b4d-baddfe2cc5d6" >
+
+    
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#dc6fb626-cfdc-4221-9b4d-baddfe2cc5d6");});</script></div>
+
+				
+
+				
+				<div class="resTwoColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8ab0b420-45d2-47ee-b8d9-a00323793b6e" >
+
+    <p><a name="migration" id="migration"></a>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8ab0b420-45d2-47ee-b8d9-a00323793b6e");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="0e14cdf3-c148-46d5-acab-71d3f49fefb9">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-3.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Migration
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#0e14cdf3-c148-46d5-acab-71d3f49fefb9');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "0e14cdf3-c148-46d5-acab-71d3f49fefb9"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="818315cc-7dfb-4bd3-aeb2-1bd9971aa6b8" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("818315cc-7dfb-4bd3-aeb2-1bd9971aa6b8", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475348576-i-use-a-desktop-mail-client-such-as-microsoft-outlook--thunderbird--apple-mail--etc-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475348576-i-use-a-desktop-mail-client-such-as-microsoft-outlook--thunderbird--apple-mail--etc-" aria-controls="accordion-content-1500475348576-i-use-a-desktop-mail-client-such-as-microsoft-outlook--thunderbird--apple-mail--etc-" aria-expanded="false">
+                            I use a desktop mail client such as Microsoft Outlook, Thunderbird, Apple Mail, etc.
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475348576-i-use-a-desktop-mail-client-such-as-microsoft-outlook--thunderbird--apple-mail--etc-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475348576-i-use-a-desktop-mail-client-such-as-microsoft-outlook--thunderbird--apple-mail--etc-">
+                    <div class="panel-body ">
+                        <div class="1500475348576 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="344a747e-f644-4cca-8d2e-e8081437ded4" >
+
+    <p>If you prefer to use a desktop (AKA a "thick client") email program such as Microsoft Outlook, Thunderbird, Apple Mail, etc., please check the <a href="/content/ryerson/google/access-apps/email-client.html">instructions for supported IMAP clients</a>.</p> 
+<p>Ryerson will not be migrating users’ desktop email clients (such as Outlook and Thunderbird) to Google. However, Google offers a <a href="https://tools.google.com/dlpage/outlookmigration">migration tool<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> that you can download to help you migrate desktop email clients independently. You can download the migration tool here:</p> 
+<p>You can also use <a href="http://www.marklyon.org/gmail/">Gmail Loader<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> to help you through this process.</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#344a747e-f644-4cca-8d2e-e8081437ded4");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475388405-are-all-of-my-contacts-migrated-to-the-new-gmail-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475388405-are-all-of-my-contacts-migrated-to-the-new-gmail-" aria-controls="accordion-content-1500475388405-are-all-of-my-contacts-migrated-to-the-new-gmail-" aria-expanded="false">
+                            Are all of my contacts migrated to the new Gmail?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475388405-are-all-of-my-contacts-migrated-to-the-new-gmail-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475388405-are-all-of-my-contacts-migrated-to-the-new-gmail-">
+                    <div class="panel-body ">
+                        <div class="1500475388405 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="0aa914d0-49c4-4c7e-864d-1642e497698b" >
+
+    <p>Yes. Multiple address books, your personal contacts and groups will all be migrated and available in Google under "My Contacts."</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#0aa914d0-49c4-4c7e-864d-1642e497698b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475399325-can-i-log-into-both-my-ryerson-university-and-personal-gmail-accounts-at-the-same-time-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475399325-can-i-log-into-both-my-ryerson-university-and-personal-gmail-accounts-at-the-same-time-" aria-controls="accordion-content-1500475399325-can-i-log-into-both-my-ryerson-university-and-personal-gmail-accounts-at-the-same-time-" aria-expanded="false">
+                            Can I log into both my Ryerson University and personal Gmail accounts at the same time?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475399325-can-i-log-into-both-my-ryerson-university-and-personal-gmail-accounts-at-the-same-time-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475399325-can-i-log-into-both-my-ryerson-university-and-personal-gmail-accounts-at-the-same-time-">
+                    <div class="panel-body ">
+                        <div class="1500475399325 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="91bfa0d1-1f71-4b43-9c96-fa456c53fc0c" >
+
+    <p>Ryerson University has signed a contract with Google and is using the G Suite For Education edition. This is different from the consumer version that your personal email account is set up on. This educational version will not do any data mining, or present you with advertisements. When you are logged into your Ryerson G Suite account on the web interface, you will see Ryerson branding at the top of the page.</p> 
+<p>That being said, there are several ways you can log into both accounts. Here are <a href="https://mail.google.com/support/bin/answer.py?hl=en&amp;answer=69570">instructions<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> on how to do this. However, the easiest way to prevent confusion is to open up multiple browsers (Firefox and Chrome, I.E. etc.) to log into different accounts.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#91bfa0d1-1f71-4b43-9c96-fa456c53fc0c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475673518-will-the-trash-folder-be-migrated-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475673518-will-the-trash-folder-be-migrated-" aria-controls="accordion-content-1500475673518-will-the-trash-folder-be-migrated-" aria-expanded="false">
+                            Will the Trash folder be migrated?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475673518-will-the-trash-folder-be-migrated-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475673518-will-the-trash-folder-be-migrated-">
+                    <div class="panel-body ">
+                        <div class="1500475673518 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8fc49630-12fb-4274-ba7e-dd8b212e78f7" >
+
+    <p>The trash folder will NOT migrate, so make sure to move all important mail out of the Trash folder. Please note that the Trash folder in your new Ryerson Gmail account will automatically be purged every 30 days.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8fc49630-12fb-4274-ba7e-dd8b212e78f7");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475691214-will-my-secondary-email-be-migrated-to-google-too-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475691214-will-my-secondary-email-be-migrated-to-google-too-" aria-controls="accordion-content-1500475691214-will-my-secondary-email-be-migrated-to-google-too-" aria-expanded="false">
+                            Will my secondary email be migrated to Google too?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475691214-will-my-secondary-email-be-migrated-to-google-too-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475691214-will-my-secondary-email-be-migrated-to-google-too-">
+                    <div class="panel-body ">
+                        <div class="1500475691214 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b34391a6-cea9-4e4a-804c-44e41c5478c5" >
+
+    <p>Yes, generic email accounts are also receive the full Google package, including Gmail, Calendar and Google Drive access. As the owner of a generic account, you must manually opt-in to migrate your generic account.</p> 
+<p>Here’s how:&nbsp;</p> 
+<ol> 
+ <li>Log in to the my.ryerson portal with your username and password.</li> 
+ <li>Find the <strong>Self Service</strong> module and click <strong>Guest and Generic Accounts</strong>.</li> 
+ <li>Under the <strong>General </strong>section, click on <strong>Opt Into Ryerson Gmail for Generic Accounts</strong></li> 
+ <li>From there, you can opt in to move your generic account(s) over to Ryerson Gmail</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b34391a6-cea9-4e4a-804c-44e41c5478c5");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f6c1eabe-87dd-4f11-9a5b-241d361f4e27" >
+
+    
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f6c1eabe-87dd-4f11-9a5b-241d361f4e27");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="16f15f57-58be-43d8-bc33-48f1ef34a8dc" >
+
+    <p><a name="privacy-and-security" id="privacy-and-security"></a><br> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#16f15f57-58be-43d8-bc33-48f1ef34a8dc");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="e2c4b8bd-8922-4c20-83ec-02dc814dd80d">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/google/getting-started/google-groups/guide/google-groups-4.png" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	<h3>
+	Privacy &amp; Security
+	
+	</h3>
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#e2c4b8bd-8922-4c20-83ec-02dc814dd80d');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "e2c4b8bd-8922-4c20-83ec-02dc814dd80d"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="d6f8b7a7-2b70-44bc-8f0b-1dbbfa8d4b3a" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("d6f8b7a7-2b70-44bc-8f0b-1dbbfa8d4b3a", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475731065-why-does-the--authentication-required--page-shows-up-on-third-party-sites-that-are-not-affiliated-to-ryerson-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475731065-why-does-the--authentication-required--page-shows-up-on-third-party-sites-that-are-not-affiliated-to-ryerson-" aria-controls="accordion-content-1500475731065-why-does-the--authentication-required--page-shows-up-on-third-party-sites-that-are-not-affiliated-to-ryerson-" aria-expanded="false">
+                            Why does the &#034;Authentication Required&#034; page shows up on third party sites that are not affiliated to Ryerson?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475731065-why-does-the--authentication-required--page-shows-up-on-third-party-sites-that-are-not-affiliated-to-ryerson-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475731065-why-does-the--authentication-required--page-shows-up-on-third-party-sites-that-are-not-affiliated-to-ryerson-">
+                    <div class="panel-body ">
+                        <div class="1500475731065 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="96be3eb6-eabc-4827-91af-1aebdee01471" >
+
+    <p>Ryerson University uses Central Authentication Service (CAS) as our single sign on (SSO) solution. It’s used to access the my.ryerson portal, G Suite for Ryerson and many other web applications. &nbsp;For security reasons and to help mitigate phishing attacks, it is important that users are able to view the URL of the CAS login page in the browser address bar. Hence, we do not allow CAS login page to be embedded in other web pages, for example, via an inline frame (iframe). And we have mechanisms in place to break out of embedded pages such as iframes. &nbsp;In such cases, you will get &nbsp;"Authentication Required" CAS page:</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#96be3eb6-eabc-4827-91af-1aebdee01471");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="dfde59ad-e793-4be4-a6b1-b405e4b66c3f">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					<a class="imageOverlayLink" href="/content/dam/google/guides/faq_general/AuthenticationRequired.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/google/guides/faq_general/AuthenticationRequired.jpg" alt="Authentification required on third party sites"/>
+
+
+
+</a>
+					 
+						<div class="caption richtextContent">
+	<p>Sites often embed Google technologies in them, such as Google Calendar, Google Forms, and Google Maps etc. Some of these want to retrieve your Google data (your avatar, gmail address etc.), so Google tries to authenticate you. If your Google authentication session has timed out, you will be redirected to the Google login page. If you’ve used G Suite for Ryerson, you will be redirected to the CAS login page. &nbsp;As these all happened in the embedded iframe, CAS breaks out of the frame and present you with the "Authentication Required" page.</p> 
+<p>&nbsp;</p>
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#dfde59ad-e793-4be4-a6b1-b405e4b66c3f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "dfde59ad-e793-4be4-a6b1-b405e4b66c3f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h4 class="panel-title">
+                        <a id="accordion-1500475779261-will-students-be-able-to-opt-in-to-having-their-information-in-the-global-address-list--gal--contact-directory-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475779261-will-students-be-able-to-opt-in-to-having-their-information-in-the-global-address-list--gal--contact-directory-" aria-controls="accordion-content-1500475779261-will-students-be-able-to-opt-in-to-having-their-information-in-the-global-address-list--gal--contact-directory-" aria-expanded="false">
+                            Will students be able to opt-in to having their information in the Global Address List (GAL) Contact Directory?
+                        </a>
+                    </h4>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475779261-will-students-be-able-to-opt-in-to-having-their-information-in-the-global-address-list--gal--contact-directory-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475779261-will-students-be-able-to-opt-in-to-having-their-information-in-the-global-address-list--gal--contact-directory-">
+                    <div class="panel-body ">
+                        <div class="1500475779261 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9221f5fb-2a47-4abb-afc0-62492fd30952" >
+
+    <p>No, students will not be added to the Contact Directory. Staff and Faculty will be searchable in the Global Address List (GAL).</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9221f5fb-2a47-4abb-afc0-62492fd30952");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3bff787b-7405-4f07-8b80-7450ad8287b4" >
+
+    <h2><a id="features"></a>Features</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3bff787b-7405-4f07-8b80-7450ad8287b4");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="fcb01dc3-08f4-4fe9-b6b2-ae211caf7c39" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("fcb01dc3-08f4-4fe9-b6b2-ae211caf7c39", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500475970683-how-do-i-add-a-profile-photo-to-my-ryerson-gmail-account-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475970683-how-do-i-add-a-profile-photo-to-my-ryerson-gmail-account-" aria-controls="accordion-content-1500475970683-how-do-i-add-a-profile-photo-to-my-ryerson-gmail-account-" aria-expanded="false">
+                            How do I add a profile photo to my Ryerson Gmail account?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475970683-how-do-i-add-a-profile-photo-to-my-ryerson-gmail-account-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475970683-how-do-i-add-a-profile-photo-to-my-ryerson-gmail-account-">
+                    <div class="panel-body ">
+                        <div class="1500475970683 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b9358d3c-09f3-4aa6-a8f6-0d05ec85780a" >
+
+    <p>To upload an image for your Gmail account:</p> 
+<p></p> 
+<ul> 
+ <li>Click the gear in the top Gmail navigation bar.</li> 
+ <li>Select Mail settings.</li> 
+ <li>Make sure you're on the General tab.</li> 
+ <li>Click Select a picture under My picture.</li> 
+ <li>To use an image from your computer:</li> 
+ <li>Make sure My Computer is selected on the left.</li> 
+ <li>Use the Browse... or Choose file... button to select the desired image.</li> 
+</ul> 
+<p></p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b9358d3c-09f3-4aa6-a8f6-0d05ec85780a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500475971135-can-i-open-my-email-or-calendar-in-new-tab--not-a-new-window--" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475971135-can-i-open-my-email-or-calendar-in-new-tab--not-a-new-window--" aria-controls="accordion-content-1500475971135-can-i-open-my-email-or-calendar-in-new-tab--not-a-new-window--" aria-expanded="false">
+                            Can I open my email or calendar in new tab (not a new window)?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475971135-can-i-open-my-email-or-calendar-in-new-tab--not-a-new-window--" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475971135-can-i-open-my-email-or-calendar-in-new-tab--not-a-new-window--">
+                    <div class="panel-body ">
+                        <div class="1500475971135 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="350d9429-5dad-434d-830e-35578ebca86e" >
+
+    <p>If you use the Chrome browser, links will open in new tabs by default. If you're using another browser, you can change the browser settings to open new tabs instead of new windows. In Internet Explorer, for example, go to Tools &gt;Internet Options&gt;Tabs&gt;Settings, and click Let Internet Explorer choose how to open pop-ups.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#350d9429-5dad-434d-830e-35578ebca86e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500475971662--i-see-advertisements-scrolling-at-the-top-of-my-inbox--can-i-remove-them-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500475971662--i-see-advertisements-scrolling-at-the-top-of-my-inbox--can-i-remove-them-" aria-controls="accordion-content-1500475971662--i-see-advertisements-scrolling-at-the-top-of-my-inbox--can-i-remove-them-" aria-expanded="false">
+                             I see advertisements scrolling at the top of my Inbox. Can I remove them?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500475971662--i-see-advertisements-scrolling-at-the-top-of-my-inbox--can-i-remove-them-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500475971662--i-see-advertisements-scrolling-at-the-top-of-my-inbox--can-i-remove-them-">
+                    <div class="panel-body ">
+                        <div class="1500475971662 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6b4d5b17-3c53-4367-8bb9-a132099b9af0" >
+
+    <p>These are not actually advertisements, but are referred to by Google as “Web Clips”. You can remove them as follows: Click the gear icon at the top right of your screen and select “Settings.” Go to the “Web Clips” tab on your Settings page and uncheck “Show my web clips above the Inbox.”</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6b4d5b17-3c53-4367-8bb9-a132099b9af0");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500476020727-which-web-browsers-can-i-use-with-g-suite-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500476020727-which-web-browsers-can-i-use-with-g-suite-" aria-controls="accordion-content-1500476020727-which-web-browsers-can-i-use-with-g-suite-" aria-expanded="false">
+                            Which web browsers can I use with G Suite?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500476020727-which-web-browsers-can-i-use-with-g-suite-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500476020727-which-web-browsers-can-i-use-with-g-suite-">
+                    <div class="panel-body ">
+                        <div class="1500476020727 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ca6c5253-e0b5-4f87-a6fe-bdb06bc3ff6a" >
+
+    <p>G Suite supports the following browsers:</p> 
+<ul> 
+ <li><p>Google Chrome</p> </li> 
+ <li><p>Mozilla Firefox</p> </li> 
+ <li><p>Windows only: Internet Explorer, Microsoft Edge</p> </li> 
+ <li><p>Mac only: Safari</p> </li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ca6c5253-e0b5-4f87-a6fe-bdb06bc3ff6a");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500476021191-are-there-any-other-system-requirements-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500476021191-are-there-any-other-system-requirements-" aria-controls="accordion-content-1500476021191-are-there-any-other-system-requirements-" aria-expanded="false">
+                            Are there any other system requirements?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500476021191-are-there-any-other-system-requirements-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500476021191-are-there-any-other-system-requirements-">
+                    <div class="panel-body ">
+                        <div class="1500476021191 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8114d60d-72dd-414e-b019-9875677fe5ff" >
+
+    <p>No. Because G Suite runs in a web browser, you just need to use a supported browser.</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8114d60d-72dd-414e-b019-9875677fe5ff");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1500476036420-what-languages-does-g-suite-support-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1500476036420-what-languages-does-g-suite-support-" aria-controls="accordion-content-1500476036420-what-languages-does-g-suite-support-" aria-expanded="false">
+                            What languages does G Suite support?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1500476036420-what-languages-does-g-suite-support-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1500476036420-what-languages-does-g-suite-support-">
+                    <div class="panel-body ">
+                        <div class="1500476036420 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="36e958ab-7b99-4013-93e1-ad3c1421e4d9" >
+
+    <p>The interface for Gmail and Google Calendar are available in over 50 languages. For a list of the available languages and instructions on how to set a different language, see the <a href="http://mail.google.com/support/bin/answer.py?hl=en&amp;answer=17091">Gmail Help Center<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a>.</p> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#36e958ab-7b99-4013-93e1-ad3c1421e4d9");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Quick Links
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonDefault">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://my.ryerson.ca/f/apps/" target="_blank">
+	                        	
+	                            <span>Login to G Suite</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/google/access-apps/google-token/">
+	                        	
+	                            <span>Get a Google Token</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://www.ryerson.ca/ccs/services/applications/cas/login_help/" target="_blank">
+	                        	
+	                            <span>Login Help</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://support.google.com/?hl=en" target="_blank">
+	                        	
+	                            <span>G Suite Support Website</span>
+	                        	<span class='sr-only'>, external link, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="35ec93b4-34e1-47b8-b6c9-6fbeb728b82b" >
+
+    <p><strong>Computing and Communications Services</strong></p> 
+<p> <a href="/ccs/contact/">Help Desk</a></p> 
+<p>&nbsp;Students:&nbsp;416-979-5000 x556840</p> 
+<p>&nbsp;Faculty:&nbsp;416-979-5000 x556806</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#35ec93b4-34e1-47b8-b6c9-6fbeb728b82b");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="99c0c999-9824-45b5-8675-af65d7086caf" >
+
+    <p><strong>CCS Office</strong></p> 
+<p>LIB B-99 (Library Building - Basement)<br> 350 Victoria Street, Toronto, ON M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#99c0c999-9824-45b5-8675-af65d7086caf");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resMap section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-map">
+    
+        <div id="33d975ab-8389-4bf6-9d39-cf6936e075c6" class="res-map-content res-map-placeholder" style="height: 300px;" aria-hidden="true">
+        	<div class="res-map-overlay res-map-600px">
+	        	<img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/map-marker.png" alt=""/>
+	        	<button>Click to Activate Map</button>
+        	</div>
+        </div>
+        <div class="sr-only">Map of 350 Victoria Street, Toronto, ON, M5B 2K3, Canada</div>
+        <script>
+        	jQuery(document).on('_initmaps', function(event) {
+                jQuery("#33d975ab-8389-4bf6-9d39-cf6936e075c6 button").click(function() {
+                	jQuery("#33d975ab-8389-4bf6-9d39-cf6936e075c6.res-map-placeholder").removeClass('res-map-placeholder');
+                    var isInResLocalFooter = true;
+                    var latLng = JSON.parse('{"lat": 43.65829859999999, "lng": -79.3807846}');
+                    if(!isInResLocalFooter) {
+                        if(latLng != null){
+                            drawDynamicMapByLatLng('33d975ab-8389-4bf6-9d39-cf6936e075c6',latLng,'600px',20,true);
+                        } else{
+                            drawDynamicMapByAddress('33d975ab-8389-4bf6-9d39-cf6936e075c6','350 Victoria Street, Toronto, ON, M5B 2K3, Canada','600px',20,true);
+                        }
+                    } else {
+                        if(latLng != null){
+                            drawStaticMapByLatLng('33d975ab-8389-4bf6-9d39-cf6936e075c6',latLng,'350 Victoria Street, Toronto, ON, M5B 2K3, Canada','1140px','600px',20,true);
+                        } else{
+                            drawStaticMapByAddress('33d975ab-8389-4bf6-9d39-cf6936e075c6','350 Victoria Street, Toronto, ON, M5B 2K3, Canada','1140px','600px',20,true);
+                        }
+                    }
+                });
+            });
+        </script>
+    
+    
+    
+</div>
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'GDFLIEMHGEFLECHHPGKMLFCLCBJPFFIHJPGMIMIPKGHPCPEAJLGENEHOJFMCIFKAHJABNFDFAADDIGLLIEMAIACNAALBMGIFJENJMBFIHAHKPMKINBADEJFFHAJPFDJL',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'FJDLGNENEIIAOOILBINBEOHLMAAGNABOJCDGDEDDCMPCBJKGEELPHPLINFIOIFAIGOBBHEGFAAMANHLADNGAMBAMAAAKLGIACPPDAIIGEFIFODOGKADDEBMIADGIIHCB',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

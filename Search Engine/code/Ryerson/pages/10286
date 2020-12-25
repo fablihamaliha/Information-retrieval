@@ -1,0 +1,48 @@
+<html>
+ 
+<head>
+<title>The Chang School: Courses and Programs</title>
+<script type="text/javascript">
+var gajshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3cscript src='" + gajshost + "google-analytics.com/ga.js' type='text/javascript'%3e%3c/script%3e"));
+</script>
+<script type="text/javascript">
+var pagetracker = _gat._gettracker("ua-5088790-1");
+pagetracker._trackpageview();
+</script>
+<!-- THIS PAGE SEND USERS TO ANOTHER PAGE, 3 LINKS TO BE CHANGED -->
+<!-- 1. JAVASCIPT ALLOWS BACK BUTTON TO BE USED AND NOT BE IN FORWARD LOOP -->
+<script language="JavaScript1.1">
+ <!--
+ location.replace("https://continuing.ryerson.ca");
+ //-->
+ </script>
+<!-- 2. FOR NON-ENABLED JAVASCRIPT BOWSERS -->
+<noscript> 
+<meta http-equiv="Refresh" content="0; URL=https://continuing.ryerson.ca">
+</noscript> 
+<style type="text/css">
+<!--
+.links {  font-family: Verdana, Arial, Helvetica, sans-seri; font-size: 12px; font-style: normal; line-height: 15px; font-weight: normal; margin-top: 0px; margin-bottom: 0px; color: #006699}
+-->
+</style>
+</head>
+ 
+<body text="#000000" link="#006699" vlink="#006699" alink="#990000">
+<img src="rce_logo_large.gif"> 
+<p><font face="Verdana, Arial, Helvetica, sans-serif">You are 
+  being transferred to the Courses and Programs section on The Chang School website hosted at <a href="https://continuing.ryerson.ca"><font color="#336699">https://ce-online.ryerson.ca/ce</font></a>.</font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif"> Please 
+  click the link above if you are not automatically forwarded.</font></p>
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'AFJABGNJBBKEJCNKMHFIHMOEEHGNLLFKKIINIBAFNNFEPKMHPDADKIJINDKIJGGOLFNBLHJHAAJEDDPDJMJAJGGJAAIBKPLJFDCJHCJEPKIPEFOJOCHLHNGKJKCDBJHA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'NINHNEBACCHHCFOLIOHAHHFLOEFKLJKJLHKDNOJOKGKDAFGOEMNLDFMKHNCPHHKAJDEBFELPAAAMHOIIACNAJGGKAADDLBNPIDLLAEGLKFOLKECOCBAEFMLAEAPLHKMF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

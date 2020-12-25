@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Account Recovery</title>
+
+<script type="text/javascript">document.domain = "ryerson.ca";</script>
+
+<script type="text/javascript"
+	src="/selfserv/resources/libraries/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="/selfserv/resources/libraries/jquery-ui/1.11.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="/selfserv/resources/libraries/jquery-ui/1.11.4/jquery-ui.min.css">
+
+<link rel="stylesheet" type="text/css" href="/selfserv/resources/css/base.css">
+<link rel="stylesheet" type="text/css" href="/selfserv/resources/css/singleAppLayout.css">
+			
+
+
+<meta charset="UTF-8">
+</head>
+<body id="casAccountRecovery">
+	<div class="CASPage">
+		<div class="loginWrapper">
+			<div class="loginContents">
+				<div role="banner">
+					<img alt="Ryerson University" src="/selfserv/resources/images/ryerson_logo.svg" style="height:110px; width:320px">
+				</div>
+				<div id="content" tabindex="0">
+					
+					<h1 role="title">Account Recovery</h1>
+					
+					<div id="loginHelp">
+			<h3>To reset your password, please enter your my.ryerson username</h3>
+		</div>
+					
+					<div id="errors">
+						
+						
+						
+						
+						
+					</div>
+				
+					<div class="clearfix loginBody">
+			<form id="userAccountRecoveryIdentify" action="/selfserv/passwordReset" method="POST">
+				<input type="hidden" name="execution" value="e1s1" />
+				<div class="loginForm">
+					<div class="form-row">
+						
+						<label for="myRyersonUsername" class="formLabel">my.ryerson username</label>
+						<input id="myRyersonUsername" name="myRyersonUsername" tabindex="1" data-prompt-position="topRight" placeholder="my.ryerson username" autofocus="autofocus" type="text" value="" size="25" maxlength="30" autocomplete="false"/>
+						
+					</div>
+				</div>
+
+				<div class="form-row">
+					<div class="button">
+						<input type="submit" id="identifyUserState" name="_eventId_next"
+							class="accountRcoveryButton" accesskey="l" tabindex="4"
+							value="Next" />
+					</div>
+				</div>
+			<div>
+<input type="hidden" name="_csrf" value="2dd874a7-5651-4f83-97b8-8285cbd32ed1" />
+</div></form>
+		</div>
+				</div>
+				
+				<div class="alertMessage">
+					<div>
+						
+						If you have any questions or experience any problems with the password reset process, please use our <a href="/selfserv/problem?problemType=3" target="_blank">RMS Problem Form</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

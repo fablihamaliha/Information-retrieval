@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" name="viewport" />
+<link rel="shortcut icon" href="/xmlui/themes/Mirage-fcsktp/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/xmlui/themes/Mirage-fcsktp/images/apple-touch-icon.png" />
+<meta name="Generator" content="DSpace 3.0" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/reset.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/base.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/helper.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/jquery-ui-1.8.15.custom.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/style.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/authority-control.css" />
+<link type="text/css" rel="stylesheet" media="handheld" href="/xmlui/themes/Mirage-fcsktp/lib/css/handheld.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/xmlui/themes/Mirage-fcsktp/lib/css/print.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/xmlui/themes/Mirage-fcsktp/lib/css/media.css" />
+<link type="application/rss+xml" rel="alternate" href="/xmlui/feed/rss_1.0/site" />
+<link type="application/rss+xml" rel="alternate" href="/xmlui/feed/rss_2.0/site" />
+<link type="application/atom+xml" rel="alternate" href="/xmlui/feed/atom_1.0/site" />
+<link type="application/opensearchdescription+xml" rel="search" href="http://fcsktp.ryerson.ca:80/xmlui/open-search/description.xml" title="DSpace" />
+<script type="text/javascript">
+                                //Clear default text of empty text areas on focus
+                                function tFocus(element)
+                                {
+                                        if (element.value == ' '){element.value='';}
+                                }
+                                //Clear default text of empty text areas on submit
+                                function tSubmit(form)
+                                {
+                                        var defaultedElements = document.getElementsByTagName("textarea");
+                                        for (var i=0; i != defaultedElements.length; i++){
+                                                if (defaultedElements[i].value == ' '){
+                                                        defaultedElements[i].value='';}}
+                                }
+                                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                                function disableEnterKey(e)
+                                {
+                                     var key;
+
+                                     if(window.event)
+                                          key = window.event.keyCode;     //Internet Explorer
+                                     else
+                                          key = e.which;     //Firefox and Netscape
+
+                                     if(key == 13)  //if "Enter" pressed, then disable!
+                                          return false;
+                                     else
+                                          return true;
+                                }
+
+                                function FnArray()
+                                {
+                                    this.funcs = new Array;
+                                }
+
+                                FnArray.prototype.add = function(f)
+                                {
+                                    if( typeof f!= "function" )
+                                    {
+                                        f = new Function(f);
+                                    }
+                                    this.funcs[this.funcs.length] = f;
+                                };
+
+                                FnArray.prototype.execute = function()
+                                {
+                                    for( var i=0; i < this.funcs.length; i++ )
+                                    {
+                                        this.funcs[i]();
+                                    }
+                                };
+
+                                var runAfterJSImports = new FnArray();
+            </script>
+<script xmlns:i18n="http://apache.org/cocoon/i18n/2.1" type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/modernizr-1.7.min.js"> </script>
+<title>FCS Research Insights | Home </title>
+<script xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" type="text/javascript">var switchTo5x=true;</script>
+<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript" />
+<script type="text/javascript">
+        stLight.options({
+                publisher:"ceb530f0-aa12-4f16-94f2-5b6a4d5feea6",
+                tracking:'google',
+                onhover: false
+        });
+</script>
+</head><!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+                <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+                <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+                <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+                <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<div id="ds-main">
+<div id="ds-header-wrapper">
+<div class="clearfix" id="ds-header">
+<a id="ds-header-logo-link" href="/xmlui/">
+<img src="https://fcsktp.ryerson.ca/xmlui/themes/Mirage-fcsktp/images/fcsktp/headerNew_v3.jpg" alt="Research Insights, from the Faculty of Community Services at Ryerson University" />
+</a>
+<h1 class="pagetitle visuallyhidden">FCS Research Insights | Home </h1>
+<h2 xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="static-pagetitle visuallyhidden">DSpace/Manakin Repository</h2>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="ds-user-box">
+<p>
+<a href="/xmlui/login">Login</a>
+</p>
+</div>
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="ds-trail-wrapper">
+<ul id="ds-trail">
+<li class="ds-trail-link first-link last-link">FCS Research Insights | Home </li>
+</ul>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div id="ds-content-wrapper">
+<div class="clearfix" id="ds-content">
+
+<div id="ds-body">
+<h1 class="ds-div-head">Welcome to Research Insights</h1>
+<div id="file_news_div_news" class="ds-static-div primary">
+<p class="ds-paragraph">It is widely recognized that the research and knowledge created within university settings should be packaged and disseminated in ways that benefit end users who need accessible and timely evidence. Translating and integrating research evidence into programs and policies are essential when making informed decisions that affect the health and well-being of society.</p>
+<p class="ds-paragraph">The Faculty of Community Services (FCS) is focused on highlighting the research work and collaborations that FCS faculty have with other researchers internal and external to the Ryerson community. FCS Research Insights presents plain language summaries of our faculty’s Research, as well as, practice and policy Insights so that key decision makers such as policymakers, community and health services providers, community groups and individuals can make evidence-informed decisions.</p>
+<p class="ds-paragraph">Please visit the <a href="https://fcsktp.ryerson.ca/xmlui/page/about">About page</a> if you are interested in contributing to Ryerson's Faculty of Community Services’ collection of accessible research, or contact <a href="mailto:fcsdean@ryerson.ca">fcsdean@ryerson.ca</a>.</p>
+</div>
+<h1 class="ds-div-head">Search Research Insights</h1>
+<form xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_discovery_SiteViewer_div_front-page-search" class="ds-interactive-div primary" action="/xmlui/discover" method="get" onsubmit="javascript:tSubmit(this);">
+<p class="ds-paragraph">Enter some text in the box below to search Research Insights.</p>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-paragraph">
+<input id="aspect_discovery_SiteViewer_field_query" class="ds-text-field" name="query" type="text" value="" />
+<input xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="aspect_discovery_SiteViewer_field_submit" class="ds-button-field" name="submit" type="submit" value="Go" />
+</p>
+</form>
+<div id="aspect_discovery_SiteRecentSubmissions_div_site-home" class="ds-static-div primary repository">
+<h1 class="ds-div-head">Recently Added</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_discovery_SiteRecentSubmissions_div_site-recent-submission" class="ds-static-div secondary recent-submission">
+<ul xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="ds-artifact-list">
+<!-- External Metadata URL: cocoon://metadata/handle/123456789/287/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item odd">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/xmlui/handle/123456789/287">The choral singer’s experience of music performance anxiety</a>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Ryan%2C+C.%2C+%26+Andrews%2C+N.+%282009%29.+An+investigation+into+the+choral+singer%E2%80%99s+experience+of+music+performance+anxiety.+Journal+of+Research+in+Music+Education%2C+57%282%29%2C+108-126.&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F123456789%2F287&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author">
+<span>Ryan, Charlene</span>
+</span> <span class="publisher-date">(<span class="date">2009</span>)</span>
+</div>
+<div class="artifact-key-message">Performance anxiety is a common experience for choral singers.  The conductor plays an important role in relation to the choral singer’s experience of performance anxiety.</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/123456789/286/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item even">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/xmlui/handle/123456789/286">Interprofessional operating room safety cultures</a>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Ziman%2C+R.%2C+Espin%2C+S.%2C+Grant%2C+R.+E.%2C+%26+Kittto%2C+S.+%282018%29.+Looking+beyond+the+checklist%3A+An+ethnography+of+interprofessional+operating+room+safety+cultures.+Journal+of+Interprofessional+Care%2C+32+%282%29%2C+575-583.&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F123456789%2F286&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author">
+<span>Ziman, Roxanne</span>; <span>Espin, Sherry</span>
+</span> <span class="publisher-date">(<span class="date">2018</span>)</span>
+</div>
+<div class="artifact-key-message">Interprofessional operating room teams’ engagement with the Surgical Safety Checklist (SSC) was influenced by how important the members found individual items on the checklist.</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/123456789/285/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item odd">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/xmlui/handle/123456789/285">Women's experiences of intimate relationships while living with irritable bowel syndrome</a>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Nguyen%2C+M.%2C+Malone%2C+M.M.%2C+Bailey%2C+A.%2C+%26+Lapum%2C+J.+%282018%29.+Women%27s+experiences+of+intimate+relationships+while+living+with+irritable+bowel+syndrome.+Gastroenterology+Nursing.+41%286%29%2C+516%E2%80%93524.&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F123456789%2F285&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author">
+<span>Nguyen, Megan</span>; <span>Malone, Margaret</span>; <span>Bailey, Annette</span>; <span>Lapum, Jennifer</span>
+</span> <span class="publisher-date">(<span class="date">2018</span>)</span>
+</div>
+<div class="artifact-key-message">Women living with irritable bowel syndrome shared that the disorder impacted their emotions, perceptions about their bodies, and interpersonal aspects in their intimate relationships.</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="ds-options-wrapper">
+<div id="ds-options">
+<h1 class="ds-option-set-head" id="ds-search-option-head">Search Research Insights</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-option-set" id="ds-search-option">
+<form method="post" id="ds-search-form" action="/xmlui/discover">
+<fieldset>
+<input type="text" class="ds-text-field " name="query" />
+<input xmlns:i18n="http://apache.org/cocoon/i18n/2.1" value="Go" type="submit" name="submit" class="ds-button-field " onclick="&#10;                                        var radio = document.getElementById(&quot;ds-search-form-scope-container&quot;);&#10;                                        if (radio != undefined &amp;&amp; radio.checked)&#10;                                        {&#10;                                        var form = document.getElementById(&quot;ds-search-form&quot;);&#10;                                        form.action=&#10;                                    &quot;/xmlui/handle/&quot; + radio.value + &quot;/discover&quot; ; &#10;                                        }&#10;                                    " />
+</fieldset>
+</form>
+<a href="/xmlui/discover">Advanced Search</a>
+</div>
+<h1 xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-option-set-head">Browse</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+<ul class="ds-options-list">
+<li>
+<h2 class="ds-sublist-head">All of Research Insights by</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="/xmlui/browse?type=dateissued">Issue Date</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=author">Ryerson Researchers</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=title">Titles</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=subject">Subjects</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-option-set-head">Discover</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_discovery_Navigation_list_discovery" class="ds-option-set">
+<ul class="ds-options-list">
+<li>
+<h2 class="ds-sublist-head">Author</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Lapum%2C+Jennifer">Lapum, Jennifer (19)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Fredericks%2C+Suzanne">Fredericks, Suzanne (17)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Zanchetta%2C+Margareth">Zanchetta, Margareth (17)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Guruge%2C+Sepali">Guruge, Sepali (14)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=George%2C+Usha">George, Usha (13)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Wong%2C+Josephine+Pui-Hing">Wong, Josephine Pui-Hing (12)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Chaze%2C+Ferzana">Chaze, Ferzana (11)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Espin%2C+Sherry">Espin, Sherry (9)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Berman%2C+Rachel">Berman, Rachel (8)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Gucciardi%2C+Enza">Gucciardi, Enza (8)</a>
+</li>
+<li>
+<a href="/xmlui/search-filter?field=author">... View More</a>
+</li>
+</ul>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<h2 class="ds-sublist-head">Subject</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Health">Health (32)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Immigrants+%26+Refugees">Immigrants &amp; Refugees (26)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Women">Women (18)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Nursing">Nursing (16)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Hospitals">Hospitals (13)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Heart+surgery">Heart surgery (11)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Diabetes">Diabetes (7)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Children">Children (6)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Patients">Patients (6)</a>
+</li>
+<li>
+<a href="/xmlui/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Anti-oppression">Anti-oppression (5)</a>
+</li>
+<li>
+<a href="/xmlui/search-filter?field=subject">... View More</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="ds-footer-wrapper">
+<div id="ds-footer">
+<div id="ds-footer-left">
+<div id="ds-footer-left-contentCC">
+                	Content: © <a target="_blank" href="http://www.ryerson.ca/fcs">Faculty of Community Services</a> at <a target="_blank" href="http://www.ryerson.ca">Ryerson University.</a>
+<br />
+</div>
+<div id="ds-footer-left-softwareCC">
+                    Software: © <a target="_blank" href="http://www.dspace.org">DSpace</a> by <a target="_blank" href="http://www.duraspace.org/">Duraspace</a>
+</div>
+<div id="ds-footer-left-source"> 
+                    Source: <a href="http://fcsktp.ryerson.ca">Research Insights</a>
+</div>
+</div>
+<div id="ds-footer-right">
+<span class="theme-by">Based on a theme by </span>
+<a id="ds-footer-logo-link" href="http://atmire.com" target="_blank" title="@mire NV">
+<span id="ds-footer-logo"> </span>
+</a>
+</div>
+<div id="ds-footer-links">
+<a href="https://fcsktp.ryerson.ca/xmlui/">Home
+                    </a> | <a href="https://fcsktp.ryerson.ca/xmlui/page/about">About
+                    </a> | <a href="/xmlui/feedback">
+                        Feedback
+                    </a> | <a href="/xmlui/login">Login</a>
+</div>
+<a xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="hidden" href="/xmlui/htmlmap"> </a>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"> </script>
+<script type="text/javascript">!window.jQuery && document.write('<script type="text/javascript" src="/xmlui/static/js/jquery-1.6.2.min.js"> <\/script>')</script>
+<script type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/jquery-ui-1.8.15.custom.min.js"> </script><!--[if lt IE 7 ]>
+<script type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/DD_belatedPNG_0.0.8a.js?v=1"> </script>
+<script type="text/javascript">DD_belatedPNG.fix('#ds-header-logo');DD_belatedPNG.fix('#ds-footer-logo');$.each($('img[src$=png]'), function() {DD_belatedPNG.fixPng(this);});</script><![endif]-->
+<script type="text/javascript">
+            runAfterJSImports.execute();
+        </script>
+<script type="text/javascript">
+                   var _gaq = _gaq || [];
+                   _gaq.push(['_setAccount', 'UA-43806109-1']);
+                   _gaq.push(['_trackPageview']);
+
+                   (function() {
+                       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+           </script></body></html>

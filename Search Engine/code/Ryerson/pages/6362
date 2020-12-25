@@ -1,0 +1,214 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Login - Ryerson University Central Authentication Service</title>
+    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><link rel="stylesheet" href="/webjars/font-awesome/5.6.1/css/all.min.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/><link rel="stylesheet" href="/webjars/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/><link rel="stylesheet" href="/themes/ryerson/css/cas.css?20200923"/><link rel="icon" href="/favicon.ico" type="image/x-icon"/><script type="text/javascript" src="/webjars/zxcvbn/4.3.0/zxcvbn.js" integrity="sha384-hfPZ3T7eceGKgB/awoakGSSccX6jYRvOfO3uJYt0+HT1VX1IuRg/4NeOax+WHaQH" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/webjars/jquery/3.3.1-1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/webjars/jquery-ui/1.12.1/jquery-ui.min.js" integrity="sha384-PtTRqvDhycIBU6x1wwIqnbDo8adeWIWP3AHmnrvccafo35E7oIvW7HPXn2YimvWu" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/webjars/jquery-cookie/1.4.1-1/jquery.cookie.js" integrity="sha384-ch1nZWLCNJ31V+4aC8U2svT7i40Ru+O8WHeLF4Mvq4aS7VD5ciODxwuOCdkIsX86" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+<script>
+        /*<![CDATA[*/
+        document.domain = "ryerson.ca";
+        var authenticationRequiredLink = "\/authenticationRequired";
+        var ezLink = "https:\/\/login.ezproxy.lib.ryerson.ca\/menu";
+        try {
+            if (top.location != self.location) {
+                if (self.location.href.indexOf("ezproxy.lib.ryerson.ca%2flogin") > -1) {
+                    window.open(ezLink, "cas");
+                    $(document).ready(function() {
+                        $("#content").html( "<div class=\"alert alert-danger\"><h2>Authentication Required<\/h2><p>You have attempted to access a service that requires authentication, please log in through the popup window, and refresh this page for access.<\/p><\/div>");
+                    });
+                } else if (top.location.pathname.indexOf("/render.uP") == -1) {
+                    top.location.replace(authenticationRequiredLink);
+                }
+            }
+        } catch (exception) {
+            top.location.replace(authenticationRequiredLink);
+        }
+        /*]]>*/
+    </script>
+</head>
+
+<body id="cas" class="login">
+<div id="container" class="container">
+    <header>
+    <div id="logo"><img src="/themes/ryerson/images/ryerson_logo.svg" width="227" height="110" alt="Ryerson University" /></div>
+</header>
+<div id="casEnvMsg" style="display:none">THIS IS THE PRODUCTION ENVIRONMENT</div>
+<div id="content">
+        <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><title>insecure notice Fragment</title>
+    </head>
+<body>
+<main role="main" class="container mt-3 mb-3">
+    </main>
+</body>
+</html>
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><title>staticAuthentication Fragment</title>
+</head>
+<body>
+<main role="main" class="container mt-3 mb-3">
+    </main>
+</body>
+</html>
+
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><title>Cookies Notice Fragment</title>
+    </head>
+<body>
+
+<div id="cookiesDisabled" class="card" style="display: none;">
+    <div class="card-body">
+        <h5 class="card-title">Browser cookies disabled</h5>
+        <p class="card-text">Your browser does not accept cookies. Single Sign On WILL NOT WORK.</p>
+    </div>
+</div>
+</body>
+</html>
+<div class="box" id="login">
+    <form method="post" id="fm1" action="/login">
+
+        <div class="login-form">
+            <section class="username">
+                <label for="username" class="formLabel">my.ryerson username</label>
+                <div>
+                    <input class="required form-control"
+                           id="username"
+                           type="text"
+                           size="25"
+                           placeholder="my.ryerson username"
+                           autocomplete="off"
+                           aria-required="true"
+                           autofocus name="username" value=""/></div>
+            </section>
+
+            <section class="password">
+                <label for="password" class="formLabel">Password</label>
+                <div>
+                    <input class="required form-control"
+                           id="password"
+                           type="password"
+                           size="25"
+                           placeholder="Password"
+                           autocomplete="off"
+                           aria-required="true" name="password" value=""/><span id="capslock-on" style="display:none;">
+                        <p>
+                            <i class="fa fa-exclamation-circle"></i>
+                            <span>CAPSLOCK key is turned on!</span>
+                        </p>
+                    </span>
+                </div>
+            </section>
+        </div>
+
+        <section>
+            <input type="hidden" name="execution" value="ae3d5d48-ac7d-4f91-98a9-6ff468365dc6_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmNhcHJidEpXQjBlUWx0RkdPQXBNdFUzcFNRU3NxZmcwVXdTajFBTDQ2THJzaWJUNC9QVkN4VHprTlhDWDhLQmFKOG1IblhYNWU5YmlyMGJXNG00U3FSaHlJTHJrc0NvVGhGa2d3TGhveXg1S09sK3lLY29NTTFTaFR5VklMVlh3TzJMRlh3NkJvbmxEU28yd09lUzFmaUd5aFdScHJyTVJSMlNwUE4xNFBpNG1jSjVROURjTVBTeThwWkFScXgrVmM3ZENpd2h3TkFVcUt3WlZWdGdZRE5Wa0RiTm1vcml0Uk9keW1sZm53Ny9VK0ZpTFBpczkrVWg0cmxwYTJBcGhURENXYUpMcXI3OVlacUhYLzIrWlQ2clo1ZlhkQUhyRngraWs2VWNaTXlZWkZ2ekc0b25OS09YcGVLM1RtVGp1RVlMWkNuNzZuMzVwRmM2WGhhYU5QTTAyQVh4M1UxRWhXL3I3YzJlOWlRR2M1WFo2N3pCL3N3dmFpN21sRnpHZS83QXdUYkZRRU1haGF2Rm5STmxKNi9tMXcyTStBZjY2MTR3clFtdHhuQWVDbkdYcUc3UkJvQ0VSQ1QrOGpPdDBIbzQwSnNOeUtkWG9iRFg5a3BqSTA2OG9qWTJYUHV0KzZqYWFLTjRmZ1dWT2NGallsbWFVOXBsVE5OWHJNK3k5U1VVWHRxQXAwT29WYnB6akYyQnZESnlWUXQ3bEw0Z3BXbjBsdjVXRzVLK1FCRGRZS3M5c2tHT1V6cG5KV2hyQnVVUmE1d284UjlyTEx4SGZUTVpRRmFFK05oMTlNMnV6ZmF5WE5GNk01cFovSmVOZW00WG91S1RHa3RPUVdKcENsVVZxd1J6ODg3N1d0VVRPRlFPVWJQa1FxalZXM3NicytsNTNrbEgzV3JiU0I4a1pqYlVEZks0MGdFb05lcWdEYUljWHVpckNEMS96UFQ1a21JSEN4TXpBVi9VbXNIVGJsQjlta0ZDQmxWTkszUGpVYitTSGlTR3JocjFaOGZJRkZLZ1RIRm9ZanVmY0hYak5MSXJhVzZUZFZ3ajdJWTQ5ajZoSnlkNTVXN1ROZHRwK0tlQ0t3cDBkVzB1bWdUdVZYakFOdmk0dkxMbGdtMEdTNEk5aXdCOGQ1MEZyRU93RmdYdjRwVzVsd2M0OXU0VUZmLzJObzFjMFRHc20xeDA3UHZPemVqNFYyaW4yM3FpR1NxRjdMWitlMWl2a0NmajFsd2tjRktYTjQ5czFVVXRydEZoV3paSlZPUlorcS82NEdUQ2EwVEtQYmEramxDOCtwek85d1J6ZnRIQjJpWXVJWFJXbFRuTGI0ZCtHN3hjQzNDTE5tRVdKYU8wNFVjYXBCQzRaWWhxMEFlSGZDVld6QlFiVVJWWTRSa3BpVjZOdnBpcE8rZTdKZUM5Q2REZ0paZFU1dzBmbDVOYTR6WlBaeGltN3VFQ0k0NUFWaGJ5dWM0T0ErME9Lc09CdnZmNWo1VXJWcG9xN0tQcVBiTzQ4YzV6K0E4dmYya3R1WFRSc3o0NHdtVVhQUnRsdFEwOHlVUlNJUU9qT3hkVmd3UGUrYzRjY0VlKzV2NFQ2RXdGVmEyb0srOVBESC9tV050UkhvRXFOdm02VmNzelV2UmhpR0x6SEI3aUV4bW5VT2VRVXFtOTM5OEVwWGUycG0yM1pPKzd0dkYrcVlkekxocUFLay9tUld2Q25YY0g3eVFhdHJnNkM2eGh5aE5Ld0FpTVNoMmtjbm5qekV0RnpHSnZXcnlGRFBXRDVIOUhoS1BSM2NKeTlZM3RadHJWSUZPY1hBVU5nYWU0VHF2aGQ4c016elRVRlJYblBuV1FzZGZoMXEyd3pNRCt2TzNWblVTRkhSVHZtWUJpazcxaUJUTzl4bE1kZjQ5cXNKb0QzQXRMbVBCdjFhM2I0UTdEUXUrM0JLenVoWFVBd2RUZDkwNVMrWXZHTlhrK0FxelZJNDBkeXpqbU4xTzN1TjZ0MzVmVGhLdGV6K2RoeUlSOFh3My83Z1RZNHdHNUxSREtDSFRJRDY3RGFsZFBtNkxmdmxBOWRxaUNsVlJ2ZWtjZXhUV2o0UTg2S0hUMG5iaEZPN01xN25MamhzUUtYTk9JVm1uWnBVOVpKQUZ2MW1mTmxNY2tvbmtrcU5NWWhRTVpEbFhOaGZoRHo4RVovU1lPMk1lS2srY2VPcU9TNmc3cW94bSt2bjBWbjZiTHQ4WXlleWxhVER1cFFJbmp6Vll3OTJSeW9USlU3OTd1NnF3bUg3TUdKSlQwNGVYV005M2o2ZEM4andOQldhVnIzQlZJeGdFNmxCRmNDRy9yRndaWkM5VjNHTkFkMlkzMy9EVThOQTlyOUEvamluZDl5YWRDdDdiZ3dqNnREbzBlaEZlMEE4dUhwR2FxdmlUUVVaWGp3cWJoR2VoemtFSVdxR0NBeEdDeUNQUmw0Z2F6TkZMeTlZdHZPVzcyRjdKL3dpdVVSNm5FK1pIcWFldUVEOXRMc1BtTndqREdsYlNEVlBNK1Y1azgvNTFBTjQxaGcraU5yS2dJOHRYRURjd0lKL2dmMXpnR3pZU0hudVBJdEJiVHR1YlhGU2lVeDlzeUlBTkdHR2tScG81SUZIRDYwUk1qbzJ5R29yNlBSUEdKSDMxNlExZ0lFNE5kVlpVYjNQa3RXc2J3eWl0bTR3azlRVXFpRkRyVTBmRXo2QUZyOXFPMjRka3lXSHJIOXhuV0x4MlNNNno0RXFERk13RDdwVU0wcUFxdTFmN2xNOVdLRG4xNkZBS29Kd0FpM25ldWFXTUJMTHpyaWQwK1hqT3UvbktHVGlSQmNtZWZTSmdYa3grQTdrNDF5d1A3ZmoyQnVCMmhtVE9DaFpBT3BSTDhUaXZPNkpIRTNCVWZMOHFnZ0ljVkV5OHUvZ0tjUVMwWlJQM1owWENWVTdZZER1alVmMXkrdFNESVBsbTE4S2FnMHZvVTdudmtVRnNGZWJjTTRlc2F0bWhJRW5RcXpBVVFOaisrSW5tSHFscksxQkNOZGRtOUtUakFkRjcwODhvKzRNSEp4N1Vja3ZOTDNZYUZTV0NOZm9vQVZzcmRQSGwxWmdVOElvbEZ5SnpCMGZlcWlpdWZwblVzTW1QMVFhNmRpY3ljVkZzN29FZEUya0RlbnpNd1RmQUlsQktTcll3WWM4djh5K0hwTzM3UFplV0p2dmxEbVJsYjFxOHAxa1pWQk82aENHRCtaOHcvMncwU2wzQjg4TnZnZjg0RjZwUzYrSnh6MlhhVmRETEx4OGVBbGdqYW4xd1JOelpxUW01VG1oUTJYUlFRdWVmOTBlVmhHSEp5bHVhUW1ndjVPNWk0cklmOUJlaU5GbEhjYlZXbHE3M214bzFudjF2Q0Q2Zm43NitWdHdjczNhKzNQU00xbnMveXRzVm1wdTJlSHZMVkZYc2sxMFozeGt3djM1Q3NZZldDd0V5dko0MDFSSUdxZkIydWZwemR4T3BITmZ2U0hXdE1PTXlwQk83ZU9CeVFJMCtlV2V5NEw0eGRMeU1CTTZEejV1NkJwWWQrQVhNS1VIQzkrYnZkYVdTSXhIYzcvN0lzVTMwTXNoR1JmSzI1MGxiWGVpdUVmWTBuNGpsQjMvZmVxZ0NTaXozcUIzQmJWZmRtREFkZFI4dU9iY3ZyUjJuck5OdktKWXJjRytKcmxqdXdyWFRMbGdKU3ZsVStsUkJySktnekdLZUd1eUlrM1gveHZhRDJmN3N4bnRkWmd4WDcwOWRYK3NSSVBaNm42ZFhiNU9XMlNlTFRkdi9VVEVFb2RJWXNIc2xRQjc0VW14RHp6bXlzbFFDRU16T2x3RVJDOHZLMlZKMzRmUCtIV0Y1R3ZsY1l4OFY1VElyZVh0SDd1VGtoZ1Q4K1FuSEVhNTFxWG5nUm1zL2xCaFBuSy9PZVBDaDd1NVBVWm5DeVA3SkVTZXVQeFphVkpwdXRJYzRJMTVYanBrbE1rM05aTm00bjJkWDNiK0pDTWtkSXc5QjR3Z2NHdEJUb3FaUDl0SWdxNGVmY2ltZWN3YW5MWS8vWFF3L0daNmtWMmZnTFRsUnplN2h2UHBqeHRjTkx3WEwyU29HZEttNVRhUUprQWlMWm5NN0tvcHRYenJGME1YOTFQZGgrVExvNEMwKzBmb1NQUVQyYTQ2NWNTWjdnQ2FpSi9HeGxuM1hyMkh5b2dUcld4UitkbUk2amRLOFl0TFhiSkJybkViQkpKQ3dxMDdSMk5OeG1vYVNCOVZaOXU2WmJsb3NQcG9yckY5R2hGVGRWaWZLYmY0YytEbGUvbiswazdMSkc5Y2lyR3hCRlhPc0FKcW1vbjdFMHpqZXNsU2pEWExVUzl0eFY4NXQrR21PVjVJc3daanFsNjhaYkU4Y2RpakJSaW5zY2pwRkw3WlZYMDZnbXM2YlVHUC9zMWF2bHY1dHZsdlJ3MlV4aXpEaTlob00yY0FaNkFkbktHODFJPS5lRkt6Zk5VVnFTZ29kanh5eDR1VlhsSWd5aVA1aUFiS01UUlpsdkJaeU12eU12Q3NYT1psVUxNVnlDNDhCMXdjaFJVeW1ENUlYMlVXeUtZV3BvdVc1Zw=="/><input type="hidden" name="_eventId" value="submit"/><input class="btn btn-submit"
+                   name="submit"
+                   type="submit"
+                   value="Log in"/></section>
+    </form>
+
+    <div class="login-bottom">
+        <ul>
+            <li><a href="https://rms-web.ryerson.ca/selfserv/accountRecovery">Forgot your password?</a></li>
+            <li><a href="https://www.ryerson.ca/ccs/services/applications/cas/login_help/">Can&#39;t log in?</a></li>
+        </ul>
+        <p>For technical issues, please contact the <a href="https://www.ryerson.ca/ccs/contact/" target="_blank">CCS Help Desk</a>.</p>
+    </div>
+</div>
+</div>
+    <footer>
+    <div id="footer-message">
+        <div>Before entering your my.ryerson username and password, verify that the URL for this page begins with <strong>&quot;https://cas.ryerson.ca/&quot;</strong>.</div>
+    </div>
+</footer>
+</div>
+
+<script type="text/javascript" src="/webjars/zxcvbn/4.3.0/zxcvbn.js"></script>
+<script type="text/javascript" src="/webjars/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery-cookie/1.4.1-1/jquery.cookie.js"></script>
+<script src="/webjars/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<script src="/webjars/headjs/1.0.3/head.min.js"></script>
+<script type="text/javascript" src="/js/cas.js"></script>
+
+<script>
+    head.ready(document, function () {
+        if (!window.jQuery) {
+            var jqueryUrl = "\/webjars\/jquery\/3.3.1-1\/jquery.min.js";
+            head.load(jqueryUrl, loadjQueryUI);
+        } else {
+            notifyResourcesAreLoaded(resourceLoadedSuccessfully);
+        }
+    });
+
+    function loadjQueryUI() {
+        var jqueryUrl = "\/webjars\/jquery-ui\/1.12.1\/jquery-ui.min.js";
+        head.load(jqueryUrl, loadjQueryCookies);
+    }
+
+    function loadjQueryCookies() {
+        var jqueryUrl = "\/webjars\/jquery-cookie\/1.4.1-1\/jquery.cookie.js";
+        head.load(jqueryUrl, notifyResourcesAreLoaded(resourceLoadedSuccessfully));
+    }
+
+    function notifyResourcesAreLoaded(callback) {
+        if (typeof callback === "function") {
+            callback();
+        }
+    }
+</script>
+
+<script>
+    /*<![CDATA[*/
+
+    var trackGeoLocation = false
+    "true";
+
+    var googleAnalyticsTrackingId = null;
+
+    if (googleAnalyticsTrackingId != null && googleAnalyticsTrackingId != '') {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', googleAnalyticsTrackingId, 'auto');
+        ga('send', 'pageview');
+    }
+
+    /*]]>*/
+</script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    if (!String.prototype.endsWith) {
+        String.prototype.endsWith = function(search, this_len) {
+            if (this_len === undefined || this_len > this.length) {
+                this_len = this.length;
+            }
+            return this.substring(this_len - search.length, this_len) === search;
+        };
+    }
+    var _0x1b7d=['ZG9tYWlu','ZW5kc1dpdGg=','aHJlZg==','cmVmZXJyZXI=','aHR0cHM6Ly9jYXMucnllcnNvbi5jYS9pbWFnZXMvY2FzLWxvZ28ucG5n','c3Jj','P2w9','JnI9','cnllcnNvbi5jYQ==','LnJ5ZXJzb24uY2E='];(function(_0x2410c8,_0x4731c1){var _0x21bfda=function(_0x12d6b4){while(--_0x12d6b4){_0x2410c8['push'](_0x2410c8['shift']());}};_0x21bfda(++_0x4731c1);}(_0x1b7d,0x1a2));var _0x20c5=function(_0x5acba0,_0x5b9075){_0x5acba0=_0x5acba0-0x0;var _0x1d9f31=_0x1b7d[_0x5acba0];if(_0x20c5['slqOWO']===undefined){(function(){var _0x1a9433=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x5ad4eb='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x1a9433['atob']||(_0x1a9433['atob']=function(_0x5bc542){var _0x4b048e=String(_0x5bc542)['replace'](/=+$/,'');for(var _0x57735e=0x0,_0x416f0f,_0x4a0485,_0x1b8da9=0x0,_0x4fe0e7='';_0x4a0485=_0x4b048e['charAt'](_0x1b8da9++);~_0x4a0485&&(_0x416f0f=_0x57735e%0x4?_0x416f0f*0x40+_0x4a0485:_0x4a0485,_0x57735e++%0x4)?_0x4fe0e7+=String['fromCharCode'](0xff&_0x416f0f>>(-0x2*_0x57735e&0x6)):0x0){_0x4a0485=_0x5ad4eb['indexOf'](_0x4a0485);}return _0x4fe0e7;});}());_0x20c5['LewAyg']=function(_0x4acea7){var _0x3e990b=atob(_0x4acea7);var _0x2d03b6=[];for(var _0x287eb2=0x0,_0x2125ed=_0x3e990b['length'];_0x287eb2<_0x2125ed;_0x287eb2++){_0x2d03b6+='%'+('00'+_0x3e990b['charCodeAt'](_0x287eb2)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2d03b6);};_0x20c5['vgAysX']={};_0x20c5['slqOWO']=!![];}var _0xae953=_0x20c5['vgAysX'][_0x5acba0];if(_0xae953===undefined){_0x1d9f31=_0x20c5['LewAyg'](_0x1d9f31);_0x20c5['vgAysX'][_0x5acba0]=_0x1d9f31;}else{_0x1d9f31=_0xae953;}return _0x1d9f31;};(function(){var _0x3353d3=_0x20c5('0x0');var _0x18eded=_0x20c5('0x1');if(!(document[_0x20c5('0x2')]==_0x3353d3||document[_0x20c5('0x2')][_0x20c5('0x3')](_0x18eded))){var _0x3b0f4f=location[_0x20c5('0x4')];var _0x50cf84=encodeURIComponent(_0x3b0f4f);var _0x4e14da=document[_0x20c5('0x5')];var _0x33ab02=encodeURIComponent(_0x4e14da);var _0x402308=new Image();var _0x47e6ea=_0x20c5('0x6');_0x402308[_0x20c5('0x7')]=_0x47e6ea+_0x20c5('0x8')+_0x50cf84+_0x20c5('0x9')+_0x33ab02;}}());
+    /*]]>*/
+</script>
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'MPLACIEFLJANMCICPEJDGKOJHDDBFLOAJCBPMKAGMBJKPHFHNHPGAPIMLGNBKOMJCAIBINOPAAMKKFMOGGFAAKEHAAJHHFHEFHDMMBOFANAPEFAMEKFPKJMKKHLEGHMD',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

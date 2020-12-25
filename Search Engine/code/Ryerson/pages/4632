@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>OPR Laboratories</title>
+
+	<!-- Basic Page Needs
+
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<meta charset="utf-8" />
+
+	<meta content="Optimization Research Lab" name="description" />
+
+	<meta content="OPR-Lab" name="" /><!-- Mobile Specific Metas
+
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<meta content="width=device-width, initial-scale=1" name="viewport" /><!-- FONT
+
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+
+  <link href="" rel="stylesheet" type="text/css">-->
+
+	<link href="raleway.css" rel="stylesheet" /><!-- CSS
+
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<link href="normalize.css" rel="stylesheet" />
+
+	<link href="skeleton.css" rel="stylesheet" />
+
+	<link href="custom.css" rel="stylesheet" />
+
+<!-- Javascript
+
+  ------------------------------------------------- -->
+
+<script src="jquery-3.1.1.min.js"></script>
+
+<script src="site.js"></script>
+
+
+
+<script>
+
+var slideIndex = 1;
+
+var divName="nextSlide";
+
+//showDivs(slideIndex);
+
+
+
+function plusDivs(n,val) {
+
+  if ("nextSlide"+val !=divName){
+
+	slideIndex=1;
+
+	divName="nextSlide"+val;
+
+	}
+
+  showDivs(slideIndex += n,val);
+
+}
+
+
+
+function showDivs(n,val) {
+
+  var i;
+
+  var x = document.getElementsByClassName(divName);
+
+  if (n > x.length) {slideIndex = 1}    
+
+  if (n < 1) {slideIndex = x.length}
+
+  for (i = 0; i < x.length; i++) {
+
+     x[i].style.display = "none";  
+
+  }
+
+  x[slideIndex-1].style.display = "block";  
+
+}
+
+</script><script>
+
+    $( document ).ready(function() {
+
+        $('.hide').hide();
+
+    });
+
+
+
+  </script>
+
+
+
+<!-- Favicon
+
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<link href="favicon.png" rel="icon" type="image/png" />
+
+</head>
+
+<span style="display: none">&nbsp;</span><span style="display: none">&nbsp;</span>
+
+<body>
+<div class="navbar-spacer">&nbsp;</div>
+
+<nav class="navbar">
+<div class="container">
+<ul class="navbar-list"><!--<li class="navbar-item">
+
+            <a class="navbar-link" href="#" data-popover="#moreNavPopover">Founder</a>
+
+            <div id="moreNavPopover" class="popover">
+
+              <ul class="popover-list">
+
+                <li class="popover-item">
+
+                  <a class="popover-link" onclick="scroll('lc')">Lab Founder</a>
+
+                </li>
+
+                <li class="popover-item">
+
+                  <a class="popover-link" onclick="scroll('sponsers')">Sponsers</a>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </li> -->
+	<li class="navbar-item"><a class="navbar-link" data-popover="#codeNavPopover" href="#">OPR-AL</a>
+
+	<div class="popover" id="codeNavPopover">
+	<ul class="popover-list">
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('lc')">Founder</a></li>
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('interests')">About Us</a></li>
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('sponsers')">Sponsors</a></li>
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('projects')">Research Projects</a></li>
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('publications')">Publications</a></li>
+	</ul>
+	</div>
+	</li>
+	<li class="navbar-item"><a class="navbar-link" data-popover="#memNavPopover" href="#">Members</a>
+	<div class="popover" id="memNavPopover">
+	<ul class="popover-list">
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('recent')">Current Members</a></li>
+		<li class="popover-item"><a class="popover-link" onclick="tscroll('supervised')">Supervised Students</a></li>
+	</ul>
+	</div>
+	</li>
+	<li class="navbar-item"><a class="navbar-link" onclick="tscroll('contact')">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="heading">
+<div class="container">
+<div class="row" pbzloc="0" style="opacity: 1">
+<div class="one-half column" pbzloc="1">
+<h1 pbzloc="1">OPR-AL</h1>
+
+<h1>Research &amp; Innovation Centre</h1>
+
+<p><b>O</b>ptimization <b>P</b>roblems <b>R</b>esearch and <b>A</b>pplications <b>L</b>aboratory</p>
+</div>
+
+<div class="one-half column"><span style="color: #ff0000"><img src="opr_logo.png" /></span></div>
+
+<div class="one-half column">&nbsp;</div>
+
+<div class="one-half column">&nbsp;</div>
+
+<div class="one-half column"><a onclick="tscroll('lc')" style="cursor: hand">Founded by Dr. Reza Sedaghat</a></div>
+</div>
+
+<div class="row" style="margin-bottom: 1%; opacity: 1">
+<div class="one-half column">
+<ul id="ticker" style="overflow: hidden; height: 23px; width: 577px">
+	<li><span style="font-size: 12px"><span style="color: #ff0000">Open Positions for domestic students: PHD, MASc, MEng (Contact: rsedagha@ryerson.ca)</span></span></li>
+	<li><span style="font-size: 12px"><span style="color: #ff0000">Open Positions for domestic students: PHD, MASc, MEng (Contact: rsedagha@ryerson.ca)</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block">
+<div class="container">
+<div class="row" pbzloc="0">
+<div class="five columns" id="lc" pbzloc="1"><strong><a href="http://www.ee.ryerson.ca/people/Sedaghat.html" target="_blank"><img src="prof.png" /></a></strong>
+
+<p>&nbsp; B.Sc., M.Sc. Kassel, Ph.D. Hannover, P.Eng., SM-IEEE</p>
+
+<ul style="list-style-position: outside; text-align: left; display: inline-block; list-height: 65%">
+	<li onmouseout="changeBack(this)" onmouseover="changeTo(this)">2001- Present Professor, Ryerson University, Department of Electrical and Computer Engineering</li>
+	<li onmouseout="changeBack(this)" onmouseover="changeTo(this)">2000-01 Assistant Professor, Beheshti University, Tehran</li>
+	<li onmouseout="changeBack(this)" onmouseover="changeTo(this)">1998-99 Nokia Research Center, Bochum, Germany</li>
+	<li onmouseout="changeBack(this)" onmouseover="changeTo(this)">1996-99 Bosch Research Center, Stuttgart, Germany</li>
+	<li onmouseout="changeBack(this)" onmouseover="changeTo(this)">1995-98 Research and Teaching, University of Hannover, Germany</li>
+</ul>
+</div>
+
+<div class="six columns">
+<h3>Dr. Reza Sedaghat</h3>
+
+<p style="text-align: justify; text-justify: inter-word">Dr. Reza Sedaghat received his Ph.D. degree in Electrical Engineering from the University of Hannover, Germany. He joined the Department of Electrical and Computer Engineering at Ryerson University, Toronto, Canada in 2001 and was promoted to Professor in 2012. He is the founder, director, and principal investigator (PI) of Optimization Problems Research and Applications Laboratory (OPRAL). OPR-AL was funded in 2003 from Sun Microsystems, Motorola, Canada Foundation for Innovation (CFI), Ontario Innovation Trust (OIT), Natural Sciences and Engineering Research Council of Canada (NSERC), and Ryerson University. His industrial experience includes collaborations in Germany with Nokia Research Center, Robert Bosch GmbH, and Infineon Siemens as well as AMD and Blackberry in Canada. Dr. Sedaghat directs a research group working on radio resource management (RRM) security and radio access &amp; networking (RAN) areas within OPR-AL. His current research interests include cryptanalysis on chip, cross layer design and optimization, attack immunity, combinatorial optimization problem, quadratic assignment problem, and graph algorithms. Dr. Sedaghat is currently serving as a reviewer for ACM Transactions on Design Automation of Electronic Systems, editor and reviewer for Journal of Microelectronics Reliability, Microelectronics Journal, and Science Direct Elsevier.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block">
+<div class="container" id="interests" style="height: 846px; width: 100.2%">
+<div class="row">
+<h1><b>O</b>ptimization <b>P</b>roblems <b>R</b>esearch and <b>A</b>pplications <b>L</b>aboratory</h1>
+</div>
+
+<div class="row">
+<div class="one-third column"><img src="chevron.png" /><img border="0" height="263" src="june.jpg" style="height: 100px; width: 159px" width="241" /></div>
+
+<div class="one-half column">
+<div style="text-align: justify; text-justify: inter-word">OPR-<span class="SpellE">AL is located in the heart of downtown Toronto, Canada. Our </span>major focus is to investigate the theory, implementation, application and development of advanced Optimization approaches in Communication networking and&nbsp;security&nbsp;systems as well as&nbsp;VLSI systems. Our research topics include applied mathematics, the combinatorial optimization problem, the quadratic assignment problem, and graph algorithms, as well as the application of state-of-the-art technology in system synthesis.</div>
+
+<div style="text-align: justify; text-justify: inter-word">&nbsp;</div>
+
+<div style="text-align: justify; text-justify: inter-word">
+<table border="2" cellpadding="1" cellspacing="1" style="height: 310px; width: 466px">
+	<tbody>
+		<tr>
+			<td style="text-align: center">
+			<div><strong><span style="font-size: 24px"><span>4</span></span> </strong><strong>Patents</strong><strong>,<span style="font-size: 24px"> </span></strong></div>
+
+			<div><strong><span style="font-size: 24px">100+</span>&nbsp; </strong><strong>Publications</strong></div>
+			</td>
+			<td style="text-align: center"><strong><span style="font-size: 24px">70+ </span>Graduate Alumni</strong></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<div style="text-align: center">Success stories with high ranking positions at<strong> </strong></div>
+
+			<div style="text-align: center"><span style="font-size: 18px"><strong><span>IMAX, NVIDIA, Blackberry, AMD, Qualcomm, Siemens, Infineon</span></strong></span>,etc.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center"><span style="font-size: 24px"><strong>3</strong></span> OPR-Lab graduated students are <span style="font-size: 20px"><strong>Professors</strong></span></td>
+			<td style="text-align: center"><span style="font-size: 24px"><strong><span>15+ </span></strong></span>Research Assistants</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+&nbsp;
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block">
+<div class="container" id="sponsers">
+<div class="row">
+<h3>Sponsored By:</h3>
+
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="height: 378px; width: 553px">
+	<tbody>
+		<tr>
+			<td><img border="0" height="567" src="CFI1.jpg" style="height: 79px; width: 320px" width="1916" /></td>
+			<td>&nbsp;<img class="sponsers_m" src="nserc.jpg" style="height: 66px; float: left" width="187" /></td>
+		</tr>
+		<tr>
+			<td style="vertical-align: top; text-align: left"><img class="sponsers_m" src="ryerson.png" style="height: 77px" width="179" /><img class="sponsers_s" src="cmc.jpg" style="float: right" /></td>
+			<td><img class="sponsers_m" src="motorola_logo.jpg" style="height: 69px; float: left" width="197" /></td>
+		</tr>
+		<tr>
+			<td style="vertical-align: bottom; white-space: nowrap; text-align: right">
+			<p><span style="font-size: 8px"><img class="sponsers_s" src="mars.png" style="height: 77px; float: right" width="87" />&nbsp;</span></p>
+
+			<p><span style="font-size: 14px"><img class="sponsers_l" src="oit.jpg" style="height: 134px; float: left; left: 1px; top: -48px" width="164" /></span></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td style="vertical-align: top; text-align: center"><img class="sponsers_m" src="sun_micro.png" style="height: 72px" width="183" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block" id="projects">
+<div class="container">
+<div class="row">
+<h1>Research Projects</h1>
+</div>
+
+<div class="row">
+<div class="one-third column"><img src="chevron.png" /><img border="0" height="108" src="bits-small.jpg" style="height: 87px; width: 154px" width="192" /></div>
+
+<div class="eight columns">
+<h3>Communication Systems</h3>
+
+<p>Will be updated</p>
+<button class="button-primary" onclick="pop_slide('comm')">Expand</button>
+
+<div class="hide" id="comm">&lt;<a class="button" onclick="plusDivs(-1,'C')">Back</a> <a class="button" onclick="plusDivs(1,'C')">Next</a>
+
+<div class="nextSlideC" style="display: none"><iframe frameborder="1" height="480" name="body" src="test.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideC" style="display: none"><iframe frameborder="1" height="480" name="body" src="test.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideC" style="display: none"><iframe frameborder="1" height="480" name="body" src="test.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideC" style="display: none"><iframe frameborder="1" height="496" name="body" src="test.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img src="chevron.png" /><img border="0" height="320" src="3D-layout.jpg" style="height: 88px; width: 155px" width="450" /></div>
+
+<div class="eight columns">
+<h3>VLSI</h3>
+
+<p>Click &quot;EXPAND&quot; to learn more!</p>
+<button class="button-primary" onclick="pop_slide('vlsi')">Expand</button>
+
+<div class="hide" id="vlsi"><a class="button" onclick="plusDivs(-1,'V')">Back</a> <a class="button" onclick="plusDivs(1,'V')">Next</a>
+
+<div class="nextSlideV"><iframe frameborder="1" height="480" name="body" src="gp.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideV" style="display: none"><iframe frameborder="1" height="480" name="body" src="lfsr.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideV" style="display: none"><iframe frameborder="1" height="480" name="body" src="graph_force_directed.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideV" style="display: none"><iframe frameborder="1" height="480" name="body" src="graph_fingerprint.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+
+<div class="nextSlideV" style="display: none"><iframe frameborder="1" height="480" name="body" src="adaptive_vlsi.html" width="100%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img src="chevron.png" /><img border="0" height="176" src="biom.jpg" style="height: 91px; width: 151px" width="204" /></div>
+
+<div class="eight columns">
+<h3>Biomedical</h3>
+
+<p>OPR-AL has research interests in biomedical applications.</p>
+<button class="button-primary" onclick="pop_slide('bio')">Expand</button>
+
+<div class="hide" id="bio"><!--<a class="button" onclick="plusDivs(-1,'B')">Back</a>
+
+                <a class="button" onclick="plusDivs(1,'B')">Next</a>
+
+		<div class="nextSlideB"> --><iframe frameborder="1" height="400" name="body" src="robotic_hand.htm" width="100.3%">You can&amp;ampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampampamp#39t see this because your browser does not support iframes.</iframe></div>
+</div>
+</div>
+</div>
+</div>
+
+<div>&nbsp;</div>
+
+<div class="parallax" pbzloc="11">&nbsp;</div>
+
+<div class="info-block">
+<div class="container" id="publications" pbzloc="0">
+<div class="row">
+<h1 id="publications" pbzloc="0">Publications</h1>
+</div>
+
+<div class="row">
+<h3 class="under">Patents</h3>
+</div>
+
+<div class="row" id="doc">
+<div class="two columns"><img class="pub" src="publications.png" /></div>
+
+<div class="ten columns">
+<ul>
+	<li><a href="http://legacy-assignments.uspto.gov/assignments/q?db=pat&amp;reel=026737&amp;frame=0330" target="_blank">System and method for development of a system architecture</a> <strong>Reza Sedaghat</strong>, et al., US Patent, United Sates Patent and Trademark Office (USPTO), US20120303560, <strong>Granted</strong>, 2014.</li>
+	<li><a href="http://brevets-patents.ic.gc.ca/opic-cipo/cpd/eng/patent/2741253/summary.html?query=%28%28Sedaghat%29+%3CIN%3E+INVENTOR%29+%3CAND%3E+%28CA+%3CIN%3E+INVTCOUNTRY%29&amp;start=1&amp;num=50&amp;type=advanced_search" target="_blank">System and method for development of a system architecture</a> <strong>Reza Sedaghat</strong>, et al., Canadian Patent Granted for Canadian Intellectual Property Office (CIPO) CA 2741253, <strong>Granted</strong>, 2014</li>
+	<li><a href="http://legacy-assignments.uspto.gov/assignments/q?db=pat&amp;reel=025977&amp;frame=0040" target="_blank">System and Methodology for Development of System Architecture</a> <strong>Reza Sedaghat</strong>, et al., US Patent, United Sates Patent and Trademark Office (USPTO), US20120159119, US8397204, <strong>Granted</strong>, 2013.</li>
+	<li><a href="http://brevets-patents.ic.gc.ca/opic-cipo/cpd/eng/patent/2726091/summary.html?query=%28%28Sedaghat%29+%3CIN%3E+INVENTOR%29+%3CAND%3E+%28CA+%3CIN%3E+INVTCOUNTRY%29&amp;start=1&amp;num=50&amp;type=advanced_search" target="_blank">System and Methodology for Development of System Architecture</a> <strong>Reza Sedaghat</strong>, et al., Canadian Patent filed for Canadian Intellectual Property Office (CIPO), CA 2726091, <strong>Granted</strong>, 2013</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<h3 class="under" pbzloc="2">Journals</h3>
+</div>
+
+<div class="row">
+<div class="two columns" pbzloc="13"><img class="pub" src="publications.png" /></div>
+
+<div class="ten columns longlist" pbzloc="1">
+<ul>
+	<li pbzloc="17"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes">P. Siddavaatam, <b>Reza Sedaghat</b>, &ldquo;<a href="https://www.sciencedirect.com/science/article/abs/pii/S2210650218303377?utm_campaign=STMJ_75273_AUTH_SERV_PPUB&amp;utm_medium=email&amp;utm_dgroup=Email1Publishing&amp;utm_acid=16025991&amp;SIS_ID=28790&amp;dgcid=STMJ_75273_AUTH_SERV_PPUB&amp;CMX_ID=ECR-28790&amp;utm_in=DM538363&amp;utm_source=AC_30" pbzloc="20" target="_blank">Grey Wolf Optimizer Driven Design Space Exploration: A Novel Framework for Multi-Objective Trade-off in Architectural Synthesis</a>&rdquo;, Elsevier Journal on Swarm and Evolutionary Computation, </span></span></span></span></span></span></span></span><span style="font-family: arial,helvetica,sans-serif">Volume 49, Pages 44-61, 2019</span></li>
+	<li pbzloc="29"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><font pbzloc="46">Noel. </font></span></span><font face="CMBX10" size="2"><font face="CMBX10" pbzloc="5" size="2"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Laiju</span></span>, </font></font><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span pbzloc="3" style="font-family: arial,helvetica,sans-serif">P. Siddavaatam, <strong>Reza Sedaghat</strong>, &quot;</span></span></span></span></span></span>Novel hybrid GWO-WOA and BAT-PSO Algorithms for solving design optimization problems<span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span pbzloc="2" style="font-family: arial,helvetica,sans-serif">&quot;, Springer&nbsp;</span><span style="font-family: arial,helvetica,sans-serif"><font size="+0"><font color="#0066cc" pbzloc="24"> </font></font></span></span></span></span></span><font pbzloc="20" size="+0">Transactions on Computational Science</font><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span pbzloc="26" style="font-family: arial,helvetica,sans-serif">, Accepted,</span></span></span></span></span> <span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span pbzloc="8" style="font-size: 16px"><span pbzloc="25" style="font-family: arial,helvetica,sans-serif">2019 </span></span></span></span></span></span></span></span></li>
+	<li pbzloc="10"><span style="font-family: arial,helvetica,sans-serif"><span pbzloc="10" style="font-size: 16px">P. Siddavaatam, <strong pbzloc="21">Reza Sedaghat</strong>, &quot;</span><span pbzloc="23" style="font-size: 16px"><a href="https://link.springer.com/article/10.1007/s41635-019-00073-x" pbzloc="14" target="_blank">A New Adaptive Security Architecture with Extensible Computation Complexity for Generic Ciphers</a>&quot;</span><span pbzloc="11" style="font-size: 16px"> Springer&nbsp;</span><span style="font-size: 16px"><font pbzloc="7" size="+0">Journal of Hardware and Systems Security</font></span><span pbzloc="5" style="font-size: 16px">,&nbsp;&nbsp;Pages 1-19</span></span><span style="font-family: arial,helvetica,sans-serif"><span pbzloc="32" style="font-size: 16px">, 2019 . </span></span></li>
+	<li pbzloc="14"><span style="font-size: 16px"><span pbzloc="16" style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span pbzloc="7" style="font-family: arial,helvetica,sans-serif">P. Siddavaatam, <strong>Reza Sedaghat</strong>, &quot;</span></span></span></span></span></span><a href="https://www.springerprofessional.de/en/a-delta-diagram-based-synthesis-for-cross-layer-optimization-mod/16127572" pbzloc="17" target="_blank">A Delta-Diagram based Synthesis for Cross layer Optimization Modeling of IoT</a><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span pbzloc="15" style="font-family: arial,helvetica,sans-serif">&quot;, Springer&nbsp;</span><span style="font-family: arial,helvetica,sans-serif"><font size="+0"><font color="#0066cc"> </font></font></span></span></span></span></span><font size="+0">Transactions on Computational Science XXXIII</font><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">, pp. 1-24,</span></span></span></span></span> <span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span lang="EN-US" style="mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold; mso-no-proof: yes"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">2018 </span></span></span></span></span></span></span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">P. Siddavaatam, <strong>Reza Sedaghat,</strong> &ldquo;</span></span><span pbzloc="17" style="font-family: arial,helvetica,sans-serif">A Novel Multi-Objective Optimizer Framework for TDMA-Based Medium Access Control in IoT</span><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">&rdquo;, Springer, </span></span></span><font face="Arial">CSI </font><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><font pbzloc="7" size="+0">Transactions on ICT</font></span><span style="font-family: arial,helvetica,sans-serif"><span pbzloc="17" style="font-size: 16px">,&nbsp;2018 (To Appear)</span></span></span></li>
+	<li pbzloc="24"><span style="font-size: 16px"><span pbzloc="25" style="font-family: arial,helvetica,sans-serif">P. Siddavaatam, <strong>Reza Sedaghat</strong>,&nbsp;&quot;<a href="http://casopisi.junis.ni.ac.rs/index.php/FUElectEnerg/article/view/2763" target="_blank">A Novel Architecture with Scalable Security Having Expandable Computational Complexity for Stream Ciphers</a>&quot;, Journal of Facta Universitatis, Volume 30, No. 4, pp. 459 &ndash; 475, June 2017</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Behnaz Abdoli, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S0923596515001678" target="_blank">Optimized Predictive Zonal Search (OPZS) for block-based motion estimation</a>&quot;, Elsevier Jornal of Signal Processing: Image Communication, Volume 39, pp. 293&ndash;304, 2015.</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S0026271415000608" target="_blank">Swarm Intelligence Driven Design Space Exploration of Optimal k-Cycle Transient Fault Secured Datapath during High Level Synthesis Based on User Power-Delay Budget</a>&rdquo;, International Journal on Microelectronics Reliability, Elsevier,&nbsp;Volume 55, Issue 6, pp. 990&ndash;1004, 2015</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar &ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S0141933112000324" target="_blank">Rapid Exploration of Integrated Scheduling and Module Selection in High Level Synthesis for Application Specific Processor Design</a>&rdquo;, &lsquo;Microprocessors and Microsystems Journal, Elsevier, Volume 36, Issue 4, pp. 303&ndash;314, 2012</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar, &ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S2210650212000405" target="_blank">A Multi Structure Genetic Algorithm for Integrated Design Space Exploration of Scheduling and Allocation in High Level Synthesis for DSP Kernels</a>&rdquo;, Elsevier, Journal of Swarm and Evolutionary Computation, Volume 7, pp. 35&ndash;46, 2012</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Zhipeng Zeng, &ldquo;<a href="http://www.sciencedirect.com/science/article/pii/S0026271410004312" target="_blank">Rapid Design Space Exploration by Hybrid Fuzzy Search Approach for Optimal Architecture determination of Multi Objective Computing Systems</a>&rdquo;, International Journal on Microelectronics Reliability, Elsevier,&nbsp;Volume 51, Issue 2, pp. 502-512, 2011</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Zhipeng Zeng, &ldquo;<a href="../www.sciencedirect.com/science/article/pii/S0141933111000366">Multi objective Efficient Design Space Exploration and Architectural Synthesis of an Application Specific Processor (ASP</a>)&rdquo;, Microprocessors and Microsystems Journal, Elsevier, Volume 35, Issue 4, June 2011, pp. 392-404</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><strong>Reza Sedaghat</strong>, Reza Javaheri, Prabhleen K. Kalkat, Jalal Mohammad Chikhe &ldquo;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V47-51FX0C6-2-T&amp;_cdi=5751&amp;_user=1067369&amp;_pii=S0026271410005330&amp;_origin=search&amp;_coverDate=11%2F13%2F2010&amp;_sk=999999999&amp;view=c&amp;wchp=dGLzVtb-zSkzk&amp;md5=e96faf2bc5d8e74b276ccdacf4c5b068&amp;ie=/sdarticle.pdf">Switch-Level Emulation of Strength-Base Soft Error Detection</a>&rdquo; International Journal of Microelectronics Reliability Elsevier,&nbsp;Volume 51, Issue 3, March 2011, Pages 692-702, 2011</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, Reza Sedaghat, &ldquo;<a href="www.jr.ietejournals.org/article.asp?issn=0377-2063;year=2011;volume=57;issue=2;spage=172;epage=189;aulast=Sengupta">A High Level Synthesis Design Flow from ESL to RTL with multi parametric optimization objective</a>&rdquo;, IETE Journal of Research, Volume 57, Issue 2, 2011, pp. 169-186<small>.</small> </span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Reza Javaheri, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V47-4YRXKP5-1-19&amp;_cdi=5751&amp;_user=1067369&amp;_pii=S0026271410001083&amp;_orig=search&amp;_coverDate=07%2F31%2F2010&amp;_sk=999499992&amp;view=c&amp;wchp=dGLbVlW-zSkWb&amp;md5=6198cdf4e4ac856667c81fd5c040a3eb&amp;ie=/sdarticle.pdf" target="_blank">Strength Violation Effect on Soft-Error Detection in Sub-micron Technology</a>&rdquo; International Journal of Microelectronics Reliability, Science Direct, Elsevier, Volume 50, Issue 7, pp 971-977, 2010</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Zhipeng Zeng, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V47-4Y0CNK2-1-3G&amp;_cdi=5751&amp;_user=1067369&amp;_pii=S0026271409004156&amp;_orig=search&amp;_coverDate=03%2F31%2F2010&amp;_sk=999499996&amp;view=c&amp;wchp=dGLbVzb-zSkzS&amp;md5=b10b4529699cfd92e522fa855ae5e85f&amp;ie=/sdarticle.pdf" target="_blank">A High Level Synthesis design flow with a novel approach for Efficient Design Space Exploration in case of multi parametric optimization objective</a>&rdquo;, International Journal of Microelectronics Reliability, Science Direct, Elsevier, Volume 50, Issue 3,&nbsp;, pp. 424-437, 2010</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><strong>Reza Sedaghat</strong>, Reza Javaheri, Prabhleen K. Kalkat, Jalal Mohammad Chikhe &quot;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V44-50GV732-1-W&amp;_cdi=5748&amp;_user=1067369&amp;_pii=S0026269210001096&amp;_origin=search&amp;_coverDate=10%2F31%2F2010&amp;_sk=999589989&amp;view=c&amp;wchp=dGLzVtb-zSkWb&amp;md5=d2e6fc06277b69136286a99fcf5f74ed&amp;ie=/sdarticle.pdf" target="_blank">Switch-level soft error emulation for SET-induced pulses of variable strengths</a>&quot; Microelectronics Journal Elsevier, Volume 41, Issue 10, pp. 651-661, 2010</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><strong>Reza Sedaghat</strong>, R. Javaheri,&nbsp;&quot;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V47-4V9RHXS-1-R&amp;_cdi=5751&amp;_user=1067369&amp;_orig=search&amp;_coverDate=01%2F06%2F2009&amp;_sk=999999999&amp;view=c&amp;wchp=dGLbVtb-zSkWz&amp;md5=fa2aa744ac1536b222962c7b16fe5f67&amp;ie=/sdarticle.pdf" target="_blank">Multi-valued Logic Mapping of Resistive Short and Open Delay Fault Testing in Deep Sub-Micron Technologies</a>&quot;, International Journal of Microelectronics Reliability, Science Direct, Elsevier, Volume 49, Issue 2, 2009, Pages 178&ndash;185</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">P. Lee, <strong>Reza Sedaghat</strong>, &quot;<a href="http://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6V47-4T2VP65-1-15&amp;_cdi=5751&amp;_user=1067369&amp;_orig=search&amp;_coverDate=10%2F31%2F2008&amp;_sk=999519989&amp;view=c&amp;wchp=dGLbVlW-zSkzV&amp;md5=6b2634fff71a24d745e37adc6c50ddec&amp;ie=/sdarticle.pdf" target="_blank">FPGA-based Switch-level Fault Emulation using Module-based Dynamic Partial Reconfiguration</a>&quot;, International Journal of Microelectronics Reliability, Science Direct, Elsevier, Volume 48, Issue 10, 2008, Pages 1724-1733</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">M. Kunchwar, <strong>Reza Sedaghat</strong>, V. Geurkov, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6V47-4N5CSWV-6&amp;_user=1067369&amp;_coverDate=03%2F01%2F2007&amp;_alid=630334298&amp;_rdoc=1&amp;_fmt=full&amp;_orig=search&amp;_cdi=5751&amp;_sort=d&amp;_docanchor=&amp;view=c&amp;_ct=8&amp;_acct=C000051244&amp;_version=1&amp;_urlVersion=0&amp;_userid=1067369&amp;md5=db2c2172254f2dd131ec45558a8e009f" target="_blank">Dynamic Behavior of Resistive Faults in Nanometer Technology</a>&rdquo;, International Journal of Microelectronics Reliability, Science Direct, Elsevier,Volume 47, Issue 12, 2007, pp. 2141-2146</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><strong>Reza Sedaghat</strong>, M. Kunchwar, R. Abedi, R. Javaheri, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_aset=V-WA-A-W-A-MsSAYVW-UUB-U-AAVVUDBVEC-AAVAZCVWEC-DUUYWVAUY-A-U&amp;_rdoc=1&amp;_fmt=summary&amp;_udi=B6V47-4JCBRSH-1&amp;_coverDate=02%2F28%2F2006&amp;_cdi=5751&amp;_orig=search&amp;_st=13&amp;_sort=d&amp;view=c&amp;_acct=C000050221&amp;_version=1&amp;_urlVersion=0&amp;_userid=10&amp;md5=1d83890eb296bf0af380209bf41a11dc" target="_blank">Transistor-level to Gate-level Comprehensive Fault Synthesis for n Input Primitive Gates</a>&rdquo;, International Journal of Microelectronics Reliability, Science Direct, Elsevier, Volume 46, Issue 12,&nbsp;December 2006,&nbsp;Pages 2149-2158</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">R. Javaheri, <strong>Reza Sedaghat</strong>, Leo Kant, Jason Zalev, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_aset=V-WA-A-W-WZ-MsSAYWW-UUA-U-AAVUUCWECU-AABDZBBDCU-CEBUCVBBE-WZ-U&amp;_rdoc=1&amp;_fmt=summary&amp;_udi=B6V0X-4HYM1T8-1&amp;_coverDate=01%2F04%2F2006&amp;_cdi=5658&amp;_orig=search&amp;_st=13&amp;_sort=d&amp;view=c&amp;_acct=C000050221&amp;_version=1&amp;_urlVersion=0&amp;_userid=10&amp;md5=7c7df85bbe116d14c9109bf96bf64b41" target="_blank">Verification and Fault Synthesis Algorithm at Switch-Level</a>&rdquo;, Journal of Microprocessors and Microsystems, Science Direct, Elsevier, <big>Volume<big> </big>30, Issue 4, 6 June </big>2006, pp 199- 208</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">H. Moon, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_aset=V-WA-A-W-WZ-MsSAYWW-UUA-U-AAVUUCWECU-AABDZBBDCU-CEBUCVBBE-WZ-U&amp;_rdoc=3&amp;_fmt=summary&amp;_udi=B6V0X-4H9GP1H-1&amp;_coverDate=10%2F11%2F2005&amp;_cdi=5658&amp;_orig=search&amp;_st=13&amp;_sort=d&amp;view=c&amp;_acct=C000050221&amp;_version=1&amp;_urlVersion=0&amp;_userid=10&amp;md5=44c84d35f109600808597ce7a9fad353" target="_blank">FPGA-based Adaptive Digital Predistortion System for Radio over&acirc;&euro;&lsquo;Fiber Links</a>&rdquo;, International Journal of Microprocessors and Microsystems, Science Direct, Elsevier, Vol 30/3, 2006, pp 145-154</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px">J. Zalev, <strong>Reza Sedaghat</strong>, &quot;<a href="" target="_blank">Complex Energy Signal Model for Digital Human Fingerprint Matching</a>&quot;, Transactions on Engineering, Computing and Technology, Enformatika Volume 13, ISSN 1305-5313, May 2006, pp 136-140</span></span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif"><span style="font-size: 16px"><strong>Reza Sedaghat</strong>, &quot;<a href="http://scitation.aip.org/vsearch/servlet/VerityServlet?KEY=ELLEAK&amp;smode=strresults&amp;sort=chron&amp;maxdisp=25&amp;threshold=0&amp;possible1=sedaghat&amp;possible1zone=article&amp;OUTLOG=NO&amp;viewabs=ELLEAK&amp;key=DISPLAY&amp;docID=1&amp;page=1&amp;chapter=0" target="_blank">Routability Estimation of FPGA-based Fault Injection</a>&quot;, IEE Electronic Letter Journal, Vol. 41, Nr. 14, 07/2005, p. 790-793</span></span></li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<h3 class="under">Conferences</h3>
+</div>
+
+<div class="row">
+<div class="two columns"><img class="pub" src="publications.png" /></div>
+
+<div class="ten columns longlist">
+<ul>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">&nbsp;P. Siddavaatam, <strong>Reza Sedaghat</strong> and A. T. Sharma, &ldquo;A Novel Multi-Objective Optimization Approach for Design Flow in High Level Synthesis&rdquo;, IEEE 5th International Conference on Electrical, Electronics, Computers, Communication, Mechanical and Computing (EECCMC), pp. 192-204, 2018</span></span></li>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">P. Siddavaatam, <strong>Reza Sedaghat</strong> and N. Giamblanco, &quot;Keyword and Keyphrase Extraction using Newton&#39;s Law of Universal Gravitation,&quot; IEEE 30th Canadian Conference on Electrical and Computer Engineering (CCECE), pp. 1-4, 2017</span></span></li>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">P. Siddavaatam, <strong>Reza Sedaghat</strong> and A. T. Sharma, &ldquo;intel-LEACH: An Optimal Framework for Node Selection using Dynamic Clustering for Wireless Sensor Networks&rdquo;, IEEE 12th International Conference for Internet Technology and Secured Transactions (ICITST), Cambridge, pp. 159-167, 2017</span></span></li>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">M. H. Cheng, <strong>Reza Sedaghat</strong>, and P. Siddavaatam, &ldquo;<a href="../link.springer.com/chapter/10.1007/978-3-319-46298-1_25">A New Adaptable Construction of Modulo Addition with Scalable Security for Stream Ciphers</a>&rdquo;, &nbsp;Network and System Security. NSS. Lecture Notes in Computer Science, vol 9955. Springer, pp. 383-397,<font size="+0"><font size="+0">&nbsp;2016</font></font></span></span></li>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><font size="+0"><strong>Reza Sedaghat</strong>, Prathap Siddavaatam Min Hsuan Cheng, &quot;An Adaptive Security Framework with </font><font size="+0">Extensible Computational Complexityfor Cipher Systems&quot;, The 11th IEEE International Conference for </font><font size="+0">Internet Technology and Secured Transactions (ICITST),&nbsp; </font><font size="+0">pp: 133-139</font><font size="+0">, 2016</font></span></span></li>
+	<li align="left"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><font size="+0">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;Priority Function Driven Design Space Exploration in High Level Synthesis Based on Power Gradient Technique&rdquo;, 17th IEEE/ACM Asia and South Pacific Design Automation Conference (ASP-DAC 2012), pp: 25, 2012. </font></span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Pallabi Sarkar, <strong>Reza Sedaghat</strong>, Anirban Sengupta, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6177408" target="_blank">Power Gradient Based Design Space Exploration in High Level Synthesis for DSP Kernels</a>&rdquo;, Proceedings of 23rd IEEE International Conference on Microelectronics (ICM), pp:1-6, Jan. 2012&nbsp;</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.isqed.org/English/Archives/2011/Technical_Sessions/145.html">Integrated Scheduling, Allocation and Binding in High Level Synthesis using Multi Structure Genetic Algorithm based Design Space Exploration System</a>&rdquo;, Accepted for Publication in Proceedings of 12<sup>th</sup> IEEE/ACM International Symposium on Quality Electronic Design (ISQED 2011), </span></span><span style="font-size: 11.5pt; mso-fareast-font-family: &quot;MS Mincho&quot;"><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">pp. 486-494</span></span>, </span><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><span style="font-family: comic sans ms,cursive"><small><small><small><small><small>&nbsp;</small></small></small></small></small></span>2011</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.aspdac.com/aspdac2011/student_forum">A Hybrid Fuzzy Search Approach for Fast Design Space Exploration of Multi-Objective VLSI Systems</a>&rdquo;, Accepted for Poster in the Student Forum of 16th IEEE/ACM Asia and South Pacific Design Automation Conference (ASP-DAC 2011), 2011</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar, &ldquo;<a href="http://portal.acm.org/citation.cfm?id=2007068" target="_blank">Integrated design space exploration based on power-performance trade-off using genetic algorithm</a>&rdquo;, ACM Proceeding ACAI &#39;11 Proceedings of the International Conference on Advances in Computing and Artificial Intelligence, 2011,&nbsp;pp. 77-81</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar, &ldquo;<a href="http://portal.acm.org/citation.cfm?id=2007069" target="_blank">Application specific processor vs. microblaze soft core RISC processor: FPGA based performance and CPR analysis</a>&rdquo;, ACM Proceeding ACAI &#39;11 Proceedings of the International Conference on Advances in Computing and Artificial Intelligence, 2011,&nbsp;pp. 82-85</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://www.asp-dac.itri.org.tw/aspdac2010/student_forum/index.html" target="_blank">Fast Design Space Exploration for Multi Parametric Optimized VLSI and SoC Designs</a>&rdquo;, 15th Asia and South Pacific Design Automation Conference (ASP-DAC), 2010</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Zhipeng Zeng, &ldquo;<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05537954" target="_blank">Rapid Design Space Exploration for multi parametric optimization of VLSI designs</a>&rdquo;, IEEE International Symposium on Circuits and Systems (ISCAS), 2010, pp. 3164-3167</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Zhipeng Zeng, <strong>Reza Sedaghat</strong>, Anirban Sengupta, &ldquo;<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05537940" target="_blank">A Framework for Fast Design Space Exploration using Fuzzy search for VLSI Computing Architectures</a>&rdquo;, IEEE International Symposium on Circuits and Systems (ISCAS), 2010, pp. 3176-3179</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?tp=&amp;arnumber=5696159&amp;queryText%3DRapid+Exploration+of+Power+Delay+Tradeoffs+using+Hybrid+Priority+Factor+and+Fuzzy+Search%26openedRefinements%3D*%26searchField%3DSearch+All">Rapid Exploration of Power-Delay Tradeoffs using Hybrid Priority Factor and Fuzzy Search</a>&rdquo;, In Proceedings of 22nd IEEE International Conference on Microelectronics (ICM), Cairo, Egypt,&nbsp;pp. 355-358, 2010</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5696083">Accelerated Exploration of Cost-Performance Tradeoffs for Multi Objective VLSI designs</a>&rdquo;, In Proceedings of 22nd IEEE International Conference on Microelectronics (ICM), Cairo, Egypt,&nbsp;pp. 100-103, 2010</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Summit Sehgal, <strong>Reza Sedaghat</strong>, Anirban Sengupta, &ldquo;Automated Design Space Exploration for DSP Applications High Level Synthesis with Stability in Competition&rdquo;,&nbsp;Proceedings of 2nd IEEE Latin American Symposium on Circuits and Systems (LASCAS),&nbsp;In Press, 2011</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar, &ldquo;Integrated Scheduling, Allocation and Binding in High Level Synthesis for Performance-Area Tradeoff of Digital Media Applications&rdquo;, In Proceedings of 24th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE 2011), in Press,&nbsp;2011.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Pallabi Sarkar, &ldquo;Priority Function based Power Efficient Rapid Design Space Exploration of Scheduling and Module Selection in High Level Synthesis&rdquo;, In Proceedings of 24th IEEE Canadian Conference on Electrical and Computer Engineering (CCECE 2011), in Press, 2011.</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Summit Sehgal, <strong>Reza Sedaghat</strong>, Anirban Sengupta, Zhipeng Zeng, &ldquo;<a href="http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D5349361%26isnumber%3D5349259&amp;authDecision=-203" target="_blank">Multi Parametric Optimized Architectural Synthesis of an Application Specific Processor</a>&rdquo;, IEEE 14<sup>th</sup> International CSI Computer Conference (CSICC), 2009, pp 89-94</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">R. Javaheri, <strong>Reza Sedaghat</strong>, &quot;<a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=5349362&amp;isnumber=5349259&amp;punumber=5340903&amp;k2dockey=5349362@ieeecnfs&amp;query=" target="_blank">Dynamic strength scaling for delay fault propagation in nanometer technologies</a>&quot;, IEEE 14<sup>th</sup> International CSI Computer Conference (CSICC), pp 95-99, 2009</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Anirban Sengupta, <strong>Reza Sedaghat</strong>, Zhipeng Zeng, &ldquo;<a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?tp=&amp;arnumber=5418662&amp;queryText%3DHardware+Efficient+Design+of+speed+optimized+Power+stringent+Application+Specific+Processor%26openedRefinements%3D*%26searchField%3DSearch+All">Hardware Efficient Design of speed optimized Power stringent Application Specific Processor</a>&rdquo;, IEEE 21<sup>st</sup> International Conference on Microelectronics (ICM), pp 167-170, 2009</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">Zhipeng Zeng, <strong>Reza Sedaghat</strong>, Anirban Sengupta<strong>, </strong>&ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5418618">A Novel Framework of Optimizing Modular Computing Architecture for multi objective VLSI designs</a>&rdquo;, IEEE 21<sup>st</sup> International Conference on Microelectronics (ICM), pp 322-325, 2009</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">&nbsp;P.K.Kalkat, <strong>Reza Sedaghat</strong>, J.M.Chikhe, R.Javaheri &quot;<a href="http://ieeexplore.ieee.org/search/srchabstract.jsp?tp=&amp;arnumber=5418615&amp;queryText%3DSoft+error+injection+using+advanced+switch-level+models+for+combinational+logic+in+nanometer+technologies%26openedRefinements%3D*%26searchField%3DSearch+All">Soft error injection using advanced switch-level models for combinational logic in nanometer technologies</a>&rdquo;, IEEE 21st International Conference on Microelectronics (ICM), Published in the 21st Conference Proceedings, pp 326-329, 2009</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">R. Javaheri, <strong>Reza Sedaghat</strong>, &quot;<a href="http://www.springerlink.com/content/j036373h318rr857/" target="_blank">Multi-valued voltage model for Delay Fault Testing of Resistive Faults in Deep Sub-Micron Technologies</a>&quot;, Springer Verlag, International CSI Computer Conference, CSICC, pp. 177-182, 2008</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">V. Geurkov, V. Dynkin, <strong>Reza Sedaghat</strong>, &quot;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4564702" target="_blank">An error-locating signature analyzer to identify faulty units in digital systems</a>&quot;, IEEE VLSI Test Symposium,&nbsp;pp. 1073-1076, 2008</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">&nbsp;H. Moon, <strong>Reza Sedaghat</strong>, &ldquo;Radio-over-Fiber Link Linearization using Adaptive Digital Predistortion&rdquo;, Proc. Proc. IEEE International Symposium on Circuits and Systems, ISCAS, Accepted, 2006</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">H. Moon, <strong>Reza Sedaghat</strong>, &ldquo;Design of Adaptive Digital Predistorter for Increasing Dyamic Range in ROF Link&rdquo;, Proc. of the International Technical Conference on Circuits/Systems, Computers, and Communications, ITC-CSCC, 2005</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">M.A. Zeinali, <strong>Reza Sedaghat</strong>, &quot;Layout design of a 2D-LFSR for the E1/E2 multiplexer&rdquo;, Proc. IEEE International Symposium on Circuits and Systems, ISCAS, pp. 173-176, 2005</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">J. Zalev, <strong>Reza Sedaghat</strong>, &quot;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1347697" target="_blank">Automatic Fingerprint Recognition Algorithm</a>&quot;, Proc. Canadian Conference on Electrical and Computer Engineering, CCECE, 2004</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">M.A. Zeinali, <strong>Reza Sedaghat</strong>, &quot;Layout design of a 2D-BIST structure for the E1/E2 multiplexer&quot;, Proc. Canadian Conference on Electrical and Computer Engineering, CCECE, 2004</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">M.A. Zeinali, <strong>Reza Sedaghat</strong>, &quot;Layout design of a 2D-CCLFSR structure&quot;, Proc. International Conference for Upcoming Engineers, ICUE, 2004</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">J. Zalev, <strong>Reza Sedaghat</strong>, &quot; Preprocessing and Extracting Minutiae for Fingerprint Recognition Algorithm&quot;, Proc. International Conference for Upcoming Engineers, ICUE, 2004</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">T. Moon, <strong>Reza Sedaghat</strong>, &quot;Adaptive Predistortion Techniques for Non-linear Components&quot;, Proc. International Conference for Upcoming Engineers, ICUE, 2004</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1206234" target="_blank">A Fast Algorithm to Reduce 2-Dimensional Assignment Problems to 1-Dimensional Assignment Problems for FPGA-based Fault Simulation</a>&rdquo;, Proc. IEEE International Symposium on Circuits and Systems ISCAS,&nbsp;pp. 102-105, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, P. Goravanchi, O. Hashemipour, &quot;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1226365" target="_blank">9th order linear phase baseband filter</a>&rdquo;, Proc. IEEE International Conference on Electronics, Circuits and Systems ICECS, accepted, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif">S. Nadarajah, X. Fernando, <strong>Reza Sedaghat</strong>, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1226367" target="_blank">Adaptive Digital Predistortion of Laser Diode Nonlinearity for Wireless Applications</a>&rdquo;, Proc. Canadian Conference on Electrical and Computer Engineering CCECE, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, P. Goravanchi, O. Hashemipour, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1226365" target="_blank">A very low voltage 9<sup>th</sup> order linear phase baseband switched capacitor filter</a>&rdquo;, Proc. Canadian Conference on Electrical and Computer Engineering CCECE, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, C. Lim, &ldquo;Implementation of Regenerator Section Overhead (RSPH) for an SDH Chip&rdquo;, Proc. International Conference for Upcoming Engineers, ICUE, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, B. O&rsquo;Brien, &ldquo; ASIC Implementation of a Pseudo-random Test Pattern Generator Using a 32-bit Linear Feedback Shift Register (LFSR)&rdquo;, Proc. International Conference for Upcoming Engineers, ICUE, 2003</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, E. Barke, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=669529" target="_blank">Real Time Fault Injection Using Logic Emulators</a>&rdquo;, Proc. Asia and South Pacific Design Automation Conference ASP-DAC&rsquo;98, pp.475-479, 1998</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, &ldquo;<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=705230" target="_blank">Fault Emulation with Optimized Assignment of Circuit Node to Fault Injectors</a>&rdquo;, Proc. IEEE International Symposium on Circuits and Systems ISCAS&rsquo;98,&nbsp;pp.135-138, 1998</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, &ldquo;Eine neue Methode zur Fehleremulation&rdquo;, Proc. ITG-Workshop of Microelectronic and Information Technology, pp.77-81, 1998</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, E. Barke, &ldquo;<a href="http://www.computer.org/portal/web/csdl/doi/10.1109/IWRSP.1997.618894" target="_blank">A New Approach to Fault Emulation</a>&rdquo;, Proc. 8<sup>th</sup> IEEE International Workshop of Rapid System Prototyping RSP&rsquo;97,&nbsp;pp.173-179, 1997</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, &ldquo;Fehleremulation mit Logikemulationssystem&rdquo;, Proc. 4<sup>th</sup> SICAN-Workshop of Microelectronics and Microsystems, pp. 221-225, 1997</span></span></li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<h3 class="under">Others</h3>
+</div>
+
+<div class="row">
+<div class="two columns"><img class="pub" src="publications.png" /></div>
+
+<div class="ten columns">
+<ul>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, J. Stohmann, Redesigned and evaluated DVB-T (Digital Video Broadcast-Terrestrial) receiver chip for FPGA-based emulation systems, Nokia-Research Report, No. Ba 324, 1999</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, PhD, Dissertation, <a href="https://www.deutsche-digitale-bibliothek.de/item/SMND7WA6YMBI7D5RWYJXZ5CHHWVTXZYF" target="_blank">Fault Emulation: Reconfigurable Hardware-Based Fault Simulation Using Logic Emulation Systems with Optimized Mapping</a>, 1999</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, DFG-Research Report, Report period: 15.3.1995-15.3.1997, No. Ba 812/3-1, 1997</span></span></li>
+	<li><span style="font-size: 16px"><span style="font-family: arial,helvetica,sans-serif"><strong>Reza Sedaghat</strong>, DEG-Research Report, Report period: 15.3. 1997-15.3.1998, No: Ba 812/3-2, 1998</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block">
+<div class="container">
+<div class="row" style="margin-top: 10%">
+<h1 id="recent">Current Members</h1>
+</div>
+
+<div class="row">
+<div class="one-third column"><img border="0" height="156" id="mem" src="prathap.png" width="114" /></div>
+
+<div class="one-half column">
+<h5>Patrick Siddavataam</h5>
+
+<p style="text-align: justify"><font face="Calibri" size="3"><font face="Calibri" size="3">Dr. Patrick Siddavataam is working at NXM Labs Inc. as a Research Scientist in the </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">R&amp;D area of applying Quantum Computing, Quantum Cryptography for 5G </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">communications for IoT devices. His research works involves collaboration with </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">IBM, ARM, Microsoft, Xanadu, and Sprint for implementation of quantum resistant </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">and crypto agility technologies. He is also working as Post Doctoral Fellow (PDF) in </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">the OPR Laboratory, Department of Electrical and Computer Engineering, Ryerson </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">University, Toronto, Canada. He also works as a lecturer in Department of </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">Electrical and Computer Engineering, Ryerson University, Toronto, Canada. He has </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">worked in various capacities as a Systems developer for designing multi-domain products in different </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">divisions of Microsoft Corporation, Robert Bosch GmbH and Siemens AG. His research interests include </font></font><font face="Calibri" size="3"><font face="Calibri" size="3">secure algorithms, security patterns, cryptography and building secure and optimized VLSI architectures.</font></font></p>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img border="0" height="182" hspace="0" src="Nahid.png" style="height: 163px; width: 128px" width="147" /></div>
+
+<div class="one-half column">
+<h5 style="text-align: justify">Nahid Sahelgozin</h5>
+
+<p style="text-align: justify">Nahid is a research assistant at OPR-AL focused on developing solutions for image processing theories. She is coordinating a research group developing image processing tools. Additionally, she is interested in field of Digital systems and Advanced Mathematics. Nahid is the Recipient of L&#39;Ecole Polytechnique Award.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img border="0" height="192" hspace="0" src="Ahsan.jpg" style="height: 157px; width: 117px" width="148" /></div>
+
+<div class="one-half column">
+<h5 style="text-align: justify">Ahsan Zahid</h5>
+
+<p style="text-align: justify">Ahsan is a research assistant at OPR-AL focused on developing automated system solutions. His current project involves navigation system architecture for autonomous floating robots and power generation optimization. Some of his interests include computational hardware and digital circuit design.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img border="0" height="192" hspace="0" src="Miten.jpg" style="height: 152px; width: 105px" width="148" /></div>
+
+<div class="one-half column">
+<h5 style="text-align: justify">Miten Patel</h5>
+
+<p style="text-align: justify">Miten is a Dean&#39;s List student pursuing Computer Engineering at Ryerson University, Toronto. He is a research assistant at OPR-AL focused on developing IOT communication models and optimizing wireless sensor networks (WSN). He has interests in distributed computing systems, network security, machine learning algorithms and hardware architectures.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img border="0" hspace="0" src="Meher.jpg" style="height: 146px; width: 116px" /></div>
+
+<div class="one-half column">
+<h5 style="text-align: justify">Meher Bhaghat</h5>
+
+<p>Meher Bhagat is a Dean&#39;s List student in Computer Engineering and a Research Assistant in the OPR-AL Lab. Meher&rsquo;s current work involves finding new approaches to analyze minerals and metals. Meher is very interested in<br />
+network security, cloud computing and machine learning.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img id="mem" src="contact.png" /></div>
+
+<div class="one-half column">
+<h5 style="text-align: justify">--</h5>
+</div>
+</div>
+
+<div class="row">
+<div class="one-third column"><img id="mem" src="contact.png" /></div>
+
+<div class="one-half column">
+<p style="text-align: justify">-</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block">
+<div class="container">
+<div class="row">
+<h1 id="supervised">Supervised Students</h1>
+</div>
+
+<div class="row">
+<div class="one-half column" style="height: 1078px; width: 100.1%">
+<table class="u-full-width" style="height: 745px; width: 108.36%">
+	<tbody>
+		<tr>
+			<td>
+			<div>
+			<p><strong><font size="+0">Name</font></strong></p>
+
+			<ul>
+				<li><a href="https://ca.linkedin.com/in/charles-lim-2961084" target="_blank"><font color="#0066cc">Charles Lim</font></a>&nbsp;(Canada),&nbsp;was R&amp;D Lead at Harris Broadcast Communications</li>
+				<li>Jason Chang (Canada), Current Position: <span style="font-size: 22px"><strong>nVIDIA</strong></span></li>
+				<li><a href="https://www.linkedin.com/in/mrjavaheri" target="_blank"><font color="#0066cc">Reza Javaheri</font></a>&nbsp;(Canada), Current Position:<strong>&nbsp;, </strong><span style="font-size: 20px"><strong>Qualcomm</strong></span></li>
+				<li><a href="https://ca.linkedin.com/in/mayuri-kunchwar-46107214" target="_blank"><font color="#0066cc">M. Kunchwar </font></a>(Canada), Current Position: <span style="font-size: 20px"><strong>Blackberry</strong></span></li>
+				<li>P. Lee (Canada), Current Position: <span style="font-size: 20px"><strong>AMD</strong></span></li>
+				<li>Behnaz Abdoli (Canada), <span style="font-size: 20px"><strong>TYCO </strong></span></li>
+				<li>A. Sengupta (Canada), Current Position: Faculty Memeber, <span style="font-size: 18px"><strong>Indian Institute of </strong><strong>Technology, &nbsp;</strong><strong>IIT</strong></span>, India</li>
+				<li>B. Abedi (Canada), Faculty Memeber, <span style="font-size: 18px"><strong>BN </strong><strong>University of </strong><strong>Technology</strong></span>, Iran</li>
+				<li>W. Hartong (Germany), <span style="font-size: 22px"><strong>Siemens</strong></span></li>
+				<li>R. Lee (Germany), <span style="font-size: 22px"><strong>Infineon</strong></span></li>
+				<li>J. Zalev (Canada)</li>
+				<li>Zhipeng Zeng (Canada)</li>
+				<li>H. Moon (Canada)</li>
+				<li>L. Kant (Canada)</li>
+				<li>M. Torshizi (Canada)</li>
+				<li>A. Zeinali (Iran)</li>
+				<li>A. Morrison (Canada)</li>
+				<li>Jasmina Vasiljevic (Canada)</li>
+				<li>P. Hac (Canada)</li>
+				<li>A. Azad (Canada)</li>
+				<li>K. Adekunle (Canada)</li>
+				<li>S. Naderi (Canada)</li>
+				<li>S. Kilinc(Canada)</li>
+				<li>A. Abbas (Canada)</li>
+				<li>R. Leung (Canada)</li>
+				<li>D. Cerullo (Canada)</li>
+				<li>B. O&#39;Brien (Canada)</li>
+				<li>T. Fung (Canada)</li>
+			</ul>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="parallax">&nbsp;</div>
+
+<div class="info-block" id="contact">
+<div class="container" style="margin-bottom: 10%">
+<div class="row" style="margin-bottom: 10%; margin-top: 10%">
+<h1 id="contact"><img border="0" height="307" src="Skyline.jpg" style="height: 126px; width: 228px" width="387" /></h1>
+
+<h1>Contact Us</h1>
+</div>
+
+<form action="rsedagha@ee.ryerson.ca" enctype="text/plain" method="post">
+<div class="row" style="margin-bottom: 0px">
+<div class="six columns"><label for="EmailInput">Your email:</label> <input class="u-full-width" id="EmailInput" placeholder="user@mbox.com" type="text" /></div>
+
+<div class="six columns"><label for="Subject">Subject:</label> <input class="u-full-width" id="Subject" placeholder="Re: Good News" type="text" /></div>
+</div>
+<label for="Message">Message:</label><textarea class="u-full-width" id="Message" placeholder="Your Message...."></textarea> <input class="button-primary" type="submit" value="Submit" />&nbsp;</form>
+</div>
+</div>
+
+<div class="info-block">
+<div class="container">
+<div class="row" style="margin-bottom: 5%; margin-top: 5%; opacity: 1">
+<div class="three columns" style="margin-right: 120px">&nbsp;</div>
+
+<div class="seven columns">
+<h3>OPR-AL&copy;, 2018</h3>
+</div>
+</div>
+</div>
+</div>
+<!--</div>--><script>
+
+
+
+
+
+function tickOut(){
+
+        $('#ticker li:first').animate({'opacity':0}, 1000, function () {
+
+            $(this).appendTo($('#ticker'))
+
+            $('#ticker li:first').hide()
+
+            $('#ticker li:first').fadeIn(1000)
+
+              $('#ticker li:not(:first)').css('opacity', '1')
+
+        });
+
+    }
+
+
+
+
+
+setInterval(function(){ tickOut () }, 5500);
+
+ function tscroll(where){
+
+        where="#"+where;
+
+    $('html,body').animate({
+
+        scrollTop: $(where).offset().top-65},
+
+        'slow');
+
+        }
+
+
+
+  function pop_slide(where){
+
+        where="#"+where;
+
+        $(where).slideToggle("slow");
+
+  }
+
+  function changeTo(x) {
+
+    x.style.color = "#33C3F0";
+
+  }
+
+
+
+  function changeBack(x) {
+
+    x.style.color = "#222";
+
+  }
+
+
+
+  </script>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</p>
+</body>
+</html>

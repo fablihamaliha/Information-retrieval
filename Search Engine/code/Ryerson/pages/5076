@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" ng-app="aio5" ng-strict-di>
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=10">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-title" content="AIO">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<title>AIO in Space Game v.5</title>
+		<base href="/games/aio/">
+		<link rel="apple-touch-icon" href="_/img/icon_iphone.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="_/img/icon_ipad.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="_/img/icon_iphone_retina.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="_/img/icon_ipad_retina.png">
+		<link rel="stylesheet" href="_/game.css">
+		<script src="_/jquery.min.js"></script>
+		<script src="_/angular.min.js"></script>
+		<script src="_/angular-route.js"></script>
+		<script src="_/angular-cookies.js"></script>
+		<script src="_/angular-sanitize.js"></script>
+		<script src="_/underscore.min.js"></script>
+		<script src="_/preloadjs.min.js"></script>
+		<script src="_/soundjs.min.js"></script>
+		<script src="/games/datacollection/gamedata.js"></script>
+		<script src="_/game.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7906194-22"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-7906194-22');
+		</script>
+	</head>
+	<body ng-controller="splashCtrl">
+		<div class="fullscreen">
+			<div ng-view class="view" role="application"></div>
+			<div class="orientation_message">
+				<div class="textbox">
+					<p class="icon">
+						<img src="_/img/rotate_device.png" alt="">
+					</p>
+					<p>This application is optimized for landscape view Please rotate your device horizontally, or adjust your browser window so that its width is larger than height.</p>
+				</div>
+			</div>
+		</div>
+		<form id="certificate" name="certificate" method="post" action="certificate.cfm">
+			<input type="hidden" name="name" value="{{ player }}">
+			<input type="hidden" name="planet" value="{{ planetname }}">
+			<input type="hidden" name="image" value="{{ planetimage }}">
+			<input type="hidden" name="uuid" value="{{ aio.uuid }}">
+		</form>
+	</body>
+</html>

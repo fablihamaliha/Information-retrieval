@@ -1,0 +1,2950 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="shortcut icon" href="/static/img/ryerson.favicon.jpg"/>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Expertise Finder"/>
+<meta name="copyright" content="Copyright Expertise Finder"/>
+
+<title>Ted Rogers School of Management &bull; Ryerson University Faculty Experts</title>
+
+
+<meta name="description" content="Search and connect with experts in Ted Rogers School of Management. It's fast and free."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="INDEX, FOLLOW, NOARCHIVE, NOODP, NOYDIR"/>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="/static/js/typeahead.bundle.min.js"></script>
+<script src="/static/js/jquery.mark.min.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/static/css/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/static/css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+<!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/tippy.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@charset "utf-8";
+
+@font-face
+{
+    font-family: 'proxima-reg';
+    src: url('/static/fonts/proxima_nova_regular.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-italic';
+    src: url('/static/fonts/proxima_nova_italic.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-bold';
+    src: url('/static/fonts/proxima_nova_bold.otf') format('opentype');
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    font-family: 'proxima-reg', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+html, body, p, div, button, input, select, textarea, .pure-g [class *= "pure-u"]
+{
+    font-family: 'proxima-reg', sans-serif;
+    font-size: 18px;
+}
+
+.notxtstyle
+{
+    text-decoration: none;
+}
+
+.bold
+{
+    font-family: 'proxima-bold', sans-serif;
+}
+
+.italic
+{
+    font-family: 'proxima-italic', sans-serif;
+}
+
+.rf
+{
+    float: right;
+}
+
+.lf
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: red;
+}
+
+.blockify 
+{
+    display: block;
+}
+
+.iblockify 
+{
+    display: inline-block;
+}
+
+#globalwrapper
+{
+    background-color: #E6E6E6;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.grayBorderedBox
+{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    border-collapse: separate;
+}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65257357-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65257357-1');
+</script>
+
+
+<style type="text/css">
+#mainHeader
+{
+    background-color: white; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    z-index: 1030; 
+    
+    padding-top: 15px; 
+    
+}
+
+#top_notification
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffaa;
+    margin-top: 15px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 39px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.label
+{
+    color: #fff;
+    background-color: #d73d32;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.activeSettingsBtn, .settingsBtn
+{
+    content: "";
+    height: 5px; 
+    width: 30px;
+    float: left;
+    margin: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activeSettingsBtn
+{
+    border-top: 5px solid #0078E7; 
+    border-bottom: 15px double #0078E7; 
+}
+
+.settingsBtn
+{
+    border-top: 5px solid black; 
+    border-bottom: 15px double black; 
+}
+
+#settingsMenu
+{
+    position: fixed;
+    z-index: 2000;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    top: -999px;
+    left: -999px;
+}
+
+.txt-nav-btn, .icon-nav-btn
+{
+    margin: 0 1% 0 0;
+    float: right;
+}
+
+.txt-nav-btn
+{
+    min-width: 6%;
+}
+
+#logoHolder
+{
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+#searchholder
+{
+    width: 33%;
+    display: inline-block;
+    margin: 0 0 0 1%;
+}
+
+#searchholder2
+{
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+nav form, #searchholder2 form 
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+nav form input, #searchholder2 form input 
+{
+    outline: none;
+}
+
+nav form input[type="text"], #searchholder2 form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#searchBtn, #searchBtn2
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+}
+
+footer
+{
+    background-color: white; 
+    padding: 15px 2%; 
+    margin: 0; 
+    border-top: 2px solid #d3d3d3;
+}
+
+#orgAddress, #poweredBy
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#orgAddress
+{
+    float: left;
+}
+
+#poweredBy
+{
+    float: right;
+    text-align: center;
+}
+
+.twitter-typeahead {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.typeahead 
+{
+    background-color: #fff;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-size: 1.2em !important;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100% !important;
+    padding: 3px 65px 3px 10px !important;
+    -webkit-transition: border-color 1s ease !important; 
+    -moz-transition: border-color 1s ease !important; 
+    -o-transition: border-color 1s ease !important; 
+    transition: border-color 1s ease !important;
+    outline: none !important;
+}
+
+.tt-menu 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tt-suggestion 
+{
+    padding: 3px 65px 3px 10px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tt-suggestion:hover 
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion.tt-cursor 
+{
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion p 
+{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #top_notification
+    {
+        height: 50px; 
+        padding: 0 7%;
+    }
+
+    .txt-nav-btn, .icon-nav-btn
+    {
+        margin: 0 15px 0 0;
+    }
+
+    .txt-nav-btn
+    {
+        width: 140px;
+    }
+
+    .icon-nav-btn
+    {
+        width: 40px;
+    }
+
+    #searchholder, #searchholder2, #logoHolder
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #logoHolder a 
+    {
+        margin: 0 auto 15px auto;
+    }
+
+    #searchholder > div, #searchholder2 > div
+    {
+        clear: both;
+    }
+
+    #searchholder form, #searchholder2 form
+    {
+        width: 250px;
+        margin: 0 15px 0 0;
+        float: right;
+    }
+
+    #searchholder form input[type="text"], #searchholder2 form input[type="text"]
+    {
+        width: 250px;
+    }
+
+    footer 
+    {
+        padding: 15px; 
+    }
+
+    #orgAddress, #poweredBy
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #orgAddress
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .typeahead 
+    {
+        background-color: #fff;
+        -moz-box-sizing: border-box !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        font-size: 1.2em !important;
+        min-height: 40px;
+        border: 1px solid rgba(0,0,0,0.3);
+        width: 250px;
+        padding: 3px 65px 3px 10px !important;
+        -webkit-transition: border-color 1s ease !important; 
+        -moz-transition: border-color 1s ease !important; 
+        -o-transition: border-color 1s ease !important; 
+        transition: border-color 1s ease !important;
+        outline: none !important;
+    }
+}
+</style>
+
+<style type="text/css">
+#sresults {
+  margin: 0 2%;
+  min-width: 750px;
+  padding: 0;
+}
+
+.sresult {
+  width: 240px;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.sresult:hover {
+  border: 1px solid #a3a3a3;
+}
+
+.sresultphoto {
+  width: 140px;
+  border-radius: 100%;
+  padding: 4px;
+  margin: 1em auto;
+  display: block;
+  border: 2px solid #d5d5d5;
+}
+
+.categories {
+  margin: 0.5em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.categories a {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.expertise {
+  list-style-type: none;
+  outline: 0;
+  margin: 0.5em 0;
+  padding: 0 1em;
+}
+
+.expertise li {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.3em;
+}
+
+.viewprofile {
+  background-color: #d73d32;
+  width: 88%;
+  margin: 0.5em auto 1em auto;
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.2em;
+}
+
+.linkify {
+  color: #0078E7;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    #sresults {
+        width: 300px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .sresult {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+}
+</style>
+
+</head>
+<body>
+<div id="globalwrapper">
+
+<nav id="mainHeader">
+<div id="logoHolder">
+<a href="http://ryerson.ca/" class="blockify" style="width: 100px;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/>
+</a>
+</div>
+<div id="searchholder">
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead" type="text" name="query" placeholder="Name or Expertise">
+<button id="searchBtn" type="submit" class="pure-button pure-button-primary" aria-label="Search"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<div></div>
+</div>
+<script type="text/javascript">
+var search_button = $('#searchBtn');
+var search_box = $('.typeahead');
+search_box.css('padding-right', search_button.outerWidth() + 20 + 'px');
+search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+
+var menuHTML = '<div id="flexMenu" class="pure-menu pure-menu-open"><ul> \
+<li><a href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a></li> \
+<li><a href="/">Faculty Experts - Home</a></li> \
+<li><a href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Faculty Signup</a></li> \
+</ul></div>';
+
+var buttonsHTML = '<a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a><a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="/">Faculty Experts - Home</a>';
+
+var slideMenu = function () {
+    var collapsed = $('.settingsBtn');
+    var opened = $('.activeSettingsBtn');
+    
+    if (collapsed.length)
+    {
+        collapsed.removeClass('settingsBtn');
+        collapsed.addClass('activeSettingsBtn');
+
+        var settingsMenu = $(document.createElement('div'));
+        settingsMenu.html(menuHTML);
+        settingsMenu.attr('id', 'settingsMenu');
+        settingsMenu.addClass('js-added');
+        $('#globalwrapper').prepend(settingsMenu);
+        settingsMenu.css('top', $('#mainHeader').outerHeight() + "px");
+        settingsMenu.css('left');
+        settingsMenu.css('left', '0');
+    }
+    else
+    {
+        opened.removeClass('activeSettingsBtn');
+        opened.addClass('settingsBtn');
+        $('#settingsMenu').remove();
+    }
+};
+
+var insertHeader = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if ($('.js-added').length)
+        $('.js-added').remove();
+
+    if (vw > 768)
+    {
+        
+        $('#searchholder').after(buttonsHTML);
+        
+        var nav_buttons = $('.txt-nav-btn');
+        nav_buttons.css('box-sizing', 'border-box');
+        nav_buttons.css('height', search_box.outerHeight() + "px");
+    }
+    else
+    {
+        var sbutton = $(document.createElement('div'));
+        sbutton.addClass('settingsBtn js-added');
+        sbutton.click(slideMenu);
+        if ($('#logoHolder').length > 0)
+        {
+            $('#logoHolder').after(sbutton);
+        }
+        else
+        {
+            $('#mainHeader').prepend(sbutton);
+        }
+    }
+};
+
+insertHeader();
+$(window).resize(function(){insertHeader()});
+
+var hideLogoOnScroll = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw < 768)
+    {
+        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0)
+        {
+            $('#logoHolder').remove();
+        }
+        else
+        {
+            if ($('#logoHolder').length === 0) 
+            {
+                $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+            }
+        }
+    }
+    else
+    {
+        if ($('#logoHolder').length === 0) 
+        {
+            $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+        }
+    }
+};
+
+$(window).resize(hideLogoOnScroll);
+$(window).scroll(hideLogoOnScroll);
+</script>
+
+<div class="clear"></div>
+<div id="top_notification">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline; font-size: 18px;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#top_notification").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+
+</nav>
+
+<div id="pushedContainer">
+
+<div id="sresults">
+<p style="padding: 1.2em 0; font-size: 1.6em; margin: 0; text-align: center;" class="bold">Ted Rogers School of Management Experts</p>
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 0 0 1.5em 0;" class="bold">Experts in School of Accounting and Finance</p>
+
+
+
+<div class="grayBorderedBox sresult" id="richard-deklerk-1">
+<img class="sresultphoto" src="/static/img/richard-deklerk-1.jpg" alt="Photo of Richard Deklerk"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Richard Deklerk</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cost%20accounting">Cost accounting</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Financial%20accounting">Financial accounting</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Internal%20and%20external%20audits">Internal and external audits</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Non-profit%20management">Non-profit management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/richard-deklerk-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="yi-feng">
+<img class="sresultphoto" src="/static/img/yi-feng.jpg" alt="Photo of Yi Feng"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Yi Feng</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20governance">Corporate governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Director%20network">Director network</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Executive%20compensation">Executive compensation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Financial%20education">Financial education</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/yi-feng">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="laleh-samarbakhsh">
+<img class="sresultphoto" src="/static/img/laleh-samarbakhsh.jpg" alt="Photo of Laleh Samarbakhsh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Laleh Samarbakhsh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Bitcoins%20and%20Cryptocurrencies">Bitcoins and Cryptocurrencies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20finance">Corporate finance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Financial%20crisis%20and%20Credit%20risk">Financial crisis and Credit risk</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Investments%20%26%20Hedge%20funds">Investments & Hedge funds</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/laleh-samarbakhsh">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in School of Health Services Management</p>
+
+
+
+<div class="grayBorderedBox sresult" id="julien-meyer">
+<img class="sresultphoto" src="/static/img/julien-meyer.jpg" alt="Photo of Julien Meyer"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Julien Meyer</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=EHealth">EHealth</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Health%20information%20systems">Health information systems</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Management%20of%20IT%20projects%20in%20healthcare">Management of IT projects in healthcare</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Telemedicine">Telemedicine</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/julien-meyer">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Ted Rogers School of Business Management</p>
+
+
+
+<div class="grayBorderedBox sresult" id="scott-anderson">
+<img class="sresultphoto" src="/static/img/scott-anderson.jpg" alt="Photo of Scott Anderson"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Scott Anderson</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Banks">Banks</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Investments">Investments</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/scott-anderson">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="dale-carl">
+<img class="sresultphoto" src="/static/img/ryerson_46.jpeg" alt="Photo of Dale Carl"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dale Carl</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cross-cultural%20leadership">Cross-cultural leadership</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20business">International business</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20marketing">International marketing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/dale-carl">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="anthony-chan-1">
+<img class="sresultphoto" src="/static/img/anthony-chan-1.jpg" alt="Photo of Anthony Chan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Anthony Chan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Managerial%20accounting">Managerial accounting</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/anthony-chan-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="coleen-clark">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Coleen Clark"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Coleen Clark</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada%20pension%20plan">Canada pension plan</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Employer-sponsored%20registered%20pension%20plan">Employer-sponsored registered pension plan</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Old%20age%20security">Old age security</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Pension%20plans">Pension plans</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/coleen-clark">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jackie-csonka-peeren">
+<img class="sresultphoto" src="/static/img/jackie-csonka-peeren.jpg" alt="Photo of Jackie Csonka-Peeren"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jackie Csonka-Peeren</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Commercializing%20technology">Commercializing technology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Decision-making%20in%20start-ups">Decision-making in start-ups</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Entrepreneurship">Entrepreneurship</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Funding%20startups">Funding startups</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jackie-csonka-peeren">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="carlyle-farrell">
+<img class="sresultphoto" src="/static/img/carlyle-farrell.jpeg" alt="Photo of Carlyle Farrell"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Carlyle Farrell</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Africa-China%20relations">Africa-China relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada-United%20States%20trade%20relations">Canada-United States trade relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Caribbean%20trade/economic%20issues">Caribbean trade/economic issues</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=China%27s%20economy">China's economy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/carlyle-farrell">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="steve-gedeon">
+<img class="sresultphoto" src="/static/img/ryerson_248.jpeg" alt="Photo of Steve Gedeon"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Steve Gedeon</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Angel%20and%20Venture%20Capital%20Financing">Angel and Venture Capital Financing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Angel%20investing">Angel investing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Capitalism">Capitalism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Design%20Thinking">Design Thinking</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/steve-gedeon">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="george-gekas">
+<img class="sresultphoto" src="/static/img/georgeGekas.jpeg" alt="Photo of George Gekas"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">George Gekas</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20performance">Corporate performance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Efficiency%20and%20productivity">Efficiency and productivity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Financial%20management">Financial management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Perfomance%20indicators">Perfomance indicators</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/george-gekas">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="anatoliy-gruzd">
+<img class="sresultphoto" src="/static/img/anatoliy-gruzd.jpg" alt="Photo of Anatoliy Gruzd"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Anatoliy Gruzd</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Information%20visualization">Information visualization</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Online%20communities">Online communities</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Social%20media">Social media</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Social%20media%20analytics">Social media analytics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/anatoliy-gruzd">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="murtaza-haider-1">
+<img class="sresultphoto" src="/static/img/murtaza-haider-1.jpg" alt="Photo of Murtaza Haider"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Murtaza Haider</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Big%20data%20analytics">Big data analytics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Development%20in%20South%20Asia">Development in South Asia</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Housing%20and%20real%20estate">Housing and real estate</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Integrated%20transportation-land%20use%20modeling">Integrated transportation-land use modeling</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/murtaza-haider-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="michael-halinski-1">
+<img class="sresultphoto" src="/static/img/michael-halinski-1.jpg" alt="Photo of Michael Halinski"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Michael Halinski</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Creativity">Creativity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Fun%20in%20the%20workplace">Fun in the workplace</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Knowledge%20management">Knowledge management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Organizational%20change">Organizational change</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/michael-halinski-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="cynthia-holmes">
+<img class="sresultphoto" src="/static/img/Cynthia_Holmes_corrected.jpeg" alt="Photo of Cynthia Holmes"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Cynthia Holmes</p>
+</div>
+
+<a class="pure-button viewprofile" href="/cynthia-holmes">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jonathan-hughes">
+<img class="sresultphoto" src="/static/img/jonathan-hughes.jpg" alt="Photo of Jonathan Hughes"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jonathan Hughes</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Change%20management">Change management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Leadership">Leadership</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Organizational%20Behaviour">Organizational Behaviour</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jonathan-hughes">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="knud-jensen">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Knud Jensen"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Knud Jensen</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Entrepreneurship">Entrepreneurship</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Foreign%20owned%20Canadian%20companies">Foreign owned Canadian companies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Innovation%20in%20Canada">Innovation in Canada</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Mergers%20and%20acquisitions">Mergers and acquisitions</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/knud-jensen">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="alison-kemper">
+<img class="sresultphoto" src="/static/img/alison-kemper.jpg" alt="Photo of Alison Kemper"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Alison Kemper</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20ethics">Business ethics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Finance%20and%20society">Finance and society</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Governance">Governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Low%20carbon%20economy">Low carbon economy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/alison-kemper">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="mathieu-lajante">
+<img class="sresultphoto" src="/static/img/mathieu-lajante.jpg" alt="Photo of Mathieu Lajante"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Mathieu Lajante</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Neuroscience">Consumer Neuroscience</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%27s%20emotion">Consumer's emotion</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emotions%20at%20the%20organizational%20frontlines">Emotions at the organizational frontlines</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Empathy%20in%20service%20settings">Empathy in service settings</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/mathieu-lajante">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="gil-lan">
+<img class="sresultphoto" src="/static/img/ryerson_76.jpeg" alt="Photo of Gil Lan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Gil Lan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20law">Business law</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20governance">Corporate governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20law">Corporate law</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=International%20business%20law">International business law</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/gil-lan">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="katie-lebel">
+<img class="sresultphoto" src="/static/img/katie-lebel.jpg" alt="Photo of Katie Lebel"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Katie Lebel</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Brand%20Management">Brand Management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Marketing">Digital Marketing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gender%20Equality%20in%20Sport">Gender Equality in Sport</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Social%20Impact%20of%20Sport">Social Impact of Sport</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/katie-lebel">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="howard-lin">
+<img class="sresultphoto" src="/static/img/howard-lin.jpg" alt="Photo of Howard Lin"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Howard Lin</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20in%20China">Business in China</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Commercialization">Commercialization</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cross-cultural%20management">Cross-cultural management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emerging%20markets">Emerging markets</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/howard-lin">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="vanessa-magness">
+<img class="sresultphoto" src="/static/img/ryerson_209.jpeg" alt="Photo of Vanessa Magness"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Vanessa Magness</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20cost%20management">Environmental cost management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20reporting">Environmental reporting</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Shareholder%20reactions%20to%20environmental%20management">Shareholder reactions to environmental management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/vanessa-magness">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="joanne-mcneish">
+<img class="sresultphoto" src="/static/img/joanne-mcneish.jpeg" alt="Photo of Joanne McNeish"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Joanne McNeish</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Branding">Branding</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Catalogues%2C%20flyers%20and%20magazines">Catalogues, flyers and magazines</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20trust/distrust%20of%20organizations">Consumer trust/distrust of organizations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumers%20and%20cloud%20computing">Consumers and cloud computing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/joanne-mcneish">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="horatio-morgan">
+<img class="sresultphoto" src="/static/img/horatioMorganC.jpeg" alt="Photo of Horatio M. Morgan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Horatio M. Morgan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Export%20promotion">Export promotion</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Export%20strategies%20for%20small%20to%20medium%20enterprises">Export strategies for small to medium enterprises</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigrant%20entrepreneurship">Immigrant entrepreneurship</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Innovation%20and%20entrepreneurship%20policy">Innovation and entrepreneurship policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/horatio-morgan">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="roy-morley">
+<img class="sresultphoto" src="/static/img/ryerson_182.jpeg" alt="Photo of Roy Morley"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Roy Morley</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20to%20business%20marketing">Business to business marketing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Customer%20satisfaction">Customer satisfaction</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Service%20operations%20management">Service operations management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Service%20quality">Service quality</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/roy-morley">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="matthew-philp">
+<img class="sresultphoto" src="/static/img/matthew-philp.jpg" alt="Photo of Matthew Philp"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Matthew Philp</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Branding%2C%20Advertising%2C%20and%20Loyalty">Branding, Advertising, and Loyalty</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Behaviour/Psychology">Consumer Behaviour/Psychology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Dissatisfaction">Consumer Dissatisfaction</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Identity%20%28w/%20products%2C%20brands%2C%20lifestyles%2C%20etc.%29">Consumer Identity (w/ products, brands, lifestyles, etc.)</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/matthew-philp">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="martin-pyle">
+<img class="sresultphoto" src="/static/img/martin-pyle.jpg" alt="Photo of Martin Pyle"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Martin Pyle</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Appeal%20of%20violence%20in%20video%20games">Appeal of violence in video games</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Online%20reviews%20%28restaurants%2C%20hotels%29">Online reviews (restaurants, hotels)</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Reviews%20by%20word-of-mouth">Reviews by word-of-mouth</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Violent%20depictions%20in%20the%20media">Violent depictions in the media</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/martin-pyle">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="vik-singh">
+<img class="sresultphoto" src="/static/img/vik-singh.jpg" alt="Photo of Vik Singh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Vik Singh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Chinese%20state%20owned%20enterprise">Chinese state owned enterprise</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Culture%20dimensions%20and%20global%20economy">Culture dimensions and global economy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Global%20financial%20markets">Global financial markets</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Housing%20market%20and%20immigrants">Housing market and immigrants</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/vik-singh">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="fei-song">
+<img class="sresultphoto" src="/static/img/fei-song.jpg" alt="Photo of Fei Song"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Fei Song</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Behaviourial%20decision%20making">Behaviourial decision making</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Bonus%20incentive%20programs">Bonus incentive programs</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20competition">Business competition</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20ethics">Business ethics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/fei-song">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sui-sui">
+<img class="sresultphoto" src="/static/img/sui-sui.jpg" alt="Photo of Sui Sui"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sui Sui</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada-China%20trade%20relations">Canada-China trade relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada-US%20trade%20relations">Canada-US trade relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Export%20strategy">Export strategy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Immigrant%20entrepreneurs">Immigrant entrepreneurs</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sui-sui">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="james-tiessen">
+<img class="sresultphoto" src="/static/img/james-tiessen.jpg" alt="Photo of James Tiessen"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">James Tiessen</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canada-Japan%20relations">Canada-Japan relations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Covid-19%20and%20health%20care%20policy">Covid-19 and health care policy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Health%20and%20Long%20Term%20Care%20Policy%20and%20Management">Health and Long Term Care Policy and Management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Japanese%20healthcare%20policy">Japanese healthcare policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/james-tiessen">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="daniel-tsai">
+<img class="sresultphoto" src="/static/img/daniel-tsai.jpg" alt="Photo of Daniel Tsai"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Daniel Tsai</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Artificial%20intelligence%20and%20the%20law">Artificial intelligence and the law</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Banking">Banking</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20ethics">Business ethics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20law">Business law</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/daniel-tsai">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="dave-valliere">
+<img class="sresultphoto" src="/static/img/dave-valliere.jpg" alt="Photo of Dave Valliere"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dave Valliere</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Banking%20industry">Banking industry</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20strategy">Business strategy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Commercialization%20of%20innovation">Commercialization of innovation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Economic%20functions%20of%20entrepreneurship">Economic functions of entrepreneurship</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/dave-valliere">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="philip-walsh">
+<img class="sresultphoto" src="/static/img/philip-walsh.jpg" alt="Photo of Philip Walsh"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Philip Walsh</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Energy">Energy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Energy%20economics">Energy economics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Energy%20storage">Energy storage</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Honesty%20culture%20in%20organizations">Honesty culture in organizations</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/philip-walsh">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sean-wise-1">
+<img class="sresultphoto" src="/static/img/seanWise.jpeg" alt="Photo of Sean Wise"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sean Wise</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Angel%20investing">Angel investing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Business%20reality%20TV">Business reality TV</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20technology">Digital technology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Dragon%27s%20Den">Dragon's Den</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sean-wise-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="margaret-yap-1">
+<img class="sresultphoto" src="/static/img/ryerson_135.jpeg" alt="Photo of Margaret Yap"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Margaret Yap</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Diversity%20in%20organizations">Diversity in organizations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Earnings%20and%20advancement%20in%20organizations">Earnings and advancement in organizations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gender%20and%20race/ethnicity">Gender and race/ethnicity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Human%20resource%20managment%20in%20global%20economy">Human resource managment in global economy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/margaret-yap-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="ayse-yuce">
+<img class="sresultphoto" src="/static/img/ayse-yuce.jpg" alt="Photo of Ayse Yuce"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ayse Yuce</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emerging%20markets">Emerging markets</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Foreign%20direct%20investments">Foreign direct investments</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gender%20and%20investment">Gender and investment</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Investments">Investments</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ayse-yuce">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="deborah-delange">
+<img class="sresultphoto" src="/static/img/deborah-delange.jpg" alt="Photo of Deborah de Lange"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Deborah de Lange</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Clean%20technology">Clean technology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20governance">Corporate governance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20strategy">Corporate strategy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=High%20tech%20strategy">High tech strategy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/deborah-delange">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Ted Rogers School of Hospitality and Tourism</p>
+
+
+
+<div class="grayBorderedBox sresult" id="frederic-dimanche">
+<img class="sresultphoto" src="/static/img/frederic-dimanche.jpg" alt="Photo of Frederic Dimanche"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Frederic Dimanche</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Covid-19%20and%20tourism">Covid-19 and tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Customer%20service%20design%20strategies">Customer service design strategies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Event%20marketing">Event marketing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Hospitality%20marketing">Hospitality marketing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/frederic-dimanche">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="rachel-dodds">
+<img class="sresultphoto" src="/static/img/rachel-dodds.jpg" alt="Photo of Rachel Dodds"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Rachel Dodds</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20social%20responsibility">Corporate social responsibility</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Island%20tourism">Island tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Sustainable%20tourism">Sustainable tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Tourism">Tourism</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/rachel-dodds">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sonya-graci">
+<img class="sresultphoto" src="/static/img/sonya-graci.jpg" alt="Photo of Sonya Graci"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sonya Graci</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20social%20responsibility">Corporate social responsibility</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Destination%20management">Destination management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20management">Environmental management</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Indigenous%20tourism">Indigenous tourism</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sonya-graci">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="kelly-mackay">
+<img class="sresultphoto" src="/static/img/kelly-mackay.jpg" alt="Photo of Kelly MacKay"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Kelly MacKay</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Destination%20marketing">Destination marketing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Information%20technology%20and%20tourist%20behaviour">Information technology and tourist behaviour</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Nature-based%20tourism">Nature-based tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Tourist%20motivation">Tourist motivation</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/kelly-mackay">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="wayne-smith">
+<img class="sresultphoto" src="/static/img/wayne-smith.jpg" alt="Photo of Wayne Smith"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Wayne Smith</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Behaviour%20%26%20Tourism">Consumer Behaviour & Tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Crisis%20Management%20%26%20Tourism">Crisis Management & Tourism</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Customer%20service%20design%20strategies">Customer service design strategies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Destination%20Management%20%26%20Marketing">Destination Management & Marketing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/wayne-smith">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Ted Rogers School of Information Technology Management</p>
+
+
+
+<div class="grayBorderedBox sresult" id="ron-babin">
+<img class="sresultphoto" src="/static/img/ron-babin.jpg" alt="Photo of Ron Babin"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ron Babin</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Corporate%20Social%20Responsibility">Corporate Social Responsibility</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Transformation">Digital Transformation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Disruptive%20Innovation">Disruptive Innovation</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20Impacts%20of%20Global%20IT%20Outsourcing">Environmental Impacts of Global IT Outsourcing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ron-babin">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="linyinglin-dong">
+<img class="sresultphoto" src="/static/img/linyinglin-dong.jpg" alt="Photo of Linying (Lin) Dong"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Linying (Lin) Dong</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Adoption%20of%20IT%20innovations">Adoption of IT innovations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Group%20Dynamics">Group Dynamics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Implementation%20of%20IT%20innovations">Implementation of IT innovations</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Leadership%20in%20IT%20management">Leadership in IT management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/linyinglin-dong">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="deborah-fels">
+<img class="sresultphoto" src="/static/img/deborah-fels.jpg" alt="Photo of Deborah Fels"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Deborah Fels</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Access%20to%20computers%20for%20people%20with%20disability">Access to computers for people with disability</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Information%20technology%20human%20factors">Information technology human factors</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Multi-media%20interfaces%20in%20the%20rehabilitation%20field">Multi-media interfaces in the rehabilitation field</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Online%20applications%20for%20disabiled%20people">Online applications for disabiled people</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/deborah-fels">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="robert-hudyma">
+<img class="sresultphoto" src="/static/img/robert-hudyma.jpg" alt="Photo of Robert Hudyma"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Robert Hudyma</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Algorithms">Algorithms</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Deep%20learning">Deep learning</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Information%20security">Information security</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Wireless%20communications%20system">Wireless communications system</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/robert-hudyma">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="atefehatty-mashatan">
+<img class="sresultphoto" src="/static/img/atefehatty-mashatan.jpg" alt="Photo of Atefeh (Atty) Mashatan"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Atefeh (Atty) Mashatan</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Blockchain">Blockchain</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Computer%20security">Computer security</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cryptography">Cryptography</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cyber%20security">Cyber security</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/atefehatty-mashatan">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="catherine-middleton-1">
+<img class="sresultphoto" src="/static/img/catherine-middleton-1.jpg" alt="Photo of Catherine Middleton"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Catherine Middleton</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Adopting%20new%20technologies">Adopting new technologies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Broadband">Broadband</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cellphone%20industry">Cellphone industry</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Communications%20policy">Communications policy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/catherine-middleton-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="ozgur-turetken">
+<img class="sresultphoto" src="/static/img/ozgur-turetken.jpg" alt="Photo of Ozgur Turetken"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Ozgur Turetken</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=AI%20applications">AI applications</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Analytics">Analytics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Artificial%20intelligence">Artificial intelligence</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Everyday%20use%20of%20technology">Everyday use of technology</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/ozgur-turetken">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Ted Rogers School of Retail Management</p>
+
+
+
+<div class="grayBorderedBox sresult" id="brent-barr">
+<img class="sresultphoto" src="/static/img/brent-barr.jpg" alt="Photo of Brent Barr"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Brent Barr</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20marketing%20%26%20promotional%20strategies">Canadian marketing & promotional strategies</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20retail%20business">Canadian retail business</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Franchising">Franchising</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Small%20business%20management">Small business management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/brent-barr">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="frances-gunn">
+<img class="sresultphoto" src="/static/img/frances-gunn.jpg" alt="Photo of Frances Gunn"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Frances Gunn</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Customer%20service">Customer service</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Human%20resources">Human resources</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Loss%20prevention%20in%20retail">Loss prevention in retail</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Retail%20managment">Retail managment</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/frances-gunn">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="tony-hernandez">
+<img class="sresultphoto" src="/static/img/ryerson_204.jpeg" alt="Photo of Tony Hernandez"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Tony Hernandez</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Canadian%20retailing">Canadian retailing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Geographic%20Information%20Systems">Geographic Information Systems</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Location%20research">Location research</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Retail%20geography">Retail geography</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/tony-hernandez">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jenna-jacobson-1">
+<img class="sresultphoto" src="/static/img/jenna-jacobson-1.jpg" alt="Photo of Jenna Jacobson"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jenna Jacobson</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Branding">Branding</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Digital%20Media%20%26%20Culture">Digital Media & Culture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Identity">Identity</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Influencer%20Marketing">Influencer Marketing</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jenna-jacobson-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="seunghwanmark-lee">
+<img class="sresultphoto" src="/static/img/seunghwanmark-lee.jpg" alt="Photo of Seung Hwan (Mark) Lee"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Seung Hwan (Mark) Lee</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Branding">Branding</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Marketing/retail%20education">Marketing/retail education</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Multi-channel%20retailing">Multi-channel retailing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Online%20retail">Online retail</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/seunghwanmark-lee">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="janice-rudkowski">
+<img class="sresultphoto" src="/static/img/janice-rudkowski.jpg" alt="Photo of Janice Rudkowski"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Janice Rudkowski</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Retail%20buying">Retail buying</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Retail%20marketing%20and%20branding">Retail marketing and branding</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Supply%20chain%20management">Supply chain management</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/janice-rudkowski">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="norman-shaw">
+<img class="sresultphoto" src="/static/img/norman-shaw.jpg" alt="Photo of Norman Shaw"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Norman Shaw</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Consumer%20Acceptance%20of%20Digital%20Wallet">Consumer Acceptance of Digital Wallet</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Mobile%20Devices%20and%20eCommerce">Mobile Devices and eCommerce</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Smartphone%20Usage%20in%20Hospitality">Smartphone Usage in Hospitality</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Smartphone%20Usage%20in%20Retail">Smartphone Usage in Retail</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/norman-shaw">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="donna-smith-1">
+<img class="sresultphoto" src="/static/img/donna-smith-1.jpg" alt="Photo of Donna Smith"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Donna Smith</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Department%20stores">Department stores</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Family%20businesses">Family businesses</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Nordstrom">Nordstrom</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Social%20media">Social media</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/donna-smith-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="hong-yu">
+<img class="sresultphoto" src="/static/img/hong-yu.jpg" alt="Photo of Hong Yu"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Hong Yu</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Accessible%20retail%20design">Accessible retail design</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Multi-channel%20retailing">Multi-channel retailing</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Older%20consumers">Older consumers</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Shopping%20experience">Shopping experience</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/hong-yu">View Profile</a>
+</div>
+
+
+</div>
+<div class="clear" style="height: 2em;"></div>
+<script type="text/javascript">
+$('.sresult').hover(
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #b3b3b3');
+    },
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #d5d5d5');
+    }
+);
+
+var scaleCards = function () {
+    var maxHeight = 0;
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (vw > 768)
+    {
+        if ( (vw - 0.02*vw*2) / 300 >= 3 )
+        {
+            var cards_per_row = Math.floor((vw - 0.02*vw*2) / 300);
+            $('#sresults').css('width', 300 * cards_per_row + "px");
+            $('#sresults').css('margin', '0 auto');
+            $('.sresult').css('width', '290px');
+        }
+        else
+        {
+            $('#sresults').css('width', Math.floor((vw - 0.02*vw*2) / 250) + "px");
+            $('#sresults').css('margin', '0 auto');
+        }
+    }
+
+    var categories = $('.categories');
+    var shadedSections = $('.shadedSection');
+    var sresults = $('.sresult');
+
+    var getMaxHeight = function (index, element) {
+        maxHeight = ($(element).height() > maxHeight) ? $(element).height() : maxHeight;
+    };
+
+    var setHeight = function (index, element) {
+        $(element).height(maxHeight + "px");
+    };
+
+    maxHeight = 0;
+    categories.each(getMaxHeight);
+    categories.each(setHeight);
+    maxHeight = 0;
+    shadedSections.each(getMaxHeight);
+    shadedSections.each(setHeight);
+    maxHeight = 0;
+    sresults.each(getMaxHeight);
+    sresults.each(setHeight);
+};
+
+var removeStyleTags = function () {
+    var sresults = $('#sresults, .sresult, .categories, .shadedSection');
+    sresults.each(function (index, element) {$(element).removeAttr('style')});
+};
+
+$(window).load(scaleCards);
+$(window).resize(function () {removeStyleTags(); _.debounce(scaleCards, 100)();});
+</script>
+
+</div>
+<script type="text/javascript">
+if (document.getElementById('mainHeader') !== null) {
+    jQuery.fn.headerPush = function () {
+        if ($('#mainHeader').css('display') !== 'none') 
+        {
+            this.css("padding-top", $('#mainHeader').outerHeight() + "px");
+        }
+        else
+        {
+            this.css("padding-top", "0");
+        }
+        return this;
+    }
+
+    $('#pushedContainer').headerPush();
+    $(window).resize(function(){$('#pushedContainer').headerPush()});
+}
+</script>
+<div id="footerpusher"></div>
+</div>
+
+<footer>
+<p id="orgAddress">
+&copy; <script type="text/javascript">var year = new Date().getFullYear(); $('#orgAddress').append(year)</script> | Ryerson University | 350 Victoria Street, Toronto, Ontario, Canada M5B 2K3 | (416) 979-5000
+</p>
+<p id="poweredBy">
+Powered by
+<a href="https://expertisefinder.com/" rel="nofollow"><img src="/static/img/expertise_finder_logo.png" style="height: 45px; display: block; margin: 0 auto; padding-top: 5px;" alt="Link to expertisefinder.com"/></a>
+</p>
+<div class="clear"></div>
+</footer>
+<script type="text/javascript">
+var setFooterHeight = function () {
+    var globalwrapper = $('#globalwrapper');
+    var pusher = $('#footerpusher');
+    var footer_size = $('footer').outerHeight() + "px";
+
+    globalwrapper.css('margin-bottom', "-" + footer_size);
+    pusher.height(footer_size);
+};
+
+setFooterHeight();
+$(window).resize(setFooterHeight);
+</script>
+
+<script type="text/javascript">
+var fetchQuery = null;
+var fetchResultsCallback = null;
+
+var fetchResults = _.debounce(function() {
+    $.get('/suggester?query=' + fetchQuery, function(data) {
+        if(fetchResultsCallback)
+	    fetchResultsCallback(data);
+    });
+}, 300);
+
+$('#suggest-enabled .typeahead').typeahead(
+  {
+    hint: false,
+    highlight: false,
+    minLength: 1
+  },
+  {
+    name: 'suggestions',
+    limit: 10,
+    display: 'suggestion',
+    source: function(query, syncResults, asyncResults) {
+        fetchQuery = query;
+        fetchResultsCallback = asyncResults;
+        fetchResults();
+    }
+  }
+).on("typeahead:render", function() {
+    var searchTerm = $(this).val();
+    $(".tt-suggestion").each(function () {
+        $(this).mark(
+            searchTerm,
+            {
+                'element': 'strong',
+                'className': '',
+                'separateWordSearch': false,
+                'acrossElements': true,
+                'accuracy': 'partially',
+                'diacritics': true,
+                'caseSensitive': false,
+                'filter': function (node, term, totalCounter, counter) {
+                    if (counter >= 1) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        );
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,824 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-9', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/asc/xmlrpc.php" />
+
+  <title>Previous Exhibits &#8211; Ryerson Archives &amp; Special Collections</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Feed" href="https://library.ryerson.ca/asc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Comments Feed" href="https://library.ryerson.ca/asc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Previous Exhibits Comments Feed" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='child-pages-shortcode-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/css/child-pages-shortcode.min.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/public.css?ver=2.7' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/lightGallery.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dashicons.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='galleria-classic-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.css?ver=1.6.1' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/js/child-pages-shortcode.min.js?ver=1.1.4' id='child-pages-shortcode-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/lightGallery.min.js?ver=1.0' id='slickr-flickr-lightbox-js'></script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/galleria-1.6.1.min.js?ver=1.6.1' id='galleria-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.min.js?ver=1.6.1' id='galleria-classic-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/responsiveslides.min.js?ver=1.54' id='rslides-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/public.js?ver=2.7' id='slickr-flickr-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=%2Fasc%2Fexhibits%2Fprevious-sc-exhibits%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/asc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/asc/wp-json/wp/v2/pages/142" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/asc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/asc/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/" />
+<link rel='shortlink' href='https://wp.me/P2HpLS-2i' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2Fexhibits%2Fprevious-sc-exhibits%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2Fexhibits%2Fprevious-sc-exhibits%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/asc/custom-css/asc_style.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Previous Exhibits" />
+<meta property="og:url" content="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/" />
+<meta property="og:description" content="2018 First Edition Photobook Award Winners (November 19, 2018 &#8211; June 24, 2019) As part of the MPS507, a 3rd year Ryerson University Image Arts class in the photographic book, students conceiv…" />
+<meta property="article:published_time" content="2012-08-08T19:47:40+00:00" />
+<meta property="article:modified_time" content="2020-04-22T18:42:13+00:00" />
+<meta property="og:site_name" content="Ryerson Archives &amp; Special Collections" />
+<meta property="og:image" content="https://library.ryerson.ca/asc/files/IMG_0484.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1172" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+<meta name="twitter:text:title" content="Previous Exhibits" />
+<meta name="twitter:image" content="https://library.ryerson.ca/asc/files/IMG_0484.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			#main {
+	margin-top: 1em;
+}
+span.h1 a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="page-template-default page page-id-142 page-child parent-pageid-139">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Ryerson Archives and Special Collections will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/asc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/asc">Ryerson Archives &amp; Special Collections</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/asc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-site-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261 dropdown"><a title="Research" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Research <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a title="Conduct Research" href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a title="Collection Highlights" href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a title="Language in Archival Descriptions" href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a title="Search our Collections" href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6156" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-6156 dropdown"><a title="Exhibitions &amp; Events" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Exhibitions &#038; Events <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6159" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-6159"><a title="Current Exhibits" href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-6160 active"><a title="Previous Exhibits" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/">Previous Exhibits</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157 dropdown"><a title="About Us" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About Us <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a title="Archives" href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a title="Special Collections" href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a title="Donations" href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a title="Hours &amp; Location" href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158 dropdown"><a title="More" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">More <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a title="Records Management" href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a title="Ryerson History" href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a title="Links" href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a title="COVID-19 Archives" href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12 col-md-9">
+          
+    
+      
+<article id="post-142" class="post-142 page type-page status-publish hentry">
+			<header class="entry-header">
+			<h1 class="entry-title">Previous Exhibits</h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+		
+		
+<h3>2018 First Edition Photobook Award Winners (November 19, 2018 &#8211; June 24, 2019)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:46% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="6491" data-permalink="https://library.ryerson.ca/asc/home/img_0484/" data-orig-file="https://library.ryerson.ca/asc/files/IMG_0484.jpg" data-orig-size="1200,1172" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1542722532&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;9.565&quot;,&quot;iso&quot;:&quot;233&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0484" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/IMG_0484-300x293.jpg" data-large-file="https://library.ryerson.ca/asc/files/IMG_0484-600x586.jpg" loading="lazy" width="600" height="586" src="https://library.ryerson.ca/asc/files/IMG_0484-600x586.jpg" alt="" class="wp-image-6491" srcset="https://library.ryerson.ca/asc/files/IMG_0484-600x586.jpg 600w, https://library.ryerson.ca/asc/files/IMG_0484-150x147.jpg 150w, https://library.ryerson.ca/asc/files/IMG_0484-300x293.jpg 300w, https://library.ryerson.ca/asc/files/IMG_0484-768x750.jpg 768w, https://library.ryerson.ca/asc/files/IMG_0484.jpg 1200w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="wp-block-media-text__content">
+<p>As part of the MPS507, a 3rd year Ryerson University Image Arts class in the photographic book, students conceive of, and create their own photobook. This is, in part, related to work that has been completed in the co-requisite class, MPS506 &#8211; Photographic Production. These are both required courses for the Bachelor of Fine Arts (Image Arts) Photography Studies option. Each year the Library purchases the top photobooks in the class from the creator. The books are judged at the First Edition Photobook Show &#8211; an exhibition held at the end of the semester. They are catalogued by the Library and they are housed in Special Collections, where they are available for viewing. Read the blog for more information on the <a href="https://library.ryerson.ca/asc/2018/11/first-edition-photobook-award-2018-award-winners/" target="_blank" rel="noreferrer noopener">books</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Ryerson 7025 (June 1, 2018 &#8211; October 31, 2018)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:47% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="6270" data-permalink="https://library.ryerson.ca/asc/home/anniversary_exhibit_edited/" data-orig-file="https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited.jpg" data-orig-size="500,500" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Anniversary_exhibit_edited" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited-300x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited.jpg" loading="lazy" width="500" height="500" src="https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited.jpg" alt="" class="wp-image-6270" srcset="https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited.jpg 500w, https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited-150x150.jpg 150w, https://library.ryerson.ca/asc/files/Anniversary_exhibit_edited-300x300.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure><div class="wp-block-media-text__content">
+<p>Come Celebrate Ryerson&#8217;s special double anniversary year &#8211; 70 years old and 25 years young. In conjunction with University wide celebrations, The Ryerson University Archives has created an exhibit looking back at the history of the school. The exhibit is divided into 5 sections: <a href="https://library.ryerson.ca/asc/2018/05/ryerson-7025-five-pivotal-moments-in-ryersons-history/" target="_blank" rel="noreferrer noopener">5 pivotal moments in Ryerson&#8217;s History</a>; <a href="https://library.ryerson.ca/asc/2018/07/ryerson-7025-student-groups-and-clubs/" target="_blank" rel="noreferrer noopener">Student Groups and Clubs</a>; <a href="https://library.ryerson.ca/asc/2018/08/ryerson-7025-student-government/" target="_blank" rel="noreferrer noopener">Student Government</a>; <a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/" target="_blank" rel="noreferrer noopener">Student Housing</a>, and <a href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/" target="_blank" rel="noreferrer noopener">Athletics and Intramurals</a>. Visit the University&#8217;s anniversary website <a href="https://www.ryerson.ca/double-anniversary/" target="_blank" rel="noreferrer noopener">here</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Projecting Magic (October 25, 2017 &#8211; December 31, 2017)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:45% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="5973" data-permalink="https://library.ryerson.ca/asc/exhibits/img_0406/" data-orig-file="https://library.ryerson.ca/asc/files/2017/10/IMG_0406.jpg" data-orig-size="844,1472" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1509005772&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0406" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2017/10/IMG_0406-172x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2017/10/IMG_0406-344x600.jpg" loading="lazy" width="344" height="600" src="https://library.ryerson.ca/asc/files/2017/10/IMG_0406-344x600.jpg" alt="" class="wp-image-5973" srcset="https://library.ryerson.ca/asc/files/2017/10/IMG_0406-344x600.jpg 344w, https://library.ryerson.ca/asc/files/2017/10/IMG_0406-86x150.jpg 86w, https://library.ryerson.ca/asc/files/2017/10/IMG_0406-172x300.jpg 172w, https://library.ryerson.ca/asc/files/2017/10/IMG_0406-768x1339.jpg 768w, https://library.ryerson.ca/asc/files/2017/10/IMG_0406.jpg 844w" sizes="(max-width: 344px) 100vw, 344px" /></figure><div class="wp-block-media-text__content">
+<p>Highlighting the history of early optical projection and pre-cinematic technology. The exhibit features magic lantern projectors, hand painted lithographic and photographic glass slides from the John Tysall Magic Lantern Collection and the Lorne Shields Historical Photographic Collection. The exhibit is curated by Jocelyn Oprzedek and Olivia Wong. Learn more about the exhibit <a href="https://library.ryerson.ca/asc/2017/10/new-exhibition-projecting-magic/" target="_blank" rel="noreferrer noopener">here</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>The Wellesley Hospital School of Nursing Alumnae Association collection (May 27, 2017 &#8211; December 31, 2017)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="2513" data-permalink="https://library.ryerson.ca/asc/2011/08/feature-from-the-collection-wellesley-hospital-school-of-nursing/dsc_04581/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/DSC_04581.jpg" data-orig-size="298,448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;4.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D40&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1336655107&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;30&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.076923076923077&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Wellesley nursing uniform and cape" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/DSC_04581-199x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/DSC_04581.jpg" loading="lazy" width="298" height="448" src="https://library.ryerson.ca/asc/files/2012/08/DSC_04581.jpg" alt="" class="wp-image-2513" srcset="https://library.ryerson.ca/asc/files/2012/08/DSC_04581.jpg 298w, https://library.ryerson.ca/asc/files/2012/08/DSC_04581-99x150.jpg 99w, https://library.ryerson.ca/asc/files/2012/08/DSC_04581-199x300.jpg 199w" sizes="(max-width: 298px) 100vw, 298px" /></figure><div class="wp-block-media-text__content">
+<p>The Wellesley Hospital School of Nursing Alumnae Association collection of School, Hospital, and Alumnae Association Records. To search the collection please visit our <a href="https://archives.library.ryerson.ca/index.php/the-wellesley-hospital-school-of-nursing-alumnae-association-fonds" target="_blank" rel="noreferrer noopener">database</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Canada 150: Picturing the Canadian Landscape</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="5869" data-permalink="https://library.ryerson.ca/asc/home/picturingthecanadianlandscape_sq/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/PicturingTheCanadianLandscape_SQ-e1493838879260.jpg" data-orig-size="500,500" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1492617124&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="PicturingTheCanadianLandscape_SQ" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/PicturingTheCanadianLandscape_SQ-300x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/PicturingTheCanadianLandscape_SQ-600x600.jpg" loading="lazy" width="600" height="600" src="https://library.ryerson.ca/asc/files/2012/08/PicturingTheCanadianLandscape_SQ-600x600.jpg" alt="" class="wp-image-5869"/></figure><div class="wp-block-media-text__content">
+<p>An exhibit of photographs, books, cameras, and ephemera from the <a href="https://archives.library.ryerson.ca/index.php/lorne-shields-historical-photograph-collection" target="_blank" rel="noreferrer noopener">Lorne Shields Historical Photograph Collection</a>, the <a href="https://archives.library.ryerson.ca/index.php/heritage-camera-collection" target="_blank" rel="noreferrer noopener">Heritage Camera collection</a>, and the <a href="https://archives.library.ryerson.ca/index.php/kodak-canada-corporate-archives-and-heritage-collection" target="_blank" rel="noreferrer noopener">Kodak Canada Corporate Archives</a>. The exhibit showcases Canada&#8217;s natural landscape and our interactions with it. Curated by Ryerson Image Arts students Bowie Fan, Gabriele Tai, Georgia Love, Justine Marasigan and Lodoe Laura. To learn more about the exhibit &#8211; read the <a href="https://library.ryerson.ca/asc/2017/04/new-exhibition-canada-150-picturing-the-canadian-landscape/" target="_blank" rel="noreferrer noopener">blog post</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Special Collections 10th Anniversary</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:36% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="5580" data-permalink="https://library.ryerson.ca/asc/2016/02/special-collections-celebrating-10-years/untitled-2/" data-orig-file="https://library.ryerson.ca/asc/files/2016/02/Untitled-2.png" data-orig-size="256,256" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Untitled-2" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/02/Untitled-2.png" data-large-file="https://library.ryerson.ca/asc/files/2016/02/Untitled-2.png" loading="lazy" width="256" height="256" src="https://library.ryerson.ca/asc/files/2016/02/Untitled-2.png" alt="" class="wp-image-5580" srcset="https://library.ryerson.ca/asc/files/2016/02/Untitled-2.png 256w, https://library.ryerson.ca/asc/files/2016/02/Untitled-2-150x150.png 150w" sizes="(max-width: 256px) 100vw, 256px" /></figure><div class="wp-block-media-text__content">
+<p>2015 marked the 10th Anniversary of Special Collections at the Ryerson University Library. It seems like a good time to have a look back at where we came from and where we are headed. Read more about it <a href="https://library.ryerson.ca/asc/2016/02/special-collections-celebrating-10-years/" target="_blank" rel="noreferrer noopener">here</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>First Edition Book Award, 2015</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:51% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="5503" data-permalink="https://library.ryerson.ca/asc/2015/11/first-edition-book-award-2015/firsteditiontitle-1/" data-orig-file="https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1.jpg" data-orig-size="500,450" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="First Edition Book Award 2015" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1-300x270.jpg" data-large-file="https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1.jpg" loading="lazy" width="500" height="450" src="https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1.jpg" alt="" class="wp-image-5503" srcset="https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1.jpg 500w, https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1-150x135.jpg 150w, https://library.ryerson.ca/asc/files/2015/11/firsteditionTitle-1-300x270.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure><div class="wp-block-media-text__content">
+<p>Students in the 3rd year of the Photography Program at Ryerson conceive of and create their own photobook featuring their original work. The books are judged at a year end exhibition and the top 5 books are purchased by the Library. We are thrilled to announce that 2015 marks the first annual awarding of the First Edition Book Awards, sponsored by Ryerson University Library Special Collections. The awardees this year are Evan Hutchinson, Lodoe Laura, Lucy Lu, Emily Pleasance, Kristina Smith, Imogen Wallis-Mayer, and Rebecca Zynomirski. To learn more about books, see the <a href="https://library.ryerson.ca/asc/2015/11/first-edition-book-award-2015/" target="_blank" rel="noreferrer noopener">blog</a>.</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Wellesley Hospital School of Nursing Alumnae Association 100th Anniversary (Summer 2015)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:56% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="5556" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/wellesley_exhibitionsign_outlined/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/Nurses.jpg" data-orig-size="886,511" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Wellesley_ExhibitionSign_Outlined&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Wellesley_ExhibitionSign_Outlined" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/Nurses-300x173.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/Nurses-600x346.jpg" loading="lazy" width="600" height="346" src="https://library.ryerson.ca/asc/files/2012/08/Nurses-600x346.jpg" alt="" class="wp-image-5556" srcset="https://library.ryerson.ca/asc/files/2012/08/Nurses-600x346.jpg 600w, https://library.ryerson.ca/asc/files/2012/08/Nurses-150x87.jpg 150w, https://library.ryerson.ca/asc/files/2012/08/Nurses-300x173.jpg 300w, https://library.ryerson.ca/asc/files/2012/08/Nurses.jpg 886w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="wp-block-media-text__content">
+<p>June 2015 marked the 100th Anniversary with the founding of the Wellesley Hospital School of Nursing Alumnae Association. To see what records we have in this collection please visit our <a href="https://archives.library.ryerson.ca/index.php/alumnae-association-sous-fonds" target="_blank" rel="noreferrer noopener">database</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Kodak in Toronto, 1899-2005: A Century of Traces (Spring 2015)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:48% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="4501" data-permalink="https://library.ryerson.ca/asc/2015/01/kodak-in-toronto-1899-2005-a-century-of-traces/thehomeofkodakincanada-2/" data-orig-file="https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2.jpg" data-orig-size="1067,1755" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1417020499&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="TheHomeOfKodakInCanada (2)" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-182x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-364x600.jpg" loading="lazy" width="364" height="600" src="https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-364x600.jpg" alt="" class="wp-image-4501" srcset="https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-364x600.jpg 364w, https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-91x150.jpg 91w, https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2-182x300.jpg 182w, https://library.ryerson.ca/asc/files/2014/12/TheHomeOfKodakInCanada-2.jpg 1067w" sizes="(max-width: 364px) 100vw, 364px" /></figure><div class="wp-block-media-text__content">
+<p>Over the course of its 106-year presence in Toronto, Kodak affected more than just the history of photography in Canada. In satisfying its need for cutting edge photographic manufacturing facilities, the company contributed several ambitious architectural projects to the cityscape. Through these contributions, Kodal left an indelible mark upon the city, from its turn of the century beginnings on Colborne Street, to the extensive complex in Mount Dennis, the traces of the Canadian branch of Kodak in Toronto are still visible today. This history was constructed from documents and artifacts from the Kodak Corporate Archives and Heritage Collections housed in Special Collections, <a href="https://archives.library.ryerson.ca/index.php/kodak-canada-corporate-archives-and-heritage-collection" target="_blank" rel="noreferrer noopener">search here</a>. Read more about this exhibit in the <a href="https://library.ryerson.ca/asc/2015/01/kodak-in-toronto-1899-2005-a-century-of-traces/" target="_blank" rel="noreferrer noopener">blog</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>The Changing Campus &#8211; 66 Years of building Ryerson (Winter 2015)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="4146" data-permalink="https://library.ryerson.ca/asc/2014/04/the-changing-campus-66-years-of-building-ryerson/rg122_10_92_02076/" data-orig-file="https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076.jpg" data-orig-size="600,435" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="RG122_10_92_02076" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076-300x217.jpg" data-large-file="https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076.jpg" loading="lazy" width="600" height="435" src="https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076.jpg" alt="" class="wp-image-4146" srcset="https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076.jpg 600w, https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076-150x108.jpg 150w, https://library.ryerson.ca/asc/files/2014/04/RG122_10_92_02076-300x217.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="wp-block-media-text__content">
+<p>Ryerson&#8217;s Campus is a work in progress. Since the school&#8217;s inception in 1948, it has slowly increased its footprint in the downtown core through aquistion, demolition, renovation, and original construction. View photographs, an architectural model, and memorabilia documenting the construction of 6 of the buildings that make up Ryerson University today. To read more about the exhibit &#8211; check out the <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2014/04/the-changing-campus-66-years-of-building-ryerson/" target="_blank">blog</a>. To learn more about Campus growth and construction, visit <a href="https://www.ryerson.ca/facilities-management-development/campus-design-construction/" target="_blank" rel="noreferrer noopener">Facilities Management and Development&#8217;s website</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>#WIRED: A Digital History of Ryerson University (January &#8211; March 2013)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:35% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="2746" data-permalink="https://library.ryerson.ca/asc/exhibits/exhibit-007/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/Exhibit-007.jpg" data-orig-size="264,198" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1358938668&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Exhibit 007" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/Exhibit-007.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/Exhibit-007.jpg" loading="lazy" width="264" height="198" src="https://library.ryerson.ca/asc/files/2012/08/Exhibit-007.jpg" alt="" class="wp-image-2746" srcset="https://library.ryerson.ca/asc/files/2012/08/Exhibit-007.jpg 264w, https://library.ryerson.ca/asc/files/2012/08/Exhibit-007-150x112.jpg 150w" sizes="(max-width: 264px) 100vw, 264px" /></figure><div class="wp-block-media-text__content">
+<p>Ryerson University began as a polytechnic institute devoted to the training of students in applied technology. This technical history has informed Ryerson&#8217;s identity and culture, playing a significant role in the way the University defines its relationship to the digital age. Bringing together diverse technological artifacts and historical materials from the Ryerson Archives, #WIRED is an exhibition that highlights pivotal moments in the digital evolution of Ryerson University. Read more about the exhibit in the <a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/" target="_blank" rel="noreferrer noopener">blog</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Photojournalism: Tools of the Trade (October 2012 &#8211; January 2013)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="2678" data-permalink="https://library.ryerson.ca/asc/2012/10/photojournalism-tools-of-the-trade/2012_exhibition_poster/" data-orig-file="https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster.jpg" data-orig-size="750,597" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Exhibition Poster" data-image-description="&lt;p&gt;Exhibition features cameras from the Ryerson Library Special Collections Historical Camera Collection and Images from the Black Star photojournalism collection at the Ryerson Image Centre.&lt;/p&gt;
+" data-medium-file="https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-300x238.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-600x477.jpg" loading="lazy" width="600" height="477" src="https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-600x477.jpg" alt="Photojournalism: Tools of the Trade" class="wp-image-2678" srcset="https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-600x477.jpg 600w, https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-150x119.jpg 150w, https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster-300x238.jpg 300w, https://library.ryerson.ca/asc/files/2012/10/2012_Exhibition_Poster.jpg 750w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="wp-block-media-text__content">
+<p>In recognition of the grand opening of the Ryerson Image Centre, Special Collections has put together a small exhibition featuring images of journalists from the Black Star collection with their cameras of choice and a selection of similar cameras from the <a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/heritage-camera-collection" target="_blank">Heritage Camera Collection</a> in Special Collections. Read the <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2012/10/photojournalism-tools-of-the-trade/" target="_blank">blog</a> for more information about his exhibit.</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Early Cameras from the Wilhelm E. Nassau Camera Collection (February 21 &#8211; April 2, 2012)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="755" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/nassau/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/nassau.jpg" data-orig-size="533,300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;4.5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D40&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1327682432&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;31&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.066666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="nassau" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/nassau-300x168.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/nassau.jpg" loading="lazy" width="533" height="300" src="https://library.ryerson.ca/asc/files/2012/08/nassau.jpg" alt="" class="wp-image-755" srcset="https://library.ryerson.ca/asc/files/2012/08/nassau.jpg 533w, https://library.ryerson.ca/asc/files/2012/08/nassau-300x168.jpg 300w" sizes="(max-width: 533px) 100vw, 533px" /></figure><div class="wp-block-media-text__content">
+<p>From the camera obscura to the box brownie, the artifacts on display showcase the history of camera design in the 19th century. Recently acquired from Wilfred Laurier University, this is merely a fraction of the nearly 500 cameras donated. Read more about the exhibit in the <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2012/04/the-wilhelm-e-nassau-camera-collection-at-ryerson-university/" target="_blank">blog</a>.</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>A Model Practice: Photographs from the Canadian Architect magazine archive (January 4 &#8211; February 12, 2012)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img data-attachment-id="758" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/model_practice/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/model_practice.jpg" data-orig-size="800,654" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="model_practice" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/model_practice-300x245.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/model_practice-600x490.jpg" loading="lazy" width="600" height="490" src="https://library.ryerson.ca/asc/files/2012/08/model_practice-600x490.jpg" alt="" class="wp-image-758" srcset="https://library.ryerson.ca/asc/files/2012/08/model_practice-600x490.jpg 600w, https://library.ryerson.ca/asc/files/2012/08/model_practice-150x122.jpg 150w, https://library.ryerson.ca/asc/files/2012/08/model_practice-300x245.jpg 300w, https://library.ryerson.ca/asc/files/2012/08/model_practice.jpg 800w" sizes="(max-width: 600px) 100vw, 600px" /></figure><div class="wp-block-media-text__content">
+<p>Photographs of models taken for Canadian Architect Magazine are on display in Special Collections on the Library&#8217;s 4th floor. These images were originally captured for project announcements, and today they give us as much to discuss as the finished buildings themselves. See the process that the architect goes through when bringing their idea to the public, and consider some of the challenges the architect faces in communicating with that audience. Here the idea of architecture is on display &#8211; judge for yourselves whether the real lives up to the imagined. Read our <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2012/01/a-model-practice-photographs-from-the-canadian-architect-magazine-archive/" target="_blank">blog</a> to learn more about this exhibit Search our database to see more from the <a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/canadian-architect-magazine-fonds" target="_blank">Canadian Architect magazine fond</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Alcuin Society Awards for Excellence in Book Design in Canada</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:41% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="757" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/alcuin/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/alcuin.jpg" data-orig-size="823,1224" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="alcuin" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/alcuin-201x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/alcuin-403x600.jpg" loading="lazy" width="403" height="600" src="https://library.ryerson.ca/asc/files/2012/08/alcuin-403x600.jpg" alt="" class="wp-image-757" srcset="https://library.ryerson.ca/asc/files/2012/08/alcuin-403x600.jpg 403w, https://library.ryerson.ca/asc/files/2012/08/alcuin-100x150.jpg 100w, https://library.ryerson.ca/asc/files/2012/08/alcuin-201x300.jpg 201w, https://library.ryerson.ca/asc/files/2012/08/alcuin.jpg 823w" sizes="(max-width: 403px) 100vw, 403px" /></figure><div class="wp-block-media-text__content">
+<p>The library is fortunate to host a traveling display of award-winning Canadian publications recognized by the Alcuin Society, a non-profit organization devoted to all aspects of books and reading. In order to promote an appreciation of fine books, the Society offers prestigious awards to Canadian book designers in several categories, all of which can be found in the display cases on the 2nd and 4th floors of the library. Among the titles on display are: Children&#8217;s book winner <a href="https://catalogue.library.ryerson.ca/search/t?SEARCH=The+Little+Hummingbird&amp;SUBMIT=Search" target="_blank" rel="noreferrer noopener">The Little Hummingbird</a> by Michael Nicoll Yahgulanaas, designed by Jessica Sullivan and Naomi MacDougall and published by Greystone books; 1st prize Prose category winner <a href="https://catalogue.library.ryerson.ca/search/t?SEARCH=I+am+a+japanese+writer&amp;SUBMIT=Search" target="_blank" rel="noreferrer noopener">I am a Japanese Writer </a>by Dany Laferrière, designed by Peter Cocking and published by Douglas &amp; McIntyre, and 1st prize Reference category winner The Conservation, Restoration, and Repair of Stringed Instruments and their Bows edited by Tom Wilder, designed by Emmelyne Pronillos and Laurie Castilloux-Bouchard, published by IPCI-Canada. For  more information on the society, please visit the <a href="https://alcuinsociety.com/" target="_blank" rel="noreferrer noopener">Alcuin Society website</a>.</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Canadian Fashion from the 60s, 70s and 80s (June 28 &#8211; August 15, 2011)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:44% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="754" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/canadianfashion/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/canadianfashion.jpg" data-orig-size="544,572" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;32&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D7000&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1314614216&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;105&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.01&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="canadianfashion" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/canadianfashion-285x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/canadianfashion.jpg" loading="lazy" width="544" height="572" src="https://library.ryerson.ca/asc/files/2012/08/canadianfashion.jpg" alt="" class="wp-image-754" srcset="https://library.ryerson.ca/asc/files/2012/08/canadianfashion.jpg 544w, https://library.ryerson.ca/asc/files/2012/08/canadianfashion-142x150.jpg 142w, https://library.ryerson.ca/asc/files/2012/08/canadianfashion-285x300.jpg 285w" sizes="(max-width: 544px) 100vw, 544px" /></figure><div class="wp-block-media-text__content">
+<p>The dresses from the Fashion Research Collection each use an unexpected fabric to achieve a distinct look for each decade, whether it is the plasticized cloth of <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2011/09/canadian-fashion-from-the-60s-70s-and-80s-on-display/" target="_blank">shiny copper 60s mini-dress</a>, a silver lurex suit with multicoloured threads from the disco-influenced 70s, or the 100% silk power suit from the 80s. To learn more about the Fashion Research Collection &#8211; visit their <a href="https://www.ryerson.ca/fashion/research-creative/fashion-research-collection/" target="_blank" rel="noreferrer noopener">website</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Cameras from the Kodak Canada Collection (June 28 &#8211; August 15, 2011)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:41% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="756" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/kodak_exhibit_poster/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster.jpg" data-orig-size="640,1067" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;Contact Ryerson University Library Special Collections for usage restrictions and copyright information.&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="kodak_exhibit_poster" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-179x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-359x600.jpg" loading="lazy" width="359" height="600" src="https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-359x600.jpg" alt="" class="wp-image-756" srcset="https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-359x600.jpg 359w, https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-89x150.jpg 89w, https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster-179x300.jpg 179w, https://library.ryerson.ca/asc/files/2012/08/kodak_exhibit_poster.jpg 640w" sizes="(max-width: 359px) 100vw, 359px" /></figure><div class="wp-block-media-text__content">
+<p>Taking a vacation this summer or just dreaming of one? Either way you can fantasize about the lovely pictures you&#8217;d take with one of the cameras <a href="https://library.ryerson.ca/asc/2011/06/cameras-on-display-in-special-collections/" target="_blank" rel="noreferrer noopener">on display</a> in Special Collections. Visit our <a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/photographic-equipment-and-materials-series" target="_blank">database</a> to see what other cameras are in this collection. </p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Flora &amp; Flutterbyes: Nature as inspiration and decoration (April 21 &#8211; June 27, 2011)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:35% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="759" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/flora_butterflies/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/flora_butterflies.jpg" data-orig-size="251,335" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="flora_butterflies" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/flora_butterflies-224x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/flora_butterflies.jpg" loading="lazy" width="251" height="335" src="https://library.ryerson.ca/asc/files/2012/08/flora_butterflies.jpg" alt="" class="wp-image-759" srcset="https://library.ryerson.ca/asc/files/2012/08/flora_butterflies.jpg 251w, https://library.ryerson.ca/asc/files/2012/08/flora_butterflies-112x150.jpg 112w, https://library.ryerson.ca/asc/files/2012/08/flora_butterflies-224x300.jpg 224w" sizes="(max-width: 251px) 100vw, 251px" /></figure><div class="wp-block-media-text__content">
+<p>The butterfly specimens on display were borrowed from the Cambridge Butterfly Conservatory, where at least 2000 free-flying tropical butterflies and moths are on exhibit throughout the year. Bred in Costa Rica or the Philippines, these vibrantly coloured species metamorphose on arrival in Canada inside equally colourful chrysalides (also known as pupae), and flit about their business in an indoor rainforest as part of an effort to preserve butterfly populations through a sustainable form of agriculture. Here the offer us a fascinating look at the incredible variety of species in the wild. To learn more about the exhibit, visit our <a href="https://library.ryerson.ca/asc/2011/04/butterflies-in-special-collections/" target="_blank" rel="noreferrer noopener">blog</a>. For more about the Cambridge Butterfly Conservatory, visit their <a rel="noreferrer noopener" href="https://www.cambridgebutterfly.com/" target="_blank">website</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Raw Materials: Inuit Sculpture from the Sylvia A. Morley Collection (March 10 &#8211; April 17, 2011)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:34% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="760" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/ryerson_inuit_poster1_web-2/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/raw_mat.jpg" data-orig-size="533,800" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Ryerson_Inuit_Poster1_web&quot;}" data-image-title="Ryerson_Inuit_Poster" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/raw_mat-199x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/raw_mat-399x600.jpg" loading="lazy" width="399" height="600" src="https://library.ryerson.ca/asc/files/2012/08/raw_mat-399x600.jpg" alt="" class="wp-image-760" srcset="https://library.ryerson.ca/asc/files/2012/08/raw_mat-399x600.jpg 399w, https://library.ryerson.ca/asc/files/2012/08/raw_mat-99x150.jpg 99w, https://library.ryerson.ca/asc/files/2012/08/raw_mat-199x300.jpg 199w, https://library.ryerson.ca/asc/files/2012/08/raw_mat.jpg 533w" sizes="(max-width: 399px) 100vw, 399px" /></figure><div class="wp-block-media-text__content">
+<p>Special Collections received a donation of Inuit Sculpture from a former Ryerson student who actively collected, both through galleries in the Toronto area and in person at norther co-ops. The collection offers us an opportunity to discuss the use of raw materials from different regions, as she collected examples from across the Arctic (perhaps favouring Baffin Island and Labrador), and the growing art production within Inuit communities over the latter half of the 20th century. The display also precedes the opening of a much larger exhibition of contemporary Inuit Art scheduled to open at the Art Gallery of Ontario &#8216;Inuit Modern: The Samuel and Ester Sarick Collection. To learn more about the Special Collections exhibit visit our <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2011/03/raw-materials-inuit-sculpture-from-the-sylvia-a-morley-collection/" target="_blank">blog</a>. To learn more about the AGO exhibit visit their <a href="https://ago.ca/exhibitions/inuit-modern-samuel-and-esther-sarick-collection" target="_blank" rel="noreferrer noopener">web page</a> </p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>What&#8217;s on the Table: The Designer&#8217;s Response</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:45% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="761" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/ryerson_rsid_poster-2/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/table.jpg" data-orig-size="849,1300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Ryerson_RSID_Poster&quot;}" data-image-title="RSID_Poster" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/table-195x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/table-391x600.jpg" loading="lazy" width="391" height="600" src="https://library.ryerson.ca/asc/files/2012/08/table-391x600.jpg" alt="" class="wp-image-761" srcset="https://library.ryerson.ca/asc/files/2012/08/table-391x600.jpg 391w, https://library.ryerson.ca/asc/files/2012/08/table-97x150.jpg 97w, https://library.ryerson.ca/asc/files/2012/08/table-195x300.jpg 195w, https://library.ryerson.ca/asc/files/2012/08/table.jpg 849w" sizes="(max-width: 391px) 100vw, 391px" /></figure><div class="wp-block-media-text__content">
+<p>The School of Interior Design is please to present an exhibit of student work that explores civic engagment, food security, design activism and experiential learning. Student partnered wit The Stop Community Food Centre to design a fund-raising item for their annual gala, which helps raise money for The Stop&#8217;s critical anti-hunger programs and services. To learn more about the exhibit. visit our <a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2011/02/whats-on-the-table-the-designers-response/" target="_blank">blog</a>. To learn more about The Stop, visit their <a href="https://www.thestop.org/" target="_blank" rel="noreferrer noopener">web site</a></p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Family Ties (February 2 &#8211; 22, 2011)</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:34% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="762" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/family_ties/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/family_ties.gif" data-orig-size="251,377" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="family_ties" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/family_ties-199x300.gif" data-large-file="https://library.ryerson.ca/asc/files/2012/08/family_ties.gif" loading="lazy" width="251" height="377" src="https://library.ryerson.ca/asc/files/2012/08/family_ties.gif" alt="" class="wp-image-762" srcset="https://library.ryerson.ca/asc/files/2012/08/family_ties.gif 251w, https://library.ryerson.ca/asc/files/2012/08/family_ties-99x150.gif 99w, https://library.ryerson.ca/asc/files/2012/08/family_ties-199x300.gif 199w" sizes="(max-width: 251px) 100vw, 251px" /></figure><div class="wp-block-media-text__content">
+<p>Words we use to express relationships change over time. Take the word “family”. Its meaning in the 21st century is very broad, referring just as often to single parent arrangements, step-parents and divorced parents, same-sex parents, cohabitating couples or independent children. Sometimes we think of our colleagues as forming our ‘work family’ or we call treasured family friends “aunt” or “uncle” when no blood relation exists. This is different from the early 20th century idea of a “nuclear family”, which referred only to two generations of the family living under one roof – two parents and child(ren). Around the 15th century, when the word first appeared in its Latin form familia, it referred only to the servants of a household (literally your “work family”!) This gradually broadened to mean the whole household, and eventually we see the emergence in the 17th century of the word “family” used to describe a group of related people, living inside or outside of the family home. How will “family” be defined in the future? Only time will tell, but it will probably be different..</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2>Faces</h2>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:41% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="763" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/faces/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/faces.jpg" data-orig-size="450,651" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="faces" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/faces-207x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/faces-414x600.jpg" loading="lazy" width="414" height="600" src="https://library.ryerson.ca/asc/files/2012/08/faces-414x600.jpg" alt="" class="wp-image-763" srcset="https://library.ryerson.ca/asc/files/2012/08/faces-414x600.jpg 414w, https://library.ryerson.ca/asc/files/2012/08/faces-103x150.jpg 103w, https://library.ryerson.ca/asc/files/2012/08/faces-207x300.jpg 207w, https://library.ryerson.ca/asc/files/2012/08/faces.jpg 450w" sizes="(max-width: 414px) 100vw, 414px" /></figure><div class="wp-block-media-text__content">
+<p>&#8220;FACES&#8221; took the place of our annual Holiday Photo Contest this year from December 1, 2010 &#8211; January 31, 2011. Participants were asked to play a guessing game with the famous faces on display, with a bonus  prize awarded for guessing which Librarian posed for our poster (the answer is in our <a href="https://library.ryerson.ca/asc/2011/01/faces-contest-closes-winners-will-be-notified-by-email/" target="_blank" rel="noreferrer noopener">blog</a>, if you&#8217;re curious). Names and faces were  revealed on January 23rd with prizes awarded. Thanks to all those who  played the game with us this holiday season!</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Edwardian Fashion</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:35% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="764" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/ed_fashion/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/ed_fashion.jpg" data-orig-size="2550,3300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="ed_fashion" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/ed_fashion-231x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/ed_fashion-463x600.jpg" loading="lazy" width="463" height="600" src="https://library.ryerson.ca/asc/files/2012/08/ed_fashion-463x600.jpg" alt="" class="wp-image-764" srcset="https://library.ryerson.ca/asc/files/2012/08/ed_fashion-463x600.jpg 463w, https://library.ryerson.ca/asc/files/2012/08/ed_fashion-115x150.jpg 115w, https://library.ryerson.ca/asc/files/2012/08/ed_fashion-231x300.jpg 231w" sizes="(max-width: 463px) 100vw, 463px" /></figure><div class="wp-block-media-text__content">
+<p>This exhibition focused on fashions from the 1910s and ran from October 20 &#8211; December 1, 2010. It celebrated the rich resource of historical costume in the Ryerson University Fashion Research Collection, which holds a wide variety of men&#8217;s, women&#8217;s and children&#8217;s clothing from the 19th and 20th centuries. &#8220;Edwardian Fashion&#8221; focused on a period in fashion where elegant, floor-length gowns with corsets were still de rigueur for women&#8217;s day-wear, but the silhouette had slimmed down considerably from the puffed sleeves and bustles of 1905. We had to shorten the mannequin considerably to fit the collection&#8217;s black lace evening gown into the 4&#8242; high display cases, but the photographs borrowed from the Special Collections Historical Photograph collection helped to illustrate how this type of gown was worn by women of the time.</p>
+</div></div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3>Chemical Photography</h3>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:30% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="765" data-permalink="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/chemical_photography_poster/" data-orig-file="https://library.ryerson.ca/asc/files/2012/08/chemical_photography_poster.jpg" data-orig-size="150,232" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D40&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;22&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="chemical_photography_poster" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2012/08/chemical_photography_poster.jpg" data-large-file="https://library.ryerson.ca/asc/files/2012/08/chemical_photography_poster.jpg" loading="lazy" width="150" height="232" src="https://library.ryerson.ca/asc/files/2012/08/chemical_photography_poster.jpg" alt="" class="wp-image-765"/></figure><div class="wp-block-media-text__content">
+<p>From September 1 &#8211; October 19, 2010, Special Collections invited you over to the dark side &#8230;(of photography). We took you on a chemical tour of the darkroom, from the earliest days of photography, when image-making was a messy and sometimes dangerous business involving compounds of cyanide, mercury, lead, potassium and other toxic or flammable elements, to the Kodak years, when amateurs dropped their neat little rolls of film in the mail and let a professional do their dirty work. Not all photographers were content to let someone else develop their prints, but thankfully by the 20th century darkroom chemistry had standardized to the point where pre-mixed chemicals were readily available &#8211; along with health and safety manuals. On display were the artifacts of photography&#8217;s dangerous years in the darkroom. A History of Chemical Photography video from YouTube can be viewed <a href="https://www.youtube.com/watch?v=x_kN9bBVeJk" target="_blank" rel="noreferrer noopener">here</a></p>
+</div></div>
+		
+		
+		<footer class="entry-meta">
+								</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-142 -->
+
+    </div><!-- #primary -->
+
+    
+<div class="col-xs-12 col-sm-3 widget-area" role="complementary">
+  
+    <aside id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">Quick Links</h3><div class="menu-site-navigation-container"><ul id="menu-site-navigation-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261"><a>Research</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-6156"><a>Exhibitions &#038; Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-6159"><a href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-6160"><a href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/" aria-current="page">Previous Exhibits</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157"><a>About Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158"><a>More</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div></aside>
+  
+</div><!-- #secondary .widget-area -->
+
+  </div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson Archives & Special Collections</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LIB 404">LIB 404</a><br>            
+                    350 Victoria Street, 4th Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000 ext. 7027<br>                    Email: <a href="mailto:asc@ryerson.ca">asc@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+          
+                    
+          
+          
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/asc/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/asc/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/library.ryerson.ca\/asc\/wp-admin\/admin-ajax.php","nonce":"87e8052ceb","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2Fexhibits%2Fprevious-sc-exhibits%2F","blog_id":"7","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2' id='jetpack-carousel-js'></script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'LIFCGBBMDBFCDHBFONLILMFEJIGCEPMOPMHILHACAFKJILGNMDALKHKAJCACGKFDALHBNPGLAANEPPJBJAEANAKOAAAJOMHLLNKDBGDJBICJDJNAMDLOPKMADLEJGJAE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

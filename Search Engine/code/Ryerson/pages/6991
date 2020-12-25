@@ -1,0 +1,1081 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-8', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/xmlrpc.php" />
+
+  <title>Cecile &#8211; Ryerson University Library</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Feed" href="https://library.ryerson.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Comments Feed" href="https://library.ryerson.ca/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Posts by Cecile Feed" href="https://library.ryerson.ca/blog/author/cfarnum/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://library.ryerson.ca/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=2.2.0' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/wp-login.php?redirect_to=%2Fblog%2Fauthor%2Fcfarnum%2F","publicWarning":"","anonymousNotice":"Notice: You are browsing this site anonymously, and only have access to a portion of its content.","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/wp-json/wp/v2/users/13" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitelibrary.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Cecile" />
+<meta property="og:url" content="https://library.ryerson.ca/blog/author/cfarnum/" />
+<meta property="profile:first_name" content="Cecile" />
+<meta property="profile:last_name" content="Farnum" />
+<meta property="og:site_name" content="Ryerson University Library" />
+<meta property="og:image" content="https://secure.gravatar.com/avatar/0ccfa6ba0ce0a3f5324466bbea4ea504?s=200&amp;d=mm&amp;r=g" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+#askcontainer {
+	padding: 0!important;
+}
+
+.cal_closure {
+	color: red;
+}
+
+@media (min-width: 768px) {
+	.global-footer-bottom {
+		padding-bottom: 3em;
+	}	
+}
+
+/* Style table on RACER FAQ page */
+.racer-faq td {padding-right: 2em; padding-bottom: 1em; vertical-align: top;}
+
+/* Search Box background colour */
+.search_form .search_input, .search_form input[type="search"]  {
+	background-color: #ffffff;
+}
+
+#main>.search_form .search_input, .search_form input[type="search"] {background-color: #e5e5e5;}
+
+/* Style for Course Readings Images */
+.coursereadingimage {
+	margin-left: 2em;
+	filter: drop-shadow(5px 5px 5px grey);
+	margin-top: 0.5em;
+}
+
+/* Extra padding after li entries in ol and ul lists */
+.padded-list li{
+	padding-bottom: 1em;
+}
+
+/* Black Heritage Exhibit Page */
+.narrow {
+	float: left;
+}
+.wide {
+	float: right;
+}
+.bottomborder {
+	float: left;
+	padding-bottom: 1em;
+}
+
+/* Additional padding at top of image */
+.topspace20 {
+	margin-top: 20px;
+}
+/*  TEMPORARY 1.27.0 hotfix */
+.widget.section-widget .menu-item a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+.widget.section-widget .menu-item a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+/* Fix Textbook search box */
+.textbook_search,.search_input {
+	width: 80%;
+}
+/* Remove underline from h2 a links */
+h2 a {
+	text-decoration: none;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+/* Add some spacing between list items in columns */
+div.wp-block-column li {
+	padding-bottom: 0.5em;
+}
+ul.extra-spacing li {
+	padding-bottom: 0.5em;
+}
+/* Styling for Staff Directory */
+img.staff-member-photo {
+	display: none;
+}
+div.staff-member-listing h3.staff-member-name {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1.0em
+}
+div.staff-member-listing h4.staff-member-position {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1em
+}
+a.staff-member-email {
+	display: inline;
+}
+div.staff-member-bio p {
+	display:inline;
+}
+div.bio-projects {
+  display: none;
+}
+/* Fix size of heading on posts pages */
+.post .entry-title {
+	font-size: 1.75em;
+}
+.post h2 {
+	font-size: 1.5em;
+}
+.post h3 {
+	font-size: 1.3em;
+}
+.post h4 {
+	font-size: 1.2em;
+}
+.post h5 {
+	font-size: 1.1em;
+}
+.post h6 {
+	font-size: 1em;
+}
+/* Spacing of lists */
+ul.inc-height li {
+	padding-bottom: 1em;
+}
+/* Customize Pop-up Chat Widget */
+.ui-widget-content {
+	font-weight: bold;
+	border: 0;
+	background-color: #ffffff !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{background: #0077c3 !important;}
+
+.ui-widget-header {
+	border: 0;
+	background: #ffdc00 !important;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	padding: 1em;
+	margin: 0.5em 0.4em 0.5em 1em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none !important;
+	text-align: center;
+}
+#ui-id-2 {
+	color: #000;
+}
+.ui-dialog.ui-dialog-content {
+	padding-bottom: 2em;
+}
+/* Dynamic Ask Chat icon */
+.libraryh3lp {
+	background-color: rgb(235,235,235);
+    padding: 1em 1em 0 1em;
+    /* padding-top: 1em; */
+    width: 150px;
+}
+div.needs-js {
+	background-color: red;
+}
+
+/* Customized COVID messge on Service pages */
+.contentWrapper {
+	font-style: italic;
+	background-color: #ffffff;
+	padding: 1em 1em 1em 2em;
+	border: 2px solid #ffdc00;
+	display: flex;
+  align-items: center;
+}
+.iconContainer:before {
+	content: "\f06a";
+	font-family: FontAwesome;
+	padding-right: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+}
+.textContainer a {
+	font-style: normal;
+}
+/* Drop Shadow for images */
+.dropshadow {
+	 box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -webkit-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -moz-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+}
+/* Fix for background color in even numbered rows in tables so that watermark does not show */
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: var(--main-bg-color);
+}
+
+/* Quick things for Fall 2020 Homepage */
+.rylib-homepage-bento .wp-block-column {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 10px #4CA6E8 solid;
+}
+.rylib-homepage-bento h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.rylib-homepage-bento ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.rylib-homepage-bento a {
+	color: #000;
+}
+
+.rylib-homepage-news h2, .rylib-homepage-workshops h2 {
+	color: #0F306B;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.rylib-homepage-workshops a, .rylib-homepage-workshops a:visited { color: #000 }
+.rylib-homepage-workshops ul {
+	padding: 0;
+	list-style: none;
+}
+div.rylib-homepage-workshops li {
+	padding-bottom: 1em;
+}
+.rylib-homepage-workshops .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+.rylib-homepage-workshops .event .datewrap {
+	text-align: right;
+	min-width: 110px;
+}
+
+.rylib-homepage-workshops .event .date {
+	font-size: 1.25em;
+}
+
+.rylib-homepage-workshops .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.rylib-homepage-workshops .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+.rylib-homepage-workshops .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.rylib-homepage-workshops .event .description a:hover {
+	text-decoration: underline;
+}
+
+.rylib-land-ack {
+	background: #FFF;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.rylib-land-ack p {
+	margin: 0;
+}
+
+.rylib-land-ack .wp-block-buttons {
+	position: absolute;
+	right: 1.5em;
+}
+
+.rylib-land-ack .wp-block-button .wp-block-button__link {
+	background: #4EA5E8;
+	border-radius: 0;
+}
+
+/*Figshare test */
+.search-form .sf-input input
+{
+    color: #252525;
+    font-size: 16px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 36px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 36px 0 12px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.browse-menu {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.browse-menu li {
+	padding: 3em 1.5em;
+	background-color: white;
+	margin-right: 2em;
+	flex: 1 0 200px;
+	width: 0;
+	border: 1px solid #eaeaea;
+	text-transform: uppercase;
+	border-bottom: 10px #4ca6e8 solid;
+		margin-top: 2em;
+}
+.search-form .sf-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    font-size: 14px;
+    color: #bbb;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
+form.dh-search-form input[type="search"]{
+	background-color: #fff;
+}
+.text-input-component-wrapper {
+	text-align: center;
+  padding: 1em;
+}
+
+.home h2 a {
+	color: #000;
+  text-decoration: none;	
+}
+.home h2 a:hover {
+	text-decoration: underline;
+}
+
+.rylib-tabs {
+	text-align: left;
+}
+/* Digital Repository Page */
+div.linkbox > a:link, div.linkbox > a:visited {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+		</style>
+		</head>
+
+<body class="archive author author-cfarnum author-13">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#main-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey"">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>We are online to support you! Get information on Library resources and services for: <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-students/">Students</a>   |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-teaching/">Instructors</a>  |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-researchers/">Researchers</a>. For Ryerson campus information, visit: <a href="https://www.ryerson.ca/covid-19/">Ryerson COVID-19 Information and Updates</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search library.ryerson.ca</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search library.ryerson.ca">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="global-header-bottom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://library.ryerson.ca">Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-header-bottom" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-angle-down" title="Toggle navigation"></i>
+      </button>
+    </div>
+    <div id="global-header-bottom" class="collapse navbar-collapse"><ul id="menu-library-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a title="Catalogue" href="https://catalogue.library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Catalogue">Catalogue</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a title="Articles" href="https://library.ryerson.ca/articles/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Articles">Articles</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a title="Research" href="https://library.ryerson.ca/guides" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Research">Research</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Services" href="https://library.ryerson.ca/services/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Services">Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-25617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25617"><a title="About Us" href="https://library.ryerson.ca/info/about-us/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="About Us">About Us</a></li>
+</ul></div>  </div>
+</header>
+
+  
+      
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<header class="rula-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>
+					Author: <span>Cecile</span>				</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			<div class="breadcrumbs"><!-- Breadcrumb NavXT 6.6.0 -->
+<a title="Go to Ryerson University Library." href="https://library.ryerson.ca" class="home">Ryerson University Library</a> &#187; Articles by: Cecile</div>
+			
+			
+<article id="post-32824" class="post-32824 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2019/01/apply-to-the-dme-creators-grant-to-receive-money-mentorship/">Apply to the DME Creators Grant to receive money &#038; mentorship</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2019/01/apply-to-the-dme-creators-grant-to-receive-money-mentorship/" title="11:10 am" rel="bookmark"><time class="entry-date" datetime="2019-01-29T11:10:22-05:00" pubdate>January 29, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><span style="font-weight: 400;">Are you passionate about social equity issues and interested in learning more about digital technology? </span>The Library’s Isaac Olowolafe Jr. Digital Media Experience (DME) Lab is offering the <a href="https://library.ryerson.ca/dmelab/dme-lab-creators-grant/">DME Creators Grant</a> to undergraduate students who want to create innovative, sustainable, and interactive digital experiences that address social equity issues.</p>
+<p><img loading="lazy" class="wp-image-32829 size-large alignleft jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-650x214.jpg" alt width="650" height="214" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-650x214.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-150x49.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-300x99.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-768x253.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375.jpg 1140w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-650x214.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="wp-image-32829 size-large alignleft" src="https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-650x214.jpg" alt="" width="650" height="214" srcset="https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-650x214.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-150x49.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-300x99.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375-768x253.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Creatorsgrant_banner1140x375.jpg 1140w" sizes="(max-width: 650px) 100vw, 650px" /></noscript></p>
+<p>The five successful applicants will receive grants of up to $3000, which will be distributed upon project approval and the successful completion of performance milestones. Each grant recipient will be paired with a mentor to help them articulate their project purpose/thesis, advise on project management, ensure that recipients are meeting their milestones, and work with the DME to document and evaluate project progress.</p>
+<p>To learn more and <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT86cYKPNLWsfhbRrTjH1Z6IS_GRHfjzXTCXdPRPU7IBPVxQ/viewform">submit an application</a>, visit the <a href="https://library.ryerson.ca/dmelab/">DME website</a>. Applications are due on March 8, 2019. If you have any questions, please email us at dme@ryerson.ca or drop by the DME Lab on the 3rd floor of the Student Learning Centre (SLC) from 10 am to 8 pm, Monday to Friday.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2019/01/apply-to-the-dme-creators-grant-to-receive-money-mentorship/" title="Permalink to Apply to the DME Creators Grant to receive money &#038; mentorship" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32824 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32732" class="post-32732 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2019/01/ryerson-think-tank-series-event-virtual-reality-and-the-ancient-world/">Ryerson Think Tank Series Event: Virtual Reality and the Ancient World</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2019/01/ryerson-think-tank-series-event-virtual-reality-and-the-ancient-world/" title="3:03 pm" rel="bookmark"><time class="entry-date" datetime="2019-01-09T15:03:00-05:00" pubdate>January 9, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>You&#8217;re invited to a Ryerson Library Think Tank Series event &#8211; <em>Virtual Reality: a Powerful Technology that Enables us to Step into Lost Environments of the Ancient World</em></p>
+<p>In this lecture, Dr. Simon J. Young will discuss the potential of Virtual Reality (VR) as an educational and research tool for education. VR provides us with a powerful tool to present and visualize the results of these investigations in a 360 stereoscopic immersive digital environment. This talk will explore some particular implications of these possibilities, and will feature spectacular digital reconstructions of the ancient world. There will be a chance to experience the VR at the end of the talk.</p>
+<p>When: Friday, January 11, 2019 from 4-6PM<br />
+Where: Collaboratory, Library 3rd Floor</p>
+<p>Refreshments provided. Please <a href="https://goo.gl/forms/3O2StHcK9JtUJPwh2">RSVP</a> by January 10, 2019.  For more information, view the <a href="https://us19.campaign-archive.com/?e=[UNIQID]&amp;u=2601c90d25ea33995fb8cec56&amp;id=4584215501">digital poster</a> for this event.</p>
+<p>&nbsp;</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2019/01/ryerson-think-tank-series-event-virtual-reality-and-the-ancient-world/" title="Permalink to Ryerson Think Tank Series Event: Virtual Reality and the Ancient World" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32732 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32665" class="post-32665 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/12/reminder-to-return-overdue-items-and-clear-your-fines/">Reminder to return Overdue Items and Clear Your Fines</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/12/reminder-to-return-overdue-items-and-clear-your-fines/" title="11:45 am" rel="bookmark"><time class="entry-date" datetime="2018-12-12T11:45:04-05:00" pubdate>December 12, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>We hope everyone is having a successful exam period &#8211; the Fall term is almost complete!</p>
+<ul>
+<li>Please clear outstanding fines and return overdue items as soon as possible to ensure access to grades over the holiday break. <a href="https://catalogue.library.ryerson.ca/patroninfo~S0" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://catalogue.library.ryerson.ca/patroninfo~S0&amp;source=gmail&amp;ust=1544719247745000&amp;usg=AFQjCNEwh-eibqlsU1vNTQUvPKsVUr4Krw">Head to the renewals page</a> to see if you have overdue items or fines greater than $10. Students with fines greater than $10 will not be able to view their grades until their accounts are cleared.</li>
+</ul>
+<ul>
+<li>All fines can be paid to the Library at the Circulation Desk, either by cash, debit, VISA, MasterCard, American Express or with your Ryerson OneCard. The Library also accepts credit card payment by phone &#8211; please call 416-979-2149. We do not accept personal cheques.</li>
+</ul>
+<ul>
+<li>If you have questions or concerns about fines or overdue items, please contact the Library Circulation Desk by email at <a href="mailto:access@ryerson.ca" target="_blank" rel="noopener">access@ryerson.ca</a> or by phone at <a href="tel:(416)%20979-5055" target="_blank" rel="noopener">416-979-5055</a>.</li>
+</ul>
+<ul>
+<li>Please note that the Library will operate on reduced hours starting Saturday, December 15th. Check the Library website for <a href="http://library.ryerson.ca/info/hours/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=http://library.ryerson.ca/info/hours/&amp;source=gmail&amp;ust=1544719247745000&amp;usg=AFQjCNHOQUshrl2Zg58A7lycYqsnFIRtLA">all of our hours over the next two weeks</a>.The university and the Library will be closed from Sat Dec 22, 2018 – Sun January 6, 2019.</li>
+</ul>
+<p>From all of us here at RULA, thank you and we wish you a safe and happy winter break!</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/12/reminder-to-return-overdue-items-and-clear-your-fines/" title="Permalink to Reminder to return Overdue Items and Clear Your Fines" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32665 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32633" class="post-32633 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/12/participate-in-the-librarys-external-review/">Participate in the Library&#8217;s External Review</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/12/participate-in-the-librarys-external-review/" title="4:02 pm" rel="bookmark"><time class="entry-date" datetime="2018-12-06T16:02:55-05:00" pubdate>December 6, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>&nbsp;</p>
+<p>Ryerson University Library is embarking on an external review, and the external review team will be conducting a series of meetings with faculty, students, staff, administrators, and partners from across campus with the goal to inform the Library&#8217;s future focus and strategic priorities.  The review team will be seeking input into how the Library can continue to evolve and provide leadership to advance student engagement and success, SRC innovation and impact, and help build an vibrant digital academic ecosystem focused on exceptional learning and teaching and city building.</p>
+<p>Your insight, perspective, advice, and feedback is greatly appreciated and is be invaluable to our work. Thank you in advance for taking the time to share your ideas and thoughts.</p>
+<p>The <strong>faculty / instructor meeting</strong> will be held on<strong> Thursday December 13 2018 &#8211; 10:15 am &#8211; 11:15 am in LIB-386C (Library, 3rd floor)</strong></p>
+<p>The <strong>undergraduate student meeting</strong> will be held on <strong>Thursday, December 13, 2018 &#8211; 12:30 pm to 1:30 pm room LIB386C.  </strong></p>
+<p>The <strong>graduate and Chang School student meeting</strong> will be held on <strong>Friday December 14th &#8211; 12:15 pm to 1:15 pm in room LIB386C </strong></p>
+<p>We know it is a busy time of year, but your thoughts and ideas are critical in shaping the Library&#8217;s future direction and priorities. We look forward to your participation in the review process.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/12/participate-in-the-librarys-external-review/" title="Permalink to Participate in the Library&#8217;s External Review" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32633 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32627" class="post-32627 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/11/orcid-workshops-distinguish-your-research-in-three-easy-steps-2/">ORCID Workshops: Distinguish Your Research in Three Easy Steps</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/11/orcid-workshops-distinguish-your-research-in-three-easy-steps-2/" title="3:47 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-30T15:47:34-05:00" pubdate>November 30, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>&nbsp;</p>
+<p>Faculty members, graduate students and staff are invited to register for a workshop where they will receive an overview of ORCID (Open Researcher and Contributor ID), as well as hands-on assistance in setting up and populating an account.</p>
+<p>ORCID is an open, non-profit, community-driven effort to create and maintain a registry of unique researcher identifiers and link research activities and outputs to these identifiers. Many publishers and funding agencies now require or encourage authors to create an ORCID account.</p>
+<p>In order for scholarly work to be found in a global network of researchers, it is essential to differentiate authors. ORCID makes this easy by attaching an unambiguous identity to publications, funding and other research activities. As researchers collaborate across disciplines, institutions, and geographic borders, having a unique author or researcher ID ensures credit for your scholarly output.  Please see this video for more information about <a href="https://vimeo.com/97150912">ORCID</a>.</p>
+<p><b>Workshop dates and location (Please RSVP for the workshop you plan on attending):</b></p>
+<div><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-jidFhQ8ayI1OcXta8kyENbAWess9LFmG8Y_TR99W3cnLEw/viewform"><b>Tuesday, December 11, 2018 from 2 &#8211; 3 p.m. in L393A, Library&#8217;s 3rd floor</b></a></div>
+<div></div>
+<div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTyN73M617woFpMtEyJxeehpaCGqW23ogS7ftUlV_cxgFVlQ/viewform"><b>Tuesday, December 18, 2018 from 2-3 p.m. in L393A, Library&#8217;s 3rd floor</b></a></div>
+<div></div>
+<p>If you are not able to attend these sessions and would like to schedule a one-to-one appointment, please contact Brian Cameron at bcameron@ryerson.ca or Naomi Eichenlaub at neichenl@ryerson.ca.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/11/orcid-workshops-distinguish-your-research-in-three-easy-steps-2/" title="Permalink to ORCID Workshops: Distinguish Your Research in Three Easy Steps" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32627 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32585" class="post-32585 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/11/live-from-the-archive-a-public-digitizing-event/">Live From the Archive: A Public Digitizing Event</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/11/live-from-the-archive-a-public-digitizing-event/" title="2:44 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-14T14:44:52-05:00" pubdate>November 14, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>A public digitization event on Saturday, November 17th from 1-4 p.m. on the Library&#8217;s 4th floor to preserve Toronto hip hop cultural artifacts and discuss data justice &amp; digital culture. We will be working towards capturing Toronto&#8217;s analogue hip hop history and preserving many items such as copies of the Fantastic Voyage Show, street magazines like Word, and flyers from events. Come thru and get your VHS transferred, cassettes digitized and flyers/photos preserved. <img loading="lazy" class="alignleft wp-image-32592 size-medium jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-300x198.jpg" alt width="300" height="198" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-300x198.jpg 300w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-150x99.jpg 150w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-768x507.jpg 768w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-650x429.jpg 650w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2.jpg 1740w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-300x198.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignleft wp-image-32592 size-medium" src="https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-300x198.jpg" alt="" width="300" height="198" srcset="https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-300x198.jpg 300w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-150x99.jpg 150w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-768x507.jpg 768w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2-650x429.jpg 650w, https://library.ryerson.ca/wp-content/uploads/posterFINAL-2.jpg 1740w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></p>
+<p>We&#8217;ll have digitizing stations available, with the assistance from Ryerson University librarians and library staff, including two stations dedicated to audio cassettes, two stations with scanners and two stations with VHS players. Librarians will also be educating the community on the need to digitize and preserve content because all tape-based formats created in the 20th century are becoming obsolete.</p>
+<p>LCD panels we will be broadcasting the documentary<em><strong> 1-4, </strong></em>which chronicles the 1-4pm Radio time slot on CKLN where 4 critical Hip-Hop shows were broadcast. Guest speakers will include former VJ Michael Williams and a representative from the Digital Justice Lab. <a href="https://www.eventbrite.ca/e/live-from-the-archive-a-public-digitization-event-tickets-52229994319?utm_term=eventname_text">Register</a> to let us know you&#8217;re coming!  All are welcome.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/11/live-from-the-archive-a-public-digitizing-event/" title="Permalink to Live From the Archive: A Public Digitizing Event" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32585 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32574" class="post-32574 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/11/using-genocide-testimony-and-technology-to-counter-identity-based-hatred/">Using Genocide Testimony and Technology to Counter Identity Based Hatred</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/11/using-genocide-testimony-and-technology-to-counter-identity-based-hatred/" title="10:23 am" rel="bookmark"><time class="entry-date" datetime="2018-11-13T10:23:35-05:00" pubdate>November 13, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><img loading="lazy" class="alignright size-full wp-image-32577 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/kori-street.jpg" alt width="225" height="288" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/kori-street.jpg 225w, https://library.ryerson.ca/wp-content/uploads/kori-street-117x150.jpg 117w" data-lazy-sizes="(max-width: 225px) 100vw, 225px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/kori-street.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignright size-full wp-image-32577" src="https://library.ryerson.ca/wp-content/uploads/kori-street.jpg" alt="" width="225" height="288" srcset="https://library.ryerson.ca/wp-content/uploads/kori-street.jpg 225w, https://library.ryerson.ca/wp-content/uploads/kori-street-117x150.jpg 117w" sizes="(max-width: 225px) 100vw, 225px" /></noscript>You&#8217;re invited to the Ryerson Library&#8217;s Think Tank Series event: <em>Using Genocide Testimony and Technology to Counter Identity Based Hatred</em>.</p>
+<p>Dr. Kori Street is the Senior Director of Programs and Operations at the University of Southern California Shoah Foundation – The Institute for Visual History and Education.  Dr. Street will be discussing technological innovation, including natural language recognition and virtual reality, to provide multiple pathways and resources for students, educators, scholars, and communities around the world to counter identity-based hatred.</p>
+<p>When: Wednesday, November 14, 2018 from 5PM-6:15PM<br />
+Collaboratory, Library 3rd Floor &#8211; please <a href="https://goo.gl/forms/Jeb4r1RmZtyxC1ay1">RSVP</a></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/11/using-genocide-testimony-and-technology-to-counter-identity-based-hatred/" title="Permalink to Using Genocide Testimony and Technology to Counter Identity Based Hatred" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32574 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32541" class="post-32541 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/11/ryerson-librarys-speaker-series-event-what-is-stronger-than-hate-building-empathy-in-an-increasingly-violent-world/">Library Speaker Series: What is Stronger Than Hate?</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/11/ryerson-librarys-speaker-series-event-what-is-stronger-than-hate-building-empathy-in-an-increasingly-violent-world/" title="3:55 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-07T15:55:47-05:00" pubdate>November 7, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><img loading="lazy" class="alignleft jetpack-lazy-image" src="https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/d305414d-96eb-4bc0-b514-c6b83952d895.jpg" alt width="399" height="266" data-lazy-src="https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/d305414d-96eb-4bc0-b514-c6b83952d895.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignleft" src="https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/d305414d-96eb-4bc0-b514-c6b83952d895.jpg" alt="" width="399" height="266" /></noscript></p>
+<p>You&#8217;re invited to the Ryerson Library&#8217;s Speaker Series event:  <em>What is Stronger Than Hate? Building Empathy in an Increasingly Violent World.</em></p>
+<p>Wednesday, November 14, 2018 from 11-12PM in Library 405, on the Library&#8217;s 4th floor. No RSVP required.</p>
+<p>For close to 25 years, the USC Shoah Foundation has been collecting, preserving and making accessible human stories from survivors and witnesses of genocide and mass violence. That collection is being used in education in more than 80 countries worldwide. The institute’s research shows that localized testimony based education programs can build empathy and inspire action among youth, particularly those who may be marginalized.</p>
+<p>Dr. Kori Street is the Senior Director of Programs and Operations at the University of Southern California Shoah Foundation – The Institute for Visual History and Education.  She oversees education and research programs around the world that help to understand the causes and consequences of identity-based hate and genocide and the power of the human story to counter hatred.</p>
+<p><img loading="lazy" class="aligncenter jetpack-lazy-image" src="https://ci4.googleusercontent.com/proxy/OvaoLIhIOYcx4D_izTZ8hg-7It3PYvIfKEwgg9-XXEViIR27R_U0O9MhDwxz0KujIpZDVMubd6VUFtCKhagtigLn-Y_8v-e-mDqoRPh047dEAQB0pZC5G4DTmZ6YutuJRxdhIDZflRrf5O-wY4uzSAkQxf4s8i10dvQ=s0-d-e1-ft#https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/f46a4260-8ad3-4c1c-9fa2-b4dd93497c6e.jpg" width="200" height="256" data-lazy-src="https://ci4.googleusercontent.com/proxy/OvaoLIhIOYcx4D_izTZ8hg-7It3PYvIfKEwgg9-XXEViIR27R_U0O9MhDwxz0KujIpZDVMubd6VUFtCKhagtigLn-Y_8v-e-mDqoRPh047dEAQB0pZC5G4DTmZ6YutuJRxdhIDZflRrf5O-wY4uzSAkQxf4s8i10dvQ=s0-d-e1-ft?is-pending-load=1#https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/f46a4260-8ad3-4c1c-9fa2-b4dd93497c6e.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="aligncenter" src="https://ci4.googleusercontent.com/proxy/OvaoLIhIOYcx4D_izTZ8hg-7It3PYvIfKEwgg9-XXEViIR27R_U0O9MhDwxz0KujIpZDVMubd6VUFtCKhagtigLn-Y_8v-e-mDqoRPh047dEAQB0pZC5G4DTmZ6YutuJRxdhIDZflRrf5O-wY4uzSAkQxf4s8i10dvQ=s0-d-e1-ft#https://gallery.mailchimp.com/2601c90d25ea33995fb8cec56/images/f46a4260-8ad3-4c1c-9fa2-b4dd93497c6e.jpg" width="200" height="256" /></noscript></p>
+<p style="text-align: center;">If you have any questions or any particular accommodation please contact Anna Tassone (<a href="mailto:atassone@ryerson.ca" target="_blank" rel="noopener">atassone@ryerson.ca</a>)</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/11/ryerson-librarys-speaker-series-event-what-is-stronger-than-hate-building-empathy-in-an-increasingly-violent-world/" title="Permalink to Library Speaker Series: What is Stronger Than Hate?" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32541 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32554" class="post-32554 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/11/gis-day/">GIS Day</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/11/gis-day/" title="3:39 pm" rel="bookmark"><time class="entry-date" datetime="2018-11-07T15:39:19-05:00" pubdate>November 7, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>In celebration of <a href="https://www.gisday.com/">GIS Day</a>, the Library’s Geospatial Map and Data Centre (GMDC), in collaboration with the Department of Geography and Environmental Studies and ESRI Canada,  is hosting an event for Ryerson students, faculty, staff, and the local community to explore and celebrate GeographicInformation Systems (GIS) research and applications.</p>
+<p>When: Wednesday November 14th, 2018 from  10am-3pm</p>
+<p>Where: SLC 508, 5th floor of the Student Learning Centre</p>
+<p>Presentations will include a series of academic and technical demonstrations highlighting institutional research and the following ESRI products: ESRI Insights, ArcGIS Pro, and CityEngine. The full agenda is available <a href="https://library.ryerson.ca/wp-content/uploads/GIS-Day-at-Ryerson-Updated-2018.pdf">here</a>.</p>
+<p>No RSVP required, please drop-in as your schedule allows.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/11/gis-day/" title="Permalink to GIS Day" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32554 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32502" class="post-32502 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/10/library-town-hall-textbooks-and-course-readings/">Library Town Hall: Textbooks and Course Readings</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/10/library-town-hall-textbooks-and-course-readings/" title="12:06 pm" rel="bookmark"><time class="entry-date" datetime="2018-10-30T12:06:57-04:00" pubdate>October 30, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/cfarnum/" title="View all posts by Cecile" rel="author">Cecile</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><img loading="lazy" class="alignleft wp-image-32506 size-large jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-502x650.jpg" alt width="502" height="650" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-502x650.jpg 502w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-116x150.jpg 116w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-232x300.jpg 232w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20.jpg 612w" data-lazy-sizes="(max-width: 502px) 100vw, 502px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-502x650.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignleft wp-image-32506 size-large" src="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-502x650.jpg" alt="" width="502" height="650" srcset="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-502x650.jpg 502w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-116x150.jpg 116w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20-232x300.jpg 232w, https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20.jpg 612w" sizes="(max-width: 502px) 100vw, 502px" /></noscript>When: Tuesday, November 20 from 12 p.m. &#8211; 2 p.m.</p>
+<p>Where: LIB386C, Library&#8217;s 3rd floor</p>
+<p>We want to hear from you about your experiences buying and using textbooks and course readings. Please plan to drop in and have your say.  We’ll have pizza and refreshments.</p>
+<p>A <a href="https://library.ryerson.ca/wp-content/uploads/Libtownhall_v1_nov20.pdf">digital copy</a> of the poster is also available for sharing.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/cfarnum/">Cecile</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/10/library-town-hall-textbooks-and-course-readings/" title="Permalink to Library Town Hall: Textbooks and Course Readings" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32502 -->
+
+			
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true" />
+
+		
+	<nav class="navigation pagination" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">&larr;</span> <span class="nav-prev-text">Newer <span class="nav-short">Posts</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://library.ryerson.ca/blog/author/cfarnum/page/2/">2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://library.ryerson.ca/blog/author/cfarnum/page/29/">29</a>
+<a class="next page-numbers" href="https://library.ryerson.ca/blog/author/cfarnum/page/2/"><span class="nav-next-text">Older <span class="nav-short">Posts</span></span> <span aria-hidden="true">&rarr;</span></a></div>
+	</nav>
+	</div><!-- .pagination-wrapper -->
+
+	
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  <aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-280"><a href="https://library.ryerson.ca/blog/category/collections/" title="This category is to be used for posts about collections issues.">Collections</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://library.ryerson.ca/blog/category/csc/" title="Category for posts contributed by the Scholarly Communications group.  ">Copyright and Scholarly Communications</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://library.ryerson.ca/blog/category/eresources/" title="This category is to be used for posts about eresources.
+">Eresources</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://library.ryerson.ca/blog/category/events/">Events</a>
+</li>
+	<li class="cat-item cat-item-284"><a href="https://library.ryerson.ca/blog/category/featured/">Featured</a>
+</li>
+	<li class="cat-item cat-item-286"><a href="https://library.ryerson.ca/blog/category/libtech/" title="Category for posts about LITS issues or library technology more broadly.">Library Technology</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://library.ryerson.ca/blog/category/news/" title="This category must be assigned to posts that are to appear on the news feed on the Library&#039;s home page.">News</a>
+</li>
+			</ul>
+
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                    
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://library.ryerson.ca/blog/feed/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul id="menu-footer" class="menu"><li id="menu-item-29131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29131"><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+<li id="menu-item-29132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29132"><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+<li id="menu-item-29133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29133"><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+<li id="menu-item-29134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29134"><a href="https://library.ryerson.ca/siteindex/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+</ul>                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/wp-content/uploads/rylib_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.32' id='simcal-qtip-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.32' id='simcal-fullcal-moment-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.32' id='simcal-moment-timezone-js'></script>
+<script id='simcal-default-calendar-js-extra'>
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"4d87b4e887","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.32' id='simcal-default-calendar-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/js/lazy-images.min.js?ver=1.0.0' id='jetpack-lazy-images-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.32' id='simplecalendar-imagesloaded-js'></script>
+<script src='https://library.ryerson.ca/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202049.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.2',blog:'39898007',post:'0',tz:'-5',srv:'library.ryerson.ca'} ]);
+	_stq.push([ 'clickTrackerInit', '39898007', '0' ]);
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'GONMJLLPIKDJDMBAMELMCMJGAFENMBOIOCMNJNAGLDFGJOHBNEGDELLEJBECOPFOIEBBPLFFAAOAAPBBFBIANEAEAABLJPDGCJFDDPHEDAKMOBDPFIOJKPLHGCKEBAEE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,700 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html lang="en-US" id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en-US" id="ie7" class="lt-ie9 lt-ie8 no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en-US" id="ie8" class="lt-ie9 no-js">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<title>Research Guides: Research Guide | Ryerson University Library and Archives</title>
+	<meta charset="UTF-8">
+    <link href="//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library2012//js/jquery-1.5.2.min.js"></script>;
+	
+	
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style_ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv-printshiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/respond.min.js"></script>
+	<![endif]-->
+	
+			<style type="text/css">
+		  		.clearfix { zoom:1; } 
+		  		.guide_list li { padding-bottom: 0.4em;
+		  		
+			</style>
+			<link type="text/css" rel="stylesheet" href="https://library.cf.ryerson.ca/guides/assets/css/autosuggest.css" />
+			<script src="https://library.cf.ryerson.ca/guides/assets/js/autosuggest.js"></script>	
+			
+				<link type="text/css" href="https://library.cf.ryerson.ca/assets/css/base/ui.all.css" rel="stylesheet" />
+	
+			<link href="https://library.cf.ryerson.ca/guides/assets/css/main.css" rel="stylesheet" type="text/css" />
+
+
+			<script language="javascript" type="text/javascript" src="https://library.cf.ryerson.ca/assets/js/jquery-ui-1.7.1.custom.min.js"></script>
+			
+			<script language="javascript" type="text/javascript">
+				$(function() {
+					$(".tabs").tabs({});
+					var autoHeight = false; 	
+					
+					$(".accordion").accordion({
+						collapsible: true, 
+						autoHeight: autoHeight
+					});
+		
+				});
+			</script>
+		
+		
+</head>
+
+<body class="left-sidebar two-column">
+<div id="page">
+	<header id="branding" role="banner">
+            <div id="sitename">
+                <div class="skip-link"><a class="assistive-text" href="#access">Skip to main menu</a></div>
+                <a href="http://library.ryerson.ca/"><img src="https://library.cf.ryerson.ca/Templates/Library2012/images/RULA_logo.png" alt="Ryerson University Library &amp; Archives" /></a>
+            </div> <!-- end div logo_images -->
+            <div id="askushead"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822&referrer=http%3A//library.ryerson.ca/info/contactus/&bId=16"><img src="http://library.ryerson.ca/wp-content/themes/rula/images/ask_us_libguides_sm.png" alt="Need Help? Ask Us"></a></div>
+ 			<div style="clear: both;"></div>
+
+<nav id="access" role="navigation">
+	<h3 class="assistive-text">Main menu</h3>
+	<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to content">Skip to content</a></div>
+	<div id="top-nav">
+		<ul id="top-nav-list">
+			<li id="menu-item-449" class="menu-item"><a title="Library Catalogue for Books, Media, Journals" href="http://catalogue.library.ryerson.ca/">Catalogue</a></li>
+			<li id="menu-item-448" class="menu-item"><a href="http://library.ryerson.ca/guides">Research Help</a></li>
+			<li id="menu-item-447" class="menu-item"><a title="Browse the list of Databases and Indexes" href="http://library.ryerson.ca/articles/">Articles</a></li>
+			<li id="menu-item-831" class="menu-item"><a title="List of Library Services" href="http://library.ryerson.ca/services/">Services</a></li>
+			<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About the Library" href="http://library.ryerson.ca/info/">About Us</a></li>
+			
+			<li id="menu-item-443" class="menu-item menu-item-has-children"><a title="Special and Digital Collections" href="http://library.ryerson.ca/collections/">Collections &#9660</a>
+				<ul class="sub-menu">
+					<li id="menu-item-20" class="menu-item"><a href="http://library.ryerson.ca/asc/">Archives and Special Collections</a></li>
+					<li id="menu-item-442" class="menu-item"><a title="GeoData Maps &amp; Statistics" href="http://library.ryerson.ca/gmdc">GeoData Maps &#038; Statistics</a></li>
+					<li id="menu-item-444" class="menu-item"><a title="Ryerson&#8217;s Institutional Repository" href="http://library.ryerson.ca/collections/digital-commons/">RULA Digital Repository</a></li>
+				</ul>
+			</li>
+			<li class="menu-item menu-item-search">
+				<!-- Search this Site Section -->
+				<form id="sitesearch" role="search" name="sitesearch" method="get" action="http://search.ryerson.ca/search"> 
+					<input type="hidden" name="site" value="Library" /> 
+					<input type="hidden" name="output" value="xml_no_dtd" /> 
+					<input type="hidden" name="client" value="default_frontend" />								
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<label for="sitesearchbox" class="assistive-text">Search the Library website</label>
+					<input type="search" id="sitesearchbox" name="q" maxlength="255" value="Search the Library Website" onClick="if(this.value=='Search the Library Website') {this.value='';}"/> 
+					<input type="image" src="http://library.ryerson.ca/wp-content/themes/rula/images/search_icon_small.png" alt="Submit Search"  /> 
+				</form> 
+			</li>
+			<li style="clear:both;border:0;"></li>
+		</ul>
+	<div style="clear:both;"></div>
+	</div>
+</nav><!-- #access -->
+			
+			
+	</header><!-- #branding -->
+<!--  End of: Main Navigation -->
+
+
+
+
+
+<div id="primary" class="guidewrap">
+    
+         <div class="breadcrumbs"><a href="http://library.ryerson.ca" title="Go to Library.">Library</a> &gt; <a href="http://library.ryerson.ca/guides">Research Help</a> &gt; Research Guides</div>
+        
+	
+	
+	<div id="container">
+				
+			<h1 class="guides_list_title" style="float: left; font-size: 2em; margin-bottom: 10px;">Research Guides</h1>
+			<form id="suggestForm">
+			    <input style="float: right" placeholder="Search research guides" title="Search research guides" autocomplete="off" type="text" name="guide" size="25" value="" id="autosuggestform" />
+			</form>
+			<div style="clear:both"></div>	
+			<div class="hidden_blurb" style="margin-bottom: 1.5em">Research guides are designed to highlight key information resources in a particular subject area. They can also be used to help you develop search strategies and evaluate information.</div>
+			<hr class="hidden_blurb" style="display: block; margin-bottom: 1.5em">
+			
+			
+		
+			
+			<div id="guideList" style="margin: auto; ">
+				<ul style="float:left; width: 330px; margin: 0; padding-left: 20px;" class="guide_list">
+					
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1261">Aboriginal Research Portal</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=441">Accounting</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=461">Aerospace Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=462">Architecture</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=463">Art History</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=535">Arts and Contemporary Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=661">Arts and Humanities Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=123">Basic Library</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=730">Biology</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=621">Biomedical Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=828">Book Reviews</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=921">Building Science</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=722">Business and Economics Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=821">Business Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=841">Business, Administration and Labour Law</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=537">Canadian Case Law</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=538">Canadian Economics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=581">Canadian News Sources</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=539">Canadian Public Policy</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=481">Caribbean Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=482">Chemical Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=901">Chemistry</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=483">Child and Youth Care</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1301">Citation Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=484">Civil Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=485">Communication and Culture</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=541">Community Development</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=401">Computer Science</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1121">Creative Industries</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=486">Criminology</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=544">Dance</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1122">Digital Media</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=487">Disability Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=488">Documentary Media</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=241">Early Childhood Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=491">Electrical and Computer Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=421">English Literature</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=493">Environmental Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=545">ESL/EAL - English as a Second Language or Additional Language</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=881">Ethics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=494">Fashion</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=504">Film Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=961">Finance and Investment (corporate)</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=801">Finding the Right Graduate School and Funding</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=496">French</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1161">Gender, Feminist and Women's Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=497">Geography</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=498">Gerontology</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=546">Government Information</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=499">Graphic Communications Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=724">Health and Medicine Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=500">Health Services Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=501">History, General</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1281">History, United States</a></li>
+						
+						
+						
+							</ul><ul style="float: left; width: 330px; margin: 0; padding-left: 20px;" class="guide_list">
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=681">Holocaust</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=502">Hospitality and Tourism</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=503">Human Resources Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=507">Immigration and Settlement Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=622">Industrial Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=321">Interior Design</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=508">International Business</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=489">International Economics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=281">ITM</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=509">Journalism </a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=547">Legislation</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=510">Market Research</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=221">Mathematics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=511">Mechanical Engineering</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=761">Midwifery and Childbirth</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=729">Molecular Science</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=726">Multidisciplinary Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=512">Music</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=741">Native/Aboriginal Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=513">New Media</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=721">News Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=122">Nursing and Health Care</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=514">Nutrition and Food</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=515">Occupational Health and Safety</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=861">Patent Information</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=516">Philosophy</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=517">Photographic Preservation and Collection Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=518">Photography</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=641">Physics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=361">Physiotherapy</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=822">Politics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=520">Professional Communication</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=201">Psychology</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=521">Public Health</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=823">Public Policy and Administration</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=522">Public Relations</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=523">Radio and Television Arts</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=524">Research Grants and Thesis Proposals</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=526">Retail Management</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=723">Science and Technology Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1061">Sexual Diversity Studies</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=725">Social Science Articles</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=527">Social Work</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=824">Sociology</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=528">Spanish</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=825">Spatial Analysis</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=701">Standards</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=981">Statistics</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=531">Theatre</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=532">Theses and Dissertations</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=802">Toronto Neighbourhoods and Census Data</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=533">Toronto Research</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=534">Urban and Regional Planning</a></li>
+						
+						
+						
+				</ul>
+				<div style="clear:both"></div>	
+			</div>
+			
+			
+			<span class="course_list">
+						
+		
+			<h1 style="float: left; font-size: 2em; margin-bottom: 10px;">Course Research Guides</h1>
+
+			<div style="clear:both"></div>
+			<hr class="hidden_blurb" style="display: block; margin-bottom: 1.5em">
+		
+			
+		
+			<div id="courseGuideList" style="margin: auto;">
+				<ul style="float:left; width: 330px; margin: 0; padding-left: 20px;" class="guide_list">
+					
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=727">(C)CMN432 - Professional Communications for Engineers</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1381">CENG706 Shakespeare and Performance</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1001">CHST 222 The History of the Caribbean</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1341">ENG 390 Toronto's Chinatown</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1321">ENG 810 Advanced English Research Methods 2014</a></li>
+						
+						
+						
+							</ul><ul style="float: left; width: 330px; margin: 0; padding-left: 20px;" class="guide_list">
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1081">ENH 617 Ecological Issue Report</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1221">MA Fashion Graduate Seminar</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=519">PP8102 - Research Methods</a></li>
+						
+						
+						
+						<li><a href="https://library.cf.ryerson.ca/guides/view?guide=1141">SSH 205</a></li>
+						
+						
+						
+				</ul>
+				<div style="clear:both"></div>	
+			</div>
+			</span>
+			
+		
+		
+		
+	</div>	
+	
+		
+</div>  
+
+
+    <div id="secondary">
+            
+			
+		  
+		    <!-- BEGIN LivePerson Button Code 
+			<div align="center" style="border-style: none;">
+
+			<div id="lpButDivID-1313887460492" class="liveperson"></div>
+				<script type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/64904228/?cmd=mTagRepstate&site=64904228&buttonID=16&divID=lpButDivID-1313887460492&bt=1&c=1"></script>
+			</div>
+
+			<style type="text/css">
+				.lpPoweredBy {	display:none;}
+				.lpEmtStarRating {display:none;}
+				.liveperson { margin-top: 2em }
+			</style>
+
+			<!-- END LivePerson Button code -->
+			
+			<h3 class="navhead">Research Help</h3>
+			<ul class="navlist">
+		    	<li class="navitem"><a href="http://library.ryerson.ca/guides/book-an-appointment/">Book an Appointment</a></li>
+				<li class="navitem"><a href="http://library.ryerson.ca/guides/workshops/">Research Skills Workshops</a></li>
+				<li class="navitem"><a href="http://library.ryerson.ca/guides/tutorials/">Video Tutorials</a></li>
+				<li class="navitem"><a href="http://library.ryerson.ca/guides/ref/">Reference Resources</a></li>
+				<li class="navitem"><a href="/guides/view/">Research Guides</a></li>
+				<li class="navitem"><a href="/staffdirectory/?type=subject">Subject Librarians</a></li>				
+				<li class="navitem"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822">Ask a Librarian Chat</a></li>
+			</ul> 
+		
+    </div>
+    
+       
+  		<footer id="colophon" role="contentinfo">
+            <div id="footer"> 		
+				<p> 
+					<a href="http://library.ryerson.ca">Home</a> | <a href="/info/accessibility" data-ga-event="Footer,Link,Accessibility">Accessibility </a> | <a href="/contactus" data-ga-event="Footer,Link,Contactus">Contact Us</a> | <a href="http://library.ryerson.ca/copyright" data-ga-event="Footer,Link,Copyright">Copyright</a> | <a href="/siteindex">Site Index</a> |  
+                    <a href="http://www.facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371?ref=mf" data-ga-event="Footer,SocialMedia,Facebook"><img src="//library.ryerson.ca/wp-content/themes/rula/images/facebook_icon.gif" alt="Facebook" title="Facebook" /></a> 
+                    <a href="http://www.twitter.com/ryersonlibrary" data-ga-event="Footer,SocialMedia,Twitter"><img src="//library.ryerson.ca/wp-content/themes/rula/images/twitter_icon.png" alt="Twitter" width="16" height="16" /></a> 
+                    <a href="http://www.flickr.com/photos/ryersonlibrary" data-ga-event="Footer,SocialMedia,Flickr"><img src="//library.ryerson.ca/wp-content/themes/rula/images/flickr_icon.gif" alt="Flickr" width="16" height="16" /></a> 
+                    <a href="http://www.youtube.com/user/ryersonlibrary/videos" data-ga-event="Footer,SocialMedia,Youtube"><img src="//library.ryerson.ca/wp-content/themes/rula/images/youtube_icon.png" alt="YouTube" width="16" height="16" /></a>
+                    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=46e7ea505e28c621582d37a391b705d6&_render=rss" data-ga-event="Footer,SocialMedia,RSS"><img src="//library.ryerson.ca/wp-content/themes/rula/images/feed_icon.png" alt="RSS Feed" width="16" height="16" /></a> | 
+                                    &copy;2015 <a href="http://www.ryerson.ca/" data-ga-event="Footer,SocialMedia,RU"><img src="//library.ryerson.ca/wp-content/themes/rula/images/RUfooter_logo.gif" alt="Ryerson University" width="114" height="20" /></a>
+				</p> 
+			</div>
+    </footer> 
+	</div><!-- page -->
+
+	<script type="text/javascript"> 
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+        var pageTracker = _gat._getTracker("UA-890753-3");
+        pageTracker._trackPageview();
+    </script>
+
+
+</body>
+</html>

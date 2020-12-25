@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head id="Head1"><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="../../Scripts/jquery-3.2.1.min.js" ></script>
+    <script src="../../Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.unobtrusive-ajax.js" type="text/javascript"></script>
+
+    <script src="../../Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../js/ClockWork.js" ></script>
+    <script type="text/javascript" src="../../Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/modernizr-2.8.3.js"></script>
+    
+
+    <link href="../../style/styles.css" media="all" rel="stylesheet" type="text/css" /><link href="../../style/AwesomeForm.css" media="all" rel="stylesheet" type="text/css" /><link type="text/css" media="print" rel="Stylesheet" href="../../style/AwesomeFormPrint.css" /><link href="../../Content/bootstrap.css" rel="stylesheet" /><link href="../../Content/Site.css" rel="stylesheet" /><link href="../../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" /><link href="../../Scripts/jquery-confirm/jquery-confirm.min.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-confirm/jquery-confirm.min.js"></script>
+    
+    <link href="../../style/ClockWork.css" media="all" rel="stylesheet" type="text/css" /><title>
+	Login
+</title></head>
+
+<body style="margin: 0; padding-top: 4px;" >
+    <div class="container body-content" style="background-color: white;">
+        <img id="imgSessionAlive" alt="" width="1" height="1" />
+        <a href="#maincontainer2" class="offscreen">Skip to main content</a>
+        <div id="maincontainer2" style="min-height: 99%; background-size: auto auto; background-color: White;" >
+            
+            <div id="topsection" role="banner" style="padding-bottom: 4px;">
+                <div class="innertube">
+                    <a href="../../custom/misc/home.aspx" style="text-decoration: none; padding: 0; margin: 0;  ">
+
+    <img CssClass="noprint" style="border: 0; padding: 0; margin: 0;" hspace="0" vspace="0" src="../../custom/img/RU-SW-AAS-rgb.png" alt="Disability Services logo" border="0" height="100"/>
+    .
+</a>
+                </div>
+            </div>
+    
+            <form method="post" action="./Login.aspx" id="form1" style="margin: 0px; padding: 0px;">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Y9I6f//fc9cLHqaLMd5dZ7h1HRiPZkhjAAdmtKySD8cnx0C5SxHehMOjQaxu/Qsnrk0fNlmDry4/22Lp7r/xd9e+yXE2VxadRZJgfBYJL+xgTab+ZtkUjenQsQFYrdjwUQobp1JByPRKeWxUP87KgW7fkGoxJIOiTuGhk8PtZ2sQyoBcMeD2jpYBC8alpmjzaxDRgT3Ray8Jrr1fu8K/qGihHyPAdHRvp0C4qHCFlljM0aNonnuakUAF7F9Le/LF9poLChoOBnVnnBnGI2IeV4w+sHHAfF6KQx4MYTuWBtfYMHuEL/rCWTw1UjNz7F+8pnul2KWGbf24V1Kr1t2XSGEyZqV3wCafee01mQcda3ktmRwjJmxS88T9T4EMXkVZjT6J09d4BimYnvIwr5yyth4xFCcHeV0Uv3rY8p3jqjBoTup7myQjGWjR5N/lb4TeEoKTmjy5ahWC604w163F8xXAeJOojX29pBLLMtmn61/oV6pqCsfeuvU/eBtE2SbsWyzBj2MeVsDY1I7bOsGj4p8R7JhaMkmAmjqW017BK8oiMBjZUU+Y6G6y7naSziFHptPmbOtRndB+sKFcrGSTYUmOVrDRW3kHjnd5411to8uOnGkJ7beaxvKIOlwruAdkW7Ss2xJVuNCaSHFPzaK9gVPFwur4mR1ncSP6KJ+AKDvwi9B7aUbep5aEgGL9DisHFXhRY4X+yLgvQ5F2ZJiK+btbb8wtwQeouqFCOLyOBV//OIonhvveKXvFmdHfebyNqBHm9En6xH39naSTnQc6JcBbHoNhaJEMgf5PMT8gzTDX1z72u+tG13WopbF9xpwHh/BcP+dFwdqauVGXFts7UnxhqNo13igG4QcAJZujtSBeNC8iE5WeYsQOEFbXrUmdTX/JuEKoDs7Q+ZZ2Pbr9b5eg4IUkG0etJSt5xj8CgGlYKB++j9TekZAh1pA+m+t7aWf372Z5dVhwSiEt836xT0u8CpMIvExrE4OKwg/DYcTTSHbeThlO/ADy1HsSKnBxsmZaa1HsP1xbjAl0vgyi3FChV4srNFdx7CZVl+1CaBZ2DNvUJ3T6/aUQZ2p3OCferkTftKx1sZDJZccZz/nDapqYOG+DOyOGLv4YBzCzW/cTTcJLS248H6j0m26Qdm09o6WKKWv59hIyCVjsGpDzy16SDSdX/gjwlup/bsf3p7+0n1G0ZHk/29jeWOux8A/O" />
+
+
+<script language='JavaScript'>
+<!--
+function SetFocus()
+{
+try {	document.form1['ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$Login1$UserName'].focus();
+}
+catch ( e ) {
+}
+}
+window.onload = SetFocus;
+// -->
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="33259B23" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="LY6rabgam6+DxiI2WKDJ/GnOqb+zsWVnP767uA+m5lvpN/6l8J1I9ujYdqHx2JIaFDrjpI5h9k4bEIyzaOFVLjk2APhwzOgxTbpJQq4xiG2K96VjSbHVOyvgtwy7qgXR07DUSvlVkEW/DxKjUU7Ok9+ykRUjOvs3yXmhah8gZAyWFkv4NJbf8QALMFa9Leh1" />
+                <nav>
+                    <div id="Div1" class="navigationbar noprint" style="padding-bottom: 4px;"  >
+                        <div class="innertube"  >
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                <tr valign="middle">
+                                    <td align="left">
+                                        
+
+                                        &nbsp;
+                                    </td>
+                                    <td valign="middle" style="text-align: right;">
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            
+
+                        </div>
+                    </div>
+                </nav>
+
+                <div id="contentwrapper">
+                    <div class="innertube">
+                        <div class="mainarea_nomenu" role="main">    
+                            
+    
+    
+    
+ <script>
+     $(document).ready(function() {
+         $("#Div1").hide();
+         $("input:text:visible:first").focus();
+     });
+ 
+ </script>
+
+    
+
+<div id="placeholder_main_placeholder_content_cwLogin1_pnlLogin">
+	
+
+<table id="placeholder_main_placeholder_content_cwLogin1_Login1" class="LoginBox" cellspacing="0" cellpadding="0" height="158" width="100%">
+		<tr>
+			<td><font face="Verdana">
+        
+ 
+<div id="loginbox" style="margin-top:5px;" class="row">            
+       <div class="col-md-3"></div>
+    <div class="col-md-6">
+                     <div class="card" style="border-color: #337ab7;" >
+                         <div class="card-header" style="background-color: #337ab7;  color: white;padding-bottom: 0">
+                            <h1 class="card-title" style="font-size: 1.3em; "><strong><span id="placeholder_main_placeholder_content_cwLogin1_Login1_lbl_actualLoginTitle">Login to AAS FACULTY Portal</span></strong></h1>
+                         </div>
+                         <div style="padding-top: 30px; padding-left: 27px; padding-right: 27px;" class="card-body" >
+                             
+                             <div id="loginform" class="form-horizontal" role="form">
+                                
+                                <div style="border-style:None;font-family:Arial;font-size:Small;">
+                                    <span id="placeholder_main_placeholder_content_cwLogin1_Login1_lbl_actualLoginInstruction">Welcome to the AAS Faculty Portal. Please login with your my.ryerson username and password.</span>
+                                </div>
+
+                                    
+                                 
+                                 
+                                <div>
+                                     &nbsp;
+                                </div>
+                                <div class="input-group input-group-lg" >
+                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user"></i></span></div>
+                                    <input name="ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$Login1$UserName" type="text" autocomplete="off" id="placeholder_main_placeholder_content_cwLogin1_Login1_UserName" class="form-control" aria-label="Username" placeholder="User name:" />
+                                </div>
+                                 
+                                <div>
+                                    &nbsp;
+                                </div>
+                                <div class="input-group input-group-lg">                                 
+                                     <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-lock"></i></span></div>
+                                     <input name="ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$Login1$Password" type="password" autocomplete="off" id="placeholder_main_placeholder_content_cwLogin1_Login1_Password" class="form-control" aria-label="Password" placeholder="Password" />
+                                </div>
+
+                                <div style="margin-bottom: 10px; margin-top: 34px;  padding-left: 1px;"  >
+                                    
+                                    <input type="submit" name="ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$Login1$LoginButton" value="Log In" onclick="var txt_pwd=document.getElementById(&#39;placeholder_main_placeholder_content_cwLogin1_Login1_Password&#39;); txt_pwd.value = txt_pwd.value.replace( &#39;&amp;&#39;,&#39;&amp;amp;&#39; ).replace( &#39;&lt;&#39;, &#39;&amp;lt;&#39;).replace( &#39;>&#39;, &#39;&amp;gt;&#39;).replace( &#39;&quot;&#39;, &#39;&amp;quot;&#39;).replace( &#39;\&#39;&#39;, &#39;&amp;apos;&#39;);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$Login1$LoginButton&quot;, &quot;&quot;, true, &quot;Login1&quot;, &quot;&quot;, false, false))" id="placeholder_main_placeholder_content_cwLogin1_Login1_LoginButton" class="btn btn-lg btn-primary btn-block" style="margin-right: auto" />
+                                </div>
+                           </div>
+                    </div>
+                         </div>
+    </div>
+    <div class="col-md-3"></div>
+                </div>
+ 
+
+
+
+    </font></td>
+		</tr>
+	</table>
+    
+    <br />
+    <span id="placeholder_main_placeholder_content_cwLogin1_lbl_msg"></span>
+    
+</div>
+
+
+
+<input type="hidden" name="ctl00$ctl00$placeholder_main$placeholder_content$cwLogin1$hv_LoginFormType" id="placeholder_main_placeholder_content_cwLogin1_hv_LoginFormType" value="instructor" />
+
+    
+    <br />
+   
+    
+    
+    
+    
+
+
+                        </div>
+                    </div>
+                </div>            
+
+                <div id="leftcolumn">
+                    <div class="innertube">
+                        <div id="navigation">
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <div id="footer" role="contentinfo">
+                    <a name="contactinfo" id="contactinfo"></a>
+                    
+                        <div style="text-align:center; font-size: .75em; color: #666666; padding: 6px; " >
+Academic Accommodation Support, Learning Support - Location: SLC, 341 Yonge Street, 4th Floor: Contact 416-979-5290 aasadmin@ryerson.ca
+</div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+   
+    
+</body>
+    <head>
+<style type="text/css">
+.textbox { clear: both; }
+
+.navigationbar  
+{
+    background-image: url("../../img/bluebar.jpg") !important;
+    background-repeat: repeat-x !important;
+    background-attachment: scroll !important;
+    background-position: 0% 0% !important;
+    background-color: white !important;
+}
+
+.RadGrid_Office2007 td.rgGroupCol, .RadGrid_Office2007 td.rgExpandCol
+{
+    display: none;
+}
+
+</style> 
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Idea by:  Nic Wolfe -->
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=150,height=150,left = 615,top = 375');");
+}
+// End -->
+</script>
+
+
+
+</head>
+</html>

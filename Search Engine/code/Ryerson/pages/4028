@@ -1,0 +1,2059 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/websupport/components/content-components/table-component/" >
+		<meta property="og:title" content="Table Component" > 
+		<meta property="og:description" content="The table component allows the author to create a custom table on a web page." > 
+		<meta property="og:image" content="https://www.ryerson.ca/content/dam/websupport/components/page-property-thumbnails/table.jpg" > 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/websupport/components/content-components/table-component/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Table Component"> 
+		<meta name="twitter:description" content="The table component allows the author to create a custom table on a web page."> 
+        <meta name="twitter:image" content="https://www.ryerson.ca/content/dam/websupport/components/page-property-thumbnails/table.jpg">
+        
+        <title>Table Component - Web Support & Development Services - Ryerson University</title>
+        
+		<meta name="description" content="The table component allows the author to create a custom table on a web page."> 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.0077C8.FFA300.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/websupport/">
+				        Ryerson Web Support 
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/websupport.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#0c7d5af6-59f4-45c7-a179-52bd3fd41de3" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="0c7d5af6-59f4-45c7-a179-52bd3fd41de3">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/websupport/aem-basics/'>CQ (AEM) Basics</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/responsive-templates/'>Responsive Templates</a>
+									</li>
+								
+									<li class="active">
+										<a href='/websupport/components/'>Component Guide</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/seo-accessibility/'>Accessibility & SEO</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/website-tools/'>Tools</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/web-services/'>Our Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/news-updates/'>Updates</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/get-help/'>Get Help</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/websupport/components.html">Component Guide</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#c5e10c48-7408-4b86-a3b9-5e223d54eadc" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="c5e10c48-7408-4b86-a3b9-5e223d54eadc">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item parent">
+<a href='/websupport/components/content-components.html'>Content Components</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/websupport/components/content-components/announcement-component.html'>Announcement Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/blockquote-component.html'>Block quote Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/buttons-component.html'>Buttons Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/calendar-component.html'>Calendar Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/content-list-component.html'>Content List Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/department-contact-list.html'>Department Contact List</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/full-width-colour-component.html'>Full Width Colour Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/html-snippet-component.html'>HTML Snippet Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/image-with-optional-text-component.html'>Image with Optional Text Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/infographic-component.html'>Infographic Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/map-component.html'>Map Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/rss-component.html'>RSS Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/reference-component.html'>Reference Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/site-map-component.html'>Site Map Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/slideshow-component.html'>Slideshow Component</a>
+</li>
+<li class="list-group-item selected">
+<a href='/websupport/components/content-components/table-component.html'>Table Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/text-component.html'>Text Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/title-component.html'>Title Component</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/content-components/video-with-optional-text-component.html'>Video with Optional Text Component</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/feedback-forms.html'>Feedback Forms</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/layout-components.html'>Layout Components</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/lists-grids.html'>Lists & Grids</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/components/social-media.html'>Social Media</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-7 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Table Component</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="38db9a0a-b95f-444f-8c0d-5b400a9118e3" >
+
+    <p>The table component allows the author to create a custom table on a web page.</p> 
+<ul> 
+ <li>Found in Sidekick &gt; Content</li> 
+ <li>Styles available: Bordered (Default) | Borderless<br> </li> 
+ <li>Required content: Text</li> 
+ <li>Optional fields: Accessibility Summary | Enable Plugins checkbox<br> </li> 
+ <li>Plugins allows you to Add Search/Sorting/Pagination and more to your table.<br> To use these enhancements, the table must be a standard column-row layout and cells cannot be merged.</li> 
+ <li>Custom Colours Applicable: Yes, in Options tab, plugins must be enabled with first row header selected&nbsp;<br> </li> 
+</ul> 
+<p><br>  Avoid adding tables to layout components that constrain the table contents. Tables are not 100% responsive. Keep tables as simple as possible, without merging.<br> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#38db9a0a-b95f-444f-8c0d-5b400a9118e3");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Bordered Table (Default)
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resTable parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<div class="scrollIndicator hidden">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i> Swipe to see more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+	<div id="e098315e-11fd-49d1-ab59-7eb00b854e62">
+		<table width="678" height="60" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><td>Table with Border<br>
+</td>
+<td>Table with Border</td>
+<td>Table with Border<br>
+</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr></tbody></table>
+
+	</div>
+
+
+
+
+	<script>
+	
+	//convert to plugin in pure js....later (soon)
+	$(document).ready(function() {
+		$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').addClass("table");
+	    
+		$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').addClass("table-bordered");
+		
+			var removeHeading = false;
+			
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table tbody tr').eq(0).find("td").replaceWith(function(){
+				return $("<th>", {attr: {'width': $(this).attr('width'), 'rowspan': $(this).attr('rowspan'), 'colspan': $(this).attr('colspan'), 'valign': $(this).attr('valign'), 'headers': $(this).attr('headers'), 'style': $(this).attr('style')}, html: $(this).html()}).css("vertical-align", $(this).attr('valign'));;
+			});
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table:not(.dataTable) tbody tr').eq(0).wrap( "<thead></thead>" );
+		
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table thead').prependTo('#e098315e-11fd-49d1-ab59-7eb00b854e62 table');
+			
+			
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').removeAttr("border");
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').removeAttr("cellpadding");
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').removeAttr("cellspacing");
+			
+			$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table').DataTable({
+				
+				"sDom":"lrtp",
+				"sort":false,
+				"pagingType": "simple_numbers","paging":false,
+				"autoWidth":true
+			});
+		
+			//#NOTE-REMOVE
+			if(removeHeading){
+				$('#e098315e-11fd-49d1-ab59-7eb00b854e62 table thead').remove();
+			}
+			
+			
+		    
+	    
+	    
+	} );
+	</script>
+<script>$(document).ready(function(){addCoursePopover("#e098315e-11fd-49d1-ab59-7eb00b854e62");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Borderless Table with plugins enabled
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resTable parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<div class="scrollIndicator hidden">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i> Swipe to see more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+	<div id="4c382521-33ca-4851-bb91-1fee0f45df96">
+		<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><td>Table - Borderless</td>
+<td>Table - Borderless</td>
+<td>Table - Borderless</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr><tr><td>data</td>
+<td>data</td>
+<td>data</td>
+</tr></tbody></table>
+
+	</div>
+
+
+
+
+	<script>
+	
+	//convert to plugin in pure js....later (soon)
+	$(document).ready(function() {
+		$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').addClass("table");
+	    
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').addClass("table-striped");
+		
+		$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').addClass("table-borderless");
+		
+			var removeHeading = false;
+			
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table tbody tr').eq(0).find("td").replaceWith(function(){
+				return $("<th>", {attr: {'width': $(this).attr('width'), 'rowspan': $(this).attr('rowspan'), 'colspan': $(this).attr('colspan'), 'valign': $(this).attr('valign'), 'headers': $(this).attr('headers'), 'style': $(this).attr('style')}, html: $(this).html()}).css("vertical-align", $(this).attr('valign'));;
+			});
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table:not(.dataTable) tbody tr').eq(0).wrap( "<thead></thead>" );
+		
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table thead').prependTo('#4c382521-33ca-4851-bb91-1fee0f45df96 table');
+			
+			
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').removeAttr("border");
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').removeAttr("cellpadding");
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').removeAttr("cellspacing");
+			
+			$('#4c382521-33ca-4851-bb91-1fee0f45df96 table').DataTable({
+				
+				"columnDefs": [ { "type": "natural-nohtml", "targets": "_all" } ],
+				
+				"sDom":"lfrtp",
+				"sort":true,
+				"pagingType": "simple_numbers","paging":false,
+				"autoWidth":true
+			});
+		
+			//#NOTE-REMOVE
+			if(removeHeading){
+				$('#4c382521-33ca-4851-bb91-1fee0f45df96 table thead').remove();
+			}
+			
+			
+		    
+	    
+	    
+	} );
+	</script>
+<script>$(document).ready(function(){addCoursePopover("#4c382521-33ca-4851-bb91-1fee0f45df96");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    How to use
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="2152665c-4914-44d2-a712-d0637d218d10" >
+
+    <ol> 
+ <li>In Sidekick &gt; Content, click on "Table"</li> 
+ <li>Drag "Table" onto page</li> 
+ <li>Double click, or right-click to edit</li> 
+ <li>Under the Content tab, add text to pre-populated table cells or customize using the toolbar above the component <br> </li> 
+ <li>Optional fields:Accessibility Summary | Enable Plugins <br> 
+  <ul> 
+   <li>Under the Options tab &gt; Accessibility Summary [provide a bried overview of how the data has been organized into a table or add a brief description of how to navigate the table]</li> 
+   <li>Enable Plugins checkbox [Add Search/Sorting/Pagination and more to your table. To use these enhancement, the table must be a standard column-row layout and not merge cells] &nbsp;</li> 
+  </ul> </li> 
+ <li>Click "Display as" tab, and choose between Bordered (default) or Borderless <br> </li> 
+ <li>Click OK</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#2152665c-4914-44d2-a712-d0637d218d10");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="10a09ff9-047c-4e75-a93c-a0956de12965">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/websupport/components/content/table_drag_drop.png" alt="Screen capture of how to drag a Table component"/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	
+	Drag &amp; drop the Table component from sidekick 
+	
+	
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#10a09ff9-047c-4e75-a93c-a0956de12965');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "10a09ff9-047c-4e75-a93c-a0956de12965"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>
+	
+    Course link feature
+    
+	
+</h4>
+
+
+</div>
+
+				
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="restext_1300650605 resText parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4762b1c2-a387-48a9-ad34-454d62e25696" >
+
+    <p>The course linker automatically generates a link to a specific course in the <a href="/content/ryerson/calendar.html">Undergraduate Calendar</a>.</p> 
+<p>Typing in the exact course code will:</p> 
+<ul> 
+ <li>automatically link the course code to the course calendar<br> </li> 
+ <li>automatically create hover text to show the course code, course name, and description</li> 
+</ul> 
+<p> Please write the course code exactly as it is in the calendar. Avoid extra spaces and use the same case.</p> 
+<p>For example, type <a href="/content/ryerson/calendar/2020-2021/courses/communication/CMN/100.html" class="qTipCourse" data-url="/content/ryerson/calendar/2020-2021/courses/communication/CMN/100/jcr:content/center/uiwcalendarcourse.json">CMN 100</a> and not cmn 100</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4762b1c2-a387-48a9-ad34-454d62e25696");});</script></div>
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resSearch section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div id="b0e97335-b847-4e88-abfc-915410058044">
+	
+		<form method="get" action="/websupport/search/" data-resultstype="site" class="resSearch">
+	
+	<div class="input-group search-container-box"> 
+		<label for="resSearchQb0e97335-b847-4e88-abfc-915410058044" class="sr-only">Search</label> 
+		<input id="resSearchQb0e97335-b847-4e88-abfc-915410058044" class="resSearchQ form-control resultstype-site" name="q" type="text" placeholder="Enter a search term" autocomplete="off">
+		<span class="input-group-btn"> <button aria-label="Search" class="resSearchGo btn btn-default" type="submit"> <i class="fa fa-search" title="Search"></i> </button> </span> 
+	</div>
+	
+		</form>
+	
+	
+</div>
+<script>
+jQuery(document).ready(function() {
+	jQuery("#b0e97335-b847-4e88-abfc-915410058044").initSearchComponent({mode: 'both', displayas: 'box', url: '/websupport/inheritedContent/jcr:content/resRightSidebar/content/ressearch', newContactDir: true});
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Quick links:
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonTransition">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/">
+	                        	
+	                            <span>Make request/Report issue</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://cmshost.ryerson.ca" target="_blank">
+	                        	
+	                            <span>Log in</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/training/">
+	                        	
+	                            <span>Get training</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				
+
+				
+				<div class="resInfographic section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="infoContainer style2 hasIcon">
+	<div class="contentWrapper">
+		<div class='iconContainer'><span aria-hidden='true' class='icon fa fa-home '></span></div>
+		<div class="textContainer"><p><span class="resInfographicBold">Updating from home? <a href="/content/ryerson/ccs/services/connections/secure-connection/ru-vpn2/">Apply for a VPN account</a></span></p></div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3f3347e8-d010-4e0b-9b8f-98fb5acee798" >
+
+    <p><strong>Digital Publishing, CCS</strong></p> 
+<p><a href="/maps/?building=LIB">LIB-B-99</a> <br> 350 Victoria Street<br> Toronto, ON M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3f3347e8-d010-4e0b-9b8f-98fb5acee798");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="2953fcdb-c507-49e5-aa3a-17584629ee09" >
+
+    <p><strong>Need help?</strong></p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/get-help/training.html">CQ/AEM Training</a></li> 
+ <li><a href="/content/ryerson/websupport/get-help.html">Submit an issue</a></li> 
+ <li><a href="/content/ryerson/websupport/web-services.html">Our services<br> </a></li> 
+</ul> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#2953fcdb-c507-49e5-aa3a-17584629ee09");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="60e9bf20-0baf-4cee-880a-32e961c94705" >
+
+    <p><a href="/content/ryerson/websupport/sitemap.html">Sitemap</a><strong> </strong></p> 
+<p><a href="https://www.youtube.com/user/ryersoncmssupport">YouTube<span class="sr-only">, external link</span></a> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#60e9bf20-0baf-4cee-880a-32e961c94705");});</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'FDNGNMDCGLBIGPGGIIDJFKKPJGGNEDELPKGKAIHNCJLHFHHCFCEPLDMMIHHICEDDOEOBBKKDAACAMIGCMHFACFEOAAOFDPAJPBGPOMFJLDAAKHFMHAPJJPCIMMCPAFNK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'OOHAGAJCHPLFELEFHKFBFJIDBANPBNJHDIEBNOJFILJIKLNIFCMNANHJBEJONDKENFABIDBGAAJHIAMBPANAJOFEAABPOPGEKBANIFJJGNBAIPOFHJBNMCNKNEJLIDEP',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

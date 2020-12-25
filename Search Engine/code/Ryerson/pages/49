@@ -1,0 +1,1015 @@
+<!DOCTYPE html><html>
+<head><base href="http://go.pardot.com">
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><title>Ryerson University Web Form</title><style type="text/css">
+
+@media only screen and (max-width: 400px) {
+	.rye-logo {
+		margin-left: 1%;
+	}
+}
+
+/*
+Previously included the following in the 400px range above
+	.container { 
+	    margin-left: 33%;
+	}
+*/
+
+@media only screen and (max-width: 600px) {
+	.rye-logo {
+		margin-left: 1%;
+	}
+	.col-auto {
+		min-width: 16em;
+	}
+	.field-label {
+		max-width: 450px;
+	}
+}
+
+
+@media only screen and (min-width: 600px) {
+	.rye-logo {
+		margin-left: 5%;
+	}
+	.field-label {
+		max-width: 23rem;
+	}
+	.col-auto {
+		/*min-width: 30em;*/
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.rye-logo {
+		margin-left: 10%;
+	}
+	.field-label {
+		/*max-width:30rem;*/
+	}
+	.container {
+		width: 60%;
+	}
+}
+
+.rye-logo {
+	margin-top: 1em;
+}
+
+.rye-logo>img {
+	width: 8rem;
+}
+
+body {
+	background-image: url(https://why.ryerson.ca/wp-content/uploads/2020/07/mailchimp-photo-blur.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	/* background-color: #FFFFF0; */
+	background-color: #ebebeb;
+	margin-top: 0;
+	margin-bottom: 2em;
+	/*padding: 1.5em;*/
+	padding: 2em 2.5em 2.5em 2.6em;
+	/* border-radius: 25px; */
+	border-radius: 10px; 
+	/* border: 2px solid #2c2b2a;*/
+	border: 2px solid #000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.pre-form-content {
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%
+}
+
+.pre-form-content>p,
+h2 {
+	color: #2c2b2a;
+}
+
+.pre-form-content>p {
+	font-size: 0.7rem;
+}
+
+hr {
+	margin-top: 2rem;
+}
+
+form.form input.text,
+form.form textarea.standard,
+form.form select,
+form.form input.date {
+	display: block;
+	padding: .375rem .75rem;
+	/* font-size:1rem; */
+	font-size: 0.7rem;
+	line-height: 1.5;
+	/* color: #495057;*/
+	color: #000000;
+	background-color: #fff;
+	background-clip: padding-box;
+	/*border: 1px solid #ced4da;*/
+	border: 1px solid #2c2b2a;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-row {
+    justify-content: center;
+}
+
+.field-label {
+	font-size: 0.8rem !important;
+	font-weight: 600;
+	color: #2c2b2a;
+	width: 256px;
+}
+
+.form-field {
+	/*padding: 1.5% !important;*/
+	padding: 1.5% 0;
+}
+
+select,
+input {
+	width: -webkit-fill-available;
+	width: 249px;
+}
+
+#ui-datepicker-div {
+	background: white !important;
+	font-size: 15px !important;
+	border: #ced4da 1px solid;
+	width: 10rem;
+	!important;
+	text-align: center;
+}
+
+#ui-datepicker-div>table {
+	width: 100% !important;
+}
+
+.ui-datepicker-unselectable {
+	color: lightgray;
+}
+
+.ui-datepicker-prev {
+	padding-right: 10% !important;
+}
+
+.ui-datepicker-next {
+	padding-left: 10% !important;
+}
+
+.ui-datepicker-prev>span,
+.ui-datepicker-next>span {
+	color: #007bff !important;
+}
+
+.ui-datepicker-prev>span:hover,
+.ui-datepicker-next>span:hover {
+	cursor: pointer;
+}
+
+/*
+.col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text.required, .col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text.required > .field-label {
+    width: 20rem;
+}
+
+.col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text.required > input {
+    width: 20rem;
+}
+*/
+
+.col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text, .col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text > .field-label {
+    width: 20rem;
+}
+
+.col-auto.form-field.accommodations.Accessibility_and_accommodation.pd-text > input {
+    width: 20rem;
+}
+
+.description {
+    font-size: 0.7rem;
+}
+.error {
+	font-size: 0.7rem;
+	color: red;
+}
+.errors {
+	font-size: 0.7rem;
+}
+
+.btn-primary {
+    color: black;
+	background-color: #FFDC00;
+	border-color: #FFDC00 !important;
+	font-weight: 600 !important;
+	height: 2.5rem;
+	width: 10rem;
+}
+
+/* Checkboxes */
+.Opt-in > label{
+    text-align: center;
+    display: none;
+}
+
+.pd-checkbox input, .pd-checkbox label {
+        text-align: -webkit-center;
+        font-size: 0.7em;
+        color: black;
+        margin-left: 1em;
+        display: block;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    width:-webkit-fit-content;
+}
+
+
+.pd-checkbox{
+    text-align: -webkit-center;
+}
+
+
+/* Captcha button */
+.pd-captcha{
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.submit-btn {
+	text-align: center;
+}
+
+</style>
+    
+<script type="text/javascript" src="https://go.pardot.com/js/piUtils.js?ver=2020-10-19"></script><script type="text/javascript">
+piAId = '456672';
+piCId = '66169';
+piHostname = 'pi.pardot.com';
+if(!window['pi']) { window['pi'] = {}; } pi = window['pi']; if(!pi['tracker']) { pi['tracker'] = {}; } pi.tracker.pi_form = true;
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script></head>
+<body>
+
+<div class="rye-logo"><img src="https://why.ryerson.ca/wp-content/uploads/2017/09/ryerson-logo-01.png" alt="Ryerson Logo"/></div>
+<div class="container"><form accept-charset="UTF-8" method="post" action="https://go.whyryerson.ca/l/455672/2020-08-14/8glqq5" class="form" id="pardot-form">
+
+<style type="text/css">
+form.form p label { color: #000000; font-family: Helvetica, Arial, sans-serif; }
+form.form p.required label, form.form span.required label { background: none; padding-left: 0px; }
+</style>
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<div class="pre-form-content">
+<h1>Guided Virtual Campus Tour Experience Registration</h1>
+
+<p>Connect with us for a live Q&amp;A and a guided exploration of our <a href="https://www.ryerson.ca/admissions/visits-tours/virtual/">Virtual Campus Tour</a>, which features panoramic photos and videos of campus including classrooms, lab spaces, athletic facilities and more.</p>
+
+<p>Our student guides and recruitment staff can ensure you get the most out of our Virtual Campus Tour. They&rsquo;re also eager to share tips on the best spaces on campus to study or hangout between class, the best coffee spots in our downtown neighbourhood, and everything in between that you can expect as part of the Ryerson family.</p>
+
+<p>While experiencing the campus in person is part of an important decision-making process, this virtual campus connection is a close second. Register today - we can&rsquo;t wait to show you around!</p>
+
+<hr /></div>
+
+		
+<div class="form-row align-items-center">		
+		
+			<div class="col-auto form-field  first_name pd-text required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426480pi_455672_426480">First name *</label>
+				
+				
+				<input type="text" name="455672_426480pi_455672_426480" id="455672_426480pi_455672_426480" value="" class="text" size="30" maxlength="40" onchange="" onfocus="" />
+				
+			
+			<div id="error_for_455672_426480pi_455672_426480" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  last_name pd-text required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426482pi_455672_426482">Last name *</label>
+				
+				
+				<input type="text" name="455672_426482pi_455672_426482" id="455672_426482pi_455672_426482" value="" class="text" size="30" maxlength="80" onchange="" onfocus="" />
+				
+			
+			<div id="error_for_455672_426482pi_455672_426482" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  email pd-text required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426484pi_455672_426484">Email *</label>
+				
+				
+				<input type="text" name="455672_426484pi_455672_426484" id="455672_426484pi_455672_426484" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 455672, 426484, 181108534);" onfocus="" />
+				
+			
+			<div id="error_for_455672_426484pi_455672_426484" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  S2020_Virtual_Campus_Tour_Date pd-select required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426646pi_455672_426646">Tour date *</label>
+				
+				
+				<select name="455672_426646pi_455672_426646" id="455672_426646pi_455672_426646" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5230743">Thursday, December 3 at 9 a.m EST </option>
+<option value="5230745">Thursday, December 3 at 2 p.m EST</option>
+<option value="5246099">Monday, December 7th at 4 p.m EST </option>
+<option value="5246101">Thursday, December 10th at 9 a.m EST</option>
+<option value="5230747">Saturday, December 12 at 11 a.m EST </option>
+<option value="5234429">Wednesday, December 16 at 8 p.m EST</option>
+</select>
+				
+			
+			<div id="error_for_455672_426646pi_455672_426646" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  Current_Country_of_Study pd-select required required-custom    form-field-master">
+				
+					<label class="field-label col-form-label" for="455672_426486pi_455672_426486">Current country of study *</label>
+				
+				
+				<select name="455672_426486pi_455672_426486" id="455672_426486pi_455672_426486" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5197140">United States</option>
+<option value="5197142">Canada</option>
+<option value="5197144">Afghanistan</option>
+<option value="5197146">Albania</option>
+<option value="5197148">Algeria</option>
+<option value="5197150">American Samoa</option>
+<option value="5197152">Andorra</option>
+<option value="5197154">Angola</option>
+<option value="5197156">Anguilla</option>
+<option value="5197158">Antarctica</option>
+<option value="5197160">Antigua and Barbuda</option>
+<option value="5197162">Argentina</option>
+<option value="5197164">Armenia</option>
+<option value="5197166">Aruba</option>
+<option value="5197168">Australia</option>
+<option value="5197170">Austria</option>
+<option value="5197172">Azerbaijan</option>
+<option value="5197174">Bahamas</option>
+<option value="5197176">Bahrain</option>
+<option value="5197178">Bangladesh</option>
+<option value="5197180">Barbados</option>
+<option value="5197182">Belarus</option>
+<option value="5197184">Belgium</option>
+<option value="5197186">Belize</option>
+<option value="5197188">Benin</option>
+<option value="5197190">Bermuda</option>
+<option value="5197192">Bhutan</option>
+<option value="5197194">Bolivia</option>
+<option value="5197196">Bosnia and Herzegovina</option>
+<option value="5197198">Botswana</option>
+<option value="5197200">Brazil</option>
+<option value="5197202">British Indian Ocean Territory</option>
+<option value="5197204">British Virgin Islands</option>
+<option value="5197206">Brunei</option>
+<option value="5197208">Bulgaria</option>
+<option value="5197210">Burkina Faso</option>
+<option value="5197212">Burundi</option>
+<option value="5197214">Cambodia</option>
+<option value="5197216">Cameroon</option>
+<option value="5197218">Cape Verde</option>
+<option value="5197220">Cayman Islands</option>
+<option value="5197222">Central African Republic</option>
+<option value="5197224">Chad</option>
+<option value="5197226">Chile</option>
+<option value="5197228">China</option>
+<option value="5197230">Christmas Island</option>
+<option value="5197232">Cocos (Keeling) Islands</option>
+<option value="5197234">Colombia</option>
+<option value="5197236">Comoros</option>
+<option value="5197238">Congo</option>
+<option value="5197240">Cook Islands</option>
+<option value="5197242">Costa Rica</option>
+<option value="5197244">Croatia</option>
+<option value="5197246">Cuba</option>
+<option value="5197248">Cura&ccedil;ao</option>
+<option value="5197250">Cyprus</option>
+<option value="5197252">Czech Republic</option>
+<option value="5197254">C&ocirc;te d&rsquo;Ivoire</option>
+<option value="5197256">Democratic Republic of the Congo</option>
+<option value="5197258">Denmark</option>
+<option value="5197260">Djibouti</option>
+<option value="5197262">Dominica</option>
+<option value="5197264">Dominican Republic</option>
+<option value="5197266">Ecuador</option>
+<option value="5197268">Egypt</option>
+<option value="5197270">El Salvador</option>
+<option value="5197272">Equatorial Guinea</option>
+<option value="5197274">Eritrea</option>
+<option value="5197276">Estonia</option>
+<option value="5197278">Ethiopia</option>
+<option value="5197280">Falkland Islands</option>
+<option value="5197282">Faroe Islands</option>
+<option value="5197284">Fiji</option>
+<option value="5197286">Finland</option>
+<option value="5197288">France</option>
+<option value="5197290">French Guiana</option>
+<option value="5197292">French Polynesia</option>
+<option value="5197294">French Southern Territories</option>
+<option value="5197296">Gabon</option>
+<option value="5197298">Gambia</option>
+<option value="5197300">Georgia</option>
+<option value="5197302">Germany</option>
+<option value="5197304">Ghana</option>
+<option value="5197306">Gibraltar</option>
+<option value="5197308">Greece</option>
+<option value="5197310">Greenland</option>
+<option value="5197312">Grenada</option>
+<option value="5197314">Guadeloupe</option>
+<option value="5197316">Guam</option>
+<option value="5197318">Guatemala</option>
+<option value="5197320">Guernsey</option>
+<option value="5197322">Guinea</option>
+<option value="5197324">Guinea-Bissau</option>
+<option value="5197326">Guyana</option>
+<option value="5197328">Haiti</option>
+<option value="5197330">Honduras</option>
+<option value="5197332">Hong Kong</option>
+<option value="5197334">Hungary</option>
+<option value="5197336">Iceland</option>
+<option value="5197338">India</option>
+<option value="5197340">Indonesia</option>
+<option value="5197342">Iran (Islamic Republic Of)</option>
+<option value="5197344">Iraq</option>
+<option value="5197346">Ireland</option>
+<option value="5197348">Isle of Man</option>
+<option value="5197350">Israel</option>
+<option value="5197352">Italy</option>
+<option value="5197354">Jamaica</option>
+<option value="5197356">Japan</option>
+<option value="5197358">Jersey</option>
+<option value="5197360">Jordan</option>
+<option value="5197362">Kazakhstan</option>
+<option value="5197364">Kenya</option>
+<option value="5197366">Kiribati</option>
+<option value="5197368">Kuwait</option>
+<option value="5197370">Kyrgyzstan</option>
+<option value="5197372">Laos</option>
+<option value="5197374">Latvia</option>
+<option value="5197376">Lebanon</option>
+<option value="5197378">Lesotho</option>
+<option value="5197380">Liberia</option>
+<option value="5197382">Libya</option>
+<option value="5197384">Liechtenstein</option>
+<option value="5197386">Lithuania</option>
+<option value="5197388">Luxembourg</option>
+<option value="5197390">Macao</option>
+<option value="5197392">Macedonia</option>
+<option value="5197394">Madagascar</option>
+<option value="5197396">Malawi</option>
+<option value="5197398">Malaysia</option>
+<option value="5197400">Maldives</option>
+<option value="5197402">Mali</option>
+<option value="5197404">Malta</option>
+<option value="5197406">Marshall Islands</option>
+<option value="5197408">Martinique</option>
+<option value="5197410">Mauritania</option>
+<option value="5197412">Mauritius</option>
+<option value="5197414">Mayotte</option>
+<option value="5197416">Mexico</option>
+<option value="5197418">Micronesia</option>
+<option value="5197420">Moldova</option>
+<option value="5197422">Monaco</option>
+<option value="5197424">Mongolia</option>
+<option value="5197426">Montenegro</option>
+<option value="5197428">Montserrat</option>
+<option value="5197430">Morocco</option>
+<option value="5197432">Mozambique</option>
+<option value="5197434">Myanmar</option>
+<option value="5197436">Namibia</option>
+<option value="5197438">Nauru</option>
+<option value="5197440">Nepal</option>
+<option value="5197442">Netherlands</option>
+<option value="5197444">New Caledonia</option>
+<option value="5197446">New Zealand</option>
+<option value="5197448">Nicaragua</option>
+<option value="5197450">Niger</option>
+<option value="5197452">Nigeria</option>
+<option value="5197454">Niue</option>
+<option value="5197456">Norfolk Island</option>
+<option value="5197458">North Korea</option>
+<option value="5197460">Northern Mariana Islands</option>
+<option value="5197462">Norway</option>
+<option value="5197464">Oman</option>
+<option value="5197466">Pakistan</option>
+<option value="5197468">Palau</option>
+<option value="5197470">Palestine</option>
+<option value="5197472">Panama</option>
+<option value="5197474">Papua New Guinea</option>
+<option value="5197476">Paraguay</option>
+<option value="5197478">Peru</option>
+<option value="5197480">Philippines</option>
+<option value="5197482">Pitcairn</option>
+<option value="5197484">Poland</option>
+<option value="5197486">Portugal</option>
+<option value="5197488">Puerto Rico</option>
+<option value="5197490">Qatar</option>
+<option value="5197492">Romania</option>
+<option value="5197494">Russian Federation</option>
+<option value="5197496">Rwanda</option>
+<option value="5197498">R&eacute;union</option>
+<option value="5197500">Saint Barth&eacute;lemy</option>
+<option value="5197502">Saint Helena</option>
+<option value="5197504">Saint Kitts and Nevis</option>
+<option value="5197506">Saint Lucia</option>
+<option value="5197508">Saint Pierre and Miquelon</option>
+<option value="5197510">Saint Vincent and the Grenadines</option>
+<option value="5197512">Samoa</option>
+<option value="5197514">San Marino</option>
+<option value="5197516">Sao Tome and Principe</option>
+<option value="5197518">Saudi Arabia</option>
+<option value="5197520">Senegal</option>
+<option value="5197522">Serbia</option>
+<option value="5197524">Seychelles</option>
+<option value="5197526">Sierra Leone</option>
+<option value="5197528">Singapore</option>
+<option value="5197530">Slovakia</option>
+<option value="5197532">Slovenia</option>
+<option value="5197534">Solomon Islands</option>
+<option value="5197536">Somalia</option>
+<option value="5197538">Republic of South Africa</option>
+<option value="5197540">Korea, South</option>
+<option value="5197542">South Sudan</option>
+<option value="5197544">Spain</option>
+<option value="5197546">Sri Lanka</option>
+<option value="5197548">Sudan</option>
+<option value="5197550">Suriname</option>
+<option value="5197552">Svalbard and Jan Mayen</option>
+<option value="5197554">Swaziland</option>
+<option value="5197556">Sweden</option>
+<option value="5197558">Switzerland</option>
+<option value="5197560">Syria</option>
+<option value="5197562">Taiwan</option>
+<option value="5197564">Tajikistan</option>
+<option value="5197566">Tanzania</option>
+<option value="5197568">Thailand</option>
+<option value="5197570">Timor-Leste</option>
+<option value="5197572">Togo</option>
+<option value="5197574">Tokelau</option>
+<option value="5197576">Tonga</option>
+<option value="5197578">Trinidad and Tobago</option>
+<option value="5197580">Tunisia</option>
+<option value="5197582">Turkey</option>
+<option value="5197584">Turkmenistan</option>
+<option value="5197586">Turks and Caicos Islands</option>
+<option value="5197588">Tuvalu</option>
+<option value="5197590">Virgin Islands (U.S.)</option>
+<option value="5197592">Uganda</option>
+<option value="5197594">Ukraine</option>
+<option value="5197596">United Arab Emirates</option>
+<option value="5197598">United Kingdom</option>
+<option value="5197600">United States Minor Outlying Islands</option>
+<option value="5197602">Uruguay</option>
+<option value="5197604">Uzbekistan</option>
+<option value="5197606">Vanuatu</option>
+<option value="5197608">Vatican</option>
+<option value="5197610">Venezuela</option>
+<option value="5197612">Vietnam</option>
+<option value="5197614">Wallis and Futuna</option>
+<option value="5197616">Western Sahara</option>
+<option value="5197618">Yemen</option>
+<option value="5197620">Zambia</option>
+<option value="5197622">Zimbabwe</option>
+</select>
+				
+			
+			<div id="error_for_455672_426486pi_455672_426486" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  province pd-select required required-custom    form-field-slave dependentFieldSlave">
+				
+					<label class="field-label col-form-label" for="455672_426488pi_455672_426488">Province *</label>
+				
+				
+				<select name="455672_426488pi_455672_426488" id="455672_426488pi_455672_426488" class="select" onchange=""><option value="5186910" selected="selected"></option>
+<option value="5186912">Alberta</option>
+<option value="5186914">British Columbia</option>
+<option value="5186916">Manitoba</option>
+<option value="5186918">New Brunswick</option>
+<option value="5186920">Newfoundland and Labrador</option>
+<option value="5186922">Northwest Territories</option>
+<option value="5186924">Nova Scotia</option>
+<option value="5186926">Nunavut</option>
+<option value="5186928">Ontario</option>
+<option value="5186930">Prince Edward Island</option>
+<option value="5186932">Quebec</option>
+<option value="5186934">Saskatchewan</option>
+<option value="5186936">Yukon</option>
+</select>
+				
+			
+			<div id="error_for_455672_426488pi_455672_426488" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  state pd-select required required-custom    form-field-slave dependentFieldSlave">
+				
+					<label class="field-label col-form-label" for="455672_426490pi_455672_426490">State *</label>
+				
+				
+				<select name="455672_426490pi_455672_426490" id="455672_426490pi_455672_426490" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5186938">Alabama</option>
+<option value="5186940">Alaska</option>
+<option value="5186942">Arizona</option>
+<option value="5186944">Arkansas</option>
+<option value="5186946">California</option>
+<option value="5186948">Colorado</option>
+<option value="5186950">Connecticut</option>
+<option value="5186952">Delaware</option>
+<option value="5186954">District Of Columbia</option>
+<option value="5186956">Florida</option>
+<option value="5186958">Georgia</option>
+<option value="5186960">Hawaii</option>
+<option value="5186962">Idaho</option>
+<option value="5186964">Illinois</option>
+<option value="5186966">Indiana</option>
+<option value="5186968">Iowa</option>
+<option value="5186970">Kansas</option>
+<option value="5186972">Kentucky</option>
+<option value="5186974">Louisiana</option>
+<option value="5186976">Maine</option>
+<option value="5186978">Maryland</option>
+<option value="5186980">Massachusetts</option>
+<option value="5186982">Michigan</option>
+<option value="5186984">Minnesota</option>
+<option value="5186986">Mississippi</option>
+<option value="5186988">Missouri</option>
+<option value="5186990">Montana</option>
+<option value="5186992">Nebraska</option>
+<option value="5186994">Nevada</option>
+<option value="5186996">New Hampshire</option>
+<option value="5186998">New Jersey</option>
+<option value="5187000">New Mexico</option>
+<option value="5187002">New York</option>
+<option value="5187004">North Carolina</option>
+<option value="5187006">North Dakota</option>
+<option value="5187008">Ohio</option>
+<option value="5187010">Oklahoma</option>
+<option value="5187012">Oregon</option>
+<option value="5187014">Pennsylvania</option>
+<option value="5187016">Rhode Island</option>
+<option value="5187018">South Carolina</option>
+<option value="5187020">South Dakota</option>
+<option value="5187022">Tennessee</option>
+<option value="5187024">Texas</option>
+<option value="5187026">Utah</option>
+<option value="5187028">Vermont</option>
+<option value="5187030">Virginia</option>
+<option value="5187032">Washington</option>
+<option value="5187034">West Virginia</option>
+<option value="5187036">Wisconsin</option>
+<option value="5187038">Wyoming</option>
+</select>
+				
+			
+			<div id="error_for_455672_426490pi_455672_426490" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  city pd-text required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426492pi_455672_426492">City *</label>
+				
+				
+				<input type="text" name="455672_426492pi_455672_426492" id="455672_426492pi_455672_426492" value="" class="text" size="30" maxlength="40" onchange="" onfocus="" />
+				
+			
+			<div id="error_for_455672_426492pi_455672_426492" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  zip pd-text     form-field-slave dependentFieldSlave">
+				
+					<label class="field-label col-form-label" for="455672_426496pi_455672_426496">Postal code</label>
+				
+				
+				<input type="text" name="455672_426496pi_455672_426496" id="455672_426496pi_455672_426496" value="" class="text" size="30" maxlength="32" onchange="" onfocus="" />
+				
+			
+			<div id="error_for_455672_426496pi_455672_426496" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  CurrentSchool pd-text     ">
+				
+					<label class="field-label col-form-label" for="455672_426498pi_455672_426498">What school are you currently attending?</label>
+				
+				
+				<input type="text" name="455672_426498pi_455672_426498" id="455672_426498pi_455672_426498" value="" class="text" size="30" maxlength="65535" onchange="" onfocus="" />
+				
+			
+			<div id="error_for_455672_426498pi_455672_426498" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  Expected_Start_Year pd-select required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426500pi_455672_426500">Expected year of enrolment *</label>
+				
+				
+				<select name="455672_426500pi_455672_426500" id="455672_426500pi_455672_426500" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5194582">2021</option>
+<option value="5194584">2022</option>
+<option value="5194586">2023</option>
+<option value="5194588">2024</option>
+</select>
+				
+			
+			<div id="error_for_455672_426500pi_455672_426500" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  What_is_your_program_of_interest_ pd-select required required-custom    ">
+				
+					<label class="field-label col-form-label" for="455672_426504pi_455672_426504">What is your primary program of interest? *</label>
+				
+				
+				<select name="455672_426504pi_455672_426504" id="455672_426504pi_455672_426504" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5220589">Accounting &amp; Finance</option>
+<option value="5220591">Aerospace Engineering</option>
+<option value="5220593">Architectural Science</option>
+<option value="5220595">Arts and Contemporary Studies</option>
+<option value="5220597">Biology</option>
+<option value="5220599">Biomedical Engineering</option>
+<option value="5220601">Biomedical Sciences</option>
+<option value="5220603">Business Management</option>
+<option value="5220605">Business Technology Management</option>
+<option value="5220607">Chemical Engineering Co-op</option>
+<option value="5220609">Chemistry</option>
+<option value="5220611">Child and Youth Care</option>
+<option value="5220613">Civil Engineering</option>
+<option value="5220615">Computer Engineering</option>
+<option value="5220617">Computer Science</option>
+<option value="5220619">Creative Industries</option>
+<option value="5220621">Criminology</option>
+<option value="5220623">Disability Studies</option>
+<option value="5220625">Early Childhood Studies</option>
+<option value="5220627">Electrical Engineering</option>
+<option value="5220629">English</option>
+<option value="5220631">Environment and Urban Sustainability</option>
+<option value="5220633">Fashion</option>
+<option value="5220635">Financial Mathematics</option>
+<option value="5220637">Geographic Analysis</option>
+<option value="5220639">Graphic Communications Management</option>
+<option value="5220641">Health Administration</option>
+<option value="5220643">Health Information Management</option>
+<option value="5220645">Health Services Management</option>
+<option value="5220647">History</option>
+<option value="5220649">Hospitality and Tourism Management</option>
+<option value="5220651">Image Arts: Film Studies</option>
+<option value="5220653">Image Arts: Photography Studies</option>
+<option value="5220655">Industrial Engineering</option>
+<option value="5220657">Interior Design</option>
+<option value="5220659">International Economics and Finance</option>
+<option value="5220661">International University Foundation Program</option>
+<option value="5220663">Journalism</option>
+<option value="5220665">Language and Intercultural Relations</option>
+<option value="5220667">Mathematics and its Applications</option>
+<option value="5220669">Mechanical Engineering</option>
+<option value="5220671">Media Production</option>
+<option value="5220673">Medical Physics</option>
+<option value="5220675">Midwifery</option>
+<option value="5220677">New Media</option>
+<option value="5220679">Nursing</option>
+<option value="5220681">Nursing Post-Diploma</option>
+<option value="5220683">Nutrition and Food</option>
+<option value="5220685">Occupational Health and Safety</option>
+<option value="5220687">Performance Acting</option>
+<option value="5220689">Performance Dance</option>
+<option value="5220691">Performance Production</option>
+<option value="5220693">Philosophy</option>
+<option value="5220695">Politics and Governance</option>
+<option value="5220697">Professional Communication</option>
+<option value="5220699">Professional Music</option>
+<option value="5220701">Psychology</option>
+<option value="5220703">Public Administration and Governance</option>
+<option value="5220705">Public Health</option>
+<option value="5220707">Retail Management</option>
+<option value="5220709">Ryerson ESL Foundation Program</option>
+<option value="5220711">Social Work</option>
+<option value="5220713">Sociology</option>
+<option value="5220715">Sport Media</option>
+<option value="5220717">Undeclared Arts</option>
+<option value="5220719">Undeclared Engineering</option>
+<option value="5220721">Undeclared Science</option>
+<option value="5220723">Urban and Regional Planning</option>
+</select>
+				
+			
+			<div id="error_for_455672_426504pi_455672_426504" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  Other_programs_of_interest pd-select     ">
+				
+					<label class="field-label col-form-label" for="455672_426506pi_455672_426506">Other program(s) of interest?</label>
+				
+				
+				<select name="455672_426506pi_455672_426506[]" id="455672_426506pi_455672_426506" size="5" multiple="multiple" onchange=""><option value="5220725">Accounting &amp; Finance</option>
+<option value="5220727">Aerospace Engineering</option>
+<option value="5220729">Architectural Science</option>
+<option value="5220731">Arts and Contemporary Studies</option>
+<option value="5220733">Biology</option>
+<option value="5220735">Biomedical Engineering</option>
+<option value="5220737">Biomedical Sciences</option>
+<option value="5220739">Business Management</option>
+<option value="5220741">Business Technology Management</option>
+<option value="5220743">Chemical Engineering Co-op</option>
+<option value="5220745">Chemistry</option>
+<option value="5220747">Child and Youth Care</option>
+<option value="5220749">Civil Engineering</option>
+<option value="5220751">Computer Engineering</option>
+<option value="5220753">Computer Science</option>
+<option value="5220755">Creative Industries</option>
+<option value="5220757">Criminology</option>
+<option value="5220759">Disability Studies</option>
+<option value="5220761">Early Childhood Studies</option>
+<option value="5220763">Electrical Engineering</option>
+<option value="5220765">English</option>
+<option value="5220767">Environment and Urban Sustainability</option>
+<option value="5220769">Fashion</option>
+<option value="5220771">Financial Mathematics</option>
+<option value="5220773">Geographic Analysis</option>
+<option value="5220775">Graphic Communications Management</option>
+<option value="5220777">Health Administration</option>
+<option value="5220779">Health Information Management</option>
+<option value="5220781">Health Services Management</option>
+<option value="5220783">History</option>
+<option value="5220785">Hospitality and Tourism Management</option>
+<option value="5220787">Image Arts: Film Studies</option>
+<option value="5220789">Image Arts: Photography Studies</option>
+<option value="5220791">Industrial Engineering</option>
+<option value="5220793">Interior Design</option>
+<option value="5220795">International Economics and Finance</option>
+<option value="5220797">International University Foundation Program</option>
+<option value="5220799">Journalism</option>
+<option value="5220801">Language and Intercultural Relations</option>
+<option value="5220803">Mathematics and its Applications</option>
+<option value="5220805">Mechanical Engineering</option>
+<option value="5220807">Media Production</option>
+<option value="5220809">Medical Physics</option>
+<option value="5220811">Midwifery</option>
+<option value="5220813">New Media</option>
+<option value="5220815">Nursing</option>
+<option value="5220817">Nursing Post-Diploma</option>
+<option value="5220819">Nutrition and Food</option>
+<option value="5220821">Occupational Health and Safety</option>
+<option value="5220823">Performance Acting</option>
+<option value="5220825">Performance Dance</option>
+<option value="5220827">Performance Production</option>
+<option value="5220829">Philosophy</option>
+<option value="5220831">Politics and Governance</option>
+<option value="5220833">Professional Communication</option>
+<option value="5220835">Professional Music</option>
+<option value="5220837">Psychology</option>
+<option value="5220839">Public Administration and Governance</option>
+<option value="5220841">Public Health</option>
+<option value="5220843">Retail Management</option>
+<option value="5220845">Ryerson ESL Foundation Program</option>
+<option value="5220847">Social Work</option>
+<option value="5220849">Sociology</option>
+<option value="5220851">Sport Media</option>
+<option value="5220853">Undeclared Arts</option>
+<option value="5220855">Undeclared Engineering</option>
+<option value="5220857">Undeclared Science</option>
+<option value="5220859">Urban and Regional Planning</option>
+</select>
+				
+			
+			<div id="error_for_455672_426506pi_455672_426506" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field  Would_you_like_a_housting_tour pd-select     ">
+				
+					<label class="field-label col-form-label" for="455672_426508pi_455672_426508">Are you interested in learning about our residence options?</label>
+				
+				
+				<select name="455672_426508pi_455672_426508" id="455672_426508pi_455672_426508" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5187316">Yes</option>
+</select>
+				
+			
+			<div id="error_for_455672_426508pi_455672_426508" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field accommodations Accessibility_and_accommodation pd-select     ">
+				
+					<label class="field-label col-form-label" for="455672_426510pi_455672_426510">Do you require accessibility accommodations to be able to participate? (If you answer "yes", a member of our team will reach out to you via email)</label>
+				
+				
+				<select name="455672_426510pi_455672_426510" id="455672_426510pi_455672_426510" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="5195280">Yes</option>
+<option value="5195282">No</option>
+</select>
+				
+			
+			<div id="error_for_455672_426510pi_455672_426510" style="display:none"></div>
+			
+			</div>
+		
+			<div class="col-auto form-field %%form-field-css-classes%% pd-captcha required hidden   %%form-field-dependency-css%%">
+				
+				
+				<div class="g-recaptcha" data-sitekey="6LfVnCYTAAAAAB4x9xlkeTsV8CO6np5UMhNjRNNZ"></div>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js">
+</script>
+				
+			
+			<div id="error_for_Recaptchapi_Recaptcha" style="display:none"></div>
+			
+			</div>
+		
+		
+		
+	<p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;">
+		<label for="pi_extra_field">Comments</label>
+		<input type="text" name="pi_extra_field" id="pi_extra_field"/>
+	</p>
+		
+		
+		<!-- forces IE5-8 to correctly submit UTF8 content  -->
+		<input name="_utf8" type="hidden" value="&#9731;" />
+		
+		<div class="w-100 submit-btn">
+		<br>
+			<input type="submit" class="btn btn-primary mt-3" accesskey="s" value="Submit" />
+		</div>
+		</div>
+	<script>
+var countryList = document.getElementById("455672_426486pi_455672_426486");
+countryList.options[102].label = "Iran";
+countryList.options[178].label = "Russia";
+countryList.options[201].label = "South Korea";
+</script>
+	
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var anchors = document.getElementsByTagName("a");
+	for (var i=0; i<anchors.length; i++) {
+		var anchor = anchors[i];
+		if(anchor.getAttribute("href")&&!anchor.getAttribute("target")) {
+			anchor.target = "_top";
+		}
+	}
+		
+//]]>
+</script>
+<input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="" /></form><script type="text/javascript">(function(){ pardot.$(document).ready(function(){ (function() {
+	var $ = window.pardot.$;
+	window.pardot.FormDependencyMap = [{"master_field_html_id":"455672_426486pi_455672_426486","slave_field_html_id":"455672_426488pi_455672_426488","master_field_value":"Canada"},{"master_field_html_id":"455672_426486pi_455672_426486","slave_field_html_id":"455672_426490pi_455672_426490","master_field_value":"United States"},{"master_field_html_id":"455672_426486pi_455672_426486","slave_field_html_id":"455672_426496pi_455672_426496","master_field_value":"Canada"}];
+
+	$('.form-field-master input, .form-field-master select').each(function(index, input) {
+		$(input).on('change', window.piAjax.checkForDependentField);
+		window.piAjax.checkForDependentField.call(input);
+	});
+})(); });})();</script> </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    var captcha = document.getElementsByClassName("pd-captcha");
+    captcha[0].classList += " w-100";
+    captcha[0].style.textAlign = "-webkit-center";
+    var checkbox = document.getElementsByClassName("pd-checkbox");
+    checkbox[0].classList += "w-100";
+</script>
+</body>
+</html>

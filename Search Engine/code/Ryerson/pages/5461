@@ -1,0 +1,1793 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  
+  <!-- Google Optimize  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000,
+  {'GTM-MQZKN9S':true});</script>
+  <!-- Google Optimize -->
+  
+  <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5X8TWT6');</script>
+  <!-- End Google Tag Manager -->
+  
+  <meta name="google-site-verification" content="jVD8J2PEUxXa_1sRDioU5VGy_XrXirWWQwPCPA3cVv8" />
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+  
+<!--   
+
+
+
+
+<script data-cf-init type="application/json">
+  
+{
+  
+  "domain": "csca-ryerson.myshopify.com",
+  "baseApiUrl": "https://customr.heliumdev.com",
+  "proxyPath": "\/tools\/customr",
+  "countriesSelectHtml": "\u003coption value=\"Canada\" data-provinces=\"[[\u0026quot;Alberta\u0026quot;,\u0026quot;Alberta\u0026quot;],[\u0026quot;British Columbia\u0026quot;,\u0026quot;British Columbia\u0026quot;],[\u0026quot;Manitoba\u0026quot;,\u0026quot;Manitoba\u0026quot;],[\u0026quot;New Brunswick\u0026quot;,\u0026quot;New Brunswick\u0026quot;],[\u0026quot;Newfoundland and Labrador\u0026quot;,\u0026quot;Newfoundland and Labrador\u0026quot;],[\u0026quot;Northwest Territories\u0026quot;,\u0026quot;Northwest Territories\u0026quot;],[\u0026quot;Nova Scotia\u0026quot;,\u0026quot;Nova Scotia\u0026quot;],[\u0026quot;Nunavut\u0026quot;,\u0026quot;Nunavut\u0026quot;],[\u0026quot;Ontario\u0026quot;,\u0026quot;Ontario\u0026quot;],[\u0026quot;Prince Edward Island\u0026quot;,\u0026quot;Prince Edward Island\u0026quot;],[\u0026quot;Quebec\u0026quot;,\u0026quot;Quebec\u0026quot;],[\u0026quot;Saskatchewan\u0026quot;,\u0026quot;Saskatchewan\u0026quot;],[\u0026quot;Yukon\u0026quot;,\u0026quot;Yukon\u0026quot;]]\"\u003eCanada\u003c\/option\u003e\n\u003coption value=\"---\" data-provinces=\"[]\"\u003e---\u003c\/option\u003e\n\u003coption value=\"Afghanistan\" data-provinces=\"[]\"\u003eAfghanistan\u003c\/option\u003e\n\u003coption value=\"Aland Islands\" data-provinces=\"[]\"\u003eÅland Islands\u003c\/option\u003e\n\u003coption value=\"Albania\" data-provinces=\"[]\"\u003eAlbania\u003c\/option\u003e\n\u003coption value=\"Algeria\" data-provinces=\"[]\"\u003eAlgeria\u003c\/option\u003e\n\u003coption value=\"Andorra\" data-provinces=\"[]\"\u003eAndorra\u003c\/option\u003e\n\u003coption value=\"Angola\" data-provinces=\"[]\"\u003eAngola\u003c\/option\u003e\n\u003coption value=\"Anguilla\" data-provinces=\"[]\"\u003eAnguilla\u003c\/option\u003e\n\u003coption value=\"Antigua And Barbuda\" data-provinces=\"[]\"\u003eAntigua \u0026 Barbuda\u003c\/option\u003e\n\u003coption value=\"Argentina\" data-provinces=\"[[\u0026quot;Buenos Aires\u0026quot;,\u0026quot;Buenos Aires Province\u0026quot;],[\u0026quot;Catamarca\u0026quot;,\u0026quot;Catamarca\u0026quot;],[\u0026quot;Chaco\u0026quot;,\u0026quot;Chaco\u0026quot;],[\u0026quot;Chubut\u0026quot;,\u0026quot;Chubut\u0026quot;],[\u0026quot;Ciudad Autónoma de Buenos Aires\u0026quot;,\u0026quot;Buenos Aires (Autonomous City)\u0026quot;],[\u0026quot;Corrientes\u0026quot;,\u0026quot;Corrientes\u0026quot;],[\u0026quot;Córdoba\u0026quot;,\u0026quot;Córdoba\u0026quot;],[\u0026quot;Entre Ríos\u0026quot;,\u0026quot;Entre Ríos\u0026quot;],[\u0026quot;Formosa\u0026quot;,\u0026quot;Formosa\u0026quot;],[\u0026quot;Jujuy\u0026quot;,\u0026quot;Jujuy\u0026quot;],[\u0026quot;La Pampa\u0026quot;,\u0026quot;La Pampa\u0026quot;],[\u0026quot;La Rioja\u0026quot;,\u0026quot;La Rioja\u0026quot;],[\u0026quot;Mendoza\u0026quot;,\u0026quot;Mendoza\u0026quot;],[\u0026quot;Misiones\u0026quot;,\u0026quot;Misiones\u0026quot;],[\u0026quot;Neuquén\u0026quot;,\u0026quot;Neuquén\u0026quot;],[\u0026quot;Río Negro\u0026quot;,\u0026quot;Río Negro\u0026quot;],[\u0026quot;Salta\u0026quot;,\u0026quot;Salta\u0026quot;],[\u0026quot;San Juan\u0026quot;,\u0026quot;San Juan\u0026quot;],[\u0026quot;San Luis\u0026quot;,\u0026quot;San Luis\u0026quot;],[\u0026quot;Santa Cruz\u0026quot;,\u0026quot;Santa Cruz\u0026quot;],[\u0026quot;Santa Fe\u0026quot;,\u0026quot;Santa Fe\u0026quot;],[\u0026quot;Santiago Del Estero\u0026quot;,\u0026quot;Santiago del Estero\u0026quot;],[\u0026quot;Tierra Del Fuego\u0026quot;,\u0026quot;Tierra del Fuego\u0026quot;],[\u0026quot;Tucumán\u0026quot;,\u0026quot;Tucumán\u0026quot;]]\"\u003eArgentina\u003c\/option\u003e\n\u003coption value=\"Armenia\" data-provinces=\"[]\"\u003eArmenia\u003c\/option\u003e\n\u003coption value=\"Aruba\" data-provinces=\"[]\"\u003eAruba\u003c\/option\u003e\n\u003coption value=\"Australia\" data-provinces=\"[[\u0026quot;Australian Capital Territory\u0026quot;,\u0026quot;Australian Capital Territory\u0026quot;],[\u0026quot;New South Wales\u0026quot;,\u0026quot;New South Wales\u0026quot;],[\u0026quot;Northern Territory\u0026quot;,\u0026quot;Northern Territory\u0026quot;],[\u0026quot;Queensland\u0026quot;,\u0026quot;Queensland\u0026quot;],[\u0026quot;South Australia\u0026quot;,\u0026quot;South Australia\u0026quot;],[\u0026quot;Tasmania\u0026quot;,\u0026quot;Tasmania\u0026quot;],[\u0026quot;Victoria\u0026quot;,\u0026quot;Victoria\u0026quot;],[\u0026quot;Western Australia\u0026quot;,\u0026quot;Western Australia\u0026quot;]]\"\u003eAustralia\u003c\/option\u003e\n\u003coption value=\"Austria\" data-provinces=\"[]\"\u003eAustria\u003c\/option\u003e\n\u003coption value=\"Azerbaijan\" data-provinces=\"[]\"\u003eAzerbaijan\u003c\/option\u003e\n\u003coption value=\"Bahamas\" data-provinces=\"[]\"\u003eBahamas\u003c\/option\u003e\n\u003coption value=\"Bahrain\" data-provinces=\"[]\"\u003eBahrain\u003c\/option\u003e\n\u003coption value=\"Bangladesh\" data-provinces=\"[]\"\u003eBangladesh\u003c\/option\u003e\n\u003coption value=\"Barbados\" data-provinces=\"[]\"\u003eBarbados\u003c\/option\u003e\n\u003coption value=\"Belarus\" data-provinces=\"[]\"\u003eBelarus\u003c\/option\u003e\n\u003coption value=\"Belgium\" data-provinces=\"[]\"\u003eBelgium\u003c\/option\u003e\n\u003coption value=\"Belize\" data-provinces=\"[]\"\u003eBelize\u003c\/option\u003e\n\u003coption value=\"Benin\" data-provinces=\"[]\"\u003eBenin\u003c\/option\u003e\n\u003coption value=\"Bermuda\" data-provinces=\"[]\"\u003eBermuda\u003c\/option\u003e\n\u003coption value=\"Bhutan\" data-provinces=\"[]\"\u003eBhutan\u003c\/option\u003e\n\u003coption value=\"Bolivia\" data-provinces=\"[]\"\u003eBolivia\u003c\/option\u003e\n\u003coption value=\"Bosnia And Herzegovina\" data-provinces=\"[]\"\u003eBosnia \u0026 Herzegovina\u003c\/option\u003e\n\u003coption value=\"Botswana\" data-provinces=\"[]\"\u003eBotswana\u003c\/option\u003e\n\u003coption value=\"Bouvet Island\" data-provinces=\"[]\"\u003eBouvet Island\u003c\/option\u003e\n\u003coption value=\"Brazil\" data-provinces=\"[[\u0026quot;Acre\u0026quot;,\u0026quot;Acre\u0026quot;],[\u0026quot;Alagoas\u0026quot;,\u0026quot;Alagoas\u0026quot;],[\u0026quot;Amapá\u0026quot;,\u0026quot;Amapá\u0026quot;],[\u0026quot;Amazonas\u0026quot;,\u0026quot;Amazonas\u0026quot;],[\u0026quot;Bahia\u0026quot;,\u0026quot;Bahia\u0026quot;],[\u0026quot;Ceará\u0026quot;,\u0026quot;Ceará\u0026quot;],[\u0026quot;Distrito Federal\u0026quot;,\u0026quot;Federal District\u0026quot;],[\u0026quot;Espírito Santo\u0026quot;,\u0026quot;Espírito Santo\u0026quot;],[\u0026quot;Goiás\u0026quot;,\u0026quot;Goiás\u0026quot;],[\u0026quot;Maranhão\u0026quot;,\u0026quot;Maranhão\u0026quot;],[\u0026quot;Mato Grosso\u0026quot;,\u0026quot;Mato Grosso\u0026quot;],[\u0026quot;Mato Grosso do Sul\u0026quot;,\u0026quot;Mato Grosso do Sul\u0026quot;],[\u0026quot;Minas Gerais\u0026quot;,\u0026quot;Minas Gerais\u0026quot;],[\u0026quot;Paraná\u0026quot;,\u0026quot;Paraná\u0026quot;],[\u0026quot;Paraíba\u0026quot;,\u0026quot;Paraíba\u0026quot;],[\u0026quot;Pará\u0026quot;,\u0026quot;Pará\u0026quot;],[\u0026quot;Pernambuco\u0026quot;,\u0026quot;Pernambuco\u0026quot;],[\u0026quot;Piauí\u0026quot;,\u0026quot;Piauí\u0026quot;],[\u0026quot;Rio Grande do Norte\u0026quot;,\u0026quot;Rio Grande do Norte\u0026quot;],[\u0026quot;Rio Grande do Sul\u0026quot;,\u0026quot;Rio Grande do Sul\u0026quot;],[\u0026quot;Rio de Janeiro\u0026quot;,\u0026quot;Rio de Janeiro\u0026quot;],[\u0026quot;Rondônia\u0026quot;,\u0026quot;Rondônia\u0026quot;],[\u0026quot;Roraima\u0026quot;,\u0026quot;Roraima\u0026quot;],[\u0026quot;Santa Catarina\u0026quot;,\u0026quot;Santa Catarina\u0026quot;],[\u0026quot;Sergipe\u0026quot;,\u0026quot;Sergipe\u0026quot;],[\u0026quot;São Paulo\u0026quot;,\u0026quot;São Paulo\u0026quot;],[\u0026quot;Tocantins\u0026quot;,\u0026quot;Tocantins\u0026quot;]]\"\u003eBrazil\u003c\/option\u003e\n\u003coption value=\"British Indian Ocean Territory\" data-provinces=\"[]\"\u003eBritish Indian Ocean Territory\u003c\/option\u003e\n\u003coption value=\"Virgin Islands, British\" data-provinces=\"[]\"\u003eBritish Virgin Islands\u003c\/option\u003e\n\u003coption value=\"Brunei\" data-provinces=\"[]\"\u003eBrunei\u003c\/option\u003e\n\u003coption value=\"Bulgaria\" data-provinces=\"[]\"\u003eBulgaria\u003c\/option\u003e\n\u003coption value=\"Burkina Faso\" data-provinces=\"[]\"\u003eBurkina Faso\u003c\/option\u003e\n\u003coption value=\"Burundi\" data-provinces=\"[]\"\u003eBurundi\u003c\/option\u003e\n\u003coption value=\"Cambodia\" data-provinces=\"[]\"\u003eCambodia\u003c\/option\u003e\n\u003coption value=\"Republic of Cameroon\" data-provinces=\"[]\"\u003eCameroon\u003c\/option\u003e\n\u003coption value=\"Canada\" data-provinces=\"[[\u0026quot;Alberta\u0026quot;,\u0026quot;Alberta\u0026quot;],[\u0026quot;British Columbia\u0026quot;,\u0026quot;British Columbia\u0026quot;],[\u0026quot;Manitoba\u0026quot;,\u0026quot;Manitoba\u0026quot;],[\u0026quot;New Brunswick\u0026quot;,\u0026quot;New Brunswick\u0026quot;],[\u0026quot;Newfoundland and Labrador\u0026quot;,\u0026quot;Newfoundland and Labrador\u0026quot;],[\u0026quot;Northwest Territories\u0026quot;,\u0026quot;Northwest Territories\u0026quot;],[\u0026quot;Nova Scotia\u0026quot;,\u0026quot;Nova Scotia\u0026quot;],[\u0026quot;Nunavut\u0026quot;,\u0026quot;Nunavut\u0026quot;],[\u0026quot;Ontario\u0026quot;,\u0026quot;Ontario\u0026quot;],[\u0026quot;Prince Edward Island\u0026quot;,\u0026quot;Prince Edward Island\u0026quot;],[\u0026quot;Quebec\u0026quot;,\u0026quot;Quebec\u0026quot;],[\u0026quot;Saskatchewan\u0026quot;,\u0026quot;Saskatchewan\u0026quot;],[\u0026quot;Yukon\u0026quot;,\u0026quot;Yukon\u0026quot;]]\"\u003eCanada\u003c\/option\u003e\n\u003coption value=\"Cape Verde\" data-provinces=\"[]\"\u003eCape Verde\u003c\/option\u003e\n\u003coption value=\"Caribbean Netherlands\" data-provinces=\"[]\"\u003eCaribbean Netherlands\u003c\/option\u003e\n\u003coption value=\"Cayman Islands\" data-provinces=\"[]\"\u003eCayman Islands\u003c\/option\u003e\n\u003coption value=\"Central African Republic\" data-provinces=\"[]\"\u003eCentral African Republic\u003c\/option\u003e\n\u003coption value=\"Chad\" data-provinces=\"[]\"\u003eChad\u003c\/option\u003e\n\u003coption value=\"Chile\" data-provinces=\"[[\u0026quot;Antofagasta\u0026quot;,\u0026quot;Antofagasta\u0026quot;],[\u0026quot;Araucanía\u0026quot;,\u0026quot;Araucanía\u0026quot;],[\u0026quot;Arica and Parinacota\u0026quot;,\u0026quot;Arica y Parinacota\u0026quot;],[\u0026quot;Atacama\u0026quot;,\u0026quot;Atacama\u0026quot;],[\u0026quot;Aysén\u0026quot;,\u0026quot;Aysén\u0026quot;],[\u0026quot;Biobío\u0026quot;,\u0026quot;Bío Bío\u0026quot;],[\u0026quot;Coquimbo\u0026quot;,\u0026quot;Coquimbo\u0026quot;],[\u0026quot;Los Lagos\u0026quot;,\u0026quot;Los Lagos\u0026quot;],[\u0026quot;Los Ríos\u0026quot;,\u0026quot;Los Ríos\u0026quot;],[\u0026quot;Magallanes\u0026quot;,\u0026quot;Magallanes Region\u0026quot;],[\u0026quot;Maule\u0026quot;,\u0026quot;Maule\u0026quot;],[\u0026quot;O\u0026#39;Higgins\u0026quot;,\u0026quot;Libertador General Bernardo O’Higgins\u0026quot;],[\u0026quot;Santiago\u0026quot;,\u0026quot;Santiago Metropolitan\u0026quot;],[\u0026quot;Tarapacá\u0026quot;,\u0026quot;Tarapacá\u0026quot;],[\u0026quot;Valparaíso\u0026quot;,\u0026quot;Valparaíso\u0026quot;],[\u0026quot;Ñuble\u0026quot;,\u0026quot;Ñuble\u0026quot;]]\"\u003eChile\u003c\/option\u003e\n\u003coption value=\"China\" data-provinces=\"[[\u0026quot;Anhui\u0026quot;,\u0026quot;Anhui\u0026quot;],[\u0026quot;Beijing\u0026quot;,\u0026quot;Beijing\u0026quot;],[\u0026quot;Chongqing\u0026quot;,\u0026quot;Chongqing\u0026quot;],[\u0026quot;Fujian\u0026quot;,\u0026quot;Fujian\u0026quot;],[\u0026quot;Gansu\u0026quot;,\u0026quot;Gansu\u0026quot;],[\u0026quot;Guangdong\u0026quot;,\u0026quot;Guangdong\u0026quot;],[\u0026quot;Guangxi\u0026quot;,\u0026quot;Guangxi\u0026quot;],[\u0026quot;Guizhou\u0026quot;,\u0026quot;Guizhou\u0026quot;],[\u0026quot;Hainan\u0026quot;,\u0026quot;Hainan\u0026quot;],[\u0026quot;Hebei\u0026quot;,\u0026quot;Hebei\u0026quot;],[\u0026quot;Heilongjiang\u0026quot;,\u0026quot;Heilongjiang\u0026quot;],[\u0026quot;Henan\u0026quot;,\u0026quot;Henan\u0026quot;],[\u0026quot;Hubei\u0026quot;,\u0026quot;Hubei\u0026quot;],[\u0026quot;Hunan\u0026quot;,\u0026quot;Hunan\u0026quot;],[\u0026quot;Inner Mongolia\u0026quot;,\u0026quot;Inner Mongolia\u0026quot;],[\u0026quot;Jiangsu\u0026quot;,\u0026quot;Jiangsu\u0026quot;],[\u0026quot;Jiangxi\u0026quot;,\u0026quot;Jiangxi\u0026quot;],[\u0026quot;Jilin\u0026quot;,\u0026quot;Jilin\u0026quot;],[\u0026quot;Liaoning\u0026quot;,\u0026quot;Liaoning\u0026quot;],[\u0026quot;Ningxia\u0026quot;,\u0026quot;Ningxia\u0026quot;],[\u0026quot;Qinghai\u0026quot;,\u0026quot;Qinghai\u0026quot;],[\u0026quot;Shaanxi\u0026quot;,\u0026quot;Shaanxi\u0026quot;],[\u0026quot;Shandong\u0026quot;,\u0026quot;Shandong\u0026quot;],[\u0026quot;Shanghai\u0026quot;,\u0026quot;Shanghai\u0026quot;],[\u0026quot;Shanxi\u0026quot;,\u0026quot;Shanxi\u0026quot;],[\u0026quot;Sichuan\u0026quot;,\u0026quot;Sichuan\u0026quot;],[\u0026quot;Tianjin\u0026quot;,\u0026quot;Tianjin\u0026quot;],[\u0026quot;Xinjiang\u0026quot;,\u0026quot;Xinjiang\u0026quot;],[\u0026quot;Xizang\u0026quot;,\u0026quot;Tibet\u0026quot;],[\u0026quot;Yunnan\u0026quot;,\u0026quot;Yunnan\u0026quot;],[\u0026quot;Zhejiang\u0026quot;,\u0026quot;Zhejiang\u0026quot;]]\"\u003eChina\u003c\/option\u003e\n\u003coption value=\"Christmas Island\" data-provinces=\"[]\"\u003eChristmas Island\u003c\/option\u003e\n\u003coption value=\"Cocos (Keeling) Islands\" data-provinces=\"[]\"\u003eCocos (Keeling) Islands\u003c\/option\u003e\n\u003coption value=\"Colombia\" data-provinces=\"[[\u0026quot;Amazonas\u0026quot;,\u0026quot;Amazonas\u0026quot;],[\u0026quot;Antioquia\u0026quot;,\u0026quot;Antioquia\u0026quot;],[\u0026quot;Arauca\u0026quot;,\u0026quot;Arauca\u0026quot;],[\u0026quot;Atlántico\u0026quot;,\u0026quot;Atlántico\u0026quot;],[\u0026quot;Bogotá, D.C.\u0026quot;,\u0026quot;Capital District\u0026quot;],[\u0026quot;Bolívar\u0026quot;,\u0026quot;Bolívar\u0026quot;],[\u0026quot;Boyacá\u0026quot;,\u0026quot;Boyacá\u0026quot;],[\u0026quot;Caldas\u0026quot;,\u0026quot;Caldas\u0026quot;],[\u0026quot;Caquetá\u0026quot;,\u0026quot;Caquetá\u0026quot;],[\u0026quot;Casanare\u0026quot;,\u0026quot;Casanare\u0026quot;],[\u0026quot;Cauca\u0026quot;,\u0026quot;Cauca\u0026quot;],[\u0026quot;Cesar\u0026quot;,\u0026quot;Cesar\u0026quot;],[\u0026quot;Chocó\u0026quot;,\u0026quot;Chocó\u0026quot;],[\u0026quot;Cundinamarca\u0026quot;,\u0026quot;Cundinamarca\u0026quot;],[\u0026quot;Córdoba\u0026quot;,\u0026quot;Córdoba\u0026quot;],[\u0026quot;Guainía\u0026quot;,\u0026quot;Guainía\u0026quot;],[\u0026quot;Guaviare\u0026quot;,\u0026quot;Guaviare\u0026quot;],[\u0026quot;Huila\u0026quot;,\u0026quot;Huila\u0026quot;],[\u0026quot;La Guajira\u0026quot;,\u0026quot;La Guajira\u0026quot;],[\u0026quot;Magdalena\u0026quot;,\u0026quot;Magdalena\u0026quot;],[\u0026quot;Meta\u0026quot;,\u0026quot;Meta\u0026quot;],[\u0026quot;Nariño\u0026quot;,\u0026quot;Nariño\u0026quot;],[\u0026quot;Norte de Santander\u0026quot;,\u0026quot;Norte de Santander\u0026quot;],[\u0026quot;Putumayo\u0026quot;,\u0026quot;Putumayo\u0026quot;],[\u0026quot;Quindío\u0026quot;,\u0026quot;Quindío\u0026quot;],[\u0026quot;Risaralda\u0026quot;,\u0026quot;Risaralda\u0026quot;],[\u0026quot;San Andrés, Providencia y Santa Catalina\u0026quot;,\u0026quot;San Andrés \\u0026 Providencia\u0026quot;],[\u0026quot;Santander\u0026quot;,\u0026quot;Santander\u0026quot;],[\u0026quot;Sucre\u0026quot;,\u0026quot;Sucre\u0026quot;],[\u0026quot;Tolima\u0026quot;,\u0026quot;Tolima\u0026quot;],[\u0026quot;Valle del Cauca\u0026quot;,\u0026quot;Valle del Cauca\u0026quot;],[\u0026quot;Vaupés\u0026quot;,\u0026quot;Vaupés\u0026quot;],[\u0026quot;Vichada\u0026quot;,\u0026quot;Vichada\u0026quot;]]\"\u003eColombia\u003c\/option\u003e\n\u003coption value=\"Comoros\" data-provinces=\"[]\"\u003eComoros\u003c\/option\u003e\n\u003coption value=\"Congo\" data-provinces=\"[]\"\u003eCongo - Brazzaville\u003c\/option\u003e\n\u003coption value=\"Congo, The Democratic Republic Of The\" data-provinces=\"[]\"\u003eCongo - Kinshasa\u003c\/option\u003e\n\u003coption value=\"Cook Islands\" data-provinces=\"[]\"\u003eCook Islands\u003c\/option\u003e\n\u003coption value=\"Costa Rica\" data-provinces=\"[]\"\u003eCosta Rica\u003c\/option\u003e\n\u003coption value=\"Croatia\" data-provinces=\"[]\"\u003eCroatia\u003c\/option\u003e\n\u003coption value=\"Cuba\" data-provinces=\"[]\"\u003eCuba\u003c\/option\u003e\n\u003coption value=\"Curaçao\" data-provinces=\"[]\"\u003eCuraçao\u003c\/option\u003e\n\u003coption value=\"Cyprus\" data-provinces=\"[]\"\u003eCyprus\u003c\/option\u003e\n\u003coption value=\"Czech Republic\" data-provinces=\"[]\"\u003eCzechia\u003c\/option\u003e\n\u003coption value=\"Côte d'Ivoire\" data-provinces=\"[]\"\u003eCôte d’Ivoire\u003c\/option\u003e\n\u003coption value=\"Denmark\" data-provinces=\"[]\"\u003eDenmark\u003c\/option\u003e\n\u003coption value=\"Djibouti\" data-provinces=\"[]\"\u003eDjibouti\u003c\/option\u003e\n\u003coption value=\"Dominica\" data-provinces=\"[]\"\u003eDominica\u003c\/option\u003e\n\u003coption value=\"Dominican Republic\" data-provinces=\"[]\"\u003eDominican Republic\u003c\/option\u003e\n\u003coption value=\"Ecuador\" data-provinces=\"[]\"\u003eEcuador\u003c\/option\u003e\n\u003coption value=\"Egypt\" data-provinces=\"[[\u0026quot;6th of October\u0026quot;,\u0026quot;6th of October\u0026quot;],[\u0026quot;Al Sharqia\u0026quot;,\u0026quot;Al Sharqia\u0026quot;],[\u0026quot;Alexandria\u0026quot;,\u0026quot;Alexandria\u0026quot;],[\u0026quot;Aswan\u0026quot;,\u0026quot;Aswan\u0026quot;],[\u0026quot;Asyut\u0026quot;,\u0026quot;Asyut\u0026quot;],[\u0026quot;Beheira\u0026quot;,\u0026quot;Beheira\u0026quot;],[\u0026quot;Beni Suef\u0026quot;,\u0026quot;Beni Suef\u0026quot;],[\u0026quot;Cairo\u0026quot;,\u0026quot;Cairo\u0026quot;],[\u0026quot;Dakahlia\u0026quot;,\u0026quot;Dakahlia\u0026quot;],[\u0026quot;Damietta\u0026quot;,\u0026quot;Damietta\u0026quot;],[\u0026quot;Faiyum\u0026quot;,\u0026quot;Faiyum\u0026quot;],[\u0026quot;Gharbia\u0026quot;,\u0026quot;Gharbia\u0026quot;],[\u0026quot;Giza\u0026quot;,\u0026quot;Giza\u0026quot;],[\u0026quot;Helwan\u0026quot;,\u0026quot;Helwan\u0026quot;],[\u0026quot;Ismailia\u0026quot;,\u0026quot;Ismailia\u0026quot;],[\u0026quot;Kafr el-Sheikh\u0026quot;,\u0026quot;Kafr el-Sheikh\u0026quot;],[\u0026quot;Luxor\u0026quot;,\u0026quot;Luxor\u0026quot;],[\u0026quot;Matrouh\u0026quot;,\u0026quot;Matrouh\u0026quot;],[\u0026quot;Minya\u0026quot;,\u0026quot;Minya\u0026quot;],[\u0026quot;Monufia\u0026quot;,\u0026quot;Monufia\u0026quot;],[\u0026quot;New Valley\u0026quot;,\u0026quot;New Valley\u0026quot;],[\u0026quot;North Sinai\u0026quot;,\u0026quot;North Sinai\u0026quot;],[\u0026quot;Port Said\u0026quot;,\u0026quot;Port Said\u0026quot;],[\u0026quot;Qalyubia\u0026quot;,\u0026quot;Qalyubia\u0026quot;],[\u0026quot;Qena\u0026quot;,\u0026quot;Qena\u0026quot;],[\u0026quot;Red Sea\u0026quot;,\u0026quot;Red Sea\u0026quot;],[\u0026quot;Sohag\u0026quot;,\u0026quot;Sohag\u0026quot;],[\u0026quot;South Sinai\u0026quot;,\u0026quot;South Sinai\u0026quot;],[\u0026quot;Suez\u0026quot;,\u0026quot;Suez\u0026quot;]]\"\u003eEgypt\u003c\/option\u003e\n\u003coption value=\"El Salvador\" data-provinces=\"[]\"\u003eEl Salvador\u003c\/option\u003e\n\u003coption value=\"Equatorial Guinea\" data-provinces=\"[]\"\u003eEquatorial Guinea\u003c\/option\u003e\n\u003coption value=\"Eritrea\" data-provinces=\"[]\"\u003eEritrea\u003c\/option\u003e\n\u003coption value=\"Estonia\" data-provinces=\"[]\"\u003eEstonia\u003c\/option\u003e\n\u003coption value=\"Eswatini\" data-provinces=\"[]\"\u003eEswatini\u003c\/option\u003e\n\u003coption value=\"Ethiopia\" data-provinces=\"[]\"\u003eEthiopia\u003c\/option\u003e\n\u003coption value=\"Falkland Islands (Malvinas)\" data-provinces=\"[]\"\u003eFalkland Islands\u003c\/option\u003e\n\u003coption value=\"Faroe Islands\" data-provinces=\"[]\"\u003eFaroe Islands\u003c\/option\u003e\n\u003coption value=\"Fiji\" data-provinces=\"[]\"\u003eFiji\u003c\/option\u003e\n\u003coption value=\"Finland\" data-provinces=\"[]\"\u003eFinland\u003c\/option\u003e\n\u003coption value=\"France\" data-provinces=\"[]\"\u003eFrance\u003c\/option\u003e\n\u003coption value=\"French Guiana\" data-provinces=\"[]\"\u003eFrench Guiana\u003c\/option\u003e\n\u003coption value=\"French Polynesia\" data-provinces=\"[]\"\u003eFrench Polynesia\u003c\/option\u003e\n\u003coption value=\"French Southern Territories\" data-provinces=\"[]\"\u003eFrench Southern Territories\u003c\/option\u003e\n\u003coption value=\"Gabon\" data-provinces=\"[]\"\u003eGabon\u003c\/option\u003e\n\u003coption value=\"Gambia\" data-provinces=\"[]\"\u003eGambia\u003c\/option\u003e\n\u003coption value=\"Georgia\" data-provinces=\"[]\"\u003eGeorgia\u003c\/option\u003e\n\u003coption value=\"Germany\" data-provinces=\"[]\"\u003eGermany\u003c\/option\u003e\n\u003coption value=\"Ghana\" data-provinces=\"[]\"\u003eGhana\u003c\/option\u003e\n\u003coption value=\"Gibraltar\" data-provinces=\"[]\"\u003eGibraltar\u003c\/option\u003e\n\u003coption value=\"Greece\" data-provinces=\"[]\"\u003eGreece\u003c\/option\u003e\n\u003coption value=\"Greenland\" data-provinces=\"[]\"\u003eGreenland\u003c\/option\u003e\n\u003coption value=\"Grenada\" data-provinces=\"[]\"\u003eGrenada\u003c\/option\u003e\n\u003coption value=\"Guadeloupe\" data-provinces=\"[]\"\u003eGuadeloupe\u003c\/option\u003e\n\u003coption value=\"Guatemala\" data-provinces=\"[[\u0026quot;Alta Verapaz\u0026quot;,\u0026quot;Alta Verapaz\u0026quot;],[\u0026quot;Baja Verapaz\u0026quot;,\u0026quot;Baja Verapaz\u0026quot;],[\u0026quot;Chimaltenango\u0026quot;,\u0026quot;Chimaltenango\u0026quot;],[\u0026quot;Chiquimula\u0026quot;,\u0026quot;Chiquimula\u0026quot;],[\u0026quot;El Progreso\u0026quot;,\u0026quot;El Progreso\u0026quot;],[\u0026quot;Escuintla\u0026quot;,\u0026quot;Escuintla\u0026quot;],[\u0026quot;Guatemala\u0026quot;,\u0026quot;Guatemala\u0026quot;],[\u0026quot;Huehuetenango\u0026quot;,\u0026quot;Huehuetenango\u0026quot;],[\u0026quot;Izabal\u0026quot;,\u0026quot;Izabal\u0026quot;],[\u0026quot;Jalapa\u0026quot;,\u0026quot;Jalapa\u0026quot;],[\u0026quot;Jutiapa\u0026quot;,\u0026quot;Jutiapa\u0026quot;],[\u0026quot;Petén\u0026quot;,\u0026quot;Petén\u0026quot;],[\u0026quot;Quetzaltenango\u0026quot;,\u0026quot;Quetzaltenango\u0026quot;],[\u0026quot;Quiché\u0026quot;,\u0026quot;Quiché\u0026quot;],[\u0026quot;Retalhuleu\u0026quot;,\u0026quot;Retalhuleu\u0026quot;],[\u0026quot;Sacatepéquez\u0026quot;,\u0026quot;Sacatepéquez\u0026quot;],[\u0026quot;San Marcos\u0026quot;,\u0026quot;San Marcos\u0026quot;],[\u0026quot;Santa Rosa\u0026quot;,\u0026quot;Santa Rosa\u0026quot;],[\u0026quot;Sololá\u0026quot;,\u0026quot;Sololá\u0026quot;],[\u0026quot;Suchitepéquez\u0026quot;,\u0026quot;Suchitepéquez\u0026quot;],[\u0026quot;Totonicapán\u0026quot;,\u0026quot;Totonicapán\u0026quot;],[\u0026quot;Zacapa\u0026quot;,\u0026quot;Zacapa\u0026quot;]]\"\u003eGuatemala\u003c\/option\u003e\n\u003coption value=\"Guernsey\" data-provinces=\"[]\"\u003eGuernsey\u003c\/option\u003e\n\u003coption value=\"Guinea\" data-provinces=\"[]\"\u003eGuinea\u003c\/option\u003e\n\u003coption value=\"Guinea Bissau\" data-provinces=\"[]\"\u003eGuinea-Bissau\u003c\/option\u003e\n\u003coption value=\"Guyana\" data-provinces=\"[]\"\u003eGuyana\u003c\/option\u003e\n\u003coption value=\"Haiti\" data-provinces=\"[]\"\u003eHaiti\u003c\/option\u003e\n\u003coption value=\"Heard Island And Mcdonald Islands\" data-provinces=\"[]\"\u003eHeard \u0026 McDonald Islands\u003c\/option\u003e\n\u003coption value=\"Honduras\" data-provinces=\"[]\"\u003eHonduras\u003c\/option\u003e\n\u003coption value=\"Hong Kong\" data-provinces=\"[[\u0026quot;Hong Kong Island\u0026quot;,\u0026quot;Hong Kong Island\u0026quot;],[\u0026quot;Kowloon\u0026quot;,\u0026quot;Kowloon\u0026quot;],[\u0026quot;New Territories\u0026quot;,\u0026quot;New Territories\u0026quot;]]\"\u003eHong Kong SAR China\u003c\/option\u003e\n\u003coption value=\"Hungary\" data-provinces=\"[]\"\u003eHungary\u003c\/option\u003e\n\u003coption value=\"Iceland\" data-provinces=\"[]\"\u003eIceland\u003c\/option\u003e\n\u003coption value=\"India\" data-provinces=\"[[\u0026quot;Andaman and Nicobar Islands\u0026quot;,\u0026quot;Andaman and Nicobar Islands\u0026quot;],[\u0026quot;Andhra Pradesh\u0026quot;,\u0026quot;Andhra Pradesh\u0026quot;],[\u0026quot;Arunachal Pradesh\u0026quot;,\u0026quot;Arunachal Pradesh\u0026quot;],[\u0026quot;Assam\u0026quot;,\u0026quot;Assam\u0026quot;],[\u0026quot;Bihar\u0026quot;,\u0026quot;Bihar\u0026quot;],[\u0026quot;Chandigarh\u0026quot;,\u0026quot;Chandigarh\u0026quot;],[\u0026quot;Chhattisgarh\u0026quot;,\u0026quot;Chhattisgarh\u0026quot;],[\u0026quot;Dadra and Nagar Haveli\u0026quot;,\u0026quot;Dadra and Nagar Haveli\u0026quot;],[\u0026quot;Daman and Diu\u0026quot;,\u0026quot;Daman and Diu\u0026quot;],[\u0026quot;Delhi\u0026quot;,\u0026quot;Delhi\u0026quot;],[\u0026quot;Goa\u0026quot;,\u0026quot;Goa\u0026quot;],[\u0026quot;Gujarat\u0026quot;,\u0026quot;Gujarat\u0026quot;],[\u0026quot;Haryana\u0026quot;,\u0026quot;Haryana\u0026quot;],[\u0026quot;Himachal Pradesh\u0026quot;,\u0026quot;Himachal Pradesh\u0026quot;],[\u0026quot;Jammu and Kashmir\u0026quot;,\u0026quot;Jammu and Kashmir\u0026quot;],[\u0026quot;Jharkhand\u0026quot;,\u0026quot;Jharkhand\u0026quot;],[\u0026quot;Karnataka\u0026quot;,\u0026quot;Karnataka\u0026quot;],[\u0026quot;Kerala\u0026quot;,\u0026quot;Kerala\u0026quot;],[\u0026quot;Ladakh\u0026quot;,\u0026quot;Ladakh\u0026quot;],[\u0026quot;Lakshadweep\u0026quot;,\u0026quot;Lakshadweep\u0026quot;],[\u0026quot;Madhya Pradesh\u0026quot;,\u0026quot;Madhya Pradesh\u0026quot;],[\u0026quot;Maharashtra\u0026quot;,\u0026quot;Maharashtra\u0026quot;],[\u0026quot;Manipur\u0026quot;,\u0026quot;Manipur\u0026quot;],[\u0026quot;Meghalaya\u0026quot;,\u0026quot;Meghalaya\u0026quot;],[\u0026quot;Mizoram\u0026quot;,\u0026quot;Mizoram\u0026quot;],[\u0026quot;Nagaland\u0026quot;,\u0026quot;Nagaland\u0026quot;],[\u0026quot;Odisha\u0026quot;,\u0026quot;Odisha\u0026quot;],[\u0026quot;Puducherry\u0026quot;,\u0026quot;Puducherry\u0026quot;],[\u0026quot;Punjab\u0026quot;,\u0026quot;Punjab\u0026quot;],[\u0026quot;Rajasthan\u0026quot;,\u0026quot;Rajasthan\u0026quot;],[\u0026quot;Sikkim\u0026quot;,\u0026quot;Sikkim\u0026quot;],[\u0026quot;Tamil Nadu\u0026quot;,\u0026quot;Tamil Nadu\u0026quot;],[\u0026quot;Telangana\u0026quot;,\u0026quot;Telangana\u0026quot;],[\u0026quot;Tripura\u0026quot;,\u0026quot;Tripura\u0026quot;],[\u0026quot;Uttar Pradesh\u0026quot;,\u0026quot;Uttar Pradesh\u0026quot;],[\u0026quot;Uttarakhand\u0026quot;,\u0026quot;Uttarakhand\u0026quot;],[\u0026quot;West Bengal\u0026quot;,\u0026quot;West Bengal\u0026quot;]]\"\u003eIndia\u003c\/option\u003e\n\u003coption value=\"Indonesia\" data-provinces=\"[[\u0026quot;Aceh\u0026quot;,\u0026quot;Aceh\u0026quot;],[\u0026quot;Bali\u0026quot;,\u0026quot;Bali\u0026quot;],[\u0026quot;Bangka Belitung\u0026quot;,\u0026quot;Bangka–Belitung Islands\u0026quot;],[\u0026quot;Banten\u0026quot;,\u0026quot;Banten\u0026quot;],[\u0026quot;Bengkulu\u0026quot;,\u0026quot;Bengkulu\u0026quot;],[\u0026quot;Gorontalo\u0026quot;,\u0026quot;Gorontalo\u0026quot;],[\u0026quot;Jakarta\u0026quot;,\u0026quot;Jakarta\u0026quot;],[\u0026quot;Jambi\u0026quot;,\u0026quot;Jambi\u0026quot;],[\u0026quot;Jawa Barat\u0026quot;,\u0026quot;West Java\u0026quot;],[\u0026quot;Jawa Tengah\u0026quot;,\u0026quot;Central Java\u0026quot;],[\u0026quot;Jawa Timur\u0026quot;,\u0026quot;East Java\u0026quot;],[\u0026quot;Kalimantan Barat\u0026quot;,\u0026quot;West Kalimantan\u0026quot;],[\u0026quot;Kalimantan Selatan\u0026quot;,\u0026quot;South Kalimantan\u0026quot;],[\u0026quot;Kalimantan Tengah\u0026quot;,\u0026quot;Central Kalimantan\u0026quot;],[\u0026quot;Kalimantan Timur\u0026quot;,\u0026quot;East Kalimantan\u0026quot;],[\u0026quot;Kalimantan Utara\u0026quot;,\u0026quot;North Kalimantan\u0026quot;],[\u0026quot;Kepulauan Riau\u0026quot;,\u0026quot;Riau Islands\u0026quot;],[\u0026quot;Lampung\u0026quot;,\u0026quot;Lampung\u0026quot;],[\u0026quot;Maluku\u0026quot;,\u0026quot;Maluku\u0026quot;],[\u0026quot;Maluku Utara\u0026quot;,\u0026quot;North Maluku\u0026quot;],[\u0026quot;North Sumatra\u0026quot;,\u0026quot;North Sumatra\u0026quot;],[\u0026quot;Nusa Tenggara Barat\u0026quot;,\u0026quot;West Nusa Tenggara\u0026quot;],[\u0026quot;Nusa Tenggara Timur\u0026quot;,\u0026quot;East Nusa Tenggara\u0026quot;],[\u0026quot;Papua\u0026quot;,\u0026quot;Papua\u0026quot;],[\u0026quot;Papua Barat\u0026quot;,\u0026quot;West Papua\u0026quot;],[\u0026quot;Riau\u0026quot;,\u0026quot;Riau\u0026quot;],[\u0026quot;South Sumatra\u0026quot;,\u0026quot;South Sumatra\u0026quot;],[\u0026quot;Sulawesi Barat\u0026quot;,\u0026quot;West Sulawesi\u0026quot;],[\u0026quot;Sulawesi Selatan\u0026quot;,\u0026quot;South Sulawesi\u0026quot;],[\u0026quot;Sulawesi Tengah\u0026quot;,\u0026quot;Central Sulawesi\u0026quot;],[\u0026quot;Sulawesi Tenggara\u0026quot;,\u0026quot;Southeast Sulawesi\u0026quot;],[\u0026quot;Sulawesi Utara\u0026quot;,\u0026quot;North Sulawesi\u0026quot;],[\u0026quot;West Sumatra\u0026quot;,\u0026quot;West Sumatra\u0026quot;],[\u0026quot;Yogyakarta\u0026quot;,\u0026quot;Yogyakarta\u0026quot;]]\"\u003eIndonesia\u003c\/option\u003e\n\u003coption value=\"Iraq\" data-provinces=\"[]\"\u003eIraq\u003c\/option\u003e\n\u003coption value=\"Ireland\" data-provinces=\"[[\u0026quot;Carlow\u0026quot;,\u0026quot;Carlow\u0026quot;],[\u0026quot;Cavan\u0026quot;,\u0026quot;Cavan\u0026quot;],[\u0026quot;Clare\u0026quot;,\u0026quot;Clare\u0026quot;],[\u0026quot;Cork\u0026quot;,\u0026quot;Cork\u0026quot;],[\u0026quot;Donegal\u0026quot;,\u0026quot;Donegal\u0026quot;],[\u0026quot;Dublin\u0026quot;,\u0026quot;Dublin\u0026quot;],[\u0026quot;Galway\u0026quot;,\u0026quot;Galway\u0026quot;],[\u0026quot;Kerry\u0026quot;,\u0026quot;Kerry\u0026quot;],[\u0026quot;Kildare\u0026quot;,\u0026quot;Kildare\u0026quot;],[\u0026quot;Kilkenny\u0026quot;,\u0026quot;Kilkenny\u0026quot;],[\u0026quot;Laois\u0026quot;,\u0026quot;Laois\u0026quot;],[\u0026quot;Leitrim\u0026quot;,\u0026quot;Leitrim\u0026quot;],[\u0026quot;Limerick\u0026quot;,\u0026quot;Limerick\u0026quot;],[\u0026quot;Longford\u0026quot;,\u0026quot;Longford\u0026quot;],[\u0026quot;Louth\u0026quot;,\u0026quot;Louth\u0026quot;],[\u0026quot;Mayo\u0026quot;,\u0026quot;Mayo\u0026quot;],[\u0026quot;Meath\u0026quot;,\u0026quot;Meath\u0026quot;],[\u0026quot;Monaghan\u0026quot;,\u0026quot;Monaghan\u0026quot;],[\u0026quot;Offaly\u0026quot;,\u0026quot;Offaly\u0026quot;],[\u0026quot;Roscommon\u0026quot;,\u0026quot;Roscommon\u0026quot;],[\u0026quot;Sligo\u0026quot;,\u0026quot;Sligo\u0026quot;],[\u0026quot;Tipperary\u0026quot;,\u0026quot;Tipperary\u0026quot;],[\u0026quot;Waterford\u0026quot;,\u0026quot;Waterford\u0026quot;],[\u0026quot;Westmeath\u0026quot;,\u0026quot;Westmeath\u0026quot;],[\u0026quot;Wexford\u0026quot;,\u0026quot;Wexford\u0026quot;],[\u0026quot;Wicklow\u0026quot;,\u0026quot;Wicklow\u0026quot;]]\"\u003eIreland\u003c\/option\u003e\n\u003coption value=\"Isle Of Man\" data-provinces=\"[]\"\u003eIsle of Man\u003c\/option\u003e\n\u003coption value=\"Israel\" data-provinces=\"[]\"\u003eIsrael\u003c\/option\u003e\n\u003coption value=\"Italy\" data-provinces=\"[[\u0026quot;Agrigento\u0026quot;,\u0026quot;Agrigento\u0026quot;],[\u0026quot;Alessandria\u0026quot;,\u0026quot;Alessandria\u0026quot;],[\u0026quot;Ancona\u0026quot;,\u0026quot;Ancona\u0026quot;],[\u0026quot;Aosta\u0026quot;,\u0026quot;Aosta\u0026quot;],[\u0026quot;Arezzo\u0026quot;,\u0026quot;Arezzo\u0026quot;],[\u0026quot;Ascoli Piceno\u0026quot;,\u0026quot;Ascoli Piceno\u0026quot;],[\u0026quot;Asti\u0026quot;,\u0026quot;Asti\u0026quot;],[\u0026quot;Avellino\u0026quot;,\u0026quot;Avellino\u0026quot;],[\u0026quot;Bari\u0026quot;,\u0026quot;Bari\u0026quot;],[\u0026quot;Barletta-Andria-Trani\u0026quot;,\u0026quot;Barletta-Andria-Trani\u0026quot;],[\u0026quot;Belluno\u0026quot;,\u0026quot;Belluno\u0026quot;],[\u0026quot;Benevento\u0026quot;,\u0026quot;Benevento\u0026quot;],[\u0026quot;Bergamo\u0026quot;,\u0026quot;Bergamo\u0026quot;],[\u0026quot;Biella\u0026quot;,\u0026quot;Biella\u0026quot;],[\u0026quot;Bologna\u0026quot;,\u0026quot;Bologna\u0026quot;],[\u0026quot;Bolzano\u0026quot;,\u0026quot;South Tyrol\u0026quot;],[\u0026quot;Brescia\u0026quot;,\u0026quot;Brescia\u0026quot;],[\u0026quot;Brindisi\u0026quot;,\u0026quot;Brindisi\u0026quot;],[\u0026quot;Cagliari\u0026quot;,\u0026quot;Cagliari\u0026quot;],[\u0026quot;Caltanissetta\u0026quot;,\u0026quot;Caltanissetta\u0026quot;],[\u0026quot;Campobasso\u0026quot;,\u0026quot;Campobasso\u0026quot;],[\u0026quot;Carbonia-Iglesias\u0026quot;,\u0026quot;Carbonia-Iglesias\u0026quot;],[\u0026quot;Caserta\u0026quot;,\u0026quot;Caserta\u0026quot;],[\u0026quot;Catania\u0026quot;,\u0026quot;Catania\u0026quot;],[\u0026quot;Catanzaro\u0026quot;,\u0026quot;Catanzaro\u0026quot;],[\u0026quot;Chieti\u0026quot;,\u0026quot;Chieti\u0026quot;],[\u0026quot;Como\u0026quot;,\u0026quot;Como\u0026quot;],[\u0026quot;Cosenza\u0026quot;,\u0026quot;Cosenza\u0026quot;],[\u0026quot;Cremona\u0026quot;,\u0026quot;Cremona\u0026quot;],[\u0026quot;Crotone\u0026quot;,\u0026quot;Crotone\u0026quot;],[\u0026quot;Cuneo\u0026quot;,\u0026quot;Cuneo\u0026quot;],[\u0026quot;Enna\u0026quot;,\u0026quot;Enna\u0026quot;],[\u0026quot;Fermo\u0026quot;,\u0026quot;Fermo\u0026quot;],[\u0026quot;Ferrara\u0026quot;,\u0026quot;Ferrara\u0026quot;],[\u0026quot;Firenze\u0026quot;,\u0026quot;Florence\u0026quot;],[\u0026quot;Foggia\u0026quot;,\u0026quot;Foggia\u0026quot;],[\u0026quot;Forlì-Cesena\u0026quot;,\u0026quot;Forlì-Cesena\u0026quot;],[\u0026quot;Frosinone\u0026quot;,\u0026quot;Frosinone\u0026quot;],[\u0026quot;Genova\u0026quot;,\u0026quot;Genoa\u0026quot;],[\u0026quot;Gorizia\u0026quot;,\u0026quot;Gorizia\u0026quot;],[\u0026quot;Grosseto\u0026quot;,\u0026quot;Grosseto\u0026quot;],[\u0026quot;Imperia\u0026quot;,\u0026quot;Imperia\u0026quot;],[\u0026quot;Isernia\u0026quot;,\u0026quot;Isernia\u0026quot;],[\u0026quot;L\u0026#39;Aquila\u0026quot;,\u0026quot;L’Aquila\u0026quot;],[\u0026quot;La Spezia\u0026quot;,\u0026quot;La Spezia\u0026quot;],[\u0026quot;Latina\u0026quot;,\u0026quot;Latina\u0026quot;],[\u0026quot;Lecce\u0026quot;,\u0026quot;Lecce\u0026quot;],[\u0026quot;Lecco\u0026quot;,\u0026quot;Lecco\u0026quot;],[\u0026quot;Livorno\u0026quot;,\u0026quot;Livorno\u0026quot;],[\u0026quot;Lodi\u0026quot;,\u0026quot;Lodi\u0026quot;],[\u0026quot;Lucca\u0026quot;,\u0026quot;Lucca\u0026quot;],[\u0026quot;Macerata\u0026quot;,\u0026quot;Macerata\u0026quot;],[\u0026quot;Mantova\u0026quot;,\u0026quot;Mantua\u0026quot;],[\u0026quot;Massa-Carrara\u0026quot;,\u0026quot;Massa and Carrara\u0026quot;],[\u0026quot;Matera\u0026quot;,\u0026quot;Matera\u0026quot;],[\u0026quot;Medio Campidano\u0026quot;,\u0026quot;Medio Campidano\u0026quot;],[\u0026quot;Messina\u0026quot;,\u0026quot;Messina\u0026quot;],[\u0026quot;Milano\u0026quot;,\u0026quot;Milan\u0026quot;],[\u0026quot;Modena\u0026quot;,\u0026quot;Modena\u0026quot;],[\u0026quot;Monza e Brianza\u0026quot;,\u0026quot;Monza and Brianza\u0026quot;],[\u0026quot;Napoli\u0026quot;,\u0026quot;Naples\u0026quot;],[\u0026quot;Novara\u0026quot;,\u0026quot;Novara\u0026quot;],[\u0026quot;Nuoro\u0026quot;,\u0026quot;Nuoro\u0026quot;],[\u0026quot;Ogliastra\u0026quot;,\u0026quot;Ogliastra\u0026quot;],[\u0026quot;Olbia-Tempio\u0026quot;,\u0026quot;Olbia-Tempio\u0026quot;],[\u0026quot;Oristano\u0026quot;,\u0026quot;Oristano\u0026quot;],[\u0026quot;Padova\u0026quot;,\u0026quot;Padua\u0026quot;],[\u0026quot;Palermo\u0026quot;,\u0026quot;Palermo\u0026quot;],[\u0026quot;Parma\u0026quot;,\u0026quot;Parma\u0026quot;],[\u0026quot;Pavia\u0026quot;,\u0026quot;Pavia\u0026quot;],[\u0026quot;Perugia\u0026quot;,\u0026quot;Perugia\u0026quot;],[\u0026quot;Pesaro e Urbino\u0026quot;,\u0026quot;Pesaro and Urbino\u0026quot;],[\u0026quot;Pescara\u0026quot;,\u0026quot;Pescara\u0026quot;],[\u0026quot;Piacenza\u0026quot;,\u0026quot;Piacenza\u0026quot;],[\u0026quot;Pisa\u0026quot;,\u0026quot;Pisa\u0026quot;],[\u0026quot;Pistoia\u0026quot;,\u0026quot;Pistoia\u0026quot;],[\u0026quot;Pordenone\u0026quot;,\u0026quot;Pordenone\u0026quot;],[\u0026quot;Potenza\u0026quot;,\u0026quot;Potenza\u0026quot;],[\u0026quot;Prato\u0026quot;,\u0026quot;Prato\u0026quot;],[\u0026quot;Ragusa\u0026quot;,\u0026quot;Ragusa\u0026quot;],[\u0026quot;Ravenna\u0026quot;,\u0026quot;Ravenna\u0026quot;],[\u0026quot;Reggio Calabria\u0026quot;,\u0026quot;Reggio Calabria\u0026quot;],[\u0026quot;Reggio Emilia\u0026quot;,\u0026quot;Reggio Emilia\u0026quot;],[\u0026quot;Rieti\u0026quot;,\u0026quot;Rieti\u0026quot;],[\u0026quot;Rimini\u0026quot;,\u0026quot;Rimini\u0026quot;],[\u0026quot;Roma\u0026quot;,\u0026quot;Rome\u0026quot;],[\u0026quot;Rovigo\u0026quot;,\u0026quot;Rovigo\u0026quot;],[\u0026quot;Salerno\u0026quot;,\u0026quot;Salerno\u0026quot;],[\u0026quot;Sassari\u0026quot;,\u0026quot;Sassari\u0026quot;],[\u0026quot;Savona\u0026quot;,\u0026quot;Savona\u0026quot;],[\u0026quot;Siena\u0026quot;,\u0026quot;Siena\u0026quot;],[\u0026quot;Siracusa\u0026quot;,\u0026quot;Syracuse\u0026quot;],[\u0026quot;Sondrio\u0026quot;,\u0026quot;Sondrio\u0026quot;],[\u0026quot;Taranto\u0026quot;,\u0026quot;Taranto\u0026quot;],[\u0026quot;Teramo\u0026quot;,\u0026quot;Teramo\u0026quot;],[\u0026quot;Terni\u0026quot;,\u0026quot;Terni\u0026quot;],[\u0026quot;Torino\u0026quot;,\u0026quot;Turin\u0026quot;],[\u0026quot;Trapani\u0026quot;,\u0026quot;Trapani\u0026quot;],[\u0026quot;Trento\u0026quot;,\u0026quot;Trentino\u0026quot;],[\u0026quot;Treviso\u0026quot;,\u0026quot;Treviso\u0026quot;],[\u0026quot;Trieste\u0026quot;,\u0026quot;Trieste\u0026quot;],[\u0026quot;Udine\u0026quot;,\u0026quot;Udine\u0026quot;],[\u0026quot;Varese\u0026quot;,\u0026quot;Varese\u0026quot;],[\u0026quot;Venezia\u0026quot;,\u0026quot;Venice\u0026quot;],[\u0026quot;Verbano-Cusio-Ossola\u0026quot;,\u0026quot;Verbano-Cusio-Ossola\u0026quot;],[\u0026quot;Vercelli\u0026quot;,\u0026quot;Vercelli\u0026quot;],[\u0026quot;Verona\u0026quot;,\u0026quot;Verona\u0026quot;],[\u0026quot;Vibo Valentia\u0026quot;,\u0026quot;Vibo Valentia\u0026quot;],[\u0026quot;Vicenza\u0026quot;,\u0026quot;Vicenza\u0026quot;],[\u0026quot;Viterbo\u0026quot;,\u0026quot;Viterbo\u0026quot;]]\"\u003eItaly\u003c\/option\u003e\n\u003coption value=\"Jamaica\" data-provinces=\"[]\"\u003eJamaica\u003c\/option\u003e\n\u003coption value=\"Japan\" data-provinces=\"[[\u0026quot;Aichi\u0026quot;,\u0026quot;Aichi\u0026quot;],[\u0026quot;Akita\u0026quot;,\u0026quot;Akita\u0026quot;],[\u0026quot;Aomori\u0026quot;,\u0026quot;Aomori\u0026quot;],[\u0026quot;Chiba\u0026quot;,\u0026quot;Chiba\u0026quot;],[\u0026quot;Ehime\u0026quot;,\u0026quot;Ehime\u0026quot;],[\u0026quot;Fukui\u0026quot;,\u0026quot;Fukui\u0026quot;],[\u0026quot;Fukuoka\u0026quot;,\u0026quot;Fukuoka\u0026quot;],[\u0026quot;Fukushima\u0026quot;,\u0026quot;Fukushima\u0026quot;],[\u0026quot;Gifu\u0026quot;,\u0026quot;Gifu\u0026quot;],[\u0026quot;Gunma\u0026quot;,\u0026quot;Gunma\u0026quot;],[\u0026quot;Hiroshima\u0026quot;,\u0026quot;Hiroshima\u0026quot;],[\u0026quot;Hokkaidō\u0026quot;,\u0026quot;Hokkaidō\u0026quot;],[\u0026quot;Hyōgo\u0026quot;,\u0026quot;Hyōgo\u0026quot;],[\u0026quot;Ibaraki\u0026quot;,\u0026quot;Ibaraki\u0026quot;],[\u0026quot;Ishikawa\u0026quot;,\u0026quot;Ishikawa\u0026quot;],[\u0026quot;Iwate\u0026quot;,\u0026quot;Iwate\u0026quot;],[\u0026quot;Kagawa\u0026quot;,\u0026quot;Kagawa\u0026quot;],[\u0026quot;Kagoshima\u0026quot;,\u0026quot;Kagoshima\u0026quot;],[\u0026quot;Kanagawa\u0026quot;,\u0026quot;Kanagawa\u0026quot;],[\u0026quot;Kumamoto\u0026quot;,\u0026quot;Kumamoto\u0026quot;],[\u0026quot;Kyōto\u0026quot;,\u0026quot;Kyōto\u0026quot;],[\u0026quot;Kōchi\u0026quot;,\u0026quot;Kōchi\u0026quot;],[\u0026quot;Mie\u0026quot;,\u0026quot;Mie\u0026quot;],[\u0026quot;Miyagi\u0026quot;,\u0026quot;Miyagi\u0026quot;],[\u0026quot;Miyazaki\u0026quot;,\u0026quot;Miyazaki\u0026quot;],[\u0026quot;Nagano\u0026quot;,\u0026quot;Nagano\u0026quot;],[\u0026quot;Nagasaki\u0026quot;,\u0026quot;Nagasaki\u0026quot;],[\u0026quot;Nara\u0026quot;,\u0026quot;Nara\u0026quot;],[\u0026quot;Niigata\u0026quot;,\u0026quot;Niigata\u0026quot;],[\u0026quot;Okayama\u0026quot;,\u0026quot;Okayama\u0026quot;],[\u0026quot;Okinawa\u0026quot;,\u0026quot;Okinawa\u0026quot;],[\u0026quot;Saga\u0026quot;,\u0026quot;Saga\u0026quot;],[\u0026quot;Saitama\u0026quot;,\u0026quot;Saitama\u0026quot;],[\u0026quot;Shiga\u0026quot;,\u0026quot;Shiga\u0026quot;],[\u0026quot;Shimane\u0026quot;,\u0026quot;Shimane\u0026quot;],[\u0026quot;Shizuoka\u0026quot;,\u0026quot;Shizuoka\u0026quot;],[\u0026quot;Tochigi\u0026quot;,\u0026quot;Tochigi\u0026quot;],[\u0026quot;Tokushima\u0026quot;,\u0026quot;Tokushima\u0026quot;],[\u0026quot;Tottori\u0026quot;,\u0026quot;Tottori\u0026quot;],[\u0026quot;Toyama\u0026quot;,\u0026quot;Toyama\u0026quot;],[\u0026quot;Tōkyō\u0026quot;,\u0026quot;Tokyo\u0026quot;],[\u0026quot;Wakayama\u0026quot;,\u0026quot;Wakayama\u0026quot;],[\u0026quot;Yamagata\u0026quot;,\u0026quot;Yamagata\u0026quot;],[\u0026quot;Yamaguchi\u0026quot;,\u0026quot;Yamaguchi\u0026quot;],[\u0026quot;Yamanashi\u0026quot;,\u0026quot;Yamanashi\u0026quot;],[\u0026quot;Ōita\u0026quot;,\u0026quot;Ōita\u0026quot;],[\u0026quot;Ōsaka\u0026quot;,\u0026quot;Ōsaka\u0026quot;]]\"\u003eJapan\u003c\/option\u003e\n\u003coption value=\"Jersey\" data-provinces=\"[]\"\u003eJersey\u003c\/option\u003e\n\u003coption value=\"Jordan\" data-provinces=\"[]\"\u003eJordan\u003c\/option\u003e\n\u003coption value=\"Kazakhstan\" data-provinces=\"[]\"\u003eKazakhstan\u003c\/option\u003e\n\u003coption value=\"Kenya\" data-provinces=\"[]\"\u003eKenya\u003c\/option\u003e\n\u003coption value=\"Kiribati\" data-provinces=\"[]\"\u003eKiribati\u003c\/option\u003e\n\u003coption value=\"Kosovo\" data-provinces=\"[]\"\u003eKosovo\u003c\/option\u003e\n\u003coption value=\"Kuwait\" data-provinces=\"[]\"\u003eKuwait\u003c\/option\u003e\n\u003coption value=\"Kyrgyzstan\" data-provinces=\"[]\"\u003eKyrgyzstan\u003c\/option\u003e\n\u003coption value=\"Lao People's Democratic Republic\" data-provinces=\"[]\"\u003eLaos\u003c\/option\u003e\n\u003coption value=\"Latvia\" data-provinces=\"[]\"\u003eLatvia\u003c\/option\u003e\n\u003coption value=\"Lebanon\" data-provinces=\"[]\"\u003eLebanon\u003c\/option\u003e\n\u003coption value=\"Lesotho\" data-provinces=\"[]\"\u003eLesotho\u003c\/option\u003e\n\u003coption value=\"Liberia\" data-provinces=\"[]\"\u003eLiberia\u003c\/option\u003e\n\u003coption value=\"Libyan Arab Jamahiriya\" data-provinces=\"[]\"\u003eLibya\u003c\/option\u003e\n\u003coption value=\"Liechtenstein\" data-provinces=\"[]\"\u003eLiechtenstein\u003c\/option\u003e\n\u003coption value=\"Lithuania\" data-provinces=\"[]\"\u003eLithuania\u003c\/option\u003e\n\u003coption value=\"Luxembourg\" data-provinces=\"[]\"\u003eLuxembourg\u003c\/option\u003e\n\u003coption value=\"Macao\" data-provinces=\"[]\"\u003eMacao SAR China\u003c\/option\u003e\n\u003coption value=\"Madagascar\" data-provinces=\"[]\"\u003eMadagascar\u003c\/option\u003e\n\u003coption value=\"Malawi\" data-provinces=\"[]\"\u003eMalawi\u003c\/option\u003e\n\u003coption value=\"Malaysia\" data-provinces=\"[[\u0026quot;Johor\u0026quot;,\u0026quot;Johor\u0026quot;],[\u0026quot;Kedah\u0026quot;,\u0026quot;Kedah\u0026quot;],[\u0026quot;Kelantan\u0026quot;,\u0026quot;Kelantan\u0026quot;],[\u0026quot;Kuala Lumpur\u0026quot;,\u0026quot;Kuala Lumpur\u0026quot;],[\u0026quot;Labuan\u0026quot;,\u0026quot;Labuan\u0026quot;],[\u0026quot;Melaka\u0026quot;,\u0026quot;Malacca\u0026quot;],[\u0026quot;Negeri Sembilan\u0026quot;,\u0026quot;Negeri Sembilan\u0026quot;],[\u0026quot;Pahang\u0026quot;,\u0026quot;Pahang\u0026quot;],[\u0026quot;Penang\u0026quot;,\u0026quot;Penang\u0026quot;],[\u0026quot;Perak\u0026quot;,\u0026quot;Perak\u0026quot;],[\u0026quot;Perlis\u0026quot;,\u0026quot;Perlis\u0026quot;],[\u0026quot;Putrajaya\u0026quot;,\u0026quot;Putrajaya\u0026quot;],[\u0026quot;Sabah\u0026quot;,\u0026quot;Sabah\u0026quot;],[\u0026quot;Sarawak\u0026quot;,\u0026quot;Sarawak\u0026quot;],[\u0026quot;Selangor\u0026quot;,\u0026quot;Selangor\u0026quot;],[\u0026quot;Terengganu\u0026quot;,\u0026quot;Terengganu\u0026quot;]]\"\u003eMalaysia\u003c\/option\u003e\n\u003coption value=\"Maldives\" data-provinces=\"[]\"\u003eMaldives\u003c\/option\u003e\n\u003coption value=\"Mali\" data-provinces=\"[]\"\u003eMali\u003c\/option\u003e\n\u003coption value=\"Malta\" data-provinces=\"[]\"\u003eMalta\u003c\/option\u003e\n\u003coption value=\"Martinique\" data-provinces=\"[]\"\u003eMartinique\u003c\/option\u003e\n\u003coption value=\"Mauritania\" data-provinces=\"[]\"\u003eMauritania\u003c\/option\u003e\n\u003coption value=\"Mauritius\" data-provinces=\"[]\"\u003eMauritius\u003c\/option\u003e\n\u003coption value=\"Mayotte\" data-provinces=\"[]\"\u003eMayotte\u003c\/option\u003e\n\u003coption value=\"Mexico\" data-provinces=\"[[\u0026quot;Aguascalientes\u0026quot;,\u0026quot;Aguascalientes\u0026quot;],[\u0026quot;Baja California\u0026quot;,\u0026quot;Baja California\u0026quot;],[\u0026quot;Baja California Sur\u0026quot;,\u0026quot;Baja California Sur\u0026quot;],[\u0026quot;Campeche\u0026quot;,\u0026quot;Campeche\u0026quot;],[\u0026quot;Chiapas\u0026quot;,\u0026quot;Chiapas\u0026quot;],[\u0026quot;Chihuahua\u0026quot;,\u0026quot;Chihuahua\u0026quot;],[\u0026quot;Ciudad de México\u0026quot;,\u0026quot;Ciudad de Mexico\u0026quot;],[\u0026quot;Coahuila\u0026quot;,\u0026quot;Coahuila\u0026quot;],[\u0026quot;Colima\u0026quot;,\u0026quot;Colima\u0026quot;],[\u0026quot;Durango\u0026quot;,\u0026quot;Durango\u0026quot;],[\u0026quot;Guanajuato\u0026quot;,\u0026quot;Guanajuato\u0026quot;],[\u0026quot;Guerrero\u0026quot;,\u0026quot;Guerrero\u0026quot;],[\u0026quot;Hidalgo\u0026quot;,\u0026quot;Hidalgo\u0026quot;],[\u0026quot;Jalisco\u0026quot;,\u0026quot;Jalisco\u0026quot;],[\u0026quot;Michoacán\u0026quot;,\u0026quot;Michoacán\u0026quot;],[\u0026quot;Morelos\u0026quot;,\u0026quot;Morelos\u0026quot;],[\u0026quot;México\u0026quot;,\u0026quot;Mexico State\u0026quot;],[\u0026quot;Nayarit\u0026quot;,\u0026quot;Nayarit\u0026quot;],[\u0026quot;Nuevo León\u0026quot;,\u0026quot;Nuevo León\u0026quot;],[\u0026quot;Oaxaca\u0026quot;,\u0026quot;Oaxaca\u0026quot;],[\u0026quot;Puebla\u0026quot;,\u0026quot;Puebla\u0026quot;],[\u0026quot;Querétaro\u0026quot;,\u0026quot;Querétaro\u0026quot;],[\u0026quot;Quintana Roo\u0026quot;,\u0026quot;Quintana Roo\u0026quot;],[\u0026quot;San Luis Potosí\u0026quot;,\u0026quot;San Luis Potosí\u0026quot;],[\u0026quot;Sinaloa\u0026quot;,\u0026quot;Sinaloa\u0026quot;],[\u0026quot;Sonora\u0026quot;,\u0026quot;Sonora\u0026quot;],[\u0026quot;Tabasco\u0026quot;,\u0026quot;Tabasco\u0026quot;],[\u0026quot;Tamaulipas\u0026quot;,\u0026quot;Tamaulipas\u0026quot;],[\u0026quot;Tlaxcala\u0026quot;,\u0026quot;Tlaxcala\u0026quot;],[\u0026quot;Veracruz\u0026quot;,\u0026quot;Veracruz\u0026quot;],[\u0026quot;Yucatán\u0026quot;,\u0026quot;Yucatán\u0026quot;],[\u0026quot;Zacatecas\u0026quot;,\u0026quot;Zacatecas\u0026quot;]]\"\u003eMexico\u003c\/option\u003e\n\u003coption value=\"Moldova, Republic of\" data-provinces=\"[]\"\u003eMoldova\u003c\/option\u003e\n\u003coption value=\"Monaco\" data-provinces=\"[]\"\u003eMonaco\u003c\/option\u003e\n\u003coption value=\"Mongolia\" data-provinces=\"[]\"\u003eMongolia\u003c\/option\u003e\n\u003coption value=\"Montenegro\" data-provinces=\"[]\"\u003eMontenegro\u003c\/option\u003e\n\u003coption value=\"Montserrat\" data-provinces=\"[]\"\u003eMontserrat\u003c\/option\u003e\n\u003coption value=\"Morocco\" data-provinces=\"[]\"\u003eMorocco\u003c\/option\u003e\n\u003coption value=\"Mozambique\" data-provinces=\"[]\"\u003eMozambique\u003c\/option\u003e\n\u003coption value=\"Myanmar\" data-provinces=\"[]\"\u003eMyanmar (Burma)\u003c\/option\u003e\n\u003coption value=\"Namibia\" data-provinces=\"[]\"\u003eNamibia\u003c\/option\u003e\n\u003coption value=\"Nauru\" data-provinces=\"[]\"\u003eNauru\u003c\/option\u003e\n\u003coption value=\"Nepal\" data-provinces=\"[]\"\u003eNepal\u003c\/option\u003e\n\u003coption value=\"Netherlands\" data-provinces=\"[]\"\u003eNetherlands\u003c\/option\u003e\n\u003coption value=\"New Caledonia\" data-provinces=\"[]\"\u003eNew Caledonia\u003c\/option\u003e\n\u003coption value=\"New Zealand\" data-provinces=\"[[\u0026quot;Auckland\u0026quot;,\u0026quot;Auckland\u0026quot;],[\u0026quot;Bay of Plenty\u0026quot;,\u0026quot;Bay of Plenty\u0026quot;],[\u0026quot;Canterbury\u0026quot;,\u0026quot;Canterbury\u0026quot;],[\u0026quot;Gisborne\u0026quot;,\u0026quot;Gisborne\u0026quot;],[\u0026quot;Hawke\u0026#39;s Bay\u0026quot;,\u0026quot;Hawke’s Bay\u0026quot;],[\u0026quot;Manawatu-Wanganui\u0026quot;,\u0026quot;Manawatu-Wanganui\u0026quot;],[\u0026quot;Marlborough\u0026quot;,\u0026quot;Marlborough\u0026quot;],[\u0026quot;Nelson\u0026quot;,\u0026quot;Nelson\u0026quot;],[\u0026quot;Northland\u0026quot;,\u0026quot;Northland\u0026quot;],[\u0026quot;Otago\u0026quot;,\u0026quot;Otago\u0026quot;],[\u0026quot;Southland\u0026quot;,\u0026quot;Southland\u0026quot;],[\u0026quot;Taranaki\u0026quot;,\u0026quot;Taranaki\u0026quot;],[\u0026quot;Tasman\u0026quot;,\u0026quot;Tasman\u0026quot;],[\u0026quot;Waikato\u0026quot;,\u0026quot;Waikato\u0026quot;],[\u0026quot;Wellington\u0026quot;,\u0026quot;Wellington\u0026quot;],[\u0026quot;West Coast\u0026quot;,\u0026quot;West Coast\u0026quot;]]\"\u003eNew Zealand\u003c\/option\u003e\n\u003coption value=\"Nicaragua\" data-provinces=\"[]\"\u003eNicaragua\u003c\/option\u003e\n\u003coption value=\"Niger\" data-provinces=\"[]\"\u003eNiger\u003c\/option\u003e\n\u003coption value=\"Nigeria\" data-provinces=\"[[\u0026quot;Abia\u0026quot;,\u0026quot;Abia\u0026quot;],[\u0026quot;Abuja Federal Capital Territory\u0026quot;,\u0026quot;Federal Capital Territory\u0026quot;],[\u0026quot;Adamawa\u0026quot;,\u0026quot;Adamawa\u0026quot;],[\u0026quot;Akwa Ibom\u0026quot;,\u0026quot;Akwa Ibom\u0026quot;],[\u0026quot;Anambra\u0026quot;,\u0026quot;Anambra\u0026quot;],[\u0026quot;Bauchi\u0026quot;,\u0026quot;Bauchi\u0026quot;],[\u0026quot;Bayelsa\u0026quot;,\u0026quot;Bayelsa\u0026quot;],[\u0026quot;Benue\u0026quot;,\u0026quot;Benue\u0026quot;],[\u0026quot;Borno\u0026quot;,\u0026quot;Borno\u0026quot;],[\u0026quot;Cross River\u0026quot;,\u0026quot;Cross River\u0026quot;],[\u0026quot;Delta\u0026quot;,\u0026quot;Delta\u0026quot;],[\u0026quot;Ebonyi\u0026quot;,\u0026quot;Ebonyi\u0026quot;],[\u0026quot;Edo\u0026quot;,\u0026quot;Edo\u0026quot;],[\u0026quot;Ekiti\u0026quot;,\u0026quot;Ekiti\u0026quot;],[\u0026quot;Enugu\u0026quot;,\u0026quot;Enugu\u0026quot;],[\u0026quot;Gombe\u0026quot;,\u0026quot;Gombe\u0026quot;],[\u0026quot;Imo\u0026quot;,\u0026quot;Imo\u0026quot;],[\u0026quot;Jigawa\u0026quot;,\u0026quot;Jigawa\u0026quot;],[\u0026quot;Kaduna\u0026quot;,\u0026quot;Kaduna\u0026quot;],[\u0026quot;Kano\u0026quot;,\u0026quot;Kano\u0026quot;],[\u0026quot;Katsina\u0026quot;,\u0026quot;Katsina\u0026quot;],[\u0026quot;Kebbi\u0026quot;,\u0026quot;Kebbi\u0026quot;],[\u0026quot;Kogi\u0026quot;,\u0026quot;Kogi\u0026quot;],[\u0026quot;Kwara\u0026quot;,\u0026quot;Kwara\u0026quot;],[\u0026quot;Lagos\u0026quot;,\u0026quot;Lagos\u0026quot;],[\u0026quot;Nasarawa\u0026quot;,\u0026quot;Nasarawa\u0026quot;],[\u0026quot;Niger\u0026quot;,\u0026quot;Niger\u0026quot;],[\u0026quot;Ogun\u0026quot;,\u0026quot;Ogun\u0026quot;],[\u0026quot;Ondo\u0026quot;,\u0026quot;Ondo\u0026quot;],[\u0026quot;Osun\u0026quot;,\u0026quot;Osun\u0026quot;],[\u0026quot;Oyo\u0026quot;,\u0026quot;Oyo\u0026quot;],[\u0026quot;Plateau\u0026quot;,\u0026quot;Plateau\u0026quot;],[\u0026quot;Rivers\u0026quot;,\u0026quot;Rivers\u0026quot;],[\u0026quot;Sokoto\u0026quot;,\u0026quot;Sokoto\u0026quot;],[\u0026quot;Taraba\u0026quot;,\u0026quot;Taraba\u0026quot;],[\u0026quot;Yobe\u0026quot;,\u0026quot;Yobe\u0026quot;],[\u0026quot;Zamfara\u0026quot;,\u0026quot;Zamfara\u0026quot;]]\"\u003eNigeria\u003c\/option\u003e\n\u003coption value=\"Niue\" data-provinces=\"[]\"\u003eNiue\u003c\/option\u003e\n\u003coption value=\"Norfolk Island\" data-provinces=\"[]\"\u003eNorfolk Island\u003c\/option\u003e\n\u003coption value=\"North Macedonia\" data-provinces=\"[]\"\u003eNorth Macedonia\u003c\/option\u003e\n\u003coption value=\"Norway\" data-provinces=\"[]\"\u003eNorway\u003c\/option\u003e\n\u003coption value=\"Oman\" data-provinces=\"[]\"\u003eOman\u003c\/option\u003e\n\u003coption value=\"Pakistan\" data-provinces=\"[]\"\u003ePakistan\u003c\/option\u003e\n\u003coption value=\"Palestinian Territory, Occupied\" data-provinces=\"[]\"\u003ePalestinian Territories\u003c\/option\u003e\n\u003coption value=\"Panama\" data-provinces=\"[[\u0026quot;Bocas del Toro\u0026quot;,\u0026quot;Bocas del Toro\u0026quot;],[\u0026quot;Chiriquí\u0026quot;,\u0026quot;Chiriquí\u0026quot;],[\u0026quot;Coclé\u0026quot;,\u0026quot;Coclé\u0026quot;],[\u0026quot;Colón\u0026quot;,\u0026quot;Colón\u0026quot;],[\u0026quot;Darién\u0026quot;,\u0026quot;Darién\u0026quot;],[\u0026quot;Emberá\u0026quot;,\u0026quot;Emberá\u0026quot;],[\u0026quot;Herrera\u0026quot;,\u0026quot;Herrera\u0026quot;],[\u0026quot;Kuna Yala\u0026quot;,\u0026quot;Guna Yala\u0026quot;],[\u0026quot;Los Santos\u0026quot;,\u0026quot;Los Santos\u0026quot;],[\u0026quot;Ngöbe-Buglé\u0026quot;,\u0026quot;Ngöbe-Buglé\u0026quot;],[\u0026quot;Panamá\u0026quot;,\u0026quot;Panamá\u0026quot;],[\u0026quot;Panamá Oeste\u0026quot;,\u0026quot;West Panamá\u0026quot;],[\u0026quot;Veraguas\u0026quot;,\u0026quot;Veraguas\u0026quot;]]\"\u003ePanama\u003c\/option\u003e\n\u003coption value=\"Papua New Guinea\" data-provinces=\"[]\"\u003ePapua New Guinea\u003c\/option\u003e\n\u003coption value=\"Paraguay\" data-provinces=\"[]\"\u003eParaguay\u003c\/option\u003e\n\u003coption value=\"Peru\" data-provinces=\"[[\u0026quot;Amazonas\u0026quot;,\u0026quot;Amazonas\u0026quot;],[\u0026quot;Apurímac\u0026quot;,\u0026quot;Apurímac\u0026quot;],[\u0026quot;Arequipa\u0026quot;,\u0026quot;Arequipa\u0026quot;],[\u0026quot;Ayacucho\u0026quot;,\u0026quot;Ayacucho\u0026quot;],[\u0026quot;Cajamarca\u0026quot;,\u0026quot;Cajamarca\u0026quot;],[\u0026quot;Callao\u0026quot;,\u0026quot;El Callao\u0026quot;],[\u0026quot;Cuzco\u0026quot;,\u0026quot;Cusco\u0026quot;],[\u0026quot;Huancavelica\u0026quot;,\u0026quot;Huancavelica\u0026quot;],[\u0026quot;Huánuco\u0026quot;,\u0026quot;Huánuco\u0026quot;],[\u0026quot;Ica\u0026quot;,\u0026quot;Ica\u0026quot;],[\u0026quot;Junín\u0026quot;,\u0026quot;Junín\u0026quot;],[\u0026quot;La Libertad\u0026quot;,\u0026quot;La Libertad\u0026quot;],[\u0026quot;Lambayeque\u0026quot;,\u0026quot;Lambayeque\u0026quot;],[\u0026quot;Lima (departamento)\u0026quot;,\u0026quot;Lima Region\u0026quot;],[\u0026quot;Lima (provincia)\u0026quot;,\u0026quot;Lima\u0026quot;],[\u0026quot;Loreto\u0026quot;,\u0026quot;Loreto\u0026quot;],[\u0026quot;Madre de Dios\u0026quot;,\u0026quot;Madre de Dios\u0026quot;],[\u0026quot;Moquegua\u0026quot;,\u0026quot;Moquegua\u0026quot;],[\u0026quot;Pasco\u0026quot;,\u0026quot;Pasco\u0026quot;],[\u0026quot;Piura\u0026quot;,\u0026quot;Piura\u0026quot;],[\u0026quot;Puno\u0026quot;,\u0026quot;Puno\u0026quot;],[\u0026quot;San Martín\u0026quot;,\u0026quot;San Martín\u0026quot;],[\u0026quot;Tacna\u0026quot;,\u0026quot;Tacna\u0026quot;],[\u0026quot;Tumbes\u0026quot;,\u0026quot;Tumbes\u0026quot;],[\u0026quot;Ucayali\u0026quot;,\u0026quot;Ucayali\u0026quot;],[\u0026quot;Áncash\u0026quot;,\u0026quot;Ancash\u0026quot;]]\"\u003ePeru\u003c\/option\u003e\n\u003coption value=\"Philippines\" data-provinces=\"[]\"\u003ePhilippines\u003c\/option\u003e\n\u003coption value=\"Pitcairn\" data-provinces=\"[]\"\u003ePitcairn Islands\u003c\/option\u003e\n\u003coption value=\"Poland\" data-provinces=\"[]\"\u003ePoland\u003c\/option\u003e\n\u003coption value=\"Portugal\" data-provinces=\"[[\u0026quot;Aveiro\u0026quot;,\u0026quot;Aveiro\u0026quot;],[\u0026quot;Açores\u0026quot;,\u0026quot;Azores\u0026quot;],[\u0026quot;Beja\u0026quot;,\u0026quot;Beja\u0026quot;],[\u0026quot;Braga\u0026quot;,\u0026quot;Braga\u0026quot;],[\u0026quot;Bragança\u0026quot;,\u0026quot;Bragança\u0026quot;],[\u0026quot;Castelo Branco\u0026quot;,\u0026quot;Castelo Branco\u0026quot;],[\u0026quot;Coimbra\u0026quot;,\u0026quot;Coimbra\u0026quot;],[\u0026quot;Faro\u0026quot;,\u0026quot;Faro\u0026quot;],[\u0026quot;Guarda\u0026quot;,\u0026quot;Guarda\u0026quot;],[\u0026quot;Leiria\u0026quot;,\u0026quot;Leiria\u0026quot;],[\u0026quot;Lisboa\u0026quot;,\u0026quot;Lisbon\u0026quot;],[\u0026quot;Madeira\u0026quot;,\u0026quot;Madeira\u0026quot;],[\u0026quot;Portalegre\u0026quot;,\u0026quot;Portalegre\u0026quot;],[\u0026quot;Porto\u0026quot;,\u0026quot;Porto\u0026quot;],[\u0026quot;Santarém\u0026quot;,\u0026quot;Santarém\u0026quot;],[\u0026quot;Setúbal\u0026quot;,\u0026quot;Setúbal\u0026quot;],[\u0026quot;Viana do Castelo\u0026quot;,\u0026quot;Viana do Castelo\u0026quot;],[\u0026quot;Vila Real\u0026quot;,\u0026quot;Vila Real\u0026quot;],[\u0026quot;Viseu\u0026quot;,\u0026quot;Viseu\u0026quot;],[\u0026quot;Évora\u0026quot;,\u0026quot;Évora\u0026quot;]]\"\u003ePortugal\u003c\/option\u003e\n\u003coption value=\"Qatar\" data-provinces=\"[]\"\u003eQatar\u003c\/option\u003e\n\u003coption value=\"Reunion\" data-provinces=\"[]\"\u003eRéunion\u003c\/option\u003e\n\u003coption value=\"Romania\" data-provinces=\"[[\u0026quot;Alba\u0026quot;,\u0026quot;Alba\u0026quot;],[\u0026quot;Arad\u0026quot;,\u0026quot;Arad\u0026quot;],[\u0026quot;Argeș\u0026quot;,\u0026quot;Argeș\u0026quot;],[\u0026quot;Bacău\u0026quot;,\u0026quot;Bacău\u0026quot;],[\u0026quot;Bihor\u0026quot;,\u0026quot;Bihor\u0026quot;],[\u0026quot;Bistrița-Năsăud\u0026quot;,\u0026quot;Bistriţa-Năsăud\u0026quot;],[\u0026quot;Botoșani\u0026quot;,\u0026quot;Botoşani\u0026quot;],[\u0026quot;Brașov\u0026quot;,\u0026quot;Braşov\u0026quot;],[\u0026quot;Brăila\u0026quot;,\u0026quot;Brăila\u0026quot;],[\u0026quot;București\u0026quot;,\u0026quot;Bucharest\u0026quot;],[\u0026quot;Buzău\u0026quot;,\u0026quot;Buzău\u0026quot;],[\u0026quot;Caraș-Severin\u0026quot;,\u0026quot;Caraș-Severin\u0026quot;],[\u0026quot;Cluj\u0026quot;,\u0026quot;Cluj\u0026quot;],[\u0026quot;Constanța\u0026quot;,\u0026quot;Constanța\u0026quot;],[\u0026quot;Covasna\u0026quot;,\u0026quot;Covasna\u0026quot;],[\u0026quot;Călărași\u0026quot;,\u0026quot;Călărași\u0026quot;],[\u0026quot;Dolj\u0026quot;,\u0026quot;Dolj\u0026quot;],[\u0026quot;Dâmbovița\u0026quot;,\u0026quot;Dâmbovița\u0026quot;],[\u0026quot;Galați\u0026quot;,\u0026quot;Galați\u0026quot;],[\u0026quot;Giurgiu\u0026quot;,\u0026quot;Giurgiu\u0026quot;],[\u0026quot;Gorj\u0026quot;,\u0026quot;Gorj\u0026quot;],[\u0026quot;Harghita\u0026quot;,\u0026quot;Harghita\u0026quot;],[\u0026quot;Hunedoara\u0026quot;,\u0026quot;Hunedoara\u0026quot;],[\u0026quot;Ialomița\u0026quot;,\u0026quot;Ialomița\u0026quot;],[\u0026quot;Iași\u0026quot;,\u0026quot;Iași\u0026quot;],[\u0026quot;Ilfov\u0026quot;,\u0026quot;Ilfov\u0026quot;],[\u0026quot;Maramureș\u0026quot;,\u0026quot;Maramureş\u0026quot;],[\u0026quot;Mehedinți\u0026quot;,\u0026quot;Mehedinți\u0026quot;],[\u0026quot;Mureș\u0026quot;,\u0026quot;Mureş\u0026quot;],[\u0026quot;Neamț\u0026quot;,\u0026quot;Neamţ\u0026quot;],[\u0026quot;Olt\u0026quot;,\u0026quot;Olt\u0026quot;],[\u0026quot;Prahova\u0026quot;,\u0026quot;Prahova\u0026quot;],[\u0026quot;Satu Mare\u0026quot;,\u0026quot;Satu Mare\u0026quot;],[\u0026quot;Sibiu\u0026quot;,\u0026quot;Sibiu\u0026quot;],[\u0026quot;Suceava\u0026quot;,\u0026quot;Suceava\u0026quot;],[\u0026quot;Sălaj\u0026quot;,\u0026quot;Sălaj\u0026quot;],[\u0026quot;Teleorman\u0026quot;,\u0026quot;Teleorman\u0026quot;],[\u0026quot;Timiș\u0026quot;,\u0026quot;Timiș\u0026quot;],[\u0026quot;Tulcea\u0026quot;,\u0026quot;Tulcea\u0026quot;],[\u0026quot;Vaslui\u0026quot;,\u0026quot;Vaslui\u0026quot;],[\u0026quot;Vrancea\u0026quot;,\u0026quot;Vrancea\u0026quot;],[\u0026quot;Vâlcea\u0026quot;,\u0026quot;Vâlcea\u0026quot;]]\"\u003eRomania\u003c\/option\u003e\n\u003coption value=\"Russia\" data-provinces=\"[[\u0026quot;Altai Krai\u0026quot;,\u0026quot;Altai Krai\u0026quot;],[\u0026quot;Altai Republic\u0026quot;,\u0026quot;Altai\u0026quot;],[\u0026quot;Amur Oblast\u0026quot;,\u0026quot;Amur\u0026quot;],[\u0026quot;Arkhangelsk Oblast\u0026quot;,\u0026quot;Arkhangelsk\u0026quot;],[\u0026quot;Astrakhan Oblast\u0026quot;,\u0026quot;Astrakhan\u0026quot;],[\u0026quot;Belgorod Oblast\u0026quot;,\u0026quot;Belgorod\u0026quot;],[\u0026quot;Bryansk Oblast\u0026quot;,\u0026quot;Bryansk\u0026quot;],[\u0026quot;Chechen Republic\u0026quot;,\u0026quot;Chechen\u0026quot;],[\u0026quot;Chelyabinsk Oblast\u0026quot;,\u0026quot;Chelyabinsk\u0026quot;],[\u0026quot;Chukotka Autonomous Okrug\u0026quot;,\u0026quot;Chukotka Okrug\u0026quot;],[\u0026quot;Chuvash Republic\u0026quot;,\u0026quot;Chuvash\u0026quot;],[\u0026quot;Irkutsk Oblast\u0026quot;,\u0026quot;Irkutsk\u0026quot;],[\u0026quot;Ivanovo Oblast\u0026quot;,\u0026quot;Ivanovo\u0026quot;],[\u0026quot;Jewish Autonomous Oblast\u0026quot;,\u0026quot;Jewish\u0026quot;],[\u0026quot;Kabardino-Balkarian Republic\u0026quot;,\u0026quot;Kabardino-Balkar\u0026quot;],[\u0026quot;Kaliningrad Oblast\u0026quot;,\u0026quot;Kaliningrad\u0026quot;],[\u0026quot;Kaluga Oblast\u0026quot;,\u0026quot;Kaluga\u0026quot;],[\u0026quot;Kamchatka Krai\u0026quot;,\u0026quot;Kamchatka Krai\u0026quot;],[\u0026quot;Karachay–Cherkess Republic\u0026quot;,\u0026quot;Karachay-Cherkess\u0026quot;],[\u0026quot;Kemerovo Oblast\u0026quot;,\u0026quot;Kemerovo\u0026quot;],[\u0026quot;Khabarovsk Krai\u0026quot;,\u0026quot;Khabarovsk Krai\u0026quot;],[\u0026quot;Khanty-Mansi Autonomous Okrug\u0026quot;,\u0026quot;Khanty-Mansi\u0026quot;],[\u0026quot;Kirov Oblast\u0026quot;,\u0026quot;Kirov\u0026quot;],[\u0026quot;Komi Republic\u0026quot;,\u0026quot;Komi\u0026quot;],[\u0026quot;Kostroma Oblast\u0026quot;,\u0026quot;Kostroma\u0026quot;],[\u0026quot;Krasnodar Krai\u0026quot;,\u0026quot;Krasnodar Krai\u0026quot;],[\u0026quot;Krasnoyarsk Krai\u0026quot;,\u0026quot;Krasnoyarsk Krai\u0026quot;],[\u0026quot;Kurgan Oblast\u0026quot;,\u0026quot;Kurgan\u0026quot;],[\u0026quot;Kursk Oblast\u0026quot;,\u0026quot;Kursk\u0026quot;],[\u0026quot;Leningrad Oblast\u0026quot;,\u0026quot;Leningrad\u0026quot;],[\u0026quot;Lipetsk Oblast\u0026quot;,\u0026quot;Lipetsk\u0026quot;],[\u0026quot;Magadan Oblast\u0026quot;,\u0026quot;Magadan\u0026quot;],[\u0026quot;Mari El Republic\u0026quot;,\u0026quot;Mari El\u0026quot;],[\u0026quot;Moscow\u0026quot;,\u0026quot;Moscow\u0026quot;],[\u0026quot;Moscow Oblast\u0026quot;,\u0026quot;Moscow Province\u0026quot;],[\u0026quot;Murmansk Oblast\u0026quot;,\u0026quot;Murmansk\u0026quot;],[\u0026quot;Nizhny Novgorod Oblast\u0026quot;,\u0026quot;Nizhny Novgorod\u0026quot;],[\u0026quot;Novgorod Oblast\u0026quot;,\u0026quot;Novgorod\u0026quot;],[\u0026quot;Novosibirsk Oblast\u0026quot;,\u0026quot;Novosibirsk\u0026quot;],[\u0026quot;Omsk Oblast\u0026quot;,\u0026quot;Omsk\u0026quot;],[\u0026quot;Orenburg Oblast\u0026quot;,\u0026quot;Orenburg\u0026quot;],[\u0026quot;Oryol Oblast\u0026quot;,\u0026quot;Oryol\u0026quot;],[\u0026quot;Penza Oblast\u0026quot;,\u0026quot;Penza\u0026quot;],[\u0026quot;Perm Krai\u0026quot;,\u0026quot;Perm Krai\u0026quot;],[\u0026quot;Primorsky Krai\u0026quot;,\u0026quot;Primorsky Krai\u0026quot;],[\u0026quot;Pskov Oblast\u0026quot;,\u0026quot;Pskov\u0026quot;],[\u0026quot;Republic of Adygeya\u0026quot;,\u0026quot;Adygea\u0026quot;],[\u0026quot;Republic of Bashkortostan\u0026quot;,\u0026quot;Bashkortostan\u0026quot;],[\u0026quot;Republic of Buryatia\u0026quot;,\u0026quot;Buryat\u0026quot;],[\u0026quot;Republic of Dagestan\u0026quot;,\u0026quot;Dagestan\u0026quot;],[\u0026quot;Republic of Ingushetia\u0026quot;,\u0026quot;Ingushetia\u0026quot;],[\u0026quot;Republic of Kalmykia\u0026quot;,\u0026quot;Kalmykia\u0026quot;],[\u0026quot;Republic of Karelia\u0026quot;,\u0026quot;Karelia\u0026quot;],[\u0026quot;Republic of Khakassia\u0026quot;,\u0026quot;Khakassia\u0026quot;],[\u0026quot;Republic of Mordovia\u0026quot;,\u0026quot;Mordovia\u0026quot;],[\u0026quot;Republic of North Ossetia–Alania\u0026quot;,\u0026quot;North Ossetia-Alania\u0026quot;],[\u0026quot;Republic of Tatarstan\u0026quot;,\u0026quot;Tatarstan\u0026quot;],[\u0026quot;Rostov Oblast\u0026quot;,\u0026quot;Rostov\u0026quot;],[\u0026quot;Ryazan Oblast\u0026quot;,\u0026quot;Ryazan\u0026quot;],[\u0026quot;Saint Petersburg\u0026quot;,\u0026quot;Saint Petersburg\u0026quot;],[\u0026quot;Sakha Republic (Yakutia)\u0026quot;,\u0026quot;Sakha\u0026quot;],[\u0026quot;Sakhalin Oblast\u0026quot;,\u0026quot;Sakhalin\u0026quot;],[\u0026quot;Samara Oblast\u0026quot;,\u0026quot;Samara\u0026quot;],[\u0026quot;Saratov Oblast\u0026quot;,\u0026quot;Saratov\u0026quot;],[\u0026quot;Smolensk Oblast\u0026quot;,\u0026quot;Smolensk\u0026quot;],[\u0026quot;Stavropol Krai\u0026quot;,\u0026quot;Stavropol Krai\u0026quot;],[\u0026quot;Sverdlovsk Oblast\u0026quot;,\u0026quot;Sverdlovsk\u0026quot;],[\u0026quot;Tambov Oblast\u0026quot;,\u0026quot;Tambov\u0026quot;],[\u0026quot;Tomsk Oblast\u0026quot;,\u0026quot;Tomsk\u0026quot;],[\u0026quot;Tula Oblast\u0026quot;,\u0026quot;Tula\u0026quot;],[\u0026quot;Tver Oblast\u0026quot;,\u0026quot;Tver\u0026quot;],[\u0026quot;Tyumen Oblast\u0026quot;,\u0026quot;Tyumen\u0026quot;],[\u0026quot;Tyva Republic\u0026quot;,\u0026quot;Tuva\u0026quot;],[\u0026quot;Udmurtia\u0026quot;,\u0026quot;Udmurt\u0026quot;],[\u0026quot;Ulyanovsk Oblast\u0026quot;,\u0026quot;Ulyanovsk\u0026quot;],[\u0026quot;Vladimir Oblast\u0026quot;,\u0026quot;Vladimir\u0026quot;],[\u0026quot;Volgograd Oblast\u0026quot;,\u0026quot;Volgograd\u0026quot;],[\u0026quot;Vologda Oblast\u0026quot;,\u0026quot;Vologda\u0026quot;],[\u0026quot;Voronezh Oblast\u0026quot;,\u0026quot;Voronezh\u0026quot;],[\u0026quot;Yamalo-Nenets Autonomous Okrug\u0026quot;,\u0026quot;Yamalo-Nenets Okrug\u0026quot;],[\u0026quot;Yaroslavl Oblast\u0026quot;,\u0026quot;Yaroslavl\u0026quot;],[\u0026quot;Zabaykalsky Krai\u0026quot;,\u0026quot;Zabaykalsky Krai\u0026quot;]]\"\u003eRussia\u003c\/option\u003e\n\u003coption value=\"Rwanda\" data-provinces=\"[]\"\u003eRwanda\u003c\/option\u003e\n\u003coption value=\"Samoa\" data-provinces=\"[]\"\u003eSamoa\u003c\/option\u003e\n\u003coption value=\"San Marino\" data-provinces=\"[]\"\u003eSan Marino\u003c\/option\u003e\n\u003coption value=\"Sao Tome And Principe\" data-provinces=\"[]\"\u003eSão Tomé \u0026 Príncipe\u003c\/option\u003e\n\u003coption value=\"Saudi Arabia\" data-provinces=\"[]\"\u003eSaudi Arabia\u003c\/option\u003e\n\u003coption value=\"Senegal\" data-provinces=\"[]\"\u003eSenegal\u003c\/option\u003e\n\u003coption value=\"Serbia\" data-provinces=\"[]\"\u003eSerbia\u003c\/option\u003e\n\u003coption value=\"Seychelles\" data-provinces=\"[]\"\u003eSeychelles\u003c\/option\u003e\n\u003coption value=\"Sierra Leone\" data-provinces=\"[]\"\u003eSierra Leone\u003c\/option\u003e\n\u003coption value=\"Singapore\" data-provinces=\"[]\"\u003eSingapore\u003c\/option\u003e\n\u003coption value=\"Sint Maarten\" data-provinces=\"[]\"\u003eSint Maarten\u003c\/option\u003e\n\u003coption value=\"Slovakia\" data-provinces=\"[]\"\u003eSlovakia\u003c\/option\u003e\n\u003coption value=\"Slovenia\" data-provinces=\"[]\"\u003eSlovenia\u003c\/option\u003e\n\u003coption value=\"Solomon Islands\" data-provinces=\"[]\"\u003eSolomon Islands\u003c\/option\u003e\n\u003coption value=\"Somalia\" data-provinces=\"[]\"\u003eSomalia\u003c\/option\u003e\n\u003coption value=\"South Africa\" data-provinces=\"[[\u0026quot;Eastern Cape\u0026quot;,\u0026quot;Eastern Cape\u0026quot;],[\u0026quot;Free State\u0026quot;,\u0026quot;Free State\u0026quot;],[\u0026quot;Gauteng\u0026quot;,\u0026quot;Gauteng\u0026quot;],[\u0026quot;KwaZulu-Natal\u0026quot;,\u0026quot;KwaZulu-Natal\u0026quot;],[\u0026quot;Limpopo\u0026quot;,\u0026quot;Limpopo\u0026quot;],[\u0026quot;Mpumalanga\u0026quot;,\u0026quot;Mpumalanga\u0026quot;],[\u0026quot;North West\u0026quot;,\u0026quot;North West\u0026quot;],[\u0026quot;Northern Cape\u0026quot;,\u0026quot;Northern Cape\u0026quot;],[\u0026quot;Western Cape\u0026quot;,\u0026quot;Western Cape\u0026quot;]]\"\u003eSouth Africa\u003c\/option\u003e\n\u003coption value=\"South Georgia And The South Sandwich Islands\" data-provinces=\"[]\"\u003eSouth Georgia \u0026 South Sandwich Islands\u003c\/option\u003e\n\u003coption value=\"South Korea\" data-provinces=\"[[\u0026quot;Busan\u0026quot;,\u0026quot;Busan\u0026quot;],[\u0026quot;Chungbuk\u0026quot;,\u0026quot;North Chungcheong\u0026quot;],[\u0026quot;Chungnam\u0026quot;,\u0026quot;South Chungcheong\u0026quot;],[\u0026quot;Daegu\u0026quot;,\u0026quot;Daegu\u0026quot;],[\u0026quot;Daejeon\u0026quot;,\u0026quot;Daejeon\u0026quot;],[\u0026quot;Gangwon\u0026quot;,\u0026quot;Gangwon\u0026quot;],[\u0026quot;Gwangju\u0026quot;,\u0026quot;Gwangju City\u0026quot;],[\u0026quot;Gyeongbuk\u0026quot;,\u0026quot;North Gyeongsang\u0026quot;],[\u0026quot;Gyeonggi\u0026quot;,\u0026quot;Gyeonggi\u0026quot;],[\u0026quot;Gyeongnam\u0026quot;,\u0026quot;South Gyeongsang\u0026quot;],[\u0026quot;Incheon\u0026quot;,\u0026quot;Incheon\u0026quot;],[\u0026quot;Jeju\u0026quot;,\u0026quot;Jeju\u0026quot;],[\u0026quot;Jeonbuk\u0026quot;,\u0026quot;North Jeolla\u0026quot;],[\u0026quot;Jeonnam\u0026quot;,\u0026quot;South Jeolla\u0026quot;],[\u0026quot;Sejong\u0026quot;,\u0026quot;Sejong\u0026quot;],[\u0026quot;Seoul\u0026quot;,\u0026quot;Seoul\u0026quot;],[\u0026quot;Ulsan\u0026quot;,\u0026quot;Ulsan\u0026quot;]]\"\u003eSouth Korea\u003c\/option\u003e\n\u003coption value=\"South Sudan\" data-provinces=\"[]\"\u003eSouth Sudan\u003c\/option\u003e\n\u003coption value=\"Spain\" data-provinces=\"[[\u0026quot;A Coruña\u0026quot;,\u0026quot;A Coruña\u0026quot;],[\u0026quot;Albacete\u0026quot;,\u0026quot;Albacete\u0026quot;],[\u0026quot;Alicante\u0026quot;,\u0026quot;Alicante\u0026quot;],[\u0026quot;Almería\u0026quot;,\u0026quot;Almería\u0026quot;],[\u0026quot;Asturias\u0026quot;,\u0026quot;Asturias Province\u0026quot;],[\u0026quot;Badajoz\u0026quot;,\u0026quot;Badajoz\u0026quot;],[\u0026quot;Balears\u0026quot;,\u0026quot;Balears Province\u0026quot;],[\u0026quot;Barcelona\u0026quot;,\u0026quot;Barcelona\u0026quot;],[\u0026quot;Burgos\u0026quot;,\u0026quot;Burgos\u0026quot;],[\u0026quot;Cantabria\u0026quot;,\u0026quot;Cantabria Province\u0026quot;],[\u0026quot;Castellón\u0026quot;,\u0026quot;Castellón\u0026quot;],[\u0026quot;Ceuta\u0026quot;,\u0026quot;Ceuta\u0026quot;],[\u0026quot;Ciudad Real\u0026quot;,\u0026quot;Ciudad Real\u0026quot;],[\u0026quot;Cuenca\u0026quot;,\u0026quot;Cuenca\u0026quot;],[\u0026quot;Cáceres\u0026quot;,\u0026quot;Cáceres\u0026quot;],[\u0026quot;Cádiz\u0026quot;,\u0026quot;Cádiz\u0026quot;],[\u0026quot;Córdoba\u0026quot;,\u0026quot;Córdoba\u0026quot;],[\u0026quot;Girona\u0026quot;,\u0026quot;Girona\u0026quot;],[\u0026quot;Granada\u0026quot;,\u0026quot;Granada\u0026quot;],[\u0026quot;Guadalajara\u0026quot;,\u0026quot;Guadalajara\u0026quot;],[\u0026quot;Guipúzcoa\u0026quot;,\u0026quot;Gipuzkoa\u0026quot;],[\u0026quot;Huelva\u0026quot;,\u0026quot;Huelva\u0026quot;],[\u0026quot;Huesca\u0026quot;,\u0026quot;Huesca\u0026quot;],[\u0026quot;Jaén\u0026quot;,\u0026quot;Jaén\u0026quot;],[\u0026quot;La Rioja\u0026quot;,\u0026quot;La Rioja Province\u0026quot;],[\u0026quot;Las Palmas\u0026quot;,\u0026quot;Las Palmas\u0026quot;],[\u0026quot;León\u0026quot;,\u0026quot;León\u0026quot;],[\u0026quot;Lleida\u0026quot;,\u0026quot;Lleida\u0026quot;],[\u0026quot;Lugo\u0026quot;,\u0026quot;Lugo\u0026quot;],[\u0026quot;Madrid\u0026quot;,\u0026quot;Madrid Province\u0026quot;],[\u0026quot;Melilla\u0026quot;,\u0026quot;Melilla\u0026quot;],[\u0026quot;Murcia\u0026quot;,\u0026quot;Murcia\u0026quot;],[\u0026quot;Málaga\u0026quot;,\u0026quot;Málaga\u0026quot;],[\u0026quot;Navarra\u0026quot;,\u0026quot;Navarra\u0026quot;],[\u0026quot;Ourense\u0026quot;,\u0026quot;Ourense\u0026quot;],[\u0026quot;Palencia\u0026quot;,\u0026quot;Palencia\u0026quot;],[\u0026quot;Pontevedra\u0026quot;,\u0026quot;Pontevedra\u0026quot;],[\u0026quot;Salamanca\u0026quot;,\u0026quot;Salamanca\u0026quot;],[\u0026quot;Santa Cruz de Tenerife\u0026quot;,\u0026quot;Santa Cruz de Tenerife\u0026quot;],[\u0026quot;Segovia\u0026quot;,\u0026quot;Segovia\u0026quot;],[\u0026quot;Sevilla\u0026quot;,\u0026quot;Seville\u0026quot;],[\u0026quot;Soria\u0026quot;,\u0026quot;Soria\u0026quot;],[\u0026quot;Tarragona\u0026quot;,\u0026quot;Tarragona\u0026quot;],[\u0026quot;Teruel\u0026quot;,\u0026quot;Teruel\u0026quot;],[\u0026quot;Toledo\u0026quot;,\u0026quot;Toledo\u0026quot;],[\u0026quot;Valencia\u0026quot;,\u0026quot;Valencia\u0026quot;],[\u0026quot;Valladolid\u0026quot;,\u0026quot;Valladolid\u0026quot;],[\u0026quot;Vizcaya\u0026quot;,\u0026quot;Biscay\u0026quot;],[\u0026quot;Zamora\u0026quot;,\u0026quot;Zamora\u0026quot;],[\u0026quot;Zaragoza\u0026quot;,\u0026quot;Zaragoza\u0026quot;],[\u0026quot;Álava\u0026quot;,\u0026quot;Álava\u0026quot;],[\u0026quot;Ávila\u0026quot;,\u0026quot;Ávila\u0026quot;]]\"\u003eSpain\u003c\/option\u003e\n\u003coption value=\"Sri Lanka\" data-provinces=\"[]\"\u003eSri Lanka\u003c\/option\u003e\n\u003coption value=\"Saint Barthélemy\" data-provinces=\"[]\"\u003eSt. Barthélemy\u003c\/option\u003e\n\u003coption value=\"Saint Helena\" data-provinces=\"[]\"\u003eSt. Helena\u003c\/option\u003e\n\u003coption value=\"Saint Kitts And Nevis\" data-provinces=\"[]\"\u003eSt. Kitts \u0026 Nevis\u003c\/option\u003e\n\u003coption value=\"Saint Lucia\" data-provinces=\"[]\"\u003eSt. Lucia\u003c\/option\u003e\n\u003coption value=\"Saint Martin\" data-provinces=\"[]\"\u003eSt. Martin\u003c\/option\u003e\n\u003coption value=\"Saint Pierre And Miquelon\" data-provinces=\"[]\"\u003eSt. Pierre \u0026 Miquelon\u003c\/option\u003e\n\u003coption value=\"St. Vincent\" data-provinces=\"[]\"\u003eSt. Vincent \u0026 Grenadines\u003c\/option\u003e\n\u003coption value=\"Sudan\" data-provinces=\"[]\"\u003eSudan\u003c\/option\u003e\n\u003coption value=\"Suriname\" data-provinces=\"[]\"\u003eSuriname\u003c\/option\u003e\n\u003coption value=\"Svalbard And Jan Mayen\" data-provinces=\"[]\"\u003eSvalbard \u0026 Jan Mayen\u003c\/option\u003e\n\u003coption value=\"Sweden\" data-provinces=\"[]\"\u003eSweden\u003c\/option\u003e\n\u003coption value=\"Switzerland\" data-provinces=\"[]\"\u003eSwitzerland\u003c\/option\u003e\n\u003coption value=\"Taiwan\" data-provinces=\"[]\"\u003eTaiwan\u003c\/option\u003e\n\u003coption value=\"Tajikistan\" data-provinces=\"[]\"\u003eTajikistan\u003c\/option\u003e\n\u003coption value=\"Tanzania, United Republic Of\" data-provinces=\"[]\"\u003eTanzania\u003c\/option\u003e\n\u003coption value=\"Thailand\" data-provinces=\"[[\u0026quot;Amnat Charoen\u0026quot;,\u0026quot;Amnat Charoen\u0026quot;],[\u0026quot;Ang Thong\u0026quot;,\u0026quot;Ang Thong\u0026quot;],[\u0026quot;Bangkok\u0026quot;,\u0026quot;Bangkok\u0026quot;],[\u0026quot;Bueng Kan\u0026quot;,\u0026quot;Bueng Kan\u0026quot;],[\u0026quot;Buriram\u0026quot;,\u0026quot;Buri Ram\u0026quot;],[\u0026quot;Chachoengsao\u0026quot;,\u0026quot;Chachoengsao\u0026quot;],[\u0026quot;Chai Nat\u0026quot;,\u0026quot;Chai Nat\u0026quot;],[\u0026quot;Chaiyaphum\u0026quot;,\u0026quot;Chaiyaphum\u0026quot;],[\u0026quot;Chanthaburi\u0026quot;,\u0026quot;Chanthaburi\u0026quot;],[\u0026quot;Chiang Mai\u0026quot;,\u0026quot;Chiang Mai\u0026quot;],[\u0026quot;Chiang Rai\u0026quot;,\u0026quot;Chiang Rai\u0026quot;],[\u0026quot;Chon Buri\u0026quot;,\u0026quot;Chon Buri\u0026quot;],[\u0026quot;Chumphon\u0026quot;,\u0026quot;Chumphon\u0026quot;],[\u0026quot;Kalasin\u0026quot;,\u0026quot;Kalasin\u0026quot;],[\u0026quot;Kamphaeng Phet\u0026quot;,\u0026quot;Kamphaeng Phet\u0026quot;],[\u0026quot;Kanchanaburi\u0026quot;,\u0026quot;Kanchanaburi\u0026quot;],[\u0026quot;Khon Kaen\u0026quot;,\u0026quot;Khon Kaen\u0026quot;],[\u0026quot;Krabi\u0026quot;,\u0026quot;Krabi\u0026quot;],[\u0026quot;Lampang\u0026quot;,\u0026quot;Lampang\u0026quot;],[\u0026quot;Lamphun\u0026quot;,\u0026quot;Lamphun\u0026quot;],[\u0026quot;Loei\u0026quot;,\u0026quot;Loei\u0026quot;],[\u0026quot;Lopburi\u0026quot;,\u0026quot;Lopburi\u0026quot;],[\u0026quot;Mae Hong Son\u0026quot;,\u0026quot;Mae Hong Son\u0026quot;],[\u0026quot;Maha Sarakham\u0026quot;,\u0026quot;Maha Sarakham\u0026quot;],[\u0026quot;Mukdahan\u0026quot;,\u0026quot;Mukdahan\u0026quot;],[\u0026quot;Nakhon Nayok\u0026quot;,\u0026quot;Nakhon Nayok\u0026quot;],[\u0026quot;Nakhon Pathom\u0026quot;,\u0026quot;Nakhon Pathom\u0026quot;],[\u0026quot;Nakhon Phanom\u0026quot;,\u0026quot;Nakhon Phanom\u0026quot;],[\u0026quot;Nakhon Ratchasima\u0026quot;,\u0026quot;Nakhon Ratchasima\u0026quot;],[\u0026quot;Nakhon Sawan\u0026quot;,\u0026quot;Nakhon Sawan\u0026quot;],[\u0026quot;Nakhon Si Thammarat\u0026quot;,\u0026quot;Nakhon Si Thammarat\u0026quot;],[\u0026quot;Nan\u0026quot;,\u0026quot;Nan\u0026quot;],[\u0026quot;Narathiwat\u0026quot;,\u0026quot;Narathiwat\u0026quot;],[\u0026quot;Nong Bua Lam Phu\u0026quot;,\u0026quot;Nong Bua Lam Phu\u0026quot;],[\u0026quot;Nong Khai\u0026quot;,\u0026quot;Nong Khai\u0026quot;],[\u0026quot;Nonthaburi\u0026quot;,\u0026quot;Nonthaburi\u0026quot;],[\u0026quot;Pathum Thani\u0026quot;,\u0026quot;Pathum Thani\u0026quot;],[\u0026quot;Pattani\u0026quot;,\u0026quot;Pattani\u0026quot;],[\u0026quot;Pattaya\u0026quot;,\u0026quot;Pattaya\u0026quot;],[\u0026quot;Phangnga\u0026quot;,\u0026quot;Phang Nga\u0026quot;],[\u0026quot;Phatthalung\u0026quot;,\u0026quot;Phatthalung\u0026quot;],[\u0026quot;Phayao\u0026quot;,\u0026quot;Phayao\u0026quot;],[\u0026quot;Phetchabun\u0026quot;,\u0026quot;Phetchabun\u0026quot;],[\u0026quot;Phetchaburi\u0026quot;,\u0026quot;Phetchaburi\u0026quot;],[\u0026quot;Phichit\u0026quot;,\u0026quot;Phichit\u0026quot;],[\u0026quot;Phitsanulok\u0026quot;,\u0026quot;Phitsanulok\u0026quot;],[\u0026quot;Phra Nakhon Si Ayutthaya\u0026quot;,\u0026quot;Phra Nakhon Si Ayutthaya\u0026quot;],[\u0026quot;Phrae\u0026quot;,\u0026quot;Phrae\u0026quot;],[\u0026quot;Phuket\u0026quot;,\u0026quot;Phuket\u0026quot;],[\u0026quot;Prachin Buri\u0026quot;,\u0026quot;Prachin Buri\u0026quot;],[\u0026quot;Prachuap Khiri Khan\u0026quot;,\u0026quot;Prachuap Khiri Khan\u0026quot;],[\u0026quot;Ranong\u0026quot;,\u0026quot;Ranong\u0026quot;],[\u0026quot;Ratchaburi\u0026quot;,\u0026quot;Ratchaburi\u0026quot;],[\u0026quot;Rayong\u0026quot;,\u0026quot;Rayong\u0026quot;],[\u0026quot;Roi Et\u0026quot;,\u0026quot;Roi Et\u0026quot;],[\u0026quot;Sa Kaeo\u0026quot;,\u0026quot;Sa Kaeo\u0026quot;],[\u0026quot;Sakon Nakhon\u0026quot;,\u0026quot;Sakon Nakhon\u0026quot;],[\u0026quot;Samut Prakan\u0026quot;,\u0026quot;Samut Prakan\u0026quot;],[\u0026quot;Samut Sakhon\u0026quot;,\u0026quot;Samut Sakhon\u0026quot;],[\u0026quot;Samut Songkhram\u0026quot;,\u0026quot;Samut Songkhram\u0026quot;],[\u0026quot;Saraburi\u0026quot;,\u0026quot;Saraburi\u0026quot;],[\u0026quot;Satun\u0026quot;,\u0026quot;Satun\u0026quot;],[\u0026quot;Sing Buri\u0026quot;,\u0026quot;Sing Buri\u0026quot;],[\u0026quot;Sisaket\u0026quot;,\u0026quot;Si Sa Ket\u0026quot;],[\u0026quot;Songkhla\u0026quot;,\u0026quot;Songkhla\u0026quot;],[\u0026quot;Sukhothai\u0026quot;,\u0026quot;Sukhothai\u0026quot;],[\u0026quot;Suphan Buri\u0026quot;,\u0026quot;Suphanburi\u0026quot;],[\u0026quot;Surat Thani\u0026quot;,\u0026quot;Surat Thani\u0026quot;],[\u0026quot;Surin\u0026quot;,\u0026quot;Surin\u0026quot;],[\u0026quot;Tak\u0026quot;,\u0026quot;Tak\u0026quot;],[\u0026quot;Trang\u0026quot;,\u0026quot;Trang\u0026quot;],[\u0026quot;Trat\u0026quot;,\u0026quot;Trat\u0026quot;],[\u0026quot;Ubon Ratchathani\u0026quot;,\u0026quot;Ubon Ratchathani\u0026quot;],[\u0026quot;Udon Thani\u0026quot;,\u0026quot;Udon Thani\u0026quot;],[\u0026quot;Uthai Thani\u0026quot;,\u0026quot;Uthai Thani\u0026quot;],[\u0026quot;Uttaradit\u0026quot;,\u0026quot;Uttaradit\u0026quot;],[\u0026quot;Yala\u0026quot;,\u0026quot;Yala\u0026quot;],[\u0026quot;Yasothon\u0026quot;,\u0026quot;Yasothon\u0026quot;]]\"\u003eThailand\u003c\/option\u003e\n\u003coption value=\"Timor Leste\" data-provinces=\"[]\"\u003eTimor-Leste\u003c\/option\u003e\n\u003coption value=\"Togo\" data-provinces=\"[]\"\u003eTogo\u003c\/option\u003e\n\u003coption value=\"Tokelau\" data-provinces=\"[]\"\u003eTokelau\u003c\/option\u003e\n\u003coption value=\"Tonga\" data-provinces=\"[]\"\u003eTonga\u003c\/option\u003e\n\u003coption value=\"Trinidad and Tobago\" data-provinces=\"[]\"\u003eTrinidad \u0026 Tobago\u003c\/option\u003e\n\u003coption value=\"Tunisia\" data-provinces=\"[]\"\u003eTunisia\u003c\/option\u003e\n\u003coption value=\"Turkey\" data-provinces=\"[]\"\u003eTurkey\u003c\/option\u003e\n\u003coption value=\"Turkmenistan\" data-provinces=\"[]\"\u003eTurkmenistan\u003c\/option\u003e\n\u003coption value=\"Turks and Caicos Islands\" data-provinces=\"[]\"\u003eTurks \u0026 Caicos Islands\u003c\/option\u003e\n\u003coption value=\"Tuvalu\" data-provinces=\"[]\"\u003eTuvalu\u003c\/option\u003e\n\u003coption value=\"United States Minor Outlying Islands\" data-provinces=\"[]\"\u003eU.S. Outlying Islands\u003c\/option\u003e\n\u003coption value=\"Uganda\" data-provinces=\"[]\"\u003eUganda\u003c\/option\u003e\n\u003coption value=\"Ukraine\" data-provinces=\"[]\"\u003eUkraine\u003c\/option\u003e\n\u003coption value=\"United Arab Emirates\" data-provinces=\"[[\u0026quot;Abu Dhabi\u0026quot;,\u0026quot;Abu Dhabi\u0026quot;],[\u0026quot;Ajman\u0026quot;,\u0026quot;Ajman\u0026quot;],[\u0026quot;Dubai\u0026quot;,\u0026quot;Dubai\u0026quot;],[\u0026quot;Fujairah\u0026quot;,\u0026quot;Fujairah\u0026quot;],[\u0026quot;Ras al-Khaimah\u0026quot;,\u0026quot;Ras al-Khaimah\u0026quot;],[\u0026quot;Sharjah\u0026quot;,\u0026quot;Sharjah\u0026quot;],[\u0026quot;Umm al-Quwain\u0026quot;,\u0026quot;Umm al-Quwain\u0026quot;]]\"\u003eUnited Arab Emirates\u003c\/option\u003e\n\u003coption value=\"United Kingdom\" data-provinces=\"[]\"\u003eUnited Kingdom\u003c\/option\u003e\n\u003coption value=\"United States\" data-provinces=\"[[\u0026quot;Alabama\u0026quot;,\u0026quot;Alabama\u0026quot;],[\u0026quot;Alaska\u0026quot;,\u0026quot;Alaska\u0026quot;],[\u0026quot;American Samoa\u0026quot;,\u0026quot;American Samoa\u0026quot;],[\u0026quot;Arizona\u0026quot;,\u0026quot;Arizona\u0026quot;],[\u0026quot;Arkansas\u0026quot;,\u0026quot;Arkansas\u0026quot;],[\u0026quot;Armed Forces Americas\u0026quot;,\u0026quot;Armed Forces Americas\u0026quot;],[\u0026quot;Armed Forces Europe\u0026quot;,\u0026quot;Armed Forces Europe\u0026quot;],[\u0026quot;Armed Forces Pacific\u0026quot;,\u0026quot;Armed Forces Pacific\u0026quot;],[\u0026quot;California\u0026quot;,\u0026quot;California\u0026quot;],[\u0026quot;Colorado\u0026quot;,\u0026quot;Colorado\u0026quot;],[\u0026quot;Connecticut\u0026quot;,\u0026quot;Connecticut\u0026quot;],[\u0026quot;Delaware\u0026quot;,\u0026quot;Delaware\u0026quot;],[\u0026quot;District of Columbia\u0026quot;,\u0026quot;Washington DC\u0026quot;],[\u0026quot;Federated States of Micronesia\u0026quot;,\u0026quot;Micronesia\u0026quot;],[\u0026quot;Florida\u0026quot;,\u0026quot;Florida\u0026quot;],[\u0026quot;Georgia\u0026quot;,\u0026quot;Georgia\u0026quot;],[\u0026quot;Guam\u0026quot;,\u0026quot;Guam\u0026quot;],[\u0026quot;Hawaii\u0026quot;,\u0026quot;Hawaii\u0026quot;],[\u0026quot;Idaho\u0026quot;,\u0026quot;Idaho\u0026quot;],[\u0026quot;Illinois\u0026quot;,\u0026quot;Illinois\u0026quot;],[\u0026quot;Indiana\u0026quot;,\u0026quot;Indiana\u0026quot;],[\u0026quot;Iowa\u0026quot;,\u0026quot;Iowa\u0026quot;],[\u0026quot;Kansas\u0026quot;,\u0026quot;Kansas\u0026quot;],[\u0026quot;Kentucky\u0026quot;,\u0026quot;Kentucky\u0026quot;],[\u0026quot;Louisiana\u0026quot;,\u0026quot;Louisiana\u0026quot;],[\u0026quot;Maine\u0026quot;,\u0026quot;Maine\u0026quot;],[\u0026quot;Marshall Islands\u0026quot;,\u0026quot;Marshall Islands\u0026quot;],[\u0026quot;Maryland\u0026quot;,\u0026quot;Maryland\u0026quot;],[\u0026quot;Massachusetts\u0026quot;,\u0026quot;Massachusetts\u0026quot;],[\u0026quot;Michigan\u0026quot;,\u0026quot;Michigan\u0026quot;],[\u0026quot;Minnesota\u0026quot;,\u0026quot;Minnesota\u0026quot;],[\u0026quot;Mississippi\u0026quot;,\u0026quot;Mississippi\u0026quot;],[\u0026quot;Missouri\u0026quot;,\u0026quot;Missouri\u0026quot;],[\u0026quot;Montana\u0026quot;,\u0026quot;Montana\u0026quot;],[\u0026quot;Nebraska\u0026quot;,\u0026quot;Nebraska\u0026quot;],[\u0026quot;Nevada\u0026quot;,\u0026quot;Nevada\u0026quot;],[\u0026quot;New Hampshire\u0026quot;,\u0026quot;New Hampshire\u0026quot;],[\u0026quot;New Jersey\u0026quot;,\u0026quot;New Jersey\u0026quot;],[\u0026quot;New Mexico\u0026quot;,\u0026quot;New Mexico\u0026quot;],[\u0026quot;New York\u0026quot;,\u0026quot;New York\u0026quot;],[\u0026quot;North Carolina\u0026quot;,\u0026quot;North Carolina\u0026quot;],[\u0026quot;North Dakota\u0026quot;,\u0026quot;North Dakota\u0026quot;],[\u0026quot;Northern Mariana Islands\u0026quot;,\u0026quot;Northern Mariana Islands\u0026quot;],[\u0026quot;Ohio\u0026quot;,\u0026quot;Ohio\u0026quot;],[\u0026quot;Oklahoma\u0026quot;,\u0026quot;Oklahoma\u0026quot;],[\u0026quot;Oregon\u0026quot;,\u0026quot;Oregon\u0026quot;],[\u0026quot;Palau\u0026quot;,\u0026quot;Palau\u0026quot;],[\u0026quot;Pennsylvania\u0026quot;,\u0026quot;Pennsylvania\u0026quot;],[\u0026quot;Puerto Rico\u0026quot;,\u0026quot;Puerto Rico\u0026quot;],[\u0026quot;Rhode Island\u0026quot;,\u0026quot;Rhode Island\u0026quot;],[\u0026quot;South Carolina\u0026quot;,\u0026quot;South Carolina\u0026quot;],[\u0026quot;South Dakota\u0026quot;,\u0026quot;South Dakota\u0026quot;],[\u0026quot;Tennessee\u0026quot;,\u0026quot;Tennessee\u0026quot;],[\u0026quot;Texas\u0026quot;,\u0026quot;Texas\u0026quot;],[\u0026quot;Utah\u0026quot;,\u0026quot;Utah\u0026quot;],[\u0026quot;Vermont\u0026quot;,\u0026quot;Vermont\u0026quot;],[\u0026quot;Virgin Islands\u0026quot;,\u0026quot;U.S. Virgin Islands\u0026quot;],[\u0026quot;Virginia\u0026quot;,\u0026quot;Virginia\u0026quot;],[\u0026quot;Washington\u0026quot;,\u0026quot;Washington\u0026quot;],[\u0026quot;West Virginia\u0026quot;,\u0026quot;West Virginia\u0026quot;],[\u0026quot;Wisconsin\u0026quot;,\u0026quot;Wisconsin\u0026quot;],[\u0026quot;Wyoming\u0026quot;,\u0026quot;Wyoming\u0026quot;]]\"\u003eUnited States\u003c\/option\u003e\n\u003coption value=\"Uruguay\" data-provinces=\"[]\"\u003eUruguay\u003c\/option\u003e\n\u003coption value=\"Uzbekistan\" data-provinces=\"[]\"\u003eUzbekistan\u003c\/option\u003e\n\u003coption value=\"Vanuatu\" data-provinces=\"[]\"\u003eVanuatu\u003c\/option\u003e\n\u003coption value=\"Holy See (Vatican City State)\" data-provinces=\"[]\"\u003eVatican City\u003c\/option\u003e\n\u003coption value=\"Venezuela\" data-provinces=\"[]\"\u003eVenezuela\u003c\/option\u003e\n\u003coption value=\"Vietnam\" data-provinces=\"[]\"\u003eVietnam\u003c\/option\u003e\n\u003coption value=\"Wallis And Futuna\" data-provinces=\"[]\"\u003eWallis \u0026 Futuna\u003c\/option\u003e\n\u003coption value=\"Western Sahara\" data-provinces=\"[]\"\u003eWestern Sahara\u003c\/option\u003e\n\u003coption value=\"Yemen\" data-provinces=\"[]\"\u003eYemen\u003c\/option\u003e\n\u003coption value=\"Zambia\" data-provinces=\"[]\"\u003eZambia\u003c\/option\u003e\n\u003coption value=\"Zimbabwe\" data-provinces=\"[]\"\u003eZimbabwe\u003c\/option\u003e",
+  "countries": [{"code":"AF","name":"Afghanistan"},{"code":"AX","name":"Aland Islands"},{"code":"AL","name":"Albania"},{"code":"DZ","name":"Algeria"},{"code":"AD","name":"Andorra"},{"code":"AO","name":"Angola"},{"code":"AI","name":"Anguilla"},{"code":"AG","name":"Antigua And Barbuda"},{"code":"AR","name":"Argentina","provinces":[{"name":"Buenos Aires","code":"B"},{"name":"Catamarca","code":"K"},{"name":"Chaco","code":"H"},{"name":"Chubut","code":"U"},{"name":"Ciudad Autónoma de Buenos Aires","code":"C"},{"name":"Córdoba","code":"X"},{"name":"Corrientes","code":"W"},{"name":"Entre Ríos","code":"E"},{"name":"Formosa","code":"P"},{"name":"Jujuy","code":"Y"},{"name":"La Pampa","code":"L"},{"name":"La Rioja","code":"F"},{"name":"Mendoza","code":"M"},{"name":"Misiones","code":"N"},{"name":"Neuquén","code":"Q"},{"name":"Río Negro","code":"R"},{"name":"Salta","code":"A"},{"name":"San Juan","code":"J"},{"name":"San Luis","code":"D"},{"name":"Santa Cruz","code":"Z"},{"name":"Santa Fe","code":"S"},{"name":"Santiago Del Estero","code":"G"},{"name":"Tierra Del Fuego","code":"V"},{"name":"Tucumán","code":"T"}]},{"code":"AM","name":"Armenia"},{"code":"AW","name":"Aruba"},{"code":"AU","name":"Australia","provinces":[{"name":"Australian Capital Territory","code":"ACT"},{"name":"New South Wales","code":"NSW"},{"name":"Northern Territory","code":"NT"},{"name":"Queensland","code":"QLD"},{"name":"South Australia","code":"SA"},{"name":"Tasmania","code":"TAS"},{"name":"Victoria","code":"VIC"},{"name":"Western Australia","code":"WA"}]},{"code":"AT","name":"Austria"},{"code":"AZ","name":"Azerbaijan"},{"code":"BS","name":"Bahamas"},{"code":"BH","name":"Bahrain"},{"code":"BD","name":"Bangladesh"},{"code":"BB","name":"Barbados"},{"code":"BY","name":"Belarus"},{"code":"BE","name":"Belgium"},{"code":"BZ","name":"Belize"},{"code":"BJ","name":"Benin"},{"code":"BM","name":"Bermuda"},{"code":"BT","name":"Bhutan"},{"code":"BO","name":"Bolivia"},{"code":"BA","name":"Bosnia And Herzegovina"},{"code":"BW","name":"Botswana"},{"code":"BV","name":"Bouvet Island","hide_from_signup":true},{"code":"BR","name":"Brazil","provinces":[{"name":"Acre","code":"AC"},{"name":"Alagoas","code":"AL"},{"name":"Amapá","code":"AP"},{"name":"Amazonas","code":"AM"},{"name":"Bahia","code":"BA"},{"name":"Ceará","code":"CE"},{"name":"Distrito Federal","code":"DF"},{"name":"Espírito Santo","code":"ES"},{"name":"Goiás","code":"GO"},{"name":"Maranhão","code":"MA"},{"name":"Mato Grosso","code":"MT"},{"name":"Mato Grosso do Sul","code":"MS"},{"name":"Minas Gerais","code":"MG"},{"name":"Pará","code":"PA"},{"name":"Paraíba","code":"PB"},{"name":"Paraná","code":"PR"},{"name":"Pernambuco","code":"PE"},{"name":"Piauí","code":"PI"},{"name":"Rio Grande do Norte","code":"RN"},{"name":"Rio Grande do Sul","code":"RS"},{"name":"Rio de Janeiro","code":"RJ"},{"name":"Rondônia","code":"RO"},{"name":"Roraima","code":"RR"},{"name":"Santa Catarina","code":"SC"},{"name":"São Paulo","code":"SP"},{"name":"Sergipe","code":"SE"},{"name":"Tocantins","code":"TO"}]},{"code":"IO","name":"British Indian Ocean Territory","hide_from_signup":true},{"code":"BN","name":"Brunei"},{"code":"BG","name":"Bulgaria"},{"code":"BF","name":"Burkina Faso"},{"code":"BI","name":"Burundi"},{"code":"KH","name":"Cambodia"},{"code":"CA","name":"Canada","provinces":[{"name":"Alberta","code":"AB"},{"name":"British Columbia","code":"BC"},{"name":"Manitoba","code":"MB"},{"name":"New Brunswick","code":"NB"},{"name":"Newfoundland","code":"NL"},{"name":"Northwest Territories","code":"NT"},{"name":"Nova Scotia","code":"NS"},{"name":"Nunavut","code":"NU"},{"name":"Ontario","code":"ON"},{"name":"Prince Edward Island","code":"PE"},{"name":"Quebec","code":"QC"},{"name":"Saskatchewan","code":"SK"},{"name":"Yukon","code":"YT"}]},{"code":"CV","name":"Cape Verde"},{"code":"BQ","name":"Caribbean Netherlands"},{"code":"KY","name":"Cayman Islands"},{"code":"CF","name":"Central African Republic","hide_from_signup":true},{"code":"TD","name":"Chad"},{"code":"CL","name":"Chile","provinces":[{"name":"Antofagasta","code":"AN"},{"name":"Araucanía","code":"AR"},{"name":"Arica and Parinacota","code":"AP"},{"name":"Atacama","code":"AT"},{"name":"Aysén","code":"AI"},{"name":"Biobío","code":"BI"},{"name":"Coquimbo","code":"CO"},{"name":"Los Lagos","code":"LL"},{"name":"Los Ríos","code":"LR"},{"name":"Magallanes","code":"MA"},{"name":"Maule","code":"ML"},{"name":"Ñuble","code":"NB"},{"name":"O'Higgins","code":"LI"},{"name":"Santiago","code":"RM"},{"name":"Tarapacá","code":"TA"},{"name":"Valparaíso","code":"VS"}]},{"code":"CN","name":"China","provinces":[{"name":"Anhui","code":"AH"},{"name":"Beijing","code":"BJ"},{"name":"Chongqing","code":"CQ"},{"name":"Fujian","code":"FJ"},{"name":"Gansu","code":"GS"},{"name":"Guangdong","code":"GD"},{"name":"Guangxi","code":"GX"},{"name":"Guizhou","code":"GZ"},{"name":"Hainan","code":"HI"},{"name":"Hebei","code":"HE"},{"name":"Heilongjiang","code":"HL"},{"name":"Henan","code":"HA"},{"name":"Hubei","code":"HB"},{"name":"Hunan","code":"HN"},{"name":"Inner Mongolia","code":"NM"},{"name":"Jiangsu","code":"JS"},{"name":"Jiangxi","code":"JX"},{"name":"Jilin","code":"JL"},{"name":"Liaoning","code":"LN"},{"name":"Ningxia","code":"NX"},{"name":"Qinghai","code":"QH"},{"name":"Shaanxi","code":"SN"},{"name":"Shandong","code":"SD"},{"name":"Shanghai","code":"SH"},{"name":"Shanxi","code":"SX"},{"name":"Sichuan","code":"SC"},{"name":"Tianjin","code":"TJ"},{"name":"Xinjiang","code":"XJ"},{"name":"Xizang","code":"YZ"},{"name":"Yunnan","code":"YN"},{"name":"Zhejiang","code":"ZJ"}]},{"code":"CX","name":"Christmas Island","hide_from_signup":true},{"code":"CC","name":"Cocos (Keeling) Islands","hide_from_signup":true},{"code":"CO","name":"Colombia","provinces":[{"name":"Amazonas","code":"AMA"},{"name":"Antioquia","code":"ANT"},{"name":"Arauca","code":"ARA"},{"name":"Atlántico","code":"ATL"},{"name":"Bogotá, D.C.","code":"DC"},{"name":"Bolívar","code":"BOL"},{"name":"Boyacá","code":"BOY"},{"name":"Caldas","code":"CAL"},{"name":"Caquetá","code":"CAQ"},{"name":"Casanare","code":"CAS"},{"name":"Cauca","code":"CAU"},{"name":"Cesar","code":"CES"},{"name":"Chocó","code":"CHO"},{"name":"Córdoba","code":"COR"},{"name":"Cundinamarca","code":"CUN"},{"name":"Guainía","code":"GUA"},{"name":"Guaviare","code":"GUV"},{"name":"Huila","code":"HUI"},{"name":"La Guajira","code":"LAG"},{"name":"Magdalena","code":"MAG"},{"name":"Meta","code":"MET"},{"name":"Nariño","code":"NAR"},{"name":"Norte de Santander","code":"NSA"},{"name":"Putumayo","code":"PUT"},{"name":"Quindío","code":"QUI"},{"name":"Risaralda","code":"RIS"},{"name":"San Andrés, Providencia y Santa Catalina","code":"SAP"},{"name":"Santander","code":"SAN"},{"name":"Sucre","code":"SUC"},{"name":"Tolima","code":"TOL"},{"name":"Valle del Cauca","code":"VAC"},{"name":"Vaupés","code":"VAU"},{"name":"Vichada","code":"VID"}]},{"code":"KM","name":"Comoros"},{"code":"CG","name":"Congo"},{"code":"CD","name":"Congo, The Democratic Republic Of The"},{"code":"CK","name":"Cook Islands"},{"code":"CR","name":"Costa Rica"},{"code":"HR","name":"Croatia"},{"code":"CU","name":"Cuba","hide_from_signup":true},{"code":"CW","name":"Curaçao"},{"code":"CY","name":"Cyprus"},{"code":"CZ","name":"Czech Republic"},{"code":"CI","name":"Côte d'Ivoire"},{"code":"DK","name":"Denmark"},{"code":"DJ","name":"Djibouti","hide_from_signup":true},{"code":"DM","name":"Dominica"},{"code":"DO","name":"Dominican Republic"},{"code":"EC","name":"Ecuador"},{"code":"EG","name":"Egypt","provinces":[{"name":"6th of October","code":"SU"},{"name":"Al Sharqia","code":"SHR"},{"name":"Alexandria","code":"ALX"},{"name":"Aswan","code":"ASN"},{"name":"Asyut","code":"AST"},{"name":"Beheira","code":"BH"},{"name":"Beni Suef","code":"BNS"},{"name":"Cairo","code":"C"},{"name":"Dakahlia","code":"DK"},{"name":"Damietta","code":"DT"},{"name":"Faiyum","code":"FYM"},{"name":"Gharbia","code":"GH"},{"name":"Giza","code":"GZ"},{"name":"Helwan","code":"HU"},{"name":"Ismailia","code":"IS"},{"name":"Kafr el-Sheikh","code":"KFS"},{"name":"Luxor","code":"LX"},{"name":"Matrouh","code":"MT"},{"name":"Minya","code":"MN"},{"name":"Monufia","code":"MNF"},{"name":"New Valley","code":"WAD"},{"name":"North Sinai","code":"SIN"},{"name":"Port Said","code":"PTS"},{"name":"Qalyubia","code":"KB"},{"name":"Qena","code":"KN"},{"name":"Red Sea","code":"BA"},{"name":"Sohag","code":"SHG"},{"name":"South Sinai","code":"JS"},{"name":"Suez","code":"SUZ"}]},{"code":"SV","name":"El Salvador"},{"code":"GQ","name":"Equatorial Guinea"},{"code":"ER","name":"Eritrea","hide_from_signup":true},{"code":"EE","name":"Estonia"},{"code":"SZ","name":"Eswatini"},{"code":"ET","name":"Ethiopia"},{"code":"FK","name":"Falkland Islands (Malvinas)","hide_from_signup":true},{"code":"FO","name":"Faroe Islands"},{"code":"FJ","name":"Fiji"},{"code":"FI","name":"Finland"},{"code":"FR","name":"France"},{"code":"GF","name":"French Guiana"},{"code":"PF","name":"French Polynesia"},{"code":"TF","name":"French Southern Territories","hide_from_signup":true},{"code":"GA","name":"Gabon"},{"code":"GM","name":"Gambia"},{"code":"GE","name":"Georgia"},{"code":"DE","name":"Germany"},{"code":"GH","name":"Ghana"},{"code":"GI","name":"Gibraltar"},{"code":"GR","name":"Greece"},{"code":"GL","name":"Greenland"},{"code":"GD","name":"Grenada"},{"code":"GP","name":"Guadeloupe"},{"code":"GT","name":"Guatemala","provinces":[{"name":"Alta Verapaz","code":"AVE"},{"name":"Baja Verapaz","code":"BVE"},{"name":"Chimaltenango","code":"CMT"},{"name":"Chiquimula","code":"CQM"},{"name":"El Progreso","code":"EPR"},{"name":"Escuintla","code":"ESC"},{"name":"Guatemala","code":"GUA"},{"name":"Huehuetenango","code":"HUE"},{"name":"Izabal","code":"IZA"},{"name":"Jalapa","code":"JAL"},{"name":"Jutiapa","code":"JUT"},{"name":"Petén","code":"PET"},{"name":"Quetzaltenango","code":"QUE"},{"name":"Quiché","code":"QUI"},{"name":"Retalhuleu","code":"RET"},{"name":"Sacatepéquez","code":"SAC"},{"name":"San Marcos","code":"SMA"},{"name":"Santa Rosa","code":"SRO"},{"name":"Sololá","code":"SOL"},{"name":"Suchitepéquez","code":"SUC"},{"name":"Totonicapán","code":"TOT"},{"name":"Zacapa","code":"ZAC"}]},{"code":"GG","name":"Guernsey"},{"code":"GN","name":"Guinea","hide_from_signup":true},{"code":"GW","name":"Guinea Bissau","hide_from_signup":true},{"code":"GY","name":"Guyana"},{"code":"HT","name":"Haiti"},{"code":"HM","name":"Heard Island And Mcdonald Islands","hide_from_signup":true},{"code":"VA","name":"Holy See (Vatican City State)","hide_from_signup":true},{"code":"HN","name":"Honduras"},{"code":"HK","name":"Hong Kong","provinces":[{"name":"Hong Kong Island","code":"HK"},{"name":"Kowloon","code":"KL"},{"name":"New Territories","code":"NT"}]},{"code":"HU","name":"Hungary"},{"code":"IS","name":"Iceland"},{"code":"IN","name":"India","provinces":[{"name":"Andaman and Nicobar","code":"AN"},{"name":"Andhra Pradesh","code":"AP"},{"name":"Arunachal Pradesh","code":"AR"},{"name":"Assam","code":"AS"},{"name":"Bihar","code":"BR"},{"name":"Chandigarh","code":"CH"},{"name":"Chattisgarh","code":"CG"},{"name":"Dadra and Nagar Haveli","code":"DN"},{"name":"Daman and Diu","code":"DD"},{"name":"Delhi","code":"DL"},{"name":"Goa","code":"GA"},{"name":"Gujarat","code":"GJ"},{"name":"Haryana","code":"HR"},{"name":"Himachal Pradesh","code":"HP"},{"name":"Jammu and Kashmir","code":"JK"},{"name":"Jharkhand","code":"JH"},{"name":"Karnataka","code":"KA"},{"name":"Kerala","code":"KL"},{"name":"Lakshadweep","code":"LD"},{"name":"Madhya Pradesh","code":"MP"},{"name":"Maharashtra","code":"MH"},{"name":"Manipur","code":"MN"},{"name":"Meghalaya","code":"ML"},{"name":"Mizoram","code":"MZ"},{"name":"Nagaland","code":"NL"},{"name":"Orissa","code":"OR"},{"name":"Puducherry","code":"PY"},{"name":"Punjab","code":"PB"},{"name":"Rajasthan","code":"RJ"},{"name":"Sikkim","code":"SK"},{"name":"Tamil Nadu","code":"TN"},{"name":"Telangana","code":"TS"},{"name":"Tripura","code":"TR"},{"name":"Uttar Pradesh","code":"UP"},{"name":"Uttarakhand","code":"UK"},{"name":"West Bengal","code":"WB"}]},{"code":"ID","name":"Indonesia","provinces":[{"name":"Aceh","code":"AC"},{"name":"Bali","code":"BA"},{"name":"Bangka Belitung","code":"BB"},{"name":"Banten","code":"BT"},{"name":"Bengkulu","code":"BE"},{"name":"Gorontalo","code":"GO"},{"name":"Jakarta","code":"JK"},{"name":"Jambi","code":"JA"},{"name":"Jawa Barat","code":"JB"},{"name":"Jawa Tengah","code":"JT"},{"name":"Jawa Timur","code":"JI"},{"name":"Kalimantan Barat","code":"KB"},{"name":"Kalimantan Selatan","code":"KS"},{"name":"Kalimantan Tengah","code":"KT"},{"name":"Kalimantan Timur","code":"KI"},{"name":"Kalimantan Utara","code":"KU"},{"name":"Kepulauan Riau","code":"KR"},{"name":"Lampung","code":"LA"},{"name":"Maluku","code":"MA"},{"name":"Maluku Utara","code":"MU"},{"name":"Nusa Tenggara Barat","code":"NB"},{"name":"Nusa Tenggara Timur","code":"NT"},{"name":"Papua","code":"PA"},{"name":"Papua Barat","code":"PB"},{"name":"Riau","code":"RI"},{"name":"Sulawesi Barat","code":"SR"},{"name":"Sulawesi Selatan","code":"SN"},{"name":"Sulawesi Tengah","code":"ST"},{"name":"Sulawesi Tenggara","code":"SG"},{"name":"Sulawesi Utara","code":"SA"},{"name":"Sumatra Barat","code":"SB"},{"name":"Sumatra Selatan","code":"SS"},{"name":"Sumatra Utara","code":"SU"},{"name":"Yogyakarta","code":"YO"}]},{"code":"IR","name":"Iran, Islamic Republic Of","hide_from_signup":true},{"code":"IQ","name":"Iraq"},{"code":"IE","name":"Ireland","provinces":[{"name":"Carlow","code":"CW"},{"name":"Cavan","code":"CN"},{"name":"Clare","code":"CE"},{"name":"Cork","code":"CO"},{"name":"Donegal","code":"DL"},{"name":"Dublin","code":"D"},{"name":"Galway","code":"G"},{"name":"Kerry","code":"KY"},{"name":"Kildare","code":"KE"},{"name":"Kilkenny","code":"KK"},{"name":"Laois","code":"LS"},{"name":"Leitrim","code":"LM"},{"name":"Limerick","code":"LK"},{"name":"Longford","code":"LD"},{"name":"Louth","code":"LH"},{"name":"Mayo","code":"MO"},{"name":"Meath","code":"MH"},{"name":"Monaghan","code":"MN"},{"name":"Offaly","code":"OY"},{"name":"Roscommon","code":"RN"},{"name":"Sligo","code":"SO"},{"name":"Tipperary","code":"TA"},{"name":"Waterford","code":"WD"},{"name":"Westmeath","code":"WH"},{"name":"Wexford","code":"WX"},{"name":"Wicklow","code":"WW"}]},{"code":"IM","name":"Isle Of Man"},{"code":"IL","name":"Israel"},{"code":"IT","name":"Italy","provinces":[{"name":"Agrigento","code":"AG"},{"name":"Alessandria","code":"AL"},{"name":"Ancona","code":"AN"},{"name":"Aosta","code":"AO"},{"name":"Arezzo","code":"AR"},{"name":"Ascoli Piceno","code":"AP"},{"name":"Asti","code":"AT"},{"name":"Avellino","code":"AV"},{"name":"Bari","code":"BA"},{"name":"Barletta-Andria-Trani","code":"BT"},{"name":"Belluno","code":"BL"},{"name":"Benevento","code":"BN"},{"name":"Bergamo","code":"BG"},{"name":"Biella","code":"BI"},{"name":"Bologna","code":"BO"},{"name":"Bolzano","code":"BZ"},{"name":"Brescia","code":"BS"},{"name":"Brindisi","code":"BR"},{"name":"Cagliari","code":"CA"},{"name":"Caltanissetta","code":"CL"},{"name":"Campobasso","code":"CB"},{"name":"Carbonia-Iglesias","code":"CI"},{"name":"Caserta","code":"CE"},{"name":"Catania","code":"CT"},{"name":"Catanzaro","code":"CZ"},{"name":"Chieti","code":"CH"},{"name":"Como","code":"CO"},{"name":"Cosenza","code":"CS"},{"name":"Cremona","code":"CR"},{"name":"Crotone","code":"KR"},{"name":"Cuneo","code":"CN"},{"name":"Enna","code":"EN"},{"name":"Fermo","code":"FM"},{"name":"Ferrara","code":"FE"},{"name":"Firenze","code":"FI"},{"name":"Foggia","code":"FG"},{"name":"Forlì-Cesena","code":"FC"},{"name":"Frosinone","code":"FR"},{"name":"Genova","code":"GE"},{"name":"Gorizia","code":"GO"},{"name":"Grosseto","code":"GR"},{"name":"Imperia","code":"IM"},{"name":"Isernia","code":"IS"},{"name":"L'Aquila","code":"AQ"},{"name":"La Spezia","code":"SP"},{"name":"Latina","code":"LT"},{"name":"Lecce","code":"LE"},{"name":"Lecco","code":"LC"},{"name":"Livorno","code":"LI"},{"name":"Lodi","code":"LO"},{"name":"Lucca","code":"LU"},{"name":"Macerata","code":"MC"},{"name":"Mantova","code":"MN"},{"name":"Massa-Carrara","code":"MS"},{"name":"Matera","code":"MT"},{"name":"Medio Campidano","code":"VS"},{"name":"Messina","code":"ME"},{"name":"Milano","code":"MI"},{"name":"Modena","code":"MO"},{"name":"Monza e Brianza","code":"MB"},{"name":"Napoli","code":"NA"},{"name":"Novara","code":"NO"},{"name":"Nuoro","code":"NU"},{"name":"Ogliastra","code":"OG"},{"name":"Olbia-Tempio","code":"OT"},{"name":"Oristano","code":"OR"},{"name":"Padova","code":"PD"},{"name":"Palermo","code":"PA"},{"name":"Parma","code":"PR"},{"name":"Pavia","code":"PV"},{"name":"Perugia","code":"PG"},{"name":"Pesaro e Urbino","code":"PU"},{"name":"Pescara","code":"PE"},{"name":"Piacenza","code":"PC"},{"name":"Pisa","code":"PI"},{"name":"Pistoia","code":"PT"},{"name":"Pordenone","code":"PN"},{"name":"Potenza","code":"PZ"},{"name":"Prato","code":"PO"},{"name":"Ragusa","code":"RG"},{"name":"Ravenna","code":"RA"},{"name":"Reggio Calabria","code":"RC"},{"name":"Reggio Emilia","code":"RE"},{"name":"Rieti","code":"RI"},{"name":"Rimini","code":"RN"},{"name":"Roma","code":"RM"},{"name":"Rovigo","code":"RO"},{"name":"Salerno","code":"SA"},{"name":"Sassari","code":"SS"},{"name":"Savona","code":"SV"},{"name":"Siena","code":"SI"},{"name":"Siracusa","code":"SR"},{"name":"Sondrio","code":"SO"},{"name":"Taranto","code":"TA"},{"name":"Teramo","code":"TE"},{"name":"Terni","code":"TR"},{"name":"Torino","code":"TO"},{"name":"Trapani","code":"TP"},{"name":"Trento","code":"TN"},{"name":"Treviso","code":"TV"},{"name":"Trieste","code":"TS"},{"name":"Udine","code":"UD"},{"name":"Varese","code":"VA"},{"name":"Venezia","code":"VE"},{"name":"Verbano-Cusio-Ossola","code":"VB"},{"name":"Vercelli","code":"VC"},{"name":"Verona","code":"VR"},{"name":"Vibo Valentia","code":"VV"},{"name":"Vicenza","code":"VI"},{"name":"Viterbo","code":"VT"}]},{"code":"JM","name":"Jamaica"},{"code":"JP","name":"Japan","provinces":[{"name":"Hokkaidō","code":"JP-01"},{"name":"Aomori","code":"JP-02"},{"name":"Iwate","code":"JP-03"},{"name":"Miyagi","code":"JP-04"},{"name":"Akita","code":"JP-05"},{"name":"Yamagata","code":"JP-06"},{"name":"Fukushima","code":"JP-07"},{"name":"Ibaraki","code":"JP-08"},{"name":"Tochigi","code":"JP-09"},{"name":"Gunma","code":"JP-10"},{"name":"Saitama","code":"JP-11"},{"name":"Chiba","code":"JP-12"},{"name":"Tōkyō","code":"JP-13"},{"name":"Kanagawa","code":"JP-14"},{"name":"Niigata","code":"JP-15"},{"name":"Toyama","code":"JP-16"},{"name":"Ishikawa","code":"JP-17"},{"name":"Fukui","code":"JP-18"},{"name":"Yamanashi","code":"JP-19"},{"name":"Nagano","code":"JP-20"},{"name":"Gifu","code":"JP-21"},{"name":"Shizuoka","code":"JP-22"},{"name":"Aichi","code":"JP-23"},{"name":"Mie","code":"JP-24"},{"name":"Shiga","code":"JP-25"},{"name":"Kyōto","code":"JP-26"},{"name":"Ōsaka","code":"JP-27"},{"name":"Hyōgo","code":"JP-28"},{"name":"Nara","code":"JP-29"},{"name":"Wakayama","code":"JP-30"},{"name":"Tottori","code":"JP-31"},{"name":"Shimane","code":"JP-32"},{"name":"Okayama","code":"JP-33"},{"name":"Hiroshima","code":"JP-34"},{"name":"Yamaguchi","code":"JP-35"},{"name":"Tokushima","code":"JP-36"},{"name":"Kagawa","code":"JP-37"},{"name":"Ehime","code":"JP-38"},{"name":"Kōchi","code":"JP-39"},{"name":"Fukuoka","code":"JP-40"},{"name":"Saga","code":"JP-41"},{"name":"Nagasaki","code":"JP-42"},{"name":"Kumamoto","code":"JP-43"},{"name":"Ōita","code":"JP-44"},{"name":"Miyazaki","code":"JP-45"},{"name":"Kagoshima","code":"JP-46"},{"name":"Okinawa","code":"JP-47"}]},{"code":"JE","name":"Jersey"},{"code":"JO","name":"Jordan"},{"code":"KZ","name":"Kazakhstan"},{"code":"KE","name":"Kenya"},{"code":"KI","name":"Kiribati","hide_from_signup":true},{"code":"KP","name":"Korea, Democratic People's Republic Of","hide_from_signup":true},{"code":"XK","name":"Kosovo"},{"code":"KW","name":"Kuwait"},{"code":"KG","name":"Kyrgyzstan"},{"code":"LA","name":"Lao People's Democratic Republic"},{"code":"LV","name":"Latvia"},{"code":"LB","name":"Lebanon"},{"code":"LS","name":"Lesotho"},{"code":"LR","name":"Liberia"},{"code":"LY","name":"Libyan Arab Jamahiriya","hide_from_signup":true},{"code":"LI","name":"Liechtenstein"},{"code":"LT","name":"Lithuania"},{"code":"LU","name":"Luxembourg"},{"code":"MO","name":"Macao"},{"code":"MG","name":"Madagascar"},{"code":"MW","name":"Malawi"},{"code":"MY","name":"Malaysia","provinces":[{"name":"Johor","code":"JHR"},{"name":"Kedah","code":"KDH"},{"name":"Kelantan","code":"KTN"},{"name":"Kuala Lumpur","code":"KUL"},{"name":"Labuan","code":"LBN"},{"name":"Melaka","code":"MLK"},{"name":"Negeri Sembilan","code":"NSN"},{"name":"Pahang","code":"PHG"},{"name":"Perak","code":"PRK"},{"name":"Perlis","code":"PLS"},{"name":"Pulau Pinang","code":"PNG"},{"name":"Putrajaya","code":"PJY"},{"name":"Sabah","code":"SBH"},{"name":"Sarawak","code":"SWK"},{"name":"Selangor","code":"SGR"},{"name":"Terengganu","code":"TRG"}]},{"code":"MV","name":"Maldives"},{"code":"ML","name":"Mali","hide_from_signup":true},{"code":"MT","name":"Malta"},{"code":"MQ","name":"Martinique"},{"code":"MR","name":"Mauritania","hide_from_signup":true},{"code":"MU","name":"Mauritius"},{"code":"YT","name":"Mayotte"},{"code":"MX","name":"Mexico","provinces":[{"name":"Aguascalientes","code":"AGS"},{"name":"Baja California","code":"BC"},{"name":"Baja California Sur","code":"BCS"},{"name":"Campeche","code":"CAMP"},{"name":"Chiapas","code":"CHIS"},{"name":"Chihuahua","code":"CHIH"},{"name":"Ciudad de México","code":"DF"},{"name":"Coahuila","code":"COAH"},{"name":"Colima","code":"COL"},{"name":"Durango","code":"DGO"},{"name":"Guanajuato","code":"GTO"},{"name":"Guerrero","code":"GRO"},{"name":"Hidalgo","code":"HGO"},{"name":"Jalisco","code":"JAL"},{"name":"México","code":"MEX"},{"name":"Michoacán","code":"MICH"},{"name":"Morelos","code":"MOR"},{"name":"Nayarit","code":"NAY"},{"name":"Nuevo León","code":"NL"},{"name":"Oaxaca","code":"OAX"},{"name":"Puebla","code":"PUE"},{"name":"Querétaro","code":"QRO"},{"name":"Quintana Roo","code":"Q ROO"},{"name":"San Luis Potosí","code":"SLP"},{"name":"Sinaloa","code":"SIN"},{"name":"Sonora","code":"SON"},{"name":"Tabasco","code":"TAB"},{"name":"Tamaulipas","code":"TAMPS"},{"name":"Tlaxcala","code":"TLAX"},{"name":"Veracruz","code":"VER"},{"name":"Yucatán","code":"YUC"},{"name":"Zacatecas","code":"ZAC"}]},{"code":"MD","name":"Moldova, Republic of"},{"code":"MC","name":"Monaco"},{"code":"MN","name":"Mongolia"},{"code":"ME","name":"Montenegro"},{"code":"MS","name":"Montserrat","hide_from_signup":true},{"code":"MA","name":"Morocco"},{"code":"MZ","name":"Mozambique"},{"code":"MM","name":"Myanmar"},{"code":"NA","name":"Namibia"},{"code":"NR","name":"Nauru","hide_from_signup":true},{"code":"NP","name":"Nepal"},{"code":"NL","name":"Netherlands"},{"code":"AN","name":"Netherlands Antilles"},{"code":"NC","name":"New Caledonia"},{"code":"NZ","name":"New Zealand","provinces":[{"name":"Auckland","code":"AUK"},{"name":"Bay of Plenty","code":"BOP"},{"name":"Canterbury","code":"CAN"},{"name":"Gisborne","code":"GIS"},{"name":"Hawke's Bay","code":"HKB"},{"name":"Manawatu-Wanganui","code":"MWT"},{"name":"Marlborough","code":"MBH"},{"name":"Nelson","code":"NSN"},{"name":"Northland","code":"NTL"},{"name":"Otago","code":"OTA"},{"name":"Southland","code":"STL"},{"name":"Taranaki","code":"TKI"},{"name":"Tasman","code":"TAS"},{"name":"Waikato","code":"WKO"},{"name":"Wellington","code":"WGN"},{"name":"West Coast","code":"WTC"}]},{"code":"NI","name":"Nicaragua"},{"code":"NE","name":"Niger"},{"code":"NG","name":"Nigeria","provinces":[{"name":"Abia","code":"AB"},{"name":"Abuja Federal Capital Territory","code":"FC"},{"name":"Adamawa","code":"AD"},{"name":"Akwa Ibom","code":"AK"},{"name":"Anambra","code":"AN"},{"name":"Bauchi","code":"BA"},{"name":"Bayelsa","code":"BY"},{"name":"Benue","code":"BE"},{"name":"Borno","code":"BO"},{"name":"Cross River","code":"CR"},{"name":"Delta","code":"DE"},{"name":"Ebonyi","code":"EB"},{"name":"Edo","code":"ED"},{"name":"Ekiti","code":"EK"},{"name":"Enugu","code":"EN"},{"name":"Gombe","code":"GO"},{"name":"Imo","code":"IM"},{"name":"Jigawa","code":"JI"},{"name":"Kaduna","code":"KD"},{"name":"Kano","code":"KN"},{"name":"Katsina","code":"KT"},{"name":"Kebbi","code":"KE"},{"name":"Kogi","code":"KO"},{"name":"Kwara","code":"KW"},{"name":"Lagos","code":"LA"},{"name":"Nasarawa","code":"NA"},{"name":"Niger","code":"NI"},{"name":"Ogun","code":"OG"},{"name":"Ondo","code":"ON"},{"name":"Osun","code":"OS"},{"name":"Oyo","code":"OY"},{"name":"Plateau","code":"PL"},{"name":"Rivers","code":"RI"},{"name":"Sokoto","code":"SO"},{"name":"Taraba","code":"TA"},{"name":"Yobe","code":"YO"},{"name":"Zamfara","code":"ZA"}]},{"code":"NU","name":"Niue","hide_from_signup":true},{"code":"NF","name":"Norfolk Island","hide_from_signup":true},{"code":"MK","name":"North Macedonia"},{"code":"NO","name":"Norway"},{"code":"OM","name":"Oman"},{"code":"PK","name":"Pakistan"},{"code":"PS","name":"Palestinian Territory, Occupied"},{"code":"PA","name":"Panama","provinces":[{"name":"Bocas del Toro","code":"PA-1"},{"name":"Chiriquí","code":"PA-4"},{"name":"Coclé","code":"PA-2"},{"name":"Colón","code":"PA-3"},{"name":"Darién","code":"PA-5"},{"name":"Emberá","code":"PA-EM"},{"name":"Herrera","code":"PA-6"},{"name":"Kuna Yala","code":"PA-KY"},{"name":"Los Santos","code":"PA-7"},{"name":"Ngöbe-Buglé","code":"PA-NB"},{"name":"Panamá","code":"PA-8"},{"name":"Panamá Oeste","code":"PA-10"},{"name":"Veraguas","code":"PA-9"}]},{"code":"PG","name":"Papua New Guinea"},{"code":"PY","name":"Paraguay"},{"code":"PE","name":"Peru","provinces":[{"name":"Amazonas","code":"PE-AMA"},{"name":"Áncash","code":"PE-ANC"},{"name":"Apurímac","code":"PE-APU"},{"name":"Arequipa","code":"PE-ARE"},{"name":"Ayacucho","code":"PE-AYA"},{"name":"Cajamarca","code":"PE-CAJ"},{"name":"Callao","code":"PE-CAL"},{"name":"Cuzco","code":"PE-CUS"},{"name":"Huancavelica","code":"PE-HUV"},{"name":"Huánuco","code":"PE-HUC"},{"name":"Ica","code":"PE-ICA"},{"name":"Junín","code":"PE-JUN"},{"name":"La Libertad","code":"PE-LAL"},{"name":"Lambayeque","code":"PE-LAM"},{"name":"Lima (departamento)","code":"PE-LIM"},{"name":"Lima (provincia)","code":"PE-LMA"},{"name":"Loreto","code":"PE-LOR"},{"name":"Madre de Dios","code":"PE-MDD"},{"name":"Moquegua","code":"PE-MOQ"},{"name":"Pasco","code":"PE-PAS"},{"name":"Piura","code":"PE-PIU"},{"name":"Puno","code":"PE-PUN"},{"name":"San Martín","code":"PE-SAM"},{"name":"Tacna","code":"PE-TAC"},{"name":"Tumbes","code":"PE-TUM"},{"name":"Ucayali","code":"PE-UCA"}]},{"code":"PH","name":"Philippines"},{"code":"PN","name":"Pitcairn","hide_from_signup":true},{"code":"PL","name":"Poland"},{"code":"PT","name":"Portugal","provinces":[{"name":"Açores","code":"PT-20"},{"name":"Aveiro","code":"PT-01"},{"name":"Beja","code":"PT-02"},{"name":"Braga","code":"PT-03"},{"name":"Bragança","code":"PT-04"},{"name":"Castelo Branco","code":"PT-05"},{"name":"Coimbra","code":"PT-06"},{"name":"Évora","code":"PT-07"},{"name":"Faro","code":"PT-08"},{"name":"Guarda","code":"PT-09"},{"name":"Leiria","code":"PT-10"},{"name":"Lisboa","code":"PT-11"},{"name":"Madeira","code":"PT-30"},{"name":"Portalegre","code":"PT-12"},{"name":"Porto","code":"PT-13"},{"name":"Santarém","code":"PT-14"},{"name":"Setúbal","code":"PT-15"},{"name":"Viana do Castelo","code":"PT-16"},{"name":"Vila Real","code":"PT-17"},{"name":"Viseu","code":"PT-18"}]},{"code":"QA","name":"Qatar"},{"code":"CM","name":"Republic of Cameroon"},{"code":"RE","name":"Reunion"},{"code":"RO","name":"Romania","provinces":[{"name":"Alba","code":"AB"},{"name":"Arad","code":"AR"},{"name":"Argeș","code":"AG"},{"name":"Bacău","code":"BC"},{"name":"Bihor","code":"BH"},{"name":"Bistrița-Năsăud","code":"BN"},{"name":"Botoșani","code":"BT"},{"name":"Brașov","code":"BV"},{"name":"Brăila","code":"BR"},{"name":"București","code":"B"},{"name":"Buzău","code":"BZ"},{"name":"Călărași","code":"CL"},{"name":"Caraș-Severin","code":"CS"},{"name":"Cluj","code":"CJ"},{"name":"Constanța","code":"CT"},{"name":"Covasna","code":"CV"},{"name":"Dâmbovița","code":"DB"},{"name":"Dolj","code":"DJ"},{"name":"Galați","code":"GL"},{"name":"Giurgiu","code":"GR"},{"name":"Gorj","code":"GJ"},{"name":"Harghita","code":"HR"},{"name":"Hunedoara","code":"HD"},{"name":"Iași","code":"IS"},{"name":"Ialomița","code":"IL"},{"name":"Ilfov","code":"IF"},{"name":"Maramureș","code":"MM"},{"name":"Mehedinți","code":"MH"},{"name":"Mureș","code":"MS"},{"name":"Neamț","code":"NT"},{"name":"Olt","code":"OT"},{"name":"Prahova","code":"PH"},{"name":"Sălaj","code":"SJ"},{"name":"Satu Mare","code":"SM"},{"name":"Sibiu","code":"SB"},{"name":"Suceava","code":"SV"},{"name":"Teleorman","code":"TR"},{"name":"Timiș","code":"TM"},{"name":"Tulcea","code":"TL"},{"name":"Vâlcea","code":"VL"},{"name":"Vaslui","code":"VS"},{"name":"Vrancea","code":"VN"}]},{"code":"RU","name":"Russia","provinces":[{"name":"Republic of Adygeya","code":"AD"},{"name":"Altai Republic","code":"AL"},{"name":"Altai Krai","code":"ALT"},{"name":"Amur Oblast","code":"AMU"},{"name":"Arkhangelsk Oblast","code":"ARK"},{"name":"Astrakhan Oblast","code":"AST"},{"name":"Republic of Bashkortostan","code":"BA"},{"name":"Belgorod Oblast","code":"BEL"},{"name":"Bryansk Oblast","code":"BRY"},{"name":"Republic of Buryatia","code":"BU"},{"name":"Chechen Republic","code":"CE"},{"name":"Chelyabinsk Oblast","code":"CHE"},{"name":"Chukotka Autonomous Okrug","code":"CHU"},{"name":"Chuvash Republic","code":"CU"},{"name":"Republic of Dagestan","code":"DA"},{"name":"Republic of Ingushetia","code":"IN"},{"name":"Irkutsk Oblast","code":"IRK"},{"name":"Ivanovo Oblast","code":"IVA"},{"name":"Jewish Autonomous Oblast","code":"YEV"},{"name":"Kabardino-Balkarian Republic","code":"KB"},{"name":"Kaliningrad Oblast","code":"KGD"},{"name":"Republic of Kalmykia","code":"KL"},{"name":"Kaluga Oblast","code":"KLU"},{"name":"Kamchatka Krai","code":"KAM"},{"name":"Karachay–Cherkess Republic","code":"KC"},{"name":"Republic of Karelia","code":"KR"},{"name":"Kemerovo Oblast","code":"KEM"},{"name":"Khabarovsk Krai","code":"KHA"},{"name":"Republic of Khakassia","code":"KK"},{"name":"Khanty-Mansi Autonomous Okrug","code":"KHM"},{"name":"Kirov Oblast","code":"KIR"},{"name":"Komi Republic","code":"KO"},{"name":"Kostroma Oblast","code":"KOS"},{"name":"Krasnodar Krai","code":"KDA"},{"name":"Krasnoyarsk Krai","code":"KYA"},{"name":"Kurgan Oblast","code":"KGN"},{"name":"Kursk Oblast","code":"KRS"},{"name":"Leningrad Oblast","code":"LEN"},{"name":"Lipetsk Oblast","code":"LIP"},{"name":"Magadan Oblast","code":"MAG"},{"name":"Mari El Republic","code":"ME"},{"name":"Republic of Mordovia","code":"MO"},{"name":"Moscow","code":"MOW"},{"name":"Moscow Oblast","code":"MOS"},{"name":"Murmansk Oblast","code":"MUR"},{"name":"Nizhny Novgorod Oblast","code":"NIZ"},{"name":"Novgorod Oblast","code":"NGR"},{"name":"Novosibirsk Oblast","code":"NVS"},{"name":"Omsk Oblast","code":"OMS"},{"name":"Orenburg Oblast","code":"ORE"},{"name":"Oryol Oblast","code":"ORL"},{"name":"Penza Oblast","code":"PNZ"},{"name":"Perm Krai","code":"PER"},{"name":"Primorsky Krai","code":"PRI"},{"name":"Pskov Oblast","code":"PSK"},{"name":"Rostov Oblast","code":"ROS"},{"name":"Ryazan Oblast","code":"RYA"},{"name":"Saint Petersburg","code":"SPE"},{"name":"Sakha Republic (Yakutia)","code":"SA"},{"name":"Sakhalin Oblast","code":"SAK"},{"name":"Samara Oblast","code":"SAM"},{"name":"Saratov Oblast","code":"SAR"},{"name":"Republic of North Ossetia–Alania","code":"SE"},{"name":"Smolensk Oblast","code":"SMO"},{"name":"Stavropol Krai","code":"STA"},{"name":"Sverdlovsk Oblast","code":"SVE"},{"name":"Tambov Oblast","code":"TAM"},{"name":"Republic of Tatarstan","code":"TA"},{"name":"Tomsk Oblast","code":"TOM"},{"name":"Tula Oblast","code":"TUL"},{"name":"Tver Oblast","code":"TVE"},{"name":"Tyumen Oblast","code":"TYU"},{"name":"Tyva Republic","code":"TY"},{"name":"Udmurtia","code":"UD"},{"name":"Ulyanovsk Oblast","code":"ULY"},{"name":"Vladimir Oblast","code":"VLA"},{"name":"Volgograd Oblast","code":"VGG"},{"name":"Vologda Oblast","code":"VLG"},{"name":"Voronezh Oblast","code":"VOR"},{"name":"Yamalo-Nenets Autonomous Okrug","code":"YAN"},{"name":"Yaroslavl Oblast","code":"YAR"},{"name":"Zabaykalsky Krai","code":"ZAB"}]},{"code":"RW","name":"Rwanda"},{"code":"BL","name":"Saint Barthélemy","hide_from_signup":true},{"code":"SH","name":"Saint Helena","hide_from_signup":true},{"code":"KN","name":"Saint Kitts And Nevis"},{"code":"LC","name":"Saint Lucia"},{"code":"MF","name":"Saint Martin"},{"code":"PM","name":"Saint Pierre And Miquelon","hide_from_signup":true},{"code":"WS","name":"Samoa"},{"code":"SM","name":"San Marino"},{"code":"ST","name":"Sao Tome And Principe"},{"code":"SA","name":"Saudi Arabia"},{"code":"SN","name":"Senegal"},{"code":"RS","name":"Serbia"},{"code":"SC","name":"Seychelles"},{"code":"SL","name":"Sierra Leone","hide_from_signup":true},{"code":"SG","name":"Singapore"},{"code":"SX","name":"Sint Maarten"},{"code":"SK","name":"Slovakia"},{"code":"SI","name":"Slovenia"},{"code":"SB","name":"Solomon Islands"},{"code":"SO","name":"Somalia","hide_from_signup":true},{"code":"ZA","name":"South Africa","provinces":[{"name":"Eastern Cape","code":"EC"},{"name":"Free State","code":"FS"},{"name":"Gauteng","code":"GT"},{"name":"KwaZulu-Natal","code":"NL"},{"name":"Limpopo","code":"LP"},{"name":"Mpumalanga","code":"MP"},{"name":"North West","code":"NW"},{"name":"Northern Cape","code":"NC"},{"name":"Western Cape","code":"WC"}]},{"code":"GS","name":"South Georgia And The South Sandwich Islands","hide_from_signup":true},{"code":"KR","name":"South Korea","provinces":[{"name":"Busan","code":"KR-26"},{"name":"Chungbuk","code":"KR-43"},{"name":"Chungnam","code":"KR-44"},{"name":"Daegu","code":"KR-27"},{"name":"Daejeon","code":"KR-30"},{"name":"Gangwon","code":"KR-42"},{"name":"Gwangju","code":"KR-29"},{"name":"Gyeongbuk","code":"KR-47"},{"name":"Gyeonggi","code":"KR-41"},{"name":"Gyeongnam","code":"KR-48"},{"name":"Incheon","code":"KR-28"},{"name":"Jeju","code":"KR-49"},{"name":"Jeonbuk","code":"KR-45"},{"name":"Jeonnam","code":"KR-46"},{"name":"Sejong","code":"KR-50"},{"name":"Seoul","code":"KR-11"},{"name":"Ulsan","code":"KR-31"}]},{"code":"SS","name":"South Sudan"},{"code":"ES","name":"Spain","provinces":[{"name":"A Coruña","code":"C"},{"name":"Álava","code":"VI"},{"name":"Albacete","code":"AB"},{"name":"Alicante","code":"A"},{"name":"Almería","code":"AL"},{"name":"Asturias","code":"O"},{"name":"Ávila","code":"AV"},{"name":"Badajoz","code":"BA"},{"name":"Balears","code":"PM"},{"name":"Barcelona","code":"B"},{"name":"Burgos","code":"BU"},{"name":"Cáceres","code":"CC"},{"name":"Cádiz","code":"CA"},{"name":"Cantabria","code":"S"},{"name":"Castellón","code":"CS"},{"name":"Ceuta","code":"CE"},{"name":"Ciudad Real","code":"CR"},{"name":"Córdoba","code":"CO"},{"name":"Cuenca","code":"CU"},{"name":"Girona","code":"GI"},{"name":"Granada","code":"GR"},{"name":"Guadalajara","code":"GU"},{"name":"Guipúzcoa","code":"SS"},{"name":"Huelva","code":"H"},{"name":"Huesca","code":"HU"},{"name":"Jaén","code":"J"},{"name":"La Rioja","code":"LO"},{"name":"Las Palmas","code":"GC"},{"name":"León","code":"LE"},{"name":"Lleida","code":"L"},{"name":"Lugo","code":"LU"},{"name":"Madrid","code":"M"},{"name":"Málaga","code":"MA"},{"name":"Melilla","code":"ML"},{"name":"Murcia","code":"MU"},{"name":"Navarra","code":"NA"},{"name":"Ourense","code":"OR"},{"name":"Palencia","code":"P"},{"name":"Pontevedra","code":"PO"},{"name":"Salamanca","code":"SA"},{"name":"Santa Cruz de Tenerife","code":"TF"},{"name":"Segovia","code":"SG"},{"name":"Sevilla","code":"SE"},{"name":"Soria","code":"SO"},{"name":"Tarragona","code":"T"},{"name":"Teruel","code":"TE"},{"name":"Toledo","code":"TO"},{"name":"Valencia","code":"V"},{"name":"Valladolid","code":"VA"},{"name":"Vizcaya","code":"BI"},{"name":"Zamora","code":"ZA"},{"name":"Zaragoza","code":"Z"}]},{"code":"LK","name":"Sri Lanka"},{"code":"VC","name":"St. Vincent"},{"code":"SD","name":"Sudan"},{"code":"SR","name":"Suriname"},{"code":"SJ","name":"Svalbard And Jan Mayen","hide_from_signup":true},{"code":"SE","name":"Sweden"},{"code":"CH","name":"Switzerland"},{"code":"SY","name":"Syria","hide_from_signup":true},{"code":"TW","name":"Taiwan"},{"code":"TJ","name":"Tajikistan","hide_from_signup":true},{"code":"TZ","name":"Tanzania, United Republic Of"},{"code":"TH","name":"Thailand","provinces":[{"name":"Amnat Charoen","code":"TH-37"},{"name":"Ang Thong","code":"TH-15"},{"name":"Bangkok","code":"TH-10"},{"name":"Bueng Kan","code":"TH-38"},{"name":"Buriram","code":"TH-31"},{"name":"Chachoengsao","code":"TH-24"},{"name":"Chai Nat","code":"TH-18"},{"name":"Chaiyaphum","code":"TH-36"},{"name":"Chanthaburi","code":"TH-22"},{"name":"Chiang Mai","code":"TH-50"},{"name":"Chiang Rai","code":"TH-57"},{"name":"Chon Buri","code":"TH-20"},{"name":"Chumphon","code":"TH-86"},{"name":"Kalasin","code":"TH-46"},{"name":"Kamphaeng Phet","code":"TH-62"},{"name":"Kanchanaburi","code":"TH-71"},{"name":"Khon Kaen","code":"TH-40"},{"name":"Krabi","code":"TH-81"},{"name":"Lampang","code":"TH-52"},{"name":"Lamphun","code":"TH-51"},{"name":"Loei","code":"TH-42"},{"name":"Lopburi","code":"TH-16"},{"name":"Mae Hong Son","code":"TH-58"},{"name":"Maha Sarakham","code":"TH-44"},{"name":"Mukdahan","code":"TH-49"},{"name":"Nakhon Nayok","code":"TH-26"},{"name":"Nakhon Pathom","code":"TH-73"},{"name":"Nakhon Phanom","code":"TH-48"},{"name":"Nakhon Ratchasima","code":"TH-30"},{"name":"Nakhon Sawan","code":"TH-60"},{"name":"Nakhon Si Thammarat","code":"TH-80"},{"name":"Nan","code":"TH-55"},{"name":"Narathiwat","code":"TH-96"},{"name":"Nong Bua Lam Phu","code":"TH-39"},{"name":"Nong Khai","code":"TH-43"},{"name":"Nonthaburi","code":"TH-12"},{"name":"Pathum Thani","code":"TH-13"},{"name":"Pattani","code":"TH-94"},{"name":"Pattaya","code":"TH-S"},{"name":"Phangnga","code":"TH-82"},{"name":"Phatthalung","code":"TH-93"},{"name":"Phayao","code":"TH-56"},{"name":"Phetchabun","code":"TH-67"},{"name":"Phetchaburi","code":"TH-76"},{"name":"Phichit","code":"TH-66"},{"name":"Phitsanulok","code":"TH-65"},{"name":"Phra Nakhon Si Ayutthaya","code":"TH-14"},{"name":"Phrae","code":"TH-54"},{"name":"Phuket","code":"TH-83"},{"name":"Prachin Buri","code":"TH-25"},{"name":"Prachuap Khiri Khan","code":"TH-77"},{"name":"Ranong","code":"TH-85"},{"name":"Ratchaburi","code":"TH-70"},{"name":"Rayong","code":"TH-21"},{"name":"Roi Et","code":"TH-45"},{"name":"Sa Kaeo","code":"TH-27"},{"name":"Sakon Nakhon","code":"TH-47"},{"name":"Samut Prakan","code":"TH-11"},{"name":"Samut Sakhon","code":"TH-74"},{"name":"Samut Songkhram","code":"TH-75"},{"name":"Saraburi","code":"TH-19"},{"name":"Satun","code":"TH-91"},{"name":"Sing Buri","code":"TH-17"},{"name":"Sisaket","code":"TH-33"},{"name":"Songkhla","code":"TH-90"},{"name":"Sukhothai","code":"TH-64"},{"name":"Suphan Buri","code":"TH-72"},{"name":"Surat Thani","code":"TH-84"},{"name":"Surin","code":"TH-32"},{"name":"Tak","code":"TH-63"},{"name":"Trang","code":"TH-92"},{"name":"Trat","code":"TH-23"},{"name":"Ubon Ratchathani","code":"TH-34"},{"name":"Udon Thani","code":"TH-41"},{"name":"Uthai Thani","code":"TH-61"},{"name":"Uttaradit","code":"TH-53"},{"name":"Yala","code":"TH-95"},{"name":"Yasothon","code":"TH-35"}]},{"code":"TL","name":"Timor Leste"},{"code":"TG","name":"Togo"},{"code":"TK","name":"Tokelau","hide_from_signup":true},{"code":"TO","name":"Tonga","hide_from_signup":true},{"code":"TT","name":"Trinidad and Tobago"},{"code":"TN","name":"Tunisia"},{"code":"TR","name":"Turkey"},{"code":"TM","name":"Turkmenistan"},{"code":"TC","name":"Turks and Caicos Islands"},{"code":"TV","name":"Tuvalu","hide_from_signup":true},{"code":"UG","name":"Uganda"},{"code":"UA","name":"Ukraine"},{"code":"AE","name":"United Arab Emirates","provinces":[{"name":"Abu Dhabi","code":"AZ"},{"name":"Ajman","code":"AJ"},{"name":"Dubai","code":"DU"},{"name":"Fujairah","code":"FU"},{"name":"Ras al-Khaimah","code":"RK"},{"name":"Sharjah","code":"SH"},{"name":"Umm al-Quwain","code":"UQ"}]},{"code":"GB","name":"United Kingdom"},{"code":"US","name":"United States","provinces":[{"name":"Alabama","code":"AL"},{"name":"Alaska","code":"AK"},{"name":"American Samoa","code":"AS"},{"name":"Arizona","code":"AZ"},{"name":"Arkansas","code":"AR"},{"name":"California","code":"CA"},{"name":"Colorado","code":"CO"},{"name":"Connecticut","code":"CT"},{"name":"Delaware","code":"DE"},{"name":"District of Columbia","code":"DC"},{"name":"Federated States of Micronesia","code":"FM"},{"name":"Florida","code":"FL"},{"name":"Georgia","code":"GA"},{"name":"Guam","code":"GU"},{"name":"Hawaii","code":"HI"},{"name":"Idaho","code":"ID"},{"name":"Illinois","code":"IL"},{"name":"Indiana","code":"IN"},{"name":"Iowa","code":"IA"},{"name":"Kansas","code":"KS"},{"name":"Kentucky","code":"KY"},{"name":"Louisiana","code":"LA"},{"name":"Maine","code":"ME"},{"name":"Marshall Islands","code":"MH"},{"name":"Maryland","code":"MD"},{"name":"Massachusetts","code":"MA"},{"name":"Michigan","code":"MI"},{"name":"Minnesota","code":"MN"},{"name":"Mississippi","code":"MS"},{"name":"Missouri","code":"MO"},{"name":"Montana","code":"MT"},{"name":"Nebraska","code":"NE"},{"name":"Nevada","code":"NV"},{"name":"New Hampshire","code":"NH"},{"name":"New Jersey","code":"NJ"},{"name":"New Mexico","code":"NM"},{"name":"New York","code":"NY"},{"name":"North Carolina","code":"NC"},{"name":"North Dakota","code":"ND"},{"name":"Northern Mariana Islands","code":"MP"},{"name":"Ohio","code":"OH"},{"name":"Oklahoma","code":"OK"},{"name":"Oregon","code":"OR"},{"name":"Palau","code":"PW"},{"name":"Pennsylvania","code":"PA"},{"name":"Puerto Rico","code":"PR"},{"name":"Rhode Island","code":"RI"},{"name":"South Carolina","code":"SC"},{"name":"South Dakota","code":"SD"},{"name":"Tennessee","code":"TN"},{"name":"Texas","code":"TX"},{"name":"Utah","code":"UT"},{"name":"Vermont","code":"VT"},{"name":"Virginia","code":"VA"},{"name":"Washington","code":"WA"},{"name":"West Virginia","code":"WV"},{"name":"Wisconsin","code":"WI"},{"name":"Wyoming","code":"WY"},{"name":"Virgin Islands","code":"VI"},{"name":"Armed Forces Americas","code":"AA"},{"name":"Armed Forces Europe","code":"AE"},{"name":"Armed Forces Pacific","code":"AP"}]},{"code":"UM","name":"United States Minor Outlying Islands","hide_from_signup":true},{"code":"UY","name":"Uruguay"},{"code":"UZ","name":"Uzbekistan"},{"code":"VU","name":"Vanuatu"},{"code":"VE","name":"Venezuela"},{"code":"VN","name":"Vietnam"},{"code":"VG","name":"Virgin Islands, British"},{"code":"WF","name":"Wallis And Futuna","hide_from_signup":true},{"code":"EH","name":"Western Sahara","hide_from_signup":true},{"code":"YE","name":"Yemen"},{"code":"ZM","name":"Zambia"},{"code":"ZW","name":"Zimbabwe"}],
+  "theme": {
+    "name": null,
+    "version": null
+  }
+}
+
+</script>
+
+<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=URL%2Ces6%2Cfetch%2CCustomEvent"></script>
+
+
+  <script>
+    (function() {
+      var callbacksHandled = [];
+
+      var customerReady = function(callback) {
+        var handleCallback = function() {
+          if (callbacksHandled.indexOf(callback) > -1) return;
+
+          callback();
+          callbacksHandled.push(callback);
+        };
+
+        if ('customer' in window.CF) {
+          handleCallback();
+        } else {
+          document.addEventListener("cf:customer_ready", handleCallback);
+        }
+      };
+
+      if (window.CF) {
+        window.CF.customerReady = customerReady;
+      } else {
+        window.CF = {
+          customerReady: customerReady,
+        }
+      }
+    })();
+  </script>
+
+  
+  <script async src="https://assets.customerfields.com/releases/3.0.4/cf-api.js"></script>
+  
+
+ -->
+
+  
+  <script>
+       
+  
+//   CF.customerReady(function() {
+//   	console.log(CF.customer.get("default_address.company"));
+//   });
+   </script>
+      
+    
+    
+  
+  <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/favicon.png?v=11994931136914903019" type="image/png" />
+  
+  
+  <!-- Font-Awesome ================================================== -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- Title and description ================================================== -->
+  <title>
+  CSCA, Ryerson University
+  </title>
+
+  
+
+  <!-- Product meta ================================================== -->
+  
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CSCA, Ryerson University">
+  
+  <meta property="og:image" content="http://cdn.shopify.com/s/files/1/0849/8916/t/4/assets/logo.png?v=540731475510206179">
+  <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0849/8916/t/4/assets/logo.png?v=540731475510206179">
+  
+
+
+  <meta property="og:url" content="https://csca.ryerson.ca/">
+  <meta property="og:site_name" content="CSCA, Ryerson University">
+
+  
+
+
+
+  <meta name="twitter:site" content="@">
+
+
+
+
+  <!-- Helpers ================================================== -->
+  <link rel="canonical" href="https://csca.ryerson.ca/">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ff7500">
+
+  
+  <!-- Ajaxify Cart Plugin ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/ajaxify.scss.css?v=13986094344377588600" rel="stylesheet" type="text/css" media="all" />
+  
+
+  <!-- CSS ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/timber.scss.css?v=13158390128182202078" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/theme.scss.css?v=7172758785767050764" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/responsive-tabs.css?v=2702610898405045397" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.multiselect.css?v=2947355498081524729" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.fancybox.min.css?v=1927803431663513770" rel="stylesheet" type="text/css" media="all" />
+
+  
+  
+  
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet" type="text/css" media="all" />
+  
+
+
+
+  <!-- Header hook for plugins ================================================== -->
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/8498916/digital_wallets/dialog">
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script id="shopify-features" type="application/json">{"accessToken":"4fd9850fbd37eb6c6a83080cbc2dbf8b","betas":["rich-media-storefront-analytics"],"domain":"csca.ryerson.ca","predictiveSearch":true,"shopId":8498916,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "csca-ryerson.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"CAD","rate":"1.0"};
+Shopify.theme = {"name":"Classic","id":16044097,"theme_store_id":721,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "cdn.shopify.com";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/dfjp7gc2z6ooe.cloudfront.net\/assets\/sky_pilot_v3.js?shop=csca-ryerson.myshopify.com","https:\/\/vital-forms.c1.humanpresence.app\/ellipsis-vital-forms.js?shop=csca-ryerson.myshopify.com","https:\/\/script.metricode.com\/ellipsis.js?api_key=be6d4c46-c0eb-42e3-a1d1-f4649833070e\u0026shop=csca-ryerson.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/1c2d62165eaf5d544e9a77b26\/8462ec390aff296bffcbf00b0.js?shop=csca-ryerson.myshopify.com","https:\/\/cdncozygallerya.addons.business\/embed\/cziframeagent.js?v=1804141454\u0026shop=csca-ryerson.myshopify.com","\/\/cdn.wishpond.net\/connect.js?merchantId=1516022\u0026writeKey=204877655955\u0026shop=csca-ryerson.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":8498916,"offset":-18000,"reqid":"155b8352-94e9-4d4e-a223-1d0891f7b630","pageurl":"csca.ryerson.ca\/","u":"d6b4f2dc2ed2","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'CAD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  ga('require', 'GTM-MQZKN9S');
+};
+</script>
+<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var hasLoggedConversion = function(token) {
+    if (document.cookie.indexOf('loggedConversion=' + window.location.pathname) !== -1) {
+      return true;
+    }
+    if (token) {
+      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+    }
+    return false;
+  }
+
+  var setCookieIfConversion = function(token) {
+    if (token) {
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var first = document.getElementsByTagName('script')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      var scriptFallback = document.createElement('script');
+      scriptFallback.type = 'text/javascript';
+      scriptFallback.onerror = function(error) {
+              var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+    
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+    
+        } // XHR beacon   
+    
+        var xhr = new XMLHttpRequest();
+    
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+    
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 8498916,
+      theme_id: 16044097,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.3bc22f7b201bea3154c99666f2373bcf9a3e8fb1.min.js"});
+
+      };
+      scriptFallback.async = true;
+      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.3bc22f7b201bea3154c99666f2373bcf9a3e8fb1.min.js';
+      first.parentNode.insertBefore(scriptFallback, first);
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.3bc22f7b201bea3154c99666f2373bcf9a3e8fb1.min.js';
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":8498916,"isMerchantRequest":null,"themeId":16044097,"themeCityHash":"9064731180478117101","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"isPixelGateEnabled":true},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":1},"Google Analytics":{"trackingId":"UA-82753016-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+      (function () {
+        if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+          return;
+        }
+        window.BOOMR = window.BOOMR || {};
+        window.BOOMR.snippetStart = new Date().getTime();
+        window.BOOMR.snippetExecuted = true;
+        window.BOOMR.snippetVersion = 12;
+        window.BOOMR.application = "storefront-renderer";
+        window.BOOMR.themeName = "";
+        window.BOOMR.themeVersion = "";
+        window.BOOMR.shopId = 8498916;
+        window.BOOMR.themeId = 16044097;
+        window.BOOMR.url =
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+        var where = document.currentScript || document.getElementsByTagName("script")[0];
+        var parentNode = where.parentNode;
+        var promoted = false;
+        var LOADER_TIMEOUT = 3000;
+        function promote() {
+          if (promoted) {
+            return;
+          }
+          var script = document.createElement("script");
+          script.id = "boomr-scr-as";
+          script.src = window.BOOMR.url;
+          script.async = true;
+          parentNode.appendChild(script);
+          promoted = true;
+        }
+        function iframeLoader(wasFallback) {
+          promoted = true;
+          var dom, bootstrap, iframe, iframeStyle;
+          var doc = document;
+          var win = window;
+          window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+          bootstrap = function(parent, scriptId) {
+            var script = doc.createElement("script");
+            script.id = scriptId || "boomr-if-as";
+            script.src = window.BOOMR.url;
+            BOOMR_lstart = new Date().getTime();
+            parent = parent || doc.body;
+            parent.appendChild(script);
+          };
+          if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+            window.BOOMR.snippetMethod = "s";
+            bootstrap(parentNode, "boomr-async");
+            return;
+          }
+          iframe = document.createElement("IFRAME");
+          iframe.src = "about:blank";
+          iframe.title = "";
+          iframe.role = "presentation";
+          iframe.loading = "eager";
+          iframeStyle = (iframe.frameElement || iframe).style;
+          iframeStyle.width = 0;
+          iframeStyle.height = 0;
+          iframeStyle.border = 0;
+          iframeStyle.display = "none";
+          parentNode.appendChild(iframe);
+          try {
+            win = iframe.contentWindow;
+            doc = win.document.open();
+          } catch (e) {
+            dom = document.domain;
+            iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+            win = iframe.contentWindow;
+            doc = win.document.open();
+          }
+          if (dom) {
+            doc._boomrl = function() {
+              this.domain = dom;
+              bootstrap();
+            };
+            doc.write("<body onload='document._boomrl();'>");
+          } else {
+            win._boomrl = function() {
+              bootstrap();
+            };
+            if (win.addEventListener) {
+              win.addEventListener("load", win._boomrl, false);
+            } else if (win.attachEvent) {
+              win.attachEvent("onload", win._boomrl);
+            }
+          }
+          doc.close();
+        }
+        var link = document.createElement("link");
+        if (link.relList &&
+          typeof link.relList.supports === "function" &&
+          link.relList.supports("preload") &&
+          ("as" in link)) {
+          window.BOOMR.snippetMethod = "p";
+          link.href = window.BOOMR.url;
+          link.rel = "preload";
+          link.as = "script";
+          link.addEventListener("load", promote);
+          link.addEventListener("error", function() {
+            iframeLoader(true);
+          });
+          setTimeout(function() {
+            if (!promoted) {
+              iframeLoader(true);
+            }
+          }, LOADER_TIMEOUT);
+          BOOMR_lstart = new Date().getTime();
+          parentNode.appendChild(link);
+        } else {
+          iframeLoader(false);
+        }
+        function boomerangSaveLoadTime(e) {
+          window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+        }
+        if (window.addEventListener) {
+          window.addEventListener("load", boomerangSaveLoadTime, false);
+        } else if (window.attachEvent) {
+          window.attachEvent("onload", boomerangSaveLoadTime);
+        }
+        if (document.addEventListener) {
+          document.addEventListener("onBoomerangLoaded", function(e) {
+            e.detail.BOOMR.init({
+              producer_url: "https://monorail-edge.shopifysvc.com/v1/produce",
+              ResourceTiming: {
+                enabled: true,
+                trackedResourceTypes: ["script", "img", "css"]
+              },
+            });
+            e.detail.BOOMR.t_end = new Date().getTime();
+          });
+        } else if (document.attachEvent) {
+          document.attachEvent("onpropertychange", function(e) {
+            if (!e) e=event;
+            if (e.propertyName === "onBoomerangLoaded") {
+              e.detail.BOOMR.init({
+                producer_url: "https://monorail-edge.shopifysvc.com/v1/produce",
+                ResourceTiming: {
+                  enabled: true,
+                  trackedResourceTypes: ["script", "img", "css"]
+                },
+              });
+              e.detail.BOOMR.t_end = new Date().getTime();
+            }
+          });
+        }
+      })();
+    
+
+    
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"home"}
+        );
+      
+
+    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+    var token = match? match[1]: undefined;
+    if (!hasLoggedConversion(token)) {
+      setCookieIfConversion(token);
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-68ba3f1321f00bf07cb78a03841621079812265e950cdccade3463749ea2705e.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t;null!==e.querySelector('form[action^="/contact"] input[name="form_type"][value="contact"]')&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.1/index.js"),e.body.appendChild(t))})}(document);</script>
+<script integrity="sha256-JP8SIsmqE7shdlPA0+ooxAp5aigObaKa1CHuwqYHXIY=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-24ff1222c9aa13bb217653c0d3ea28c40a796a280e6da29ad421eec2a6075c86.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+
+
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+  
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+<script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/respond.min.js?v=5224867783754261923" type="text/javascript"></script>
+<link href="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="//csca.ryerson.ca/search?q=766fe2be4956cf042028391107d1f323" id="respond-redirect" rel="respond-redirect" />
+<script src="//csca.ryerson.ca/search?q=766fe2be4956cf042028391107d1f323" type="text/javascript"></script>
+<![endif]-->
+
+
+
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.min.js?v=3246042684083249002" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/modernizr.min.js?v=2662005555110224600" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.rwdImageMaps.min.js?v=3057995341206351917" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.fancybox.min.js?v=18375952681222568997" type="text/javascript"></script>
+
+  
+  
+  
+  
+  
+  <script async="async" src="//cdn.wishpond.net/connect.js?merchantId=1516022&amp;writeKey=204877655955" type="text/javascript"></script>
+
+</head>
+
+<body id="csca-ryerson-university" class="template-index" >
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8TWT6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <script>
+   if (window.location.protocol != "https:")
+       window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+</script>
+  
+  <div id="wrapper">
+  <div class="header-bar">
+  <div class="wrapper medium-down--hide">
+    <div class="large--display-table">
+      <div class="header-bar__left large--display-table-cell">
+        
+      </div>
+
+      <div class="header-bar__right large--display-table-cell">
+        <div class="header-bar__module">
+          <a href="/cart" class="cart-toggle">
+            <span class="icon icon-cart header-bar__cart-icon" aria-hidden="true"></span>
+            Cart
+            <span class="cart-count header-bar__cart-count hidden-count">0</span>
+          </a>
+        </div>
+
+        
+          <span class="header-bar__sep" aria-hidden="true">|</span>
+          <ul class="header-bar__module header-bar__module--list">
+
+               
+              <li>
+                
+<!--                 <a href="/account/register" id="customer_register_link">Free Member Sign Up</a>  -->
+                
+                <a href="/account/register" id="customer_register_link">Free Member Sign Up</a>
+                
+                
+                <span class="header-bar__sep" aria-hidden="true">|</span>
+                
+                <a href="/account/login" id="customer_login_link">Log In</a>
+              </li>
+            
+
+            
+          </ul>
+        
+
+        
+          <div class="header-bar__module header-bar__search">
+            <form action="/search" method="get" role="search">
+              
+              <input type="search" name="q" value="" aria-label="Search our website" class="header-bar__search-input">
+              <button type="submit" class="btn icon-fallback-text header-bar__search-submit">
+                <span class="icon icon-search" aria-hidden="true"></span>
+                <span class="fallback-text">Search</span>
+              </button>
+            </form>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="wrapper large--hide">
+    
+    <div class="grid__item small--one-fifth medium--one-fifth large--one-fifth"  style="padding-left:0px;">
+    <button type="button" class="mobile-nav-trigger" id="MobileNavTrigger">
+      <span class="icon icon-hamburger" aria-hidden="true"></span>
+      Menu
+    </button>
+    </div>
+    <div class="grid__item small--three-fifths medium--three-fifths large--three-fifths"  style="padding-left:0px;padding-top:2px;">
+    
+       
+          <div class="header-bar__module header-bar__search"  style="margin-bottom:0px; width: 100%; max-width: none;">
+            <form action="/search" method="get" role="search">
+              
+              <input type="search" name="q" value="" aria-label="Search our website" class="header-bar__search-input">
+              <button type="submit" class="btn icon-fallback-text header-bar__search-submit" style="width:16px;padding-left:5px;">
+                <span class="icon icon-search" aria-hidden="true"></span>
+                <span class="fallback-text">Search</span>
+              </button>
+            </form>
+          </div>
+        
+    </div>
+    <div class="grid__item small--one-fifth medium--one-fifth large--one-fifth"  style="padding-left:0px; padding-right:5px;">
+    
+    <a href="/cart" class="cart-toggle mobile-cart-toggle">
+      <span class="icon icon-cart header-bar__cart-icon" aria-hidden="true"></span>
+      Cart <span class="cart-count hidden-count">0</span>
+    </a>
+  </div>
+  </div>
+    
+  <ul id="MobileNav" class="mobile-nav large--hide">
+  
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        About
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/about-us">About CSCA</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/directors-message">Director's Message</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/staff-profiles">Staff Profiles</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/our-partners">Our Partners & Supporters</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        Membership
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/value-of-membership">Benefits of Membership</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/current-membership-a-c">Current Membership</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/account/register">Free Member Sign Up</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        Education
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/education-network">Education Network</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/eaton-chair-in-retailing">Eaton Chair in Retailing</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/research-connections">Research Connections</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/students">Students</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        Data
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/databases">Databases</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/metrics">Metrics</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/maps-infographics">Maps & Infographics</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/pages/custom-data-requests">Custom Data Requests</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        Research Insights
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/research-insights">Research Insights</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/archive">Archive</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="#" class="mobile-nav__sublist-trigger">
+        Events
+        <span class="icon-fallback-text mobile-nav__sublist-expand">
+  <span class="icon icon-plus" aria-hidden="true"></span>
+  <span class="fallback-text">+</span>
+</span>
+<span class="icon-fallback-text mobile-nav__sublist-contract">
+  <span class="icon icon-minus" aria-hidden="true"></span>
+  <span class="fallback-text">-</span>
+</span>
+      </a>
+      <ul class="mobile-nav__sublist">  
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/upcoming-events">Upcoming Events</a>
+          </li>
+        
+          <li class="mobile-nav__sublist-link">
+            <a href="/collections/past-events">Past Events</a>
+          </li>
+        
+      </ul>
+    
+  </li>
+  
+  
+  <li class="mobile-nav__link" aria-haspopup="true">
+    
+      <a href="/pages/contact-us" class="mobile-nav">
+        Contact Us
+      </a>
+    
+  </li>
+  
+  
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+  
+    
+  
+
+  
+    
+    <li class="mobile-nav__link">
+      <a href="/account/register" id="customer_register_link">Free Member Sign Up</a>
+    </li>
+    <li class="mobile-nav__link">
+      <a href="/account/login" id="customer_login_link">Log In</a>
+    </li>
+
+     
+    
+  
+</ul>
+
+</div>
+
+
+  
+
+  
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <div class="large--display-table">
+        <div class="grid__item large--three-twelfths large--display-table-cell" style="padding:0px;">
+          
+            <h1 class="site-header__logo large--left" itemscope itemtype="http://schema.org/Organization">
+          
+            
+              <a href="/" itemprop="url">
+                <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/logo.png?v=540731475510206179" alt="CSCA, Ryerson University" itemprop="logo">
+              </a>
+            
+          
+            </h1>
+          
+          
+        </div>
+        <div class="grid__item large--nine-twelfths large--display-table-cell medium-down--hide">
+          
+<ul class="site-nav" id="AccessibleNav">
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          About
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/pages/about-us" class="site-nav__link">About CSCA</a>
+            </li>
+          
+            <li>
+              <a href="/pages/directors-message" class="site-nav__link">Director&#39;s Message</a>
+            </li>
+          
+            <li>
+              <a href="/pages/staff-profiles" class="site-nav__link">Staff Profiles</a>
+            </li>
+          
+            <li>
+              <a href="/pages/our-partners" class="site-nav__link">Our Partners &amp; Supporters</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          Membership
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/pages/value-of-membership" class="site-nav__link">Benefits of Membership</a>
+            </li>
+          
+            <li>
+              <a href="/pages/current-membership-a-c" class="site-nav__link">Current Membership</a>
+            </li>
+          
+            <li>
+              <a href="/account/register" class="site-nav__link">Free Member Sign Up</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          Education
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/pages/education-network" class="site-nav__link">Education Network</a>
+            </li>
+          
+            <li>
+              <a href="/pages/eaton-chair-in-retailing" class="site-nav__link">Eaton Chair in Retailing</a>
+            </li>
+          
+            <li>
+              <a href="/pages/research-connections" class="site-nav__link">Research Connections</a>
+            </li>
+          
+            <li>
+              <a href="/pages/students" class="site-nav__link">Students</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          Data
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/collections/databases" class="site-nav__link">Databases</a>
+            </li>
+          
+            <li>
+              <a href="/collections/metrics" class="site-nav__link">Metrics</a>
+            </li>
+          
+            <li>
+              <a href="/collections/maps-infographics" class="site-nav__link">Maps &amp; Infographics</a>
+            </li>
+          
+            <li>
+              <a href="/pages/custom-data-requests" class="site-nav__link">Custom Data Requests</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          Research Insights
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/collections/research-insights" class="site-nav__link">Research Insights</a>
+            </li>
+          
+            <li>
+              <a href="/collections/archive" class="site-nav__link">Archive</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li class="site-nav--has-dropdown" aria-haspopup="true">
+        <a href="#" class="site-nav__link">
+          Events
+          <span class="icon-fallback-text">
+            <span class="icon icon-arrow-down" aria-hidden="true"></span>
+          </span>
+        </a>
+        <ul class="site-nav__dropdown">
+          
+            <li>
+              <a href="/collections/upcoming-events" class="site-nav__link">Upcoming Events</a>
+            </li>
+          
+            <li>
+              <a href="/collections/past-events" class="site-nav__link">Past Events</a>
+            </li>
+          
+        </ul>
+      </li>
+    
+  
+    
+    
+    
+      <li >
+        <a href="/pages/contact-us" class="site-nav__link">Contact Us</a>
+      </li>
+    
+  
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+   
+
+  <main role="main">
+    
+ 
+       
+    <div class="main-content">
+      
+	 
+    <div class="main-content" style="background-color:#005a9b">
+        <div class="grid wrapper">
+            <div id="mainImage" class="grid__item large--five-fifths">
+                
+	 
+	 
+	 
+	
+
+    <div class="rte">
+     
+      <div class="large--show medium-down--hide">
+        <dl id="gmap" style="background:url(//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/mainImage.png?v=348420801660171178)">
+
+          <dd><a id="Education" class="hoverImage" title="Education Network" href="https://csca.ryerson.ca/pages/education-network"></a></dd>
+          <dd><a id="Membership" class="hoverImage" title="Value of Membership" href="https://csca.ryerson.ca/pages/value-of-membership"></a></dd>
+          <dd><a id="Events" class="hoverImage" title="Upcoming Events" href="https://csca.ryerson.ca/collections/upcoming-events"></a></dd>
+          <dd><a id="Research" class="hoverImage" title="Research Insights" href="https://csca.ryerson.ca/collections/research-insights"></a></dd>
+          <dd><a id="Data" class="hoverImage" title="Member Data Releases" href="https://csca.ryerson.ca/collections/data-releases"></a></dd>
+        </dl>
+      </div>
+
+      <div class="medium-down--hide large--hide "> 
+        
+        <img id="mainImage" src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/mainImage.png?v=348420801660171178"  title="Map" usemap="#map" style="padding-top:20px;"/> 
+        <map name="map">
+          <area shape="circle" coords="702,156,30" href="https://csca.ryerson.ca/pages/education-network" alt="Education Network" title="Education Network" />
+          <area shape="circle" coords="564,91,24" href="https://csca.ryerson.ca/pages/value-of-membership" alt="Value of Membership" title="Value of Membership" />
+          <area shape="circle" coords="342,51,24" href="https://csca.ryerson.ca/collections/upcoming-events" alt="Upcoming Events" title="Upcoming Events" />
+          <area shape="circle" coords="180,167,31" href="https://csca.ryerson.ca/collections/research-insights" alt="Research Insights" title="Research Insights" />
+          <area shape="circle" coords="477,191,46" href="https://csca.ryerson.ca/collections/data-releases" alt="Member Data Releases" title="Member Data Releases" />
+        </map> 
+      </div>
+
+      <div id="main-description">
+        <br>
+      <h2>Who we are</h2>
+      <p>The Centre for the Study of Commercial Activity (CSCA) is a member-supported non-profit research centre, located at the Ted Rogers School of Management at Ryerson University in Toronto, Ontario. The CSCA studies location-based trends in the consumer service sector and collects and reports on a broad array of location data sets. The Centre facilitates discussion of emerging industry issues and the exchange of ideas while promoting research, innovation, education and debate. The Centre is supported by private and public sector members and works with a number of industry partners.</p>     
+      </div>
+    </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+<div class="main-content" style="position:relative;background-color:#005a9b ">
+  <div class="grid">
+    <div class="grid__item large--five-fifths">
+      <div id="responsiveTabs">
+        <ul>
+          <li><a href="#tab-1">Latest Research Insight</a></li>
+          <li><a href="#tab-2">Latest Data Release</a></li>
+          <li><a href="#tab-3">Latest Metrics</a></li>
+        </ul>
+        <!-- Content container -->
+        <div style="background-color:#eeeeee;">
+            <div id="tab-1"  class="text-left wrapper" style="background: url('//cdn.shopify.com/s/files/1/0849/8916/files/home-3-bg.png?8860195407186456195') no-repeat right bottom">
+              
+                              
+                <div class="grid">
+                  <div class="grid__item large--one-third medium--one-third small--one-whole">
+                    <img src="//cdn.shopify.com/s/files/1/0849/8916/products/400by300_6303ed8a-30ce-4062-9116-77b8bf776cc8.jpg?v=1583942894" alt="Commercial Activity in the GTA and the Impact of E-Commerce">
+                  </div>
+                  <div class="grid__item large--two-thirds medium--two-thirds small--one-whole">
+                    <h2><a href="/products/commercial-activity-in-the-gta-and-the-impact-of-e-commerce">Commercial Activity in the GTA and the Impact of E-Commerce</a></h2>
+                    <p><script type="text/javascript" src="//s3.amazonaws.com/js-static/18fe990e484820dae3.js"></script> <p><span>By <a href="https://csca.ryerson.ca/pages/dr-maurice-yeates" title="Maurice Yeates">Dr. Maurice Yeates</a>, <a href="https://csca.ryerson.ca/pages/dr-tony-hernandez" title="Dr. Tony Hernandez">Dr. Tony Hernandez</a> and Vincent Kakuk</span></p> <p>This CSCA Research Insight focuses on the changing commercial structure of the Greater Toronto Area throughout the 2010s. Combining data sets from the CSCA, Statistics Canada and Environics Analytics our analysis highlights the...</p>
+                  </div>
+                </div>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            </div>
+            <div id="tab-2"  class="text-left wrapper"  style="background: url('//cdn.shopify.com/s/files/1/0849/8916/files/home-2-bg.png?8860195407186456195') no-repeat right bottom">
+           
+                
+                              
+                <div class="grid">
+                  <div class="grid__item large--one-third medium--one-third small--one-whole">
+                    <img src="//cdn.shopify.com/s/files/1/0849/8916/products/scd.jpg?v=1468322005" alt="Shopping Centre Data (SCD)">
+                  </div>
+                  <div class="grid__item large--two-thirds medium--two-thirds small--one-whole">
+                    <h2><a href="/products/shopping-centre-database">Shopping Centre Data (SCD)</a></h2>
+                    <p><p>A <strong>national database</strong> that provides a comprehensive <strong>current quarterly</strong> view of Shopping Centres (SCD) across Canada in a spatial format that can be used within a wide range of business applications, including:</p> <ul> <li>Calculate shopping centre square footage by market</li> <li>Calculate year over year change in square footage by market</li> <li>Populate...</p>
+                  </div>
+                </div>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+              
+            </div>
+            <div id="tab-3"  class="text-left wrapper"  style="background: url('//cdn.shopify.com/s/files/1/0849/8916/files/home-1-bg.png?17331916842269656156') no-repeat right bottom">
+               
+                              
+                <div class="grid">
+                  <div class="grid__item large--one-third medium--one-third small--one-whole">
+                    <img src="//cdn.shopify.com/s/files/1/0849/8916/products/metrics_185ccc10-6630-4a68-8fe1-caac2b95a38d.jpg?v=1468367375" alt="CSCA Base Metrics Package - Shopping Centres (SCD)">
+                  </div>
+                  <div class="grid__item large--two-thirds medium--two-thirds small--one-whole">
+                    <h2><a href="/products/csca-base-metrics-package-scd">CSCA Base Metrics Package - Shopping Centres (SCD)</a></h2>
+                    <p><p>The SCD Base Metrics package provides you with quick reference summary statistics and cross-tabs from the most recent release of the Shopping Centre Database. The CSCA's location-based shopping centre data is combined with Environics Analytics' population and household income demographics (DemoStats) at various levels of geography (province, major market and...</p>
+                  </div>
+                </div>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content" style="background-color:#a6d78f ">
+  <div class="grid">
+    <div class="grid__item large--five-fifths">
+      <div class="wrapper homepage-newsletter">
+        
+ 
+
+<div class="grid">
+	<div class="grid__item three-tenths text-right small--one-whole small--text-center">
+
+        <h2>Keep Up to Date</h2>
+
+	</div>
+  	<div class="grid__item seven-tenths small--one-whole">
+      <form action="//ryerson.us10.list-manage.com/subscribe/post?u=1c2d62165eaf5d544e9a77b26&amp;id=4824a89776" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="small--hide">
+        <div class="grid">
+          <div class="grid__item seven-tenths">	
+            <input type="email" value="" placeholder="Please enter your email address" name="EMAIL" id="mail" aria-label="your-email@example.com" autocorrect="off" autocapitalize="off">
+           <div style="display:none;">
+<input type="checkbox" value="1" name="group[9501][1]" id="mce-group[9501]-9501-0"><label for="mce-group[9501]-9501-0">subscriber</label>
+<input type="checkbox" value="2" checked name="group[9501][2]" id="mce-group[9501]-9501-1"><label for="mce-group[9501]-9501-1">member</label>
+ </div> 
+            <p class="small"><small>Please join our distribution list to receive e-mail updates on the latest research, data releases and events. We will not share your email with any third party vendors.       <strong><br><br>Note: </strong>If you have a member account, you already receive these e-mails.</small></p>
+          </div>
+          <div class="grid__item three-tenths no-left-padding">
+            <input type="submit" class="btn" name="subscribe" id="subscribe" value="Subscribe">
+            <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/shadow.png?v=11337271710684529740">
+          </div>
+        </div>
+      </form>
+
+      <form action="//ryerson.us10.list-manage.com/subscribe/post?u=1c2d62165eaf5d544e9a77b26&amp;id=4824a89776" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="large--hide medium--hide input-group">
+        <div class="grid wrapper docs-body">
+          <div class="grid__item seven-tenths">	
+            <input type="email" value="" placeholder="your-email@example.com" name="EMAIL" id="mail" class="input-group-field" aria-label="your-email@example.com" autocorrect="off" autocapitalize="off">
+           </div>
+          <div class="grid__item three-tenths no-left-padding">
+            <span class="input-group-btn">
+              <input type="submit" class="btn" name="subscribe" id="subscribe" value="Subscribe">
+            </span>
+          </div>
+          <div class="grid__item one-whole">	
+            <p class="small"><small>Please join our distribution list to receive e-mail updates on the latest research, data releases and events. We will not share your email with any third party vendors.       <strong><br><br>Note: </strong>If you have a member account, you already receive these e-mails.</small></p>
+          </div>	
+        </div>
+      </form>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content" style="background-color:#5da380 ">
+  <div class="grid docs-body">
+    <div class="grid__item large--five-fifths">
+      <div class="wrapper homepage-value">
+        <h2>Benefits of CSCA Membership</h2>
+        <br>
+        <div class="grid__item large--two-sixths medium--two-sixths">
+          <a href="/collections/data-releases">
+            <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/home-data.png?v=16249303541305979322" width="100" height="100" alt="Location Data & Metrics">
+          </a>
+          <h4>Access to Data</h4>
+          <p>Obtain our location databases</p>
+        </div>
+        <div class="grid__item large--two-sixths medium--two-sixths">
+          <a href="/collections/research-insights">
+            <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/home-publications.png?v=9184092303433116013" width="100" height="100" alt="Research Insights">
+          </a>
+          <h4>Access to Research Insights</h4>
+          <p>Download our industry-focused reports</p>
+        </div>
+        <div class="grid__item large--two-sixths medium--two-sixths" >
+          <a href="/collections/upcoming-events">
+            <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/home-seminars.png?v=12248525285629789524" width="100" height="100" alt="Research Events">
+          </a>
+          	<h4>Access to Events</h4>
+         	<p>Join us at our conferences and seminars</p>
+		</div>
+        <div class="grid__item large--six-sixths">
+            <a href="pages/value-of-membership" class="btn">SIGN UP FOR FREE</a>
+          	<img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/shadow.png?v=11337271710684529740">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content">
+  <div class="grid">
+    <div class="grid__item large--five-fifths">
+      <div class="wrapper homepage-partner">
+        <h2>Our Partners & Supporters</h2>
+        <div class="partner-container">
+          <div>
+            <a href="pages/our-partners#alteryx"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/alteryx_large.png?v=7491313463308692472" width="100"></a>
+          </div>
+          <div>
+            <a href="pages/our-partners#dmti"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/dmti.logo.jpg?v=9816947684014880147" width="170"></a>
+          </div>
+          <div>
+            <a href="pages/our-partners#environics"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/environics_large.png?v=13302482921463424804" width="182"></a>
+          </div>
+          <div>
+              <a href="pages/our-partners#tetrad"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/tetrad_large.png?v=14737089368030381701" width="132"></a>
+          </div>
+          <br>
+          <div>
+            <a href="pages/our-partners#rcc"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/rcc_large.png?v=12692315465789166266" width="127"></a>
+          </div>
+          <div>
+            <a href="pages/our-partners#eatonChair"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/eatonChair.png?v=12183441822360430785" width="167"></a>
+          </div>
+          <div>
+          
+            <a href="pages/our-partners#icsc"><img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/ICSC_large.png?v=5040255678266847302" width="54"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script>
+  jQuery(document).ready(function ($) {    
+    $('#responsiveTabs').responsiveTabs({
+      startCollapsed: 'tabs',
+      rotate: false,
+      animation: 'fade',
+      animationQueue: 'tabs',
+      duration: 500,
+      scrollToAccordionOnLoad: false,
+      scrollToAccordion: false
+    });
+    $('#responsiveTabs').responsiveTabs('startRotation', 5000);
+    $('#mainImage').rwdImageMaps();
+  });
+
+ 
+</script>   
+    </div>
+    
+      
+
+    
+
+
+
+    
+    
+    
+   
+  </main>
+
+
+  <footer class="site-footer main-content small--text-center" role="contentinfo">
+
+    <div class="grid wrapper">
+
+      <div class="grid-uniform ">
+
+        
+        
+        
+        
+        
+        
+
+        
+
+
+
+        
+
+        
+
+       
+      </div>
+
+ 
+  	<div class="grid">
+      
+       <div class="grid__item large--three-twelfths large--text-left medium--three-twelfths small--hide">
+
+         <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank"> <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/trsmOffical.png?v=3516683117128565901" alt="TRSM logo" itemprop="logo"></a>
+        </div> 
+      
+        <div class="grid__item large--six-twelfths large--text-center medium--six-twelfths small--one-whole  small--text-center" >
+          
+              <ul class="site-footer__links">
+                
+                <li><a href="/pages/media-inquiries">Media Inquiries</a></li>
+                
+                <li><a href="/pages/terms-and-conditions">Terms and Conditions</a></li>
+                
+                <li><a href="/pages/privacy">Privacy </a></li>
+                
+              </ul>
+        
+        </div>
+       
+        <div class="grid__item large--three-twelfths large--text-right medium--three-twelfths  small--one-half" style="padding-left:50px;">
+
+          
+
+            <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/cscaOffical.png?v=6343847587358199841" alt="CSCA logo" width="306" itemprop="logo">
+          
+
+          
+        
+          
+        </div>
+       <div class="grid__item large--hide medium--hide small--one-half small--show" style="padding-right:30px;">
+
+         <a href="http://www.ryerson.ca/tedrogersschool/" target="_blank"> <img src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/trsmOffical.png?v=3516683117128565901" alt="TRSM logo" itemprop="logo"></a>
+        </div> 
+      
+       </div>
+  
+       
+    
+    </div>
+
+  </footer>
+  </div>
+
+  
+    <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.flexslider.min.js?v=3323765235605948987" type="text/javascript"></script>
+    <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/slider.js?v=15414481400724898617" type="text/javascript"></script>
+  
+
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/fastclick.min.js?v=2972345853941092237" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/timber.js?v=12669762031088318678" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/theme.js?v=11001042389249405085" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.responsiveTabs.min.js?v=2117205858508945847" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.multiselect.js?v=14609793850930024699" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/jquery.validate.min.js?v=12008191487026855538" type="text/javascript"></script>
+  
+  
+
+  
+    <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/handlebars.min.js?v=7904446995236839729" type="text/javascript"></script>
+
+    
+  <script id="CartTemplate" type="text/template">
+  
+    <form action="/cart" method="post" novalidate>
+      <div class="ajaxcart__inner">
+        {{#items}}
+        <div class="ajaxcart__product">
+          <div class="ajaxcart__row" data-id="{{id}}">
+            <div class="grid">
+              <div class="grid__item large--two-thirds">
+                <div class="grid">
+                  <div class="grid__item one-quarter">
+                    <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt=""></a>
+                  </div>
+                  <div class="grid__item three-quarters">
+                    <a href="{{url}}" class="h4">{{name}}</a>
+                    <p>{{variation}}</p>    -->
+                  </div>
+                </div>
+              </div>
+              <div class="grid__item large--one-third">
+                <div class="grid">
+               
+                  <div class="grid__item one-third">
+                    <div class="ajaxcart__qty">
+                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus" data-id="{{id}}" data-qty="{{itemMinus}}">&minus;</button>
+                      <input type="text" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*">
+                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus" data-id="{{id}}" data-qty="{{itemAdd}}">+</button>
+                    </div>
+                  </div>
+                 
+                  <div class="grid__item one-third text-center">
+                    <p>{{price}}</p>
+                  </div>
+                 
+                  <div class="grid__item one-third text-right">
+                    <p>
+                      <small><a href="/cart/change?id={{id}}&amp;quantity=0" class="ajaxcart__remove" data-id="{{id}}">Remove</a></small>
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/items}}
+      </div>
+      <div class="ajaxcart__row text-right medium-down--text-center">
+        <span class="h3">Subtotal {{totalPrice}}</span>
+        <input type="submit" class="{{btnClass}}" name="checkout" value="Checkout">
+      </div>
+    </form>
+  
+  </script>
+  <script id="DrawerTemplate" type="text/template">
+  
+    <div id="AjaxifyDrawer" class="ajaxcart ajaxcart--drawer">
+      <div id="AjaxifyCart" class="ajaxcart__content grid__item docs-body {{wrapperClass}}"></div>
+    </div>
+  
+  </script>
+  <script id="ModalTemplate" type="text/template">
+  
+    <div id="AjaxifyModal" class="ajaxcart ajaxcart--modal">
+      <div id="AjaxifyCart" class="ajaxcart__content grid__item"></div>
+    </div>
+  
+  </script>
+  <script id="AjaxifyQty" type="text/template">
+  
+
+    <div class="ajaxcart__qty">
+      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus" data-id="{{id}}" data-qty="{{itemMinus}}">&minus;</button>
+      <input type="text" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*">
+      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus" data-id="{{id}}" data-qty="{{itemAdd}}">+</button>
+    </div>
+
+  
+  </script>
+  <script id="JsQty" type="text/template">
+  
+  <!--
+    <div class="js-qty">
+      <button type="button" class="js-qty__adjust js-qty__adjust--minus" data-id="{{id}}" data-qty="{{itemMinus}}">&minus;</button>
+      <input type="text" class="js-qty__num" value="{{itemQty}}" min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}">
+      <button type="button" class="js-qty__adjust js-qty__adjust--plus" data-id="{{id}}" data-qty="{{itemAdd}}">+</button>
+    </div>
+    -->
+  
+  </script>
+
+
+    <script src="//cdn.shopify.com/s/files/1/0849/8916/t/4/assets/ajaxify.js?v=16781087255204373141" type="text/javascript"></script>
+    <script>
+    jQuery(function($) {
+      ajaxifyShopify.init({
+        method: 'drawer',
+        wrapperClass: 'wrapper',
+        formSelector: '#AddToCartForm',
+        addToCartSelector: '#AddToCart',
+        cartCountSelector: '.cart-count',
+        toggleCartButton: '.cart-toggle',
+        btnClass: 'btn',
+        moneyFormat: "${{amount}}"
+      });
+    });
+    </script>
+  
+
+  
+
+  
+  <script>
+    jQuery(document).ready(function ($) {
+      jQuery(function() {
+        jQuery('.sidebar-module__list li').each(function() {    
+          var href = jQuery(this).find('a').attr('href');
+          var pageURL = window.location.pathname;
+          // this is for the current membership side list
+          if (pageURL.startsWith("/pages/current-membership")){
+            jQuery(".sidebar-module__list").find('li:eq(1) a').addClass('current');
+          }
+          ///////
+          if (href === pageURL) {
+            jQuery(this).find('a').addClass('current');
+          }else{
+            url = window.location.pathname.split("/");
+            link = href.split("/");
+            if (link[2] === url[2]){
+              jQuery(this).find('a').addClass('current');
+            }
+          }
+        });
+      });  
+      if($("#customr").length != 0) {
+        $('.top-line').html('<h1>My Account</h1><h4>Manage my account and order history</h4>')
+        $('.email-field span').text('Email / Username ');
+        $('.cta-button').val('Save Username').attr('data-static','Save Username');
+        $('#customr a').text('< Back to Order History');
+        $('#customr').addClass('grid__item');
+      }
+      
+      var pathname = window.location.pathname;
+     if (pathname.match("^/apps/downloads")) {
+        $('.top-line').html('<h1>My Account</h1><h4>Manage my account and order history</h4>');
+      }
+
+    });
+  </script>
+</body>
+</html>

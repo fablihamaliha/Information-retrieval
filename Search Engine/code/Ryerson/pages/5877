@@ -1,0 +1,991 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-9', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/asc/xmlrpc.php" />
+
+  <title>#WIRED: A Digital History of Ryerson University &#8211; Ryerson Archives &amp; Special Collections</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Feed" href="https://library.ryerson.ca/asc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Comments Feed" href="https://library.ryerson.ca/asc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; #WIRED: A Digital History of Ryerson University Comments Feed" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='child-pages-shortcode-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/css/child-pages-shortcode.min.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/public.css?ver=2.7' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/lightGallery.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dashicons.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='galleria-classic-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.css?ver=1.6.1' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=9.2' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/js/child-pages-shortcode.min.js?ver=1.1.4' id='child-pages-shortcode-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/lightGallery.min.js?ver=1.0' id='slickr-flickr-lightbox-js'></script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/galleria-1.6.1.min.js?ver=1.6.1' id='galleria-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.min.js?ver=1.6.1' id='galleria-classic-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/responsiveslides.min.js?ver=1.54' id='rslides-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/public.js?ver=2.7' id='slickr-flickr-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/asc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/asc/wp-json/wp/v2/posts/2752" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/asc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/asc/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The War of 1812, Two Hundred Years Ago' href='https://library.ryerson.ca/asc/2012/12/the-war-of-1812-two-hundred-years-ago/' />
+<link rel='next' title='Feature from the Collections: Looking Back at the History of the Normal School Building &#8211; Part One' href='https://library.ryerson.ca/asc/2013/02/feature-from-the-collections-looking-back-at-the-history-of-the-normal-school-building-part-one/' />
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/" />
+<link rel='shortlink' href='https://wp.me/p2HpLS-Io' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/asc/custom-css/asc_style.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="#WIRED: A Digital History of Ryerson University" />
+<meta property="og:url" content="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/" />
+<meta property="og:description" content="&nbsp;“Computing will most undoubtedly prove to be the most significant development to technology in the second half of the twentieth century. The extent to which Ryerson students graduate with a f…" />
+<meta property="article:published_time" content="2013-01-28T20:29:01+00:00" />
+<meta property="article:modified_time" content="2020-05-22T20:37:29+00:00" />
+<meta property="og:site_name" content="Ryerson Archives &amp; Special Collections" />
+<meta property="og:image" content="https://library.ryerson.ca/asc/files/2013/01/img024.jpg" />
+<meta property="og:image:width" content="1356" />
+<meta property="og:image:height" content="1060" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@ryersonlibrary" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+<meta name="twitter:text:title" content="#WIRED: A Digital History of Ryerson University" />
+<meta name="twitter:image" content="https://library.ryerson.ca/asc/files/2013/01/img024.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			#main {
+	margin-top: 1em;
+}
+span.h1 a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-2752 single-format-standard">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Ryerson Archives and Special Collections will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/asc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/asc">Ryerson Archives &amp; Special Collections</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/asc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-site-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261 dropdown"><a title="Research" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Research <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a title="Conduct Research" href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a title="Collection Highlights" href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a title="Language in Archival Descriptions" href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a title="Search our Collections" href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6156 dropdown"><a title="Exhibitions &amp; Events" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Exhibitions &#038; Events <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6159"><a title="Current Exhibits" href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6160"><a title="Previous Exhibits" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/">Previous Exhibits</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157 dropdown"><a title="About Us" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About Us <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a title="Archives" href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a title="Special Collections" href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a title="Donations" href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a title="Hours &amp; Location" href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158 dropdown"><a title="More" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">More <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a title="Records Management" href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a title="Ryerson History" href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a title="Links" href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a title="COVID-19 Archives" href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12 col-md-9">
+          
+    
+        <nav id="nav-single">
+    <h3 class="assistive-text">Post navigation</h3>
+    <span class="nav-previous"><a href="https://library.ryerson.ca/asc/2012/12/the-war-of-1812-two-hundred-years-ago/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+    <span class="nav-next"><a href="https://library.ryerson.ca/asc/2013/02/feature-from-the-collections-looking-back-at-the-history-of-the-normal-school-building-part-one/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+  </nav><!-- #nav-single -->
+
+<article id="post-2752" class="post-2752 post type-post status-publish format-standard hentry category-archives category-exhibits tag-computers tag-digital-culture tag-exhibitions tag-history tag-ryerson-history tag-ryerson-university tag-technology">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/">#WIRED: A Digital History of Ryerson University</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/" title="3:29 pm" rel="bookmark"><time class="entry-date" datetime="2013-01-28T15:29:01-05:00" pubdate>January 28, 2013</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/jpascoe/" title="View all posts by Julienne" rel="author">Julienne</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p><i>&nbsp;“Computing will most undoubtedly prove to be the most significant development to technology in the second half of the twentieth century. The extent to which Ryerson students graduate with a firm understanding of this new and exciting field, will greatly affect their ability to contribute to society.”&nbsp; </i></p>
+
+
+
+<p>&#8211; L.B. Moore, Director of the Ryerson Computing Centre, 1973.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img024/" rel="attachment wp-att-2756"><img data-attachment-id="2756" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img024/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img024.jpg" data-orig-size="1356,1060" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Secretarial Science Class" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img024-300x234.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img024-600x469.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img024-300x234.jpg" alt="A classroom scene in the Secretarial Science program, 1962. (RG 95.1.1679.10)" class="wp-image-2756" width="603" height="470" srcset="https://library.ryerson.ca/asc/files/2013/01/img024-300x234.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img024-150x117.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img024-600x469.jpg 600w, https://library.ryerson.ca/asc/files/2013/01/img024.jpg 1356w" sizes="(max-width: 603px) 100vw, 603px" /></a><figcaption>A classroom scene in the Secretarial Science program, 1962. (RG 95.1. &#8220;Secretarial Science&#8221;)</figcaption></figure></div>
+
+
+
+<p>Ryerson University began as a polytechnic institute devoted to the training of students in applied technology. This technical history has informed Ryerson’s identity and culture, playing a significant role in the way the University defines its relationship to the digital age. As we enter an era of ever changing technology and a digitally-connected society, a look back at the early days of computing at Ryerson highlights the development of a digital campus and its impact on the Ryerson way of life.</p>
+
+
+
+<h3><strong>DAISY</strong></h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img011/" rel="attachment wp-att-2757"><img data-attachment-id="2757" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img011/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img011.jpg" data-orig-size="1011,985" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="DAISY" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img011-300x292.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img011-600x584.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img011-300x292.jpg" alt="The computer centre with DAISY and connected terminals." class="wp-image-2757" width="579" height="564" srcset="https://library.ryerson.ca/asc/files/2013/01/img011-300x292.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img011-150x146.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img011-600x584.jpg 600w, https://library.ryerson.ca/asc/files/2013/01/img011.jpg 1011w" sizes="(max-width: 579px) 100vw, 579px" /></a><figcaption>Ryerson&#8217;s first computer centre with DAISY and connected terminals. (<a href="https://archives.library.ryerson.ca/index.php/computing-centre-and-daisy-photographs" target="_blank" rel="noreferrer noopener">RG 63.72</a>)</figcaption></figure></div>
+
+
+
+<p>Always at the forefront of innovation, Ryerson’s early use of computing technology began in the 1960s when Ryerson was one of the first institutions to acquire a general purpose computer, an IBM Model 360-30, affectionately nicknamed “DAISY” (Direct Access Information System).</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img012/" rel="attachment wp-att-2762"><img data-attachment-id="2762" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img012/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img012.jpg" data-orig-size="802,1537" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Rambler Article" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img012-156x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img012-313x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img012-156x300.jpg" alt="&quot;Daisy&quot; Chooses Miss Ryerson '68. One of the many &quot;jobs&quot; DAISY was tasked with. (The Rambler, Summer 1968) " class="wp-image-2762" width="433" height="833" srcset="https://library.ryerson.ca/asc/files/2013/01/img012-156x300.jpg 156w, https://library.ryerson.ca/asc/files/2013/01/img012-78x150.jpg 78w" sizes="(max-width: 433px) 100vw, 433px" /></a><figcaption>&#8220;Daisy&#8221; Chooses Miss Ryerson &#8217;68&#8221;. One of the many &#8220;jobs&#8221; DAISY performed. (The Rambler, Summer 1968)</figcaption></figure></div>
+
+
+
+<p>It’s difficult to imagine a world without smart phones or even personal computers, but the early days of computing at Ryerson involved the use of one centralized system that students would line up to use. Eventually this changed to include the addition of terminals throughout campus that would connect via Bell phone lines to the main computer. The main functions were academic and administration assistance, including student registration, payroll, scheduling, grades, library circulation, and the occasional selection of Miss Ryerson.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img016/" rel="attachment wp-att-2759"><img data-attachment-id="2759" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img016/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img016.jpg" data-orig-size="849,728" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="DAISY" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img016-300x257.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img016-600x514.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img016-300x257.jpg" alt="&quot;DAISY LOVES ME&quot; Button. Students had a hate/love relationship with the overworked computer. (RG 63.71)" class="wp-image-2759" width="498" height="427" srcset="https://library.ryerson.ca/asc/files/2013/01/img016-300x257.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img016-150x128.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img016-600x514.jpg 600w, https://library.ryerson.ca/asc/files/2013/01/img016.jpg 849w" sizes="(max-width: 498px) 100vw, 498px" /></a><figcaption>&#8220;DAISY LOVES ME&#8221; Button. Students had a hate/love relationship with the overworked computer. (<a href="https://archives.library.ryerson.ca/index.php/button-daisy-loves-me" target="_blank" rel="noreferrer noopener">RG 63.71</a>)</figcaption></figure></div>
+
+
+
+<p>DAISY was not without its quirks. Nearing the end of its life-cycle the first model would confuse library punch cards and harass students with overdue notices on books that had been returned. In 1975 DAISY took the initiative of creating a brand new Journalism class consisting of three surprised students. DAISY would be upgraded three times (1967, 1969, and up to IBM Model 360.55 in 1973 which contained 256 kilobytes of core memory and cost the annual amount of $404,00</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img002-2/" rel="attachment wp-att-2758"><img data-attachment-id="2758" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img002-2/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img002.jpg" data-orig-size="981,1315" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Batch processing" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img002-223x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img002-447x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img002-223x300.jpg" alt="A woman in the computer centre &quot;batching&quot; punch card instructions to DAISY." class="wp-image-2758" width="500" height="673" srcset="https://library.ryerson.ca/asc/files/2013/01/img002-223x300.jpg 223w, https://library.ryerson.ca/asc/files/2013/01/img002-111x150.jpg 111w" sizes="(max-width: 500px) 100vw, 500px" /></a><figcaption>A woman in the computer centre &#8220;batching&#8221; punch card instructions to DAISY. <a href="https://archives.library.ryerson.ca/index.php/computing-centre-and-daisy-photographs" target="_blank" rel="noreferrer noopener">(RG 63.72)</a></figcaption></figure></div>
+
+
+
+<p>The process of running a “job” or task included manually typing programming instructions into a “punch” card, feeding the card into the computer terminal, which would then process the program and data, and print out the results. This process was called “batching”, and would continue until the 1980s, when the University realized the technology was quickly becoming obsolete. The ever-increasing rate of change and the resulting obsolete formats is a factor which would continue to define digital technology into the&nbsp;twenty-first&nbsp;century.</p>
+
+
+
+<h3><strong>THE YRCC</strong></h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img017/" rel="attachment wp-att-2760"><img data-attachment-id="2760" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img017/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img017.jpg" data-orig-size="1176,2128" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="The YRCC" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img017-165x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img017-331x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img017-165x300.jpg" alt="Official Opening York-Ryerson Computing Centre Program (RG 281.23)" class="wp-image-2760" width="392" height="713" srcset="https://library.ryerson.ca/asc/files/2013/01/img017-165x300.jpg 165w, https://library.ryerson.ca/asc/files/2013/01/img017-82x150.jpg 82w" sizes="(max-width: 392px) 100vw, 392px" /></a><figcaption>Official Opening York-Ryerson Computing Centre Program (<a href="https://archives.library.ryerson.ca/index.php/official-opening-of-york-ryerson-computing-centre" target="_blank" rel="noreferrer noopener">RG 281.23</a>)</figcaption></figure></div>
+
+
+
+<p>In 1974 the Joint York-Ryerson Computing Centre established the first cooperative computing centre in Canada with the objective of sharing expertise and reducing costs. This resulted in the end of DAISY, which was dismantled and returned to the American company from which it was leased. The first of its kind in Canada, the YRCC operated with the main computer at York and connected terminals at Ryerson.</p>
+
+
+
+<h3><strong>A MODERN COMPUTER CENTRE</strong></h3>
+
+
+
+<p>In the late 70s, the demand for more computers and processing capabilities gave rise to student protests over the lack of computer resources. The computer centre was so overwhelmed that they implemented restrictions and quotas on accessing the computer mainframe. Each department would receive an allotment for its students to use throughout the semester; if a student ran out of credit, then they would have to petition for increased time. In 1979 the situation escalated to the point of violence, in which a student was stabbed in the arm with a pen when he attempted to use someone’s punch-card terminal.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img019/" rel="attachment wp-att-2781"><img data-attachment-id="2781" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img019/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img019.jpg" data-orig-size="2511,3296" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Beg. Guide to Ryerson Mainframe" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img019-228x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img019-457x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img019-228x300.jpg" alt="The Beginner's Guide to the Ryerson Mainframe, 1992. (RG 63.74)" class="wp-image-2781" width="456" height="600" srcset="https://library.ryerson.ca/asc/files/2013/01/img019-228x300.jpg 228w, https://library.ryerson.ca/asc/files/2013/01/img019-114x150.jpg 114w, https://library.ryerson.ca/asc/files/2013/01/img019-457x600.jpg 457w" sizes="(max-width: 456px) 100vw, 456px" /></a><figcaption>The Beginner&#8217;s Guide to the Ryerson Mainframe, 1992.<br>(<a href="https://archives.library.ryerson.ca/index.php/official-opening-of-york-ryerson-computing-centre" target="_blank" rel="noreferrer noopener">RG 63.74</a>)</figcaption></figure></div>
+
+
+
+<p>In 1983, IBM donated $3.7 million worth of computer hardware and software to Ryerson, at the time the largest single donation to the institute. The equipment, an IBM 3033 processor, 300 terminals, five personal computers and advanced software, created an on-line interactive system and established the Ryerson Computing Centre.</p>
+
+
+
+<h3><strong>TECHNOLOGY IN THE LIBRARY</strong></h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img009/" rel="attachment wp-att-2764"><img data-attachment-id="2764" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img009/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img009.jpg" data-orig-size="2320,3103" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Bard vs Byte" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img009-224x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img009-448x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img009-224x300.jpg" alt="Bard vs. Byte (The Ryerson Rambler, Fall 1981)" class="wp-image-2764" width="439" height="588" srcset="https://library.ryerson.ca/asc/files/2013/01/img009-224x300.jpg 224w, https://library.ryerson.ca/asc/files/2013/01/img009-112x150.jpg 112w, https://library.ryerson.ca/asc/files/2013/01/img009-448x600.jpg 448w" sizes="(max-width: 439px) 100vw, 439px" /></a><figcaption>Bard vs. Byte (The Ryerson Rambler, Fall 1981)</figcaption></figure></div>
+
+
+
+<p>Ryerson Library was an early adopter of computer technology on campus. The early days of libraries consisted of card catalogues and handwritten entries signing out books. In the second half of the 20<sup>th</sup> century, this rapidly changed to an electronic format that would alter the way knowledge was organized and retrieved.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img015/" rel="attachment wp-att-2763"><img data-attachment-id="2763" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img015/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img015.jpg" data-orig-size="1151,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Book Lending Form" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img015-172x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img015-345x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img015-172x300.jpg" alt="Library book lending insert. (RG 5.204)" class="wp-image-2763" width="340" height="593" srcset="https://library.ryerson.ca/asc/files/2013/01/img015-172x300.jpg 172w, https://library.ryerson.ca/asc/files/2013/01/img015-86x150.jpg 86w" sizes="(max-width: 340px) 100vw, 340px" /></a><figcaption>Library book lending insert. (<a href="https://archives.library.ryerson.ca/index.php/sample-library-circulation-book-cards" target="_blank" rel="noreferrer noopener">RG 5.204</a>)</figcaption></figure></div>
+
+
+
+<p>For Ryerson Library the shift to digital began in 1968 when the library converted the author, title and catalogue data for all books to machine-readable form, implementing an electronic circulation control system to keep track of books. Students would no longer sign out books, but punch out computer cards.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img004-2/" rel="attachment wp-att-2765"><img data-attachment-id="2765" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img004-2/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img004.jpg" data-orig-size="2247,952" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Ryerson Library Punch Card" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img004-300x127.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img004-600x254.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img004-300x127.jpg" alt="Ryerson Library Circulation Book Card. (RG 5.204)" class="wp-image-2765" width="528" height="224" srcset="https://library.ryerson.ca/asc/files/2013/01/img004-300x127.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img004-150x63.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img004-600x254.jpg 600w" sizes="(max-width: 528px) 100vw, 528px" /></a><figcaption>Ryerson Library Circulation Book Card. (<a href="https://archives.library.ryerson.ca/index.php/sample-library-circulation-book-cards" target="_blank" rel="noreferrer noopener">RG 5.204</a>)</figcaption></figure></div>
+
+
+
+<p>In 1978, Ryerson library became the first library in North America to operate its circulation system on-line using DOBIS/LIBIS, a computerized library system developed by IBM in Europe. DOBIS (Dortmund Bibliotek System) replaced the dated Mohawk punch-card circulation system.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img006/" rel="attachment wp-att-2767"><img data-attachment-id="2767" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img006/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img006.jpg" data-orig-size="1900,1340" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="DOBIS System Launch with President Mordell" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img006-300x211.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img006-600x423.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img006-300x211.jpg" alt="Ryerson becomes the first North American University to install an online Library system. An explanation of the new DOBIS Library system with former President Walter Pitman, 1978. (RG 5.74)" class="wp-image-2767" width="526" height="370" srcset="https://library.ryerson.ca/asc/files/2013/01/img006-300x211.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img006-150x105.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img006-600x423.jpg 600w, https://library.ryerson.ca/asc/files/2013/01/img006.jpg 1900w" sizes="(max-width: 526px) 100vw, 526px" /></a><figcaption>The official opening of the Library&#8217;s online DOBIS/LIBIS system with former President Walter Pitman, 1978</figcaption></figure></div>
+
+
+
+<p>The circulation function involved the first-time use of barcode labels affixed to books and ID badges read by an IBM optical scanner. Throughout the 80s and 90s technological advancement in the library would continue, including the establishment of its first computer lab in 1982, as well as developments in subject indexing and electronic resources.</p>
+
+
+
+<p class="has-text-align-center"><strong>THE FUTURE</strong></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img007/" rel="attachment wp-att-2770"><img data-attachment-id="2770" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img007/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img007.jpg" data-orig-size="2068,1447" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Crack the Code" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img007-300x209.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img007-600x419.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img007-300x209.jpg" alt="Crack the code is a scavenger hunt developed by Ryerson mobile. (DOC File)" class="wp-image-2770" width="533" height="371" srcset="https://library.ryerson.ca/asc/files/2013/01/img007-300x209.jpg 300w, https://library.ryerson.ca/asc/files/2013/01/img007-150x104.jpg 150w, https://library.ryerson.ca/asc/files/2013/01/img007-600x419.jpg 600w" sizes="(max-width: 533px) 100vw, 533px" /></a><figcaption>Crack the code is a scavenger hunt developed by Ryerson mobile in 2010. (DOC File)</figcaption></figure></div>
+
+
+
+<p>In the last quarter century Ryerson University has paved the way for technology-driven learning. This can most clearly be seen with the new Student Learning Centre, which promises to provide an interactive environment employing the latest in digital technology. Projects such as the Digital Media Zone act as an incubator for Ryerson students to collaborate in the design and implementation of digital tools and apps. Accessible technology has placed students at the centre of e-learning, furthering the role students have in shaping their education and campus environment. These developments would not be possible without the small but significant steps taken in the 1960s towards a progressive, digital future.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img026/" rel="attachment wp-att-2782"><img data-attachment-id="2782" data-permalink="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/img026/" data-orig-file="https://library.ryerson.ca/asc/files/2013/01/img026.jpg" data-orig-size="1379,1852" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="IBM terminal in Ryerson Computer Centre" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2013/01/img026-223x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2013/01/img026-446x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2013/01/img026-223x300.jpg" alt="An IBM 2260 terminal in the Ryerson Computer Centre, c. 1970s. (RG The Beginner's Guide to the Ryerson Mainframe, 1992. (RG 63.72)" class="wp-image-2782" width="433" height="583" srcset="https://library.ryerson.ca/asc/files/2013/01/img026-223x300.jpg 223w, https://library.ryerson.ca/asc/files/2013/01/img026-111x150.jpg 111w, https://library.ryerson.ca/asc/files/2013/01/img026-446x600.jpg 446w, https://library.ryerson.ca/asc/files/2013/01/img026.jpg 1379w" sizes="(max-width: 433px) 100vw, 433px" /></a><figcaption>An IBM 2260 terminal in the Ryerson Computer Centre, c. 1970.<br>(<a href="https://archives.library.ryerson.ca/index.php/computing-centre-and-daisy-photographs" target="_blank" rel="noreferrer noopener">RG 63.72</a>)</figcaption></figure></div>
+
+
+
+<p>Bringing together diverse artifacts and historical materials from the Ryerson Archives, #WIRED is an exhibition that highlights pivotal moments in the digital evolution of Ryerson University. </p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-2752" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/archives/" rel="category tag">Archives</a>, <a href="https://library.ryerson.ca/asc/category/exhibits/" rel="category tag">Exhibits</a> and tagged <a href="https://library.ryerson.ca/asc/tag/computers/" rel="tag">Computers</a>, <a href="https://library.ryerson.ca/asc/tag/digital-culture/" rel="tag">Digital Culture</a>, <a href="https://library.ryerson.ca/asc/tag/exhibitions/" rel="tag">Exhibitions</a>, <a href="https://library.ryerson.ca/asc/tag/history/" rel="tag">History</a>, <a href="https://library.ryerson.ca/asc/tag/ryerson-history/" rel="tag">Ryerson History</a>, <a href="https://library.ryerson.ca/asc/tag/ryerson-university/" rel="tag">Ryerson University</a>, <a href="https://library.ryerson.ca/asc/tag/technology/" rel="tag">Technology</a> by <a href="https://library.ryerson.ca/asc/author/jpascoe/">Julienne</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/" title="Permalink to #WIRED: A Digital History of Ryerson University" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-2752 -->
+	<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			2 thoughts on &ldquo;<span>#WIRED: A Digital History of Ryerson University</span>&rdquo;		</h2>
+
+		
+		
+		<ol class="commentlist">
+			  <li class="comment even thread-even depth-1" id="li-comment-18241">
+    <article id="comment-18241" class="comment">
+      <footer class="comment-meta">
+        <div class="comment-author vcard">
+          <img alt='' src='https://secure.gravatar.com/avatar/a77ade0bbffde853e83a9b835df93c7e?s=68&#038;d=blank&#038;r=g' srcset='https://secure.gravatar.com/avatar/a77ade0bbffde853e83a9b835df93c7e?s=136&#038;d=blank&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' loading='lazy'/><span class="fn">Vivianne</span> on <a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/#comment-18241"><time pubdate datetime="2013-01-29T19:18:53-05:00">January 29, 2013 at 7:18 pm</time></a> <span class="says">said:</span>
+                  </div><!-- .comment-author .vcard -->
+
+        
+      </footer>
+
+      <div class="comment-content"><p>Great article, very interesting to read about the evolution of Ryerson&#8217;s involvement in computing and its embrace of new technology. Really cool that there is an exhibit. I must admit tho, I do miss the old Library book lending insert card, you got to see names of others who showed interest in the books you choose&#8230;idk made it more fun &amp; intimate like the book itself had a visible history!</p>
+</div>
+
+      <div class="reply">
+        <a rel='nofollow' class='comment-reply-link' href='https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?replytocom=18241#respond' data-commentid="18241" data-postid="2752" data-belowelement="comment-18241" data-respondelement="respond" data-replyto="Reply to Vivianne" aria-label='Reply to Vivianne'>Reply <span>&darr;</span></a>      </div><!-- .reply -->
+    </article><!-- #comment-## -->
+
+  </li><!-- #comment-## -->
+  <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-18250">
+    <article id="comment-18250" class="comment">
+      <footer class="comment-meta">
+        <div class="comment-author vcard">
+          <img alt='' src='https://secure.gravatar.com/avatar/6143c20a5345f130e26b78a902c8f639?s=68&#038;d=blank&#038;r=g' srcset='https://secure.gravatar.com/avatar/6143c20a5345f130e26b78a902c8f639?s=136&#038;d=blank&#038;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' loading='lazy'/><span class="fn">Matthew Twigg</span> on <a href="https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/#comment-18250"><time pubdate datetime="2013-01-30T10:37:11-05:00">January 30, 2013 at 10:37 am</time></a> <span class="says">said:</span>
+                  </div><!-- .comment-author .vcard -->
+
+        
+      </footer>
+
+      <div class="comment-content"><p>Really interesting stuff! It&#8217;s funny to think of how limited in use those early computer were, and just how quickly they became adopted. I&#8217;m wondering though, was the name DAISY in any way related to the IBM computer in the mid 50&#8217;s that sung the song Daisy Bell?</p>
+</div>
+
+      <div class="reply">
+        <a rel='nofollow' class='comment-reply-link' href='https://library.ryerson.ca/asc/2013/01/wired-a-digital-history-of-ryerson-university/?replytocom=18250#respond' data-commentid="18250" data-postid="2752" data-belowelement="comment-18250" data-respondelement="respond" data-replyto="Reply to Matthew Twigg" aria-label='Reply to Matthew Twigg'>Reply <span>&darr;</span></a>      </div><!-- .reply -->
+    </article><!-- #comment-## -->
+
+  </li><!-- #comment-## -->
+		</ol>
+
+		
+	
+	
+		<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply					<small><a rel="nofollow" id="cancel-comment-reply-link" href="/asc/2013/01/wired-a-digital-history-of-ryerson-university/#respond" style="display:none;">Cancel reply</a></small>
+				</h3>
+						<form id="commentform" class="comment-form">
+				<iframe
+					title="Comment Form"
+					src="https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&#038;postid=2752&#038;comment_registration=0&#038;require_name_email=1&#038;stc_enabled=1&#038;stb_enabled=1&#038;show_avatars=1&#038;avatar_default=blank&#038;greeting=Leave+a+Reply&#038;greeting_reply=Leave+a+Reply+to+%25s&#038;color_scheme=light&#038;lang=en_US&#038;jetpack_version=9.2&#038;show_cookie_consent=10&#038;has_cookie_consent=0&#038;token_key=%3Bnormal%3B&#038;sig=357ad33589c9d5a9a6f70ff2929a0d3383611e13#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F"
+											name="jetpack_remote_comment"
+						style="width:100%; height: 430px; border:0;"
+										class="jetpack_remote_comment"
+					id="jetpack_remote_comment"
+					sandbox="allow-same-origin allow-top-navigation allow-scripts allow-forms allow-popups"
+				>
+									</iframe>
+									<!--[if !IE]><!-->
+					<script>
+						document.addEventListener('DOMContentLoaded', function () {
+							var commentForms = document.getElementsByClassName('jetpack_remote_comment');
+							for (var i = 0; i < commentForms.length; i++) {
+								commentForms[i].allowTransparency = false;
+								commentForms[i].scrolling = 'no';
+							}
+						});
+					</script>
+					<!--<![endif]-->
+							</form>
+		</div>
+
+		
+		<input type="hidden" name="comment_parent" id="comment_parent" value="" />
+
+		
+</div><!-- #comments -->
+
+    </div><!-- #primary -->
+
+    
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: Student Voices from 2000</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/">A Comic Book Collection&#8230; from the 1940s!</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-the-expo-watch-camera/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; The Expo Watch Camera</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-jack-layton-library/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; Jack Layton Library</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-6"><a href="https://library.ryerson.ca/asc/category/asc/" title="Posts relating to both Archives and Special Collections">All</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://library.ryerson.ca/asc/category/archives/" title="Posts related to the Archives">Archives</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://library.ryerson.ca/asc/category/contests/">Contests</a>
+</li>
+	<li class="cat-item cat-item-186"><a href="https://library.ryerson.ca/asc/category/did-you-know/">Did you know&#8230;</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://library.ryerson.ca/asc/category/exhibits/">Exhibits</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/">Feature from the Collections</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/">Points of Interest</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="https://library.ryerson.ca/asc/category/sc/">Special Collections</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://library.ryerson.ca/asc/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-4">Archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://library.ryerson.ca/asc/2020/11/'> November 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/09/'> September 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/08/'> August 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/07/'> July 2020 &nbsp;(5)</option>
+	<option value='https://library.ryerson.ca/asc/2020/06/'> June 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/05/'> May 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/04/'> April 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/01/'> January 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2019/11/'> November 2019 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2019/05/'> May 2019 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/11/'> November 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/10/'> October 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/09/'> September 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/08/'> August 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/07/'> July 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/05/'> May 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/01/'> January 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/10/'> October 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/08/'> August 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/04/'> April 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/01/'> January 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/07/'> July 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/05/'> May 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2016/03/'> March 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/02/'> February 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/01/'> January 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/12/'> December 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/10/'> October 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/09/'> September 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/08/'> August 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/07/'> July 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/06/'> June 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/05/'> May 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/04/'> April 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/03/'> March 2015 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2015/02/'> February 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2014/07/'> July 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/04/'> April 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/03/'> March 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/02/'> February 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/01/'> January 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/11/'> November 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/10/'> October 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/09/'> September 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/08/'> August 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/04/'> April 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/03/'> March 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/01/'> January 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/12/'> December 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/10/'> October 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/06/'> June 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/02/'> February 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/01/'> January 2012 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/11/'> November 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/10/'> October 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/09/'> September 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/07/'> July 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/06/'> June 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/05/'> May 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/04/'> April 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/02/'> February 2011 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2011/01/'> January 2011 &nbsp;(4)</option>
+	<option value='https://library.ryerson.ca/asc/2010/12/'> December 2010 &nbsp;(1)</option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</aside>
+  </div><!-- #secondary .widget-area -->
+
+  </div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson Archives & Special Collections</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LIB 404">LIB 404</a><br>            
+                    350 Victoria Street, 4th Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000 ext. 7027<br>                    Email: <a href="mailto:asc@ryerson.ca">asc@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+          
+                    
+          
+          
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/asc/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/library.ryerson.ca\/asc\/2013\/01\/wired-a-digital-history-of-ryerson-university\/":2752};
+	</script>
+					<div id="sharing_email" style="display: none;">
+		<form action="/asc/2013/01/wired-a-digital-history-of-ryerson-university/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://library.ryerson.ca/asc/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+            <script type="text/javascript">
+            var sub = document.getElementById('submit');
+            document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+            document.getElementById('submit').tabIndex = 6;
+            if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+                document.getElementById('comment').value = 
+                    _recaptcha_wordpress_savedcomment;
+            }
+            </script><script src='https://library.ryerson.ca/asc/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/library.ryerson.ca\/asc\/wp-admin\/admin-ajax.php","nonce":"90def50391","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F","blog_id":"7","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2' id='jetpack-carousel-js'></script>
+<script async="async" src='https://library.ryerson.ca/asc/wp-content/plugins/akismet/_inc/form.js?ver=4.1.7' id='akismet-form-js'></script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":""};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=9.2' id='sharing-js-js'></script>
+<script id='sharing-js-js-after'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-tumblr', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+				// window.location.reload() doesn't respect the Hash in IE
+				window.location.hash = window.location.hash;
+			}
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			(function () {
+				var comm_par_el = document.getElementById( 'comment_parent' ),
+					comm_par = ( comm_par_el && comm_par_el.value ) ? comm_par_el.value : '',
+					frame = document.getElementById( 'jetpack_remote_comment' ),
+					tellFrameNewParent;
+
+				tellFrameNewParent = function () {
+					if ( comm_par ) {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&postid=2752&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=blank&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.2&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=357ad33589c9d5a9a6f70ff2929a0d3383611e13#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+					} else {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&postid=2752&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=blank&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.2&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=357ad33589c9d5a9a6f70ff2929a0d3383611e13#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2013%2F01%2Fwired-a-digital-history-of-ryerson-university%2F";
+					}
+				};
+
+				
+				if ( 'undefined' !== typeof addComment ) {
+					addComment._Jetpack_moveForm = addComment.moveForm;
+
+					addComment.moveForm = function ( commId, parentId, respondId, postId ) {
+						var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ),
+							cancelClick, cancel;
+
+						if ( false === returnValue ) {
+							cancel = document.getElementById( 'cancel-comment-reply-link' );
+							cancelClick = cancel.onclick;
+							cancel.onclick = function () {
+								var cancelReturn = cancelClick.call( this );
+								if ( false !== cancelReturn ) {
+									return cancelReturn;
+								}
+
+								if ( ! comm_par ) {
+									return cancelReturn;
+								}
+
+								comm_par = 0;
+
+								tellFrameNewParent();
+
+								return cancelReturn;
+							};
+						}
+
+						if ( comm_par == parentId ) {
+							return returnValue;
+						}
+
+						comm_par = parentId;
+
+						tellFrameNewParent();
+
+						return returnValue;
+					};
+				}
+
+				
+				// Do the post message bit after the dom has loaded.
+				document.addEventListener( 'DOMContentLoaded', function () {
+					var iframe_url = "https:\/\/jetpack.wordpress.com";
+					if ( window.postMessage ) {
+						if ( document.addEventListener ) {
+							window.addEventListener( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						} else if ( document.attachEvent ) {
+							window.attachEvent( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						}
+					}
+				})
+
+			})();
+		</script>
+
+		
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'AHCPIKJIDBPCAKANFOEEBBFPCGIDEBHGLDLGBNPAIPNHBMGPOGJBANBPKLHGKMNAHIFBCFDMAAPFAPCEKBKADLKOAABJIIAGCIHNGGDEILLKHBKMJDMCODIKFGBPDPIK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>MIMS Laboratory at Ryerson University</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+
+  	<script>
+		function videoChange(eUrl)
+			{
+				var temp = document.getElementById('mainVidPlay');
+				temp.src= eUrl;
+			}
+	</script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">MIMS<span class="logo_colour"> LAB</span></a>  <td><a href="https://www.ryerson.ca/"><img src="images/1_Main/Ryerson-rgb.png" width="80" height=""></a></td></h1> 
+          <h2>Mixed-Reality Immersive Motion Simulation Laboratory at Ryerson University</h2>
+        </div>
+	  </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="about_chung.html">About</a>
+            <ul class="sub-menu_lev_1" id="nav">
+              <li><a href="about_chung.html">Professor</a></li>
+			  <li><a href="#">Research Labs</a>
+				<ul class="sub-menu_lev_2">
+					<li><a href="Downtown_lab.html">Downtown Lab</a></li>
+					<li><a href="Downsview_lab.html">Downsview Lab</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </li>
+		  <li><a href="Hard_Soft.html">Research Capabilities</a>
+            <ul class="sub-menu_lev_1">
+              <li><a href="Hard_Soft.html">Hardware Resources</a>
+				<ul class="sub-menu_lev_2">
+					<li><a href="Hard_Simulator.html">Flight Simulators</a></li>
+					<li><a href="Hard_Cabin.html">Cabin Mockup</a></li>
+					<li><a href="Hard_AR.html">Augmented Reality <td>(AR)</td></a></li>
+					<li><a href="Hard_VR.html">Virtual Reality <td>(VR)</td></a></li>
+					<li><a href="Hard_Others.html">Others</a></li>
+				</ul>	
+			  </li>
+              <li><a href="Hard_Soft.html">Software Resources</a>
+				<ul class="sub-menu_lev_2">
+					<li><a href="Soft_Simulation.html">Flight Simulations and Flight Data Analysis</a></li>
+					<li><a href="Soft_HMI.html">Human-Machine Interface <td>(HMI)</td></a></li>
+					<li><a href="Soft_AR_VR.html">Augmented/Virtual Reality <td>(AR & VR)</td></a></li>
+					<li><a href="Soft_Others.html">Others</a></li>
+				</ul>	
+			  </li>
+			</ul>
+		  </li>
+          <li><a href="RP.html">Research Projects</a>
+            <ul class="sub-menu_lev_1">
+              <li><a href="RP_Smart_Cabin_Interior.html">Smart Cabin Interior</a></li>
+			  <li><a href="RP_Flight_Deck_HUD_HMD.html">Flight Deck and HUD/HMD</a></li>
+              <li><a href="RP_FDA_FS.html">Fligh Data Analysis and Flight Simulation</a></li>
+              <li><a href="RP_MDO.html">Multidisciplinary Design Optimization (MDO)</a></li>			  
+              <li><a href="RP_Collaborative_Research.html">Collaborative Research</a></li>
+			  <li><a href="RP_Others.html">Others</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <ul id="images">
+        <li><a href="about_chung.html"><img src="images/1_Main/1-1.png" width="600" height="300" alt="photo_one" onmouseover="this.src='images/1_Main/1-2.png'" onmouseout="this.src='images/1_Main/1-1.png'" /></a></li>
+        <li><a href="RP_Smart_Cabin_Interior.html"><img src="images/1_Main/2-1.png" width="600" height="300" alt="photo_two" onmouseover="this.src='images/1_Main/2-2.png'" onmouseout="this.src='images/1_Main/2-1.png'" /></a></li>
+        <li><a href="RP_Flight_Deck_HUD_HMD.html"><img src="images/1_Main/3-1.png" width="600" height="300" alt="photo_three" onmouseover="this.src='images/1_Main/3-2.png'" onmouseout="this.src='images/1_Main/3-1.png'" /></a></li>
+        <li><a href="RP_FDA_FS.html"><img src="images/1_Main/4-1.jpg" width="600" height="300" alt="photo_four" onmouseover="this.src='images/1_Main/4-2.jpg'" onmouseout="this.src='images/1_Main/4-1.jpg'" /></a></li>
+        <li><a href="RP_MDO.html"><img src="images/1_Main/5-1.png" width="600" height="300" alt="photo_five" onmouseover="this.src='images/1_Main/5-2.png'" onmouseout="this.src='images/1_Main/5-1.png'" /></a></li>
+        <li><a href="RP_Collaborative_Research.html"><img src="images/1_Main/6-1.png" width="600" height="300" alt="photo_photo" onmouseover="this.src='images/1_Main/6-2.png'" onmouseout="this.src='images/1_Main/6-1.png'" /></a></li>
+      </ul>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="http://www.ryerson.ca/" target="_blank">Ryerson University</a></li>
+            <li><a href="http://www.ryerson.ca/aerospace/" target="_blank">Aerospace Engineering - RU</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <center><h1>Welcome to MIMS Lab at Ryerson University</h1></center>
+        <p align="justify">Mixed-reality Immersive Motion Simulation Laboratory (MIMS Lab) at <a href="http://ryerson.ca" target="_blank">Ryerson University</a> is a research group within the <a href="http://www.ryerson.ca/graduate/aerospace/" target="_blank">Department of Aerospace Engineering</a>. MIMS’s vision is to enhance <strong>a user-friendly aircraft design environment</strong> that includes reliable <strong>Multidisciplinary Design Optimization (MDO)</strong> and <strong>Virtual Certification Capability</strong>.</p>
+        <p align="justify">We focus on developing <td>(</td>I<td>)</td> MDO Tools with Expert Systems, <td>(</td>II<td>)</td> Flight Test Data Analysis System, and <td>(</td>III<td>)</td> Human Machine Interface <td>(</td>HMI<td>)</td> (Research Capabilities <a href="Hard_Soft.html">here</a>).</p>
+        <p align="justify">We open <strong>Master</strong> and <strong>Doctoral</strong> positions in the above projects. Undergraduate research positions are also available.</p>
+      </div>
+    </div>
+	
+	<div class="container" style="width: 645px">
+		<div id="mainVideo" style="width: 645px" class="auto-style9">
+			<center><iframe id="mainVidPlay" height="400" name="I1" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=9&amp;mute=1" style="width: 600px"></iframe></center>
+		</div>
+		</p>
+		<center><strong><h4><font size="5"><td>< </td>VIDEO GALLERY<td> ></td></font></h4></strong></center>
+		<div class="listVideo">
+			<table style="width: 100%">
+				<tr>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=0&amp;mute=1')">
+					<img src="images/2_Videos/vid1.png" width="150" height="150" alt="Video 1"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=1&amp;mute=1')">
+					<img src="images/2_Videos/vid2.png" width="150" height="150" alt="Video 2"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=2&amp;mute=1')">
+					<img src="images/2_Videos/vid3.png" width="150" height="150" alt="Video 3"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=3&amp;mute=1')">
+					<img src="images/2_Videos/vid4.png" width="150" height="150" alt="Video 4"></a></td>
+				</tr>
+				<tr>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=4&amp;mute=1')">
+					<img src="images/2_Videos/vid5.png" width="150" height="150" alt="Video 5"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=5&amp;mute=1')">
+					<img src="images/2_Videos/vid6.png" width="150" height="150" alt="Video 6"></a></td>
+					<td>
+					<a href="#mainVideo" target="_self">
+					<img src="images/2_Videos/vid7.png" width="150" height="150" alt="Video 7"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=7&amp;mute=1')">
+					<img src="images/2_Videos/vid8.png" width="150" height="150" alt="Video 8"></a></td>
+				</tr>
+				<tr>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=8&amp;mute=1')">
+					<img src="images/2_Videos/vid9.png" width="150" height="150" alt="Video 9"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=9&amp;mute=1')">
+					<img src="images/2_Videos/vid10.png" width="150" height="150" alt="Video 10"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=10&amp;mute=1')">
+					<img src="images/2_Videos/vid11.png" width="150" height="150" alt="Video 11"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=11&amp;mute=1')">
+					<img src="images/2_Videos/vid12.png" width="150" height="150" alt="Video 12"></a></td>
+				</tr>
+				<tr>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=12&amp;mute=1')">
+					<img src="images/2_Videos/vid13.png" width="150" height="150" alt="Video 13"></a></td>
+					<td>
+					<a href="#mainVideo" onclick="videoChange('https://www.youtube-nocookie.com/embed/videoseries?list=PL4HYLTG70A9kOhNAIHomsUwo2tZ0zsaqP&amp;autoplay=1&amp;loop=1controls=1&amp;rel=0&amp;index=13&amp;mute=1')">
+					<img src="images/2_Videos/vid14.png" width="150" height="150" alt="Video 14"></a></td>
+				</tr>
+			</table>
+	</div>
+		
+    <footer>
+      <p><font size="3">Copyright &copy; <a href="index.html">2016 MIMS Laboratory</a>, <i>Department of Aerospace Engineering</i></font>, <a href="http://ryerson.ca" target="_blank"><strong>Ryerson University</strong></a> | <font size="3">design from <a href="http://css3templates.co.uk" target="_blank">CSS3</a></font></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

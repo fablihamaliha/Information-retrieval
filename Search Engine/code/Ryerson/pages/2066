@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/ccs/services/ITSecurity/cybersecurity-contests-for-employees/" >
+		<meta property="og:title" content="Cybersecurity Contests for Employees" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/ccs/services/ITSecurity/cybersecurity-contests-for-employees/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Cybersecurity Contests for Employees"> 
+		 
+        
+        
+        <title>Cybersecurity Contests for Employees - Computing and Communications Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/ccs/">
+				        Computing and Communications Services (CCS)
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/ccs.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#41bf5d33-7a46-4b91-a10b-1f1a060367e0" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="41bf5d33-7a46-4b91-a10b-1f1a060367e0">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/ccs/about/'>About CCS</a>
+									</li>
+								
+									<li class="active">
+										<a href='/ccs/services/'>Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/ccs/contact/'>Contact Us</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/ccs/services.html">Services</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cb46879f-350d-4e97-869c-ca3b3cbc6a42" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="cb46879f-350d-4e97-869c-ca3b3cbc6a42">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning.html'>Email and Learning Systems</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/accounts.html'>Accounts</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software.html'>Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/labsandprinting.html'>Labs & Printing</a>
+</li>
+<li class="list-group-item parent">
+<a href='/ccs/services/ITSecurity.html'>IT Security</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/protecting-data.html'>Protecting Data</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/protecting-devices.html'>Protecting Devices</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/protecting-your-identity.html'>Protecting Your Identity</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/networkaccesscontrols.html'>Network Access Controls</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections.html'>Network and Wireless</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/hardware.html'>Hardware</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/mediaservices.html'>Media Services</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/webcontentmgmt.html'>Web and Content Management</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/phonesfaxing.html'>Telephones and Faxing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/applications.html'>Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/cabling.html'>Cabling</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/chargeableservices.html'>Fees and Chargebacks</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/AtoZcatalogue.html'>Service Catalogue</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Cybersecurity Contests for Employees</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="7354431b-f32b-46af-a8f5-c329833f765a">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/Section-Banners/IT-Security-Banner-3.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#7354431b-f32b-46af-a8f5-c329833f765a');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "7354431b-f32b-46af-a8f5-c329833f765a"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f4a2d65a-16b8-433c-a6f2-1bd535613742" >
+
+    <p>As part of Cybersecurity Awareness Month, Ryerson is offering prizes to encourage faculty and staff to adopt safer online habits.</p> 
+<p>Employees can enter the contest by reporting simulated malicious emails instead of clicking on their links.</p> 
+<h2>Am I an eligible employee?</h2> 
+<p>All Ryerson employees who are employed as of October 31, 2020 are eligible to participate, with the exception of those in the Computing and Communications Services (CCS) department and the Administration and Operations Communications team.</p> 
+<h2>What are the prizes for reporting phishing emails?</h2> 
+<p>During Cybersecurity Awareness Month, CCS will send out simulated phishing email messages. All eligible employees who report at least three of these messages and do not follow the malicious instructions of more than two of them will be eligible to win a $100 Visa Gift card.</p> 
+<p>There are 10 Visa Gift cards available for employees to win. There is a maximum of 1 Visa Gift card available to be won by each employee.</p> 
+<h2>But wait, what are phishing emails and how can I report them?</h2> 
+<p>Ryerson receives an increasing number of phishing emails each day that are designed to deceive you into giving away confidential information like your Ryerson username and password, credit card number or bank account information. Many phishing emails include common traits that are easy to spot once you learn what they are.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f4a2d65a-16b8-433c-a6f2-1bd535613742");});</script></div>
+
+				
+
+				
+				<div class="resTwoColOneTwo section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+
+
+<div class="row">
+	
+		<div class="col-md-4">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonDefault">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/phishing/">
+	                        	
+	                            <span>Learn how to spot phishing emails and report them to CCS</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-md-8">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="febeb5f0-2063-4d94-b34c-d07bff306da8" >
+
+    <p>To be eligible for the contest, you’ll need to:</p> 
+<ol> 
+ <li>Report at least three fake phish to <a href="mailto:spamrec@ryerson.ca">spamrec@ryerson.ca</a> using the “forward” function in your email (please do not use the “forward as attachment” option); and</li> 
+ <li>Avoid clicking the malicious link in more than two of our fake phish.</li> 
+</ol> 
+<h3>What if I click one of the deceptive emails?</h3> 
+<p>Even though these emails are coming from CCS, the goal is for you to identify the email and not respond by clicking a link or opening an attachment.</p> 
+<p>A cybersecurity awareness software will be used to help track the success of employees in learning how to recognize phish and malware emails and report them to CCS. Our goal is to teach everyone how to respond to phishing emails, now and in the future. Your manager will not be notified of how or if you interact with these emails.</p> 
+<p>You will be notified immediately with a message on your screen and offered information on how to avoid being deceived in the future.</p> 
+<p>Your name and results will be kept confidential - this training is designed to help you learn.&nbsp;</p> 
+<h2>I’m all for increasing my cybersecurity but I’d prefer not to participate in the contest.</h2> 
+<p>If you do not wish your name to be included in this contest, please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLScwJkeFlg4yQpymKik_Nlb-Ni97qifuoBzKoMr_v8M1JqQSJA/viewform?usp=sf_link"><span class="sr-only">google form</span>contest opt-out form<span aria-hidden="true" class="autoIconLink fa fa-file-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a>.</p> 
+<h2>Are there prizes related to the interactive games?</h2> 
+<p>You may have noticed we snuck in a teaser about prizes related to the interactive choose your own adventure-style games in a September Cybersecurity Awareness Month email. We were so eager to share the news with students that we told employees the same thing by mistake! This year, adventure game prizes are just for students but employees can still win prizes in our phishing contest. We’re sorry for the trouble and hope you’ll still play the games to improve your knowledge!</p> 
+<h2>Contest rules and regulations</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#febeb5f0-2063-4d94-b34c-d07bff306da8");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="d4a15d92-bcd4-4227-8b5f-e19deb1fc37d" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1511891906370-employees-phish-and-malware-reporting-contest" role="tab" data-toggle="collapse" data-parent="#d4a15d92-bcd4-4227-8b5f-e19deb1fc37d" href="#accordion-content-1511891906370-employees-phish-and-malware-reporting-contest" aria-controls="accordion-content-1511891906370-employees-phish-and-malware-reporting-contest" aria-expanded="false">
+                            Employees phish and malware reporting contest
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1511891906370-employees-phish-and-malware-reporting-contest" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1511891906370-employees-phish-and-malware-reporting-contest">
+                    <div class="panel-body ">
+                        <div class="1511891906370 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a1926a2f-4907-4f60-a5ec-12462ecaed9c" >
+
+    <p><strong>EMPLOYEES PHISH AND MALWARE REPORTING CONTEST (the “Contest”)</strong></p> 
+<p><strong>CONTEST RULES</strong></p> 
+<ol> 
+ <li><strong>CONTEST.&nbsp;</strong>Ryerson University (“<strong>Ryerson</strong>”), through Computing and Communications Services (“<strong>CCS</strong>” or the “<strong>Contest Sponsor</strong>”) is holding an Employees Phish and Malware Reporting Contest (the “<strong>Contest</strong>”) to encourage faculty and staff to learn how to recognize phish and malware emails and to report them to CCS.</li> 
+ <li><strong>CONTEST PERIOD</strong>. The Contest is open for Contest Entry (defined below) submissions between 12:00 a.m. on October 1, 2020, and 11:59 p.m. on October 31, 2020, Eastern Standard Time (the “<strong>Contest Entry Period</strong>”).&nbsp; All Contest Entries must be submitted during the Contest Entry Period.&nbsp; The Contest Sponsor’s server machine is the official timekeeping device for the Contest.</li> 
+ <li><strong>ELIGIBILITY</strong>. The Contest is open to any individual who is a Ryerson employee, excluding CCS employees and Administration and Operations Communications employees, at the time of Contest Entry (each an “<strong>Entrant</strong>”).</li> 
+ <li><strong>HOW TO ENTER</strong>.&nbsp;<strong>No purchase necessary</strong>. Between <strong>12:00 a.m. on October 1, 2020, and 11:59 p.m. on October 31, 2020</strong>, CCS will send to all Ryerson employees a series of malicious email messages containing simulated phish or malware links and/or simulated phish or malware attachments (each an “<strong>Email</strong>” and collectively “<strong>Emails</strong>”). The Entrant may enter the Contest at any time during the Contest Entry Period by forwarding using the “forward” function in your email (and not the “forward as attachment” option) three (3) Emails sent to the Entrant’s Ryerson email account to <a href="mailto:spamrec@ryerson.ca">spamrec@ryerson.ca</a> (each a “<strong>Contest Entry</strong>” and collectively “<strong>Contest Entries</strong>”). For clarity the three (3) forwarded Emails together make one Contest Entry.&nbsp; If an Entrant clicks on any simulated phish or malware link(s) and/or opens any simulated phish or malware attachments and follows malicious directions in more than two (2)&nbsp; Emails, such Entrant will be disqualified from participating in the Contest and will forfeit all rights to a Prize (described below).</li> 
+ <li><strong>CONTEST ENTRY CONDITIONS.</strong>&nbsp;There is a limit of one (1) Contest Entry per Entrant during the Contest Entry Period. Additional Contest Entries submitted by Entrants will not be counted for the purposes of this Contest. Use of any automated system to enter is prohibited and will automatically result in disqualification. By entering the Contest, you agree that you will comply with these Contest Rules and with the decisions of the Contest Sponsor, which are irrevocable and are legally binding in all matters related to the Contest.</li> 
+ <li><strong>PRIZES.&nbsp;</strong>There are up to ten (10) prizes available to be won in this Contest by up to ten (10) potential winners, each consisting of a pre-paid Visa gift card valued at $100 CAD before applicable taxes (each a “<strong>Prize</strong>” and collectively “<strong>Prizes</strong>”). Each Entrant is eligible to win a maximum of one (1) Prize.</li> 
+ <li><strong>WINNER SELECTION PROCESS.</strong> 
+  <ol> 
+   <li>On or about November 2, 2020, at 9:00 a.m. Eastern Standard Time in Toronto, Ontario, the Contest Sponsor will select at random ten (10) potential winners (each an “<strong>Eligible Winner</strong>” and collectively “<strong>Eligible Winners</strong>”) from all eligible Contest Entries submitted during the Contest Entry Period (the “<strong>Selection</strong>”).&nbsp; The Contest Sponsor will validate the selected Emails by comparing and confirming the email logs against the message submitted. Selected Eligible Winners will each be eligible to receive a maximum of one (1) Prize.&nbsp;</li> 
+   <li>Within five (5) business days of the Selection, the Contest Sponsor, or its designated representative, will make a maximum of three (3) attempts to contact the Eligible Winners by emailing the Eligible Winners at the corresponding email address used to submit the eligible Contest Entry.&nbsp; Each Eligible Winner must accept the Prize as awarded by the Contest Sponsor within five (5) business days of the Selection or the Prize will be forfeited and awarded to an alternate Entrant in accordance with the foregoing provisions of this section, at the Contest Sponsor’s sole discretion.&nbsp;</li> 
+   <li>The Prize is not transferable or substitutable unless authorized in writing by the Contest Sponsor before the transfer or substitution is made.&nbsp;</li> 
+   <li>The odds of winning a Prize are dependent on the total number of eligible Contest Entries received.</li> 
+  </ol> </li> 
+ <li><strong>DECLARATION OF ELIGIBLE WINNER.</strong> 
+  <ol> 
+   <li>NO ONE IS A WINNER UNLESS AND UNTIL THE SPONSOR OFFICIALLY CONFIRMS THEM AS A WINNER IN ACCORDANCE WITH THESE RULES. BEFORE BEING DECLARED A CONFIRMED PRIZE WINNER.&nbsp; Before an Eligible Winner is declared a winner (after declaration, referred to as a ”<strong>Winner</strong>” and collectively “<strong>Winners</strong>”), the Eligible Winner must sign and return, within five (5) business days of notification, a declaration of compliance and release of liability prepared by the Contest Sponsor (the “<strong>Release</strong>”). The Release also requires the Eligible Winner to correctly answer a mathematical skill-testing question without mechanical or other aid.</li> 
+   <li>By participating in the Contest and accepting a Prize, each eligible winner hereby: (i) confirms compliance with these Rules; (ii) acknowledges acceptance of the applicable Prize (as awarded); (iii) releases Ryerson from any and all liability in connection with the Contest, their participation therein and/or the awarding and use/misuse of the applicable Prize or any portion thereof; and (iv) agrees to the publication, reproduction and/or other use of their name, address, voice, statements about the Contest and/or photograph or other likeness without further notice or compensation, in any publicity or advertising carried out by or on behalf of the Contest Sponsor in any manner or medium whatsoever, including print, broadcast or the internet.</li> 
+   <li>The Eligible Winner will be disqualified and forfeits all rights to the Prize if the Eligible Winner: (i) fails to correctly answer the skill-testing question; (ii) fails to return the properly executed Release within the specified time; (iii) violates any of Ryerson’s policies, procedures, standards, or guidelines during the Contest Period; or (iv) cannot be declared a Winner in accordance with these Contest Rules for any reason. If an Eligible Winner is disqualified, the Contest Sponsor reserves the right, in its sole and absolute discretion, to select another Entrant via random draw (in which case the provisions of Section 7 apply to such new Eligible Winner).</li> 
+  </ol> </li> 
+ <li><strong>RIGHT TO SUSPEND/MODIFY/TERMINATE. </strong>If for any reason the Contest is not capable of running as planned, including infection by computer virus, bugs, tampering, unauthorized intervention, fraud, technical failures, strike or any other causes which corrupt or affect the administration, security, fairness, integrity or proper conduct of the Contest, the Contest Sponsor reserves the right to cancel, suspend and/or modify the Contest, or any part of it, and disqualify any individual or entity who is responsible for such action.&nbsp; If terminated, the Contest Sponsor may, in its sole discretion, determine the winners from among all eligible Contest Entries received up to time of such action using the procedures outlined herein.&nbsp;</li> 
+ <li><strong>LIABILITY AND RELEASE.</strong> No responsibility or liability is assumed by the Contest Sponsor for: any technical malfunction or other problems of any nature whatsoever, including, without limitation, those relating to the telephone network or lines, computer on-line systems, servers, access providers, computer equipment or software; the failure of any Contest Entry or other information to be received, captured or recorded for any reason whatsoever, including, but not limited to, technical problems or traffic congestion on the internet or at any website; or unauthorized human or non-human intervention of the operation of the Contest, including without limitation, unauthorized tampering, hacking, theft, virus, bugs, or worms.</li> 
+ <li><strong>GENERAL CONDITIONS</strong> 
+  <ol> 
+   <li>The decisions of the Contest Sponsor with respect to all aspects of this Contest are final and binding on all entrants without right of appeal. ANYONE DEEMED BY THE CONTEST SPONSOR TO BE IN VIOLATION OF THE LETTER AND/OR SPIRIT OF THESE RULES FOR ANY REASON IS SUBJECT TO DISQUALIFICATION IN THE SOLE AND ABSOLUTE DISCRETION OF THE CONTEST SPONSOR AT ANY TIME.&nbsp;</li> 
+   <li>By entering this Contest, each Entrant expressly consents to the Contest Sponsor, its agents and/or representatives, storing, sharing and using the personal information submitted for the purpose of administering the Contest and in accordance with Ryerson’s <a href="http://www.ryerson.ca/privacy/">privacy policy</a>. This section does not limit any other consent(s) that an individual may provide the Contest Sponsor or others in relation to the collection, use and/or disclosure of their personal information.</li> 
+   <li>In the event of any discrepancy or inconsistency between the terms and conditions of these Rules and disclosures or other statements contained in any Contest-related materials, the terms and conditions of these Rules shall prevail, govern and control to the fullest extent permitted by law.</li> 
+   <li>The invalidity or unenforceability of any provision of these Rules shall not affect the validity or enforceability of any other provision. In the event that any provision is determined to be invalid or otherwise unenforceable or illegal, these Rules shall otherwise remain in effect and shall be construed in accordance with the terms as if the invalid or illegal provision were not contained herein.</li> 
+   <li>All issues and questions concerning the construction, validity, interpretation and enforceability of these Rules or the rights and obligations of participants, Contest Sponsor or any of the other the Released Parties in connection with the Contest will be governed by and construed in accordance with the domestic laws of the Province of Ontario. The parties hereby consent to exclusive jurisdiction and venue of the courts located in Ontario in any action to enforce (or otherwise relating to) these Rules or relating to this Contest.</li> 
+  </ol> </li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a1926a2f-4907-4f60-a5ec-12462ecaed9c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				
+				</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'CNPOKFEIIIGLGMNGLHMJGOOGEPHKGBBMHBHKFIKADEDGPOCKDDLOCPMCBHKOEABIPBFBHKNKAAHIBAPOGOMANPCOAAHIMKEPODLLEONAIDHHBJHEKDODLBLJCHIHIJML',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'CJKCFKACHJBOKDKBKMOKKBIAEEANDFGNLEGPIEDCCPDJJABMAIFDDKCBLFIDMJJHNLDBKMAGAAOHEIIFEHPAJJCNAAMKHPHHJPGLILNGFDPPDAGKCFLIDHLKDFNPOHAJ',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

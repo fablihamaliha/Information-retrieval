@@ -1,0 +1,312 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title><input name="problemType" value="8" type="hidden"/>
+			Application Problem Form</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/selfserv/resources/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/selfserv/resources/css/baseLayout.css" />
+		
+		<script type="text/javascript">document.domain = "ryerson.ca";</script>
+
+		
+		<script type="text/javascript" src="/selfserv/resources/libraries/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/selfserv/resources/libraries/jquery-ui/1.11.4/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/selfserv/resources/libraries/jquery-ui/1.11.4/jquery-ui.min.css">
+
+		
+		<script src="/selfserv/resources/libraries/intl-tel-input/11.0.11/js/intlTelInput.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" href="/selfserv/resources/libraries/intl-tel-input/11.0.11/css/intlTelInput.css" />
+
+		
+		
+		<script type="text/javascript">
+			function postDimensions() {
+				if (window.location != window.parent.location) {
+					// post dimensions as JSON
+					var dimensionsJson = {
+						width : $(".pageWrapper").prop("scrollWidth"),
+						height : $(".pageWrapper").prop("scrollHeight")
+					};
+					var dimensions = JSON.stringify(dimensionsJson);
+					console.log("Posting page dimensions " + dimensions + " to parent window.");
+					parent.postMessage(dimensions, "*");
+
+					// post height to my.ryerson portal
+					if (parent.document.getElementById("rmsManageMyOnlineResources") != null) {
+						parent.document.getElementById("rmsManageMyOnlineResources").setAttribute("height", $(".pageWrapper").prop("scrollHeight") + 20);
+					}
+					if (parent.document.getElementById("rmsManageAccountRecovery") != null) {
+						parent.document.getElementById("rmsManageAccountRecovery").setAttribute("height", $(".pageWrapper").prop("scrollHeight") + 20);
+					}
+				}
+			}
+			$(document).ready(postDimensions);
+			$(window).on('load', function() {
+				var url = window.location.href;
+				if ( window.location.href.indexOf("#") > -1 ) {
+					var hashPosition = url.indexOf("#");
+					var urlHash = url.substr( (hashPosition + 1), (url.length) );
+					$("a#" + urlHash).click();
+				}
+			});
+		</script>
+		<meta charset="UTF-8">
+	</head>
+	<body id="baseLayout" onload="top.scrollTo(0,0);">
+		<a href="#content" class="hidden">Skip to content</a>
+		<div class="siteWrapper">
+			<div class="pageWrapper">
+				<div role="banner">
+					
+<div class="globalNavigation"> 
+	<a href="http://www.ryerson.ca/" class="globalLogo" target="_blank"><img src="/selfserv/resources/images/ryerson_logo_stacked_new.png" alt="Ryerson University" title="Ryerson University" width="89" height="43"></a>
+	<div class="searchArea">
+		<div class="globalLinks"><a href="https://my.ryerson.ca/" target="_blank">my.ryerson.ca</a>&nbsp; | &nbsp;<a href="http://www.ryerson.ca/contact/" target="_blank">Directory</a></div>
+		<div id="searchwrapper" role="search">
+			<form method="GET" action="https://search.ryerson.ca/search" target="_blank">
+				<input name="site" value="default_collection" type="hidden">
+				<input name="output" value="xml_no_dtd" type="hidden">
+				<input name="client" value="default_frontend" type="hidden">
+				<input name="proxystylesheet" value="default_frontend" type="hidden">
+				<label for="q" style="display:none;">Search Ryerson.ca</label>
+				<label for="i" style="display:none;">Submit Search</label>
+				<input class="searchbox" name="q" id="q" onclick="if(this.value=='Search Ryerson.ca') {this.value='';}" value="Search Ryerson.ca" type="text">
+				<input src="/selfserv/resources/images/submit.png" id="i" class="searchbox_submit" value="" alt="Submit Search" type="image">
+			</form>
+		</div>
+	</div>
+</div>
+				</div>
+				<div id="content" class="contentArea" tabindex="0">
+					
+					<div id="formOuterWrapper">
+						<div class="mt_mainContent">
+							<div role="main">
+								<h1 role="heading"><input name="problemType" value="8" type="hidden"/>
+			Application Problem Form</h1>
+								
+								
+								
+								
+								
+								<div>
+			To report the problem, fill in the following information. 
+		</div>
+		<form id="problemForm" action="/selfserv/problem" method="POST">
+			<input type="hidden" name="execution" value="e1s1" />
+			<div class="form-row" >
+				<label class="requiredInformation">First Name: </label>
+				<input id="firstName" name="firstName" label="firstName" type="text" value=""/>
+				
+			</div>
+			<div class="form-row" >
+				<label class="requiredInformation">Last Name: </label>
+				<input id="lastName" name="lastName" label="lastName" type="text" value=""/>
+				
+			</div>
+			<div class="form-row" >
+				<label class="requiredInformation">my.ryerson User Name: </label>
+				<input id="username" name="username" label="username" type="text" value=""/>
+				 
+			</div>
+			<div class="form-row" id="birthdayRow">
+				<label class="requiredInformation">Date Of Birth:</label>
+				<span class="input">
+					<label for="birthMonth" class="hidden">Birth Month</label>
+					<select id="birthMonth" name="birthMonth" aria-required="true">
+						<option value="">Month</option>
+						
+						
+							
+							<option value="01">January</option>
+						
+							
+							<option value="02">February</option>
+						
+							
+							<option value="03">March</option>
+						
+							
+							<option value="04">April</option>
+						
+							
+							<option value="05">May</option>
+						
+							
+							<option value="06">June</option>
+						
+							
+							<option value="07">July</option>
+						
+							
+							<option value="08">August</option>
+						
+							
+							<option value="09">September</option>
+						
+							
+							<option value="10">October</option>
+						
+							
+							<option value="11">November</option>
+						
+							
+							<option value="12">December</option>
+						
+					</select>
+				</span>
+				<span class="input">
+					<label for="birthDay" class="hidden">Birth Day</label>
+					<select id="birthDay" name="birthDay" aria-required="true">
+						<option value="">Day</option>
+						
+							
+							<option value="01">1</option>
+						
+							
+							<option value="02">2</option>
+						
+							
+							<option value="03">3</option>
+						
+							
+							<option value="04">4</option>
+						
+							
+							<option value="05">5</option>
+						
+							
+							<option value="06">6</option>
+						
+							
+							<option value="07">7</option>
+						
+							
+							<option value="08">8</option>
+						
+							
+							<option value="09">9</option>
+						
+							
+							<option value="10">10</option>
+						
+							
+							<option value="11">11</option>
+						
+							
+							<option value="12">12</option>
+						
+							
+							<option value="13">13</option>
+						
+							
+							<option value="14">14</option>
+						
+							
+							<option value="15">15</option>
+						
+							
+							<option value="16">16</option>
+						
+							
+							<option value="17">17</option>
+						
+							
+							<option value="18">18</option>
+						
+							
+							<option value="19">19</option>
+						
+							
+							<option value="20">20</option>
+						
+							
+							<option value="21">21</option>
+						
+							
+							<option value="22">22</option>
+						
+							
+							<option value="23">23</option>
+						
+							
+							<option value="24">24</option>
+						
+							
+							<option value="25">25</option>
+						
+							
+							<option value="26">26</option>
+						
+							
+							<option value="27">27</option>
+						
+							
+							<option value="28">28</option>
+						
+							
+							<option value="29">29</option>
+						
+							
+							<option value="30">30</option>
+						
+							
+							<option value="31">31</option>
+						
+					</select>
+				</span>
+				<span class="input">
+					<label for="birthYear" class="hidden">Birth Year</label>
+					<input id="birthYear" name="birthYear" input="text" aria-required="true" placeholder="Year" type="text" value="" size="6" maxlength="4"/>
+				</span>
+				
+			</div>
+			
+			<div class="form-buttons inContextButtons">
+				<div class="button">
+					<input type="submit" id="request_button_submit" value="Problem Submit" name="_eventId_next"  > 
+				</div>
+			</div>
+		<div>
+<input type="hidden" name="_csrf" value="36fe1ca9-b245-4644-9fe5-a4bfbf1f52bd" />
+</div></form>
+							</div>
+						</div>
+						<div role="contentinfo">
+							
+
+<div class="footer">
+	<div> 
+		<div>
+			
+			<strong>&copy; 2020 Ryerson University</strong> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+		</div>
+		<br />
+		<ul>
+			<li><a href="http://www.ryerson.ca/privacy/" target="_blank">Privacy Policy</a>&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="http://www.ryerson.ca/accessibility/" target="_blank">Accessibility</a>&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="http://www.ryerson.ca/ryerson.ca/terms.html" target="_blank">Terms &amp; Conditions</a></li>
+		</ul>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

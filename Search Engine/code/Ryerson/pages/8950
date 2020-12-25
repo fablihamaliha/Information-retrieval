@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>RESPECT - Ryerson Expenses, Supplementary Paperwork and Expedited Claim Tracking</title>
+    
+    <link rel="stylesheet" href="/tools/respect/ev1css.css" type="text/css">
+    <script type="text/javascript" src="https://www.ryerson.ca/etc/designs/ryecms/clientlib-all.min.ce5f5c74251cb85c04d258b78d14ffe0.js"></script>
+    
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <style>
+		.ui-tooltip {
+			padding: 5px;
+			box-shadow: none;
+			border: 2px solid red;
+			font-size: 0.7em;
+		}
+	</style>
+    
+</head>
+<body>
+<div class="resGlobalHeader">
+  <div class="global-header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="res-global-header"> <a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+            <nav role="navigation" aria-label="global" class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header"> 
+                	<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/tools/respect/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University"> </a>
+                	<button id="gh-other-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-other-content" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span> 
+                	</button>
+                	<button id="gh-info-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-info-content" aria-expanded="false">
+                      <span class="sr-only">Toggle information</span> <span class="fa fa-info-circle"></span>
+                	</button>
+                	<button id="gh-search-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gh-search-content" aria-expanded="false">
+                      <span class="sr-only">Toggle search</span> <span class="fa fa-search"></span>
+                	</button>
+                </div>
+                <div class="navbar-content">
+                  <form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+                    <div class="input-group gh-search-container">
+                      <label for="search" class="sr-only">Search Site and People</label>
+                      <input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+                      <span class="input-group-btn">
+                      <button aria-label="Search" class="btn btn-default" type="submit"> <i class="fa fa-search" title="Search Ryerson.ca"></i> </button>
+                      </span> </div>
+                  </form>
+                  <ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+                    <li class="dropdown hidden-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span class="fa fa-bars"></span><span class="sr-only">Menu</span> </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/programs/">Programs</a></li>
+                        <li><a href="/admissions/">Admissions</a></li>
+                        <li><a href="/campus-life/">Campus Life</a></li>
+                        <li><a href="/research/">Research & Innovation</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul id="gh-other-content" class="nav navbar-nav collapse navbar-collapse navbar-right">
+                    <li class="visible-xs"><a href="/about/">About</a></li>
+                    <li class="visible-xs"><a href="/programs/">Programs</a></li>
+                    <li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+                    <li class="visible-xs"><a href="/campus-life/">Campus
+                      Life</a></li>
+                    <li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+                    <li class="divider visible-xs"></li>
+                    <li class="call-to-action"><a href="/admissions/">Apply</a></li>
+                    <li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+                    <li class="call-to-action"><a href="/giving/">Give</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+                  </ul>
+                  <ul id="gh-info-content" class="nav navbar-nav collapse navbar-collapse navbar-right">
+                    <li class="dropdown hidden-xs"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="fa fa-info-circle"></span><span class="hidden-sm"> Info for <span class="caret"></span> </span> </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/future-students/">Future Students</a></li>
+                        <li><a href="/current-students/">Current Students</a></li>
+                        <li><a href="/faculty-staff/">Faculty and Staff</a></li>
+                        <li><a href="/teachers-counsellors/">Teachers and Counsellors</a></li>
+                        <li><a href="/alumni/">Alumni</a></li>
+                        <li><a href="/media/">Media</a></li>
+                        <li><a href="/giving/">Donors</a></li>
+                      </ul>
+                    </li>
+                    <li class="visible-xs"><a href="/future-students/">Future Students</a></li>
+                    <li class="visible-xs"><a href="/current-students/">Current Students</a></li>
+                    <li class="visible-xs"><a href="/faculty-staff/">Faculty and Staff</a></li>
+                    <li class="visible-xs"><a href="/teachers-counsellors/">Teachers and Counsellors</a></li>
+                    <li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+                    <li class="visible-xs"><a href="/media/">Media</a></li>
+                    <li class="visible-xs"><a href="/giving/">Donors</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="res-local-header-wrapper" role="banner">
+  <div class="container">
+    <div class="resLocalHeader">
+      <div class="res-local-header">
+        <div class="row template-local-header">
+          <div class="local-header-section col-xs-12">
+            <div class="res-local-header">
+              <div class="row template-local-header">
+                <div class="local-header-section col-xs-12">
+                  <div class="site-heading"> <a href="/tools/respect/"> RESPECT - Ryerson Expenses, Supplementary Paperwork and Expedited Claim Tracking</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="row template-content">
+<aside role="complementary" class="left-sidebar-section col-md-2 col-sm-12 ">
+  <div class="resVerticalNavigation">
+    <nav role="navigation" aria-label="secondary" class="navbar res-vertical-navigation"> 
+      <!-- Navigation Header -->
+      <div class="navbar-header"> <span class="navbar-brand visible-xs"> <a href="/content/ryerson/science/about-us.html">About Us</a> </span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#f4306115-a058-4fdb-a9df-673f85c392ca" aria-expanded="false">
+        	<span class="sr-only">Toggle navigation</span> <i class="fa fa-chevron-down"></i>
+        </button>
+      </div>
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="f4306115-a058-4fdb-a9df-673f85c392ca">
+        <ul class="list-group">
+          <li class="list-group-item"> <a href="/tools/respect">Home</a> </li>
+          <li class="list-group-item"> <a href="?logout">Logout</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</aside>
+
+<div role="main" id="mainContent" class="content-area-section col-md-7 col-sm-8">
+<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+<div class="stackparsys beforeContent"> </div>
+<div class="resPageHeading heading">
+  <h1>Login</h1>
+</div>
+<div class="content stackparsys">
+<div class="parbase resText section">
+<div class="res-text richtextContent background-hidden" id="62926295-8662-4252-8499-81679baef036" >
+
+
+
+<!-- BEGIN LOGIN FORM -->
+	<form class="login-form" action="/tools/respect/al.cfm" method="post">
+		<h3 class="form-title">Login with my.ryerson</h3>
+		
+		<div class="form-group">
+			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+			<label class="control-label visible-ie8 visible-ie9">Username</label>
+			<div class="input-icon">
+				
+				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label visible-ie8 visible-ie9">Password</label>
+			<div class="input-icon">
+				
+				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button type="submit" class="btn blue pull-right">
+				Login <i class="m-icon-swapright m-icon-white"></i>
+			</button>
+            <input type="hidden" name="loginForm" value="f9j3h2" />
+		</div>
+        
+		<div class="forget-password">
+			<h4>Forgot your password ?</h4>
+			<p>no worries, click <a href="http://www.ryerson.ca/ccs/services/accounts/password.html" target="_blank">here </a> to reset your password.
+			</p>
+		</div>
+	</form>
+	<!-- END LOGIN FORM -->
+
+
+
+</div></div></div>
+
+<div class="stackparsys afterContent"></div>
+</div>
+<aside role="complementary"  class="right-sidebar-section col-md-3 col-sm-4">
+  <div class="content stackparsys"></div>
+  <div class="stackparsys resRightContent"></div>
+</aside>
+</div>
+</div>
+
+<footer class="res-local-footer-wrapper">
+  <div class="container">
+    <div class="resLocalFooter">
+      <div class="res-local-footer">
+        <div class="row template-local-footer">
+          <div class="col-xs-12">
+            <div class="content stackparsys"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="resGlobalFooter">
+  <footer class="resGlobalFooter" role="contentinfo">
+    <div class="top-middle-container"><!-- top-middle-container starts -->
+      <div class="container">
+        
+        <!-- Footer Top -->
+        <div class="row footer-top">
+          <div class="col-sm-9 col-xs-6"><strong>Ryerson University</strong></div>
+          <div class="col-sm-3 col-xs-6 text-right footer-toggle"><a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button"></a></div>
+        </div>
+        
+        <!-- Footer Middle -->
+        <div class="row collapse in footer-middle" id="footer-data">
+          <div class="col-sm-9 col-xs-6 text-left">
+            <address>
+            350 Victoria Street<br>
+            Toronto, ON M5B 2K3<br>
+            <abbr title="Phone">P:</abbr>(416) 979-5000
+            </address>
+            <ol class="breadcrumb min">
+              <li><a href="/contact/">Directory</a></li>
+              <li><a href="/maps/">Maps and Directions</a></li>
+            </ol>
+          </div>
+          <div class="col-sm-3 col-xs-6 text-right">
+            <p>Follow Ryerson</p>
+            <p><a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fab fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a><a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fab fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a><a href="https://twitter.com/RyersonU" target="_blank"><i class="fab fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a><a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fab fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a><a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fab fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a></p>
+            <ol class="breadcrumb min">
+              <li><a href="/jobs/">Careers</a></li>
+              <li><a href="/media/">Media Room</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top-middle-container ends -->
+    
+    <div class="bottom-container"><!-- bottom-container starts -->
+      <div class="container">
+        
+        <!-- Footer Bottom -->
+        <div class="row footer-bottom">
+          <div class="col-xs-12">
+            <ol class="breadcrumb min">
+              <li><a href="/privacy/">Privacy Policy</a></li>
+              <li><a href="/accessibility/">Accessibility</a></li>
+              <li><a href="/ryerson.ca/terms">Terms & Conditions</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bottom-container ends -->
+  </footer>
+</div>
+
+</body>
+</html>

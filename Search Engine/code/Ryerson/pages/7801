@@ -1,0 +1,2025 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-14', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/gmdc/xmlrpc.php" />
+
+  <title>Citation Format Examples for GMDC Resources &#8211; Geospatial Map &amp; Data Centre</title>
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Feed" href="https://library.ryerson.ca/gmdc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Comments Feed" href="https://library.ryerson.ca/gmdc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geospatial Map &amp; Data Centre &raquo; Citation Format Examples for GMDC Resources Comments Feed" href="https://library.ryerson.ca/gmdc/madar/geo-data/citation/gmdc-cite/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/gmdc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/gmdc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/gmdc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/gmdc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<script src='https://library.ryerson.ca/gmdc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/gmdc\/wp-login.php?redirect_to=%2Fgmdc%2Fmadar%2Fgeo-data%2Fcitation%2Fgmdc-cite%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/gmdc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/gmdc/wp-json/wp/v2/pages/2535" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/gmdc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/gmdc/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/gmdc/madar/geo-data/citation/gmdc-cite/" />
+<link rel='shortlink' href='https://wp.me/P5kNDa-ET' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/gmdc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fgmdc%2Fmadar%2Fgeo-data%2Fcitation%2Fgmdc-cite%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/gmdc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fgmdc%2Fmadar%2Fgeo-data%2Fcitation%2Fgmdc-cite%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitemadar.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Citation Format Examples for GMDC Resources" />
+<meta property="og:url" content="https://library.ryerson.ca/gmdc/madar/geo-data/citation/gmdc-cite/" />
+<meta property="og:description" content="Agriculture Canada Agriculture Canada. Soil Survey Data for Ontario: Soils [digital resource: vector]. Ottawa, Canada: Agriculture Canada, 2000. Retrieved (day, month, year), from (insert url). Agr…" />
+<meta property="article:published_time" content="2014-08-29T18:05:32+00:00" />
+<meta property="article:modified_time" content="2014-08-29T18:06:48+00:00" />
+<meta property="og:site_name" content="Geospatial Map &amp; Data Centre" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+<meta name="twitter:text:title" content="Citation Format Examples for GMDC Resources" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+			<style type="text/css" id="wp-custom-css">
+				/* Quick things for Fall 2020 Homepage */
+.rylib-homepage-bento .wp-block-column {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 10px #4CA6E8 solid;
+}
+.rylib-homepage-bento h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.rylib-homepage-bento ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.rylib-homepage-bento a {
+	color: #000;
+}
+
+.rylib-homepage-news h2, .rylib-homepage-workshops h2 {
+	color: #0F306B;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.rylib-homepage-news ul {
+	list-style: none;
+	padding: 2em;
+	background: #FFF;
+}
+.rylib-homepage-news ul li:last-child {
+	padding-bottom: 0;
+}
+.rylib-homepage-news a {
+	color: #000;
+}
+.rylib-homepage-news a:visited {
+	color: #000;
+}
+.rylib-homepage-workshops a, .rylib-homepage-workshops a:visited { color: #000 }
+.rylib-homepage-workshops ul {
+	padding: 0;
+	list-style: none;
+}
+div.rylib-homepage-workshops li {
+	padding-bottom: 1em;
+}
+.rylib-homepage-workshops .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+.rylib-homepage-workshops .event .datewrap {
+	text-align: right;
+	min-width: 95px;
+}
+
+.rylib-homepage-workshops .event .date {
+	font-size: 1.25em;
+}
+
+.rylib-homepage-workshops .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.rylib-homepage-workshops .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+.rylib-homepage-workshops .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.rylib-homepage-workshops .event .description a:hover {
+	text-decoration: underline;
+}
+
+.rylib-land-ack {
+	background: #FFF;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.rylib-land-ack p {
+	margin: 0;
+}
+
+.rylib-land-ack .wp-block-buttons {
+	position: absolute;
+	right: 1.5em;
+}
+
+.rylib-land-ack .wp-block-button .wp-block-button__link {
+	background: #4EA5E8;
+	border-radius: 0;
+}
+ul.rylib-bento li {
+	padding-bottom: 1em;
+}
+ul.wp-block-rss li {
+	padding-bottom: 1em
+}
+			</style>
+		</head>
+
+<body class="page-template-default page page-id-2535 page-child parent-pageid-1799">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Geospatial Map & Data Centre will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/gmdc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/gmdc">Geospatial Map &amp; Data Centre</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/gmdc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-local-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-2393"><a title="Geospatial Data &amp; GIS" href="https://library.ryerson.ca/gmdc/madar/geo-data/">Geospatial Data &#038; GIS</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a title="Paper Map Inventory" href="https://library.ryerson.ca/gmdc/madar/maps/">Paper Map Inventory</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2281"><a title="Statistics and Data" href="https://library.ryerson.ca/gmdc/stats-data/">Statistics and Data</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3172"><a title="About Us" href="https://library.ryerson.ca/gmdc/madar/about/">About Us</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12 col-md-9">
+          
+    
+      
+<article id="post-2535" class="post-2535 page type-page status-publish hentry">
+			<header class="entry-header">
+			<h1 class="entry-title">Citation Format Examples for GMDC Resources</h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+		
+		<table width="550" bgcolor="#FFFFFF">
+<tbody>
+<tr align="left" valign="top">
+<td>
+<h2>Agriculture Canada</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="26"></a>Agriculture Canada. <em>Soil Survey Data for Ontario: Soils</em> [digital resource: vector]. Ottawa, Canada: Agriculture Canada, 2000. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="98"></a>Agriculture Canada. <em>Ontario Soil Surveys &#8211; Scanned Maps and Reports: Soils</em> [digital resource: vector and raster]. Ottawa, Canada: Agriculture Canada, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Census of Canada</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="62"></a>Statistics Canada. 2003. <em>Census of Canada 2001 Digital Cartographic File</em> (cartographic boundary file, [insert name of file]). Using University of Toronto Data Library Service. [insert url to download]. Using ArcGIS 9.X</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="63"></a>Statistics Canada. 1998. <em>Census of Canada 1996 Digital Cartographic File</em> (cartographic boundary file, [insert name of file]). Using University of Toronto Data Library Service. [insert url to download]. Using ArcGIS 9.X</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="73"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census</em> (cartographic boundary file, gda_000b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="74"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Toronto </em> (cartographic boundary file, gda_535b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="75"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Toronto</em> (cartographic boundary file, gct_535b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="76"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census</em> (cartographic boundary file, fsa_cbf_en.exe) and (BEYOND20/20 profile series, 95f0495xcb01003). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="210"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Hamilton Census Tract</em> (cartographic boundary file, gct_537b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01005). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="211"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Kitchener</em> (cartographic boundary file, gct_541b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="212"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Moncton</em> (cartographic boundary file, gct_305b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="213"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Oshawa</em> (cartographic boundary file, gct_532b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="214"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Quebec </em> (cartographic boundary file, gct_421b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="215"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Regina </em> (cartographic boundary file, gct_705b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="216"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Saskatoon </em> (cartographic boundary file, gct_725b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="217"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA St. John’s </em> (cartographic boundary file, gct_001b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="218"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Thunder Bay </em> (cartographic boundary file, gct_595b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="219"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Vancouver </em> (cartographic boundary file, gct_933b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="220"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Winnipeg </em> (cartographic boundary file, gct_602b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="221"></a>Statistics Canada. 2003. <em>Title of Map.</em>Using <em>2001 Census, CMA Windsor </em> (cartographic boundary file, gct_559b02a_e.exe) and (BEYOND20/20 profile series, 95f0495xcb01002-ontv2). Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="238"></a>Statistics Canada. 2003. <em>Census of Canada 2001: Ontario Cartographic Boundary Files for Major Municipalities: Thunder Bay CMA </em>(cartographic boundary file, gct_595b02a_e.exe). Using University of Toronto Data Library Service. http://prod.library.utoronto.ca:8090/datalib/datar/cc01/georef/spatial/arcinfo/cbfv2/cma-rmr/ct-sr/gct_595b02a_e.exe. Using Interchange conversion for ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="281"></a>Statistics Canada. 2004. <em>Search Map 2001, Map of Provinces</em>. http://0-geodepot.statcan.ca.innopac.lib.ryerson.ca/Diss/E-Stat/E-stat.cfm?sMapSize=medium</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="283"></a>Statistics Canada. 2004. <em>Statistics Canada GeoSearch 2001</em>.http://0-geodepot.statcan.ca.innopac.lib.ryerson.ca/Diss/GeoSearch/index.cfm?lang=E</td>
+</tr>
+<tr>
+<td valign="top"><a name="284"></a>Statistics Canada. 2007. <em>Statistics Canada GeoSearch 2006</em> (Insert url)</td>
+</tr>
+<tr>
+<td valign="top"><a name="274"></a>Statistics Canada. 2006. <em>Census of Canada 2006 Digital Cartographic File</em> (cartographic boundary file, [insert name of file]). Using University of Toronto Data Library Service. [insert url to download]. Using ArcGIS 9.X.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>City of Hamilton</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="244"></a>City of Hamilton. <em>Hamilton GIS Vector Data: Beaches </em> [digital resource: vector]. Hamilton, Ontario: City of Hamilton, 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="245"></a>City of Hamilton. <em>Hamilton Ortho Imagery Spring 2005: Orthophotos </em> [digital resource: vector]. Hamilton, Ontario: City of Hamilton, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>City of London</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="9"></a>City of London: Technical Services and Inspection Division. <em>City of London, Ontario, Digital Mapping CD 2002: Roads </em> [digital resource: vector and raster]. London, Ontario: City of London: Technical Services and Inspection Division, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="182"></a>City of London.<em>City of London, Ontario, Digital Mapping CD 2005: Roads </em> [digital resource: vector and raster]. London, Ontario: City of London, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="272"></a>City of London.<em>City of London, Ontario, Digital Mapping CD 2006: Roads </em> [digital resource: vector and raster]. London, Ontario: City of London, 2006. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="319" name="319"></a>City of London.<em>City</em><em> of London, Ontario, Digital Mapping CD 2007: Roads </em>[digital resource: vector and raster]. London, Ontario: City of London, 2007. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>City of Mississauga</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="192"></a>City of Mississauga.<em>City of Mississauga Orthomosaic Data 2005: Orthophoto</em> [digital resource: raster]. Mississauga, Ontario: City of Mississauga, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="199"></a>City of Mississauga.<em>City of Mississauga Street Casing Data 2005: School Districts</em> [digital resource: vector]. Mississauga, Ontario: City of Mississauga, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="200"></a>City of Mississauga.<em>City of Mississauga Topographic Data 2005: Contour</em> [digital resource: vector]. Mississauga, Ontario: City of Mississauga, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="320" name="320"></a>City of Mississauga.<em>City</em><em> of Mississauga Street Casing Data 2008: School Districts</em> [digital resource: vector]. Mississauga, Ontario: City of Mississauga, 2008. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="321" name="321"></a>City of Mississauga.<em>City</em><em> of Mississauga Topographic Data 2008: Contour</em> [digital resource: vector]. Mississauga, Ontario: City of Mississauga, 2008. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="322" name="322"></a>City of Mississauga.<em>City</em><em> of Mississauga Orthomosaic Data 2007: Orthophoto</em> [digital resource: raster]. Mississauga, Ontario: City of Mississauga, 2007. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>City of Toronto</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="6"></a>Land Information Toronto.<em>City of Toronto Centreline 2002: Streets </em> [digital resource: vector]. Toronto, Ontario: Land Information Toronto, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="7"></a>Land Information Toronto.<em>City of Toronto Property Boundaries 2002: Boundaries </em> [digital resource: vector]. Toronto, Ontario: Land Information Toronto, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="8"></a>Land Information Toronto.<em>City of Toronto Orthophotos 1997: Orthophotos </em> [digital resource: raster]. Toronto, Ontario: Land Information Toronto, 1997. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="80"></a>City of Toronto.<em>City of Toronto Orthophotos 1999: Orthophotos </em> [digital resource: raster]. Toronto, Ontario: Land Information Toronto, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="143"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Property Data Map 2004: Land Use </em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="144"></a>Land Information Toronto.<em>City of Toronto Centreline 2002: Streets</em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="145"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Property Boundaries 2004: Boundaries </em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="148"></a>City of Toronto Works and Emergency Services<em>City of Toronto Mono Viewer (TMV) 2.0: Vegetation</em> [digital resource: vector and raster]. Version 2.0. Toronto, Ontario: City of Toronto Works and Emergency Services, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="149"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Orthophotos 1999: Orthophotos </em> [digital resource: raster]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="155"></a>University of Toronto Map Library.<em>City of Toronto Contour Lines (1 metre) 2002: Contours</em> [digital resource: vector]. Toronto, Ontario: First Base Solutions, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="179"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Ward Boundaries 2003: Electoral</em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="190"></a>City of Toronto.<em>City of Toronto Interactive Overview Map: Roads</em> [digital resource: vector and raster]. Toronto, Ontario: City of Toronto, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="195"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Building Construction Date Map 2003: Housing</em> [digital resource: raster]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="197"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Ravine Protection Ward Map 2003: Ravines</em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="198"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Street Guide with Address Ranges 2002: Streets</em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="226"></a>City of Toronto.<em>City of Toronto Zoning Maps (Pre-Amalgamated): Zoning</em> [digital resource: vector]. Toronto, Ontario: City of Toronto, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="282"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Property Data Map 2007 (PDF Version) </em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2007. Retrieved (day, month, year), from (https://www.runner.ryerson.ca/madar/geospatial/libdata/action2b.cfm?ResourceID=282).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="285"></a>City of Toronto Works and Emergency Services.<em>City of Toronto Property Data Map 2007 (DWG Version) </em> [digital resource: vector]. Toronto, Ontario: City of Toronto Works and Emergency Services, 2007. Retrieved (day, month, year), from (https://www.runner.ryerson.ca/madar/geospatial/libdata/action2b.cfm?ResourceID=285).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 5.1</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="4"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 5.1 – (CMA Toronto Clip): Elevation </em> [digital resource: vector]. Version 5.1. Markham, Ontario: DMTI Spatial Inc., 2001. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 6.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="5"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 6.2 – (CMA Toronto Clip): Elevation </em> [digital resource: vector]. Version 6.2. Markham, Ontario: DMTI Spatial Inc., 2001. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 7.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="34"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – Alberta : Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="35"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (British Columbia): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="36"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Manitoba): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="37"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (New Brunswick): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="38"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Newfoundland): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="39"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Northwest Territories): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="40"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Nova Scotia): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="41"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Nunavut Territory): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="43"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Prince Edward Island): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="44"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Quebec): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="45"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Saskatchewan): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="46"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Yukon): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="71"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 7.2 – (Ontario): Elevation </em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 8.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="101"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (CMA Toronto Clip): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="102"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Golden Horseshoe Clip):Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="105"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Manitoba): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="106"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (New Brunswick): Elevation: Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="107"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Newfoundland): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="108"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Northwest Territories): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="109"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Nova Scotia): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="110"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Nunavut): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="111"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Prince Edward Island): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="112"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Quebec): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="113"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Saskatchewan): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="114"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Yukon): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="115"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 8.2 – (Ontario): Elevation </em> [digital resource: vector]. Version 8.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="156"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Alberta): Hydrography</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="157"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (British Columbia): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="158"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Manitoba): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="159"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 –(New Brunswick): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="160"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Newfoundland): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="161"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Northwest Territories): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="162"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Nova Scotia): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="163"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Nunavut Territory): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="164"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Ontario): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="165"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Prince Edward Island): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="166"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Quebec): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="167"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Saskatchewan): Elevation </em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="168"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (City of Toronto): Elevation </em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="169"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Yukon Territory): Elevation </em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="170"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (CMA Toronto Clip): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="171"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2005.3 – (Golden Horseshoe Clip): Elevation</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="255"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (City of Toronto): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="256"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Greater Toronto Area): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="257"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (CMA Toronto Clip): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="258"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Ontario): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="259"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Alberta): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="260"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (British Columbia): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="261"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Manitoba): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="262"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Newfoundland): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="263"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (New Brunswick): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="264"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Northwest Territories): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="265"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Nova Scotia): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="266"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Nunavut Territories): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="267"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Prince Edward Island): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="268"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Quebec): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="269"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Saskatchewan): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="270"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2006.3 (Yukon Territory): Census </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap RouteLogistics 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="295" name="295"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Greater Toronto Area): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="296" name="296"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (City of Toronto): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="297" name="297"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (CMA Toronto Clip): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="298" name="298"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Ontario): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="299" name="299"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Alberta): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="300" name="300"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Manitoba): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="301" name="301"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Saskatchewan): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="302" name="302"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (British Columbia): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="303" name="303"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Quebec): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="304" name="304"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (New Brunswick): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="305" name="305"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Newfoundland): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="306" name="306"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Nova Scotia): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="307" name="307"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Northwest Territories): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="308" name="308"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Nunavut Territories): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="309" name="309"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Prince Edward Island): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="310" name="310"></a>DMTI Spatial Inc. <em>CanMap RouteLogistics 2007.3 (Yukon Territory): Census </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Streetfiles 6.1</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="47"></a>DMTI Spatial Inc. <em>CanMap Streetfiles 6.1: Streets</em> [digital resource: vector]. Version 6.1. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Streetfiles 7.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="72"></a>DMTI Spatial Inc. <em>CanMap Streetfiles 7.2 (CMA Toronto Clip): Roads</em> [digital resource: vector]. Version 7.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Enhanced Canadian Postal Geography 6.1</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="49"></a>DMTI Spatial Inc. <em>Enhanced Canadian Postal Geography: Postal Geography</em> [digital resource: vector]. Version 6.1. Markham, Ontario: DMTI Spatial Inc., 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Enhanced Canadian Postal Geography 8.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="120"></a>DMTI Spatial Inc. <em>Enhanced Canadian Postal Geography 8.3: Postal Geography</em> [digital resource: vector]. Version 8.3. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Enhanced Canadian Postal Geography 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="173"></a>DMTI Spatial Inc. <em>CanMap Enhanced Canadian Postal Geography: Postal Geography</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; GeoPinpoint 5.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="119"></a>DMTI Spatial Inc. <em>GeoPinpoint 5.4: Postal Geography</em> [digital resource: vector]. Version 5.4. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; GeoPinpoint 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="178"></a>DMTI Spatial Inc. <em>GeoPinpoint 2005.3: Postal Geography</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Census Geography Files</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="13"></a>DMTI Spatial Inc. <em>DMTI Census Geography Files: Census</em> [digital resource: vector]. Markham, Ontario: DMTI Spatial Inc., 1996 Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Canadian Atlas Map Bundle</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="48"></a>DMTI Spatial Inc. <em>Canadian Atlas Map Bundle: Water</em> [digital resource: vector]. Version 2002. Markham, Ontario: DMTI Spatial Inc., 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="51"></a>DMTI Spatial Inc. <em>Canadian Atlas Map Bundle: Water</em> [digital resource: vector]. Version 2002. Markham, Ontario: DMTI Spatial Inc., 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="331" name="331"></a>DMTI Spatial Inc. <em>Canadian Atlas Map Bundle 2005: Water</em> [digital resource: vector]. Version 2005. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Enhanced Points of Interest 3.1</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="52"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Canada): Airports</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="81"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Ontario): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="82"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Alberta): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="83"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (British Colombia): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="84"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Manitoba): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="85"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (New Brunswick): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="86"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Newfoundland): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="87"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Nova Scotia): Cinemas </em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="88"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Northwest Territories): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="89"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Nunavut): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="90"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Prince Edward Island): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="91"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Quebec): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="92"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Saskatchewan): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="93"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (Yukon): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="94"></a>DMTI Spatial Inc. <em>Enhanced Points of Interest 3.1 (City of Toronto): Cinemas</em> [digital resource: vector]. Version 3.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; DMTI Digital Elevation Models</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="53"></a>DMTI Spatial Inc. <em>DMTI Digital Elevation Models (30m and 90m)</em> [digital resource: vector]. Markham, Ontario: DMTI Spatial Inc., 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Parks 1.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="50"></a>DMTI Spatial Inc. <em>CanMap Parks 1.2: National Parks</em> [digital resource: vector]. Version 1.2. Markham, Ontario: DMTI Spatial Inc., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Parks 2.0</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="116"></a>DMTI Spatial Inc. <em>CanMap Parks and Recreation 2.0: National Parks</em> [digital resource: vector]. Version 2.0. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Parks and Recreation 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="172"></a>DMTI Spatial Inc. <em>CanMap Parks and Recreation 2005.3: National Parks</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Rail 2.2</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="117"></a>DMTI Spatial Inc. <em>CanMap Rail 2.2: Railroads</em> [digital resource: vector]. Version 2.2. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Rail 2005.3: Railroads</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="174"></a>DMTI Spatial Inc. <em>CanMap Rail 2005.3: Railroads</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Forward Sortation Areas (FSA) 8.1</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="118"></a>DMTI Spatial Inc. <em>Forward Sortation Areas (FSA) 8.1: Boundaries</em> [digital resource: vector]. Version 8.1. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Forward Sortation Areas (FSA) 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="175"></a>DMTI Spatial Inc. <em>CanMap Forward Sortation Areas: Postal Geography</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Water 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="176"></a>DMTI Spatial Inc. <em>CanMap Water 2005.3: Wetlands</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Enhanced Points of Interest 2005.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="177"></a>DMTI Spatial Inc. <em>CanMap Enhanced Points of Interest: Hospitals</em> [digital resource: vector]. Version 2005.3. Markham, Ontario: DMTI Spatial Inc., 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Satellite Streetview</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="184"></a>DMTI Spatial Inc. <em>Satellite Streetview – City of Toronto: Roads</em> [digital resource: vector and raster]. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="188"></a>DMTI Spatial Inc. <em>Satellite Streetview – City of Ottawa: Roads</em> [digital resource: vector and raster]. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="189"></a>DMTI Spatial Inc. <em>Satellite Streetview – Niagara Region: Roads</em> [digital resource: vector and raster]. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Clutter Data</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="194"></a>DMTI Spatial Inc. <em>DMTI Clutter Data</em> [digital resource: vector]. Version 2.0. Markham, Ontario: DMTI Spatial Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Canada Directory 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="246"></a>DMTI Spatial Inc. <em>Canada Directory Area Code Boundaries 2006.4: Area Codes </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="247"></a>DMTI Spatial Inc. <em>Canada Directory Time Zones 2006.4: Time Zones </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Canada Directory 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="327" name="327"></a>DMTI Spatial Inc. <em>Canada Directory Area Code Boundaries 2007.3: Area Codes </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="326" name="326"></a>DMTI Spatial Inc. <em>Canada Directory Time Zones 2007.3: Time Zones </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Provincial Boundary Files 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="248"></a>DMTI Spatial Inc. <em>CanMap Provincial Boundary Files 2006.4: Boundaries </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Platinum Postal Suite 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="249"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Forward Sortation Area (FSA) 2006.4: FSA </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Platinum Postal Suite 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="325" name="325"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Forward Sortation Area (FSA) 2007.3: FSA </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Capital Cities 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="250"></a>DMTI Spatial Inc. <em>CanMap Capital Cities 2006.4: Boundaries </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Capital Cities 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="324" name="324"></a>DMTI Spatial Inc. <em>CanMap Capital Cities 2007.3: Boundaries </em> [digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Regional Municipalities 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="251"></a>DMTI Spatial Inc. <em>CanMap Regional Municipalities 2006.4: Boundaries </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Regional Municipalities 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="323" name="323"></a>DMTI Spatial Inc. <em>CanMap Regional Municipalities 2007.3: Boundaries </em> [digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Platinum Postal Suite 2006.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="252"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Local Delivery Unit Area (LDU) 2006.4: Boundaries </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="253"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Local Delivery Unit Area (LDU) 2006.4 (TorontoCMA): Boundaries </em> [digital resource: vector]. Version 2006.4. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Platinum Postal Suite 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="328" name="328"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Local Delivery Unit Area (LDU) 2007.4 (TorontoCMA): Boundaries </em>[digital resource: vector]. Version 2007.4. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="329" name="329"></a>DMTI Spatial Inc. <em>Platinum Postal Suite Local Delivery Unit Area (LDU) 2007.4: Boundaries </em>[digital resource: vector]. Version 2007.4. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Enhanced Points of Interest 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="275"></a>DMTI Spatial Inc. <em>CanMap Enhanced Points of Interest 2006.3 </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Enhanced Points of Interest 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="316" name="316"></a>DMTI Spatial Inc. <em>CanMap Enhanced Points of Interest 2007.3 </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Rail 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="277"></a>DMTI Spatial Inc. <em>CanMap Rail 2006.3: Railroads </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Rail 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="313" name="313"></a>DMTI Spatial Inc. <em>CanMap Rail 2007.3: Railroads </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Enhanced Canadian Postal Geography 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="278"></a>DMTI Spatial Inc. <em>CanMap Enhanced Canadian Postal Geography 2006.3: Postal Geography </em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Enhanced Canadian Postal Geography 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="314" name="314"></a>DMTI Spatial Inc. <em>CanMap Enhanced Canadian Postal Geography 2007.3: Postal Geography </em>[digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Parks and Recreation 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="280"></a>DMTI Spatial Inc. <em>CanMap Parks and Recreation 2006.3: National Parks</em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Parks and Recreation 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="311" name="311"></a>DMTI Spatial Inc. <em>CanMap Parks and Recreation 2007.3: National Parks</em> [digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="330" name="330"></a>DMTI Spatial Inc. <em>CanMap Parks and Recreation 2007.3: National Parks</em> [digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Water 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="279"></a>DMTI Spatial Inc. <em>CanMap Water 2006.3: Wetlands</em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; CanMap Water 2007.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="312" name="312"></a>DMTI Spatial Inc. <em>CanMap Water 2007.3: Wetlands</em> [digital resource: vector]. Version 2007.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; GeoPinpoint 2006.3</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="286"></a>DMTI Spatial Inc. <em>GeoPinpoint 2006.3: Postal Geography</em> [digital resource: vector]. Version 2006.3. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; GeoPinpoint 2007.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="315" name="315"></a>DMTI Spatial Inc. <em>GeoPinpoint Version 2007.4</em> [digital resource: vector]. Version 2007.4. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>DMTI Spatial &#8211; Network Data 2007.4</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="317" name="317"></a>DMTI Spatial Inc. <em>Routelogistics Network Data 2007.4</em> [digital resource: vector]. Version 2007.4. Markham, Ontario: DMTI Spatial Inc., 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Environmental Systems Research Institute (ESRI)</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="21"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>Digital Chart of the World</em> [digital resource: vector]. Redlands, CA: Environmental Systems Research Institute Inc., 1992. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="121"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – National Data – Canada: Soils </em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="122"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Alberta: Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: EnvironmentalSystems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="123"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – British Columbia: Moraines</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="124"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Manitoba: Railroads</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="125"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Northwest Territories: Contours</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="126"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Saskatchewan: Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="127"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Yukon:Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="128"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – New Brunswick: Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="129"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Newfoundland: Surficial Geology</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="130"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Nova Scotia: Utilities</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="131"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Nunavut Territory: Contours</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="132"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Ontario: Provincial Parks</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="133"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Prince Edward Island: Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="134"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Provincial Data – Quebec: Soils</em> [digital resource: vector]. Version 3.0. Toronto, Canada: EnvironmentalSystems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="135"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – Africa: Physiography</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="136"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – Antarctica: Physiography</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="137"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – Africa: Water</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="138"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – Europe: Water</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="139"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – North America: Water</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="140"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – Oceania: Water</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="141"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Continental Data – South America: Water</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="142"></a>Environmental Systems Research Institute Canada Ltd. (ESRI). <em>ArcCanada 3.0 – Global Data – World: Major Cities</em> [digital resource: vector]. Version 3.0. Toronto, Canada: Environmental Systems Research Institute Canada Ltd., 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>GeoBase Orthoimage 2005-2010</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="333" name="333"></a>Natural Resources Canada. <em>GeoBase Orthoimage: </em> [digital resource: vector]. Version 2005-2010. Ontario: Natural Resources Canada., 2005-2010. Retrieved (day, month, year), from (insert url).<strong></strong></td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>GeoLytics</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="12"></a>GeoLytics<em>Street CD 99: Highways</em> [digital resource: vectpr]. East Brunswick, NJ: GeoLytics Inc., 1999. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Grand River Conservation Authority</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="153"></a>Grand River Conservation Authority. <em>Grand River Conservation Authority &#8211; Digital Files 2006: Drainage</em> [digital resource: vector and raster]. Cambridge, Ontario: Grand River Conservation Authority, 2006. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>First Base Solutions</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="100"></a>First Base Solutions.<em>Southern Ontario Orthophotos 2002</em> [digital resource: raster]. Markham, Ontario: First Base Solutions, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="183"></a>First Base Solutions.<em>Digital Terrain Model &#8211; Southern Ontario Region 2002: Contours</em> [digital resource: vector]. Markham, Ontario: First Base Solutions, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="254"></a>First Base Solutions. <em>City of Toronto Orthophotos 2005 </em> [digital resource: raster]. Toronto, Ontario: First Base Solution, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>International Data</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="23"></a>Socioeconomic Data and Applications Center (SEDAC). <em>Central American Vegetation / Land Cover Classification and Conservation Status: Land Cover </em> [digital resource: vector] . Palisades, NY: Center for International Earth Science Information Network (CIESIN), Columbia University, 1998. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="146"></a>HydroScience Press. <em>Digital World Map of Hydrogeological Conditions and Groundwater Flow: Hydrography</em> [digital resource: vector]. Version 2.0. St Paul Minnesota: HydroScience Press, 1999. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="54"></a>Socioeconomic Data and Applications Center (SEDAC). <em>Georeferenced Population Data Sets of Mexico: Population</em> [digital resource: vector]. Palisades, NY: Center for International Earth Science Information Network (CIESIN), Columbia University, 1990. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="209"></a>Palidis. <em>Israel Maps: Population</em> [digital resource: vector and raster]. Plymouth, Minnesota: East View Cartographic Inc., 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="222"></a>China National Bureau of Statistics. <em>China Historical County Population Census Data with GIS Maps 1982, 1990, 2000: Census </em> [digital resource: vector]. Ann Arbor, MI: University of Michigan China Data Centre, 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Land Information Worldwide Mapping</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="203"></a>National Aeronautics Space Administration. <em>Tactical Pilotage Charts (TPC): Boundaries </em> [digital resource: raster]. Highlands Ranch, Colorado: Land Information Worldwide Mapping LLC., 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="204"></a>National Aeronautics Space Administration. <em>Shuttle Radar Topography Mission (SRTM) 2000 </em> [digital resource: raster]. Highlands Ranch, Colorado: Land Information Worldwide Mapping LLC., 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="207"></a>National Geospatial-Intelligence Agency. <em>Vector Map Level 0: Boundaries</em> [digitalresource: raster]. Version 5. Highlands Ranch, Colorado: Land Information Worldwide Mapping LLC., 2000.Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>MacDonald Dettwiler and Associates</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="205"></a>MacDonald Dettwiler and Associates Ltd. (MDA). <em>Landsat 7 ETM (15m) GeoCover 2000 Worldwide Satellite Imagery: Satellite Images </em> [digital resource: raster]. GeoCover 2000. Highlands Ranch, Colorado: 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="206"></a>MacDonald Dettwiler and Associates Ltd. (MDA). <em>Landsat 4/5 TM (30m) GeoCover 1990 Worldwide Satellite Imagery: Satellite Images</em> [digital resource: raster]. GeoCover 1990. Highlands Ranch, Colorado: 1990. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Ministry of the Environment</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="191"></a>Ministry of the Environment. <em>Ontario Waste Disposal Site Inventory</em> [digital resource: vector]. Toronto, Ontario: Ministry of the Environment, 1991. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Ministry of Municipal Affairs and Housing</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="15"></a>Ministry of Municipal Affairs and Housing. <em>Ontario Municipal Boundaries: Boundaries &#8211; Political</em> [digital resource: vector]. Toronto, Ontario: Ministry of Municipal Affairs and Housing, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="154"></a>Ministry of Municipal Affairs and Housing. <em>Ontario Municipal Boundaries: Boundaries &#8211; Political</em> [digital resource: vector]. Toronto, Ontario: Ministry of Municipal Affairs and Housing, 2004. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="180"></a>Ministry of Municipal Affairs and Housing. <em>TTC Network and GO Transit Data: Subway</em> [digital resource: vector]. Toronto, Ontario: Ministry of Municipal Affairs and Housing, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="271"></a>Ministry of Municipal Affairs and Housing. <em>Ontario Municipal Boundaries: Boundaries &#8211; Political </em> [digital resource: vector]. Toronto, Ontario: Ministry of Municipal Affairs and Housing, 2007. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Ministry of Natural Resources</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="16"></a>Ministry of Natural Resources. <em>Ontario Land Cover: Forestry </em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="66"></a>Ministry of Natural Resources. <em>Ontario Base Maps (Digital): Vegetation</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="67"></a>Ontario Geospatial Data Exchange. <em>Ontario Digital Elevation Models</em> [digital resource: raster]. Peterborough, Ontario: Ministry of Natural Resources, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="185"></a>Ministry of Natural Resources. <em>Forestry Resource Inventory 2001: Forestry</em> [digital resource: vector and raster]. Peterborough, Ontario: Ministry of Natural Resources, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="186"></a>Ministry of Natural Resources. <em>Ontario Road Network 2005: Streets</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="187"></a>Ministry of Natural Resources. <em>Ontario Base Maps: Water</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="193"></a>Ontario Geospatial Data Exchange Administrator. <em>Oak Ridges Moraine Digital Data: Wetlands</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="196"></a>Ministry of Natural Resources. <em>Water Resources Information Project: Waterflow Data Layer 2002</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="201"></a>Ministry of Natural Resources. <em>Water Resources Information Project: Watershed Data Layer 2002</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="233"></a>Ministry of Natural Resources. <em>Ontario Road Network 2005: Streets</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="234"></a>Ministry of Natural Resources. <em>Greenelt Natural Heritage System: Protected Area</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="235"></a>Ministry of Natural Resources. <em>Landcover 2002 Greater Toronto: Satellite Images</em> [digital resource: raster]. Peterborough, Ontario: Ministry of Natural Resources, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="236"></a>Ministry of Natural Resources. <em>Toronto and Surrounding Area Base Data Classes (OMNR Aurora District): Land Ownership</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="237"></a>Land Information Ontario. <em>Topographic Map Maker</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="242"></a>Ministry of Natural Resources. <em>Built-Up Areas in Southern Ontario: Built up Areas</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="243"></a>Ministry of Natural Resources. <em>Greenelt Selected Wildlife Habitat: Protected Area</em> [digital resource: vector]. Peterborough, Ontario: Ministry of Natural Resources, 2006. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Ministry of Transportation</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="1"></a>Geomatics Office.<em>Digital Cartographic Reference Base: Base Maps</em> [digital resource: vector]. Version 2.0. St. Catharines, Ontario: Ministry of Transportation, 1999. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="2"></a>Geomatics Office.<em>Digital Cartographic Reference Base: Base Maps</em> [digital resource: vector]. Version 3.0. St. Catharines, Ontario: Ministry of Transportation, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Natural Resources Canada</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="14"></a>Geomatics Canada. <em>National Topographic Database (NTDB): Trail</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="19"></a>Geological Survey of Canada. <em>Surficial Materials of Canada: Geology</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1995. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="22"></a>Natural Resources Canada. <em>Atlas of Canada Vector Map Level 0 (VMAP0): Hydrography</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 2000. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="57"></a>Natural Resources Canada. <em>Canadian Digital Elevation Model: Digital Elevation Models</em> [digital resource: raster]. Ottawa, Canada: Natural Resources Canada, 2000. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="58"></a>Centre for Topographic Information. <em>CanMatrix: Topography</em> [digital resource: raster]. Sherbrooke, Quebec: Natural Resources Canada, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="59"></a>Centre for Topographic Information. <em>CanImage: Satellite Images</em> [digital resource: raster]. Sherbrooke, Quebec: Natural Resources Canada, 2002. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="60"></a>Natural Resources Canada. <em>Canadian Geopolitical Boundaries, Level 1: Boundaries (CGB1)</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 2003. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="68"></a>Centre for Topographic Information. <em>Landsat 7 Images of Ontario: Satellite Images</em> [digital resource: raster]. Sherbrooke, Quebec: Natural Resources Canada, 1995. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="69"></a>Centre for Topographic Information. <em>Landsat 5 Images of Ontario: Satellite Images</em> [digital resource: raster]. Sherbrooke, Quebec: Natural Resources Canada, 1995. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="95"></a>Centre for Remote Sensing. <em>Landsat 5 TM Data over Major Canadian Cities: Satellite Images</em> [digital resource: raster]. Ottawa, Canada: Natural Resources Canada, 1989. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="96"></a>Centre for Remote Sensing. <em>Landsat 7 Orthorectified Imagery over Canada: Satellite Images</em> [digital resource: raster]. Ottawa, Canada: Natural Resources Canada, 1989. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="97"></a>Natural Resources Canada. <em>Canadian Digital Elevation Data, Level 1: Digital Elevation Models (CDED1)</em> [digital resource: raster]. Ottawa, Canada: Natural Resources Canada, 2000. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="147"></a>Geological Survey of Canada. <em>Geological Map of Canada &#8211; Map D1860A: Landforms</em> [digital resource: vector]. Version 1.0. Ottawa, Canada: Natural Resources Canada, 1997. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="227"></a>Environment Canada. <em>Canada Land Inventory: Soil Capability for Agriculture: Agriculture </em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="228"></a>Environment Canada. <em>Canada Land Inventory: Soil Capability for Forestry: Land Use </em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="229"></a>Environment Canada. <em>Canada Land Inventory: Land Capability for Recreation: Roads</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="230"></a>Environment Canada. <em>Canada Land Inventory: Soil Capability for Ungulates: Soils </em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="231"></a>Environment Canada. <em>Canada Land Inventory: Land Capability for Waterfowl: Wildlife</em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="232"></a>Environment Canada. <em>Canada Land Inventory: Land-Use Capability: Forestry </em> [digital resource: vector]. Ottawa, Canada: Natural Resources Canada, 1999. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Regional Municipality of York</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="78"></a>Planning and Development Services Department, Geomatic Division. <em>York Region Gateway: Police </em> [digital resource: vector and raster]. Newmarket, Ontario: Regional Municipality of York, 2005. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Softmap Publishing</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="11"></a>Softmap. <em>Softmap Ontario Topo50: Topography </em> [digital resource: vector]. Version 4.0. Toronto, Ontario: Softmap Publishing. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Toronto and Region Conservation Authority (TRCA) Geospatial Data</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a id="332" name="332"></a>Toronto and Region Conservation Authority (TRCA). <em>Toronto</em><em> and Region Conservation Authority (TRCA) Geospatial Data: </em> [digital resource: vector]. Version 2007. Toronto, Ontario: Toronto and Region Conservation Authority (TRCA)., 2007. Retrieved (day, month, year), from (insert url).<strong></strong></td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Toronto Transit Commission</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="77"></a>Toronto Transit Commission. <em>TTC Network Data: Public Transit </em> [digital resource: vector]. Toronto, Ontario: Toronto Transit Commission, 2004. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="273"></a>Toronto Transit Commission. <em>TTC Network Data: Public Transit </em> [digital resource: vector]. Toronto, Ontario: Toronto Transit Commission, 2007. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>United States Department of Transportation</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="20"></a>Bureau of Transportation Statistics. <em>National Transportation Atlas Database: Highways</em> [digital resource: vector]. Washington D.C.: United States Department of Transportation, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>United States Geological Survey</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="30"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of South Pacific: Topography </em> [digital resource: vector and raster]. Washington, D.C.: United States Geological Survey, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="31"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of Central and South America: Topography</em> [digital resource: vector and raster]. Washington, D.C.: United States Geological Survey, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="32"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of Africa: Topography</em> [digital resource: vector and raster]. Washington, D.C.: United States Geological Survey, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="33"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of South Asia: Topography</em> [digital resource: vector and raster]. Washington, D.C.: United States Geological Survey, 2001. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="223"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of Europe: Topography</em> [digital resource: vector and raster]. Flagstaff, AZ: USGS, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="224"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of North America: Topography</em> [digital resource: vector and raster]. Flagstaff, AZ: USGS, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="225"></a>United States Geological Survey. <em>Global GIS Database: Digital Atlas of North Eurasia: Topography</em> [digital resource: vector and raster]. Flagstaff, AZ: USGS, 2003. Retrieved (day, month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Web Resources</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="151"></a>UrbanRail.net. <em>WWorld Subway and Metro Maps (UrbanRail): Subway</em> [digital resource: vector] . Berlin, Germany: UrbanRail.net, 2001. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="152"></a>Amadeus Global Travel Distribution. <em>World Subway and Metro Maps (metroPlanet): Subway </em> [digital resource: vector] . Berlin, Germany: Amadeus Global Travel Distribution, 2005. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>World Wildlife Fund Canada</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="150"></a>World Wildlife Fund Canada. <em>Northwest Territories, Canada – Digital Atlas: Hydrography</em> [digital resource: vector and raster]. Toronto, Ontario: World Wildlife Fund Canada, 2002. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>York Region</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="276"></a>Planning and Development Services Department, Geomatic Division. <em>York Region Gateway: Police </em> [digital resource: vector and raster]. Newmarket, Ontario: Regional Municipality of York, 2007. Retrieved (day,month, year), from Ryerson University Library.</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<h2>Yukon Department of Renewable Resources</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td><a name="17"></a>Yukon Department of Renewable Resources. <em>RRGIS 90 Meter Digital Elevation Model </em> [digital resource: raster]. Whitehorse, Yukon: Yukon Department of Renewable Resources, 2000. Retrieved (day, month, year), from (insert url).</td>
+</tr>
+</tbody>
+</table>
+		
+		
+		<footer class="entry-meta">
+								</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-2535 -->
+
+    </div><!-- #primary -->
+
+    
+<div class="col-xs-12 col-sm-3 widget-area" role="complementary">
+  
+    <aside id="olt-subpages-navigation-widget-2" class="widget widget_subpages_navigation"><h3 class="widget-title"><a href='https://library.ryerson.ca/gmdc/'>Geospatial Map &amp; Data Centre (GMDC)</a></h3>      <ul class="subpages-navi subpages-navi-widget subpages-navi-collapsible subpages-navi-auto-expand">
+          <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/gmdc/madar/geo-data/">Geospatial Data &amp; GIS</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/">Search &amp; Download Geospatial Data</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/canada/">National - Canada</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/ontario/">Ontario</a>
+            <ul class='children'>
+              <li class="subpages-navi-node subpages-navi-level-3">
+                <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/ontario/lio/">Land Information Ontario (LIO)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/toronto/">Toronto</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/search-2/world-2/">World</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/geo-data/census/">Census Data &amp; Mapping</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/census/smc/">SimplyAnalytics - Formerly SimplyMap Canada</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/census/us/">US Census</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/geo-data/public/">Publicly Accessible Data</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/public/open/">Open Data</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/public/opengov/">Open Government</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/public/gov-ext/">Government &amp; External Agencies</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/geo-data/license/">Data Licensing</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/license/data-release/">Data Release Agreements</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/geo-data/citation/">Citing Geospatial Data</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2 subpages-navi-current-level">
+            <a href="https://library.ryerson.ca/gmdc/madar/geo-data/citation/gmdc-cite/">Citation Format Examples for GMDC Resources</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/gmdc/madar/gis/">Working with Geospatial Data &amp; GIS</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/gis/software/">GIS Software</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/software/arcgis/">ArcGIS Student Edition</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/gis/online/">Online Mapping</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/gis/help/">GIS Courses &amp; Help Guides</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/fundamentals/">GIS Fundamentals</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/download/">Data Download Support</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/arcgis/">ArcGIS Desktop &amp; Online</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/os/">Open Source GIS</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/census/">Census Mapping</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/ge/">Google Products</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/help/comgis/">Commercial GIS Support</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/gis/program/">GIS by Program</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/geography/">Geography</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/architecture/">Architecture</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/business/">Business</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/civil/">Civil Engineering - Geomatics</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/environment/">Environmental Science</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/politics/">Politics</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/planning/">Urban &amp; Regional Planning</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/health/">Health</a>
+          </li>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/gis/program/crime/">Crime</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/gmdc/madar/service/">Services - GIS Research &amp; Instructional Support</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/service/appointments/">GIS Consultation - Appointments</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/service/workshops/">GIS Workshops</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/service/faculty/">Faculty Support</a>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/gmdc/madar/maps/">Paper Map Inventory</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/maps/search/">Search for Paper Maps</a>
+        <ul class='children'>
+          <li class="subpages-navi-node subpages-navi-level-2">
+            <a href="https://library.ryerson.ca/gmdc/madar/maps/search/nts/">National Topographic System (NTS)</a>
+          </li>
+        </ul>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/maps/policy/">Borrowing Policy</a>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/gmdc/madar/about/">About Us</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/about/hours/">Hours</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/about/labpolicy/">GIS and Data Lab Policy</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/about/events/">Events</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/about/gmdcmap/">GMDC Location Map</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/gmdc/madar/about/contact-us/">Contact Us</a>
+      </li>
+    </ul>
+  </li>
+      </ul>
+
+      </aside>
+  
+</div><!-- #secondary .widget-area -->
+
+  </div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                    
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/gmdc/files/2017/08/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/gmdc/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/gmdc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202049.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.2',blog:'78839024',post:'2535',tz:'-5',srv:'library.ryerson.ca'} ]);
+	_stq.push([ 'clickTrackerInit', '78839024', '2535' ]);
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'IJEINEGCFALCLDBCJCHOPDFJBNJLPLFEPCBAIFDJKIMNAJBHGDDGLKJEKDNBGAKAHFDBJIDJAALAFMCGCBLAEEKLAAGHALLGOBDLGHHEBHBBACLFKNMPMPJLJNMPOGKF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

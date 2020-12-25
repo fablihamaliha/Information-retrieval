@@ -1,0 +1,1559 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="shortcut icon" href="/static/img/ryerson.favicon.jpg"/>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Expertise Finder"/>
+<meta name="copyright" content="Copyright Expertise Finder"/>
+
+<title>Faculty of Science &bull; Ryerson University Faculty Experts</title>
+
+
+<meta name="description" content="Search and connect with experts in Faculty of Science. It's fast and free."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="INDEX, FOLLOW, NOARCHIVE, NOODP, NOYDIR"/>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="/static/js/typeahead.bundle.min.js"></script>
+<script src="/static/js/jquery.mark.min.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/static/css/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/static/css/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+<!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/js/tippy.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@charset "utf-8";
+
+@font-face
+{
+    font-family: 'proxima-reg';
+    src: url('/static/fonts/proxima_nova_regular.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-italic';
+    src: url('/static/fonts/proxima_nova_italic.otf') format('opentype');
+}
+@font-face
+{
+    font-family: 'proxima-bold';
+    src: url('/static/fonts/proxima_nova_bold.otf') format('opentype');
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    font-family: 'proxima-reg', sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+html, body, p, div, button, input, select, textarea, .pure-g [class *= "pure-u"]
+{
+    font-family: 'proxima-reg', sans-serif;
+    font-size: 18px;
+}
+
+.notxtstyle
+{
+    text-decoration: none;
+}
+
+.bold
+{
+    font-family: 'proxima-bold', sans-serif;
+}
+
+.italic
+{
+    font-family: 'proxima-italic', sans-serif;
+}
+
+.rf
+{
+    float: right;
+}
+
+.lf
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: red;
+}
+
+.blockify 
+{
+    display: block;
+}
+
+.iblockify 
+{
+    display: inline-block;
+}
+
+#globalwrapper
+{
+    background-color: #E6E6E6;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.grayBorderedBox
+{
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+    border-collapse: separate;
+}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65257357-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65257357-1');
+</script>
+
+
+<style type="text/css">
+#mainHeader
+{
+    background-color: white; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    z-index: 1030; 
+    
+    padding-top: 15px; 
+    
+}
+
+#top_notification
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffaa;
+    margin-top: 15px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #EBDF6C;
+    width: 100%;
+    height: 39px;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.label
+{
+    color: #fff;
+    background-color: #d73d32;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.activeSettingsBtn, .settingsBtn
+{
+    content: "";
+    height: 5px; 
+    width: 30px;
+    float: left;
+    margin: 6px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activeSettingsBtn
+{
+    border-top: 5px solid #0078E7; 
+    border-bottom: 15px double #0078E7; 
+}
+
+.settingsBtn
+{
+    border-top: 5px solid black; 
+    border-bottom: 15px double black; 
+}
+
+#settingsMenu
+{
+    position: fixed;
+    z-index: 2000;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    top: -999px;
+    left: -999px;
+}
+
+.txt-nav-btn, .icon-nav-btn
+{
+    margin: 0 1% 0 0;
+    float: right;
+}
+
+.txt-nav-btn
+{
+    min-width: 6%;
+}
+
+#logoHolder
+{
+    margin: 0 0 0 2%;
+    float: left;
+}
+
+#searchholder
+{
+    width: 33%;
+    display: inline-block;
+    margin: 0 0 0 1%;
+}
+
+#searchholder2
+{
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+nav form, #searchholder2 form 
+{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+nav form input, #searchholder2 form input 
+{
+    outline: none;
+}
+
+nav form input[type="text"], #searchholder2 form input[type="text"] 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3px 65px 3px 10px;
+    -webkit-transition: border-color 1s ease; 
+    -moz-transition: border-color 1s ease; 
+    -o-transition: border-color 1s ease; 
+    transition: border-color 1s ease;
+}
+
+#searchBtn, #searchBtn2
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 9000;
+}
+
+footer
+{
+    background-color: white; 
+    padding: 15px 2%; 
+    margin: 0; 
+    border-top: 2px solid #d3d3d3;
+}
+
+#orgAddress, #poweredBy
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#orgAddress
+{
+    float: left;
+}
+
+#poweredBy
+{
+    float: right;
+    text-align: center;
+}
+
+.twitter-typeahead {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.typeahead 
+{
+    background-color: #fff;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-size: 1.2em !important;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 100% !important;
+    padding: 3px 65px 3px 10px !important;
+    -webkit-transition: border-color 1s ease !important; 
+    -moz-transition: border-color 1s ease !important; 
+    -o-transition: border-color 1s ease !important; 
+    transition: border-color 1s ease !important;
+    outline: none !important;
+}
+
+.tt-menu 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tt-suggestion 
+{
+    padding: 3px 65px 3px 10px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: left;
+}
+
+.tt-suggestion:hover 
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion.tt-cursor 
+{
+    color: #fff;
+    background-color: #0078E7;
+}
+
+.tt-suggestion p 
+{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #top_notification
+    {
+        height: 50px; 
+        padding: 0 7%;
+    }
+
+    .txt-nav-btn, .icon-nav-btn
+    {
+        margin: 0 15px 0 0;
+    }
+
+    .txt-nav-btn
+    {
+        width: 140px;
+    }
+
+    .icon-nav-btn
+    {
+        width: 40px;
+    }
+
+    #searchholder, #searchholder2, #logoHolder
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #logoHolder a 
+    {
+        margin: 0 auto 15px auto;
+    }
+
+    #searchholder > div, #searchholder2 > div
+    {
+        clear: both;
+    }
+
+    #searchholder form, #searchholder2 form
+    {
+        width: 250px;
+        margin: 0 15px 0 0;
+        float: right;
+    }
+
+    #searchholder form input[type="text"], #searchholder2 form input[type="text"]
+    {
+        width: 250px;
+    }
+
+    footer 
+    {
+        padding: 15px; 
+    }
+
+    #orgAddress, #poweredBy
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #orgAddress
+    {
+        padding: 0 0 30px 0;
+    }
+
+    .typeahead 
+    {
+        background-color: #fff;
+        -moz-box-sizing: border-box !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        font-size: 1.2em !important;
+        min-height: 40px;
+        border: 1px solid rgba(0,0,0,0.3);
+        width: 250px;
+        padding: 3px 65px 3px 10px !important;
+        -webkit-transition: border-color 1s ease !important; 
+        -moz-transition: border-color 1s ease !important; 
+        -o-transition: border-color 1s ease !important; 
+        transition: border-color 1s ease !important;
+        outline: none !important;
+    }
+}
+</style>
+
+<style type="text/css">
+#sresults {
+  margin: 0 2%;
+  min-width: 750px;
+  padding: 0;
+}
+
+.sresult {
+  width: 240px;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.sresult:hover {
+  border: 1px solid #a3a3a3;
+}
+
+.sresultphoto {
+  width: 140px;
+  border-radius: 100%;
+  padding: 4px;
+  margin: 1em auto;
+  display: block;
+  border: 2px solid #d5d5d5;
+}
+
+.categories {
+  margin: 0.5em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.categories a {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.expertise {
+  list-style-type: none;
+  outline: 0;
+  margin: 0.5em 0;
+  padding: 0 1em;
+}
+
+.expertise li {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.3em;
+}
+
+.viewprofile {
+  background-color: #d73d32;
+  width: 88%;
+  margin: 0.5em auto 1em auto;
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.2em;
+}
+
+.linkify {
+  color: #0078E7;
+}
+
+.linkify:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    #sresults {
+        width: 300px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .sresult {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+}
+</style>
+
+</head>
+<body>
+<div id="globalwrapper">
+
+<nav id="mainHeader">
+<div id="logoHolder">
+<a href="http://ryerson.ca/" class="blockify" style="width: 100px;">
+<img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/>
+</a>
+</div>
+<div id="searchholder">
+<form method="get" action="/search">
+<div id="suggest-enabled">
+<input title="Enter a Name or Area of Expertise" class="typeahead" type="text" name="query" placeholder="Name or Expertise">
+<button id="searchBtn" type="submit" class="pure-button pure-button-primary" aria-label="Search"><span class="fa fa-search"></span></button>
+</div>
+</form>
+<div></div>
+</div>
+<script type="text/javascript">
+var search_button = $('#searchBtn');
+var search_box = $('.typeahead');
+search_box.css('padding-right', search_button.outerWidth() + 20 + 'px');
+search_box.focus(function () {$('.typeahead').css('border-color', '#0078E7')});
+search_box.focusout(function () {$('.typeahead').css('border-color', 'rgba(0,0,0,0.3)')});
+
+var menuHTML = '<div id="flexMenu" class="pure-menu pure-menu-open"><ul> \
+<li><a href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a></li> \
+<li><a href="/">Faculty Experts - Home</a></li> \
+<li><a href="https://www.ryerson.ca/media/faculty-experts/submission-form/">Faculty Signup</a></li> \
+</ul></div>';
+
+var buttonsHTML = '<a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="https://www.ryerson.ca/about/news-events/">News &amp; Events - Home</a><a class="js-added pure-button pure-button-primary txt-nav-btn" style="margin-right: 2%;" href="/">Faculty Experts - Home</a>';
+
+var slideMenu = function () {
+    var collapsed = $('.settingsBtn');
+    var opened = $('.activeSettingsBtn');
+    
+    if (collapsed.length)
+    {
+        collapsed.removeClass('settingsBtn');
+        collapsed.addClass('activeSettingsBtn');
+
+        var settingsMenu = $(document.createElement('div'));
+        settingsMenu.html(menuHTML);
+        settingsMenu.attr('id', 'settingsMenu');
+        settingsMenu.addClass('js-added');
+        $('#globalwrapper').prepend(settingsMenu);
+        settingsMenu.css('top', $('#mainHeader').outerHeight() + "px");
+        settingsMenu.css('left');
+        settingsMenu.css('left', '0');
+    }
+    else
+    {
+        opened.removeClass('activeSettingsBtn');
+        opened.addClass('settingsBtn');
+        $('#settingsMenu').remove();
+    }
+};
+
+var insertHeader = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if ($('.js-added').length)
+        $('.js-added').remove();
+
+    if (vw > 768)
+    {
+        
+        $('#searchholder').after(buttonsHTML);
+        
+        var nav_buttons = $('.txt-nav-btn');
+        nav_buttons.css('box-sizing', 'border-box');
+        nav_buttons.css('height', search_box.outerHeight() + "px");
+    }
+    else
+    {
+        var sbutton = $(document.createElement('div'));
+        sbutton.addClass('settingsBtn js-added');
+        sbutton.click(slideMenu);
+        if ($('#logoHolder').length > 0)
+        {
+            $('#logoHolder').after(sbutton);
+        }
+        else
+        {
+            $('#mainHeader').prepend(sbutton);
+        }
+    }
+};
+
+insertHeader();
+$(window).resize(function(){insertHeader()});
+
+var hideLogoOnScroll = function () {
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    if (vw < 768)
+    {
+        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0)
+        {
+            $('#logoHolder').remove();
+        }
+        else
+        {
+            if ($('#logoHolder').length === 0) 
+            {
+                $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+            }
+        }
+    }
+    else
+    {
+        if ($('#logoHolder').length === 0) 
+        {
+            $('#mainHeader').prepend('<div id="logoHolder"><a href="http://ryerson.ca/" class="blockify" style="width: 100px;"><img src="/static/img/ryerson.png" alt="Link to Ryerson University Website" style="width: 100px;"/></a></div>');
+        }
+    }
+};
+
+$(window).resize(hideLogoOnScroll);
+$(window).scroll(hideLogoOnScroll);
+</script>
+
+<div class="clear"></div>
+<div id="top_notification">
+<span class="label bold">NEW</span>
+<a class="notxtstyle linkify bold" style="text-decoration: underline; font-size: 18px;" href="/researchers-addressing-COVID-19-and-its-impacts">Researchers addressing COVID-19 and its impacts</a>
+</div>
+<script type="text/javascript">
+$("#top_notification").click(function () {
+    window.location.href = "https://experts.ryerson.ca/researchers-addressing-COVID-19-and-its-impacts";
+});
+</script>
+
+</nav>
+
+<div id="pushedContainer">
+
+<div id="sresults">
+<p style="padding: 1.2em 0; font-size: 1.6em; margin: 0; text-align: center;" class="bold">Faculty of Science Experts</p>
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 0 0 1.5em 0;" class="bold">Experts in Department of Chemistry and Biology</p>
+
+
+
+<div class="grayBorderedBox sresult" id="lesley-campbell-1">
+<img class="sresultphoto" src="/static/img/lesley-campbell-1.jpg" alt="Photo of Lesley Campbell"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Lesley Campbell</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Global%20climate%20change">Global climate change</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Medical%20marijuana">Medical marijuana</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Plant%20evolution">Plant evolution</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Urban%20agriculture">Urban agriculture</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/lesley-campbell-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="stefanie-colombo">
+<img class="sresultphoto" src="/static/img/stefanie-hixson.jpg" alt="Photo of Stefanie Colombo"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Stefanie Colombo</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Aquaculture">Aquaculture</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Marine%20biology">Marine biology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Omega-3%20fatty%20acids">Omega-3 fatty acids</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/stefanie-colombo">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="debora-foster">
+<img class="sresultphoto" src="/static/img/debora-foster.jpg" alt="Photo of Debora Foster"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Debora Foster</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Antimicrobials%20and%20food-borne%20pathogens">Antimicrobials and food-borne pathogens</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Diarrheagenic%20E.%20Coli">Diarrheagenic E. Coli</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20Stress%20and%20pathogen%20virulence">Environmental Stress and pathogen virulence</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Gastrointestinal%20pathogens">Gastrointestinal pathogens</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/debora-foster">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="andrew-laursen">
+<img class="sresultphoto" src="/static/img/ryerson_12.jpeg" alt="Photo of Andrew Laursen"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Andrew Laursen</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Algae%20and%20bacteria%20in%20lakes">Algae and bacteria in lakes</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Aquatic%20ecology">Aquatic ecology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biogeochemical%20processes%20in%20aquatic%20environments">Biogeochemical processes in aquatic environments</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biological%20activity%20of%20lake">Biological activity of lake</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/andrew-laursen">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="julia-lu">
+<img class="sresultphoto" src="/static/img/ryerson_111.jpeg" alt="Photo of Julia Lu"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Julia Lu</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Analytical%20chemistry">Analytical chemistry</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biogeochemistry%20of%20heavy%20metals">Biogeochemistry of heavy metals</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biogeochemistry%20of%20toxic%20substances%20in%20natural%20environment">Biogeochemistry of toxic substances in natural environment</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Urban%20air%20quality">Urban air quality</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/julia-lu">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="lynda-mccarthy">
+<img class="sresultphoto" src="/static/img/ryerson_131.jpeg" alt="Photo of Lynda McCarthy"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Lynda McCarthy</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Assessing%20pollution">Assessing pollution</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biotechnology">Biotechnology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Environmental%20biology">Environmental biology</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Especially%20in%20lakes">Especially in lakes</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/lynda-mccarthy">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="joseph-mcphee">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of Joseph McPhee"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Joseph McPhee</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Bacterial%20diseases">Bacterial diseases</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Food%20poisoning">Food poisoning</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Inflammatory%20bowel%20disease">Inflammatory bowel disease</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Microbiome%20research">Microbiome research</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/joseph-mcphee">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="derick-rousseau-1">
+<img class="sresultphoto" src="/static/img/derick-rousseau-1.jpg" alt="Photo of Dérick Rousseau"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dérick Rousseau</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Chocolate">Chocolate</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Crystallization">Crystallization</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Emulsions">Emulsions</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Food%20industry">Food industry</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/derick-rousseau-1">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="russ-viirre">
+<img class="sresultphoto" src="/static/img/ryerson_183.jpeg" alt="Photo of Russ Viirre"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Russ Viirre</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Catalysis">Catalysis</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cystic%20fibrosis">Cystic fibrosis</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Medicinal%20chemistry">Medicinal chemistry</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Organic%20chemistry">Organic chemistry</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/russ-viirre">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Computer Science</p>
+
+
+
+<div class="grayBorderedBox sresult" id="alexander-ferworn">
+<img class="sresultphoto" src="/static/img/alexander-ferworn.jpeg" alt="Photo of Alexander Ferworn"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Alexander Ferworn</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Autonomous%20and%20Teleoperated%20Systems%20%28robotics%29">Autonomous and Teleoperated Systems (robotics)</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Computational%20Public%20Safety">Computational Public Safety</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Cyber%20Strategy%2C%20Security%20and%20Risk">Cyber Strategy, Security and Risk</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Search%20and%20Rescue%20%28SAR%29">Search and Rescue (SAR)</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/alexander-ferworn">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="dave-mason">
+<img class="sresultphoto" src="/static/img/ryerson_48.jpeg" alt="Photo of Dave Mason"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Dave Mason</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Computer%20and%20network%20security">Computer and network security</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Computer%20systems">Computer systems</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Programming%20languages">Programming languages</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Social-networking%20environments">Social-networking environments</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/dave-mason">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="sophie-quigley">
+<img class="sresultphoto" src="/static/img/ryerson_191.jpeg" alt="Photo of Sophie Quigley"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Sophie Quigley</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Computer%20science%20education">Computer science education</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Human%20computer%20interaction">Human computer interaction</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Math%20education">Math education</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=User%20friendliness%20of%20software%20and%20websites">User friendliness of software and websites</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/sophie-quigley">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Mathematics</p>
+
+
+
+<div class="grayBorderedBox sresult" id="anthony-bonato">
+<img class="sresultphoto" src="/static/img/ryerson_15.jpeg" alt="Photo of Anthony Bonato"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Anthony Bonato</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Complex%20networks">Complex networks</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Graph%20searching%20games">Graph searching games</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Graph%20theory">Graph theory</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Online%20social%20networks">Online social networks</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/anthony-bonato">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="pawel-pralat">
+<img class="sresultphoto" src="/static/img/pawel-pralat.jpg" alt="Photo of Pawel Pralat"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Pawel Pralat</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Complex%20networks">Complex networks</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Data%20mining">Data mining</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Graph%20theory">Graph theory</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Modeling%20and%20searching%20complex%20networks">Modeling and searching complex networks</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/pawel-pralat">View Profile</a>
+</div>
+
+
+<div class="clear"></div>
+
+
+<p style="padding: 0; font-size: 1.2em; margin: 1.5em 0;" class="bold">Experts in Department of Physics</p>
+
+
+
+<div class="grayBorderedBox sresult" id="catherine-beauchemin">
+<img class="sresultphoto" src="/static/img/catherine-beauchemin.jpg" alt="Photo of Catherine Beauchemin"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Catherine Beauchemin</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Drug%20resistance">Drug resistance</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Experimental%20reproducibility">Experimental reproducibility</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Influenza">Influenza</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Mathematical%20models%20of%20viruses%20spread">Mathematical models of viruses spread</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/catherine-beauchemin">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="alexandre-sasha-douplik">
+<img class="sresultphoto" src="/static/img/alexandre-sasha-douplik.jpg" alt="Photo of Alexandre (Sasha) Douplik"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Alexandre (Sasha) Douplik</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biophotonics">Biophotonics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Laser%20medicine">Laser medicine</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Medical%20optics">Medical optics</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/alexandre-sasha-douplik">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="michael-kolios">
+<img class="sresultphoto" src="/static/img/ryerson_149.jpeg" alt="Photo of Michael Kolios"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Michael Kolios</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biomedical%20applications%20of%20ultrasound">Biomedical applications of ultrasound</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Heat%20transfer%20in%20tissue">Heat transfer in tissue</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Mechanical%20properties%20of%20cells">Mechanical properties of cells</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Molecular%20imaging%20and%20therapy">Molecular imaging and therapy</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/michael-kolios">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="gtodd-springer">
+<img class="sresultphoto" src="/static/img/man.profile.default.png" alt="Photo of G. Todd Springer"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">G. Todd Springer</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Heavy%20ion%20collisions">Heavy ion collisions</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Hydrodynamics">Hydrodynamics</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Matter%20at%20extreme%20temperatures%20and%20densities">Matter at extreme temperatures and densities</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Physics%20of%20the%20early%20universe">Physics of the early universe</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/gtodd-springer">View Profile</a>
+</div>
+
+<div class="grayBorderedBox sresult" id="jahan-tavakkoli-1">
+<img class="sresultphoto" src="/static/img/jahan-tavakkoli-1.jpg" alt="Photo of Jahan Tavakkoli"/>
+<div class="categories">
+<p class="bold" style="text-align: center; margin: 0.3em 0 0.3em 0; padding: 0 1em; font-size: 1.2em;">Jahan Tavakkoli</p>
+</div>
+
+<div class="shadedSection">
+<p style="text-align: left; padding: 0 1em; margin: 0; font-size: 1em;">
+Expert In:
+</p>
+<ul class="expertise">
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Biomedical%20ultrasound">Biomedical ultrasound</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=High%20intensity%20focused%20ultrasound">High intensity focused ultrasound</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Non-invasive%20ultrasound%20therapy">Non-invasive ultrasound therapy</a>
+</li>
+
+<li>
+<a class="notxtstyle linkify" style="font-size: 0.95em;" href="/search?query=Ultrasound%20modelling%20and%20simulation">Ultrasound modelling and simulation</a>
+</li>
+
+</ul>
+</div>
+
+<a class="pure-button viewprofile" href="/jahan-tavakkoli-1">View Profile</a>
+</div>
+
+
+</div>
+<div class="clear" style="height: 2em;"></div>
+<script type="text/javascript">
+$('.sresult').hover(
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #b3b3b3');
+    },
+    function () { 
+        $(this).find('.sresultphoto').css('border', '2px solid #d5d5d5');
+    }
+);
+
+var scaleCards = function () {
+    var maxHeight = 0;
+    var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (vw > 768)
+    {
+        if ( (vw - 0.02*vw*2) / 300 >= 3 )
+        {
+            var cards_per_row = Math.floor((vw - 0.02*vw*2) / 300);
+            $('#sresults').css('width', 300 * cards_per_row + "px");
+            $('#sresults').css('margin', '0 auto');
+            $('.sresult').css('width', '290px');
+        }
+        else
+        {
+            $('#sresults').css('width', Math.floor((vw - 0.02*vw*2) / 250) + "px");
+            $('#sresults').css('margin', '0 auto');
+        }
+    }
+
+    var categories = $('.categories');
+    var shadedSections = $('.shadedSection');
+    var sresults = $('.sresult');
+
+    var getMaxHeight = function (index, element) {
+        maxHeight = ($(element).height() > maxHeight) ? $(element).height() : maxHeight;
+    };
+
+    var setHeight = function (index, element) {
+        $(element).height(maxHeight + "px");
+    };
+
+    maxHeight = 0;
+    categories.each(getMaxHeight);
+    categories.each(setHeight);
+    maxHeight = 0;
+    shadedSections.each(getMaxHeight);
+    shadedSections.each(setHeight);
+    maxHeight = 0;
+    sresults.each(getMaxHeight);
+    sresults.each(setHeight);
+};
+
+var removeStyleTags = function () {
+    var sresults = $('#sresults, .sresult, .categories, .shadedSection');
+    sresults.each(function (index, element) {$(element).removeAttr('style')});
+};
+
+$(window).load(scaleCards);
+$(window).resize(function () {removeStyleTags(); _.debounce(scaleCards, 100)();});
+</script>
+
+</div>
+<script type="text/javascript">
+if (document.getElementById('mainHeader') !== null) {
+    jQuery.fn.headerPush = function () {
+        if ($('#mainHeader').css('display') !== 'none') 
+        {
+            this.css("padding-top", $('#mainHeader').outerHeight() + "px");
+        }
+        else
+        {
+            this.css("padding-top", "0");
+        }
+        return this;
+    }
+
+    $('#pushedContainer').headerPush();
+    $(window).resize(function(){$('#pushedContainer').headerPush()});
+}
+</script>
+<div id="footerpusher"></div>
+</div>
+
+<footer>
+<p id="orgAddress">
+&copy; <script type="text/javascript">var year = new Date().getFullYear(); $('#orgAddress').append(year)</script> | Ryerson University | 350 Victoria Street, Toronto, Ontario, Canada M5B 2K3 | (416) 979-5000
+</p>
+<p id="poweredBy">
+Powered by
+<a href="https://expertisefinder.com/" rel="nofollow"><img src="/static/img/expertise_finder_logo.png" style="height: 45px; display: block; margin: 0 auto; padding-top: 5px;" alt="Link to expertisefinder.com"/></a>
+</p>
+<div class="clear"></div>
+</footer>
+<script type="text/javascript">
+var setFooterHeight = function () {
+    var globalwrapper = $('#globalwrapper');
+    var pusher = $('#footerpusher');
+    var footer_size = $('footer').outerHeight() + "px";
+
+    globalwrapper.css('margin-bottom', "-" + footer_size);
+    pusher.height(footer_size);
+};
+
+setFooterHeight();
+$(window).resize(setFooterHeight);
+</script>
+
+<script type="text/javascript">
+var fetchQuery = null;
+var fetchResultsCallback = null;
+
+var fetchResults = _.debounce(function() {
+    $.get('/suggester?query=' + fetchQuery, function(data) {
+        if(fetchResultsCallback)
+	    fetchResultsCallback(data);
+    });
+}, 300);
+
+$('#suggest-enabled .typeahead').typeahead(
+  {
+    hint: false,
+    highlight: false,
+    minLength: 1
+  },
+  {
+    name: 'suggestions',
+    limit: 10,
+    display: 'suggestion',
+    source: function(query, syncResults, asyncResults) {
+        fetchQuery = query;
+        fetchResultsCallback = asyncResults;
+        fetchResults();
+    }
+  }
+).on("typeahead:render", function() {
+    var searchTerm = $(this).val();
+    $(".tt-suggestion").each(function () {
+        $(this).mark(
+            searchTerm,
+            {
+                'element': 'strong',
+                'className': '',
+                'separateWordSearch': false,
+                'acrossElements': true,
+                'accuracy': 'partially',
+                'diacritics': true,
+                'caseSensitive': false,
+                'filter': function (node, term, totalCounter, counter) {
+                    if (counter >= 1) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        );
+    });
+});
+</script>
+</body>
+</html>

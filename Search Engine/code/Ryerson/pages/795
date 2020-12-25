@@ -1,0 +1,233 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+        
+        <script type="text/javascript" src="../../Scripts/jquery-3.2.1.min.js" ></script>
+        <script src="../../Scripts/jquery-ui.min.js" type="text/javascript"></script> 
+        <script type="text/javascript" src="../../js/ClockWork.js" ></script>
+        
+        <script src="../../Scripts/bootstrap.min.js"></script>
+        <script src="../../Scripts/modernizr-2.8.3.js"></script>
+        
+        <link href="../../style/styles.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="../../style/AwesomeForm.css" media="all" rel="stylesheet" type="text/css"/>
+        
+        <link type="text/css" media="print" rel="Stylesheet" href="../../style/AwesomeFormPrint.css"/>
+        
+        <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="../../Content/Site.css" rel="stylesheet" />
+        
+        <link href="../../style/ClockWork.css" media="all" rel="stylesheet" type="text/css"/>
+
+        <div style="display:none">
+        
+<style type="text/css">
+.textbox { clear: both; }
+
+.navigationbar  
+{
+    background-image: url("../../img/bluebar.jpg") !important;
+    background-repeat: repeat-x !important;
+    background-attachment: scroll !important;
+    background-position: 0% 0% !important;
+    background-color: white !important;
+}
+
+.RadGrid_Office2007 td.rgGroupCol, .RadGrid_Office2007 td.rgExpandCol
+{
+    display: none;
+}
+
+</style> 
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Idea by:  Nic Wolfe -->
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=150,height=150,left = 615,top = 375');");
+}
+// End -->
+</script>
+
+
+
+
+        </div>
+    <title>
+	Home
+</title></head>
+
+<body style="margin: 0; padding:0" >
+<img id="imgSessionAlive" alt="" width="1" height="1" />
+<a href="#maincontainer" class="offscreen">Skip to main content</a>
+<div id="maincontainer" style="min-height: 99%; background-size: auto auto; background-color:White; margin-top:0px; padding-top:10px">
+        <div id="topsection" role="banner">   
+            <div class="innertube">   
+            
+                
+                <a href="../../custom/misc/home.aspx" style="text-decoration: none; padding: 0; margin: 0;  ">
+
+    <img CssClass="noprint" style="border: 0; padding: 0; margin: 0;" hspace="0" vspace="0" src="../../custom/img/RU-SW-AAS-rgb.png" alt="Disability Services logo" border="0" height="100"/>
+    .
+</a>
+                
+                 </div>
+        </div>
+        
+        <form method="post" action="./home.aspx" id="form1" STYLE="margin: 0px; padding: 0px;">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="AVZ9ZW/EmYzFlu695QJLfng8bTPb4ezuCoCLw9zYqsHkYNJirDY2p74r1LGh39sHa1SyOL0aR8D2V/GgHDRL9E67nbJ8DvRBe2EVJqax94JfmD9x5IeW11yA4jaxAWWmzTiDcX0OQPq+pVu7QlBK+g==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BC13CD8E" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+            <nav>
+        <div id="Div1" class="navigationbar noprint2" role="navigation" style="padding-bottom: 4px;">   
+            <div class="innertube">     
+                 <table width="100%" cellpadding="0" cellspacing="0" >
+                <tr valign="middle">
+                    <td align="left">
+                    
+&nbsp;  
+                        
+                             <a id="placeholder_topbar_left_link_home" class="noprint2" href="home.aspx"><img id="placeholder_topbar_left_img_home" src="../../img/home.png" alt="Main menu icon" style="vertical-align: top;" /> Main menu
+                             </a>    
+                         
+                         
+                         &nbsp;
+                        
+                    </td>
+                    
+                    <td align="right">
+                        
+                    </td>
+                </tr>
+            </table>
+                
+                
+                
+    
+            </div>
+        </div>
+        </nav>
+            
+        <div id="contentwrapper">
+                <div class="innertube">
+                
+<div class="mainarea_nomenu"  role="main">    
+                    
+
+<div id="placeholder_main_p_title">
+	
+<h1 class="PageTitle"><span id="placeholder_main_lbl_title">Welcome to the Online Student Services</span></h1>
+
+</div>
+
+<div id="placeholder_main_p_intro" class="Intro4">
+	
+<span id="placeholder_main_lbl_intro">Please select an option from the menu below:</span>
+
+</div>
+
+<table width="100%" border="0" cellspacing="8" cellpadding="8">
+    <tr>
+        
+
+
+<td align="center" width="20%"> 
+            <a id="placeholder_main_link_selfregistration" href="../../user/selfregc/default.aspx"><img id="placeholder_main_Image11" src="../img/form_blue.png" /><span id="placeholder_main_Label11"><br />Accommodation Plans</span></a>
+</td>
+
+<td align="center">
+            <a id="placeholder_main_link_testbooking" href="../../user/test/default.aspx"><img id="placeholder_main_img_test" src="../img/book_blue.png" /><span id="placeholder_main_lbl_test"><br />Book a Test</span></a>
+</td>
+        
+<td align="center"> 
+            <a id="placeholder_main_link_notetakees" href="../../user/notetakingstudents/default.aspx"><img id="placeholder_main_Image4" src="../img/note_pinned.png" /><span id="placeholder_main_Label4"><br />RU Noted</span></a>
+</td>
+
+<td align="center">  
+            <a id="placeholder_main_link_myupcomingapps" href="../../user/appt/myupcomingappts.aspx"><img id="placeholder_main_img_upcoming" src="../img/user1_time.png" /><span id="placeholder_main_lbl_upcoming"><br />My Schedule</span></a>
+</td>
+        
+        
+<td align="center"> 
+            <a id="placeholder_main_link_workshops" href="../../user/workshop2/default.aspx"><img id="placeholder_main_Image3" src="../img/users3.png" /><span id="placeholder_main_Label3"><br />Book a Workshop</span></a>
+        </td>
+  
+
+
+</tr>
+<tr>
+
+        
+
+      
+    </tr>
+</table>
+
+<ul style="line-height:1.5em;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</ul>
+
+
+        </div>
+        
+                </div>
+            
+        </div>            
+
+        <div id="leftcolumn">
+            <div class="innertube">
+                <div id="navigation">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer" role="contentinfo">
+        <a name="contactinfo" id="contactinfo"></a>
+                
+                    <div style="text-align:center; font-size: .75em; color: #666666; padding: 6px; " >
+Academic Accommodation Support, Learning Support - Location: SLC, 341 Yonge Street, 4th Floor: Contact 416-979-5290 aasadmin@ryerson.ca
+</div>
+        </div>
+        
+        
+        
+        
+        
+
+    </form>
+    
+</div>
+
+        
+    
+</body>
+</html>

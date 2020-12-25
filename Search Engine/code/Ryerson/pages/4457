@@ -1,0 +1,2079 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/centre-for-excellence-in-learning-and-teaching/remote-teaching/tech-for-teaching/" >
+		<meta property="og:title" content="Tech for Teaching" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/centre-for-excellence-in-learning-and-teaching/remote-teaching/tech-for-teaching/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Tech for Teaching"> 
+		 
+        
+        
+        <title>Tech for Teaching - Centre for Excellence in Learning and Teaching - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.5BC2F4.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/centre-for-excellence-in-learning-and-teaching/">
+				        Centre for Excellence in Learning and Teaching
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/centre-for-excellence-in-learning-and-teaching.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#c407e241-d31b-4168-bc90-9c6f642baf0f" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="c407e241-d31b-4168-bc90-9c6f642baf0f">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/centre-for-excellence-in-learning-and-teaching/about/'>About</a>
+									</li>
+								
+									<li class="">
+										<a href='/centre-for-excellence-in-learning-and-teaching/workshops-and-events/'>Workshops & Events</a>
+									</li>
+								
+									<li class="">
+										<a href='/centre-for-excellence-in-learning-and-teaching/faculty-instructors/'>Faculty & Instructors </a>
+									</li>
+								
+									<li class="active">
+										<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/'>Remote Teaching</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/centre-for-excellence-in-learning-and-teaching/remote-teaching.html">Remote Teaching</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#c5fd643a-4d0c-44f6-813a-d8ad21b9c575" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="c5fd643a-4d0c-44f6-813a-d8ad21b9c575">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/redesign-for-remote-teaching.html'>Adapting your course</a>
+</li>
+<li class="list-group-item selected">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/tech-for-teaching.html'>Tech for Teaching</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/large-class-survival-guide.html'>Large Class Survival Guide</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/abc-online-course-design.html'>ABC Online</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/frequently-asked-questions.html'>Frequently Asked Questions</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/remote-teaching-resources.html'>Resources</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/virtual-consultations.html'>Virtual Consultations</a>
+</li>
+<li class="list-group-item">
+<a href='/centre-for-excellence-in-learning-and-teaching/remote-teaching/virtual-proctoring.html'>Virtual Proctoring</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Tech for Teaching</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="18df4c6e-3034-451e-a0b1-d4dbff9b57bc">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					
+						
+<img src="/content/dam/centre-for-excellence-in-learning-and-teaching/remote-teaching/tool-icons/techforteaching2.png" alt="Tech for Teaching"/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-8">
+				
+						<div class="caption richtextContent">
+	<h2>Connecting the Ryerson teaching community to:</h2> 
+<ul> 
+ <li>guides with instructions and best practices for using technology to deliver content and keep students engaged in learning</li> 
+ <li>resources, tools, and activity suggestions using a keep-it-simple approach</li> 
+ <li>templates for producing course content</li> 
+</ul> 
+<p><strong>New! </strong>Tech for Teaching now has a blog. Check out our first article about setting up your teaching space at home.</p>
+</div>  
+						    
+								<div class="optionalButton">
+									<a class="btn btn-default btn-block" href="https://t4t.blog.ryerson.ca/" target="_blank">
+										
+										<span>t4t.blog.ryerson.ca</span>
+										<span aria-hidden='true' class='autoIconLink fa fa-external-link'></span><span class='sr-only'>, opens in new window</span>
+									</a>
+								</div>
+							
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#18df4c6e-3034-451e-a0b1-d4dbff9b57bc');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "18df4c6e-3034-451e-a0b1-d4dbff9b57bc"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resAnnouncement section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section aria-label="Announcement" class="infoContainer style2">
+	<div class="contentWrapper">
+		<div class="iconContainer"><span aria-hidden='true' class='icon fa fa-laptop'></span></div>
+		<div class="textContainer"><h3>Need Zoom Support?</h3> 
+<p>Check out our <a href="https://ryecast.ryerson.ca/144/page/Home.aspx#?folderId=1204">Tech For Teaching Zoom tutorial videos</a> as well as the <a href="https://www.ryerson.ca/digital-media-projects/tools/zoom/">guides provided by Digital Media Projects</a>.</p> 
+<p>If you need Zoom technical support, contact <a href="mailto:avhelp@ryerson.ca">avhelp@ryerson.ca</a>.</p></div>
+	</div>
+</section>
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    The keep-it-simple approach
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-opaque" id="97b4ab60-5237-484c-8006-34480653fd58" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("97b4ab60-5237-484c-8006-34480653fd58", true); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594144056672-a-shell-and-two-folders--getting-organized-before-classes-start" role="tab" data-toggle="collapse" data-parent="#97b4ab60-5237-484c-8006-34480653fd58" href="#accordion-content-1594144056672-a-shell-and-two-folders--getting-organized-before-classes-start" aria-controls="accordion-content-1594144056672-a-shell-and-two-folders--getting-organized-before-classes-start" aria-expanded="false">
+                            A shell and two folders: getting organized before classes start
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594144056672-a-shell-and-two-folders--getting-organized-before-classes-start" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594144056672-a-shell-and-two-folders--getting-organized-before-classes-start">
+                    <div class="panel-body ">
+                        <div class="1594144056672 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d0337739-51f6-4ef5-bf54-a15c82f64a70" >
+
+    <p>In order to deliver content to students in a consistent way, it’s a good idea to have your D2L Brightspace shell and your Google Drive set up ahead of time. Both options are available from the my.ryerson portal under Self Service: Courses and Organizations.</p> 
+<p>Most of us are familiar with the process to request a course shell, but it is recommended that you also request a Google group for your class. This will provide you with a way of sharing content from Google drive with your class by applying class-wide permissions to folders and documents. Our suggestion is to create two folders: one for “read-only” resources, like video recordings of lecture presentations, and another for student collaboration.</p> 
+<p>This simple structure will make it easier for students to access and engage with course materials. In addition, knowing where and how you will share content means one less thing to worry about as you incorporate technology in your teaching.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d0337739-51f6-4ef5-bf54-a15c82f64a70");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594144065982-ryerson-supported-tools-for-delivery-and-engagement-" role="tab" data-toggle="collapse" data-parent="#97b4ab60-5237-484c-8006-34480653fd58" href="#accordion-content-1594144065982-ryerson-supported-tools-for-delivery-and-engagement-" aria-controls="accordion-content-1594144065982-ryerson-supported-tools-for-delivery-and-engagement-" aria-expanded="false">
+                            Ryerson-supported tools for delivery and engagement 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594144065982-ryerson-supported-tools-for-delivery-and-engagement-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594144065982-ryerson-supported-tools-for-delivery-and-engagement-">
+                    <div class="panel-body ">
+                        <div class="1594144065982 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="45d11dbc-e6ef-4a7a-9221-5d9c37a62a28" >
+
+    <p>A combination of Zoom, Google applications, D2L Brightspace and other Ryerson-supported tools can be used effectively to create much of the content and engagement opportunities in your class. When you stick with these tools, it creates a consistent learning environment for students who are likely enrolled in courses across the university. In addition, external tools may not meet privacy and security standards.</p> 
+<p>There are exceptions to this rule. For example, there is industry-standard software that students are expected to learn as part of certain courses. The key takeaways are to include outside tools deliberately and only when necessary, and to realize your responsibility as an instructor to ensure a safe and secure learning environment.</p> 
+<p>Please refer to <a href="https://docs.google.com/document/d/1pJ7Bv5ZuFh6saTXDdn61DLc0VF7EoVLaovEBov-pqhY/edit?usp=sharing"><span class="sr-only">google doc</span>Using External Tools or Apps for Remote Teaching<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> for more information.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#45d11dbc-e6ef-4a7a-9221-5d9c37a62a28");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594144073894-simple-ideas-for-creating-class-materials" role="tab" data-toggle="collapse" data-parent="#97b4ab60-5237-484c-8006-34480653fd58" href="#accordion-content-1594144073894-simple-ideas-for-creating-class-materials" aria-controls="accordion-content-1594144073894-simple-ideas-for-creating-class-materials" aria-expanded="false">
+                            Simple ideas for creating class materials
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594144073894-simple-ideas-for-creating-class-materials" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594144073894-simple-ideas-for-creating-class-materials">
+                    <div class="panel-body ">
+                        <div class="1594144073894 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="43895a17-9c5b-48ae-a8a3-f757d89fbf26" >
+
+    <p>There is no need to become a tech genius overnight to effectively incorporate technology in your teaching. And, even if you are tech-savvy, keeping it simple is a good idea to make sure your content delivery plan is sustainable.&nbsp;</p> 
+<p>Here’s a few simple ideas to try that can enhance the student experience:</p> 
+<ul> 
+ <li>Add visuals to your slides to make content easier for all students to absorb</li> 
+ <li>Add links to relevant YouTube videos in your D2L Brightspace shell</li> 
+ <li>Record a 1-minute video using your webcam or phone to introduce a topic/module</li> 
+ <li>Make a one-question Google Form to collect student questions</li> 
+ <li>Record a 3-minute audio file to summarize a lesson</li> 
+</ul> 
+<p>Choosing one or two of these ideas to incorporate into teaching can have a big impact.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#43895a17-9c5b-48ae-a8a3-f757d89fbf26");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594144081416-students-and-access-" role="tab" data-toggle="collapse" data-parent="#97b4ab60-5237-484c-8006-34480653fd58" href="#accordion-content-1594144081416-students-and-access-" aria-controls="accordion-content-1594144081416-students-and-access-" aria-expanded="false">
+                            Students and access 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594144081416-students-and-access-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594144081416-students-and-access-">
+                    <div class="panel-body ">
+                        <div class="1594144081416 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="2d7ebe22-5258-4454-b94b-65aae2f78cb1" >
+
+    <p>It is important to create course materials that are accessible to all students in your class. Materials you add and create should meet <a href="https://www.aoda.ca/incorporating-accessibility-into-teaching-and-training/">AODA standards<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> as much as possible. This includes adding captions to videos and providing transcripts.&nbsp;</p> 
+<p>In addition, it is important to keep in mind that not all students have the same access to technology and internet connectivity. Some have to share a computer, and others may connect using their phone.</p> 
+<p>When creating materials for your class, keep content short and simple. It will lessen your workload in order to address accessibility, and will make it easier for all students to access the materials.</p> 
+<p>Please review <a href="https://www.ryerson.ca/accessibility/guides-resources/teaching/">Tips and strategies for delivering accessible online education</a>, and consider <a href="https://docs.google.com/document/d/1UPQiqyoLPnTLE1qfRNITXWXHRcOyBSCQDJdYNj-lKrw/edit"><span class="sr-only">google doc</span>using the Student Technology Survey<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#2d7ebe22-5258-4454-b94b-65aae2f78cb1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1594144098651-reduce--reuse--recycle" role="tab" data-toggle="collapse" data-parent="#97b4ab60-5237-484c-8006-34480653fd58" href="#accordion-content-1594144098651-reduce--reuse--recycle" aria-controls="accordion-content-1594144098651-reduce--reuse--recycle" aria-expanded="false">
+                            Reduce, reuse, recycle
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594144098651-reduce--reuse--recycle" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594144098651-reduce--reuse--recycle">
+                    <div class="panel-body ">
+                        <div class="1594144098651 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6ad95b69-3b45-4335-8550-027ff252f8f1" >
+
+    <p><strong>Reduce</strong> your dependence on technology. Not all course content has to be created digitally. Consider what you can achieve with pen and paper, post-it notes, kids’ toys and other household items. You can take photos of these creations, or share them during a live session.</p> 
+<p><strong>Reduce</strong>&nbsp;your content output by involving the class. As part of an assignment or class activity, your students can create study guides, short videos, or podcasts that can become a resource for the entire class.</p> 
+<p><strong>Reuse </strong>content that already exists. You don't always have to be a "content creator." Consider using your expertise to be a "content curator." From YouTube to free online textbooks, there are many resources already available that you can integrate into your teaching.</p> 
+<p><strong>Recycle</strong> the digital assets you create. Try to avoid referring to weeks, modules, or things discussed in the last class in videos, podcasts and other digital content. Leave these references in the text posted to your course shell or in discussions during live sessions. This way, all the hard work you put into creating digital content can be used again in other ways and in other courses.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6ad95b69-3b45-4335-8550-027ff252f8f1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="56a390cb-d0bf-4b42-b051-448b5322c913" >
+
+    <h2><a id="templates"></a>Tech for Teaching Templates</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#56a390cb-d0bf-4b42-b051-448b5322c913");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="fbe3e3f1-e4d6-499c-9e16-ff8c911a504a">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					
+						
+<img src="/content/dam/centre-for-excellence-in-learning-and-teaching/remote-teaching/t4t-templates.jpg" alt="Tech for Teaching Templates logo"/>
+
+
+
+   
+					
+				</div>
+				<div class="col-xs-12 col-sm-8">
+				
+						<div class="caption richtextContent">
+	<p>These templates that are optimized for remote teaching include step-by-step instructions and links to download each template. We will continue to add new templates to the existing libraries and will add brand new resources as well - so check back often!</p> 
+<p><strong><a href="https://docs.google.com/presentation/d/1Q1HE3vn2dgQpI69uLZVOTkGGcup8L2D6GDP4GFFizDQ/edit?usp=sharing" target="_blank"><span class="sr-only">google slide</span>Icon Library<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a></strong></p> 
+<p><strong><a href="https://docs.google.com/presentation/d/1O6_uBwjbY0XEjYFS-l-0SvByVTS0Ua0E707SBs2JsY8/edit?usp=sharing" target="_blank"><span class="sr-only">google slide</span>Slide Presentation Library<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a></strong></p> 
+<p><a href="https://docs.google.com/presentation/d/1BlP0x7CMQDSrmH3r0UujjSOFjHcWxK6czngDKBfzPiI/edit?usp=sharing" target="_blank"><span class="sr-only">google slide</span><strong>Google Forms Library</strong><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a></p>
+</div>  
+						    
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#fbe3e3f1-e4d6-499c-9e16-ff8c911a504a');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "fbe3e3f1-e4d6-499c-9e16-ff8c911a504a"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    How-to guides and additional resources
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7f11f8cb-a6a3-452b-89a7-4395aa968fd8" >
+
+    <p><strong>Note: </strong>The majority of guides below provide instructions for using Ryerson-supported tools. For information about introducing other tools to your students, please refer to <a href="https://docs.google.com/document/d/1pJ7Bv5ZuFh6saTXDdn61DLc0VF7EoVLaovEBov-pqhY/edit?usp=sharing"><span class="sr-only">google doc</span>Using External Tools or Apps for Remote Teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7f11f8cb-a6a3-452b-89a7-4395aa968fd8");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Course delivery
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resTable parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<div class="scrollIndicator hidden">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i> Swipe to see more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+	<div id="25b1358a-e394-4d81-85d9-0e4511efead5">
+		<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+ <tbody>
+  <tr>
+   <td>How to...</td> 
+   <td>Guides</td> 
+   <td>Other Resources</td> 
+  </tr>
+  <tr>
+   <td><strong>make effective slide presentations</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/document/d/1DldehX1B7txBaptqjJ760uTw6xT2eoZJFzdyNJGMTr0/edit?usp=sharing"><span class="sr-only">google doc</span>Slide presentations for online teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/presentation/d/1Q1HE3vn2dgQpI69uLZVOTkGGcup8L2D6GDP4GFFizDQ/edit?usp=sharing"><span class="sr-only">google slide</span>Icon Library<span aria-hidden="true" class="autoIconLink fa fa-file-powerpoint-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://docs.google.com/presentation/d/1O6_uBwjbY0XEjYFS-l-0SvByVTS0Ua0E707SBs2JsY8/edit?usp=sharing"><span class="sr-only">google slide</span>Slide presentation Library<span aria-hidden="true" class="autoIconLink fa fa-file-powerpoint-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li>Watch:&nbsp;<a href="https://ryecast.ryerson.ca/144/Watch/17383.aspx">Tech for Teaching:&nbsp;How to use the Presentation Library&nbsp;(2:13)</a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>conduct a live virtual class</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/digital-media-projects/tools/zoom/host-a-meeting-with-zoom/">Host a live session&nbsp; in Zoom</a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li>For Zoom tech support, please reach out to <a href="mailto:avhelp@ryerson.ca">avhelp@ryerson.ca</a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>record lectures</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/digital-media-projects/tools/zoom/zoom-record-lecture/">Record lecture components using Zoom</a></li> 
+     <li><a href="https://docs.google.com/document/d/1gQ1wpFagZ4UMCNuhfcuji04Siy7peHrJuykJkSYNW2c/edit?usp=sharing"><span class="sr-only">google doc</span>Video recording tips for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://docs.google.com/document/d/1gEp1wRK0OjWsCr5EL8FOwYDHCF2tdLcXjjhx62p2PCk/edit?usp=sharing"><span class="sr-only">google doc</span>Video editing tips for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li>Refer to <a href="https://docs.google.com/document/d/1l4csWY1AYgrcJPxpGjmscIvTM8V6MzJ8q9B0uLumg1I/edit?usp=sharing"><span class="sr-only">google doc</span>Audio-video tech for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> for more screen capture options</li> 
+     <li><a href="https://www.ryerson.ca/accessibility/guides-resources/captioning/#accordion-1512770777011-editing-automatically-generated-captions-on-youtube">Editing automatically generated captions on YouTube</a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>create podcasts</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/document/d/15O4LczSpRA6PyvHuS6lbzOWUUsam2KcP3CPdZkSlX7s/edit#heading=h.kfr0iopxbqva"><span class="sr-only">google doc</span>Podcasting tips for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li>Listen to <a href="https://soundcloud.com/user-305224768-967971769/teaching-with-podcasts-a-conversation-with-dr-lorena-escandon-wendy-garcia-and-angela-glover" target="_blank">Epsiode 11 of Podagogies<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a>, which discusses using podcasts in teaching.<br> View <a href="https://docs.google.com/document/d/1IVAc3HmzkezbXUFzSgjRrudOPPfoLOS0ZMNwD3wLrbA/edit?usp=sharing"><span class="sr-only">google doc</span>transcript for Podagogies Episode 11<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a>.</li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>create video demonstrations</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/document/d/1yR97pSMrR9UEwYPPLMe6anNLPD3CF6tLLhsM7cPJNlQ/edit?usp=sharing"><span class="sr-only">google doc</span>Creating effective tutorial and demo videos<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://docs.google.com/document/d/1gQ1wpFagZ4UMCNuhfcuji04Siy7peHrJuykJkSYNW2c/edit?usp=sharing"><span class="sr-only">google doc</span>Video recording tips for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://docs.google.com/document/d/1gEp1wRK0OjWsCr5EL8FOwYDHCF2tdLcXjjhx62p2PCk/edit?usp=sharing"><span class="sr-only">google doc</span>Video editing tips for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li>Sample videos coming soon!</li> 
+     <li>Refer to <a href="https://docs.google.com/document/d/1l4csWY1AYgrcJPxpGjmscIvTM8V6MzJ8q9B0uLumg1I/edit?usp=sharing"><span class="sr-only">google doc</span>Audio-video tech for teaching<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> equipment and software suggestions</li> 
+     <li><a href="https://www.ryerson.ca/accessibility/guides-resources/captioning/#accordion-1512770777011-editing-automatically-generated-captions-on-youtube">Editing automatically generated captions on YouTube</a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>put it all together in D2L Brightspace</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/courses/instructors/getting-started/">Getting started: teaching with D2L Brightspace</a></li> 
+     <li><a href="https://www.ryerson.ca/courses/instructors/tutorials/content/">Adding content in D2L Brightspace</a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/courses/instructors/resources/#sample">Sample Brightspace courses and content packs</a></li> 
+    </ul> </td> 
+  </tr>
+ </tbody>
+</table>
+	</div>
+
+
+
+
+	<script>
+	
+	//convert to plugin in pure js....later (soon)
+	$(document).ready(function() {
+		$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').addClass("table");
+	    
+		$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').addClass("table-bordered");
+		
+			var removeHeading = false;
+			
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table tbody tr').eq(0).find("td").replaceWith(function(){
+				return $("<th>", {attr: {'width': $(this).attr('width'), 'rowspan': $(this).attr('rowspan'), 'colspan': $(this).attr('colspan'), 'valign': $(this).attr('valign'), 'headers': $(this).attr('headers'), 'style': $(this).attr('style')}, html: $(this).html()}).css("vertical-align", $(this).attr('valign'));;
+			});
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table:not(.dataTable) tbody tr').eq(0).wrap( "<thead></thead>" );
+		
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table thead').prependTo('#25b1358a-e394-4d81-85d9-0e4511efead5 table');
+			
+			
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').removeAttr("border");
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').removeAttr("cellpadding");
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').removeAttr("cellspacing");
+			
+			$('#25b1358a-e394-4d81-85d9-0e4511efead5 table').DataTable({
+				
+				"sDom":"lfrtp",
+				"sort":false,
+				"pagingType": "simple_numbers","paging":false,
+				"autoWidth":true
+			});
+		
+			//#NOTE-REMOVE
+			if(removeHeading){
+				$('#25b1358a-e394-4d81-85d9-0e4511efead5 table thead').remove();
+			}
+			
+			
+		    
+	    
+	    
+	} );
+	</script>
+<script>$(document).ready(function(){addCoursePopover("#25b1358a-e394-4d81-85d9-0e4511efead5");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Communication and collaboration
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resTable parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<div class="scrollIndicator hidden">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i> Swipe to see more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+	<div id="62693b7e-dd9d-4bc7-b198-f24c217f4c62">
+		<table width="100%" cellspacing="0" cellpadding="1" border="1"> 
+ <tbody>
+  <tr>
+   <td>How to...</td> 
+   <td>Guides</td> 
+   <td>Other Resources</td> 
+  </tr>
+  <tr>
+   <td><strong>survey students</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/courses/instructors/tutorials/surveys/#accordion-1588787572900-create-a-survey">Create a Survey in D2L Brightspace</a></li> 
+     <li><a href="https://support.google.com/a/users/answer/9303071?hl=en&amp;ref_topic=9296604">Create a Google Form<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/document/d/1UPQiqyoLPnTLE1qfRNITXWXHRcOyBSCQDJdYNj-lKrw/edit"><span class="sr-only">google doc</span>Using the Student Technology Survey<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://docs.google.com/document/d/1FpYPIDU_t_l2pUwlMeMM0b9U9-ezg5IK1HzPpejPSzI"><span class="sr-only">google doc</span>Using the Student Check-in survey<span aria-hidden="true" class="autoIconLink fa fa-file-word-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>poll students for real-time feedback</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://support.google.com/a/users/answer/9303071?hl=en&amp;ref_topic=9296604">Create a Google Form<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="/content/ryerson/courses/instructors/tutorials/integrations/iclicker-remote/">iClicker for Instructors</a></li> 
+     <li><a href="/content/ryerson/courses/students/tutorials/iclicker-student-guide-remote/">iClicker Student Guide</a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li><a href="https://docs.google.com/presentation/d/1BlP0x7CMQDSrmH3r0UujjSOFjHcWxK6czngDKBfzPiI/edit?usp=sharing" target="_blank"><span class="sr-only">google slide</span>Google Forms Library<span aria-hidden="true" class="autoIconLink fa fa-file-powerpoint-o"></span><span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link, opens in new window</span></a></li> 
+    </ul> </td> 
+  </tr>
+  <tr>
+   <td><strong>create a collaborative digital space</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/digital-media-projects/tools/gsuite/gsuite-class-google-group/">Request a class Google Group</a></li> 
+     <li><a href="https://www.ryerson.ca/digital-media-projects/tools/gsuite/gsuite-class-folder/">Create and share a class folder on Google Drive</a></li> 
+     <li><a href="https://www.ryerson.ca/digital-media-projects/tools/gsuite/gsuite-collaborative-activity/">Facilitate a class collaborative activity using GSuite</a></li> 
+    </ul> </td> 
+   <td>Samples documents coming soon!</td> 
+  </tr>
+  <tr>
+   <td><strong>set up virtual office hours and small meetings</strong></td> 
+   <td>
+    <ul> 
+     <li><a href="https://support.google.com/a/users/answer/9308875?hl=en">Add appointment slots to your Google calendar<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a></li> 
+     <li><a href="https://www.ryerson.ca/google/getting-started/google-hangouts/guide/">Instant message and video chat with Google Hangouts</a></li> 
+     <li><a href="https://www.ryerson.ca/google/getting-started/google-meet/guide/">Host a live meeting with Google Meet</a></li> 
+    </ul> </td> 
+   <td>
+    <ul> 
+     <li><a href="https://www.ryerson.ca/google/getting-started/gmail/guide/#accordion-1497885148142-organizing-messages-with-labels">Organizing messages in Gmail using labels</a> so you can keep track of student emails.</li> 
+    </ul> </td> 
+  </tr>
+ </tbody>
+</table>
+	</div>
+
+
+
+
+	<script>
+	
+	//convert to plugin in pure js....later (soon)
+	$(document).ready(function() {
+		$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').addClass("table");
+	    
+		$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').addClass("table-bordered");
+		
+			var removeHeading = false;
+			
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table tbody tr').eq(0).find("td").replaceWith(function(){
+				return $("<th>", {attr: {'width': $(this).attr('width'), 'rowspan': $(this).attr('rowspan'), 'colspan': $(this).attr('colspan'), 'valign': $(this).attr('valign'), 'headers': $(this).attr('headers'), 'style': $(this).attr('style')}, html: $(this).html()}).css("vertical-align", $(this).attr('valign'));;
+			});
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table:not(.dataTable) tbody tr').eq(0).wrap( "<thead></thead>" );
+		
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table thead').prependTo('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table');
+			
+			
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').removeAttr("border");
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').removeAttr("cellpadding");
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').removeAttr("cellspacing");
+			
+			$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table').DataTable({
+				
+				"sDom":"lfrtp",
+				"sort":false,
+				"pagingType": "simple_numbers","paging":false,
+				"autoWidth":true
+			});
+		
+			//#NOTE-REMOVE
+			if(removeHeading){
+				$('#62693b7e-dd9d-4bc7-b198-f24c217f4c62 table thead').remove();
+			}
+			
+			
+		    
+	    
+	    
+	} );
+	</script>
+<script>$(document).ready(function(){addCoursePopover("#62693b7e-dd9d-4bc7-b198-f24c217f4c62");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'GJMPDLMALBHECMOLIAADLNBLFMLCNMHLMOMDJJLNBLANECPDPPPIMDFMNFLABNHCPLABGMOLAANHEIDLDIBAHGGKAAKCJPOINGLEPGLJEGGIIFODGIAIPMJGMKINHABM',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'LEIPMIJKNMIGAPBIHLOHDIEHJDMHGALDIBMNALLKPKACNMMIJHEEIMFDABOODPJKEECBBPHCAACIOEAAKIHAAGEFAAKGLJKFMOJOPGGHCLJPHFABBIJNFFKEBKCEKMCB',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

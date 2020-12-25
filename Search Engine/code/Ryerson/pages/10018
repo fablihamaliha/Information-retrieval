@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Copyright © 1998, 2015, Oracle and/or its affiliates.  All rights reserved.
+-->
+<?xml version="1.0" encoding="utf-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:odext="urn:odext">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width = 900" />
+	<link type="text/css" rel="stylesheet" href="../css/_lms.css" />
+	<link type="text/css" rel="stylesheet" href="../css/dialog.css" />
+	<link type="text/css" rel="stylesheet" href="../css/playerimages.css" />
+	<link type="text/css" rel="stylesheet" href="../css/skin.css" />
+	<link rel="stylesheet" type="text/css" href="../css/toc.css" />
+	<link rel="stylesheet" type="text/css" href="../css/custom.css" />
+
+	<link type="image/x-icon" rel="icon" href="../ondemand.ico" />
+	<link type="image/x-icon" rel="shortcut icon" href="../ondemand.ico" />
+	<title></title>
+	<script type="text/javascript">
+		var a = 1;
+		var showscore = 0;
+		var lms_path = "./../";
+	</script>
+	<script type="text/javascript" src="./../js/jquery.min.js"></script>
+	<script type="text/javascript" src="outline.js"></script>
+	<script type="text/javascript" src="./../kpsettings.js"></script>
+	<script type="text/javascript" src="./../config.js"></script>
+	<script type="text/javascript" src="./../js/resource.js"></script>
+	<script type="text/javascript" src="./../js/resource_b.js"></script>
+	<script type="text/javascript" src="topicmap.js"></script>
+	<script type="text/javascript" src="./../js/_toc0.js"></script>
+	<script type="text/javascript" src="uiconfig.js"></script>
+	<script type="text/javascript" src="./toc/treeindex.js"></script>
+	<script type="text/javascript" src="./toc/titles.js"></script>
+	<script type="text/javascript">
+		ctxHelper.AddDiscoveryCddUrl(lms_path + 'cdd.html');
+		ctxHelper.SetNamespace("odplayer;1.0.0.0");
+	</script>
+</head>
+<body onunload="Closing();">
+	<script type="text/javascript">
+		initDpiInfo();
+		var fPlayerPath = "../";
+	</script>
+	<div id="fplayer" style="display:none;">;</div>
+	<div id="header1" class="header">
+		<a href="javascript:ShowAbout()">
+			<img src="./../img/small_logo.gif" alt="logo" data-title="R_toc_about_player" />
+		</a>
+		<div class="headerTransparent bannerStyle">
+		</div>
+		<div class="head-sep background">
+		</div>
+	</div>
+	<div id="container" class="borderBackground">
+		<div id="treeside" style="">
+			<div id="treeinner" class="borderBackground" style="">
+				<div id="searchtopcontainer" class="tocSearchColor" style="height: 22px; padding: 4px; position: relative;">
+					<div id="specialcontentdiv" style="display: none">
+					<span id="specialcontenttext" class="tocApplicable" style="padding-left: 3px;"></span>
+				</div>
+				<div id="searchcontainer1" class="tocSearchColor" style="position:absolute; left: 3px; top:5px; right:48px; height: 22px;">
+					<form>
+						<input class="tocSearch" name="searchbox" type="text" id="searchbox" value="" style="border: 1px solid #CECECE;
+							width: 100%; height: 19px; text-indent:5px; line-height:1;" onfocus="OnInputFocus()" onblur="OnInputBlur()" />
+					</form>
+				</div>
+				<a id="searchcontainer3" href="#" onclick="javascript:Search_Clear_Click();" style="float:right;">
+					<img src="./../img/empty.gif" style="margin-top: 3px; padding-left: 0px;" border="0" data-alt="R_toctooltip_clearresult"
+						data-title="R_toctooltip_clearresult" class="clear" />
+				</a>
+				<a id="searchcontainer2" href="#" onclick="javascript:Search_Click();" style="float:right; margin-right:3px;">
+					<img src="./../img/empty.gif" style="margin-top: 3px; padding-left: 0px;" border="0" data-alt="R_toctooltip_search"
+						data-title="R_toctooltip_search" class="searchbtn" />
+				</a>
+			</div>
+			<div id="appandroles" name="appandroles" class="tocSearchColor modebuttonhide" style="width:100%;padding-bottom: 3px; padding-left: 0px; white-space:nowrap;">
+				<div id="hasapp" style="display: none; padding-left: 3px;">
+					<input id="chapp" name="chapp" type="checkbox" value="chapp" disabled="disabled"
+						onclick="applicable_Click()" style="cursor: pointer;" data-title="R_toctooltip_applicable" />
+					<span class="tocSearchColor tocApplicable" data-value="R_toc_applicable"></span>
+				</div>
+				<div id="hasrole" style="display: none; padding-left: 3px;">
+					<input id="chroles" name="chroles" type="checkbox" value="chroles" style="cursor: pointer;"
+						onclick="roles_Click()" data-title="R_toctooltip_roles" />
+					<a href="#" onclick="javascript:onRoles()" class="tocSearchColor tocMyRoles" data-value="R_toc_roles">
+						aaa </a>
+				</div>
+			</div>
+			<div id="searchresult" class="tocFrameText" style="min-height: 20px;">
+				<div class="tocResultsFor" data-value="R_toc_resultsfor" style="float:left; padding-left:8px; padding-top:3px;"></div>
+				<div id="resulttext" style="font-weight: bold; overflow: hidden; padding-left:3px; padding-top:3px;" class="tocFrameText"></div>
+			</div>
+			<div id="changeview" class="tocFrameText modebuttonhide" style="width: 100%; min-height: 20px;">
+				<a id="selectionviewtext" href="#" style="display:block; padding-left:8px; padding-top:3px;" onclick="javascript:ChangeView_Click();" class="tocFrameText tocFrameTextLink"
+					data-value="R_toc_tree_view_in_outline"></a>
+			</div>
+			<div id="treecontainer" style="">
+				<div id="contentisemptydiv" style="width: 100%; text-align: center; color: red; display: none;">
+				</div>
+				<div id="treeDiv" style="" tabindex="0" class="treeControlNode">
+					<div id="treeControlHostForAll" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="treeControlHostForFiltered" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="treeControlHostForHemi" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="treeControlHostForFilteredHemi" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="flatControlHostForFiltered" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="flatControlHostForHemi" style="display: none; padding-left: 5px;">
+					</div>
+					<div id="flatControlHostForFilteredHemi" style="display: none; padding-left: 5px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="contentdiv">
+			<div id="sepdiv" class="background" style=""></div>
+			<div id="sepbutton">
+				<div class="left"></div>
+				<div class="right"></div>
+				<div class="line"></div>
+			</div>
+			<iframe class="fill borderBackground" style="" id="myconceptframeToc" name="myconceptframeToc" frameborder="0"
+				src="./../html/empty.html"></iframe>
+		</div>
+	</div>
+	<div id="cover">
+	</div>
+	<div id="coversearch">
+	</div>
+	<div id="searchprdiv">
+		<br />
+		<img src="./../img/search.gif" alt="search" /></div>
+	<div id="coverjumpin" onmouseup="JumpIn_Show(null,null);">
+	</div>
+	<div id="SeeAlsoListBackgroundCover" onmouseup="SeeAlso_Show(false);">
+	</div>
+	<div id="SeeAlsoList" style="position: absolute; display: none; background-color: White;
+		border-width: 2px; border-style: solid; padding: 5px 10px 5px 5px;" class="background">
+	</div>
+	<iframe id="jumpindiv" name="jumpindiv" class="textWindows" onmouseup="JumpIn_Show(null,null);"
+		src="./../html/jumpin.html"></iframe>
+	<noscript>
+		<table>
+			<tr>
+				<td>
+					<img src="./../img/error.png" alt="Error" />
+				</td>
+				<td>
+					JavaScript is required for this application to run. You may need to either enable
+					JavaScript in your browser or if you are directly launching this page from the file
+					system, run play.exe located in the same folder.
+				</td>
+			</tr>
+		</table>
+	</noscript>
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'PGDBHLACKAMMIDCIAOOBEMDHOICBINAACPMEFJDLDPECOAEFJDIOFCIOFKMLOBGHCHBBCIAMAAGOKIGCNEHABKKMAAAHAFIKLMPGOJCNIDPGDDFDKOPFFLJALMLKNCCN',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'GPMCOADGJBOJPEDMAHIONGEHPOJIOIJECDOJONKKFPJGAPAGJMKNKAKOEFIMDKBEKMFBBKDDAACDFCPODJCAPGGCAANFAKJJNEGEPCJPBNFCNFFNGPAAEJGBIIOLDPAO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

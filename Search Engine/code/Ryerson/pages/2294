@@ -1,0 +1,904 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Supplementary Course Materials - Supplementary Course Materials - Research Guides at Ryerson University Library</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noarchive" /><!-- favicon.twig -->
+<link rel="apple-touch-icon" sizes="180x180" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon-16x16.png">
+<link rel="manifest" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/site.webmanifest">
+<link rel="mask-icon" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="//libapps-ca.s3.amazonaws.com/apps/common/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="//libapps-ca.s3.amazonaws.com/apps/common/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- public_metadata.twig -->
+
+    <!-- auto generated dublin core metadata -->
+    <meta name="DC.Title" content="Research Guides: Supplementary Course Materials: Supplementary Course Materials"/>
+    <meta name="DC.Creator" content="Kelly Dermody"/>
+    <meta name="DC.Subject" content=""/>
+    <meta name="DC.Description" content=""/>
+    <meta name="DC.Publishers" content="Ryerson University Library"/>
+    <meta name="DC.Rights" content="Copyright Ryerson University Library 2020"/>
+    <meta name="DC.Language" content="en"/>
+    <meta name="DC.Identifier" content="https://learn.library.ryerson.ca/c.php?g=715186&p=5099151"/>
+    <meta name="DC.Date.Created" content="Mar 15, 2020"/>
+    <meta name="DC.Date.Modified" content="Mar 19, 2020"/>
+    
+		<meta property="og:title" content="Research Guides: Supplementary Course Materials: Supplementary Course Materials">
+		<meta property="og:description" content="Research Guides: Supplementary Course Materials: Supplementary Course Materials">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://learn.library.ryerson.ca/c.php?g=715186&p=5099151">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@springshare"><link rel="stylesheet" href="/web/jquery/css/jquery-ui.min.css?2695" /><link rel="stylesheet" href="/web/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick.css"><link rel="stylesheet" type="text/css" href="/web/slick-1.7.1/slick/slick-theme.css"><link rel="stylesheet" href="/web/css2.5.3/lg-public.min.css" /><script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script><!-- js_include_fallback.twig -->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        jQuery.ui ||
+        document.write('<script src="/web/jquery/js/jquery-ui.min.js?2695">\x3C/script>');
+    </script>
+<!-- !js_include_fallback.twig --><script type="text/javascript" src="/web/js2.5.3/lg-public.min.js"></script><style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-tabs > li > button,
+                        #s-lg-tabs-container .nav-pills > li > a,
+                        #s-lg-tabs-container .nav-pills > li > button {
+                            
+                            border: 1px solid transparent;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-tabs > li > button:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > button:hover {
+                            
+                            border: 1px solid transparent;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-tabs > .active > button,
+                        #s-lg-tabs-container .nav-pills > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > button {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            
+                            border: 1px solid transparent;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a,
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > button {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover,
+                        #s-lg-tabs-container .nav-pills > .active > a:hover,
+                        #s-lg-tabs-container .nav-tabs > .active > button:hover,
+                        #s-lg-tabs-container .nav-pills > .active > button:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            
+                            border: 1px solid transparent;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        #s-lg-tabs-container .nav-tabs button.dropdown-toggle .caret {
+                            margin-left: 2px;
+                            margin-top: -3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop {
+                            border-radius: 0;
+                            padding: 4px 6px 0px 3px;
+                            border-left: 1px solid transparent;
+                            margin-right: 2px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop:hover {
+                            border-radius: 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 0px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover,
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link:hover {
+                            border-radius: 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link,
+                        .nav-tabs > li > button.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop {
+                            border-radius: 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop:hover {
+                            border-radius: 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style><!-- DO NOT EDIT BELOW THIS LINE-->
+<style>body{padding:0;font-size:14px}.alert{overflow-wrap:break-word}.s-lib-side-borders{padding-right:15px;padding-left:15px}.s-ui-helptip .popover-title{margin:0}#s-lg-guide-header-info h1,.s-lib-header h1{font-size:2em}.s-lib-public-side-header h2{font-family:inherit;font-weight:700;line-height:1.25em;font-size:1.75em}#s-lib-scroll-top{display:none !important}#s-lib-footer-public{font-size:0.75em;line-height:1.75em;background:none;border:none}form[id^="s-lg-frm-guide-widget-"]{display:flex}form[id^="s-lg-frm-guide-widget-"] .form-control{min-width:0}.s-lib-public-side-header h2{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;border:0}.s-lib-public-side-header h2>a{color:var(--white)}.s-lib-public-side-header+.txt h3{font-family:inherit;line-height:1.25em;font-weight:700;font-size:1.1em;margin-top:1em;margin-bottom:0.35em}.s-lib-box{border:0;background:var(--white);border-radius:0;box-shadow:none}.txt{margin-top:0;padding:0 1em 1em;background:var(--white)}.txt.pad-top-sm{padding-top:1em}.s-lib-box .s-lib-box-title{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;border:0}.s-lib-box .s-lib-box-title>a{color:var(--white)}.s-lib-box-content{padding:1em 1.5em}.s-lib-box h3{line-height:1.25em;font-size:1.25em;font-weight:700}.s-lib-box h4{line-height:1.1em;font-size:1.1em;font-weight:700}.s-lg-link-list{padding:0;list-style-type:none}.s-lg-link-list li{padding-top:0}.s-lg-link-list>li+li{margin-top:1em}.s-lg-link-list a{font-weight:700}.s-lg-tn{margin-left:0}.margin-right-sm{margin-right:1em !important}.imgshadow{box-shadow:0 5px 5px 0 silver}.rightbuffer{margin-right:2em}#s-lg-az-experts-div #s-lg-box-profile .s-lib-box-title,#s-lg-sb-experts-div #s-lg-box-profile .s-lib-box-title{display:none}#s-lg-az-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-box-content,#s-lg-sb-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-box-content{padding:0}#s-lg-az-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-profile-image img,#s-lg-sb-experts-div #s-lg-box-profile #s-lg-box-collapse-profile .s-lib-profile-image img{background-color:transparent;border:none;box-shadow:none;padding:0;max-width:auto}.lg-content-box-search .input-append{padding:0 1em 1em;background:var(--white)}.lg-content-box-search .input-append form{display:flex}.lg-content-box-az,.lg-content-box-help{background:var(--white)}.lg-content-box-az a.btn,.lg-content-box-help a.btn{margin-left:1em;margin-bottom:1em}#s-lg-tabs-container .nav-tabs{border-bottom:none}#s-lg-tabs-container .nav-tabs>li{margin-bottom:0;margin-right:1px}#s-lg-tabs-container .nav-tabs>li>a,#s-lg-tabs-container .nav-tabs>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-tabs-container .nav-tabs>li>a:hover,#s-lg-tabs-container .nav-tabs>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-tabs-container .nav-tabs>li.active>a,#s-lg-tabs-container .nav-tabs>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-tabs-container .nav-tabs li{margin-top:0}#s-lg-tabs-container .nav-tabs li.active{background:var(--white)}#s-lg-tabs-container .nav-tabs li.active>a,#s-lg-tabs-container .nav-tabs li.active>a:hover{border:0}#s-lg-tabs-container .nav-tabs li.dropdown{display:flex}#s-lg-tabs-container .nav-tabs li.dropdown .dropdown-toggle{display:flex;align-items:center}#s-lg-tabs-container .nav-tabs li>a.s-lg-tab-top-link,#s-lg-tabs-container .nav-tabs li>a.s-lg-tab-top-link:hover{padding:10px 15px;float:none}#s-lg-tabs-container .nav-pills li{position:relative;background:var(--white)}#s-lg-tabs-container .nav-pills li:hover{background:var(--black)}#s-lg-tabs-container .nav-pills li:hover>a{color:var(--white)}#s-lg-tabs-container .nav-pills li>a{color:var(--black);background:none;border:0;border-radius:0;padding:10px 15px;font-weight:400;text-decoration:underline}#s-lg-tabs-container .nav-pills li>a:hover{background:none;border:0;border-radius:0;padding:10px 15px}#s-lg-tabs-container .nav-pills li>a.s-lg-tab-top-link,#s-lg-tabs-container .nav-pills li>a.s-lg-tab-top-link:hover{padding:10px 15px;padding-right:2em;float:none;font-weight:400}#s-lg-tabs-container .nav-pills li>a.s-lg-tab-drop{top:0;padding:10px 15px !important;background:none}#s-lg-tabs-container .nav-pills .active>a,#s-lg-tabs-container .nav-pills .active>a:hover{color:var(--white);background:var(--black);border:0;border-radius:0;padding:10px 15px}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav{background:var(--main-bg-color);border-top:1px solid var(--main-bg-color);margin-top:0px;margin-left:0;padding-left:20px}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item{padding:10px 15px;border-radius:0 !important;margin:1px 0 0 0;background:var(--white);border:none}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item>a{color:var(--black);background:none;padding:0}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:hover{background:var(--black)}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:hover>a{color:var(--white)}.s-lg-tabs-side #s-lg-tabs-container .s-lg-boxnav .list-group-item:first-child{margin-top:0}.s-lg-tabs-side .s-lg-subtab-ul.nav.nav-pills{background:var(--main-bg-color);border-top:1px solid var(--main-bg-color);margin-top:0px;margin-left:0;padding-left:20px}.nav-stacked>li+li{margin-top:1px}#s-lg-hp-nav{background:none;color:var(--black);border-radius:0;margin-bottom:0}#s-lg-hp-nav>ul>li{padding:0}#s-lg-hp-nav ul.nav-pills{border-bottom:none;margin-bottom:0 !important}#s-lg-hp-nav ul.nav-pills>li{margin-bottom:0;margin-right:1px}#s-lg-hp-nav ul.nav-pills>li>a,#s-lg-hp-nav ul.nav-pills>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-hp-nav ul.nav-pills>li>a:hover,#s-lg-hp-nav ul.nav-pills>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-hp-nav ul.nav-pills>li.active>a,#s-lg-hp-nav ul.nav-pills>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-hp-nav ul.nav-pills li+li{margin-left:0}#s-lg-hp-nav ul.nav-pills .s-lg-index-nav-btn>button:focus{outline:1px dotted}#s-lg-hp-nav li#s-lg-hp-nav-bottom{background:var(--white);padding:1em;border-radius:0}#s-lg-guide-list-controls{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-guide-list-controls:after{content:"";clear:both;display:table}#s-lg-guide-list-controls #s-lg-index-list-header{margin:0}#s-lg-index-list{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-index-list .panel-group .panel{border-radius:0;border:0;box-shadow:none}#s-lg-index-list .panel-default>.panel-heading{color:var(--black);background-color:var(--grey);border:0;border-radius:0}#s-lg-index-list .panel-default>.panel-heading a{color:var(--link-color);line-height:2em;display:flex;align-items:center;justify-content:space-between}#s-lg-index-list .panel-default>.panel-heading a .badge{order:2;font-size:1em;line-height:2em;border-radius:2em;height:2em;width:2em;min-width:2em;padding:0}#s-lg-index-list .panel-default .panel-body{border:1px solid var(--grey);border-top:none}#s-lg-index-list .panel-default .panel-body a{font-weight:400}#s-lg-index-list-guides{margin:0}#s-lg-index-list-guides #col-1{padding:0}#s-lg-index-list-guides #col-1 .s-lib-box-content{padding:0}#s-lg-index-list-guides #col-1 .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-index-cols #col2>div{background:var(--white)}.s-lg-facet-div-title{background:var(--ryerson-blue) !important;color:var(--white) !important;font-size:1.25em !important;line-height:1.25em !important;font-weight:700 !important;margin-bottom:0 !important;margin-top:0 !important;padding:1em !important;border-bottom:none !important}.s-lg-facet-div-title>a{color:var(--white) !important}.s-lg-facet-div-content{margin-top:0 !important;padding:0.5em 1em !important;background:var(--white) !important}.s-lg-facet-div-content>label{margin-top:5px}.s-srch-resultlist>strong:after{content:"";clear:both;display:table}.s-srch-result{padding:15px !important;margin:0 !important;border-bottom:1px solid var(--ryerson-blue) !important}#s-lg-srch-local #s-lg-srch-nav-1{padding:0 !important}#s-lg-srch-local #s-lg-srch-form{width:100% !important;padding:10px 0 0 !important}#s-lg-sb-cols .nav-tabs{border-bottom:none;margin-bottom:0 !important}#s-lg-sb-cols .nav-tabs>li{margin-bottom:0;margin-right:1px}#s-lg-sb-cols .nav-tabs>li>a,#s-lg-sb-cols .nav-tabs>li>button{color:var(--white);background-color:var(--ryerson-lightblue);font-size:14px;font-weight:700;margin:0;padding:10px 15px;border-radius:0;border:0}#s-lg-sb-cols .nav-tabs>li>a:hover,#s-lg-sb-cols .nav-tabs>li>button:hover{background-color:var(--ryerson-secondary-color);border:none}#s-lg-sb-cols .nav-tabs>li.active>a,#s-lg-sb-cols .nav-tabs>li.active>button{color:var(--black);background-color:var(--white)}#s-lg-sb-cols .tab-content{background:var(--white);padding:0 2rem 2rem;margin-bottom:0 !important}#s-lg-sb-cols .tab-content .s-lg-db-panel{background:var(--grey)}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content{display:flex;justify-content:space-between;padding:0}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle{order:0;line-height:35px}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-sb-content-guides .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gmeta{order:1;line-height:35px}#s-lg-sb-content-databases #s-lg-db-name-featured,#s-lg-sb-content-databases #s-lg-sb-name-regular{margin-bottom:1.5rem !important;padding:0;background:var(--grey)}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lg-db-panel-title,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lg-db-panel-title{margin:0}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lib-box,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lib-box{background:transparent}#s-lg-sb-content-databases #s-lg-db-name-featured .s-lib-box-idx-guide-list,#s-lg-sb-content-databases #s-lg-sb-name-regular .s-lib-box-idx-guide-list{margin:0}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content{padding:0}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle{line-height:35px}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gtitle a{font-weight:400 !important}#s-lg-profile-cols #col2 .s-lib-box-idx-guide-list .s-lib-box-content .s-lg-gmeta{line-height:35px}#s-lg-profile-cols #col3 .txt a{font-size:1em !important}#s-lg-az-results #s-lg-db-name-featured,.s-lg-db-name-featured{margin-bottom:10px;border-radius:0;border:none;padding:0 2rem;background:var(--white)}.s-lg-db-panel{margin-bottom:10px;border-radius:0;border:none;padding:0 2rem;background:var(--white)}.s-lg-db-panel .s-lg-db-panel-title{line-height:1.5em;font-size:1.5em;font-weight:700;background:var(--ryerson-blue);color:var(--white);margin-bottom:0;margin-top:0;padding:0.5em 1em;border-bottom:none;margin:0 -2rem}.s-lg-db-panel .s-lg-db-panel-title>a{color:var(--white)}.s-lg-db-panel .s-lg-az-result{border-bottom:0;padding:1em 0}.s-lg-db-panel .s-lg-az-result+.s-lg-az-result{border-top:1px solid var(--grey)}#s-lg-index-cols #col2 div:last-child .txt{display:flex;flex-wrap:wrap;justify-content:space-evenly;padding:0.5em}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-container{width:50%;margin:0;padding:0.5em}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-image{margin:0}#s-lg-index-cols #col2 div:last-child .s-lib-featured-profile-name{margin:0.5em}#s-lg-index-cols #col2 div:last-child .txt+a{margin:0 1em 1em}@media only screen and (min-width: 600px) and (max-width: 991px){#s-lg-index-cols #col2 div:nth-child(4) .s-lib-featured-profile-container{width:25%}}</style><link rel="stylesheet" href="https://ryersonlibrary.nyc3.digitaloceanspaces.com/rylib-common/v0.2.x/rylib-common.css"/><script src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/rylib-common/v0.2.x/rylib-common.js"></script><script src="//libapps-ca.s3.amazonaws.com/sites/2734/include/autotrack.js"></script><script>
+var springStats = springStats || {};
+springStats.saConfig = springStats.saConfig || {
+    site_id: 2734,
+    tracking_parameters: {"_st_guide_id":715186,"_st_page_id":5099151,"_st_site_id":2734},
+    tracking_server_host: "libguides-proc-ca.springyaws.com"
+};
+</script>
+<script async  src="/web/js/sa.min.js?3116" ></script>
+		<script>
+			springSpace.Common = springSpace.Common || { };
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "https://learn.library.ryerson.ca/";
+			
+			handleScroll=function() {
+                if (false) {
+					var target_elt = "#s-lg-page-section-5099151";
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script>
+        <script>
+            // Enable tooltips.
+            jQuery(function () {
+                try {
+                    springSpace.UI.initPopOvers();
+                    jQuery(".az-bs-tooltip").tooltip();
+                } catch (e) { }
+            });jQuery(window).one('load', function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_group_id: '15095',_st_guide_id: '715186',_st_page_id: '5099151'});});
+            jQuery(document).ready(function() {
+                handleScroll();
+            });
+        </script></head><!-- SIDE NAV -->
+<body class="s-lg-guide-body">
+<a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a>
+
+<!-- BEGIN: Page Header -->
+<header class="global-header-top"><div class="container"><div class="row"><div class="col-xs-12"><nav class="navbar"><div class="container-fluid"><div class="navbar-header"><a class="navbar-brand" href="https://library.ryerson.ca"><img src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/assets/logos/rylib_logo.svg"/></a><div class="navbar-toggle-wrap"><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false"><span class="sr-only">Toggle search form</span><i class="fa fa-search" title="Toggle search form"></i></button><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false"><span class="sr-only">Toggle navigation</span><i class="fa fa-bars" title="Toggle navigation"></i></button></div></div><div class="collapse navbar-collapse navbar-left" id="site-search-form"><div class="rylib-search-form"><form class="navbar-form" action="/srch.php" method="get"><label class="sr-only" for="site-search">Search Research Guides</label><input id="site-search" type="text" name="s" placeholder="Search Research Guides"/><button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button></form></div></div><div class="collapse navbar-collapse navbar-right" id="global-navigation"><ul class="nav navbar-nav" role="navigation"><li><a href="https://my.ryerson.ca">my.ryerson</a></li><li><a href="https://catalogue.library.ryerson.ca/patroninfo">Renew Loans</a></li></ul></div></div></nav></div></div></div></header><header class="global-header-bottom"><div class="container"><div class="navbar-header"><a class="navbar-brand" href="https://library.ryerson.ca">Home</a><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#global-header-botton" aria-expanded="false"><span class="sr-only">Toggle navigation</span><i class="fa fa-angle-down" title="Toggle navigation"></i></button></div><div class="collapse navbar-collapse" id="global-header-botton"><ul class="nav navbar-nav"><li><a href="https://catalogue.library.ryerson.ca/">Catalogue</a></li><li><a href="https://library.ryerson.ca/articles/">Articles</a></li><li><a href="https://library.ryerson.ca/guides/">Research Help</a></li><li><a href="https://library.ryerson.ca/services/">Services</a></li><li><a href="https://library.ryerson.ca/info/about-us/">About Us</a></li></ul></div></div></header>
+<!-- END: Page Header -->
+<!-- BEGIN: Guide Header -->
+<div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+    <nav id="s-lib-bc" aria-label="breadcrumb" role="navigation">
+        
+			<ol id="s-lib-bc-list" class="breadcrumb">
+				
+					<li id="s-lib-bc-customer">
+						<a title="Ryerson University Library"  href="http://library.ryerson.ca">Ryerson University Library
+						</a>
+					</li>
+					<li id="s-lib-bc-site">
+						<a title="Research Guides"  href="https://learn.library.ryerson.ca/">Research Guides
+						</a>
+					</li>
+					<li id="s-lib-bc-group">
+						<a title="Faculty Guides"  href="https://learn.library.ryerson.ca/researchers">Faculty Guides
+						</a>
+					</li>
+					<li id="s-lib-bc-guide">
+						<a title="Supplementary Course Materials"  href="https://learn.library.ryerson.ca/supplement_materials">Supplementary Course Materials
+						</a>
+					</li>
+					<li id="s-lib-bc-page" class="active">Supplementary Course Materials
+					</li>
+			</ol>
+    </nav>
+    <div class="pull-right">
+        <div id="s-lg-guide-header-search">
+            
+                <div id="s-lg-guide-search-box">
+                    <form role="search" id="s-lg-guide-search-form" action="https://learn.library.ryerson.ca/srch.php"
+                    method="GET">
+                        <div class="input-group input-group-sm">
+                            <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Search this Guide">
+                            <label class="sr-only" for="s-lg-guide-search-terms">Search this Guide</label><input type="hidden" name="guide_id" value="715186" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">Search</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>        </div>
+        
+    </div>
+    <div id="s-lg-guide-header-info">
+        <h1 id="s-lg-guide-name">Supplementary Course Materials</h1>
+        <div id="s-lg-guide-desc-container">
+            <span id="s-lg-guide-description"></span>
+        </div>
+    </div>
+</div>
+<!-- END: Guide Header -->
+<div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
+<div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med">
+    <div class="row">
+        <div class="col-md-3 s-lg-tabs-side pad-bottom-med">
+            <div id="s-lg-tabs-container">
+                <div id="s-lg-guide-tabs" role="navigation" aria-label="Guide Pages">
+                    <ul class="nav nav-pills nav-stacked split-button-nav">
+                        
+                <li  class="active">
+                    <a
+                        title=""
+                        class="active"
+                        href="https://learn.library.ryerson.ca/c.php?g=715186&p=5099151" 
+                        aria-label="Supplementary Course Materials"
+                    >
+                        <span>Supplementary Course Materials</span>
+                        
+                    </a><ul class="list-group s-lg-boxnav"><li class="list-group-item"><a href="#s-lg-box-16033749">Disclaimer</a></li><li class="list-group-item"><a href="#s-lg-box-16033874">eBooks</a></li><li class="list-group-item"><a href="#s-lg-box-16033756">Open Educational Resources (Textbooks, Course Materials and Images)</a></li><li class="list-group-item"><a href="#s-lg-box-16033758">Educational Videos</a></li><li class="list-group-item"><a href="#s-lg-box-16033928">Educational Podcasts</a></li><li class="list-group-item"><a href="#s-lg-box-16035979">Case Studies</a></li><li class="list-group-item"><a href="#s-lg-box-16033759">Free Courses and Tutorials</a></li><li class="list-group-item"><a href="#s-lg-box-16033755">Annotate Websites and PDFs</a></li></ul>
+                </li>
+                <li >
+                    <a
+                        title=""
+                        class=""
+                        href="https://learn.library.ryerson.ca/supplement_materials/vendor_news" 
+                        aria-label="Vendor News"
+                    >
+                        <span>Vendor News</span>
+                        
+                    </a>
+                </li>
+                    </ul>
+                    
+                <div class="s-lg-row margin-top-med">
+                    <div id="s-lg-col-0">
+                        <div class="s-lg-col-boxes">
+                        
+							<div id="s-lg-box-wrapper-18922843" class="s-lg-box-wrapper-18922843">
+					<div id="s-lg-box-16033906-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033906" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Continuity of Teaching Library Support
+                                </h2>
+							<div id="s-lg-box-collapse-16033906" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142623" class="  clearfix">
+				<p>The&nbsp;Library&nbsp;can assist you with locating supplementary or replacement materials for use in your courses.&nbsp;</p>
+
+<p><strong>Online course readings&nbsp;(eReserves)</strong>, Ann Ludbrook (<a href="aludbrook@ryerson.ca">aludbrook@ryerson.ca</a>)</p>
+
+<p><strong>Copyright questions about course material,</strong> Ann Ludbrook (<a href="http://aludbrook@ryerson.ca">aludbrook@ryerson.ca</a>)</p>
+
+<p><strong>Accessibility Services</strong>, Kelly Dermody (<a href="http://kdermody@ryerson.ca">kdermody@ryerson.ca</a>)</p>
+
+<p><strong>Library IT</strong>, Fangmin Wang (<a href="http://fwang@ryerson.ca)">fwang@ryerson.ca)</a></p>
+
+<p><strong>Subject-specific assistance</strong>,<a href="https://library.ryerson.ca/info/contactus/subject-liaison-librarians/">&nbsp;subject liaison librarians</a></p>
+
+<p>&nbsp;</p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18922639" class="s-lg-box-wrapper-18922639">
+					<div id="s-lg-box-16033747-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033747" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Guide Creator
+                                </h2>
+							<div id="s-lg-box-collapse-16033747" >
+								<div class="s-lib-box-content">
+									<div id="s-lib-profile-19426" class="s-lib-profile-container"><a href="//learn.library.ryerson.ca/prf.php?account_id=23414"><div id="s-lib-profile-image-19426" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+                <img loading="lazy" src="//libapps-ca.s3.amazonaws.com/accounts/23414/profiles/19426/Profile_Professional.png" alt="Kelly Dermody's picture" />
+            </div><div id="s-lib-profile-name-19426" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">Kelly Dermody</div></a><div id="s-lib-profile-email-19426" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email"><a title="kdermody@ryerson.ca" href="mailto:kdermody@ryerson.ca" class="label label-info">Email Me</a></div>
+            <div id="s-lib-profile-widget-la-19426" class="s-lib-profile-div s-lib-profile-widget-la">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-widget-lc-19426" class="s-lib-profile-div s-lib-profile-widget-lc">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-widget-other-19426" class="s-lib-profile-div s-lib-profile-widget-other">
+                <div class="s-lib-profile-widget"></div>
+            </div>
+            <div id="s-lib-profile-contact-19426" class="s-lib-profile-div s-lib-profile-contact"><strong>Contact:</strong><div>Librarian, E-Learning and Accessibility Services. <br />
+Subjects: Music, Philosophy, Psychology, Chang School Liaison.<br />
+Ryerson University Library & Archives<br />
+kdermody@ryerson.ca</div><a href="https://orcid.org/0000-0003-0786-4998"><span aria-hidden="true" class="fa fa-bookmark fa-lg"></span> <span class="sr-only">Website</span></a></div>
+            <div id="s-lib-profile-social-19426" class="s-lib-profile-div s-lib-profile-social"></div>
+            <div id="s-lib-profile-subjects-19426" class="s-lib-profile-div s-lib-profile-subjects"><strong>Subjects:</strong><a href="https://learn.library.ryerson.ca/musicsubj">Music</a>, <a href="https://learn.library.ryerson.ca/phil">Philosophy</a>, <a href="https://learn.library.ryerson.ca/psych">Psychology</a></div></div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+							<div id="s-lg-box-wrapper-18924054" class="s-lg-box-wrapper-18924054">
+					<div id="s-lg-box-4411763-container" class="s-lib-box-container">
+						<div id="s-lg-box-4411763" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Creative Commons License
+                                </h2>
+							<div id="s-lg-box-collapse-4411763" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-8510419" class="  clearfix">
+				<p>This guide has been created by the Ryerson University Library&nbsp;and is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution International 4.0 License</a> unless otherwise marked.</p>
+
+<p><a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Attribution License" src="//libapps-ca.s3.amazonaws.com/accounts/20919/images/cc-by.png" /></a></p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="s-lg-tab-content">
+                <div id="s-lg-guide-main" class="tab-pane active" tabindex="-1">
+                    <div class="row s-lg-row">
+    <div id="s-lg-col-1" class="col-md-12">
+        <div class="s-lg-col-boxes">        <div id="s-lg-box-wrapper-18922641" class="s-lg-box-wrapper-18922641">
+					<div id="s-lg-box-16033749-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033749" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Disclaimer
+                                </h2>
+							<div id="s-lg-box-collapse-16033749" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142259" class="  clearfix">
+				<h4>Copyright</h4>
+
+<p>You can link to legally posted on-line content from YouTube etc. For online videos from the Ryerson University Library&#39;s collection please use the persistent links&nbsp;provided&nbsp;below.</p>
+
+<p>Please also see our guide to <a href="https://library.ryerson.ca/copyright/faculty/rapidly-shifting-your-course-from-in-person-to-online/">copyright and shifting your course online.</a></p>
+
+<h4>Accessibility</h4>
+
+<p>Please be aware that the tools listed here are not necessarily accessible for all of your students. For more information please see Ryerson University&#39;s<a href="https://www.ryerson.ca/accessibility/guides-resources/">&nbsp;Accessibility</a>&nbsp;Resources.&nbsp;.&nbsp;</p>
+
+		   </div>
+			<div id="s-lg-content-35149881" class="  clearfix">
+				<h3>&nbsp;Latest Announcements from Vendors in Supporting Distance Learning</h3>
+
+<p>Many of our&nbsp;database vendors have increased access to their online resources. Please see<a href="https://learn.library.ryerson.ca/supplement_materials/vendor_news"> Vendor News.&nbsp;</a></p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922810" class="s-lg-box-wrapper-18922810">
+					<div id="s-lg-box-16033874-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033874" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">eBooks
+                                </h2>
+							<div id="s-lg-box-collapse-16033874" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142619" class="  clearfix">
+				<h4>Ebook Collections</h4>
+
+		   </div><div class="">
+                        <ul id="s-lg-link-list-37871983" class="s-lg-link-list s-lg-link-list-10"><li class="">
+                        
+                    <div id="s-lg-content-33970747" class=""><a href="https://ryerson.ebookcentral.proquest.com/"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '33970747'});">ProQuest eBook Central</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="https://library.ryerson.ca/eresource/pqebookcentral/" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-33970747" class="s-lg-database-desc">From ProQuest eBook Central, researchers can access over 810,000 ebooks and 1,350 imprints from more than 650 publishers. On average, 100,000 newly published titles are added each year from leading publishers to help libraries build dynamic collections that meet the unique needs of their community of researchers.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-33990660" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=https://www.taylorfrancis.com/search?isFullAccessOnly=true&key="  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '33990660'});">Taylor & Francis eBooks</a> <div id="s-lg-database-desc-33990660" class="s-lg-database-desc">Access over 15,000 ebooks from across the humanities and social sciences published by Taylor and Francis. <br />
+<br />
+Also includes CRCnetBASE publications such as the complete ENGnetBASE collection of engineering ebooks and titles from ITECHnetBASE related to information technology.</div>
+                    </div></li>
+                        <li class="">
+                        
+                    <div id="s-lg-content-9709381" class=""><a href="https://ezproxy.lib.ryerson.ca/login?url=http://books2.scholarsportal.info/home.html"  target="_blank"  onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9709381'});">Scholars Portal Ebooks</a> 
+                <div class="s-lg-icons pad-left-sm"><ul>
+                <li><a href="http://books2.scholarsportal.info/about.html" target="_blank"><img loading="lazy" alt="More Info on Library Subscribed Resource" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7444/LibGuides_Info3.png" title="More Info on Library Subscribed Resource &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li>
+                <li><a href="http://books2.scholarsportal.info/usage.html" target="_blank"><img loading="lazy" alt="Allowable Uses Information" class="s-lg-icon" src="//libapps-ca.s3.amazonaws.com/sites/2734/icons/7446/Usage-Rights-Grey.png" title="Allowable Uses Information &nbsp;"/> <span class="fa fa-fw fa-external-link" aria-hidden="true" title="This link opens in a new window"></span> <span class="sr-only">This link opens in a new window</span></a>
+                </li></ul>
+                </div><div id="s-lg-database-desc-9709381" class="s-lg-database-desc">Scholars Portal Books provides access to over 40,000 ebook titles from Springer, Taylor and Francis, Cambridge and Oxford as well as to 100,000 freely available titles from the Internet Archive.</div>
+                    </div></li>
+                        
+                            </ul>
+                            </div>
+			<div id="s-lg-content-35142615" class="  clearfix">
+				<h4>Search for ebooks in our collection:&nbsp;</h4>
+
+<p>1. Search for eBooks by clicking on the Book tab from the <a href="http://library.ryerson.ca">Library&#39;s home page</a>.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="front page of Ryerson Library website, Book tab is highlighted in yellow" src="//libapps-ca.s3.amazonaws.com/accounts/23414/images/front_page.PNG" />&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>2. Search by keywords or the title if you know it.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="search box by keywords " src="//libapps-ca.s3.amazonaws.com/accounts/23414/images/Search_box.PNG" /></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>3.To limit your search results to eBooks use the &quot;Refine&quot; features on the left side.Please click on &quot;Full Text Online&quot;</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="&quot;Full Text Online&quot; is highlighted in yellow under the left hand menu for Refine" src="//libapps-ca.s3.amazonaws.com/accounts/23414/images/refine.PNG" /></p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922648" class="s-lg-box-wrapper-18922648">
+					<div id="s-lg-box-16033756-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033756" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Open Educational Resources (Textbooks, Course Materials and Images)
+                                </h2>
+							<div id="s-lg-box-collapse-16033756" >
+								<div class="s-lib-box-content">
+									<div id="s-lg-content-35142266" class="">
+                            <ul class="s-lg-system-list">
+					<li>
+						<a href="https://learn.library.ryerson.ca/OER" target="_blank">Open Access Educational Resources Guide
+						</a>
+							<div class="s-lg-guide-list-info">
+								<span class="s-lg-guide-info-account pad-right-sm">
+									by <a href="https://learn.library.ryerson.ca/prf.php?account_id=44143" target="_blank">Ann Ludbrook</a>
+								</span>
+								<span class="s-lg-guide-info-updated pad-right-sm">
+									Last Updated Oct 15, 2020
+								</span>
+								<span class="s-lg-guide-info-views">4120 views this year
+								</span>
+							</div>
+					</li>
+					<li>
+						<a href="https://learn.library.ryerson.ca/openimages" target="_blank">Open Images for School Projects and Beyond
+						</a>
+							<div class="s-lg-guide-list-info">
+								<span class="s-lg-guide-info-account pad-right-sm">
+									by <a href="https://learn.library.ryerson.ca/prf.php?account_id=44143" target="_blank">Ann Ludbrook</a>
+								</span>
+								<span class="s-lg-guide-info-updated pad-right-sm">
+									Last Updated Mar 2, 2020
+								</span>
+								<span class="s-lg-guide-info-views">863 views this year
+								</span>
+							</div>
+					</li></ul>
+                       </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922650" class="s-lg-box-wrapper-18922650">
+					<div id="s-lg-box-16033758-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033758" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Educational Videos
+                                </h2>
+							<div id="s-lg-box-collapse-16033758" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142268" class="  clearfix">
+				<h4>Library Online Video Collections:</h4>
+
+<div>You can embed and link to the following educational videos through the library</div>
+
+<ul>
+	<li><a href="https://library.ryerson.ca/eresources/curio/">Curio</a>
+
+	<ul>
+		<li>Educational content from CBC and CBC radio programs&nbsp;</li>
+	</ul>
+	</li>
+	<li><a href="https://library.ryerson.ca/eresource/criterion-on-demand/">Criterion on Demand</a>
+	<ul>
+		<li>
+		<p>Access to over 2,000 feature film and documentary titles from a wide variety of major studios including Paramount Pictures, Warner Bros., Alliance Films, Entertainment One, Mongrel Media etc.</p>
+		</li>
+	</ul>
+	</li>
+	<li><a href="https://library.ryerson.ca/eresource/films-on-demand/">Films on Demand</a>
+	<ul>
+		<li>
+		<p>Films on Demand offers an extensive online educational video streaming library with thousands of high quality educational videos viewable by faculty and students. Videos offer fully annotated segments that can be integrated into lectures and presentations.</p>
+		</li>
+	</ul>
+	</li>
+	<li><a href="https://library.ryerson.ca/eresources/kanopy/">Kanopy</a>&nbsp;
+	<ul>
+		<li>Films range from documentaries, indie and foreign films, must-see classics and blockbuster movies.</li>
+	</ul>
+	</li>
+	<li><a href="https://library.ryerson.ca/eresources/nfb/">NFB</a>
+	<ul>
+		<li>Canadian films, animation and documentaries from the National Film Board</li>
+	</ul>
+	</li>
+	<li><a href="http://learn.library.ryerson.ca/az.php?t=9294">Plus more</a></li>
+</ul>
+
+<div>The library also has<strong> <a href="https://library.ryerson.ca/services/av/resources/">online collections for Images,&nbsp;Music, Sound Recordings</a>&nbsp;and more.&nbsp;</strong></div>
+
+<h4>&nbsp;</h4>
+
+<h4>Online Learning and Training</h4>
+
+<ul>
+	<li><a href="https://library.ryerson.ca/eresource/lynda-com/">LinkedIn Learning</a>&nbsp;(formerly Lynda.com)
+
+	<ul>
+		<li>Available to all students and faculty, LinkedIn Learning&nbsp;is a premier online learning company that produces high-quality video tutorials led by industry experts on a range of topics. Use these tutorials to update and expand your technology, creative and business skills.</li>
+	</ul>
+	</li>
+	<li><a href="http://methods.sagepub.com.ezproxy.lib.ryerson.ca/">Sage Research Methods</a>
+	<ul>
+		<li>Available to all students and faculty, Sage Research Methods is a resource for learning about research methods through videos, guidebooks, and tools to help you plan research, including the methods map and project planner. It is useful for both quick reference (e.g. what is grounded theory?) and in depth research on specific methods (e.g. Indigenous research methods and GIS)</li>
+	</ul>
+	</li>
+</ul>
+
+<div>
+<h4>YouTube</h4>
+</div>
+
+<div>YouTube has exciting and engaging videos that you can link to in your course shell.&nbsp;</div>
+
+<div>For copyright purposes,&nbsp;please check that the video has been posted by the legal copyright holder.&nbsp;</div>
+
+<div>
+<p><strong>Downloading or copying a YouTube video</strong>:&nbsp;You can only download or copy a YouTube video if you are the owner of the&nbsp;content. The best way to make YouTube material available to your students is through linking.</p>
+</div>
+
+<div>
+<h4>&nbsp;</h4>
+
+<h4>Examples&nbsp;&nbsp;</h4>
+</div>
+
+<ul>
+	<li><a href="https://www.ted.com/">Ted Talks</a></li>
+	<li><a href="http://ed.ted.com/">Ted-Ed&nbsp;</a>
+	<ul>
+		<li>Allows you to build a lesson around a TedX talk,
+		<ul>
+			<li>or check out their&nbsp;<a href="https://www.youtube.com/user/TEDEducation">Ted Education Short Videos</a></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><a href="https://www.youtube.com/user/minutephysics">MinutePhysics</a>
+	<ul>
+		<li>&nbsp;Physics and other science explained in one minute.&nbsp;</li>
+	</ul>
+	</li>
+	<li><a href="https://www.youtube.com/user/crashcourse">Crash Course</a>
+	<ul>
+		<li>&nbsp;Explores physics, philosophy, games, economics, U.S. government and politics, astronomy, anatomy &amp; physiology, world history, biology, literature, ecology, chemistry, and psychology.</li>
+	</ul>
+	</li>
+	<li><a href="https://www.youtube.com/results?search_query=scishow+psych">SciShow Psych</a>&nbsp;
+	<ul>
+		<li>Explains&nbsp;ground-breaking studies and contextualize psychology throughout history.</li>
+	</ul>
+	</li>
+</ul>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922942" class="s-lg-box-wrapper-18922942">
+					<div id="s-lg-box-16033928-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033928" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Educational Podcasts
+                                </h2>
+							<div id="s-lg-box-collapse-16033928" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142712" class="  clearfix">
+				<ul>
+	<li><a href="https://www.ncrm.ac.uk/resources/podcasts/">Research Methods Podcast</a>
+
+	<ul>
+		<li>from UK ESRC&#39;s National Centre for Research Methods</li>
+		<li>10-15 minute podcast interviews with researchers about social science methods like web surveys, qualitative research, ethnography, big qualitative data methods</li>
+	</ul>
+	</li>
+	<li><a href="https://podcasts.ox.ac.uk/">University of Oxford Podcasts</a>&nbsp;
+	<ul>
+		<li>Lectures from Oxford lecturers on a variety of subjects including: Mathematics, Humanities, Science, Medicine, Social Sciences, and Engineering</li>
+		<li>Presented in series, and searchable&nbsp;by the lecturer, topic, or subject matter</li>
+	</ul>
+	</li>
+	<li><a href="http://yalepodcasts.blubrry.net/">Yale Podcast Network</a>
+	<ul>
+		<li>Podcast collections from Yale University, produced by Yale Broadcast Studio</li>
+		<li>Podcasts from Yale journals, subjects include Law, Religion, Environmental Studies, Medicine, Biology, History, International Affairs, and Geography</li>
+	</ul>
+	</li>
+	<li><a href="https://certificate.queenslaw.ca/podcast">Fundamentals of Canadian Law</a>
+	<ul>
+		<li>This podcast from Queen&#39;s University is produced in conjunction with the Queen&#39;s Certificate in Law. Guest law professors discuss important Canadian cases related to criminal, constitutional, aboriginal law, and more</li>
+	</ul>
+	</li>
+	<li><a href="https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/">Stuff You Missed in History Class</a>
+	<ul>
+		<li>This podcast gives short (10-45 minute) synopses of historic events. Recent episodes range from the history of insulin to the lunch counter sit ins.&nbsp;</li>
+	</ul>
+	</li>
+</ul>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18925449" class="s-lg-box-wrapper-18925449">
+					<div id="s-lg-box-16035979-container" class="s-lib-box-container">
+						<div id="s-lg-box-16035979" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Case Studies
+                                </h2>
+							<div id="s-lg-box-collapse-16035979" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35146763" class="  clearfix">
+				<p>Please visit&nbsp;the following guide to locate case studies (case studies available via the Library and free case studies as well):</p>
+
+<ul>
+	<li><a href="https://learn.library.ryerson.ca/businesscasestudies" target="_blank">Case Studies</a></li>
+</ul>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922651" class="s-lg-box-wrapper-18922651">
+					<div id="s-lg-box-16033759-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033759" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Free Courses and Tutorials
+                                </h2>
+							<div id="s-lg-box-collapse-16033759" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142269" class="  clearfix">
+				<p><span style="font-size:16px;"><strong>Courses / Quick Review Tutorials</strong></span></p>
+
+<p>You can provide the following tools to help your students&nbsp;refresh their prior knowledge or to quickly learn a new subject area. &nbsp;</p>
+
+<ul>
+	<li><a href="https://www.khanacademy.org/">Khan Academy</a>
+
+	<ul>
+		<li>Math</li>
+		<li>Science &amp; Engineering</li>
+		<li>Computing&nbsp;</li>
+		<li>Some Arts and Humanities</li>
+	</ul>
+	</li>
+	<li><a href="http://www.open.edu/openlearn/free-courses" target="_blank">Open University</a>:
+	<ul>
+		<li>Based in the UK, this organization offers free short courses&nbsp;</li>
+		<li>All Subject Areas</li>
+	</ul>
+	</li>
+	<li><a href="http://ocw.mit.edu/index.htm" target="_blank" title="MIT Open Courseware">MIT Open Courseware</a>
+	<ul>
+		<li>Web-based publication of virtually all MIT course content free to the public.&nbsp; OCW is open and available to the world and is a permanent MIT activity. &nbsp;</li>
+	</ul>
+	</li>
+	<li><a href="http://oyc.yale.edu/" target="_blank" title="Open Yale Courses">Open Yale Courses</a>
+	<ul>
+		<li>Web-based publication of lectures and other materials from selected Yale College courses free to the public.</li>
+		<li>History</li>
+		<li>English</li>
+		<li>Philosophy</li>
+		<li>Arts and Humanities</li>
+		<li>Some Science&nbsp;</li>
+	</ul>
+	</li>
+	<li><a href="https://www.duolingo.com/">Duolingo</a>
+	<ul>
+		<li>Free language learning program, uses tiny micro-lessons to master language proficiency</li>
+	</ul>
+	</li>
+</ul>
+
+<div id="s-lg-content-7921532">
+<p>&nbsp;</p>
+</div>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div><div id="s-lg-box-wrapper-18922647" class="s-lg-box-wrapper-18922647">
+					<div id="s-lg-box-16033755-container" class="s-lib-box-container">
+						<div id="s-lg-box-16033755" class="s-lib-box s-lib-box-std">
+							<h2 class="s-lib-box-title">Annotate Websites and PDFs
+                                </h2>
+							<div id="s-lg-box-collapse-16033755" >
+								<div class="s-lib-box-content">
+									
+			<div id="s-lg-content-35142265" class="  clearfix">
+				<p><a href="https://www.diigo.com/">Diigo</a></p>
+
+<ul dir="ltr">
+	<li>Annotate Webpages and online PDF&#39;s, Save and tag your online resources, Shareable</li>
+	<li>Free, online registration&nbsp;</li>
+</ul>
+
+<p><a href="https://hypothes.is/">Hypothesis </a></p>
+
+<ul dir="ltr">
+	<li>Annotate webpages -&nbsp;discuss, collaborate, organize your research, or take personal notes.</li>
+	<li>Free, online registration&nbsp;</li>
+</ul>
+
+<p><a href="https://miro.com/">Miro</a></p>
+
+<ul>
+	<li>&quot;Infinite canvas&quot; whiteboard collaboration tool, create diagrams and add images, Shareable</li>
+	<li>Free (up to 3 boards), online registration</li>
+</ul>
+
+<p>*Please&nbsp;note that some&nbsp;tools require you to give information&nbsp;like your name, University affiliation and email address. Please read their terms and conditions before providing this&nbsp;information.&nbsp;</p>
+
+		   </div>
+								</div>
+								
+							</div>
+						</div>
+					</div></div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            <ul id="s-lg-page-prevnext" class="pager s-lib-hide"><li class="previous"></li><li class="next"><a href="https://learn.library.ryerson.ca/supplement_materials/vendor_news"><strong>Next:</strong> Vendor News &gt;&gt;</a></li></ul>
+        </div>
+    </div>
+</div>
+<!-- BEGIN: Page Footer -->
+<div id="s-lib-footer-public"
+     class="s-lib-footer footer container  s-lib-side-borders">
+    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
+        <ul id="s-lg-guide-header-attributes" class="">
+            <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
+                <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 19, 2020 11:33 AM</span>            </li>
+            <li id="s-lg-guide-header-url" class="s-lg-h-separator">
+                <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">https://learn.library.ryerson.ca/supplement_materials</span>
+            </li>
+            <li id="s-lg-guide-print-url">
+                <a href="javascript: window.print();"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>
+            </li>
+        </ul>
+        <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
+            <a href="https://ryerson.libapps.com/libapps/login.php?site_id=2734&target64=L2xpYmd1aWRlcy9hZG1pbl9jLnBocD9nPTcxNTE4NiZwPTUwOTkxNTE=">Login to LibApps</a>        </div>
+    </div>
+    <div class="pad-bottom-sm clearfix">
+        <div id="s-lib-footer-support-link" class="pull-right pad-right-med">
+            <a href="mailto:refdesk@ryerson.ca">Report a problem</a>        </div>
+        <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left">
+            
+        </div>
+        <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med">
+            
+                    <span class="s-lg-guide-label">Tags: </span>
+                    <span class="s-lg-small bold"><a href="https://learn.library.ryerson.ca/srch.php?tag=Continuity of Teaching Ryerson&default_lg=1">Continuity of Teaching Ryerson</a>, <a href="https://learn.library.ryerson.ca/srch.php?tag=faculty&default_lg=1">faculty</a>, <a href="https://learn.library.ryerson.ca/srch.php?tag=online learning&default_lg=1">online learning</a>, <a href="https://learn.library.ryerson.ca/srch.php?tag=supplementary&default_lg=1">supplementary</a></span>
+                    
+        </div>
+    </div>
+</div>
+<!-- END: Page Footer -->
+
+			<div id="s-lib-scroll-top">
+				<a href="javascript:void(0);" onclick="jQuery('body').focus();" title="Back to Top" aria-label="Back to Top">
+					<span class="fa-stack fa-lg" aria-hidden="true">
+					  <i class="fa fa-square-o fa-stack-2x"></i>
+					  <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+					</span>
+				</a>
+			</div><div id="s-lib-alert" title="">
+                            <div id="s-lib-alert-content"></div>
+                       </div>
+                <!-- BEGIN: Custom Footer -->
+                
+<footer class="local-footer"><div class="container"><div class="row"> <div class="col-xs-12 col-sm-3"><h4>Ryerson University Library</h4><p><a href="http://www.ryerson.ca/maps/?building=LIB">Library Building</a><br/>350 Victoria Street 2nd Floor<abbr title="Phone">P:</abbr>(416 979-5055)<br/>Fax: (416) 979-5215<br/>Email: <a href="refdesk@ryerson.ca">refdesk@ryerson.ca</a></p><ul class="social"><li><a href="https://twitter.com/ryersonlibrary"> <i class="fa fa-twitter"></i></a></li><li><a href="https://www.instagram.com/ryersonulibrary"> <i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com/user/ryersonlibrary"> <i class="fa fa-youtube"></i></a></li><li><a href="http://apps.library.ryerson.ca/api/merge/"> <i class="fa fa-rss"></i></a></li></ul></div><div class="col-xs-12 col-sm-3"><h4>Links</h4><nav class="local-footer-links"><ul class="menu"><li><a href="https://library.ryerson.ca/services/disabilities/accessibility/">Accessibility Services</a></li><li><a href="https://library.ryerson.ca/copyright">Copyright</a></li><li><a href="https://library.ryerson.ca/info/about-us#contactus">Contact us</a></li><li><a href="https://library.ryerson.ca/siteindex">Site Index</a></li></ul></nav></div><div class="col-xs-12 col-sm-6"><a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.382865,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671"><img class="map" src="https://library.ryerson.ca/wp-content/uploads/rula_map.png" alt="Google map"/></a></div></div></div></footer><footer class="global-footer-top"><div class="container"><div class="row gft-top"><div class="col-xs-6 text-left"><a href="https://www.ryerson.ca"><strong>Ryerson University</strong></a></div><div class="col-xs-6 text-right"><a class="collapse-toggle collapsed" href="#gft-collapse" data-toggle="collapse"></a></div></div><div class="collapse" id="gft-collapse"><div class="row gft-middle"><div class="col-xs-6 text-left">350 Victoria Street<br/>Toronto, ON M5B 2K3<br/><abbr title="Phone">P:</abbr>(416) 979-5000</div><div class="col-xs-6 text-right"><p>Follow Ryerson</p><ul class="social"><li><a href="https://www.facebook.com/ryersonu"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.youtube.com/user/RyersonUTube"><i class="fa fa-youtube"></i></a></li><li><a href="https://www.linkedin.com/company/ryerson-university"><i class="fa fa-linkedin"></i></a></li></ul></div><div class="col-xs-12"><div class="row gft-bottom"><div class="col-xs-6 text-left"><ul class="global-footer-links"><li><a href="https://ryerson.ca/contact/">Directory</a></li><li><a href="https://ryerson.ca/maps/">Maps and Directions</a></li></ul></div><div class="col-xs-6 text-right"><ul class="global-footer-links"><li><a href="https://ryerson.ca/jobs/">Careers</a></li><li><a href="https://ryerson.ca/media/">Media Room</a></li></ul></div></div></div></div></div></div></footer><footer class="global-footer-bottom"><div class="container"><div class="row"><div class="col-xs-12"><ul class="global-footer-links"><li><a href="https://ryerson.ca/privacy/">Privacy Policy</a></li><li><a href="https://ryerson.ca/accessibility/">Accessibility</a></li><li><a href="https://www.ryerson.ca/terms">Terms &amp; Conditions</a></li></ul></div></div></div></footer>
+
+		<!-- END: Custom Footer -->
+<!-- BEGIN: Analytics code --><!-- GOOGLE ANALYTICS TRACKING CODE -->
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-890753-17', 'auto'); ga('require', 'eventTracker', { events: ['click', 'auxclick', 'contextmenu'] }); ga('require', 'outboundLinkTracker', { events: ['click', 'auxclick', 'contextmenu'], linkSelector: 'a:not([ga-on])' }); ga('require', 'outboundFormTracker', { formSelector: '.outbound-track-submits' }); ga('send', 'pageview');</script>
+<script type="text/javascript" src="//libapps-ca.s3.amazonaws.com/sites/2734/include/autotrack.js"></script><!-- END: Analytics code --></body></html>

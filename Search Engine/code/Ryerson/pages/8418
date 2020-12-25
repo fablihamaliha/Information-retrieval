@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/student-wellbeing/healthpromotion/data/" >
+		<meta property="og:title" content="Ryerson Health Data" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/student-wellbeing/healthpromotion/data/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Ryerson Health Data"> 
+		 
+        
+        
+        <title>Ryerson Health Data - Student Wellbeing - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.00A3AD.FFDC00.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/student-wellbeing/">
+				        Student Wellbeing
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/student-wellbeing.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#a0857ac2-3193-4911-96d8-b4a5850edc8f" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="a0857ac2-3193-4911-96d8-b4a5850edc8f">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='https://www.ryerson.ca/accommodations/'>Academic Accommodation</a>
+									</li>
+								
+									<li class="">
+										<a href='/student-wellbeing/counselling/'>Counselling</a>
+									</li>
+								
+									<li class="active">
+										<a href='/student-wellbeing/healthpromotion/'>Health Promotion</a>
+									</li>
+								
+									<li class="">
+										<a href='/student-wellbeing/medicalcentre/'>Medical Centre</a>
+									</li>
+								
+									<li class="">
+										<a href='https://www.ryerson.ca/studentlearningsupport/test-centre/'>Test Centre</a>
+									</li>
+								
+									<li class="">
+										<a href='https://www.ryerson.ca/thriveru/'>ThriveRU</a>
+									</li>
+								
+									<li class="">
+										<a href='/student-wellbeing/staying-well-during-covid-19/'>Staying Well During COVID-19</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/student-wellbeing/healthpromotion.html">Health Promotion</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#0e73f418-eb4d-48c9-9674-0c3225325654" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="0e73f418-eb4d-48c9-9674-0c3225325654">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/aboutus.html'>About</a>
+</li>
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/sharpp.html'>Peer Program</a>
+</li>
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/health-and-wellbeing.html'>Health and Wellbeing</a>
+</li>
+<li class="list-group-item selected">
+<a href='/student-wellbeing/healthpromotion/data.html'>Ryerson Health Data</a>
+</li>
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/student-advisory-group/'>Student Advisory Group</a>
+</li>
+<li class="list-group-item">
+<a href='https://connectru.ryerson.ca'>Events</a>
+</li>
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/contact.html'>Contact</a>
+</li>
+<li class="list-group-item">
+<a href='/student-wellbeing/healthpromotion/covid-19-wellbeing.html'>COVID-19 Updates</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Ryerson Health Data</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f77131b8-a080-4ca1-9c02-bd3a36ac3acc" >
+
+    <p>At Student Wellbeing, we are always looking for the most efficient and effective ways to serve our students. Collection and monitoring of reliable student data enables us to understand, first hand, the significant health priorities of this population and assist us to design better campus-wide health promotion efforts and health and wellness services. </p> 
+<p>Every three years, Ryerson partners with numerous other colleges and universities in Canada to conduct a comprehensive student health assessment.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f77131b8-a080-4ca1-9c02-bd3a36ac3acc");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e3324684-e9d9-4acf-8a02-7143a1c09838" >
+
+    <h2>About NCHA</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e3324684-e9d9-4acf-8a02-7143a1c09838");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="4ba1570f-7d1e-41a2-9cd3-9fe314998571" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("4ba1570f-7d1e-41a2-9cd3-9fe314998571", true); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945516634-what-is-the-american-college-health-association-national-college-health-assessment-ii--acha-ncha-ii--" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945516634-what-is-the-american-college-health-association-national-college-health-assessment-ii--acha-ncha-ii--" aria-controls="accordion-content-1543945516634-what-is-the-american-college-health-association-national-college-health-assessment-ii--acha-ncha-ii--" aria-expanded="false">
+                            What is the American College Health Association-National College Health Assessment II (ACHA-NCHA II)?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945516634-what-is-the-american-college-health-association-national-college-health-assessment-ii--acha-ncha-ii--" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945516634-what-is-the-american-college-health-association-national-college-health-assessment-ii--acha-ncha-ii--">
+                    <div class="panel-body ">
+                        <div class="1543945516634 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="94bdaf9b-2737-4bb1-92e8-797878ba059e" >
+
+    <p>The ACHA-NCHA II is an online survey examining students’ behaviours, perceptions, and habits about a variety of health and wellness topics. This survey is administered by the American College Health Association (ACHA).</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#94bdaf9b-2737-4bb1-92e8-797878ba059e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945523924-what-topics-are-addressed-in-the-assessment-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945523924-what-topics-are-addressed-in-the-assessment-" aria-controls="accordion-content-1543945523924-what-topics-are-addressed-in-the-assessment-" aria-expanded="false">
+                            What topics are addressed in the assessment?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945523924-what-topics-are-addressed-in-the-assessment-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945523924-what-topics-are-addressed-in-the-assessment-">
+                    <div class="panel-body ">
+                        <div class="1543945523924 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="26e97b26-579a-4ad6-9a80-ee51cd3c7b20" >
+
+    <ol> 
+ <li>Health, health education, and safety.</li> 
+ <li>Alcohol, tobacco, and drugs.</li> 
+ <li>Sex behavior, perceptions, and contraception.</li> 
+ <li>Weight, nutrition, and exercise.</li> 
+ <li>Mental and physical health.</li> 
+ <li>Impediments to academic performance.</li> 
+ <li>Demographics.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#26e97b26-579a-4ad6-9a80-ee51cd3c7b20");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945532395-why-did-the-ryerson-health-promotion-unit-conduct-this-assessment-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945532395-why-did-the-ryerson-health-promotion-unit-conduct-this-assessment-" aria-controls="accordion-content-1543945532395-why-did-the-ryerson-health-promotion-unit-conduct-this-assessment-" aria-expanded="false">
+                            Why did the Ryerson Health Promotion Unit conduct this assessment?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945532395-why-did-the-ryerson-health-promotion-unit-conduct-this-assessment-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945532395-why-did-the-ryerson-health-promotion-unit-conduct-this-assessment-">
+                    <div class="panel-body ">
+                        <div class="1543945532395 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9c381f6b-cca5-4253-89d2-6984cceb352b" >
+
+    <p>As a unit, we are always looking for the most efficient and effective ways to serve our students. Collection and monitoring of reliable student data is necessary to inform our health promotion decisions. Hearing from our student community will enable us to understand, first hand, the significant health priorities of this population and assist us to design better campus-wide health promotion efforts and health &amp; wellness services.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9c381f6b-cca5-4253-89d2-6984cceb352b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945684755-was-ethics-approval-required-to-conduct-this-assessment-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945684755-was-ethics-approval-required-to-conduct-this-assessment-" aria-controls="accordion-content-1543945684755-was-ethics-approval-required-to-conduct-this-assessment-" aria-expanded="false">
+                            Was ethics approval required to conduct this assessment?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945684755-was-ethics-approval-required-to-conduct-this-assessment-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945684755-was-ethics-approval-required-to-conduct-this-assessment-">
+                    <div class="panel-body ">
+                        <div class="1543945684755 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="15669cc6-33a9-4736-812e-19cc68b36d4b" >
+
+    <p>Ethics approval was required and granted by&nbsp;<a href="https://www.ryerson.ca/research/resources/ethics/human.html">Ryerson’s Research Ethics Board</a>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#15669cc6-33a9-4736-812e-19cc68b36d4b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945537548-when-was-this-assessment-held-at-ryerson-university-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945537548-when-was-this-assessment-held-at-ryerson-university-" aria-controls="accordion-content-1543945537548-when-was-this-assessment-held-at-ryerson-university-" aria-expanded="false">
+                            When was this assessment held at Ryerson University?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945537548-when-was-this-assessment-held-at-ryerson-university-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945537548-when-was-this-assessment-held-at-ryerson-university-">
+                    <div class="panel-body ">
+                        <div class="1543945537548 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="00963f19-fc7e-41ec-a29d-79d17e0503ed" >
+
+    <p>March 2016.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#00963f19-fc7e-41ec-a29d-79d17e0503ed");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945539741-what-was-the-response-proportion-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945539741-what-was-the-response-proportion-" aria-controls="accordion-content-1543945539741-what-was-the-response-proportion-" aria-expanded="false">
+                            What was the response proportion?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945539741-what-was-the-response-proportion-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945539741-what-was-the-response-proportion-">
+                    <div class="panel-body ">
+                        <div class="1543945539741 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="53435ed9-27b7-41ec-aa9d-70ed49ffa601" >
+
+    <p>The response proportion was 18.9% (n=691). This sample size is large enough to generate significant insights within a 95% confidence interval and a +/-4 margin of error.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#53435ed9-27b7-41ec-aa9d-70ed49ffa601");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945547256-how-were-participants-recruited-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945547256-how-were-participants-recruited-" aria-controls="accordion-content-1543945547256-how-were-participants-recruited-" aria-expanded="false">
+                            How were participants recruited?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945547256-how-were-participants-recruited-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945547256-how-were-participants-recruited-">
+                    <div class="panel-body ">
+                        <div class="1543945547256 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="e54a46c3-7c81-40d0-a641-09905cae9a0e" >
+
+    <p>5,000 Ryerson students were randomly selected to participate in the assessment. The sole selection criterion is that student participants must be over the age of 18. Random selection allows for a sample that represents the different nationalities, genders, ages, academic levels, cultures, and family status that exists within Ryerson.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e54a46c3-7c81-40d0-a641-09905cae9a0e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945548932-do-other-colleges-or-universities-conduct-this-assessment-as-well-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945548932-do-other-colleges-or-universities-conduct-this-assessment-as-well-" aria-controls="accordion-content-1543945548932-do-other-colleges-or-universities-conduct-this-assessment-as-well-" aria-expanded="false">
+                            Do other colleges or universities conduct this assessment as well?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945548932-do-other-colleges-or-universities-conduct-this-assessment-as-well-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945548932-do-other-colleges-or-universities-conduct-this-assessment-as-well-">
+                    <div class="panel-body ">
+                        <div class="1543945548932 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ff0a148f-b067-4f67-b6ca-5c510b725e8f" >
+
+    <p>Yes. In Spring 2016, for the first time ever, 41 institutions participated in a Canada-wide effort to gather student health data using the ACHA-NCHA II.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ff0a148f-b067-4f67-b6ca-5c510b725e8f");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945555064-who-do-i-contact-for-more-information-about-the-acha-ncha-ii-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945555064-who-do-i-contact-for-more-information-about-the-acha-ncha-ii-" aria-controls="accordion-content-1543945555064-who-do-i-contact-for-more-information-about-the-acha-ncha-ii-" aria-expanded="false">
+                            Who do I contact for more information about the ACHA-NCHA II?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945555064-who-do-i-contact-for-more-information-about-the-acha-ncha-ii-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945555064-who-do-i-contact-for-more-information-about-the-acha-ncha-ii-">
+                    <div class="panel-body ">
+                        <div class="1543945555064 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f066609b-795d-4084-996e-b7563b4bd0a8" >
+
+    <p> Juannittah Kamera (RN, BScN, MScHPPH)</p> 
+<p>Health Promotion Programs Coordinator l Student Health &amp; Wellness</p> 
+<p>416-979-5000 ext. 4295<br> </p> 
+<p>healthpromotion@ryerson.ca.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f066609b-795d-4084-996e-b7563b4bd0a8");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h2 class="panel-title">
+                        <a id="accordion-1543945560689-what-is-canada-s-participation-in-the-acha-ncha-ii-" role="tab" data-toggle="collapse" data-parent="#4ba1570f-7d1e-41a2-9cd3-9fe314998571" href="#accordion-content-1543945560689-what-is-canada-s-participation-in-the-acha-ncha-ii-" aria-controls="accordion-content-1543945560689-what-is-canada-s-participation-in-the-acha-ncha-ii-" aria-expanded="false">
+                            What is Canada’s participation in the ACHA-NCHA II?
+                        </a>
+                    </h2>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1543945560689-what-is-canada-s-participation-in-the-acha-ncha-ii-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1543945560689-what-is-canada-s-participation-in-the-acha-ncha-ii-">
+                    <div class="panel-body ">
+                        <div class="1543945560689 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a3902e88-7bf0-41e0-9b7e-62a8bd2c3def" >
+
+    <p>41 Canadian postsecondary institutions chose to participate in the Spring 2016 ACHA National College Health Assessment. In total, 43,780 surveys were completed across Canada. A reference group was created out of Canadian institutions that employed random sampling techniques and agreed to have their data included. The mean response rate within this group was 19% and the median was 19%.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a3902e88-7bf0-41e0-9b7e-62a8bd2c3def");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1543945907169-view-ncha-data" href="#tab-content-1543945907169-view-ncha-data" role="tab" data-toggle="tab" aria-controls="tab-content-1543945907169-view-ncha-data" aria-expanded="true">
+                        <span class="text">View NCHA Data</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1543945916754-use-ncha-data" href="#tab-content-1543945916754-use-ncha-data" role="tab" data-toggle="tab" aria-controls="tab-content-1543945916754-use-ncha-data" aria-expanded="false">
+                        <span class="text">Use NCHA Data</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1543945907169-view-ncha-data" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1543945907169-view-ncha-data">
+                    <div class="1543945907169 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8d32cff8-877d-4bfd-b54d-306addf3a5b4" >
+
+    <p><strong>Ryerson University - <a href="/content/dam/student-wellbeing/health-promotion/documents/NCHA-II-SPRING-2019-RYERSON-UNIVERSITY-EXECUTIVE-SUMMARY.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2019<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Ryerson University - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2016-ryerson-university-executive-summary-data-report.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2016<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Ryerson University - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2013-ryerson-university-executive-summary-data-report-3.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2013<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Ontario Reference Group - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2013-ontario-province-reference-group-executive-summary.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2013<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Canada Reference Group - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2013-Canadian-reference-group-executive-summary.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2013<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Ryerson University - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2010-ryerson-university-es-data-report.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2010<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>ACHA - <a href="/content/dam/student-wellbeing/health-promotion/documents/acha-ncha-II-reference-group-executive-summary-spring-2010.pdf"><span class="sr-only">PDF file</span>Reference Group Summary - 2010<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p> 
+<p><strong>Ontario Reference Group - <a href="/content/dam/student-wellbeing/health-promotion/documents/ncha-II-web-spring-2009-ontario-refgrp-executive-summary.pdf"><span class="sr-only">PDF file</span>Executive Summary - 2009<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8d32cff8-877d-4bfd-b54d-306addf3a5b4");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1543945916754-use-ncha-data" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1543945916754-use-ncha-data">
+                    <div class="1543945916754 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="63ddd377-de53-4afb-b1e2-ff0bd5d9a250" >
+
+    <h2>How Health Promotion uses the data&nbsp;</h2> 
+<p>The results of the assessment have helped the Health Promotions Department to:</p> 
+<ul> 
+ <li>Identify the most common health and behavior risks affecting students' academic performance.</li> 
+ <li>Design evidence-based health promotion programs with targeted educational and environmental initiatives.</li> 
+ <li>Create social norms marketing campaigns by comparing students' actual behaviors to their perceptions about peer behavior.</li> 
+ <li>Provide needs assessment data for campus and community task forces on various health topics, such as mental health, physical health, etc.</li> 
+ <li>Have readily available graphs and data for policy discussions and presentations with faculty, staff, administration, and board members.</li> 
+ <li>Impact the campus culture by opening a dialogue about health with students and staff.</li> 
+ <li>We are happy to share data about particular health issues or sub-populations in academic classes, faculty meetings, student organization meetings, or other forums.</li> 
+</ul> 
+<h2><strong>How Ryerson Community Members are Using the Data</strong></h2> 
+<ul> 
+ <li>The mental health findings from the NCHA are informing the work that the Ryerson Mental Health Advisory committee is doing in creating a mental health strategy for the campus.</li> 
+ <li>Ryersonian journalists have used the data in their newspaper articles and TV newscasts.</li> 
+</ul> 
+<h2>Who can Access the Data</h2> 
+<p>We are happy to share data about particular health issues or sub-populations in academic classes, faculty meetings, student organization meetings, or other forums. It is helpful for us to track who used the data and how; as such we request that anyone who we provide it to e-mail a copy of their final product to&nbsp;<a href="mailto:healthpromotion@ryerson.ca">healthpromotion@ryerson.ca</a>. The data can be used in a variety of ways and below are a few suggestions.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#63ddd377-de53-4afb-b1e2-ff0bd5d9a250");});</script></div>
+
+				
+
+				
+				<div class="resTable parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<div class="scrollIndicator hidden">
+		<i class="fa fa-long-arrow-left" aria-hidden="true"></i> Swipe to see more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+	<div id="ff364d3c-3e78-4900-8ae8-25f3122b532c">
+		<table width="100%" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><th>Community Member</th>
+<th>How to Use Data</th>
+</tr><tr><td width="111"><p>Everyone</p>
+</td>
+<td><ul>
+<li>To correct misconceptions about students behaviours</li>
+<li>To decrease stigma holding discussions and running normalization campaigns about stigmatized health topics such as mental health</li>
+<li>Share normative data which reflects the culture of wellness at Ryerson and shows where students are practicing healthy behaviours</li>
+</ul>
+</td>
+</tr><tr><td>Students</td>
+<td><ul>
+<li>To gain hands-on experience working with and analyzing data.</li>
+<li>Class projects, papers</li>
+<li>Primary research data for dissertations</li>
+<li>Program planning for student groups</li>
+<li>To support any advocacy work that they are engaged in</li>
+<li>Several research questions have arisen as a result of the findings that we are eager to further explore. We welcome working with students, faculty, and staff on group projects, theses, dissertations, or other efforts.</li>
+<li>Develop proposals to secure grant funding to expand or develop programs.</li>
+</ul>
+</td>
+</tr><tr><td>Staff</td>
+<td><ul>
+<li>Several research questions have arisen as a result of the findings that we are eager to further explore. We welcome working with students, faculty, and staff on group projects, theses, dissertations, or other efforts.</li>
+<li>Develop proposals to secure grant funding to expand or develop programs.</li>
+</ul>
+</td>
+</tr><tr><td>Faculty</td>
+<td><ul>
+<li>Several research questions have arisen as a result of the findings that we are eager to further explore. We welcome working with students, faculty, and staff on group projects, theses, dissertations, or other efforts.</li>
+<li>To present in social sciences, health, communications, and research classes.</li>
+<li>Can use the NCHA data for curriculum infusion and/or student project groups.</li>
+<li>Develop proposals to secure grant funding to expand or develop programs.</li>
+</ul>
+</td>
+</tr><tr><td>Campus and local Media</td>
+<td><ul>
+<li>To gain hands-on experience working with and analyzing data.</li>
+<li>To cite in articles and editorials.</li>
+</ul>
+</td>
+</tr><tr><td>University Administration and marketing</td>
+<td><ul>
+<li>To use in presentations for prospective students and parents and for freshmen orientation.</li>
+<li>To draw on for promotional materials.</li>
+</ul>
+</td>
+</tr></tbody></table>
+
+	</div>
+
+
+
+
+	<script>
+	
+	//convert to plugin in pure js....later (soon)
+	$(document).ready(function() {
+		$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').addClass("table");
+	    
+			$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').addClass("table-striped");
+		
+		$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').addClass("table-borderless");
+		
+			var removeHeading = false;
+			
+				//mandatory to have heading on initialization but remove it after. See #NOTE-REMOVE
+				if($('#ff364d3c-3e78-4900-8ae8-25f3122b532c table thead').eq(0).length == 0){
+						//insert fake row and delete
+						removeHeading = true;
+						var numOfColsTD = $('#ff364d3c-3e78-4900-8ae8-25f3122b532c table tbody tr').eq(0).find('td').length;
+						var numOfColsTH = $('#ff364d3c-3e78-4900-8ae8-25f3122b532c table tbody tr').eq(0).find('th').length;
+						
+						var appendTH = "<thead>";
+						for(var i = 0; i < numOfColsTD+numOfColsTH;i++){
+							appendTH += "<th>Column</th>";
+						}
+						appendTH += "</thead>";
+						$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').prepend(appendTH);
+				}
+			
+			
+			$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').removeAttr("border");
+			$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').removeAttr("cellpadding");
+			$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').removeAttr("cellspacing");
+			
+			$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table').DataTable({
+				
+				"sDom":"lrtp",
+				"sort":false,
+				"pagingType": "simple_numbers","paging":false,
+				"autoWidth":true
+			});
+		
+			//#NOTE-REMOVE
+			if(removeHeading){
+				$('#ff364d3c-3e78-4900-8ae8-25f3122b532c table thead').remove();
+			}
+			
+			
+		    
+	    
+	    
+	} );
+	</script>
+<script>$(document).ready(function(){addCoursePopover("#ff364d3c-3e78-4900-8ae8-25f3122b532c");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="25b06d06-9c3f-4d35-b057-1231718cf162" >
+
+    <h2><strong>Quick Links</strong></h2> 
+<ul> 
+ <li><a href="https://www.ryerson.ca/accommodations/">Academic Accommodation Support</a></li> 
+ <li><a href="https://www.ryerson.ca/content/ryerson/student-wellbeing/counselling.html">Centre for&nbsp;Student Development &amp; Counselling</a></li> 
+ <li><a href="https://www.ryerson.ca/content/ryerson/student-wellbeing/medicalcentre/">Medical Centre</a></li> 
+ <li><a href="https://www.ryerson.ca/studentlearningsupport/test-centre/">Test Centre</a>&nbsp;</li> 
+ <li><a href="https://www.ryerson.ca/thriveru">ThriveRU</a></li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#25b06d06-9c3f-4d35-b057-1231718cf162");});</script></div>
+
+				
+
+				
+				<div class="resSocialLinks section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="res-link-buttons text-left">
+<p><strong>Stay Connected</strong></p>
+
+    
+    
+        <ul class="list-inline">
+            
+            <li>
+                <a href="https://www.facebook.com/RyersonHealth/" target="_blank">
+                    <i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook, opens new window</span>
+                </a>
+            </li>
+            
+            
+            <li>
+                <a href="https://twitter.com/RyersonHealth" target="_blank">
+                    <i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter, opens new window</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    
+
+</div>
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="fe63eb3e-b35a-4863-852b-14d9d3cebc53" >
+
+    <h2><strong>Visit Us</strong></h2> 
+<p>POD256C<br> 350 Victoria Street<br> Toronto, Ontario, Canada<br> M5B 2K3</p> 
+<h2>Contact Us</h2> 
+<p><a href="mailto:healthpromotion@ryerson.ca">healthpromotion@ryerson.ca</a><br> Phone: 416-979-5000 ext. 4295</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#fe63eb3e-b35a-4863-852b-14d9d3cebc53");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="faab8893-f046-45ad-8c6b-e85a8552119a" >
+
+    <h2>Operating Hours</h2> 
+<p>Monday - Friday 10AM - 4PM</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#faab8893-f046-45ad-8c6b-e85a8552119a");});</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="91c38e42-6ba6-4d02-a7de-d2821079e76f">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/student-wellbeing/health-promotion/images/RU-SW-health-promotion-rgb.png"/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#91c38e42-6ba6-4d02-a7de-d2821079e76f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "91c38e42-6ba6-4d02-a7de-d2821079e76f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'PPDHBNIDAGEIGJECGCDMLNJKGGEEKBIFBBBNPFIDNMPLHENOHIHBBOCEBFAHCOMAHAKBNMINAALMHLOCDAMAMHFPAAGPBBEJPMKCHGJAFDMMHJBDNBDDOHLEDOKFMHJC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'JGGJLKIIMHNLOPCBBEHDBBCCBMINBMCNHEPIENNOJHIPJCKCFNMFHDPMCBMFANCBMBGBGGMHAAEDJGEGAKKALHHDAADJPJGFJFJMEFKIBPIKBCGBAOBKDANBMHHMFKFK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://cfe.ryerson.ca/sites/all/themes/cfe/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://cfe.ryerson.ca/" />
+<link rel="shortlink" href="https://cfe.ryerson.ca/" />
+<meta property="og:site_name" content="Centre for Free Expression" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cfe.ryerson.ca/node" />
+<meta property="og:image" content="https://cfe.ryerson.ca/sites/all/themes/cfe/logo_og-share.png" />
+<meta name="twitter:card" content="summary_large_image" />
+  <title>Centre for Free Expression</title>
+  <link type="text/css" rel="stylesheet" href="https://cfe.ryerson.ca/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cfe.ryerson.ca/sites/default/files/css/css_RBMQBn57JD8G4ROUKrZXEHbeWKipjF4ZEqBFY7imuO0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cfe.ryerson.ca/sites/default/files/css/css_jU6Ncw_ofhQmhUFF_AS2m1LnRdE0WCCjA5Iu2SAmP10.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cfe.ryerson.ca/sites/default/files/css/css_yOqOgE7FaJktFGI6eIGFe-XU_ht7E96-YuPbfH0dtCE.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_38VWQ3jjQx0wRFj7gkntZr077GgJoGn5nv3v05IeLLo.js"></script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_SyAVAzre541bjlRPpKEAcpCGahddHTultYWPaFhgXqo.js"></script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_z5YS0Gx1Y4Rl_J5w2k0-R84CBeek30ri_Y2dBm_HhfA.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-83543464-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_-oEDdwe4XpUqUj4W0KJs96ENaXIrGvjBvIP-WYYBi54.js"></script>
+<script>window.a2a_config=window.a2a_config||{};window.da2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='https://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);da2a.script_load=function(){};},script_onready:function(){da2a.script_ready=true;if(da2a.html_done)da2a.init();},init:function(){for(var i=0,el,target,targets=da2a.targets,length=targets.length;i<length;i++){el=document.getElementById('da2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}da2a.done=true;}da2a.targets=[];}};(function ($){Drupal.behaviors.addToAny = {attach: function (context, settings) {if (context !== document && window.da2a) {if(da2a.script_ready)a2a.init_all();da2a.script_load();}}}})(jQuery);a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:da2a.script_onready});a2a_config.overlays=a2a_config.overlays||[];a2a_config.templates=a2a_config.templates||{};</script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_V88z5MlkiSthy-SlZXYkMQDrn7fAhSiWO4UH8AjYTFY.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cfe","theme_token":"X1g_AZyk-KTB-jqdwyLMXY64tcBLmvK_ov7ZbCFCBbw","js":{"0":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/bef_bootstrap_fix\/includes\/bef_bootstrap_fix.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1,"3":1,"sites\/all\/themes\/cfe\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/cfe\/slick\/slick.min.js":1,"sites\/all\/themes\/cfe\/js\/jquery.matchHeight.js":1,"sites\/all\/themes\/cfe\/js\/jquery.bootstrap-dropdown-hover.min.js":1,"sites\/all\/themes\/cfe\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/themes\/cfe\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/cfe\/slick\/slick.css":1,"sites\/all\/themes\/cfe\/css\/style.css":1,"sites\/all\/themes\/cfe\/css\/fonts\/montserrat\/font.css":1}},"custom_search":{"form_target":"_self","solr":0},"better_exposed_filters":{"views":{"home_carousel":{"displays":{"block_background":{"filters":[]},"block_foreground":{"filters":[]}}},"home_main_icons":{"displays":{"block":{"filters":[]}}},"latest_news2":{"displays":{"attachment_1":{"filters":[]},"attachment_2":{"filters":[]},"attachment_3":{"filters":[]},"block_1":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no-ext-link","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node user-role-anonymous-user">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+
+<header id="navbar" role="banner" class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-bg navbar-fadein"></div>
+  <div class="container">
+    <div class="navbar-header">
+              <a class="navbar-brand" href="/" title="Home"><img height="60" src="https://cfe.ryerson.ca/sites/all/themes/cfe/logo.png" alt="Home" /></a>
+      
+      
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span><span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/people">People</a></li>
+<li class="expanded dropdown"><a href="/issues" title="" class="dropdown-toggle" data-toggle="dropdown">Issues <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/issues/academic-freedom" title="Academic Freedom">Academic Freedom</a></li>
+<li class="leaf"><a href="/issues/artistic-expression" title="Artistic Expression">Artistic Expression</a></li>
+<li class="leaf"><a href="/issues/censorship" title="Censorship">Censorship</a></li>
+<li class="leaf"><a href="/issues/corporate-surveillance" title="Corporate Surveillance">Corporate Surveillance</a></li>
+<li class="leaf"><a href="/issues/disinformation" title="Disinformation">Disinformation</a></li>
+<li class="leaf"><a href="/issues/freedom-press" title="Freedom of the Press">Freedom of the Press</a></li>
+<li class="leaf"><a href="/issues/government-corporate-transparency" title="Government &amp; Corporate Transparency">Government &amp; Corporate Transparency</a></li>
+<li class="leaf"><a href="/issues/intellectual-freedom" title="Intellectual Freedom">Intellectual Freedom</a></li>
+<li class="leaf"><a href="/issues/smart-cities-connected-communities" title="Smart Cities">Smart Cities - Connected Communities</a></li>
+<li class="leaf"><a href="/issues/speech-restrictive-laws" title="Speech Restrictive Laws">Speech Restrictive Laws</a></li>
+<li class="leaf"><a href="/issues/state-surveillance" title="State Surveillance">State Surveillance</a></li>
+<li class="leaf"><a href="/issues/teachers-students-speech-rights" title="Teachers &amp; Students Speech Rights">Teachers &amp; Students Speech Rights</a></li>
+<li class="leaf"><a href="/issues/whistleblower-protection" title="Whistleblower Protection">Whistleblower Protection</a></li>
+<li class="last leaf"><a href="/issues/workplace-free-expression" title="Workplace Free Expression">Workplace Free Expression</a></li>
+</ul></li>
+<li class="leaf"><a href="/events">Events</a></li>
+<li class="leaf"><a href="/blog">Blog</a></li>
+<li class="expanded dropdown"><a href="/key-resources" title="" class="dropdown-toggle" data-toggle="dropdown">Key Resources <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/key-resources/archives" title="Archives">Archives</a></li>
+<li class="leaf"><a href="/key-resources/bpc-bulletins" title="BPC Bulletins">BPC Bulletins</a></li>
+<li class="leaf"><a href="/key-resources/bibliographies" title="Bibliographies">Bibliographies</a></li>
+<li class="leaf"><a href="/key-resources/databases" title="Databases">Databases</a></li>
+<li class="leaf"><a href="/key-resources/guidesadvice" title="Guides/Advice">Guides/Advice</a></li>
+<li class="leaf"><a href="/key-resources/lists" title="Lists">Lists</a></li>
+<li class="leaf"><a href="/key-resources/podcasts" title="Podcasts">Podcasts</a></li>
+<li class="leaf"><a href="/key-resources/publications" title="CFE Publications - Occasional Paper Series">Publications</a></li>
+<li class="last leaf"><a href="/key-resources/submissions" title="Submissions">Submissions</a></li>
+</ul></li>
+<li class="last leaf"><a href="/contact">Contact</a></li>
+</ul>                                  <div class="region region-navigation">
+    <section id="block-search-form" class="block block-search navbar-right navbar-form hidden-md clearfix">
+
+      
+  <form class="search-form form-search content-search" role="search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-DYmgVN2nL_vIWKunnakqrtR0qc5BhxoRITGx4YpIs5E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+<section id="block-block-25" class="block block-block section-stayconnected-button navbar-form navbar-right clearfix">
+
+      
+  <a href="https://cfe.ryerson.ca/press" class="header-link-secondary">Press</a>
+<a href="https://cfe.ryerson.ca/experts" class="header-link-secondary">Experts</a>
+
+<!--
+<button class="btn btn-primary btn-brand stayconnected-button" data-toggle="modal" data-target="#stayconnected-modal">Stay Connected</button>
+<a href="https://cfe.ryerson.ca/support-cfe" class="btn btn-primary btn-brand stayconnected-button">Donate</a>
+-->
+
+<span class="header-social-icons">
+<a class="header-social-icon" href="https://www.facebook.com/CentreforFreeExpresssion" target="_blank"><img alt="Facebook" src="/sites/all/themes/cfe/assets/icon-social-facebook.png" /></a>
+<a class="header-social-icon" href="https://twitter.com/ryersoncfe" target="_blank"><img alt="Twitter" src="/sites/all/themes/cfe/assets/icon-social-twitter.png" /></a>
+</span>
+
+<a href="https://cfe.ryerson.ca/search" class="btn btn-primary btn-brand search-button hidden-sm hidden-xs hidden-lg"><span class="sr-only">Search</span><span class="glyphicon glyphicon-search"></span></a>
+</section>
+  </div>
+                  </nav>
+      </div>
+      </div>
+</header>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+                  <a id="main-content"></a>
+                                                                  </section>
+
+    
+  </div>
+</div>
+
+    <div class="region region-home-page-sections">
+    <section id="block-block-11" class="block block-block lead-section clearfix">
+
+      
+  <div class="view view-home-carousel view-id-home_carousel view-display-id-block_background slick-bg view-dom-id-d1052ad529168bd01dfc3b13ebfa65d4">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/shutterstock_87271945_1.jpg?itok=e8NyqEN2')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/research.jpg?itok=lFEVO42Z')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/advocate.jpg?itok=wdsxfz9v')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/collaborate.jpg?itok=1NbD33Kl')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/information_0.jpg?itok=oOv_4hyv')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/uphold%20copy.jpg?itok=ND9quRgP')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/right_to_know.jpg?itok=HpU-OkTg')">
+  &nbsp;
+</div>
+    </div>
+  <div>
+      
+          <div class="background-image-formatter" style="background-image: url('https://cfe.ryerson.ca/sites/default/files/styles/1600x1200_s/public/shutterstock_387343618_2.jpg?itok=E6NlGWHw')">
+  &nbsp;
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+<div class="view view-home-carousel view-id-home_carousel view-display-id-block_foreground slick-fg view-dom-id-c8eaac146b67a56b0f7e0865ffacf315">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+          <h1>We educate</h1>    </div>
+  <div>
+      
+          <h1>We research</h1>    </div>
+  <div>
+      
+          <h1>We advocate</h1>    </div>
+  <div>
+      
+          <h1>We collaborate</h1>    </div>
+  <div>
+      
+          <h1>We provide information</h1>    </div>
+  <div>
+      
+          <h1>We uphold free expression</h1>    </div>
+  <div>
+      
+          <h1>We champion the right to know</h1>    </div>
+  <div>
+      
+          <h1>We are the Centre for Free Expression</h1>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+
+<div class="start-button">
+  <a class="scroll-link" href="#block-block-12"><img class="img-responsive" src="/sites/all/themes/cfe/assets/icon-start.png"></a>
+</div>
+</section>
+<section id="block-block-12" class="block block-block main-section section-white welcome-text clearfix">
+
+        <h2 class="block-title">Welcome to the Centre for Free Expression</h2>
+    
+  <p>The Centre for Free Expression at Ryerson University is a hub for public education, research and advocacy on free expression and the public’s right to know. Our work is undertaken in collaboration with academic and community-based organizations across Canada and internationally.</p>
+
+</section>
+<section id="block-views-home-main-icons-block" class="block block-views main-section section-red clearfix">
+
+      
+  <div class="view view-home-main-icons view-id-home_main_icons view-display-id-block container view-dom-id-3e0f278ab473a4a26e2082a0231b425a">
+            <div class="view-header">
+      <div class="row row-icon-lines hidden-xs">
+  <svg height="220" width="100%">
+    <line x1="16.7%" y1="50%" x2="83.3%" y2="50%" />
+    <line x1="50%" y1="0" x2="50%" y2="50%" />
+    <line x1="16.7%" y1="50%" x2="16.7%" y2="100%" />
+    <line x1="50%" y1="50%" x2="50%" y2="100%" />
+    <line x1="83.3%" y1="50%" x2="83.3%" y2="100%" />
+    <circle cx="16.7%" cy="50%" r="5" />
+    <circle cx="50%" cy="50%" r="5" />
+    <circle cx="83.3%" cy="50%" r="5" />
+  </svg>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first col-sm-4">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="main-icon-link margin-top-xs" href="/issues">
+  <img typeof="foaf:Image" class="img-responsive" src="https://cfe.ryerson.ca/sites/default/files/styles/600x600_sc/public/front-icon-issues.png?itok=tX5TP0e9" width="600" height="600" alt="" />
+  <h3 class="text-center text-bold-upper">Issues</h3>
+  <p class="text-center">Learn about the issues on which we are focusing.</p><br>
+</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even col-sm-4">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="main-icon-link margin-top-xs" href="/events">
+  <img typeof="foaf:Image" class="img-responsive" src="https://cfe.ryerson.ca/sites/default/files/styles/600x600_sc/public/front-icon-events.png?itok=og8SuLuW" width="600" height="600" alt="" />
+  <h3 class="text-center text-bold-upper">Events</h3>
+  <p class="text-center">Attend our upcoming activities.</p><br>
+</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last col-sm-4">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="main-icon-link margin-top-xs" href="/key-resources">
+  <img typeof="foaf:Image" class="img-responsive" src="https://cfe.ryerson.ca/sites/default/files/styles/600x600_sc/public/front-icon-keyresources_0.png?itok=DTBhgKHo" width="600" height="600" alt="" />
+  <h3 class="text-center text-bold-upper">Key Resources</h3>
+  <p class="text-center">Find sources of information about free expression.</p><br>
+</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-latest-news2-block-1" class="block block-views main-section section-white clearfix">
+
+      
+  <div class="view view-latest-news2 view-id-latest_news2 view-display-id-block_1 container view-dom-id-fe90269f598c02a42c0cb3a2d38f15fa">
+            <div class="view-header">
+      <div class="row row-icon-lines lines-gray hidden-xs">
+  <svg height="140" width="100%">
+    <line x1="50%" y1="0" x2="50%" y2="80%" />
+    <circle cx="50%" cy="80%" r="5" />
+  </svg>
+</div><h2 class="latest-news-title">Latest News</h2>
+    </div>
+  
+  
+      <div class="attachment attachment-before">
+      <div class="view view-latest-news2 view-id-latest_news2 view-display-id-attachment_1 col-sm-4 margin-top-xs">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-nothing-1">        <span class="field-content"><h4 class="latest-news-item-title dark-heading text-center text-bold"><a href="/blog/2020/11/it%E2%80%99s-complicated-six-things-worth-discussing-about-free-speech">It’s Complicated: Six Things Worth Discussing About Free Speech</a><br>
+  <small>November 18, 2020 by <a href="/people/ivor-shapiro">Ivor Shapiro</a></small>
+</h4>
+<div class="margin-top-sm">
+  <span class="latest-news-author-image"><a href="/people/ivor-shapiro"><img typeof="foaf:Image" class="img-responsive" src="https://cfe.ryerson.ca/sites/default/files/styles/100x100_sc/public/IvorShapiro.jpg?itok=dx_uKgay" width="100" height="100" alt="" /></a></span>
+  <p>Well, hello again. Having ended <a href="https://cfe.ryerson.ca/blog/2020/10/dangerous-dialogues-how-speaking-freely-changes-lives-and-sometimes-ends-them">last month's column</a> with a candid appeal for readers to "talk back" about free speech, I was grateful to those who took me at my word. They made me think new thoughts, which is, of course, the whole idea.</p>
+
+</div>
+
+<p class="text-center margin-top"><a class="btn btn-default btn-brand btn-brand-transparent text-bold-upper" href="/blog/2020/11/it%E2%80%99s-complicated-six-things-worth-discussing-about-free-speech">Read More</a></p>
+
+<hr class="visible-xs"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="view view-latest-news2 view-id-latest_news2 view-display-id-attachment_2 col-sm-4 margin-top-xs">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-nothing-1">        <span class="field-content"><h4 class="latest-news-item-title dark-heading text-center text-bold"><a href="/events/cancel-culture-censorship-and-free-expression">Cancel Culture, Censorship, and Free Expression </a><br>
+  <small><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2020-12-09T14:00:00-05:00">December 9, 2020</span><br><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2020-12-09T14:00:00-05:00">2:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2020-12-09T15:30:00-05:00">3:30pm</span></span></span></small>
+</h4>
+
+<p class="latest-news-events-image text-center"><a href="/events/cancel-culture-censorship-and-free-expression"><img typeof="foaf:Image" class="img-responsive" src="https://cfe.ryerson.ca/sites/default/files/styles/medium/public/CFE-VF%20FALL%202020_DEC_9_web.jpg?itok=Q8LtHo-z" width="165" height="220" alt="" /></a></p>
+
+<p class="text-center margin-top"><a class="btn btn-default btn-brand btn-brand-transparent text-bold-upper" href="/events/cancel-culture-censorship-and-free-expression">Read More</a></p>
+
+<hr class="visible-xs"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="view view-latest-news2 view-id-latest_news2 view-display-id-attachment_3 col-sm-4 margin-top-xs">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-nothing-1">        <span class="field-content"><h4 class="latest-news-item-title dark-heading text-center text-bold"><a href="/news/meghan-mcdermott-joins-cfe-board">Meghan McDermott Joins CFE Board</a><br>
+  <small>November 3, 2020</small>
+</h4>
+<div class="margin-top-sm">
+  <span class="latest-news-custom-image"></span>
+  <p><a href="https://cfe.ryerson.ca/people/meghan-mcdermott">Meghan McDermott</a>, interim policy director for the British Columbia Civil Liberties Association, is joining the Centre for Free Expression Advisory Board. Meghan has a B.A. in philosophy from Concordia University, a J.D. from the University of Victoria, and LL.M. from the University of Edinburgh where her work focused on whether parties to the United Nations Framework Convention on Climate Change have a responsibility to share the benefits of their forestry-related activities with local and Indigenous communities. </p>
+</div>
+
+<p class="text-center margin-top"><a class="btn btn-default btn-brand btn-brand-transparent text-bold-upper" href="/news/meghan-mcdermott-joins-cfe-board">Read More</a></p></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+          <div class="region region-footer">
+    <section id="block-block-15" class="block block-block footer-bar clearfix">
+
+      
+  <div class="container">
+<div class="row">
+<div class="col-xs-8">
+<h4>Follow CFE: <a class="footer-social-icon" href="https://www.facebook.com/CentreforFreeExpresssion" target="_blank"><img alt="Facebook" src="/sites/all/themes/cfe/assets/icon-social-facebook.png" /></a><a class="footer-social-icon" href="https://twitter.com/ryersoncfe" target="_blank"><img alt="Twitter" src="/sites/all/themes/cfe/assets/icon-social-twitter.png" /></a></h4>
+</div>
+<div class="col-xs-4 text-right">
+<h4><a class="btn btn-primary footer-donate-btn" href="/support-cfe">Donate</a></h4>
+</div>
+</div>
+</div>
+
+</section>
+<section id="block-block-1" class="block block-block col-md-4 text-center margin-top-xs col-sm-6 clearfix">
+
+      
+  <h2 class="rteright"><img alt="Centre for Free Expression" class="footer-logo img-responsive" src="/sites/all/themes/cfe/assets/logo-cfe.png" /></h2>
+<p class="rteright">Rogers Communications Centre<br />
+80 Gould Street<br />
+Toronto, Ontario<br />
+<a href="mailto:cfe@ryerson.ca">cfe@ryerson.ca</a><br />
+(416) 979-5000, ext. 6396</p>
+
+</section>
+<section id="block-block-24" class="block block-block col-md-4 text-center margin-top-xs col-sm-6 clearfix">
+
+        <h2 class="block-title">Stay Connected</h2>
+    
+  <div id="mc_embed_signup">
+    <form action="//ryerson.us15.list-manage.com/subscribe/post?u=ba07b606d742cfbfec53c9f52&amp;id=2fbba6c5d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+            <div class="footer-form-groups">
+                <div class="form-group form-group-50">
+                    <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="First Name">
+                </div>
+                <div class="form-group form-group-50">
+                    <input type="text" value="" name="LASTNAME" class="form-control" id="mce-LASTNAME" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" value="" name="POSTALCODE" class="required email form-control" id="mce-POSTALCODE" placeholder="Postal Code">
+                </div>
+            </div>
+            <div class="form-group">
+                <strong>Add me to the following lists: </strong>
+                <div class="checkbox">
+                    <label> <input type="checkbox" value="1" name="group[2817][1]" id="mce-group[2817]-2817-0">CFE Whistleblower Newsletter</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="2" name="group[2817][2]" id="mce-group[2817]-2817-1">New CFE Blog posts</label>
+                </div>
+            </div>
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- honeypot -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba07b606d742cfbfec53c9f52_2fbba6c5d6" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
+        </div>
+    </form>
+</div>
+</section>
+<section id="block-block-10" class="block block-block col-md-4 text-center margin-top col-sm-12 clearfix">
+
+      
+  <h2><a href="http://ryerson.ca/fcad" target="_blank"><img alt="Ryerson University - Faculty of Communication &amp; Design" class="footer-logo img-responsive" src="/sites/all/themes/cfe/assets/logo-fcad.png" /></a></h2>
+
+</section>
+  </div>
+      </div>
+    </div>
+  </footer>
+
+    <div class="region region-floating-icons">
+    <section id="block-addtoany-addtoany-button" class="block block-addtoany clearfix">
+
+      
+  <span class="a2a_kit a2a_kit_size_32 a2a_target addtoany_list" id="da2a_1">
+      <a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_reddit"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_email"></a>
+      
+      
+    </span>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if(window.da2a)da2a.script_load();
+//--><!]]>
+</script>
+</section>
+  </div>
+
+    <div class="region region-modals">
+    <section id="block-block-26" class="block block-block clearfix">
+
+      
+  <div class="modal fade" id="stayconnected-modal" tabindex="-1" role="dialog" aria-labelledby="stayconnected-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="stayconnected-title">Stay Connected</h4>
+            </div>
+            <div class="modal-body">
+                <div id="mc_embed_signup">
+                    <form action="//ryerson.us15.list-manage.com/subscribe/post?u=ba07b606d742cfbfec53c9f52&amp;id=2fbba6c5d6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="form-group form-group-50">
+                                <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="First Name">
+                            </div>
+                            <div class="form-group form-group-50">
+                                <input type="text" value="" name="LASTNAME" class="form-control" id="mce-LASTNAME" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" value="" name="POSTALCODE" class="required email form-control" id="mce-POSTALCODE" placeholder="Postal Code">
+                            </div>
+                            <div class="form-group">
+                                <strong>Add me to the following lists: </strong>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="1" name="group[2817][1]" id="mce-group[2817]-2817-0">CFE Whistleblower Newsletter</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="2" name="group[2817][2]" id="mce-group[2817]-2817-1">New CFE Blog posts</label>
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- honeypot -->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba07b606d742cfbfec53c9f52_2fbba6c5d6" tabindex="-1" value=""></div>
+                            <div class="modal-footer">
+                                <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary form-submit"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+  </div>
+  <script>da2a.targets=[
+{title:"Centre for Free Expression",url:"https:\/\/cfe.ryerson.ca\/"}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();</script>
+<script src="https://cfe.ryerson.ca/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+</body>
+</html>

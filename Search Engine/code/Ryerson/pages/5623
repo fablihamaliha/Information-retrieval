@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="cla" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Children&#039;s Literature Archive</title>
+
+	<link rel="alternate" type="application/rss+xml" title="Omeka RSS Feed" href="/items/browse?output=rss2" /><link rel="alternate" type="application/atom+xml" title="Omeka Atom Feed" href="/items/browse?output=atom" />
+	<!-- Plugin Stuff -->
+	
+	<!-- Stylesheets -->
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" media="all" rel="stylesheet" type="text/css" >
+<link href="/themes/cla/css/normalize.css?v=2.7.1" media="all" rel="stylesheet" type="text/css" >
+<link href="/themes/cla/css/style.css?v=2.7.1" media="all" rel="stylesheet" type="text/css" >
+	<!-- JavaScripts -->
+						<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery.js?v=2.7.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.jQuery.ui || document.write("<script type=\"text\/javascript\" src=\"\/application\/views\/scripts\/javascripts\/vendor\/jquery-ui.js?v=2.7.1\" charset=\"utf-8\"><\/script>")    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    jQuery.noConflict();    //-->
+</script>
+<script type="text/javascript" src="/themes/cla/javascripts/vendor/modernizr.js?v=2.7.1"></script>
+<script type="text/javascript" src="/application/views/scripts/javascripts/vendor/selectivizr.js?v=2.7.1"></script>
+<script type="text/javascript" src="/themes/cla/javascripts/jquery-extra-selectors.js?v=2.7.1"></script>
+<script type="text/javascript" src="/application/views/scripts/javascripts/vendor/respond.js?v=2.7.1"></script>
+<script type="text/javascript" src="/themes/cla/javascripts/globals.js?v=2.7.1"></script></head>
+<body id="home">
+		<div id="wrapper">
+		<header>
+						<div id="site-title">
+				<a href="https://childrenslit.library.ryerson.ca" ><img title='Childrens Literature Archive' src='/themes/cla/images/cla_banner_tall.jpg'></a>
+				<div id="image-banner" class="">
+					<div id="slot-1" class="slot"></div>
+					<div id="slot-2" class="slot"></div>
+					<div id="slot-3" class="slot"></div>
+					<div id="slot-4" class="slot"></div>
+				</div>
+			</div>
+
+			<nav class="top">
+				<div id="search-container">
+					<form id="search-form" name="search-form" action="/search" method="get">    <input type="text" name="query" id="query" value="" title="Search">        <div id="advanced-form">
+        <fieldset id="query-types">
+            <legend>Search using this query type:</legend>
+            <label><input type="radio" name="query_type" id="query_type-keyword" value="keyword" checked="checked">Keyword</label><br>
+<label><input type="radio" name="query_type" id="query_type-boolean" value="boolean">Boolean</label><br>
+<label><input type="radio" name="query_type" id="query_type-exact_match" value="exact_match">Exact match</label>        </fieldset>
+                <fieldset id="record-types">
+            <legend>Search only these record types:</legend>
+                        <input type="checkbox" name="record_types[]" id="record_types-Item" value="Item" checked="checked"> <label for="record_types-Item">Item</label><br>
+                        <input type="checkbox" name="record_types[]" id="record_types-Exhibit" value="Exhibit" checked="checked"> <label for="record_types-Exhibit">Exhibit</label><br>
+                    </fieldset>
+                <p><a href="/items/search">Advanced Search (Items only)</a></p>
+    </div>
+        <button name="submit_search" id="submit_search" type="submit" value="Search">Search</button></form>
+				</div>
+				<div id="nav-home">
+					<a href="https://childrenslit.library.ryerson.ca" >Home</a>
+				</div>
+				<ul class="navigation">
+    <li>
+        <a href="/items/browse">Catalogue</a>
+    </li>
+    <li>
+        <a href="/exhibits">Exhibit Space</a>
+    </li>
+    <li>
+        <a href="/team">Children's Literature Archive Team</a>
+    </li>
+    <li>
+        <a href="/contact">Contact Us</a>
+    </li>
+    <li>
+        <a href="/donor">Donors</a>
+    </li>
+</ul>			</nav>
+		</header>
+
+		<div id="content">
+			
+
+<div id="primary">
+	<h1>About the Archive</h1>
+
+	<p>The Children's Literature Archive is part of Centre for Digital
+		Humanities, a Faculty of Arts research centre at Ryerson University.
+		The collection came to be thanks to an initial donation of several
+		hundred books in the summer of 2009. It now contains over 2500 texts
+		for children written primarily between the late-nineteenth century and
+		the mid-twentieth century, and continues to grow. The collection has
+		particular strengths in adventure stories, fairy tales, and Canadiana,
+		but also includes strong holdings in poetry, picture books, and
+		pedagogical works such as science texts and primers, along with
+		biographies of notable authors and other scholarly studies. Toys from
+		the early- to mid-twentieth century were recently added to the archive
+		as well, an aspect of the collection that will be expanded in the
+		future. At present, the physical archive can be visited and used by
+		appointment. An online, searchable catalogue is scheduled for release
+		in fall 2013, together with some featured exhibits of some of the
+		collection's more unique and interesting holdings. During the fall
+		semester of 2010, the archive saw its first use as a pedagogical tool
+		combining the study of children's literature and culture with the
+		study of digital humanities and archiving.</p>
+
+	<p>The Children’s Literature Archive is located in the Centre for Digital
+		Humanities at 111 Gerrard Street, Toronto, ON. If you would like to
+		access the archive, please contact Director Andrew O’Malley at <a
+			href="mailto:aomalley@ryerson.ca">aomalley@ryerson.ca</a>.</p>
+				
+	<p>For news stories about the Children’s Literature Archive, 
+		<a href="http://ryerson.ca/cdh/news.html" alt="CDH News">click here</a>.
+
+	</div>
+
+<!-- Featured Item -->
+<div id="featured-item">
+	<h2>
+		Featured Item	</h2>
+	<div class="item record">
+        <h3><a href="/items/show/7133">Aspects of Alice</a></h3>
+    <a href="/items/show/7133" class="image"><img src="https://childrenslit.library.ryerson.ca/files/square_thumbnails/fa72285ffeb767ae8503bdc8e40203f5.jpg" alt="PR4611.A73 P5 Asp cover.jpg" title="PR4611.A73 P5 Asp cover.jpg"></a>            <p class="item-description">Softcover in very good condition. Spine creased. Several places of publishing. Contains a list of selected essays and comments.</p>
+    </div>
+</div>
+<!--end featured-item-->
+
+</div><!-- end content -->
+
+<footer>
+	<a href="http://ryerson.ca/cdh"><img src="/themes/cla/images/cdh_logo.jpg"></a>
+	<a href="http://library.ryerson.ca"><img src="/themes/cla/images/rula_hlogo_172.png"></a>
+	<a href="http://ryerson.ca/arts"><img title="Ryerson Faculty of Arts" src="/themes/cla/images/ryarts_logo.png"></a>
+	<a id="cc" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width: 0" alt="Creative Commons License"></a>
+	
+	<!-- Possible copyright notice would go here... -->
+	
+	<p class="omeka">
+		Powered by <a href="http://omeka.org">Omeka</a>	</p>
+
+	
+</footer>
+
+</div><!--end wrap-->
+
+<script type="text/javascript">
+jQuery(document).ready(function () {
+	CLA.showAdvancedForm();
+	CLA.mobileSelectNav();
+});
+</script>
+
+</body>
+
+</html>

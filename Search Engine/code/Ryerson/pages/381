@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">  
+<html>
+<head><script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+
+
+<title>Housing Services - Resident Access</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=""> 
+<meta name="description" content="index">
+
+
+
+<link href="/housing/template_components/css/main.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="/housing/template_components/favicon.ico.jpg" type="image/x-icon"/>
+<link href="/housing/template_components/css/static.css" rel="stylesheet" type="text/css">
+
+<LINK title=A++ href="/housing/template_components/css/font-5-xlarge.css" type=text/css rel="alternate stylesheet">
+<LINK title=A+ href="/housing/template_components/css/font-4-large.css" type=text/css rel="alternate stylesheet">
+<LINK title=A href="/housing/template_components/css/font-3-medium.css" type=text/css rel="alternate stylesheet">
+<LINK title=A- href="/housing/template_components/css/font-2-small.css" type=text/css rel="alternate stylesheet">
+<LINK title=A-- href="/housing/template_components/css/font-1-xsmall.css" type=text/css rel="alternate stylesheet">
+
+
+<link rel="shortcut icon" href="http://www.ryerson.ca/content/dam/ryerson/spacer.gif" type="image/x-icon"/>
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+<!-- Javascript for Ask Ryerson form -->
+<!-- START iR JAVASCRIPT -->
+var defaultStr = 'Type a question here. Use a complete sentence.';
+
+function isBlank(q) {
+  var whitespace = new String(" \t\n\r");
+
+  for (var i = 0; i<q.length; i++) {
+    if (whitespace.indexOf(q.charAt(i)) == -1) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function submitForm(){
+  var d = document.questionForm;
+  if (!isValidForm())
+    return;
+
+  d.submit();
+}
+
+function isValidForm(){
+  var d = document.questionForm;
+  if (d.question.value==defaultStr  ||  isBlank(d.question.value)) {
+    return false;
+  }
+
+  d.action=' http://ask.ryerson.ca/results.jsp';
+  d.requestType.value='NormalRequest';
+  return true;
+}
+
+function topTen(){
+  var d = document.questionForm;
+  d.action=' http://ask.ryerson.ca/topQuestions.jsp';
+  d.submit();
+}
+
+function clearForm(){
+  var d = document.questionForm;
+  d.id.value=-1;
+  d.reset();
+  d.question.focus();
+  d.question.value='';
+}
+
+
+       page_location=location.href;
+       
+       function fb_click() {
+       u=location.href;
+       t=document.title;
+       window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+       return false;
+       }
+       
+       function digg_click() {
+       window.open('http://digg.com/submit?url='+page_location+'&title='+document.title);
+       return false;
+       }
+       
+       function del_click() {
+       window.open('http://del.icio.us/post?url='+page_location+'&title='+document.title);
+       return false;
+       }
+       
+       function furl_click() {
+       window.open('http://www.furl.net/storeIt.jsp?u='+page_location+'&t='+document.title);
+       return false;
+       }
+       
+       function nv_click() {
+       window.open('http://www.newsvine.com/_tools/seed&save?%20u='+page_location+'&h='+document.title);
+       return false;
+       }
+       
+       function twitter_click() {
+       window.open('http://twitter.com/share?url='+page_location);
+       return false;
+       }
+       
+
+       function emailThisPage() { 
+
+        var subject = "A link from Ryerson.ca";
+        
+        var pageURL = document.location;
+         
+        var body_message = "I saw this page on Ryerson.ca and thought you might be interested. To view the page, please copy and paste the following address into your web browser's address bar: " + String.fromCharCode(10) + pageURL; 
+        
+        var mailto_link = 'mailto:?subject=' + subject + '&body=' + body_message; 
+        
+        window.open(mailto_link, "_self");
+
+        } 
+
+
+<!--END iR JAVASCRIPT -->
+
+</script> 
+
+
+<SCRIPT language="JavaScript1.2" src="/housing/template_components/printemail.js" type="text/javascript"></SCRIPT>
+
+
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+#leftFeatureContainer {
+height:expression(
+    this.scrollHeight > 250? "250px" : "hidden" );
+}
+#leftFeatureContainer {
+width:expression(
+    this.scrollWidth > 151? "151px" : "hidden" );
+}
+</style>
+<![endif]-->
+
+<style>
+#sect_bannerarea {
+overflow:hidden;
+}
+
+.cqImageBorderOn {  
+    border-style: none;
+}
+
+.cqImageBorderOff {
+    border-style: 1px;
+}
+
+.fontSizeSmall {
+    font-size: 12px !important;
+}
+
+.fontSizeMedium {
+    font-size: 16px !important;
+}
+
+.fontSizeLarge {
+    font-size: 20px !important;
+}
+
+.fontSizeSmallBlue {
+    font-size: 12px !important;
+    color:#003E6C;
+}
+
+.fontSizeMediumBlue {
+    font-size: 16px !important;
+    color:#003E6C;
+}
+
+.fontSizeLargeBlue {
+    font-size: 20px !important;
+    color:#003E6C;
+}
+
+.fontSizeSmallRed {
+    font-size: 12px !important;
+    color:#FF0000;
+}
+
+.fontSizeMediumRed {
+    font-size: 16px !important;
+    color:#FF0000;
+}
+
+.fontSizeLargeRed {
+    font-size: 20px !important;
+    color:#FF0000;
+}
+
+#sect_bannerareaWithoutTabs {
+    height: 65px;
+    width: 750px;
+    position: absolute; top:97px; left: 0px;
+    background-color:#FFFFFF;
+}
+
+#stream_sect_bannerarea {
+    height: 65px;
+    width: 750px;
+    position: absolute; top:97px; left: 0px;
+    background-color:#FFFFFF;
+}
+
+</style>
+
+
+<script src="/housing/template_components/jQuery/jquery-1.7.1.min.js"></script> 
+<script src="/housing/template_components/jQuery/jquery-ui-1.8.16.custom.min.js"></script> 
+
+ 
+     
+<script src="//housing/template_components/js/json2.js"></script>
+<script src="//housing/template_components/js/heatmap.js"></script>
+
+ 
+ 
+<style>
+#heatmap{
+position:relative;
+height:100%;
+}
+</style>
+<script>
+function showHeatClickMap(){
+( function($) {
+var heatmapGETTarget = "/content/heatmap.html?url="+window.location.pathname;
+var xx = h337.create({"element":document.getElementById("heatmap"), "radius":25, "visible":true});               
+    $.ajax({
+      url: heatmapGETTarget ,
+      type: "GET",
+      async:false,
+      success: function(msg){
+      var el = msg;
+       var obj = eval('('+el+')');
+        xx.store.setDataSet(obj);
+      }
+  }   
+)
+}) ( jQuery );
+}
+</script>
+
+<script>
+function showHeatMouseMap(){
+( function($) {
+var heatmapGETTarget = "/content/heatmousemap.html?url="+window.location.pathname;
+var xx = h337.create({"element":document.getElementById("heatmap"), "radius":25, "visible":true});               
+    $.ajax({
+      url: heatmapGETTarget ,
+      type: "GET",
+      async:false,
+      success: function(msg){
+      var el = msg;
+       var obj = eval('('+el+')');
+        xx.store.setDataSet(obj);
+      }
+  }   
+)
+}) ( jQuery );
+}
+</script>
+
+     
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8117641-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+     
+
+<script>  
+
+function enforceAltTags(){
+var $altjq = jQuery.noConflict(); 
+$altjq(document).ready(function() {
+    var altArray = new Array();
+    $altjq("#siteframe img").each(function(){
+        if(this.alt.length == 0){
+            altArray.push(this.src);
+        }
+    });
+    var stringArray = JSON.stringify(altArray);
+    //console.log(stringArray);
+    
+   if(stringArray.length > 0){
+    $altjq.ajax({
+        url: ("/content/altTagEnforcer.html"),
+        type: "POST",
+        async:true,
+        data:stringArray,
+        success: function(msg){
+        var tagMsg = eval("("+$altjq.trim(msg)+")");
+        //console.log(tagMsg);
+        $altjq("#siteframe img").each(function(){
+            //console.log(this.src);
+            if(tagMsg[this.src] != undefined){
+                this.alt = tagMsg[this.src];
+            }
+            
+        });
+        }
+    });
+    }
+    
+});
+}
+
+setTimeout("enforceAltTags()",5000);
+</script> 
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['username']=true;
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['password']=true;
+/* ]]> */</script>
+<script type="text/javascript">
+<!--
+    _CF_checklogin = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+        //form element username required check
+        if( !_CF_hasValue(_CF_this['username'], "TEXT", true ) )
+        {
+            _CF_onError(_CF_this, "username", _CF_this['username'].value, "Please enter a username!");
+            _CF_error_exists = true;
+        }
+
+        //form element password required check
+        if( !_CF_hasValue(_CF_this['password'], "PASSWORD", true ) )
+        {
+            _CF_onError(_CF_this, "password", _CF_this['password'].value, "Please enter a password!");
+            _CF_error_exists = true;
+        }
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head>
+
+
+
+<body onLoad="MM_preloadImages('/housing/template_components/button_go_on.gif','/housing/template_components/tab/tab_undergraduate_on.gif','/housing/template_components/tab/tab_graduate_on.gif','/housing/template_components/tab/tab_continuing_on.gif','/housing/template_components/tab/tab_alumni_on.gif','/housing/template_components/tab/tab_studentlife_on.gif','/housing/template_components/tab/tab_research_on.gif','/housing/template_components/tab/tab_faculty_on.gif')">  
+
+    <div class="clickstreamcloud">
+    
+    
+<script type="text/javascript" src="//housing/template_components/js/librarymanager.js"></script>
+<script type="text/javascript">
+CQClientLibraryManager.write([{"p":"//housing/template_components/js/jquery.js","c":[]},{"p":"//housing/template_components/js/shared.js","c":[]},{"p":"//housing/template_components/js/clientlib.js","c":[]},{"p":"//housing/template_components/ccs/default.css","c":[]},{"p":"//housing/template_components/ccs/default.css","c":["ie6"]}],false);
+</script>
+
+
+<div id="clickstreamcloud-gui"></div></div>
+
+  <div id="viewport">
+
+  <div id="siteframe">
+<div id="heatmap"> 
+                
+
+<div id="bannernav" style="vertical-align:top;">
+
+<SCRIPT type="text/javascript" src="/housing/template_components/header.js"></SCRIPT>
+
+      <div id="bannerarea">
+        <!-- banner logo area -->
+        <div id="bannerlogo"><a href="http://www.ryerson.ca/index.html"><img src="/housing/template_components/logo_ryerson.gif" alt="RYERSON UNIVERSITY" width="273" height="48" border="0"></a></div>
+        <!-- banner search panel -->
+        <div id="bannersearch">
+          <div id="searchlinks"><a href="http://www.ryerson.ca/accessibility/" class="searchlink">Accessibility</a> | <a href="https://mail.ryerson.ca/" class="searchlink">Web Mail</a></div>
+
+          <div id="searchbox">
+
+            <form id="searchform" name="topnavsearch" method="GET" action="http://search.ryerson.ca/search">
+            
+            <input type="hidden" name="site" value="default_collection">
+            <input type="hidden" name="output" value="xml_no_dtd">
+            <input type="hidden" name="client" value="default_frontend">
+            <input type="hidden" name="proxystylesheet" value="default_frontend">
+            
+            Search:
+            <input style="FONT-SIZE: 10px; WIDTH: 135px; HEIGHT: 19px" onClick="if(this.value=='Type your terms here') {this.value='';}" TYPE="text" name="q" maxlength="255" value="Type your terms here">
+            
+            <input type="image" id="searchgobutton" height="17" width="25" align="top" border="0" src="/housing/template_components/button_go_off.gif" onMouseOver="MM_swapImage('sa','','/housing/template_components/button_go_on.gif',1)" onMouseOut="MM_swapImgRestore()" >
+
+            
+            </form>
+
+          </div>
+        </div>
+        <!-- banner student login panel -->
+        
+        <style>
+        .myRyersonButton {
+            display:table;
+            border:1px solid #ccc !important;
+            background-color:#666;
+            height:20px;
+            width:128px;
+            margin:12px 0px 0px 14px;
+            padding-top: 4px;
+            font-weight:bold;
+            font-size:12px;
+            color:#FFF;
+            text-decoration: none !important;
+            }
+        .myRyersonButton:hover {
+            background-color:#333;
+            }
+        </style>
+        
+        <div id="bannerlogin" style="width:158px; text-align:center; vertical-align:middle;">
+        <a href="http://my.ryerson.ca/" class="myRyersonButton">my.ryerson.ca</a>
+        </div>
+      </div>
+  
+      <div id="topnavarea">
+        <div id="topnavlinks">
+
+<a href="http://www.ryerson.ca/about/">ABOUT</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/news/news/">NEWS & EVENTS</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/maps/">CAMPUS MAPS</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/libraryservices/">LIBRARY</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/studentservices/">STUDENT SERVICES</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryersonrams.ca/" target="_blank">ATHLETICS</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/research/">RESEARCH</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/jobs/">CAREERS</a> <SPAN class="topnavDivider">|</SPAN> <a href="http://www.ryerson.ca/contact/">CONTACT</a>
+
+        </div>
+      </div>
+      <!-- end main navigation -->
+
+
+
+<!-- stream navigation tabs -->
+     
+
+<DIV id="tabsarea">
+<DIV id="tabs">
+          <!-- current student tab -->
+          <a href="http://www.ryerson.ca/currentstudents/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabCurrentstudents','','/housing/template_components/tab/tab_current2_on.gif',1)"><img src="/housing/template_components/tab/tab_current2_off.gif" alt="Currentstudents" name="tabCurrentstudents" width="102" height="18" border="0" /></a>
+          <!-- undergraduate tab -->
+<a href="http://www.ryerson.ca/undergraduate/admission" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabUndergraduate','','/housing/template_components/tab/tab_undergraduate_on.gif',1)"><img src="/housing/template_components/tab/tab_undergraduate_off.gif" alt="Undergraduate" name="tabUndergraduate" width="92" height="18" border="0" /></a>
+
+<!-- grad tab -->
+<a href="http://www.ryerson.ca/graduate/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabGraduate','','/housing/template_components/tab/tab_graduate_on.gif',1)"><img src="/housing/template_components/tab/tab_graduate_off.gif" alt="Graduate" name="tabGraduate" width="63" height="18" border="0" /></a>
+
+<!-- ContEd tab -->
+<a href="http://www.ryerson.ca/continuing/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabContinuing','','/housing/template_components/tab/tab_continuing_on.gif',1)"><img src="/housing/template_components/tab/tab_continuing_off.gif" alt="Continuing Education" name="tabContinuing" width="120" height="18" border="0" /></a>
+
+<!-- Alumni tab -->
+<a href="http://www.ryerson.ca/alumni/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabAlumni','','/housing/template_components/tab/tab_alumni_on.gif',1)"><img src="/housing/template_components/tab/tab_alumni_off.gif" alt="Alumni" name="tabAlumni" width="54" height="18" border="0" /></a>
+
+
+<!-- Supporting tab -->
+<a href="http://www.ryerson.ca/supporting/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabSupporting','','/housing/template_components/tab/tab_supporting2_on.gif',1)"><img src="/housing/template_components/tab/tab_supporting2_off.gif" alt="Supporting Ryerson" name="tabSupporting" width="75" height="18" border="0" /></a>
+
+ <!-- Student Life tab -->
+<A onMouseOver="MM_swapImage('tabStudentLife','','/housing/template_components/tab/tab_studentlife_on.gif',1)" onMouseOut="MM_swapImgRestore()" href="http://studentlife.ryerson.ca/" target="_blank"><IMG height="18" alt="Student Life" src="/housing/template_components/tab/tab_studentlife_off.gif" width="79" border="0" name="tabStudentLife"></A>
+
+<!-- Staff tab -->
+<a href="http://www.ryerson.ca/facultystaff/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabFaculty','','/housing/template_components/tab/tab_faculty2_on.gif',1)"><img src="/housing/template_components/tab/tab_faculty2_off.gif" alt="Faculty & Staff" name="tabFaculty" width="90" height="18" border="0" /></a>
+
+</DIV>
+</DIV>
+<!-- end stream navigation tabs -->
+
+
+
+<!-- section banner  -->
+
+<style>
+#sect_bannerarea {
+overflow:hidden;
+}
+</style>
+
+
+<div class="notemplate page">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" />
+<html>
+
+<head>
+
+<style>
+.cqImageBorderOn {  
+    border-style: none;
+}
+
+.cqImageBorderOff {
+    border-style: 1px;
+}
+
+.fontSizeSmall {
+    font-size: 12px !important;
+}
+
+.fontSizeMedium {
+    font-size: 16px !important;
+}
+
+.fontSizeLarge {
+    font-size: 20px !important;
+}
+
+</style>
+<SCRIPT language="JavaScript1.2" src="/housing/template_components/printemail.js" type="text/javascript"></SCRIPT> 
+
+</head>
+
+
+<body>
+<div class="body parsys"><div class="parbase generichtml section">
+    
+
+<div class="text"> 
+      <div id="sect_bannerarea"><img src="/housing/template_components/block_general.gif" alt=""/><img src="/housing/template_components/banner.jpg" width="564" height="65" class="sect_bannerimage" alt="About Ryerson"/><img src="/housing/template_components/sect_about.gif" width="172" height="65" class="sect_bannerimage" alt="About Ryerson"/></div>
+      
+</div>
+ 
+    </div>
+</div>
+
+</body>
+</html></div>
+
+    
+
+<!-- end section banner -->
+
+
+      </div>
+    <!-- end fixed banner and nav area -->
+
+
+    
+                             <div id="contentarea">
+                            
+<div id="main_content_none">
+
+<div class="notemplate page">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" />
+<html>
+
+<head>
+
+<style>
+.cqImageBorderOn {  
+    border-style: none;
+}
+
+.cqImageBorderOff {
+    border-style: 1px;
+}
+
+.fontSizeSmall {
+    font-size: 12px !important;
+}
+
+.fontSizeMedium {
+    font-size: 16px !important;
+}
+
+.fontSizeLarge {
+    font-size: 20px !important;
+}
+
+</style>
+
+<SCRIPT language="JavaScript1.2" src="/housing/template_components/printemail.js" type="text/javascript"></SCRIPT> 
+
+
+</head>
+
+
+  
+
+<body>
+<div class="body parsys"><div class="parbase generichtml section">
+
+    </div>
+</div>
+
+</body>
+</html></div>
+
+      <div id="main_content_panel">
+       
+    
+	   <h1><a href="https://ev1.cf.ryerson.ca/housing/residents">Housing Services - Resident Access </a></h1>
+       
+
+
+   <!-- Toolbar -->
+            <div id="toolbar">
+             <div id="print">
+               <div id="print_version"><img src="http://www.ryerson.ca/inc/icon-printer.gif" title="Printable Version" alt="Printable Version" width="11" height="11"></div>
+               <div id="print_version_text">&nbsp;
+                                  <a onClick="javascript:PrintPage(); return false;" href="#">Printable Version</a>
+                                    &nbsp;&nbsp;<img src="http://www.ryerson.ca/inc/divider-2x11.gif" alt="" width="2" height="11">&nbsp;&nbsp;
+              </div>
+            </div>
+            
+            <div id="print">
+               <div id="print_version"><img src="http://www.ryerson.ca/inc/icon-email.gif" title="Email Version" alt="Email Version" width="11" height="11"></div>
+               <div id="print_version_text">&nbsp;
+                          <a onClick="javascript:emailThisPage()" href="#">E-mail This Page</a>
+                        &nbsp;&nbsp;<img src="http://www.ryerson.ca/inc/divider-2x11.gif" alt="" width="2" height="11">&nbsp;&nbsp;
+              </div>
+            </div>
+
+            <div id="textsize">
+              <div id="text_size_plus"><a onMouseOver="window.status='';return true;" onMouseDown="window.status='';return true;" onClick="javascript:fontsizeup(); return false;" href="#"><img src="http://www.ryerson.ca/inc/icon-plus.gif" title="Increase Text Size" alt="Increase Text Size" width="11" height="11"></a></div>
+              <div id="text_size_indicator"><img src="http://www.ryerson.ca/inc/spacer.gif" alt="" width="22" height="11"></div>
+              <div id="text_size_minus"><a onMouseOver="window.status='';return true;" onMouseDown="window.status='';return true;" onClick="javascript:fontsizedown(); window.status=''; return false;" href="#"><img src="http://www.ryerson.ca/inc/icon-minus.gif" title="Decrease Text Size" alt="Decrease Text Size" width="11" height="11"></a></div>
+              <div id="text_size_text">&nbsp;Change Text Size&nbsp;<img src="http://www.ryerson.ca/inc/spacer.gif" alt=""></div>
+            </div>
+          </div>
+    <!-- end of Toolbar -->
+       
+             
+             <DIV id="page_content">
+
+
+
+
+<p>Residents living in Ryerson Housing can login using their my.ryerson username and password.</p>	
+
+<form name="login" id="login" action="al.cfm" method="post" style="margin:0em;" onsubmit="return _CF_checklogin(this)">
+	<div style="margin-bottom:.75em; font-size:1.2em;"><strong>my.ryerson login</strong></div>
+	<div style="margin-left:1em;">USERID:<br>
+	<input name="username" id="username"  type="text" style="width:170px;"  class="txt"  size="20"  /></div>
+	<div style="margin-left:1em;">PASSWORD:<br>
+	<input name="password" id="password"  type="password" style="width:170px;"  class="txt"  size="20"  /></div>
+	<div style="margin-left:12em;"><br>
+	<input name="loginForm" id="loginForm"  type="submit" value="Login" style="width:5em;"  class="btn"  /></div>
+	<div style="margin-top:10px;margin-left:1em; font-size:1.2em;">
+    </div> 
+</form>
+
+	
+	
+<script language="JavaScript" type="text/javascript">
+	window.document.login.userID.focus();
+</script>
+    
+
+
+ 
+  
+<font color="red"></font>
+
+
+
+<p>If your request is of an emergency nature (i.e. toilet flooding, broken glass, leaking water, power off in room, lock-out etc.) please contact the Residence Services Desk to deal with the situation immediately.</p>
+ 
+<p>Pitman Hall Residence Service Desk:  extension 5210<br />
+ILLC Residence Service Desk: extension 7700<br />
+Daphne Cockwell Complex Service Desk: extension 544440
+</p>
+ 
+<p>If you have any questions or concerns regarding this request, please contact Housing & Residence Life or drop by our office in Pitman Hall 100 during business hours.<br />
+Housing & Residence Life<br />
+416-979-5284<br />
+<a href="mailto:housing@ryerson.ca">housing@ryerson.ca</a></p>
+
+
+</DIV>
+       
+       
+        <DIV id="bookmarks">
+
+        <div id="bookmark_icon_area">
+            <DIV id="bookmark_icons">
+
+            <span>Bookmark with:</span>
+            <a href="#" onClick="return digg_click()" target="_blank"><img src="http://www.ryerson.ca/images/social/digg.gif" alt="Digg" title="Digg"></a>
+            <a href="#" onClick="return fb_click()" target="_blank"><img src="http://www.ryerson.ca/images/social/facebook.gif" alt="Facebook" title="Facebook"></a>
+            <a href="#" onClick="return twitter_click()" target="_blank"><img src="http://www.ryerson.ca/images/social/twitter.gif" alt="Twitter" title="Twitter"></a>
+            <a href="#" onClick="return del_click()" target="_blank"><img src="http://www.ryerson.ca/images/social/delicious.gif" alt="del.icio.us" title="del.icio.us"></a>
+            <a href="#" onClick="return nv_click()" target="_blank"><img src="http://www.ryerson.ca/images/social/newsvine.gif" alt="Newsvine" title="Newsvine"></a>
+            </DIV>
+        </div>
+
+        
+        <div id="bookmark_whatis_area">
+            <span>(<a href="http://www.ryerson.ca/ryerson.ca/social_bookmarking.html">What are these?</a>)</span>
+            <img src="http://www.ryerson.ca/images/home/spacer.gif" height="16" width="1" alt="">
+        </div>
+
+       </DIV>
+       
+       
+       <!-- end page content  -->
+
+       </div></div>
+
+                     </div>
+       <BR clear="all">
+   
+  <!-- footer -->
+    <div id="footer_area">
+    <div id="footer_blurb">
+        
+        <span id="footer_copyright">
+        <script language="JavaScript">
+        <!--
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write("&copy; " + year + " Ryerson University");
+        //-->
+        </script>
+
+        </span>
+        
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        
+        <span id="footer_address">
+        350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        </span>
+        
+        <br />
+        
+        <a href="http://www.ryerson.ca/ryerson.ca/webpolicy.html">Web Policy</a> &nbsp;&nbsp;&nbsp;
+        <a href="http://www.ryerson.ca/privacy/">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
+
+        <a href="http://www.ryerson.ca/accessibility/">Accessibility</a> &nbsp;&nbsp;&nbsp;
+        <a href="http://www.ryerson.ca/ryerson.ca/terms.html">Terms &amp; Conditions</a>
+            
+    </div>
+    </div>
+    <!-- end footer --> 
+       </div> 
+       </div>   
+</div>    
+    <SCRIPT language="JavaScript1.2" src="http://www.ryerson.ca/inc/styleswitcher.js" type="text/javascript"></SCRIPT>
+</body>
+</html>

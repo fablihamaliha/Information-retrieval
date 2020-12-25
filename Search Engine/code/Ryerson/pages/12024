@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" name="viewport" />
+<link rel="shortcut icon" href="/xmlui/themes/Mirage-fcsktp/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/xmlui/themes/Mirage-fcsktp/images/apple-touch-icon.png" />
+<meta name="Generator" content="DSpace 3.0" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/reset.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/base.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/helper.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/jquery-ui-1.8.15.custom.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/style.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/xmlui/themes/Mirage-fcsktp/lib/css/authority-control.css" />
+<link type="text/css" rel="stylesheet" media="handheld" href="/xmlui/themes/Mirage-fcsktp/lib/css/handheld.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/xmlui/themes/Mirage-fcsktp/lib/css/print.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/xmlui/themes/Mirage-fcsktp/lib/css/media.css" />
+<link type="application/opensearchdescription+xml" rel="search" href="http://fcsktp.ryerson.ca:80/xmlui/open-search/description.xml" title="DSpace" />
+<script type="text/javascript">
+                                //Clear default text of empty text areas on focus
+                                function tFocus(element)
+                                {
+                                        if (element.value == ' '){element.value='';}
+                                }
+                                //Clear default text of empty text areas on submit
+                                function tSubmit(form)
+                                {
+                                        var defaultedElements = document.getElementsByTagName("textarea");
+                                        for (var i=0; i != defaultedElements.length; i++){
+                                                if (defaultedElements[i].value == ' '){
+                                                        defaultedElements[i].value='';}}
+                                }
+                                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                                function disableEnterKey(e)
+                                {
+                                     var key;
+
+                                     if(window.event)
+                                          key = window.event.keyCode;     //Internet Explorer
+                                     else
+                                          key = e.which;     //Firefox and Netscape
+
+                                     if(key == 13)  //if "Enter" pressed, then disable!
+                                          return false;
+                                     else
+                                          return true;
+                                }
+
+                                function FnArray()
+                                {
+                                    this.funcs = new Array;
+                                }
+
+                                FnArray.prototype.add = function(f)
+                                {
+                                    if( typeof f!= "function" )
+                                    {
+                                        f = new Function(f);
+                                    }
+                                    this.funcs[this.funcs.length] = f;
+                                };
+
+                                FnArray.prototype.execute = function()
+                                {
+                                    for( var i=0; i < this.funcs.length; i++ )
+                                    {
+                                        this.funcs[i]();
+                                    }
+                                };
+
+                                var runAfterJSImports = new FnArray();
+            </script>
+<script xmlns:i18n="http://apache.org/cocoon/i18n/2.1" type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/modernizr-1.7.min.js"> </script>
+<title>Parent and family perception of engagement in the early years program</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Underwood, Kathryn" />
+<meta name="DCTERMS.dateAccepted" content="2013-10-16T00:23:21Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2013-10-16T00:23:21Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2012" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="Underwood, K., &amp; Killoran, I. (2012). Parent and family perception of engagement: Lessons from early years programs and supports.  Canadian Journal of Education, 35(4), 376-414." xml:lang="en_US" />
+<meta name="DC.identifier" content="http://hdl.handle.net/123456789/85" scheme="DCTERMS.URI" />
+<meta name="DC.subject" content="Early years services" xml:lang="en_US" />
+<meta name="DC.subject" content="Parental engagement" xml:lang="en_US" />
+<meta name="DC.subject" content="Families" xml:lang="en_US" />
+<meta name="DC.title" content="Parent and family perception of engagement in the early years program" xml:lang="en_US" />
+<meta name="DC.description" content="Parental engagement in Best Start Programs depends on the quality of the program. This, in turn, depends on caring and professional staff, a variety of programs and services, and programs that are flexible, well-advertised and accessible to families." xml:lang="en_US" />
+<meta name="DC.description" content="Overall, the participants of the study were satisfied with the quality of the Best Start programs, but were less satisfied with the quantity of such programs.  The participants expressed that there were not enough programs in their community, or that space was limited in existing programs. &#xD;&#xA;The participants identified four strengths of the Best Start programs and services: the quality of the programs, the range of services, the accessibility of the programs and services, and the supports for their child and family. The participants felt that they attended the program because of its high quality, this quality  was dependent upon  a welcoming environment in the program. For some families, it was important for the programs to be staffed by qualified people who respected and supported the families’ cultural and language background. The participants appreciated the variety of services and programs offered by the Best Start program, but wished that there were more multi-age, evening and weekend programs. The participants said they felt upset when good programs were cut due to a loss of funding.  The participants felt that a successful early years program is one that is accessible in terms of: geographic location; families’ awareness of the program; and having a program where everyone is included and no one feels rejected. &#xD;&#xA;The participants identified many successes of the program. They felt that their children learned many skills in the early years program, helping the children to develop and prepare for school. Parents felt reassured by the developmental screening tools available at the programs and also felt that the families benefitted from the “community” of support they gained in attending the early years program. The participants also appreciated programs in their language (French or Aboriginal) and when such services were consistent across all communities. The participants wished for more prenatal and postnatal health supports. The participants also appreciated the role that the Best Start program played in providing support to families who might be in transition due to divorce/separation, adoption or migration. That support helped such families navigate new services." xml:lang="en_US" />
+<meta name="DC.description" content="It is important for early years programs to consider the special needs of Aboriginal, Francophone and immigrant families, and families with children with special needs.  While universal early childhood programs are accessible to many, they are not as responsive to the needs of diverse families.  In particular, there are not enough high-quality child-care spaces." xml:lang="en_US" />
+<meta name="DC.description" content="The researchers wanted to understand how parents that participated in the Best Start early year programs in Ontario perceived their own engagement in the program. The researchers also wanted to understand the parents’ perception about the strengths of the program and its outcomes. The researchers collected data through an online survey and focus groups, and interviews with 86 participants in three communities in Ontario." xml:lang="en_US" />
+<meta name="DC.description" content="Kathryn Underwood, Associate Professor, Early Childhood Studies" xml:lang="en_US" />
+<meta name="DC.description" content="http://www.questia.com/library/1G1-320266646/parent-and-family-perception-of-engagement-lessons" xml:lang="en_US" />
+<meta name="DC.description" content="Parents and family members attend, and stay engaged in, programs in which they feel welcome. Staff members are the most important component of the program. &#xD;&#xA;Families want to maintain or increase the number of early years services. Families want early years programs to offer longer and more convenient hours." xml:lang="en_US" />
+<meta name="DC.description" content="kunderwood@ryerson.ca" xml:lang="en_US" />
+
+<meta content="Underwood, Kathryn" name="citation_authors" />
+<meta content="2012" name="citation_date" />
+<meta content="Parent and family perception of engagement in the early years program" name="citation_title" />
+<meta content="https://fcsktp.ryerson.ca/xmlui/handle/123456789/85" name="citation_abstract_html_url" />
+<meta content="Early years services; Parental engagement; Families" name="citation_keywords" />
+<script type="text/javascript">var switchTo5x=true;</script>
+<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript" />
+<script type="text/javascript">
+        stLight.options({
+                publisher:"ceb530f0-aa12-4f16-94f2-5b6a4d5feea6",
+                tracking:'google',
+                onhover: false
+        });
+</script>
+</head><!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+                <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+                <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+                <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+                <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<div id="ds-main">
+<div id="ds-header-wrapper">
+<div class="clearfix" id="ds-header">
+<a id="ds-header-logo-link" href="/xmlui/">
+<img src="https://fcsktp.ryerson.ca/xmlui/themes/Mirage-fcsktp/images/fcsktp/headerNew_v3.jpg" alt="Research Insights, from the Faculty of Community Services at Ryerson University" />
+</a>
+<h1 class="pagetitle visuallyhidden">Parent and family perception of engagement in the early years program</h1>
+<h2 class="static-pagetitle visuallyhidden">DSpace/Manakin Repository</h2>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="ds-user-box">
+<p>
+<a href="/xmlui/login">Login</a>
+</p>
+</div>
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="ds-trail-wrapper">
+<ul id="ds-trail">
+<li class="ds-trail-link first-link ">
+<a href="/xmlui/">FCS Research Insights | Home </a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-trail-arrow">→</li>
+<li class="ds-trail-link ">
+<a href="/xmlui/handle/123456789/5">Faculty of Community Services</a>
+</li>
+<li class="ds-trail-arrow">→</li>
+<li class="ds-trail-link ">
+<a href="/xmlui/handle/123456789/7">FCS Summaries</a>
+</li>
+<li class="ds-trail-arrow">→</li>
+<li class="ds-trail-link last-link">View Item</li>
+</ul>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div id="ds-content-wrapper">
+<div class="clearfix" id="ds-content">
+<div id="ds-body">
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/123456789/85/mets.xml?rightsMDTypes=METSRIGHTS-->
+<div xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="item-summary-view-metadata">
+<h1>Parent and family perception of engagement in the early years program</h1>
+<p class="author-item-view">
+<a href="/xmlui/browse?value=Underwood, Kathryn&amp;type=author&#10;            &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;">Underwood, Kathryn</a>
+</p>
+<h2>Citation</h2>Underwood, K., &amp; Killoran, I. (2012). Parent and family perception of engagement: Lessons from early years programs and supports.  Canadian Journal of Education, 35(4), 376-414. <a href="http://www.questia.com/library/1G1-320266646/parent-and-family-perception-of-engagement-lessons">(link to study)
+            							</a>
+<div class="simple-item-view-description">
+<h2>Insights</h2>
+<div>
+<p>Parental engagement in Best Start Programs depends on the quality of the program. This, in turn, depends on caring and professional staff, a variety of programs and services, and programs that are flexible, well-advertised and accessible to families.</p>
+</div>
+</div>
+<div class="simple-item-view-description">
+<h2>Practice insights</h2>
+<div>
+<ul>
+<li>Parents and family members attend, and stay engaged in, programs in which they feel welcome. Staff members are the most important component of the program. &#13;<li />Families want to maintain or increase the number of early years services. Families want early years programs to offer longer and more convenient hours.</li>
+</ul>
+</div>
+</div>
+<div class="simple-item-view-description">
+<h2>Policy insights</h2>
+<div>
+<ul>
+<li>It is important for early years programs to consider the special needs of Aboriginal, Francophone and immigrant families, and families with children with special needs.  While universal early childhood programs are accessible to many, they are not as responsive to the needs of diverse families.  In particular, there are not enough high-quality child-care spaces.</li>
+</ul>
+</div>
+</div>
+<div class="simple-item-view-description">
+<h2>Background/Rationale of the paper</h2>
+<div>
+<p>The researchers wanted to understand how parents that participated in the Best Start early year programs in Ontario perceived their own engagement in the program. The researchers also wanted to understand the parents’ perception about the strengths of the program and its outcomes. The researchers collected data through an online survey and focus groups, and interviews with 86 participants in three communities in Ontario.</p>
+</div>
+</div>
+<div class="simple-item-view-description">
+<h2>Summary</h2>
+<div>
+<p>Overall, the participants of the study were satisfied with the quality of the Best Start programs, but were less satisfied with the quantity of such programs.  The participants expressed that there were not enough programs in their community, or that space was limited in existing programs. &#13;<p />The participants identified four strengths of the Best Start programs and services: the quality of the programs, the range of services, the accessibility of the programs and services, and the supports for their child and family. The participants felt that they attended the program because of its high quality, this quality  was dependent upon  a welcoming environment in the program. For some families, it was important for the programs to be staffed by qualified people who respected and supported the families’ cultural and language background. The participants appreciated the variety of services and programs offered by the Best Start program, but wished that there were more multi-age, evening and weekend programs. The participants said they felt upset when good programs were cut due to a loss of funding.  The participants felt that a successful early years program is one that is accessible in terms of: geographic location; families’ awareness of the program; and having a program where everyone is included and no one feels rejected. &#13;<p />The participants identified many successes of the program. They felt that their children learned many skills in the early years program, helping the children to develop and prepare for school. Parents felt reassured by the developmental screening tools available at the programs and also felt that the families benefitted from the “community” of support they gained in attending the early years program. The participants also appreciated programs in their language (French or Aboriginal) and when such services were consistent across all communities. The participants wished for more prenatal and postnatal health supports. The participants also appreciated the role that the Best Start program played in providing support to families who might be in transition due to divorce/separation, adoption or migration. That support helped such families navigate new services.</p>
+</div>
+</div>
+<h2>Contact the Ryerson researcher(s)</h2>Kathryn Underwood, Associate Professor, Early Childhood Studies <a href="&#10;            &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;mailto:kunderwood@ryerson.ca">(email)
+            								</a>
+<div id="share-this">
+<h2>Share</h2>
+<p>
+<span st_summary="Research Insights from the Faculty of Community Services at Ryerson University" displayText="Email" class="st_email_large" />
+<span st_summary="Research Insights from the Faculty of Community Services at Ryerson University" displayText="Google +" class="st_googleplus_large" />
+<span st_summary="Research Insights from the Faculty of Community Services at Ryerson University" displayText="LinkedIn" class="st_linkedin_large" />
+<span st_via="RyersonFCS" st_summary="Research Insights from the Faculty of Community Services at Ryerson University" displayText="Tweet" class="st_twitter_large" />
+<span st_summary="Research Insights from the Faculty of Community Services at Ryerson University" displayText="Facebook" class="st_facebook_large" />
+</p>
+</div>
+</div>
+<h2 class="ds-list-head">This item appears in the following Collection(s)</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/123456789/7/mets.xml-->
+<li>
+<a href="/xmlui/handle/123456789/7">FCS Summaries</a>
+<br />
+</li>
+</ul>
+</div>
+</div>
+<div id="ds-options-wrapper">
+<div id="ds-options">
+<h1 class="ds-option-set-head" id="ds-search-option-head">Search Research Insights</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-option-set" id="ds-search-option">
+<form method="post" id="ds-search-form" action="/xmlui/discover">
+<fieldset>
+<input type="text" class="ds-text-field " name="query" />
+<input xmlns:i18n="http://apache.org/cocoon/i18n/2.1" value="Go" type="submit" name="submit" class="ds-button-field " onclick="&#10;                                        var radio = document.getElementById(&quot;ds-search-form-scope-container&quot;);&#10;                                        if (radio != undefined &amp;&amp; radio.checked)&#10;                                        {&#10;                                        var form = document.getElementById(&quot;ds-search-form&quot;);&#10;                                        form.action=&#10;                                    &quot;/xmlui/handle/&quot; + radio.value + &quot;/discover&quot; ; &#10;                                        }&#10;                                    " />
+<label>
+<input checked="checked" value="" name="scope" type="radio" id="ds-search-form-scope-all" />Search Research Insights</label>
+<br xmlns:i18n="http://apache.org/cocoon/i18n/2.1" />
+<label>
+<input name="scope" type="radio" id="ds-search-form-scope-container" value="123456789/7" />This Collection</label>
+</fieldset>
+</form>
+<a xmlns:i18n="http://apache.org/cocoon/i18n/2.1" href="/xmlui/discover">Advanced Search</a>
+</div>
+<h1 xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-option-set-head">Browse</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+<ul class="ds-options-list">
+<li>
+<h2 class="ds-sublist-head">All of Research Insights by</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="/xmlui/browse?type=dateissued">Issue Date</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=author">Ryerson Researchers</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=title">Titles</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/browse?type=subject">Subjects</a>
+</li>
+</ul>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<h2 class="ds-sublist-head">This Collection by</h2>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="/xmlui/handle/123456789/7/browse?type=dateissued">Issue Date</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/handle/123456789/7/browse?type=author">Ryerson Researchers</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/handle/123456789/7/browse?type=title">Titles</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="/xmlui/handle/123456789/7/browse?type=subject">Subjects</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" id="ds-footer-wrapper">
+<div id="ds-footer">
+<div id="ds-footer-left">
+<div id="ds-footer-left-contentCC">
+                	Content: © <a target="_blank" href="http://www.ryerson.ca/fcs">Faculty of Community Services</a> at <a target="_blank" href="http://www.ryerson.ca">Ryerson University.</a>
+<br />
+</div>
+<div id="ds-footer-left-softwareCC">
+                    Software: © <a target="_blank" href="http://www.dspace.org">DSpace</a> by <a target="_blank" href="http://www.duraspace.org/">Duraspace</a>
+</div>
+<div id="ds-footer-left-source"> 
+                    Source: <a href="http://fcsktp.ryerson.ca">Research Insights</a>
+</div>
+</div>
+<div id="ds-footer-right">
+<span class="theme-by">Based on a theme by </span>
+<a id="ds-footer-logo-link" href="http://atmire.com" target="_blank" title="@mire NV">
+<span id="ds-footer-logo"> </span>
+</a>
+</div>
+<div id="ds-footer-links">
+<a href="https://fcsktp.ryerson.ca/xmlui/">Home
+                    </a> | <a href="https://fcsktp.ryerson.ca/xmlui/page/about">About
+                    </a> | <a href="/xmlui/feedback">
+                        Feedback
+                    </a> | <a href="/xmlui/login">Login</a>
+</div>
+<a xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="hidden" href="/xmlui/htmlmap"> </a>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"> </script>
+<script type="text/javascript">!window.jQuery && document.write('<script type="text/javascript" src="/xmlui/static/js/jquery-1.6.2.min.js"> <\/script>')</script>
+<script type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/jquery-ui-1.8.15.custom.min.js"> </script><!--[if lt IE 7 ]>
+<script type="text/javascript" src="/xmlui/themes/Mirage-fcsktp/lib/js/DD_belatedPNG_0.0.8a.js?v=1"> </script>
+<script type="text/javascript">DD_belatedPNG.fix('#ds-header-logo');DD_belatedPNG.fix('#ds-footer-logo');$.each($('img[src$=png]'), function() {DD_belatedPNG.fixPng(this);});</script><![endif]-->
+<script type="text/javascript">
+            runAfterJSImports.execute();
+        </script>
+<script type="text/javascript">
+                   var _gaq = _gaq || [];
+                   _gaq.push(['_setAccount', 'UA-43806109-1']);
+                   _gaq.push(['_trackPageview']);
+
+                   (function() {
+                       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+           </script></body></html>

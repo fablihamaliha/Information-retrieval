@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/accessibility/contact/technology-support/ramss-screen-reader-guide/" >
+		<meta property="og:title" content="RAMSS Screen Reader Guide" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/accessibility/contact/technology-support/ramss-screen-reader-guide/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="RAMSS Screen Reader Guide"> 
+		 
+        
+        
+        <title>RAMSS Screen Reader Guide - Accessibility - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.5BC2F4.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/accessibility/">
+				        Accessibility
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/accessibility.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bc9f5ed7-bdf5-4f8a-b6be-49bec097185e" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="bc9f5ed7-bdf5-4f8a-b6be-49bec097185e">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/accessibility/access-ryerson/'>Access Ryerson</a>
+									</li>
+								
+									<li class="">
+										<a href='/accessibility/guides-resources/'>Guides & Resources</a>
+									</li>
+								
+									<li class="">
+										<a href='/accessibility/plans-policies/'>Plans & Policies</a>
+									</li>
+								
+									<li class="active">
+										<a href='/accessibility/contact/'>Contact</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/accessibility/contact.html">Contact</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#7945bc07-5ad0-47cc-967a-9617e3c9e175" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="7945bc07-5ad0-47cc-967a-9617e3c9e175">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/accessibility/contact/feedback.html'>Feedback</a>
+</li>
+<li class="list-group-item parent">
+<a href='/accessibility/contact/technology-support.html'>Technology Support</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/accessibility/contact/technology-support/navigating-with-a-screen-reader.html'>Navigating with a Screen Reader</a>
+</li>
+<li class="list-group-item selected">
+<a href='/accessibility/contact/technology-support/ramss-screen-reader-guide.html'>RAMSS Screen Reader Guide</a>
+</li>
+</ul>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >RAMSS Screen Reader Guide</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c51e395c-da00-4d6d-b666-c2922cea7558" >
+
+    <p>Ryerson’s Administrative Management Self Service (RAMSS) is a self-serve portal containing all information pertaining to Academics, Student Fees, Financial Aid, Personal Information, and Admissions. Due to older legacy systems, accessibility features may be limited. In order to effectively navigate RAMSS, it is recommended to complete the following steps.</p> 
+<p>To get started, log in at&nbsp;<a href="https://my.ryerson.ca/">my.ryerson.ca</a>&nbsp;and select the RAMSS tab in the main navigation area, or alternatively use search function using CTRL + F or VO-F.</p> 
+<p>RAMSS will open in a new window titled “Student Center”. The most effective way to navigate contents within this window is to navigate by link or to use the search function.</p> 
+<ul> 
+ <li>To navigate by links using an assistive device use the Tab key or VO-Command-L.</li> 
+ <li>To read line by line, use Up and Down arrow keys (on JAWS) or VO-Right (or left) arrow keys using VoiceOver.</li> 
+ <li>To search for an item, use CTRL + F or VO-F.</li> 
+</ul> 
+<h2>RAMSS Categories</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c51e395c-da00-4d6d-b666-c2922cea7558");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-opaque" id="e92cbc17-f329-4add-820c-d8583bfd64fc" >
+
+    <p><strong>RAMSS consists of 5 categories. Click on a link to jump to section.</strong></p> 
+<ol> 
+ <li><a href="#academics">Academics</a></li> 
+ <li><a href="#student-fees">Student Fees</a></li> 
+ <li><a href="#financial-aid">Financial Aid</a></li> 
+ <li><a href="#info">Personal Information</a></li> 
+ <li><a href="#admissions">Admissions</a></li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#e92cbc17-f329-4add-820c-d8583bfd64fc");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="67159f79-ba5f-4c68-8c2d-80c5e4fd8476" >
+
+    <h3><a name="academics"></a>1. Academics</h3> 
+<h4>Search</h4> 
+<p>You can search for classes to add to your Shopping Cart by pressing Enter on the Search link in the Academics section. To search for classes, Tab over to the first (JAWS) Combo Group or (VoiceOver) Collapsed Pop-up Button labeled “Term”. Find the most recent Term from the list using VoiceOver shortcut VO-Space and Up and Down arrow keys or JAWS shortcut ALT + Down arrow on element and use Up and Down arrow keys to navigate, then press Enter. Proceed to the next form element labeled Subject, in the empty text field, type in the first three or four letter code for the Course Subject. The next text field is associated with the Course Number, please type the remaining course code in this field. There are two checkbox remaining, the first one labeled “Show Open Classes Only” is checked off by default. The second one is labeled as “Open Entry/Exit Classes Only”. For the purpose of the search it is recommended to leave the first checkbox as checked. Tab over to the Search button and press Enter.</p> 
+<p>If no class was found under the specified criteria, you will receive a “Message” alert button. Otherwise, all the classes that meet your search criteria will display. If there are more than one classes available, you can browse the list and select the one that best meets your needs. Navigate the page line by line until you come across “class section(s) found”, the table will be listed below with the full course code and title. The headers will read “Class, Section, Days &amp; Time, Room, Instructor, Meeting Dates, and Status”. If the fourth column reads “CRSE INT COURSE INTENTION”, it means that it is course intention period and not the actual enrolment period. The status of the classes are denoted as images; Open, Closed, or Wait List. Tab over to “Select Class” adjacent to the class you wish to choose. Verify you have selected the correct class and Tab over to the Next button.</p> 
+<p>If successful, the page will display a message stating “your course has been added to your Shopping Cart”. You can continue adding classes to your cart by searching for and adding classes as described above. Please note, you are not Enroled in the class at this time. To enrol in these classes with validation, proceed to the next help topic “Shopping Cart”.</p> 
+<h4>Shopping Cart</h4> 
+<p>The Shopping Cart is used to build a class schedule that you can validate or “test-drive” before enrolment. When all the classes validate, you can proceed to enrol in them. If a class does not validate, you can delete it from you Shopping Cart and add another one. First, select the applicable term by pressing Enter on the corresponding radio button, then Tab to the Continue button. The following page shows the classes that are already in your Shopping Cart as well as your current class schedule.</p> 
+<p>To Validate classes, navigate through the Shopping Cart table by using Up and Down arrow keys (on JAWS) or VO-Right (or left) arrow keys using VoiceOver. Press Enter on the checkbox elements associated with your classes, then Tab over to the “Validate” button and press Enter. The following page will report the status of your validation whether it’s Ok to Add or Error. If an Error occurs, select another class and try again.</p> 
+<p>Note: If you are experiencing issues, Tab over the “Results Help” link to help interpret some of the messages you may encounter otherwise proceed to the “Shopping Cart” button link.</p> 
+<p>Once you have completed Validation, you can navigate through the Shopping Cart table and select the checkboxes of the classes you want to Enrol in. Proceed or Tab over to the “Enrol” button, which will take you to a confirmation page. Review the contents of this page before you Tab over to the “Finish Enroling” button. To make changes press Enter on the “Previous” button before the “Finish Enroling” button.</p> 
+<p>Your submission will be evaluated and the results will display on the following page. Please review the results to ensure the status of each row reads “Success” or “Enroled”. If you have any error messages, please refer to “Results Help” link on the same page.</p> 
+<h4>Enrol/Drop/Swap</h4> 
+<p>When the Enrol/Drop/Swap is activated, it will by default take you to the “Add Classes” page. To add or Enrol in classes please refer to instructions above titled “Shopping Cart”.</p> 
+<h5>Drop</h5> 
+<p>The process to Drop a class is similar to how you would add a class. First, find the Drop link either by searching for the text or using the Tab button to navigate by link. Press Enter on the Drop link, it will display a table of the classes you are currently Enroled in. All checkboxes associated with a class are depicted in the first column of the table. Navigate the table to find the course code you would like to drop, then find the preceding checkbox and press Enter on the checkbox element. Tab over to the “Drop Selected Classes” link. Review the selection in the table and ensure only the selected classes to be dropped appear. To edit the selection, Tab over the “Cancel” or “Previous” link. To confirm selection, Tab over to the “Finish Dropping” link, which will then take you to a results page that will display the results in the Message column of the table. Ensure the message states “Success”.</p> 
+<h5>Swap</h5> 
+<p>Find the Swap link either by searching for the text or using the Tab button to navigate by link. Press Enter on the Swap link. If prompted, select the applicable term by pressing Enter on the preceding radio button and Tab over to “Continue” link. Navigate to the section where it reads “Select from your schedule”, the corresponding Combo Group or Collapsed Button Group will contain a list of the courses you are currently Enroled in. To select a course from the dropdown menu, either press ALT + Down arrow using JAWS, or VO + Space on VoiceOver. Use the Up and Down arrow keys, and then press Enter. Navigate to the second dropdown menu labeled “Search for Class” where you can either search for a new course from the catalog or select one that is currently in your Shopping Cart. If searching for a new class, refer to the instructions under heading 4 Search if necessary. Review the Search Results, once you find a class that meets your needs, press Enter on the “Select Class” link that it corresponds with. Review the selection and once confirmed, Tab to the “Next” link and press Enter. The following page will display a final confirmation page with two tables. The first table is labeled “You are replacing this class”, and the second table is labeled “With this class”. Tab over to the “Finish Swapping” link to continue. The results of the swap will be displayed on the following page.</p> 
+<h4>My Academics</h4> 
+<p>The My Academics link contains a page with the following twelve quick links or subtopics:</p> 
+<h5>View my Advisement Report</h5> 
+<p>Contains all the course requirements needed in order for you to graduate. Only available for undergraduate students. To access report, read important information page before you Tab and select “View Advisement Report” link. To effectively navigate page, Tab and press Enter on the “Expand All” link, as the table contains a series of dropdown menus and tables. If you have any problems understand your Advisement Report or concerns about fulfilling these requirements, contact your Program Department.</p> 
+<h5>Change Plan/Major</h5> 
+<p>Your program is stated on the My Academics page, where it reads “My Program: Institution - Ryerson University”, navigate line by line to view your program. If you have not chosen your Plan/Major yet, it will state Undeclared. If you are not eligible to change your Plan/Major at this time, your will see a message to this effect on this page. If eligible, press Tab until you find the name of your Academic Program, for example “link Bachelor of Arts”, then press Enter. Note, if you are not eligible to change your Plan/Major at this time, a message will appear on this page. To select your new Plan/Major, press Enter on the link image that is labeled ‘Search or Look Up’ which will display the plans available to your program. Use the Tab key and press Enter on the plan you want to select. Once complete, Tab to the Continue link and press Enter. Verify the contents of this page, if the Plan/Major is not correct, Tab to the “Select Different Major” link. Otherwise, Tab to the “Submit Application” link and press Enter. The following page will display a submit confirmation.</p> 
+<h5>Evaluate my transfer credits</h5> 
+<p>This is an official Transfer Credit Application. Before applying refer to&nbsp;<a href="http://ryerson.ca/transfercredits">ryerson.ca/transfercredits</a>&nbsp;for instructions and deadlines. To begin, Tab to “New Submission” link, or if editing a submitted application Tab to “Edit Selected” link. The following page requires you to input your program information. Read relevant information, then Tab to the first Combo Group or Collapsed Button Group labeled Program. Press ALT + Down arrow using JAWS, or VO + Space on VoiceOver and Use the Up and Down arrow keys and select your program, press Enter. Tab to the last group labeled Plan, select your major and press Enter. Then Tab to the “Next” link and press Enter. On the following page you need to select the previous institution you studied at from the dropdown group. Tab to the “Next” link. &nbsp;If you attended more than one institution, you can apply for additional institutions. If you do not find your previous institution, you must submit your Transfer Credit Application via the Manual application upload. Visit&nbsp;<a href="http://www.ryerson.ca/transfercredits">ryerson.ca/tranfercredits</a>&nbsp;for instructions.</p> 
+<p>On the following page, you are required to input course details for each course you are applying for a Transfer Credit. The table has 7 columns, the first one is blank, followed by Year Course Completed, Term Course Completed, Course Code Subject Area, Course Code Number, Grade, and the final column is blank. Each row represents a course or new entry. For example, the first row would read: 2014, FALL, PSY, 1001, select grade from dropdown menu. If necessary, you can use the corresponding search link image to find course codes that match your transcript. If you have not received your final grade in the course, select IP (which stands for In Progress). If you require more rows, Tab to “Add Another Class” to add more rows. Once complete, Tab to the “Submit” link to review your Unofficial Transfer Credit Results. Please review all contents of page line by line. The page contains two additional links, “View Transfer Equivalency Details” link, and “Evaluate More Courses” link.</p> 
+<p>To edit a previous application, return to My Academics, and select the “Evaluate my Transfer Credits” link. Tab to the radio button that corresponds with your application and press Enter. Tab to “Edit Selected” link. If applying for transfer credits from another institution, Tab to “New Submission” and repeat same process.</p> 
+<h5>View my transfer credit report</h5> 
+<p>The following page displays your official Transfer Credit results. An acknowledgement will be sent to your Ryerson email confirming your applications have been processed. Applications are processed after you accept your Offer of Admission or after May first if you are admitted for the upcoming Fall term. Read the page line by line, and when ready press Enter on the “View Transfer Credit Report” link. The following page will display all the details of your transfer credit application, including a table of all courses that were either accepted or denied. Applications for which official grades could be confirmed will appear on the Transfer Credit Report. You will receive an Incomplete Transfer Credit Application email, if additional information such as transcripts or more detailed course outlines are required. The Comments section may include additional information on your Transfer Credit Applications, including Appeal decisions, denied comments and/or adjustments. To read additional information regarding your report, Tab to the “Understanding Your Transfer Credit Report” link.</p> 
+<h5>View my course history</h5> 
+<p>To view the history of all the courses that you have completed along with your grade, their GPA weight and current status. All course and grade information will be summarized in a table with 6 columns with the following headers: Course, Description, Term, Grade, Units, Status. Navigate page line by line.</p> 
+<p>View my unofficial transcript - View an unofficial transcript that shows all the courses studied at Ryerson as well as any transfer credits granted for courses taken at other institutions. There are two dropdown menus; Academic Institution and Report Type. By default, Academic Institution is set to Ryerson University. To generate report, access the second Combo Group or Collapsed Button Group labeled Report Type. Press ALT + Down arrow using JAWS, or VO + Space on VoiceOver and Use the Up and Down arrow keys and select “Unofficial Transcript”, press Enter. Tab over to “View Report” and press Enter. A PDF will open in a new window, while the previous RAMSS window will load a page with previous report requests in a table.</p> 
+<h5>Grades/Standings</h5> 
+<p>The following page contains a table with each academic term you were Enroled in. It’s best to read this table line by line, use Up and Down arrow keys (on JAWS) or VO-Right (or left) arrow keys using VoiceOver. The first column header is blank, followed by Term, Career and Institution. To view your grades for a specific term, you must select the radio button labeled “Select this row” which is at the beginning of each row or precedes the Term field. Press Enter on the radio button and Tab over to the “Continue” link. The following page displays your grades for that specific semester. Press VO-Command + H on VoiceOver or the keyboard letter H to access the main content area with the heading “View My Grades”. Navigate line by line to view information. Your grades will be displayed in a table, starting with the class or course code, followed by description, units, grading, grade and grade points. The second table on the page displays term statistics for that semester including your GPA calculation. Please note this table contains some blank rows and columns.<br> </p> 
+<h5>Request Office Transcript</h5> 
+<p>An official Ryerson transcript is a complete record of a student's Enrolment at Ryerson University including all undergraduate, graduate and continuing education courses, as well as credits granted towards your program. The fee per transcript is fifteen dollars. To order transcripts via RAMSS, you must have a valid Visa, MasterCard or AMEX. When paying by credit card, you must include the name on the card, the type of credit card (Visa, MasterCard, AMEX), the credit card number and the card's expiry date. Payment must accompany all orders. Payment is non-refundable.</p> 
+<p>Please review instructions on this page before proceeding to the “Continue” link. The following page contains your personal information, and a checkbox asking if you attended Ryerson prior to 1984 - if indicating Yes, an additional dialog box will open. Otherwise proceed to “3. Continue to Transcript Request Information” link. In the following section, you are able to indicate when the transcript is required. By default the corresponding Combo Group or Collapsed Button Group will display “As Soon as Possible”. If necessary, &nbsp;press ALT + Down arrow using JAWS, or VO + Space on VoiceOver and Use the Up and Down arrow keys and select when you require your Transcript. The next Combo Group or Collapsed Button Group labeled Transcript Delivery Options is set to “Pick Up-ServiceHub POD150” by default. If necessary, access menu options by repeating the same steps as above. If you require it to be faxed, please check off the checkbox that corresponds with Fax. The final option includes Handling Options, type the number of transcripts required in the text field associated with “Number of transcripts in SEALED* envelopes”. Once complete, Tab to the “Save and Review Requests” link.</p> 
+<p>The following page contains a heading 1 titled “View Request Details” and additional options such as “Add Another Request” and “Make Payment”. Press Enter on Payment and you will be prompted with a page titled “Official Transcript Request Agreement”, read information and check off box corresponding with “I Agree”. The page will then load a table with your Payment Summary and Credit Card Details. The first dropdown menu is labeled Credit Card Type with three options “American Express, VISA, and Mastercard”. The following form elements are expiry month and expiry year, labeled “*Exp Month” and “*Exp Year”. Please enter month in MM format and year in YYYY format. The following text fields include your First Name, Last Name, and Credit Card Number. Once information is complete, Tab over to “Make Payment” link.</p> 
+<h5>Register / Transfer (regards Chang School Certificate)</h5> 
+<p>This page is for students who intend to register in a certificate program or transfer from one certificate program to a different certificate. Please read page in its entirety before proceeding. To proceed, you first must check off the checkbox that states you “understand that registering in a certificate program indicates that I accept Ryerson’s policies and procedures as outlined in The Chang School calendar. To access this checkbox, read line by line, or use Tab key and then press Enter to check it off. Continue reading information below checkbox. There are two radio buttons, the first one is selected by default and states “Register in a certificate program”, the second unselected button says “Transfer to a different certificate program”. To make your selection, press Enter on the desired radio button, then Tab to the “Continue” link.</p> 
+<p>The following page will display some instructions, and the academic term you are intending to register your certificate program. Please ensure that this is the term you would like to register for. Search for name of the certificate program by pressing Enter on the link image titled “Look up Certificate Program”.<br> </p> 
+<h5>Request A Letter</h5> 
+<p>The Request A Letter service provides official, personalized letters confirming your current, or previous, Enrolment status, graduation status, and others. The cost per initial letter request is twenty dollars. &nbsp;Additional copies, up to a maximum of 5, are available at a charge of 5 dollars per copy. To order more than 5 copies, please submit a new request. Please view all additional information on this page before proceeding to the “Continue” link. The following page contains a summary of your personal information and a list of radio buttons. Press Enter on the radio button that corresponds with the letter you require. Then Tab over to “Continue to Letter Request” link. The following page contains a summary of the letter you requested, and a Combo Group or Collapsed Button Group labeled Program. Access this group by pressing ALT + Down arrow using JAWS, or VO + Space on VoiceOver and Use the Up and Down arrow keys to select your program. Tab over to the “Next” link and press Enter. The page will load additional content within the page, navigate line by line and you will come across “Delivery and Handling Options”. In the text field labeled Total Number of Copies, type in the number you request. Then Tab over to either “Save and Add Another” link and repeat the same process, or Tab over to “Save and Review Requests”, and press Enter. Once payment is made, your letter can be picked up from the Service Hub in POD150. See payment instructions listed above under Request an Official Transcript.<br> </p> 
+<h5>Apply for Graduation</h5> 
+<p>Follow these steps to submit an application for graduation. Tab over to “Apply for Graduation” link. Confirm the contents of this page, reading line by line, and ensure your name is spelled correctly. If this name is incorrect, you must contact Student Records to make any corrections immediately after you have finished your application. You must submit a&nbsp;<a href="/content/ryerson/studentguide/student_record/#personal_information" target="_blank">Personal Data Change form<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, opens in new window</span></a>&nbsp;to Enrolment Services and Student Records within the applicable name change deadline dates (view Significant Dates in the Undergraduate calendar).</p> 
+<p>Tab to “Apply for Graduation” link and press Enter. You must select your Expected Graduation Term from the Combo Group or Collapsed Button Group labeled Expected Graduation Term. Access this group by pressing ALT + Down arrow using JAWS, or VO + Space on VoiceOver and Use the Up and Down arrow keys to select the term. To graduate at the Spring (June) ceremony, select Winter term. For the Fall (October/November) ceremony, select Spring/Summer term. Press Enter on the “Continue” link. Verify that your graduation information is correct and then Tab to “Submit Application” link.</p> 
+<p>If you are applying during the late application period, you must submit a late application fee. Verify all data is correct, then Tab over to “Payment” link and press Enter. You will be prompted to enter your credit card details, see payment instructions listed above under Request an Official Transcript. Tab over to “Make a Payment” link when complete. Print and save your confirmation page by pressing CTRL + P or Command + P and press Enter on Print. The following page acts as proof of a successful application.<br> </p> 
+<h5>View my graduation status</h5> 
+<p>You can view your graduation status, name and address by Tabbing over to “View my graduation status” link on the My Academics page. The following page will display a table containing your program information, status, expected graduation term, name and address<br> </p> 
+<h5>Select minor</h5> 
+<p>If you are an Undergraduate student who has been taking courses towards a specific minor, you must add the minor to your program and plan after you have applied to graduate. Next, Tab and select the name of your academic program, for example “Bachelor of Arts” link and press Enter. To search for a Minor, Tab to the link image labeled ‘Search or Look up’ and press Enter to display a list of minors that you can select. The search results are displayed in a table that contains four columns with headers as followed: Academic Career, Academic Program, Academic Plan, Description. If the list is long and does not contain your minor, Tab to the “View All” link and press Enter to see full list. Find your Minor by pressing keyboard shortcut CTRL + F or VO-F, and press Enter. Next, Tab to the “Continue” link and press Enter. Please verify the contents of your page and ensure you have selected the right minor, otherwise Tab to the “Select Different Minor” link. If you have selected the right Minor, Tab to the “Submit Application” link and press Enter. The following page will display a submit confirmation.<br> </p> 
+<p><strong>There is also an expandable dropdown menu labeled “Other Academic” that contains the following list of topics:</strong></p> 
+<ul> 
+ <li>Academic Requirements</li> 
+ <li>Apply for Graduation</li> 
+ <li>Class Schedule</li> 
+ <li>Course History</li> 
+ <li>Enrolment: Add</li> 
+ <li>Enrolment: Drop</li> 
+ <li>Enrolment: Swap</li> 
+ <li>Grades</li> 
+ <li>Transcript: View Unofficial</li> 
+ <li>Transfer Credit Application</li> 
+ <li>Transfer Credit Report</li> 
+</ul> 
+<p>To access topics from this list, use VoiceOver shortcut VO-Space and Up and Down arrow keys. JAWS will label the dropdown as a Combo Group, press Enter on element and use Up and Down arrow keys to navigate topics. Once the topic is selected, press Tab to access the Go button and hit Enter to view page.</p> 
+<h3><a name="student-fees"></a>2. Student Fees</h3> 
+<ul> 
+ <li>Account Inquiry</li> 
+ <li>T2202A Inquiry (.PDF)</li> 
+ <li>T4A Inquiry (.PDF)</li> 
+ <li>Fees &amp; Enrolment Confirmation</li> 
+ <li>Account Statement (.PDF)</li> 
+ <li>Request a Refund</li> 
+</ul> 
+<p><strong>There is also an expandable dropdown menu labeled “Other Financial” that contains two topics:</strong></p> 
+<ul> 
+ <li>Charges Due</li> 
+ <li>Payments</li> 
+</ul> 
+<p>To access topics from this list, use VoiceOver shortcut VO-Space and Up and Down arrow keys. JAWS will label the dropdown as a Combo Group, press Enter on element and use Up and Down arrow keys to navigate topics. Once the topic is selected, press Tab to access the Go button and hit Enter to view page.</p> 
+<h3><a name="financial-aid"></a>3. Financial Aid</h3> 
+<p>This category contains one link “View Financial Aid”, hit Enter to view page.</p> 
+<p>This page contains a three column table that shows the Aid Years that scholarships, awards or bursaries have been issued to you. You can view information about the Aid Year if the year contains an active hyperlink.</p> 
+<p>To select a year, select Tab key to navigate through each active year, then press Enter to view information.<br> </p> 
+<p>To go back to the Student Center or RAMSS homepage, Tab over to the expandable menu labeled “Go to” (JAWS will label the menu as Combo Group). Use VO-Space on VoiceOver or Enter on JAWS, then use Up and Down arrow keys to select Academic Center, then Tab over to the Go button and hit Enter.</p> 
+<h3><a name="info"></a>4. Personal Information</h3> 
+<p>This category contains your personal contact Information and contains the following topics:</p> 
+<ul> 
+ <li>Names</li> 
+ <li>Home Address 
+  <ul> 
+   <li>If necessary you can change your Home and Mail address by hitting the Tab key and selecting Edit, where it will take you to a contact form. Hit OK to save changes.<br> </li> 
+  </ul> </li> 
+ <li>Home Phone 
+  <ul> 
+   <li>If necessary you can change, add or delete phone numbers. This page contains a table with 6 columns, with header rows labeled, Phone Type, Telephone, Ext (for Extension), Country, Preferred, and the last column header is blank, as the following rows contain Delete buttons to remove any rows.</li> 
+   <li>To edit a phone number, use the Tab key to navigate the rows. Once you have edited the row, Tab and select Save, then select OK on the following page to return back to Phone Numbers window.<br> </li> 
+   <li>To go back to the Student Center or RAMSS homepage, Tab over to the expandable dropdown menu labeled “Go to”, use VO-Space and Up and Down arrow keys to select Academic Center, then Tab over to the Go button and hit Enter.</li> 
+  </ul> </li> 
+ <li>Mailing Address 
+  <ul> 
+   <li>The Mailing Address link is the same as the Home Address. Refer to previous steps to edit information.<br> </li> 
+  </ul> </li> 
+ <li>Ryerson E-Mail 
+  <ul> 
+   <li>By default, all Ryerson communication will go to your Ryerson email address. To add another email address, Tab and select “Add an Email Address”.</li> 
+  </ul> </li> 
+</ul> 
+<h3><a name="admissions"></a>5. Admissions</h3> 
+<p>The Admissions section has three topics:</p> 
+<h4>Accept/Decline</h4> 
+<p>To accept or decline an offer of admission to a Ryerson program, Tab to “ACCEPT/DECLINE”. The following page contains three main primary link buttons.</p> 
+<ul> 
+ <li>I Accept Admission</li> 
+ <li>I Decline Admission</li> 
+ <li>Previous<br> </li> 
+</ul> 
+<h4>RTEP Registration</h4> 
+<p>On the Ryerson Test of English Proficiency (RTEP) page, you can register or cancel a registration. The page contains a table with available test dates. For those required to supply an English proficiency score, register for one of the available dates by reviewing the information in each row. The Register button is located in the last column of each row. Use VO-Right Arrow or CTRL + ALT + Arrow keys to navigate through table.<br> </p> 
+<h4>Other EP</h4> 
+<p>On the Other EP page, if required you must indicate when the results of a non-Ryerson English proficiency test will be received by Ryerson. There are four different test score dates you can submit, TOEFL, MELAB, CAEL, and IELTS. The form uses checkboxes and an empty text field. Using the VO-Right arrow key or the Up and Down arrow keys, select the checkmark associated to the test type, and insert the date in the corresponding text field in ddmmyyyyy format. When complete, use Tab key to select Submit link button.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#67159f79-ba5f-4c68-8c2d-80c5e4fd8476");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTwoColOneTwo section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+
+
+<div class="row">
+	
+		<div class="col-md-4">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ba55fa6b-3a7f-4536-9726-2a9c8c3dbf94" >
+
+    <p><strong><a href="/content/ryerson/equity.html">Office of the Vice President, Equity and Community Inclusion (OVPECI)</a><br> </strong>350 Victoria Street<br> Jorgenson Hall<br> Toronto, Ontario, Canada<br> M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ba55fa6b-3a7f-4536-9726-2a9c8c3dbf94");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-md-8">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resHtmlSnippet section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0" class="res-html-snippet">
+	
+	
+        <h2 class="sr-only"> Quick Links </h2> 
+<ul class="fa-ul"> 
+ <li><span class="fa-li fa fa-laptop" aria-hidden="true"></span><a href="/content/ryerson/accessibility/contact/technology-support/">Technology Support</a></li> 
+ <li><span class="fa-li fa fa-bullhorn" aria-hidden="true"></span><a href="/content/ryerson/facilities-management-development/service-requests/alerts/">Building Alerts &amp; Disruptions</a></li> 
+ <li><span class="fa-li fa fa-support" aria-hidden="true"></span><a href="/content/ryerson/studentlearningsupport/academic-accommodation-support/">Academic Accommodation Support</a></li> 
+ <li><span class="fa-li fa fa-book" aria-hidden="true"></span><a href="https://library.ryerson.ca/services/disabilities/">Library Accessibility Services</a></li> 
+ <li><span class="fa-li fa fa-sitemap" aria-hidden="true"></span><a href="/content/ryerson/accessibility/sitemap.html">Sitemap</a></li> 
+</ul>
+    
+	
+</div>
+
+<script>
+$("#rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 input, #rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 select").each(function(i, v) {
+	if (!$(this).hasClass('form-control')) {
+		if ($(this).is("input[type='file']")) {
+			$(this).attr('id', 'rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0_upload'+i).wrap("<span class='htmlSnippetForm'></span>").after("<label for='rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0_upload"+i+"' class='customInput'>Choose file</label>");
+		} else {
+			$(this).wrap("<span class='htmlSnippetForm'></span>").after("<span class='customInput'></span>");
+		}
+	}
+});
+</script>
+
+	<style>
+		#rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 iframe{ height:;}
+		@media screen and (min-width: 768px) { #rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 iframe{ height:;} }
+		@media screen and (min-width: 992px) { #rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 iframe{ height:;} }
+		@media screen and (min-width: 1200px) { #rye-c00641b2-f931-44f6-a6dc-59ddcb82c6a0 iframe{ height:;} }
+	</style>
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'NFBHFHCCPLPFEIMGBOLLAHGMAPGMOPHIEFGPHKDEPOOBGECLNFOAHFNMEJFCMGHFNDNBLDABAAEPKNGIACPAIGAEAACDAGMOHOIEHEPFIBGOFIEHJJAAMGHNGHACNHNK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'JKDPDPFGBOCFJKGACJBFMKIDBINAKLLDAAKAFAFDLJFOIDBBJHBALNLPGBMDDNGHJEJBODGAAADFCIFMLHEACFILAANFDMIMKIPDAOGKJAIBDJKIJADBLCIFJLJNIPOP',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

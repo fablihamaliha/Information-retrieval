@@ -1,0 +1,942 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-9', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/asc/xmlrpc.php" />
+
+  <title>Ryerson 7025 &#8211; Athletics and Intramurals &#8211; Ryerson Archives &amp; Special Collections</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Feed" href="https://library.ryerson.ca/asc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Comments Feed" href="https://library.ryerson.ca/asc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Ryerson 7025 &#8211; Athletics and Intramurals Comments Feed" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='child-pages-shortcode-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/css/child-pages-shortcode.min.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/public.css?ver=2.7' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/lightGallery.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dashicons.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='galleria-classic-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.css?ver=1.6.1' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=9.2' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/js/child-pages-shortcode.min.js?ver=1.1.4' id='child-pages-shortcode-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/lightGallery.min.js?ver=1.0' id='slickr-flickr-lightbox-js'></script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/galleria-1.6.1.min.js?ver=1.6.1' id='galleria-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.min.js?ver=1.6.1' id='galleria-classic-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/responsiveslides.min.js?ver=1.54' id='rslides-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/public.js?ver=2.7' id='slickr-flickr-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/asc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/asc/wp-json/wp/v2/posts/6405" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/asc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/asc/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Ryerson 7025 &#8211; Student Housing' href='https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/' />
+<link rel='next' title='First Edition Photobook Award, 2018 Award Winners' href='https://library.ryerson.ca/asc/2018/11/first-edition-photobook-award-2018-award-winners/' />
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/" />
+<link rel='shortlink' href='https://wp.me/p2HpLS-1Fj' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/asc/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/asc/custom-css/asc_style.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ryerson 7025 &#8211; Athletics and Intramurals" />
+<meta property="og:url" content="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/" />
+<meta property="og:description" content="This year marks a special Anniversary at Ryerson University &#8211; a double anniversary. It has been 70 years since the founding of the school and 25 years since it achieved University status. In …" />
+<meta property="article:published_time" content="2018-10-01T12:18:09+00:00" />
+<meta property="article:modified_time" content="2020-09-03T13:06:28+00:00" />
+<meta property="og:site_name" content="Ryerson Archives &amp; Special Collections" />
+<meta property="og:image" content="https://library.ryerson.ca/asc/files/RG95_1_CM51_6.jpg" />
+<meta property="og:image:width" content="696" />
+<meta property="og:image:height" content="550" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@ryersonlibrary" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+<meta name="twitter:text:title" content="Ryerson 7025 &#8211; Athletics and Intramurals" />
+<meta name="twitter:image" content="https://library.ryerson.ca/asc/files/RG95_1_CM51_6.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			#main {
+	margin-top: 1em;
+}
+span.h1 a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-6405 single-format-standard">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Ryerson Archives and Special Collections will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/asc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/asc">Ryerson Archives &amp; Special Collections</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/asc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-site-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261 dropdown"><a title="Research" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Research <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a title="Conduct Research" href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a title="Collection Highlights" href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a title="Language in Archival Descriptions" href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a title="Search our Collections" href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6156 dropdown"><a title="Exhibitions &amp; Events" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Exhibitions &#038; Events <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6159"><a title="Current Exhibits" href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6160"><a title="Previous Exhibits" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/">Previous Exhibits</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157 dropdown"><a title="About Us" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About Us <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a title="Archives" href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a title="Special Collections" href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a title="Donations" href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a title="Hours &amp; Location" href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158 dropdown"><a title="More" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">More <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a title="Records Management" href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a title="Ryerson History" href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a title="Links" href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a title="COVID-19 Archives" href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+<div class="container" style="margin-top: 1em;">
+
+  <div class="row">
+
+    <div id="primary" class="col-xs-12 col-md-9">
+          
+    
+        <nav id="nav-single">
+    <h3 class="assistive-text">Post navigation</h3>
+    <span class="nav-previous"><a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+    <span class="nav-next"><a href="https://library.ryerson.ca/asc/2018/11/first-edition-photobook-award-2018-award-winners/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+  </nav><!-- #nav-single -->
+
+<article id="post-6405" class="post-6405 post type-post status-publish format-standard hentry category-archives tag-ryerson-7025">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/">Ryerson 7025 &#8211; Athletics and Intramurals</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/" title="8:18 am" rel="bookmark"><time class="entry-date" datetime="2018-10-01T08:18:09-04:00" pubdate>October 1, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/" title="View all posts by Rosalynn" rel="author">Rosalynn</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>This year marks a special Anniversary at Ryerson University &#8211; a double anniversary. It has been 70 years since the founding of the school and 25 years since it achieved University status.</p>
+
+
+
+<p><em>In conjunction with University wide celebrations, The Ryerson University and Archives has created an exhibit, running June 1 &#8211; October 31, looking back at the history of the school. For each month the exhibit is open we will feature in our blog one of the 5 themes of the exhibit: <a href="https://library.ryerson.ca/asc/2018/05/ryerson-7025-five-pivotal-moments-in-ryersons-history/">5 pivotal moments in Ryerson&#8217;s history</a>, <a href="https://library.ryerson.ca/asc/2018/07/ryerson-7025-student-groups-and-clubs/">Student Groups and Clubs</a>, <a href="https://library.ryerson.ca/asc/2018/08/ryerson-7025-student-government/">Student Government</a>, <a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/">Student Housing,</a> and Athletics and Intramurals.</em></p>
+
+
+
+<p>For October&#8217;s blog and the final installment in our special anniversary series we will look at Athletics and Intramurals &#8211; the spaces and the evolution of inter-university sport and intramurals between 1948 and 1993.</p>
+
+
+
+<h3><strong>Athletic Spaces</strong></h3>
+
+
+
+<h4><strong><em>The First Gymnasium</em></strong></h4>
+
+
+
+<p>In 1950 Ryerson&#8217;s first gymnasium was located in a converted garage on Church Street. The space consisted of a spacious gymnasium with lockers and shower facilities, a social/common room, The Supply Store, a game room, a tuck shop, and a barber shop.</p>
+
+
+
+<div class="wp-block-image wp-image-6442 size-large"><figure class="aligncenter"><img data-attachment-id="6442" data-permalink="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/rg95_1_cm51_6/" data-orig-file="https://library.ryerson.ca/asc/files/RG95_1_CM51_6.jpg" data-orig-size="696,550" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="RG95_1_CM51_6" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/RG95_1_CM51_6-300x237.jpg" data-large-file="https://library.ryerson.ca/asc/files/RG95_1_CM51_6-600x474.jpg" loading="lazy" width="600" height="474" src="https://library.ryerson.ca/asc/files/RG95_1_CM51_6-600x474.jpg" alt="" class="wp-image-6442" srcset="https://library.ryerson.ca/asc/files/RG95_1_CM51_6-600x474.jpg 600w, https://library.ryerson.ca/asc/files/RG95_1_CM51_6-150x119.jpg 150w, https://library.ryerson.ca/asc/files/RG95_1_CM51_6-300x237.jpg 300w, https://library.ryerson.ca/asc/files/RG95_1_CM51_6.jpg 696w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption>Ryerson&#8217;s first gymnasium (RG 95.1 Athletics CM51-6)</figcaption></figure></div>
+
+
+
+<h4><em><strong>Kerr Hall Gymnasiums</strong></em></h4>
+
+
+
+<p>In the 1964 2 new gymnasiums and a swimming pool opened in the brand new Howard Kerr Hall. The two gymnasiums could be utilized as 3 full sized basketball courts, 9 badminton courts, or 6 volleyball courts. The 23 metre swimming pool was built with 2 one-metre diving boards and a locker room.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="468" alt="" class="wp-block-jetpack-slideshow_image wp-image-6443" data-id="6443" src="https://library.ryerson.ca/asc/files/RG95_1_623_63-600x468.jpg" srcset="https://library.ryerson.ca/asc/files/RG95_1_623_63-600x468.jpg 600w, https://library.ryerson.ca/asc/files/RG95_1_623_63-150x117.jpg 150w, https://library.ryerson.ca/asc/files/RG95_1_623_63-300x234.jpg 300w, https://library.ryerson.ca/asc/files/RG95_1_623_63.jpg 696w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Construction of Kerr Hall Pool, ca. 1962 (RG 95.1 Howard Kerr Hall)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="473" alt="" class="wp-block-jetpack-slideshow_image wp-image-6444" data-id="6444" src="https://library.ryerson.ca/asc/files/RG95_1_634_10-600x473.jpg" srcset="https://library.ryerson.ca/asc/files/RG95_1_634_10-600x473.jpg 600w, https://library.ryerson.ca/asc/files/RG95_1_634_10-150x118.jpg 150w, https://library.ryerson.ca/asc/files/RG95_1_634_10-300x236.jpg 300w, https://library.ryerson.ca/asc/files/RG95_1_634_10.jpg 689w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Upper Gym in Kerr Hall, ca. 1963 (RG 95.1 Howard Kerr Hall)</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<h4><strong><em>Ryerson Athletic Centre</em></strong></h4>
+
+
+
+<p>Opened in 1987, Ryerson&#8217;s unique underground Recreation and Athletics Centre provided 50,000 square feet of new facilities including 7 squash courts, two multipurpose gyms, a fitness training centre, a dance studio, a running track, and shower facilities. Built beneath the Kerr Hall Quadrangle, the two storey centre required a 30 foot excavation to accommodate it.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="393" alt="" class="wp-block-jetpack-slideshow_image wp-image-6445" data-id="6445" src="https://library.ryerson.ca/asc/files/RG395_40_06_01-600x393.jpg" srcset="https://library.ryerson.ca/asc/files/RG395_40_06_01-600x393.jpg 600w, https://library.ryerson.ca/asc/files/RG395_40_06_01-150x98.jpg 150w, https://library.ryerson.ca/asc/files/RG395_40_06_01-300x196.jpg 300w, https://library.ryerson.ca/asc/files/RG395_40_06_01-768x503.jpg 768w, https://library.ryerson.ca/asc/files/RG395_40_06_01.jpg 953w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Construction of Ryerson Athletic Centre in Kerr Hall Quad, ca. 1985 (RG 395.40.06)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="400" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6447" data-id="6447" src="https://library.ryerson.ca/asc/files/RG395_40_06_03-400x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG395_40_06_03-400x600.jpg 400w, https://library.ryerson.ca/asc/files/RG395_40_06_03-100x150.jpg 100w, https://library.ryerson.ca/asc/files/RG395_40_06_03-200x300.jpg 200w, https://library.ryerson.ca/asc/files/RG395_40_06_03.jpg 643w" sizes="(max-width: 400px) 100vw, 400px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Construction of interior of the Ryerson Athletic Centre, ca. 1985 (RG 395.40.06)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="400" alt="" class="wp-block-jetpack-slideshow_image wp-image-6448" data-id="6448" src="https://library.ryerson.ca/asc/files/RG395_40_06_04-600x400.jpg" srcset="https://library.ryerson.ca/asc/files/RG395_40_06_04-600x400.jpg 600w, https://library.ryerson.ca/asc/files/RG395_40_06_04-150x100.jpg 150w, https://library.ryerson.ca/asc/files/RG395_40_06_04-300x200.jpg 300w, https://library.ryerson.ca/asc/files/RG395_40_06_04-768x512.jpg 768w, https://library.ryerson.ca/asc/files/RG395_40_06_04.jpg 965w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Running track and court in Ryerson Athletic Centre, ca. 1985 (RG 395.40.06)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="400" alt="" class="wp-block-jetpack-slideshow_image wp-image-6446" data-id="6446" src="https://library.ryerson.ca/asc/files/RG395_40_06_02-600x400.jpg" srcset="https://library.ryerson.ca/asc/files/RG395_40_06_02-600x400.jpg 600w, https://library.ryerson.ca/asc/files/RG395_40_06_02-150x100.jpg 150w, https://library.ryerson.ca/asc/files/RG395_40_06_02-300x200.jpg 300w, https://library.ryerson.ca/asc/files/RG395_40_06_02-768x512.jpg 768w, https://library.ryerson.ca/asc/files/RG395_40_06_02.jpg 965w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Running Track and court in the Ryerson Athletic Centre ca. 1988 (RG 395.40.06)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="388" alt="" class="wp-block-jetpack-slideshow_image wp-image-6449" data-id="6449" src="https://library.ryerson.ca/asc/files/RG395_40_06_05-600x388.jpg" srcset="https://library.ryerson.ca/asc/files/RG395_40_06_05-600x388.jpg 600w, https://library.ryerson.ca/asc/files/RG395_40_06_05-150x97.jpg 150w, https://library.ryerson.ca/asc/files/RG395_40_06_05-300x194.jpg 300w, https://library.ryerson.ca/asc/files/RG395_40_06_05-768x496.jpg 768w, https://library.ryerson.ca/asc/files/RG395_40_06_05.jpg 972w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Atrium in Ryerson Athletic Centre ca. 1988 (RG 395.40.06)</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<h4><em><strong>Mattamy Athletic Centre</strong></em></h4>
+
+
+
+<p>The Mattamy Athletic Centre, previously known as Maple Leaf Gardens, features a second floor fitness centre and a hardwood dance studio. Home of the Ryerson Rams basketball, volleyball, and hockey teams since 2012, the building also houses a full sized ice rink that can accommodate 2500 seated fans, team rooms, and Coca-Cola Court &#8211; a multipurpose gym court.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="398" alt="" class="wp-block-jetpack-slideshow_image wp-image-6450" data-id="6450" src="https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37-600x398.jpg" srcset="https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37-600x398.jpg 600w, https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37-150x100.jpg 150w, https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37-300x199.jpg 300w, https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37-768x510.jpg 768w, https://library.ryerson.ca/asc/files/Carleton_EggyMLG-37.jpg 1807w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Eggy the Ram and Carleton the Bear in front of the future Mattamy Athletic Centre, formerly Maple Leaf Gardens (Ryerson Archives digital assets)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="400" alt="" class="wp-block-jetpack-slideshow_image wp-image-6466" data-id="6466" src="https://library.ryerson.ca/asc/files/Clifton_Li-600x400.jpg" srcset="https://library.ryerson.ca/asc/files/Clifton_Li-600x400.jpg 600w, https://library.ryerson.ca/asc/files/Clifton_Li-150x100.jpg 150w, https://library.ryerson.ca/asc/files/Clifton_Li-300x200.jpg 300w, https://library.ryerson.ca/asc/files/Clifton_Li-768x512.jpg 768w, https://library.ryerson.ca/asc/files/Clifton_Li.jpg 2000w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Puck drop by Prime Minister Stephen Harper at the official opening of the Mattamy Athletic Centre, 2012. Photographer: Clifton Li (Ryerson Archives Digital Assets)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="561" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6451" data-id="6451" src="https://library.ryerson.ca/asc/files/RG30_116-561x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_116-561x600.jpg 561w, https://library.ryerson.ca/asc/files/RG30_116-140x150.jpg 140w, https://library.ryerson.ca/asc/files/RG30_116-281x300.jpg 281w, https://library.ryerson.ca/asc/files/RG30_116-768x821.jpg 768w, https://library.ryerson.ca/asc/files/RG30_116.jpg 1186w" sizes="(max-width: 561px) 100vw, 561px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Front cover of the 2012-2013 Ryerson Athletics year in review report (RG 30.116)</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<h3><strong>Athletics</strong></h3>
+
+
+
+<p>The first sports teams organized at Ryerson in 1948 were men&#8217;s hockey, men&#8217;s basketball and co-ed swimming, and co-ed equestrian. The men&#8217;s hockey team was the first athletics group to compete wearing the blue, gold, and white uniform. In 1949 a women&#8217;s hockey team was established and played at Ravina Gardens in High Park.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="385" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6452" data-id="6452" src="https://library.ryerson.ca/asc/files/RG30_027-385x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_027-385x600.jpg 385w, https://library.ryerson.ca/asc/files/RG30_027-96x150.jpg 96w, https://library.ryerson.ca/asc/files/RG30_027-192x300.jpg 192w, https://library.ryerson.ca/asc/files/RG30_027-768x1198.jpg 768w, https://library.ryerson.ca/asc/files/RG30_027.jpg 811w" sizes="(max-width: 385px) 100vw, 385px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Football program &#8211; RIT vs RMC, Saturday October 20, 1962 (RG 30.27)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="460" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6454" data-id="6454" src="https://library.ryerson.ca/asc/files/RG95_1_Basketball_195758-460x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG95_1_Basketball_195758-460x600.jpg 460w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_195758-115x150.jpg 115w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_195758-230x300.jpg 230w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_195758.jpg 528w" sizes="(max-width: 460px) 100vw, 460px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Women&#8217;s basketball team playing in the old gymnasium, ca. 1957 (RG 95.1 Basketball)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="477" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6455" data-id="6455" src="https://library.ryerson.ca/asc/files/RG95_1_Basketball_196263-477x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG95_1_Basketball_196263-477x600.jpg 477w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_196263-119x150.jpg 119w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_196263-238x300.jpg 238w, https://library.ryerson.ca/asc/files/RG95_1_Basketball_196263.jpg 561w" sizes="(max-width: 477px) 100vw, 477px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Men&#8217;s Basketball team on the court, ca. 1962. (RG 95.1 Basketball)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="448" alt="" class="wp-block-jetpack-slideshow_image wp-image-6456" data-id="6456" src="https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960-600x448.jpg" srcset="https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960-600x448.jpg 600w, https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960-150x112.jpg 150w, https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960-300x224.jpg 300w, https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960-768x573.jpg 768w, https://library.ryerson.ca/asc/files/RG95_1_Soccer_195960.jpg 938w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Zebras men&#8217;s soccer team, ca. 1959 (RG 95.1 Soccer)</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<p>By 1993, Ryerson Athletics programs were much more developed. The teams competed nationally in the Canadian Inter-university Athletic Union in hockey, basketball, volleyball, soccer and swimming. Other Ryerson sports teams included badminton, fencing, squash, as well as men&#8217;s hockey and women&#8217;s figure skating.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="486" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6460" data-id="6460" src="https://library.ryerson.ca/asc/files/RG30_70-e1538491343781-486x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_70-e1538491343781-486x600.jpg 486w, https://library.ryerson.ca/asc/files/RG30_70-e1538491343781-122x150.jpg 122w, https://library.ryerson.ca/asc/files/RG30_70-e1538491343781-243x300.jpg 243w, https://library.ryerson.ca/asc/files/RG30_70-e1538491343781-768x948.jpg 768w, https://library.ryerson.ca/asc/files/RG30_70-e1538491343781.jpg 1268w" sizes="(max-width: 486px) 100vw, 486px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Athletics and Recreation brochure, ca. 1993 (RG 30.70)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="467" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6457" data-id="6457" src="https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492-467x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492-467x600.jpg 467w, https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492-117x150.jpg 117w, https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492-234x300.jpg 234w, https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492-768x987.jpg 768w, https://library.ryerson.ca/asc/files/RG30_002_01-e1538491414492.jpg 1265w" sizes="(max-width: 467px) 100vw, 467px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Inter-University Athletics annual report for 1993/1994 (RG 30.002.001)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="199" alt="" class="wp-block-jetpack-slideshow_image wp-image-6459" data-id="6459" src="https://library.ryerson.ca/asc/files/RG30_002_02_02-600x199.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_002_02_02-600x199.jpg 600w, https://library.ryerson.ca/asc/files/RG30_002_02_02-150x50.jpg 150w, https://library.ryerson.ca/asc/files/RG30_002_02_02-300x100.jpg 300w, https://library.ryerson.ca/asc/files/RG30_002_02_02-768x255.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Rams Inter-University sports schedules. 1993-1994 (RG 30.002.001)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="600" height="192" alt="" class="wp-block-jetpack-slideshow_image wp-image-6458" data-id="6458" src="https://library.ryerson.ca/asc/files/RG30_002_02_01-600x192.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_002_02_01-600x192.jpg 600w, https://library.ryerson.ca/asc/files/RG30_002_02_01-150x48.jpg 150w, https://library.ryerson.ca/asc/files/RG30_002_02_01-300x96.jpg 300w, https://library.ryerson.ca/asc/files/RG30_002_02_01-768x246.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<h3><strong>Intramurals</strong></h3>
+
+
+
+<p>Intramural programs were designed with fun and creation in mind. There were no try-outs or skill requirements to join.</p>
+
+
+
+<p>Because of a delay in the construction of Ryerson&#8217;s gymnasium on Church Street, the Athletics Association was not able to organize extensive intramural programs. By the Fall of 1951 intramural programs for basketball, badminton and volleyball were held in the gym, while hockey, swimming, riding, curling and skiing took place off campus.</p>
+
+
+
+<div class="wp-block-image wp-image-6453 size-large"><figure class="aligncenter"><img data-attachment-id="6453" data-permalink="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/rg95_01_athletics_50-2/" data-orig-file="https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2.jpg" data-orig-size="1385,1130" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="RG95_01_Athletics_50-2" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-300x245.jpg" data-large-file="https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-600x490.jpg" loading="lazy" width="600" height="490" src="https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-600x490.jpg" alt="" class="wp-image-6453" srcset="https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-600x490.jpg 600w, https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-150x122.jpg 150w, https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-300x245.jpg 300w, https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2-768x627.jpg 768w, https://library.ryerson.ca/asc/files/RG95_01_Athletics_50-2.jpg 1385w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption>Ryerson Riding Club at Whitewood Stables, ca. 1950 (RG 95.1 Clubs)</figcaption></figure></div>
+
+
+
+<p>By 1993 over 3000 students participated in 40 different intramural programs. Leagues were divided into women&#8217;s, co-ed, and men&#8217;s groups and programs included aerobics, innertube water polo and line dancing.</p>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="470" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6461" data-id="6461" src="https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285-470x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285-470x600.jpg 470w, https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285-117x150.jpg 117w, https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285-235x300.jpg 235w, https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285-768x981.jpg 768w, https://library.ryerson.ca/asc/files/RG30_16_01_1995-e1538491391285.jpg 1250w" sizes="(max-width: 470px) 100vw, 470px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Ryerson Intramurals fall schedule, 1995 (RG 30.16)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="473" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6462" data-id="6462" src="https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361-473x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361-473x600.jpg 473w, https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361-118x150.jpg 118w, https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361-236x300.jpg 236w, https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361-768x975.jpg 768w, https://library.ryerson.ca/asc/files/RG30_16_02_1995-e1538491403361.jpg 1258w" sizes="(max-width: 473px) 100vw, 473px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Snow Football intramural poster, 1995 (RG 30.16)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="460" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6463" data-id="6463" src="https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177-460x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177-460x600.jpg 460w, https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177-115x150.jpg 115w, https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177-230x300.jpg 230w, https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177-768x1002.jpg 768w, https://library.ryerson.ca/asc/files/RG30_16_03_1995-e1538491373177.jpg 1233w" sizes="(max-width: 460px) 100vw, 460px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Innertube waterpolo intramural poster, 1995 (RG 30.16)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="455" height="600" alt="" class="wp-block-jetpack-slideshow_image wp-image-6464" data-id="6464" src="https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399-455x600.jpg" srcset="https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399-455x600.jpg 455w, https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399-114x150.jpg 114w, https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399-228x300.jpg 228w, https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399-768x1012.jpg 768w, https://library.ryerson.ca/asc/files/RG30_16_04_1995-e1538491362399.jpg 1233w" sizes="(max-width: 455px) 100vw, 455px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Co-ed Basketball intramural poster, 1995 (RG 30.16)</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<p>To learn more about Athletics and Intramurals at Ryerson &#8211; please visit the Ryerson University Archives and Special Collections located on the 4th floor of the library in Room LIB404.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-6405" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/archives/" rel="category tag">Archives</a> and tagged <a href="https://library.ryerson.ca/asc/tag/ryerson-7025/" rel="tag">Ryerson 7025</a> by <a href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/">Rosalynn</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2018/10/ryerson-7025-athletics-and-intramurals/" title="Permalink to Ryerson 7025 &#8211; Athletics and Intramurals" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-6405 -->
+	<div id="comments">
+	
+	
+	
+	
+		<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply					<small><a rel="nofollow" id="cancel-comment-reply-link" href="/asc/2018/10/ryerson-7025-athletics-and-intramurals/#respond" style="display:none;">Cancel reply</a></small>
+				</h3>
+						<form id="commentform" class="comment-form">
+				<iframe
+					title="Comment Form"
+					src="https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&#038;postid=6405&#038;comment_registration=0&#038;require_name_email=1&#038;stc_enabled=1&#038;stb_enabled=1&#038;show_avatars=1&#038;avatar_default=blank&#038;greeting=Leave+a+Reply&#038;greeting_reply=Leave+a+Reply+to+%25s&#038;color_scheme=light&#038;lang=en_US&#038;jetpack_version=9.2&#038;show_cookie_consent=10&#038;has_cookie_consent=0&#038;token_key=%3Bnormal%3B&#038;sig=50a091cb90e0819fab689cb171db85394cff6867#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F"
+											name="jetpack_remote_comment"
+						style="width:100%; height: 430px; border:0;"
+										class="jetpack_remote_comment"
+					id="jetpack_remote_comment"
+					sandbox="allow-same-origin allow-top-navigation allow-scripts allow-forms allow-popups"
+				>
+									</iframe>
+									<!--[if !IE]><!-->
+					<script>
+						document.addEventListener('DOMContentLoaded', function () {
+							var commentForms = document.getElementsByClassName('jetpack_remote_comment');
+							for (var i = 0; i < commentForms.length; i++) {
+								commentForms[i].allowTransparency = false;
+								commentForms[i].scrolling = 'no';
+							}
+						});
+					</script>
+					<!--<![endif]-->
+							</form>
+		</div>
+
+		
+		<input type="hidden" name="comment_parent" id="comment_parent" value="" />
+
+		
+</div><!-- #comments -->
+
+    </div><!-- #primary -->
+
+    
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: Student Voices from 2000</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/">A Comic Book Collection&#8230; from the 1940s!</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-the-expo-watch-camera/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; The Expo Watch Camera</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-jack-layton-library/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; Jack Layton Library</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-6"><a href="https://library.ryerson.ca/asc/category/asc/" title="Posts relating to both Archives and Special Collections">All</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://library.ryerson.ca/asc/category/archives/" title="Posts related to the Archives">Archives</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://library.ryerson.ca/asc/category/contests/">Contests</a>
+</li>
+	<li class="cat-item cat-item-186"><a href="https://library.ryerson.ca/asc/category/did-you-know/">Did you know&#8230;</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://library.ryerson.ca/asc/category/exhibits/">Exhibits</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/">Feature from the Collections</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/">Points of Interest</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="https://library.ryerson.ca/asc/category/sc/">Special Collections</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://library.ryerson.ca/asc/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-4">Archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://library.ryerson.ca/asc/2020/11/'> November 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/09/'> September 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/08/'> August 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/07/'> July 2020 &nbsp;(5)</option>
+	<option value='https://library.ryerson.ca/asc/2020/06/'> June 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/05/'> May 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/04/'> April 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/01/'> January 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2019/11/'> November 2019 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2019/05/'> May 2019 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/11/'> November 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/10/'> October 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/09/'> September 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/08/'> August 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/07/'> July 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/05/'> May 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/01/'> January 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/10/'> October 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/08/'> August 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/04/'> April 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/01/'> January 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/07/'> July 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/05/'> May 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2016/03/'> March 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/02/'> February 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/01/'> January 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/12/'> December 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/10/'> October 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/09/'> September 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/08/'> August 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/07/'> July 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/06/'> June 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/05/'> May 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/04/'> April 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/03/'> March 2015 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2015/02/'> February 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2014/07/'> July 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/04/'> April 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/03/'> March 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/02/'> February 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/01/'> January 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/11/'> November 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/10/'> October 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/09/'> September 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/08/'> August 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/04/'> April 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/03/'> March 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/01/'> January 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/12/'> December 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/10/'> October 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/06/'> June 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/02/'> February 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/01/'> January 2012 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/11/'> November 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/10/'> October 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/09/'> September 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/07/'> July 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/06/'> June 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/05/'> May 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/04/'> April 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/02/'> February 2011 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2011/01/'> January 2011 &nbsp;(4)</option>
+	<option value='https://library.ryerson.ca/asc/2010/12/'> December 2010 &nbsp;(1)</option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</aside>
+  </div><!-- #secondary .widget-area -->
+
+  </div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson Archives & Special Collections</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LIB 404">LIB 404</a><br>            
+                    350 Victoria Street, 4th Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000 ext. 7027<br>                    Email: <a href="mailto:asc@ryerson.ca">asc@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+          
+                    
+          
+          
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/asc/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/library.ryerson.ca\/asc\/2018\/10\/ryerson-7025-athletics-and-intramurals\/":6405};
+	</script>
+					<div id="sharing_email" style="display: none;">
+		<form action="/asc/2018/10/ryerson-7025-athletics-and-intramurals/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://library.ryerson.ca/asc/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+            <script type="text/javascript">
+            var sub = document.getElementById('submit');
+            document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+            document.getElementById('submit').tabIndex = 6;
+            if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+                document.getElementById('comment').value = 
+                    _recaptcha_wordpress_savedcomment;
+            }
+            </script><link rel='stylesheet' id='jetpack-block-slideshow-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/blocks/slideshow/view.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15' id='lodash-js'></script>
+<script id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/dom-ready.min.js?ver=db63eb2f693cb5e38b083946b14f0684' id='wp-dom-ready-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/escape-html.min.js?ver=f7b0e4c8bb987c1ab79bdda0d9db465b' id='wp-escape-html-js'></script>
+<script id='jetpack-block-slideshow-js-extra'>
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/blocks/slideshow/view.js?ver=9.2' id='jetpack-block-slideshow-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/library.ryerson.ca\/asc\/wp-admin\/admin-ajax.php","nonce":"90def50391","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F","blog_id":"7","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2' id='jetpack-carousel-js'></script>
+<script async="async" src='https://library.ryerson.ca/asc/wp-content/plugins/akismet/_inc/form.js?ver=4.1.7' id='akismet-form-js'></script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":""};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=9.2' id='sharing-js-js'></script>
+<script id='sharing-js-js-after'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-tumblr', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+				// window.location.reload() doesn't respect the Hash in IE
+				window.location.hash = window.location.hash;
+			}
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			(function () {
+				var comm_par_el = document.getElementById( 'comment_parent' ),
+					comm_par = ( comm_par_el && comm_par_el.value ) ? comm_par_el.value : '',
+					frame = document.getElementById( 'jetpack_remote_comment' ),
+					tellFrameNewParent;
+
+				tellFrameNewParent = function () {
+					if ( comm_par ) {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&postid=6405&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=blank&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.2&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=50a091cb90e0819fab689cb171db85394cff6867#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+					} else {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=39899844&postid=6405&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=blank&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.2&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=50a091cb90e0819fab689cb171db85394cff6867#parent=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2018%2F10%2Fryerson-7025-athletics-and-intramurals%2F";
+					}
+				};
+
+				
+				if ( 'undefined' !== typeof addComment ) {
+					addComment._Jetpack_moveForm = addComment.moveForm;
+
+					addComment.moveForm = function ( commId, parentId, respondId, postId ) {
+						var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ),
+							cancelClick, cancel;
+
+						if ( false === returnValue ) {
+							cancel = document.getElementById( 'cancel-comment-reply-link' );
+							cancelClick = cancel.onclick;
+							cancel.onclick = function () {
+								var cancelReturn = cancelClick.call( this );
+								if ( false !== cancelReturn ) {
+									return cancelReturn;
+								}
+
+								if ( ! comm_par ) {
+									return cancelReturn;
+								}
+
+								comm_par = 0;
+
+								tellFrameNewParent();
+
+								return cancelReturn;
+							};
+						}
+
+						if ( comm_par == parentId ) {
+							return returnValue;
+						}
+
+						comm_par = parentId;
+
+						tellFrameNewParent();
+
+						return returnValue;
+					};
+				}
+
+				
+				// Do the post message bit after the dom has loaded.
+				document.addEventListener( 'DOMContentLoaded', function () {
+					var iframe_url = "https:\/\/jetpack.wordpress.com";
+					if ( window.postMessage ) {
+						if ( document.addEventListener ) {
+							window.addEventListener( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						} else if ( document.attachEvent ) {
+							window.attachEvent( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						}
+					}
+				})
+
+			})();
+		</script>
+
+		
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'FKMENNIAFAAGBCPEKKEDOEHAIOHLMAJNNPCJDFPJHEHLMAJILJCDGLAMKBPGIIICPFOBCGJPAAFMPEABDNPACNPMAAIHDCFPOPHGEGIOOMJKNCOPOHNLNJIEENMNFFHA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

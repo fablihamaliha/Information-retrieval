@@ -1,0 +1,4093 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/ccs/services/software/security/RU-VPN2-windows-StudentVPN/" >
+		<meta property="og:title" content="Student VPN - GlobalProtect Installation for Windows" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/ccs/services/software/security/RU-VPN2-windows-StudentVPN/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Student VPN - GlobalProtect Installation for Windows"> 
+		 
+        
+        
+        <title>Student VPN - GlobalProtect Installation for Windows - Computing and Communications Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/ccs/">
+				        Computing and Communications Services (CCS)
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/ccs.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#e2298a56-103f-42de-ad39-90ff5a2ed1d5" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="e2298a56-103f-42de-ad39-90ff5a2ed1d5">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/ccs/about/'>About CCS</a>
+									</li>
+								
+									<li class="active">
+										<a href='/ccs/services/'>Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/ccs/contact/'>Contact Us</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/ccs/services.html">Services</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#359867f0-5cd4-4413-a699-a8c280d3212e" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="359867f0-5cd4-4413-a699-a8c280d3212e">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning.html'>Email and Learning Systems</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/accounts.html'>Accounts</a>
+</li>
+<li class="list-group-item parent">
+<a href='/ccs/services/software.html'>Software</a>
+<ul class="list-group">
+<li class="list-group-item parent">
+<a href='/ccs/services/software/security.html'>Security Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/microsoft.html'>Microsoft</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/adobe.html'>Adobe Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/statisticalapps.html'>Statistical Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/phonesandfax.html'>Software for Phones and Fax</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/math.html'>Mathematical and Computational Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/other.html'>Other Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/licensing.html'>Site Licensing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/accessibility.html'>Accessibility Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/Virtual_Applications.html'>Virtual Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software/bookmarks-backup.html'>Backup Bookmarks</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/labsandprinting.html'>Labs & Printing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity.html'>IT Security</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections.html'>Network and Wireless</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/hardware.html'>Hardware</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/mediaservices.html'>Media Services</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/webcontentmgmt.html'>Web and Content Management</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/phonesfaxing.html'>Telephones and Faxing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/applications.html'>Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/cabling.html'>Cabling</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/chargeableservices.html'>Fees and Chargebacks</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/AtoZcatalogue.html'>Service Catalogue</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Student VPN - GlobalProtect Installation for Windows</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resimagetext resImageText">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="153cc37c-8e85-42cb-b91f-b5761bc5488f">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/Section-Banners/Software-Banner-2.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#153cc37c-8e85-42cb-b91f-b5761bc5488f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "153cc37c-8e85-42cb-b91f-b5761bc5488f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c00ecb87-f794-4e9a-8227-e483e2e6eafa" >
+
+    <p>Use Student VPN for a secure connection to Ryerson's Student Labs and other course-specific systems via the Internet. To use Student VPN, you will need to install and use client software called GlobalProtect which allows authorized users access. It provides further security by creating a Virtual Private Network (VPN), which is like a “secure tunnel” through which all communication between the user PC and Ryerson must pass. All data transmissions are “encrypted” so that they cannot be read while travelling across the Internet.&nbsp; GlobalProtect runs on your PC, laptop computer or mobile device, protecting you with the same security policies that protect the sensitive resources on Ryerson University network.</p> 
+<p>Requirements</p> 
+<ul> 
+ <li>Access to the Internet</li> 
+ <li>A valid my.ryerson username and password</li> 
+ <li>Two-factor authentication enabled&nbsp;for "applications that require two-factor authentication"</li> 
+</ul> 
+<p>Note: If you do not meet or understand the above requirements, contact the CCS Help Desk for information before proceeding. &nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c00ecb87-f794-4e9a-8227-e483e2e6eafa");});</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Download, Install and use Student VPN:
+    
+        <i aria-hidden='true' class='icon fa fa-info-circle'></i>
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="bc2d5043-7610-4ed8-87b2-87fd0a36b0e9" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("bc2d5043-7610-4ed8-87b2-87fd0a36b0e9", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534770907478-step-1--setup-two-factor-authentication" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534770907478-step-1--setup-two-factor-authentication" aria-controls="accordion-content-1534770907478-step-1--setup-two-factor-authentication" aria-expanded="false">
+                            Step 1: Setup Two-Factor Authentication
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534770907478-step-1--setup-two-factor-authentication" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534770907478-step-1--setup-two-factor-authentication">
+                    <div class="panel-body ">
+                        <div class="1534770907478 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="ae719ad5-afcf-4242-91f4-b25725aad5db" >
+
+    <p>Before you download and install the Student VPN,&nbsp;you will need to setup two-factor authentication. &nbsp;Please complete the instructions outlined on the&nbsp;<a href="/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication.html">two-factor authentication webpage</a>&nbsp;before proceeding with the download and install of Student VPN, GlobalProtect.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#ae719ad5-afcf-4242-91f4-b25725aad5db");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534770908430-step-2--download-the-student-vpn--globalprotect-software-client" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534770908430-step-2--download-the-student-vpn--globalprotect-software-client" aria-controls="accordion-content-1534770908430-step-2--download-the-student-vpn--globalprotect-software-client" aria-expanded="false">
+                            Step 2: Download the Student VPN, GlobalProtect Software Client
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534770908430-step-2--download-the-student-vpn--globalprotect-software-client" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534770908430-step-2--download-the-student-vpn--globalprotect-software-client">
+                    <div class="panel-body ">
+                        <div class="1534770908430 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="64c33f53-f659-4ffb-b642-5a3a31e9ef0f">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>1. There are two versions of the Student VPN client for Windows available for download.&nbsp; Please select either <a href="https://net.ryerson.ca/global-protect/getmsi.esp?version=64&amp;platform=windows">Student VPN (64bit)</a>&nbsp;or <a href="https://net.ryerson.ca/global-protect/getmsi.esp?version=32&amp;platform=windows">Student VPN (32bit)</a>.<br> <br> Determine which version of Windows your computer is running and select the correct Student VPN client software. &nbsp;You cannot install the 64-bit client on a 32-bit version of the Windows or vice versa.<strong><br> </strong><br> <strong><u>Check operating system information in Windows 7:</u></strong><br> Click on&nbsp;<strong>Windows</strong>&nbsp;<strong>Control Panel</strong>&nbsp;and click<strong>&nbsp;System</strong>. &nbsp;On the<strong>&nbsp;</strong>View basic information about your computer<strong>&nbsp;</strong>screen, the&nbsp;<strong>System type</strong>&nbsp;shows which version of Windows is installed.</p> 
+<p><strong><strong>Check operating system information in Windows 10:</strong><br> </strong>Locate on your desktop,<strong> <img src="/content/dam/ccs/services/software/security-software/RU-VPN2/ThisPC.PNG" alt="This PC icon found on the Windows desktop"></strong>icon.&nbsp; Right click and select&nbsp;<strong>Properties</strong>.&nbsp; Look for&nbsp;<strong>System type</strong>&nbsp;to see if you are running a 32-bit or 64-bit version of Windows.&nbsp;</p> 
+<p>Select the appropriate software for your computer.<br> - 32-bit Operation System, download Student VPN 32-bit.<br> - 64-bit Operating System, download Student VPN 64-bit.</p> 
+<p>2. Save this file to your desktop or your Local Disk (C:).</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Version.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Version.PNG" title="Window's version screen" alt="Window's version screen"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#64c33f53-f659-4ffb-b642-5a3a31e9ef0f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "64c33f53-f659-4ffb-b642-5a3a31e9ef0f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534770909205-step-3--install-student-vpn-using-globalprotect" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534770909205-step-3--install-student-vpn-using-globalprotect" aria-controls="accordion-content-1534770909205-step-3--install-student-vpn-using-globalprotect" aria-expanded="false">
+                            Step 3: Install Student VPN using GlobalProtect
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534770909205-step-3--install-student-vpn-using-globalprotect" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534770909205-step-3--install-student-vpn-using-globalprotect">
+                    <div class="panel-body ">
+                        <div class="1534770909205 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="46bba035-c276-42be-976f-6382e130eaa7">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>To use Student VPN, you will need to install and use the GlobalProtect client software. &nbsp;This is the software included in the files you downloaded.</p> 
+<p>1. Before install, make sure that the GlobalProtect.msi or&nbsp;GlobalProtect64.msi<strong>&nbsp;</strong>file is located on your desktop.</p> 
+<p>﻿2. Locate the downloaded file. Install the GlobalProtect client by double-clicking on the file <strong>GlobalProtect.msi</strong> or <strong>GlobalProtect64.msi</strong> and select <strong>Run as administrator</strong>.<br> <br> Note: Running as administrator is mandatory. If you are not in the administrator group, please get help from your system administrator.&nbsp;<br> </p> 
+<p>3. If the<strong>&nbsp;</strong>Security Warning&nbsp;screen will appear, click&nbsp;<strong>Run</strong>&nbsp;to continue.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Version.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-SecurityWarning.PNG" title="User control access screen to allow GlobalProtect to be installed" alt="User control access screen to allow GlobalProtect to be installed"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#46bba035-c276-42be-976f-6382e130eaa7');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "46bba035-c276-42be-976f-6382e130eaa7"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="65713d2e-8a73-4a03-bd95-cc10dd5a3c49">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>4.&nbsp;At the&nbsp;<strong>Welcome to the GlobalProtect Setup Wizard</strong> screen,&nbsp;click&nbsp;<strong>Next.</strong></p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-1.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-1.PNG" title="GlobalProtect Wizard begin installation" alt="GlobalProtect Wizard begin installation"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#65713d2e-8a73-4a03-bd95-cc10dd5a3c49');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "65713d2e-8a73-4a03-bd95-cc10dd5a3c49"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="94ac4464-7ab3-4ac5-abd4-0a79d279760c">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>5.&nbsp;At the&nbsp;<strong>Select Installation Folder</strong>&nbsp;window<strong>,</strong>&nbsp;accept the folder and click<strong>&nbsp;Next</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Version.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-2.PNG" title="Prompt to Select Installation Folder" alt="Prompt to Select Installation Folder"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#94ac4464-7ab3-4ac5-abd4-0a79d279760c');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "94ac4464-7ab3-4ac5-abd4-0a79d279760c"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="950cffcf-9ef2-4721-a537-9cc6b836122b">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>6.&nbsp;At the&nbsp;<strong>Confirm Installation&nbsp;</strong>screen, click&nbsp;<strong>Next</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Version.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-3.PNG" title="Confirm Installation" alt="Confirm Installation"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#950cffcf-9ef2-4721-a537-9cc6b836122b');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "950cffcf-9ef2-4721-a537-9cc6b836122b"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="4a96f4ce-aea7-4cc5-8c71-5261c2df70dc">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>7. If prompted accept the installation for the Palo Alto Networks software, click&nbsp;<strong>Yes</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU_VPN2-Win-VerifyPublisher.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU_VPN2-Win-VerifyPublisher.PNG" title="Verify Publisher and accept installation" alt="Verify Publisher and accept installation"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#4a96f4ce-aea7-4cc5-8c71-5261c2df70dc');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "4a96f4ce-aea7-4cc5-8c71-5261c2df70dc"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="ac0823b0-133d-47a0-bde5-fa5f6c7dc4b6">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>8.&nbsp;GlobalProtect will begin installation.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-4.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-4.PNG" title="Installation begins" alt="Installation begins"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#ac0823b0-133d-47a0-bde5-fa5f6c7dc4b6');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "ac0823b0-133d-47a0-bde5-fa5f6c7dc4b6"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="914eca29-ed28-474c-af3b-adacebf0df25">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>9.&nbsp;At the&nbsp;<strong>Installation Complete</strong>&nbsp;screen, click&nbsp;<strong>Close</strong>&nbsp;to end the installation.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-5.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Install-5.PNG" title="Installation Complete" alt="Installation Complete"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#914eca29-ed28-474c-af3b-adacebf0df25');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "914eca29-ed28-474c-af3b-adacebf0df25"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534770909974-step-4--configure-and-run-globalprotect-for-the-first-time" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534770909974-step-4--configure-and-run-globalprotect-for-the-first-time" aria-controls="accordion-content-1534770909974-step-4--configure-and-run-globalprotect-for-the-first-time" aria-expanded="false">
+                            Step 4: Configure and Run GlobalProtect for the First Time
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534770909974-step-4--configure-and-run-globalprotect-for-the-first-time" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534770909974-step-4--configure-and-run-globalprotect-for-the-first-time">
+                    <div class="panel-body ">
+                        <div class="1534770909974 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="07243c31-3a17-4661-9fb8-8b30c3e6bfe0">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>1.&nbsp;After installation, GlobalProtect will open a Welcome window at the bottom right of your taskbar. At the <strong>Welcome to GlobalProtect</strong> window enter the&nbsp;&nbsp;portal address as <strong>studentvpn.ryerson.ca </strong>and click&nbsp;<strong>Connect.</strong></p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-1-studentvpn.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-1-studentvpn.PNG" title="At the GlobalProtect Welcome window enter the Portal address &quot;net.ryerson.ca&quot; and click Continue." alt="At the GlobalProtect Welcome window enter the Portal address &quot;net.ryerson.ca&quot; and click Continue."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#07243c31-3a17-4661-9fb8-8b30c3e6bfe0');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "07243c31-3a17-4661-9fb8-8b30c3e6bfe0"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="0c48ab95-87b5-42d9-9794-f6b64b0d8a14">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>2. At&nbsp;<strong>Ryerson Login</strong>&nbsp;screen&nbsp;enter your<strong>&nbsp;my.ryerson username&nbsp;</strong>and&nbsp;<strong>password.</strong>&nbsp;Click&nbsp;<strong>Log in</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-2.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-2.PNG" title="Enter your my.ryerson username and password" alt="Enter your my.ryerson username and password"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#0c48ab95-87b5-42d9-9794-f6b64b0d8a14');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "0c48ab95-87b5-42d9-9794-f6b64b0d8a14"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="3986b5e7-c22e-4c2d-a4a9-0b4d6f67cede">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>3.&nbsp;Next you will be prompted for your Two-Factor Verification Code.&nbsp; You can select the checkbox to trust this browser for 30 days, so that you will not be prompted during that time period.</p> 
+<p>Note: When GlobalProtect software is updating or if your PC is idle; GlobalProtect may need to reconnect and you may be prompted for the Verification Password again.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-4.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-4.PNG" title="Enter your two-Factor One Time Password" alt="Enter your two-Factor One Time Password"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#3986b5e7-c22e-4c2d-a4a9-0b4d6f67cede');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "3986b5e7-c22e-4c2d-a4a9-0b4d6f67cede"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="f1fe1976-9413-4249-9455-59d7046b57ab">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>4. A Global Protect&nbsp;<strong>Connected</strong>&nbsp;window displays when connection is made.&nbsp; You can now access sites that require VPN.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-7.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-7.PNG" alt="GlobalProtect, Connected window displays when connection is made"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#f1fe1976-9413-4249-9455-59d7046b57ab');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "f1fe1976-9413-4249-9455-59d7046b57ab"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="93ef04a8-a9f0-491c-8eb1-fd52399fe7d5">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>For<strong>&nbsp;</strong>internal connections&nbsp;you will see this screen:</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-5-studentvpn.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-5-studentvpn.PNG" alt="Internal connection screen details"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#93ef04a8-a9f0-491c-8eb1-fd52399fe7d5');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "93ef04a8-a9f0-491c-8eb1-fd52399fe7d5"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="71fc4482-03d3-40f1-9527-012ebd300a54">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>5. For<strong>&nbsp;</strong>external connections, a detailed view is provided that includes the IP and statistics information which may differ from your instance:</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-6.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-6.PNG" alt="External connection screen details"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#71fc4482-03d3-40f1-9527-012ebd300a54');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "71fc4482-03d3-40f1-9527-012ebd300a54"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="e2afe7d6-9497-4389-8f53-4c8521c5e76a">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>6.&nbsp; When you are finished using GlobalProtect, click on the GlobalProtect icon found on your taskbar.&nbsp; Next click on the setting gear at the top right of the screen.&nbsp; Select&nbsp;<strong>Disable</strong>. This will end your connection to VPN.</p> 
+<p>7. You can now delete from your desktop the GlobalProtect.msi or GlobalProtect64.msi file.</p> 
+<p>&nbsp;</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-DisableGP.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-DisableGP.PNG" title="From your taskbar click on GlobalProtect icon.  Click on the Settings gear and select Disable." alt="From your taskbar click on GlobalProtect icon.  Click on the Settings gear and select Disable."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#e2afe7d6-9497-4389-8f53-4c8521c5e76a');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "e2afe7d6-9497-4389-8f53-4c8521c5e76a"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Connect and Disable VPN Access
+    
+        <i aria-hidden='true' class='icon fa fa-globe'></i>
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="c198e30d-b95a-427b-b7d5-b9f6c695feff" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("c198e30d-b95a-427b-b7d5-b9f6c695feff", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534949950875-connect-to-ryerson-using-globalprotect-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534949950875-connect-to-ryerson-using-globalprotect-" aria-controls="accordion-content-1534949950875-connect-to-ryerson-using-globalprotect-" aria-expanded="false">
+                            Connect to Ryerson Using GlobalProtect 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534949950875-connect-to-ryerson-using-globalprotect-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534949950875-connect-to-ryerson-using-globalprotect-">
+                    <div class="panel-body ">
+                        <div class="1534949950875 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="513eaf7a-cb1f-434b-a655-fbf37a90efb4">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>1. Click on the GlobalProtect icon found on your taskbar.&nbsp; Select&nbsp;<strong>Enable</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-EnableGP.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-EnableGP.PNG" title="From your taskbar click on GlobalProtect icon and then click on Enable." alt="From your taskbar click on GlobalProtect icon and then click on Enable."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#513eaf7a-cb1f-434b-a655-fbf37a90efb4');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "513eaf7a-cb1f-434b-a655-fbf37a90efb4"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="58aa7c5a-c1d0-43f3-a1be-604dcb3429c1">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>2. At&nbsp;<strong>Ryerson Login</strong>&nbsp;screen&nbsp;enter your<strong>&nbsp;my.ryerson username&nbsp;</strong>and&nbsp;<strong>password.</strong>&nbsp;Click&nbsp;<strong>Log in</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-2.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-2.PNG" title="Enter your my.ryerson username and password" alt="Enter your my.ryerson username and password"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#58aa7c5a-c1d0-43f3-a1be-604dcb3429c1');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "58aa7c5a-c1d0-43f3-a1be-604dcb3429c1"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="b4af7db7-5054-4ff1-8137-2e6a7d03dc2f">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>3. Next, you will be asked for your&nbsp; Two-Factor&nbsp;<strong>Verification Code</strong>. You can select the checkbox to trust this browser for 30 days, so that you will not be prompted during that time period.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-4.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-4.PNG" title="Enter your two-Factor One Time Password" alt="Enter your two-Factor One Time Password"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#b4af7db7-5054-4ff1-8137-2e6a7d03dc2f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "b4af7db7-5054-4ff1-8137-2e6a7d03dc2f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="79f78478-ef34-429b-ae05-1dfdb698aaed">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>4. A Global Protect&nbsp;<strong>Connected</strong>&nbsp;window displays when connection is made.&nbsp; You can now access sites that require VPN.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-7.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Configure-7.PNG" title="Global Protect &quot;Connected&quot; window displays when connection is made" alt="Global Protect &quot;Connected&quot; window displays when connection is made"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#79f78478-ef34-429b-ae05-1dfdb698aaed');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "79f78478-ef34-429b-ae05-1dfdb698aaed"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1534949953097-disable-globalprotect-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1534949953097-disable-globalprotect-" aria-controls="accordion-content-1534949953097-disable-globalprotect-" aria-expanded="false">
+                            Disable GlobalProtect 
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1534949953097-disable-globalprotect-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1534949953097-disable-globalprotect-">
+                    <div class="panel-body ">
+                        <div class="1534949953097 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="314dadc2-bab0-46ed-a366-8bda8662a020">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>1.&nbsp;Click on the GlobalProtect icon found on your taskbar.&nbsp; Click on the settings gear found at the top right of the GlobalProtect screen and select&nbsp;<strong>Disable</strong>.&nbsp; This will end your connection to VPN.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-DisableGP.PNG"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-DisableGP.PNG" title="From your taskbar click on GlobalProtect icon.  Click on the Settings gear and select Disable." alt="From your taskbar click on GlobalProtect icon.  Click on the Settings gear and select Disable."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#314dadc2-bab0-46ed-a366-8bda8662a020');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "314dadc2-bab0-46ed-a366-8bda8662a020"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    FAQ
+    
+        <i aria-hidden='true' class='icon fa fa-folder'></i>
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="04bf1170-47ca-4786-830f-ad3d950499f8" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("04bf1170-47ca-4786-830f-ad3d950499f8", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962376943-how-can-i-tell-that-i-am-definitely-connected-to-the-globalprotect-vpn-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962376943-how-can-i-tell-that-i-am-definitely-connected-to-the-globalprotect-vpn-" aria-controls="accordion-content-1499962376943-how-can-i-tell-that-i-am-definitely-connected-to-the-globalprotect-vpn-" aria-expanded="false">
+                            How can I tell that I am definitely connected to the GlobalProtect VPN?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962376943-how-can-i-tell-that-i-am-definitely-connected-to-the-globalprotect-vpn-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962376943-how-can-i-tell-that-i-am-definitely-connected-to-the-globalprotect-vpn-">
+                    <div class="panel-body ">
+                        <div class="1499962376943 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="1128a323-d9ac-4d04-a723-1dc1337c1dd7" >
+
+    <p>The VPN status icon, that displays on the taskbar, at the bottom right of the screen, will indicate the current connection state:</p> 
+<ul> 
+ <li><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-icon-connected.png" alt="GlobalProtect icon displays with an earth with a house image, when connected."> GlobalProtect is connected successfully.&nbsp;</li> 
+ <li><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-icon-disconnected.png" alt="GlobalProtect icon displays with an &quot;x&quot; when not connected."> GlobalProtect is not connected, either because authentication failed or you chose to disable your connection.<br> </li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#1128a323-d9ac-4d04-a723-1dc1337c1dd7");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962389319-how-do-i-uninstall-student-vpn-on-a-windows-computer--" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962389319-how-do-i-uninstall-student-vpn-on-a-windows-computer--" aria-controls="accordion-content-1499962389319-how-do-i-uninstall-student-vpn-on-a-windows-computer--" aria-expanded="false">
+                            How do I uninstall Student VPN on a Windows computer? 
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962389319-how-do-i-uninstall-student-vpn-on-a-windows-computer--" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962389319-how-do-i-uninstall-student-vpn-on-a-windows-computer--">
+                    <div class="panel-body ">
+                        <div class="1499962389319 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9b97a957-0fc6-414a-8216-c4676fa358e9" >
+
+    <p><strong>Remove old Student VPN, GlobalProtect</strong><br> <br> If you need to remove an old version of GlobalProtect, open the Windows Control Panel or Settings panel.</p> 
+<ol> 
+ <li>For Windows 7, click on&nbsp;<strong>Programs and Features</strong>.<br> </li> 
+ <li>For Windows 8.x, click on&nbsp;<strong>Uninstall A Program</strong>.<br> </li> 
+ <li>For Windows 10, click on&nbsp;<strong>Apps.</strong></li> 
+</ol> 
+<p>Select&nbsp;<strong>GlobalProtect</strong>. Click&nbsp;<strong>Uninstall</strong>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9b97a957-0fc6-414a-8216-c4676fa358e9");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4860cb2a-1b3a-4c00-ab58-db335166c9c1" >
+
+    <p><strong>Remove OpenVPN</strong><br> <br> If you need to uninstall the old OpenVPN, open the Windows Control Panel or the Settings Panel.</p> 
+<ol> 
+ <li>For Windows 7, click on&nbsp;<strong>Programs and Features</strong>.<br> </li> 
+ <li>For Windows 8.x, click on&nbsp;<strong>Uninstall A Program</strong>.<br> </li> 
+ <li>For Windows 10, click on&nbsp;<strong>Apps.</strong></li> 
+</ol> 
+<p>Select&nbsp;<strong>OpenVPN</strong>. Click&nbsp;<strong>Uninstall</strong>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4860cb2a-1b3a-4c00-ab58-db335166c9c1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962405180-the-globalprotect-client-will-not-install-and-is-asking-for-an-administrator-password-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962405180-the-globalprotect-client-will-not-install-and-is-asking-for-an-administrator-password-" aria-controls="accordion-content-1499962405180-the-globalprotect-client-will-not-install-and-is-asking-for-an-administrator-password-" aria-expanded="false">
+                            The GlobalProtect client will not install and is asking for an Administrator password?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962405180-the-globalprotect-client-will-not-install-and-is-asking-for-an-administrator-password-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962405180-the-globalprotect-client-will-not-install-and-is-asking-for-an-administrator-password-">
+                    <div class="panel-body ">
+                        <div class="1499962405180 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="bcaf165d-2ba3-4a7e-8394-cd5998f20c5c" >
+
+    <p>If your computer is a Ryerson computer and supported by CCS, please contact the CCS Help Desk at&nbsp;<a href="mailto:help@ryerson.ca">help@ryerson.ca</a>&nbsp;or extension 556806. Otherwise, you must contact the person who has administrator rights on the computer.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#bcaf165d-2ba3-4a7e-8394-cd5998f20c5c");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962412795-when-i-try-and-make-a-vpn-connection--i-keep-being-taken-back-to-the-username-password-or-verification-code-screen-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962412795-when-i-try-and-make-a-vpn-connection--i-keep-being-taken-back-to-the-username-password-or-verification-code-screen-" aria-controls="accordion-content-1499962412795-when-i-try-and-make-a-vpn-connection--i-keep-being-taken-back-to-the-username-password-or-verification-code-screen-" aria-expanded="false">
+                            When I try and make a VPN connection, I keep being taken back to the username/password or verification code screen?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962412795-when-i-try-and-make-a-vpn-connection--i-keep-being-taken-back-to-the-username-password-or-verification-code-screen-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962412795-when-i-try-and-make-a-vpn-connection--i-keep-being-taken-back-to-the-username-password-or-verification-code-screen-">
+                    <div class="panel-body ">
+                        <div class="1499962412795 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3bdf7524-3ae9-4170-8b37-e0a9fdc57748" >
+
+    <p>This may be caused by entering an incorrect or invalid my.ryerson username, password or verification code. Make sure you are entering your my.ryerson username and password. Remember that usernames and passwords are case-sensitive. &nbsp;If you are able to log on http://my.ryerson.ca using your my.ryerson username and password, the problem may be your two-factor authentication setup. Try resetting your two-factor authentication by revoking your two-factor authentication and then reactivating two-factor authentication.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3bdf7524-3ae9-4170-8b37-e0a9fdc57748");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962419563-how-do-i-stop-getting-prompted-to-enter-a-verification-code--username-or-password-when-i-do-not-need-connect-to-globalprotect-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962419563-how-do-i-stop-getting-prompted-to-enter-a-verification-code--username-or-password-when-i-do-not-need-connect-to-globalprotect-" aria-controls="accordion-content-1499962419563-how-do-i-stop-getting-prompted-to-enter-a-verification-code--username-or-password-when-i-do-not-need-connect-to-globalprotect-" aria-expanded="false">
+                            How do I stop getting prompted to enter a verification code, username or password when I do not need connect to GlobalProtect?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962419563-how-do-i-stop-getting-prompted-to-enter-a-verification-code--username-or-password-when-i-do-not-need-connect-to-globalprotect-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962419563-how-do-i-stop-getting-prompted-to-enter-a-verification-code--username-or-password-when-i-do-not-need-connect-to-globalprotect-">
+                    <div class="panel-body ">
+                        <div class="1499962419563 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="41ec7a37-1715-41c9-86cb-0d0260417f58" >
+
+    <p>Follow the&nbsp;<a href="/content/ryerson/ccs/services/software/security/RU-VPN2-windows-StudentVPN.html#accordion-1534949953097-disable-globalprotect-">Disable GlobalProtect</a>&nbsp;instructions.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#41ec7a37-1715-41c9-86cb-0d0260417f58");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1535398697714-connecting-from-an-administrative-network--how-do-i-access-my-application-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1535398697714-connecting-from-an-administrative-network--how-do-i-access-my-application-" aria-controls="accordion-content-1535398697714-connecting-from-an-administrative-network--how-do-i-access-my-application-" aria-expanded="false">
+                            Connecting from an Administrative network, how do I access my application?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1535398697714-connecting-from-an-administrative-network--how-do-i-access-my-application-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1535398697714-connecting-from-an-administrative-network--how-do-i-access-my-application-">
+                    <div class="panel-body ">
+                        <div class="1535398697714 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a2095211-89dd-4674-a609-ebae5786b334" >
+
+    <p>If you are connecting from an Administrative network, not Academic or from off campus or RU-Secure, and require full VPN to access your application please do the following:</p> 
+<p>1. Click on the GlobalProtect icon found on your taskbar.&nbsp; Next click on the Gateway dropdown selection and choose&nbsp;<strong>Ryerson</strong>.&nbsp; You will now have full VPN access.</p> 
+<p><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-InternalGP.png" alt="Internal connection, need full VPN, click on GlobalProtect icon, at the bottom of screen select &quot;Ryerson&quot;"></p> 
+<p>2.&nbsp; When you no longer need access to your application that required full VPN, you can disconnect.&nbsp; Click on the GlobalProtect icon found on your taskbar.&nbsp; Next click on the Gateway dropdown selection and choose&nbsp;<strong>Best Available</strong>.</p> 
+<p><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-Internal-ResetGP.png" alt="Internal connection, disconnect full VPN, click on GlobalProtect icon, at the bottom of screen select &quot;Best Available&quot;"></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a2095211-89dd-4674-a609-ebae5786b334");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962426635-how-do-i-get-the-globalprotect-client-version-information-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962426635-how-do-i-get-the-globalprotect-client-version-information-" aria-controls="accordion-content-1499962426635-how-do-i-get-the-globalprotect-client-version-information-" aria-expanded="false">
+                            How do I get the GlobalProtect client version information?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962426635-how-do-i-get-the-globalprotect-client-version-information-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962426635-how-do-i-get-the-globalprotect-client-version-information-">
+                    <div class="panel-body ">
+                        <div class="1499962426635 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="db2e3dcd-0b6d-4580-9590-96e371e2039e" >
+
+    <p>Find the GlobalProtect icon in the taskbar.&nbsp; Click the Settings gear at the top right of the screen and select&nbsp;<strong>About</strong>.</p> 
+<p><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-Win-AboutGP.PNG" alt="From the GlobalProtect screen, click the settings gear at the top right and select About."></p> 
+<p><img src="/content/dam/ccs/services/software/security-software/RU-VPN2/RU-VPN2-VersionGP.PNG" alt="Version of GlobalProtect is displayed"></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#db2e3dcd-0b6d-4580-9590-96e371e2039e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962433324-how-does-a-new-version-of-the-globalprotect-client-get-installed-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962433324-how-does-a-new-version-of-the-globalprotect-client-get-installed-" aria-controls="accordion-content-1499962433324-how-does-a-new-version-of-the-globalprotect-client-get-installed-" aria-expanded="false">
+                            How does a new version of the GlobalProtect client get installed?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962433324-how-does-a-new-version-of-the-globalprotect-client-get-installed-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962433324-how-does-a-new-version-of-the-globalprotect-client-get-installed-">
+                    <div class="panel-body ">
+                        <div class="1499962433324 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="06282399-78e7-4325-aaac-25dddd121f4e" >
+
+    <p>GlobalProtect is preset to check if there are new versions available. &nbsp;Once you have installed GlobalProtect and establish a VPN connection, the software will download the new version and put it in a queue. &nbsp;It will install by itself. &nbsp;You may see a message, "GlobalProtect agent upgrade is in progress". &nbsp;Please wait, application will restart once the upgrade is complete."</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#06282399-78e7-4325-aaac-25dddd121f4e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1499962440499-how-do-i-get-help-with-other-globalprotect-problems-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1499962440499-how-do-i-get-help-with-other-globalprotect-problems-" aria-controls="accordion-content-1499962440499-how-do-i-get-help-with-other-globalprotect-problems-" aria-expanded="false">
+                            How do I get help with other GlobalProtect problems?
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1499962440499-how-do-i-get-help-with-other-globalprotect-problems-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1499962440499-how-do-i-get-help-with-other-globalprotect-problems-">
+                    <div class="panel-body ">
+                        <div class="1499962440499 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="b2888097-03f5-4a36-b529-b98c3a262099" >
+
+    <p>If the information here did not help to resolve your problem, you can contact the CCS Help Desk at&nbsp;<a href="mailto:help@ryerson.ca">help@ryerson.ca</a>. &nbsp;Please include details of:</p> 
+<ul> 
+ <li>Your operating system version, e.g. Windows 7 Professional with SP1, Mac OS X 10.10.2 etc. &nbsp;Your GlobalProtect Client version&nbsp;</li> 
+ <li>Your ISP (Internet Service Provider)</li> 
+ <li>Your Ryerson email address</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#b2888097-03f5-4a36-b529-b98c3a262099");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3edc1127-2ed4-4367-bddb-ea6c2a63c833" >
+
+    <h2>Important Note&nbsp;</h2> 
+<p>Ryerson is taking the issue of security very seriously. It is imperative that you disconnect your VPN session when you are finish with accessing any of the Ryerson systems or when your computer will be left unattended and unsecured for some period of time during the day.</p> 
+<p>Leaving your active VPN session open and unattended provides others with the opportunity for message forgery and other misuse, attributing them to you and creating an embarrassment to you and possibly compromising the integrity of Ryerson. This is especially important for people who share computers or have their computer located in a public area.</p> 
+<p>Some basic safeguards which can be used to aid data security are:</p> 
+<ul> 
+ <li>Disconnect your VPN session and logout from your PC during periods of absence. (e.g. coffee break, lunch, meetings etc.)</li> 
+ <li>Lock your office or room during periods of absence during normal working hours.</li> 
+ <li>Always use a screen saver password and a computer power-on password.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3edc1127-2ed4-4367-bddb-ea6c2a63c833");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				
+				</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'LDPEADICKALILBEHFMJFEODLILBBNCKLKGNFHMHJMPAJLNJOMHAPMMBONAJMAFHNEIEBMMCHAAGBNKJNGBBAPFELAAPECOPOPGIHCJFBIIKDFDPMIEBNEEADAPABFIOI',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'HMPCJNDKMEPHLMBLEKDBLLDGFCPLPJODABPDMIDGKFDEMKGDHFNEBIBDOLGNKFJACFDBOGKEAAFEFIPPNNKAJEACAALNMFADDGAJGKIBKJGGDMMBFOBEDDGOEGLPMEFE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

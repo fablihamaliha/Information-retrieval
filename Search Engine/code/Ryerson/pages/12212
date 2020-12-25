@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/financial-services/systems-learning/online-learning/systems-setup-troubleshooting/" >
+		<meta property="og:title" content="Systems Setup and Troubleshooting" > 
+		<meta property="og:description" content="Troubleshoot the most common technical issues in the Ryerson University financial and invoice management systems." > 
+		<meta property="og:image" content="https://www.ryerson.ca/content/dam/financial-services/systems-learning/images/systems-learning-og-twitter.jpg" > 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/financial-services/systems-learning/online-learning/systems-setup-troubleshooting/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Systems Setup and Troubleshooting"> 
+		<meta name="twitter:description" content="Troubleshoot the most common technical issues in the Ryerson University financial and invoice management systems."> 
+        <meta name="twitter:image" content="https://www.ryerson.ca/content/dam/financial-services/systems-learning/images/systems-learning-og-twitter.jpg">
+        
+        <title>Systems Setup and Troubleshooting - Financial Services - Ryerson University</title>
+        
+		<meta name="description" content="Troubleshoot the most common technical issues in the Ryerson University financial and invoice management systems."> 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.FFDC00.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/financial-services/">
+				        Financial Services
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/financial-services.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#55801013-ad63-4ece-9601-e917355cb297" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="55801013-ad63-4ece-9601-e917355cb297">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/financial-services/purchasing-payment/'>Purchasing & Payment</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/budgeting/'>Budgeting</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/billing-banking/'>Billing & Banking</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/research-accounting/'>Research Accounting</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/financial-reporting/'>Financial Reporting</a>
+									</li>
+								
+									<li class="active">
+										<a href='/financial-services/systems-learning/'>Systems & Learning</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/shipping-receiving/'>Shipping & Receiving</a>
+									</li>
+								
+									<li class="">
+										<a href='/financial-services/contact/'>Contact</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/financial-services/systems-learning.html">Systems & Learning</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#814ed16a-3a0e-4fee-a573-3d2cc3eeb51c" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="814ed16a-3a0e-4fee-a573-3d2cc3eeb51c">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/financial-systems.html'>Financial Systems</a>
+</li>
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/requesting-systems-access.html'>Requesting Systems Access</a>
+</li>
+<li class="list-group-item parent">
+<a href='/financial-services/systems-learning/online-learning.html'>Online Learning</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/online-learning/systems-self-service-tutorials.html'>Systems Self-Service Tutorials</a>
+</li>
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/online-learning/systems-key-terms-functions.html'>Systems Key Terms and Functions</a>
+</li>
+<li class="list-group-item selected">
+<a href='/financial-services/systems-learning/online-learning/systems-setup-troubleshooting.html'>Systems Setup and Troubleshooting</a>
+</li>
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/online-learning/understanding-ryerson-chart-of-accounts.html'>Understanding Ryerson's Chart of Accounts</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/financial-services/systems-learning/workshops-employees.html'>Workshops for Employees</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-7 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Systems Setup and Troubleshooting</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resAnnouncement section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section aria-label="Announcement" class="infoContainer style2">
+	<div class="contentWrapper">
+		<div class="iconContainer"><span aria-hidden='true' class='icon fa fa-exclamation-circle'></span></div>
+		<div class="textContainer"><p><strong>Mac users</strong>: Please note that the current version of RUFIS Forms (e.g. general ledger form) is not compatible with the Apple macOS Big Sur 11.0. To prevent loss of access to RUFIS Forms, we strongly recommend that you do not upgrade any Mac operating systems running RUFIS to macOS Big Sur 11.0 at this time.</p>
+</div>
+	</div>
+</section>
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c23ac061-596a-4530-85d7-9b5c72459dae" >
+
+    <p>Use this information to help avoid and/or troubleshoot the most common technical issues in the Ryerson University Financial Information System (RUFIS or Oracle) and the Invoice Approval System (MarkView).</p> 
+<h2>Supported browsers</h2> 
+<ul> 
+ <li>Mozilla Firefox ESR 78.2.0, 78.3.0, 78.4.0, etc. (recommended)</li> 
+ <li>Microsoft Internet&nbsp;Explorer 11 (recommended)</li> 
+ <li>Apple Safari 11 (recommended)</li> 
+ <li>Microsoft Edge 44</li> 
+ <li>Google Chrome 83</li> 
+</ul> 
+<h2><a id="browser-application-setup"></a>Browser and application setup</h2> 
+<p>If you are working in the financial systems and are experiencing technical issues, please review these settings as a first step towards troubleshooting.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c23ac061-596a-4530-85d7-9b5c72459dae");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="3c86fe09-fedb-4a53-93e2-d2bbc55b2415" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("3c86fe09-fedb-4a53-93e2-d2bbc55b2415", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1531745110258-1--verify-your-browser-version-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745110258-1--verify-your-browser-version-" aria-controls="accordion-content-1531745110258-1--verify-your-browser-version-" aria-expanded="false">
+                            1. Verify your browser version.
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745110258-1--verify-your-browser-version-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745110258-1--verify-your-browser-version-">
+                    <div class="panel-body ">
+                        <div class="1531745110258 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="a34bdc8a-c925-4d2b-856b-dc346380474e" >
+
+    <p>As the financial systems rely on Java in order to run forms, the three Java-supported browsers we recommend are Firefox ESR, Internet Explorer 11 and Safari 11.</p> 
+<h4>Mozilla Firefox ESR 78</h4> 
+<p>You can verify your Mozilla Firefox browser version by selecting <strong>Firefox &gt; About Firefox</strong> from the browser menu. The pop-up window will indicate your version.</p> 
+<p>Note: Firefox ESR 78 is available for both Windows and Mac operating systems.</p> 
+<h4>Microsoft Internet Explorer 11</h4> 
+<p>You can verify your Internet Explorer browser version by selecting <strong>Settings &gt; About &gt; Internet Explorer</strong>. The recommended version is 11.</p> 
+<h4>Apple Safari 11</h4> 
+<p>You can verify your Safari browser version by selecting <strong>Safari &gt; About Safari</strong>.</p> 
+<p>Note: Version 11 remains the recommended version as the more recent releases of Safari, versions 12 and 13, do not support Java or the Java applet at this time.</p> 
+<h4>Microsoft Edge 44</h4> 
+<p>You can verify your Edge browser version by selecting&nbsp;<strong>Settings and more &gt;</strong>&nbsp;<strong>Settings&nbsp;&gt; About Microsoft&nbsp;Edge</strong>.</p> 
+<p>Note: This browser is only available on Windows operating systems.</p> 
+<h4>Google Chrome 83</h4> 
+<p>You can verify your Chrome browser version by selecting <strong>Menu &gt; Settings &gt; About Chrome</strong>.</p> 
+<p>Note: On Windows operating systems, Chrome will load the forms and the HTML pages.&nbsp; On Mac operating systems, Chrome will only load the HTML pages.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#a34bdc8a-c925-4d2b-856b-dc346380474e");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1531745110808-2--enable-pop-up-windows-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745110808-2--enable-pop-up-windows-" aria-controls="accordion-content-1531745110808-2--enable-pop-up-windows-" aria-expanded="false">
+                            2. Enable pop-up windows.
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745110808-2--enable-pop-up-windows-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745110808-2--enable-pop-up-windows-">
+                    <div class="panel-body ">
+                        <div class="1531745110808 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d52c3cd1-4334-4e94-b434-43d4c955bed2" >
+
+    <p>Make sure pop-up windows are allowed/enabled in your browser permissions.</p> 
+<h4>Windows users</h4> 
+<h5>Mozilla Firefox</h5> 
+<ul> 
+ <li>From your Firefox browser window, select the menu option <strong>Tools &gt; Options</strong>.</li> 
+ <li>Select the <strong>Content</strong> tab from the <strong>Options</strong> window.</li> 
+ <li>Uncheck the <strong>Block Pop-Up Windows</strong> box.</li> 
+</ul> 
+<p>Alternatively, to block pop-ups entirely:</p> 
+<ul> 
+ <li>From your Firefox browser window, select the menu option&nbsp;<strong>Tools &gt; Options</strong>.&nbsp;&nbsp;</li> 
+ <li>Select the <strong>Privacy and security</strong> panel</li> 
+ <li>Under the&nbsp;<strong>Permissions</strong>&nbsp;section, uncheck the box next to&nbsp;<strong>Block pop-up windows</strong>&nbsp;to disable.</li> 
+</ul> 
+<h5>Internet Explorer 11</h5> 
+<ul> 
+ <li>From your Internet Explorer browser window, select the menu option <strong>Tools &gt; Pop up Blocker &gt; Turn off pop-up blockers</strong>.</li> 
+ <li>If you have compatibility view settings turned on for Internet Explorer 11, we recommend clearing the settings as they have been known to interfere with the financial systems' funtioning. To do so: 
+  <ul> 
+   <li>Select the menu option <strong>Tools &gt; Compatibility view settings &gt; Website listings &gt; Remove&nbsp;<a href="http://ryerson.ca/">ryerson.ca</a>.</strong></li> 
+   <li>Select the menu option <strong>Tools &gt; Compatibility view settings &gt; Compatibility view settings &gt; Uncheck "Display intranet site".</strong></li> 
+  </ul> </li> 
+</ul> 
+<h4>Mac users</h4> 
+<h5>Mozilla Firefox</h5> 
+<ul> 
+ <li>Select <strong>Firefox</strong> from your browser menu and choose <strong>Preferences</strong>.</li> 
+ <li>Select the <strong>Privacy and Security</strong> option from the <strong>Preferences</strong> window. Scroll to the <strong>Permissions</strong> section.</li> 
+ <li>Uncheck the <strong>Block Pop-Up Windows</strong> box.</li> 
+</ul> 
+<h5>Apple Safari</h5> 
+<ul> 
+ <li>Select <strong>Safari</strong> from your browser menu and choose <strong>Preferences</strong> from the dropdown menu to access the <strong>General Preferences</strong> dialog box.</li> 
+ <li>Select the <strong>Security</strong> tab to open the <strong>Security Preferences</strong> window.</li> 
+ <li>In the <strong>Web Content</strong> section, uncheck the <strong>Block Pop-Up Windows</strong> box.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d52c3cd1-4334-4e94-b434-43d4c955bed2");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1531745111326-3--adjust-your-security-settings-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745111326-3--adjust-your-security-settings-" aria-controls="accordion-content-1531745111326-3--adjust-your-security-settings-" aria-expanded="false">
+                            3. Adjust your security settings.
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745111326-3--adjust-your-security-settings-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745111326-3--adjust-your-security-settings-">
+                    <div class="panel-body ">
+                        <div class="1531745111326 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8e5a4edd-f58a-4adb-ba07-44ff5cc1c4df" >
+
+    <p>If you have issues accessing the systems while using Mozilla Firefox, you may need to adjust the security settings. Make sure the financial systems are indicated as trusted sites in your Firefox browser by doing the following:</p> 
+<ol> 
+ <li>From your Firefox browser menu, select the menu option <strong>Tools &gt; Options</strong>.</li> 
+ <li>Select <strong>Security</strong>.</li> 
+ <li>Select <strong>Exceptions</strong>.</li> 
+ <li>In the <strong>Address of Website</strong> field, enter the following URLs:
+  <ul> 
+   <li>https://rufis.ryerson.ca</li> 
+   <li>https://mv.rufis.ryerson.ca/markview</li> 
+  </ul> </li> 
+ <li>Click the <strong>Allow</strong> button after each URL is added.</li> 
+ <li>Click the <strong>Save Changes</strong> button.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8e5a4edd-f58a-4adb-ba07-44ff5cc1c4df");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1531745112530-4--install-java-and-enable-java-applet-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745112530-4--install-java-and-enable-java-applet-" aria-controls="accordion-content-1531745112530-4--install-java-and-enable-java-applet-" aria-expanded="false">
+                            4. Install Java and enable Java applet.
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745112530-4--install-java-and-enable-java-applet-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745112530-4--install-java-and-enable-java-applet-">
+                    <div class="panel-body ">
+                        <div class="1531745112530 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8b86bd85-8f00-4d47-9308-5831480731e1" >
+
+    <p>In order to access the reporting, budget and inquiry (General Ledger) options in RUFIS, Java needs to be installed on your computer, which will allow a Java applet to run.&nbsp; Acceptable Java versions are Java Version 8 Updates 251, 261 or 271. Please visit <a href="http://www.java.com">www.java.com<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, external link</span></a> to download Java.</p> 
+<p>Once you select your general ledger menu option in RUFIS, you will be prompted to open or save a Java applet. Click on&nbsp;<strong>Save&nbsp;</strong>and then&nbsp;<strong>Open</strong>&nbsp;to launch the RUFIS General Ledger forms or RUFIS Reports options.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8b86bd85-8f00-4d47-9308-5831480731e1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <h3 class="panel-title">
+                        <a id="accordion-1594325962942-5--java-applet-tips" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1594325962942-5--java-applet-tips" aria-controls="accordion-content-1594325962942-5--java-applet-tips" aria-expanded="false">
+                            5. Java applet tips
+                        </a>
+                    </h3>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1594325962942-5--java-applet-tips" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1594325962942-5--java-applet-tips">
+                    <div class="panel-body ">
+                        <div class="1594325962942 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="3d996458-04ea-4f19-9f38-d808af8cd406" >
+
+    <h4>Windows users</h4> 
+<p>If you're using the Mozilla Firefox ESR or Mozilla Firefox 77 browsers, the Java applet (JNLP file) may not always recognize the Java web launcher needed to start RUFIS forms. To correct this, please select the <strong>Open menu </strong>&gt;<strong> Options </strong>&gt;<strong> General section </strong>&gt;<strong> Applications </strong>&gt;<strong> </strong>Find the JNLP file and change the action from <strong>"Save"&nbsp;</strong>to<strong> "Use&nbsp;Java web launcher"</strong>.</p> 
+<h4>Mac users</h4> 
+<p>If you're using the Mozilla Firefox ESR or Mozilla Firefox 77 browsers, the Java applet (JNLP file) may not always recognize the Java web launcher needed to start RUFIS forms. To correct this:</p> 
+<ul> 
+ <li>Uninstall TextWrangler, which comes as part of the Java install. To do so, open the&nbsp;<strong>Applications&nbsp;folder</strong>&nbsp;&gt; Select&nbsp;the&nbsp;<strong>TextWrangler.app&nbsp;file</strong> &gt; drag and drop it into the&nbsp;<strong>Trash</strong>.</li> 
+ <li>Next, in your Firefox browser, select the <strong>Tools menu </strong>&gt;<strong> Options </strong>&gt;<strong> General </strong>&gt;<strong> Applications </strong>&gt;<strong> </strong>Find JNLP file and change the action to<strong> "Java web start"<strong>.</strong></strong></li> 
+</ul> 
+<p>Once complete, open RUFIS and select "GL responsibility" to launch the forms.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#3d996458-04ea-4f19-9f38-d808af8cd406");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Troubleshooting
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="b1b8239c-88a7-437c-a7d8-203d390ebb82" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("b1b8239c-88a7-437c-a7d8-203d390ebb82", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1531745480193-the-system-login-page-isn-t-loading-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745480193-the-system-login-page-isn-t-loading-" aria-controls="accordion-content-1531745480193-the-system-login-page-isn-t-loading-" aria-expanded="false">
+                            The system login page isn’t loading.
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745480193-the-system-login-page-isn-t-loading-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745480193-the-system-login-page-isn-t-loading-">
+                    <div class="panel-body ">
+                        <div class="1531745480193 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8f2adc2f-c12b-427d-9473-0ff880c23954" >
+
+    <p>RUFIS (Oracle) and the Invoice Approval System (Markview) are on a restricted network, which means that users can only access these systems while connected to the Ryerson administrative network. If you are either working off-campus, using a wireless connection or using the Ryerson academic network, you need to be logged in to Ryerson’s virtual private network (RU-VPN2) or the systems will not work. <a href="https://www.ryerson.ca/ccs/services/connections/secure-connection/ru-vpn2/">Learn more about RU-VPN2</a>, including how to request, extend or terminate access.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8f2adc2f-c12b-427d-9473-0ff880c23954");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1531745480779-i-ve-forgotten-my-systems-password-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745480779-i-ve-forgotten-my-systems-password-" aria-controls="accordion-content-1531745480779-i-ve-forgotten-my-systems-password-" aria-expanded="false">
+                            I’ve forgotten my systems password.
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745480779-i-ve-forgotten-my-systems-password-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745480779-i-ve-forgotten-my-systems-password-">
+                    <div class="panel-body ">
+                        <div class="1531745480779 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5fbf7015-354e-43d2-9bec-757fa7e258a1" >
+
+    <p>To reset your systems password, click the <strong>Login Assistant</strong> link or <a href="/content/ryerson/financial-services/contact/systems-training/">contact the RUFIS Help Desk</a>. You may be required to provide information that will verify your identify.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5fbf7015-354e-43d2-9bec-757fa7e258a1");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1531745481330-my-rufis-reporting--general-ledger--forms-aren-t-popping-up-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1531745481330-my-rufis-reporting--general-ledger--forms-aren-t-popping-up-" aria-controls="accordion-content-1531745481330-my-rufis-reporting--general-ledger--forms-aren-t-popping-up-" aria-expanded="false">
+                            My RUFIS reporting (General Ledger) forms aren’t popping up.
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1531745481330-my-rufis-reporting--general-ledger--forms-aren-t-popping-up-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1531745481330-my-rufis-reporting--general-ledger--forms-aren-t-popping-up-">
+                    <div class="panel-body ">
+                        <div class="1531745481330 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4bf81435-26b7-4e24-8310-97639e5d064b" >
+
+    <p>When new windows do not open as expected, it is often due to browser settings. To troubleshoot, try the following:</p> 
+<ul> 
+ <li>Open your browser settings and verify that pop-ups are allowed.</li> 
+ <li>Clear your cache and log in to RUFIS again.</li> 
+ <li>Confirm that you've completed step 4 in the <a href="https://www.ryerson.ca/financial-services/systems-learning/online-learning/systems-setup-troubleshooting/#browser-application-setup">browser and application setup</a> instructions, and that the Java applet is not blocked in your browser settings.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4bf81435-26b7-4e24-8310-97639e5d064b");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="02a3a542-4c30-4d48-b2ca-1bd15c0e33d6" >
+
+    <h2>Questions?</h2> 
+<p>If you require additional assistance, please <a href="/content/ryerson/financial-services/contact/systems-training/">contact the RUFIS Help Desk</a>.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#02a3a542-4c30-4d48-b2ca-1bd15c0e33d6");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'LGPBIIOMBJLBPPBDKPIKCKMCHCCEJGGOMKCLKDJHCFPOIHDLLIHECPILNCODEGLGJCABKNBDAALPJACPBEFAPOIDAAJONPNIJIEBAAPLICJBJMHPIJLHCNGIIPLNFGLA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'AOBGCCBFEPJHINNOAMBGBKGFGLFLCHGKDFIPENAEAJPJKPMLCNOKAHBJJBHAFGFGKNMBNAGMAAONMMLFGGPABDMLAAEJDHEGIACLJFJCADMKDIFJDIGLKJJMEHMJOCPK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

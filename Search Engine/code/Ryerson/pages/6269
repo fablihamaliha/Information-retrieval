@@ -1,0 +1,1122 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-9', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/asc/xmlrpc.php" />
+
+  <title>Did you know&#8230; &#8211; Ryerson Archives &amp; Special Collections</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Feed" href="https://library.ryerson.ca/asc/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Comments Feed" href="https://library.ryerson.ca/asc/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson Archives &amp; Special Collections &raquo; Did you know... Category Feed" href="https://library.ryerson.ca/asc/category/did-you-know/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='child-pages-shortcode-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/css/child-pages-shortcode.min.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/public.css?ver=2.7' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/styles/lightGallery.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.ryerson.ca/asc/wp-includes/css/dashicons.min.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='galleria-classic-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.css?ver=1.6.1' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=9.2' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/child-pages-shortcode/js/child-pages-shortcode.min.js?ver=1.1.4' id='child-pages-shortcode-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/lightGallery.min.js?ver=1.0' id='slickr-flickr-lightbox-js'></script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/library.ryerson.ca\/asc\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/galleria-1.6.1.min.js?ver=1.6.1' id='galleria-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/galleria/themes/classic/galleria.classic.min.js?ver=1.6.1' id='galleria-classic-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/responsiveslides.min.js?ver=1.54' id='rslides-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/slickr-flickr/scripts/public.js?ver=2.7' id='slickr-flickr-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=%2Fasc%2Fcategory%2Fdid-you-know%2F","publicWarning":"","anonymousNotice":"<p>Notice: You are browsing this site anonymously, and only have access to a portion of its content.<\/p>","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/asc/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/asc/wp-json/wp/v2/categories/186" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/asc/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/asc/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/asc/custom-css/asc_style.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Did you know&#8230; &#8211; Ryerson Archives &amp; Special Collections" />
+<meta property="og:url" content="https://library.ryerson.ca/asc/category/did-you-know/" />
+<meta property="og:site_name" content="Ryerson Archives &amp; Special Collections" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:creator" content="@ryersonlibrary" />
+<meta name="twitter:site" content="@ryersonlibrary" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			#main {
+	margin-top: 1em;
+}
+span.h1 a {
+	text-decoration: none;
+}		</style>
+		</head>
+
+<body class="archive category category-did-you-know category-186">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#local-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>Effective March 17th, the Ryerson Archives and Special Collections will be closed until further notice. See <a href="https://library.ryerson.ca/blog/2020/03/covid-19-library-services-and-operations-update/">our update</a> for more information.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/asc/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search this website</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search this website">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+      
+<header class="local-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+              <span class="h1"><a href="https://library.ryerson.ca/asc">Ryerson Archives &amp; Special Collections</a></span>
+            </div>
+    </div>
+  </div>
+    <div class="local-header-navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://library.ryerson.ca/asc">Home</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#local-header-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-angle-down" title="Toggle navigation"></i>
+        </button>
+      </div>
+      <div id="local-header-navbar" class="collapse navbar-collapse"><ul id="menu-site-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7261 dropdown"><a title="Research" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Research <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7262"><a title="Conduct Research" href="https://library.ryerson.ca/asc/research/">Conduct Research</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7263"><a title="Collection Highlights" href="https://library.ryerson.ca/asc/collection-highlights/">Collection Highlights</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7747"><a title="Language in Archival Descriptions" href="https://library.ryerson.ca/asc/research/language-in-archival-descriptions/">Language in Archival Descriptions</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6155"><a title="Search our Collections" href="https://archives.library.ryerson.ca">Search our Collections</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6156 dropdown"><a title="Exhibitions &amp; Events" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Exhibitions &#038; Events <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6159"><a title="Current Exhibits" href="https://library.ryerson.ca/asc/exhibits/">Current Exhibits</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6160"><a title="Previous Exhibits" href="https://library.ryerson.ca/asc/exhibits/previous-sc-exhibits/">Previous Exhibits</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6157 dropdown"><a title="About Us" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About Us <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6161"><a title="Archives" href="https://library.ryerson.ca/asc/archives/">Archives</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6162"><a title="Special Collections" href="https://library.ryerson.ca/asc/sc/">Special Collections</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a title="Donations" href="https://library.ryerson.ca/asc/donations/">Donations</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6164"><a title="Hours &amp; Location" href="https://library.ryerson.ca/asc/hours/">Hours &#038; Location</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6158 dropdown"><a title="More" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">More <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6166"><a title="Records Management" href="https://library.ryerson.ca/asc/archives/records-management/">Records Management</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6167"><a title="Ryerson History" href="https://library.ryerson.ca/asc/archives/ryerson-history/">Ryerson History</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6168"><a title="Links" href="https://library.ryerson.ca/asc/archives/links/">Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-6903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6903"><a title="COVID-19 Archives" href="https://library.ryerson.ca/asc/covid-19-ryerson-university-community-experience-archives/">COVID-19 Archives</a></li>
+</ul></div>    </div>
+  </div>
+  </header>
+
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			
+			
+			
+<article id="post-7704" class="post-7704 post type-post status-publish format-standard hentry category-did-you-know category-feature-from-the-collections category-sc">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/">A Comic Book Collection&#8230; from the 1940s!</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/" title="4:25 pm" rel="bookmark"><time class="entry-date" datetime="2020-08-05T16:25:51-04:00" pubdate>August 5, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/olivia-wong/" title="View all posts by olivia.wong" rel="author">olivia.wong</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>Did you know Ryerson Special Collections has a large selection of  World War II comic books? We have a collection of over <a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/canadian-whites-comic-book-collection" target="_blank">180 Canadian Whites comics</a>!&nbsp;</p>
+
+
+
+<p>These are referred to as the “Canadian Whites” since only the front and back cover were printed in colour, while the pages inside were kept in black and white.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img data-attachment-id="7709" data-permalink="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/e011166502_active-comics_cover/" data-orig-file="https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-scaled.jpg" data-orig-size="1866,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="e011166502_Active-Comics_Cover" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-219x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-437x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-437x600.jpg" alt="" class="wp-image-7709" width="246" height="338" srcset="https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-437x600.jpg 437w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-219x300.jpg 219w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-109x150.jpg 109w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-768x1054.jpg 768w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-1120x1536.jpg 1120w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-1493x2048.jpg 1493w, https://library.ryerson.ca/asc/files/e011166502_Active-Comics_Cover-scaled.jpg 1866w" sizes="(max-width: 246px) 100vw, 246px" /><figcaption>Active Comics (February 1942) front cover <a href="https://data2.collectionscanada.gc.ca/e/e447/e011166502.pdf" target="_blank" rel="noreferrer noopener">from Library and Archives Canada</a></figcaption></figure></div>
+
+
+
+<p>In 1940, the War Exchange Conservation Act (WECA) deemed American comic books non-essential luxury goods, which could not be imported during World War II. Canadian publishers responded to this demand for comics by creating their own national superheroes with local storylines.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img data-attachment-id="7705" data-permalink="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/e011166638_nelvana_cover/" data-orig-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-scaled.jpg" data-orig-size="1854,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="e011166638_Nelvana_Cover" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-217x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-434x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-434x600.jpg" alt="Front cover of comic book featuring Nelvana of the Northern Lights" class="wp-image-7705" width="243" height="335" srcset="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-434x600.jpg 434w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-217x300.jpg 217w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-109x150.jpg 109w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-768x1061.jpg 768w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-1112x1536.jpg 1112w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-1483x2048.jpg 1483w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Cover-scaled.jpg 1854w" sizes="(max-width: 243px) 100vw, 243px" /><figcaption>Triumph Comics cover page <a href="https://data2.collectionscanada.gc.ca/e/e447/e011166638.pdf" target="_blank" rel="noreferrer noopener">from Library and Archives Canada</a></figcaption></figure></div>
+
+
+
+<p>They introduced iconic characters such as Johnny Canuck, a Canadian hero who fights Nazis without superpowers but with his own strength and patriotism, and Nelvana of the Northern Lights, a superhero tasked to protect Northern Canada. Nelvana was one of the first female superheroes to be featured in comic books, and even predated the creation of Wonder Woman. <a rel="noreferrer noopener" href="https://harpers.org/2015/04/saving-nelvana/" target="_blank">Her character was possibly inspired by an Inuit elder</a> that the Group of Seven painter Franz Johnston met during a trip to the Northwest Territories.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img data-attachment-id="7710" data-permalink="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/e011166638_nelvana_inside-cover/" data-orig-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-scaled.jpg" data-orig-size="2560,1807" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="e011166638_Nelvana_Inside-Cover" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-300x212.jpg" data-large-file="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-600x424.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-600x424.jpg" alt="Inside cover and first page of a Triumph Comics " class="wp-image-7710" width="460" height="325" srcset="https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-600x424.jpg 600w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-300x212.jpg 300w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-150x106.jpg 150w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-768x542.jpg 768w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-1536x1084.jpg 1536w, https://library.ryerson.ca/asc/files/e011166638_Nelvana_Inside-Cover-2048x1446.jpg 2048w" sizes="(max-width: 460px) 100vw, 460px" /><figcaption>Triumph Comics &#8211; inside cover and first page <a href="https://data2.collectionscanada.gc.ca/e/e447/e011166638.pdf" target="_blank" rel="noreferrer noopener">from Library and Archives Canada</a></figcaption></figure></div>
+
+
+
+<p>The Canadian Whites comics are incredible resources to read, research and analyze. There are several facets to explore, from the character&#8217;s stereotypical depictions and the Canadian propaganda storylines to the type of ink processes used to print the comic books.</p>
+
+
+
+<p>If you’d like to view these comics from your home, Library and Archives Canada has several issues digitized and available online. <a rel="noreferrer noopener" href="https://epe.lac-bac.gc.ca/100/200/301/lac-bac/bell_features_collection-ef/BellFeaturesCollection-findingaid-2016-06-21.pdf" target="_blank">Browse through their finding aid</a> to locate the links and view the comic books.</p>
+
+
+
+<p>Check out these resources for more information about Canadian Comic Books:</p>
+
+
+
+<ul><li><a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/canadian-whites-comic-book-collection" target="_blank">Canadian Whites Comic Book Collection</a> in Ryerson Library Special Collections</li></ul>
+
+
+
+<ul><li><a rel="noreferrer noopener" href="https://www.cbc.ca/archives/entry/superheroes-to-call-our-own" target="_blank">Superheroes to Call our Own</a> video from the CBC Archives (1971)</li></ul>
+
+
+
+<ul><li><a href="https://www.canadacomicsol.org/2019/07/30/reading-the-shelves-the-politics-of-creating-a-diverse-comics-library/" target="_blank" rel="noreferrer noopener">Reading the Shelves: The Politics of Creating a Diverse Comics Library</a> by Canada Comics Open Library</li></ul>
+
+
+
+<ul><li><a href="https://www.torontozinelibrary.org/?page_id=289" target="_blank" rel="noreferrer noopener">Toronto Zine Library</a></li></ul>
+
+
+
+<ul><li><a href="https://www.cbc.ca/listen/live-radio/1-203-the-secret-life-of-canada/clip/15787178-s3-crash-course-superheroes" target="_blank" rel="noreferrer noopener">Crash Course: Superheroes</a> by The Secret Life of Canada podcast</li></ul>
+
+
+
+<div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-7704" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/" rel="category tag">Feature from the Collections</a>, <a href="https://library.ryerson.ca/asc/category/sc/" rel="category tag">Special Collections</a> by <a href="https://library.ryerson.ca/asc/author/olivia-wong/">olivia.wong</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/" title="Permalink to A Comic Book Collection&#8230; from the 1940s!" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-7704 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-6679" class="post-6679 post type-post status-publish format-standard hentry category-archives category-did-you-know category-points-of-interest category-uncategorized">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/">Canadian Radio and Television History at Ryerson &#8211; November 1949</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/" title="2:15 pm" rel="bookmark"><time class="entry-date" datetime="2019-11-12T14:15:26-05:00" pubdate>November 12, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/" title="View all posts by Rosalynn" rel="author">Rosalynn</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>This month marks the 70th anniversary of two important Ryerson and Canadian milestones &#8211; The opening of CJRT &#8211; Canada&#8217;s first educational radio station on the FM band, and the broadcast of &#8220;This is the Fashion &#8211; marking Canada&#8217;s first live television show produced for a general audience.</p>
+
+
+
+<div style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 class="has-text-align-left"><strong>CJRT FM is on Air</strong></h4>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749.jpg"><img data-attachment-id="6693" data-permalink="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/ryersonian_nov1949951/" data-orig-file="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749.jpg" data-orig-size="2306,657" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;8&quot;}" data-image-title="Ryersonian_Nov1949951" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-300x85.jpg" data-large-file="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-600x171.jpg" loading="lazy" width="600" height="171" src="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-600x171.jpg" alt="" class="wp-image-6693" srcset="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-600x171.jpg 600w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-150x43.jpg 150w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-300x85.jpg 300w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949951-e1573582589749-768x219.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" /></a></figure></div>
+
+
+
+<div style="height:59px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>On November 1, 1949 Canada&#8217;s first educational radio station on the FM band went on the air. The station was licensed as a completely non-commercial enterprise and operated in conjunction with Ryerson&#8217;s Schools of Broadcasting and Electronics. The University of Toronto, the Ontario Department of Education and other Boards of Education in and around Toronto would also take part in programming. The first night of broadcasting was 3 hours in length and included a half hour of recorded music, followed by &#8220;CJRT Testing&#8221; a documentary on FM broadcasting and CJRT, and finally a concerto of works by a variety of composers.</p>
+
+
+
+<div style="height:63px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="2768" height="1672" alt="" class="wp-block-jetpack-slideshow_image wp-image-6690" data-id="6690" src="https://library.ryerson.ca/asc/files/RG159_2_1949948.jpg" srcset="https://library.ryerson.ca/asc/files/RG159_2_1949948.jpg 2768w, https://library.ryerson.ca/asc/files/RG159_2_1949948-150x91.jpg 150w, https://library.ryerson.ca/asc/files/RG159_2_1949948-300x181.jpg 300w, https://library.ryerson.ca/asc/files/RG159_2_1949948-768x464.jpg 768w, https://library.ryerson.ca/asc/files/RG159_2_1949948-600x362.jpg 600w" sizes="(max-width: 2768px) 100vw, 2768px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">(RG 159.2)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="2768" height="1672" alt="" class="wp-block-jetpack-slideshow_image wp-image-6691" data-id="6691" src="https://library.ryerson.ca/asc/files/RG159_2_1949949.jpg" srcset="https://library.ryerson.ca/asc/files/RG159_2_1949949.jpg 2768w, https://library.ryerson.ca/asc/files/RG159_2_1949949-150x91.jpg 150w, https://library.ryerson.ca/asc/files/RG159_2_1949949-300x181.jpg 300w, https://library.ryerson.ca/asc/files/RG159_2_1949949-768x464.jpg 768w, https://library.ryerson.ca/asc/files/RG159_2_1949949-600x362.jpg 600w" sizes="(max-width: 2768px) 100vw, 2768px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="1824" height="1477" alt="Ryerson Radio Club" class="wp-block-jetpack-slideshow_image wp-image-6692" data-id="6692" src="https://library.ryerson.ca/asc/files/RG159_4950.jpg" srcset="https://library.ryerson.ca/asc/files/RG159_4950.jpg 1824w, https://library.ryerson.ca/asc/files/RG159_4950-150x121.jpg 150w, https://library.ryerson.ca/asc/files/RG159_4950-300x243.jpg 300w, https://library.ryerson.ca/asc/files/RG159_4950-768x622.jpg 768w, https://library.ryerson.ca/asc/files/RG159_4950-600x486.jpg 600w" sizes="(max-width: 1824px) 100vw, 1824px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="891" height="914" alt="" class="wp-block-jetpack-slideshow_image wp-image-6694" data-id="6694" src="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460.jpg" srcset="https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460.jpg 891w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460-146x150.jpg 146w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460-292x300.jpg 292w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460-768x788.jpg 768w, https://library.ryerson.ca/asc/files/Ryersonian_Nov1949952-e1573582576460-585x600.jpg 585w" sizes="(max-width: 891px) 100vw, 891px" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<div style="height:61px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>The station was officially opened on November 22, 1949 by Ontario Premier Leslie Frost and Ontario Minister of Education Dana Porter</p>
+
+
+
+<div style="height:61px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://library.ryerson.ca/asc/files/LittleDaily_947-1.jpg"><img data-attachment-id="6697" data-permalink="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/littledaily_947-2/" data-orig-file="https://library.ryerson.ca/asc/files/LittleDaily_947-1.jpg" data-orig-size="1672,2344" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="LittleDaily_947" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/LittleDaily_947-1-214x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/LittleDaily_947-1-428x600.jpg" loading="lazy" width="428" height="600" src="https://library.ryerson.ca/asc/files/LittleDaily_947-1-428x600.jpg" alt="" class="wp-image-6697" srcset="https://library.ryerson.ca/asc/files/LittleDaily_947-1-428x600.jpg 428w, https://library.ryerson.ca/asc/files/LittleDaily_947-1-107x150.jpg 107w, https://library.ryerson.ca/asc/files/LittleDaily_947-1-214x300.jpg 214w, https://library.ryerson.ca/asc/files/LittleDaily_947-1-768x1077.jpg 768w, https://library.ryerson.ca/asc/files/LittleDaily_947-1.jpg 1672w" sizes="(max-width: 428px) 100vw, 428px" /></a><figcaption>&#8220;CJRT Finest in the World &#8211; Frost&#8221; Ryerson Institute of Technology The Little Daily</figcaption></figure></div>
+
+
+
+<div style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4>This is the Fashion</h4>
+
+
+
+<p>On November 14, 1949 Staff and students from Ryerson&#8217;s Schools of Fashion Design, Electronics, and Broadcasting combined their talents for &#8220;This is the Fashion&#8221;, a 20 minute live fashion/comedy broadcast. Using equipment loaned from Famous Players, the show was performed in the School&#8217;s boardroom and broadcast to an audience of 200 Radio Industry professionals in the school&#8217;s auditorium. The purpose of the night was to promote FM radio and FM radio tuners.</p>
+
+
+
+<div style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="1839" height="1491" alt="" class="wp-block-jetpack-slideshow_image wp-image-6696" data-id="6696" src="https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946.jpg" srcset="https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946.jpg 1839w, https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946-150x122.jpg 150w, https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946-300x243.jpg 300w, https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946-768x623.jpg 768w, https://library.ryerson.ca/asc/files/This_is_the_Fashion_1949946-600x486.jpg 600w" sizes="(max-width: 1839px) 100vw, 1839px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Control room during TV Broadcast of &#8220;This is the Fashion&#8221; (RG 102.18)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="1767" height="2344" alt="" class="wp-block-jetpack-slideshow_image wp-image-6689" data-id="6689" src="https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945.jpg" srcset="https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945.jpg 1767w, https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945-113x150.jpg 113w, https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945-226x300.jpg 226w, https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945-768x1019.jpg 768w, https://library.ryerson.ca/asc/files/LittleDaily_Nov151949945-452x600.jpg 452w" sizes="(max-width: 1767px) 100vw, 1767px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img loading="lazy" width="1748" height="2558" alt="" class="wp-block-jetpack-slideshow_image wp-image-6698" data-id="6698" src="https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944.jpg" srcset="https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944.jpg 1748w, https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944-103x150.jpg 103w, https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944-205x300.jpg 205w, https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944-768x1124.jpg 768w, https://library.ryerson.ca/asc/files/Ryersonian_Dec1949944-410x600.jpg 410w" sizes="(max-width: 1748px) 100vw, 1748px" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-6679" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/archives/" rel="category tag">Archives</a>, <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/" rel="category tag">Points of Interest</a>, <a href="https://library.ryerson.ca/asc/category/uncategorized/" rel="category tag">Uncategorized</a> by <a href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/">Rosalynn</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2019/11/canadian-radio-and-television-history-at-ryerson-november-1949/" title="Permalink to Canadian Radio and Television History at Ryerson &#8211; November 1949" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-6679 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-6383" class="post-6383 post type-post status-publish format-standard hentry category-archives category-did-you-know category-exhibits tag-ryerson-7025 tag-ryerson-campus tag-student-housing">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/">Ryerson 7025 &#8211; Student Housing</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/" title="7:38 am" rel="bookmark"><time class="entry-date" datetime="2018-09-04T07:38:14-04:00" pubdate>September 4, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/" title="View all posts by Rosalynn" rel="author">Rosalynn</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>This year marks a special Anniversary at Ryerson University &#8211; a double anniversary. It has been 70 years since the founding of the school and 25 years since it achieved University status.</p>
+
+
+
+<p><em>In conjunction with University wide celebrations, The Ryerson University and Archives has created an exhibit, running June 1 &#8211; October 31, looking back at the history of the school. For each month the exhibit is open we will feature in our blog one of the 5 themes of the exhibit: <a href="https://library.ryerson.ca/asc/2018/05/ryerson-7025-five-pivotal-moments-in-ryersons-history/">5 pivotal moments in Ryerson&#8217;s history</a>, <a href="https://library.ryerson.ca/asc/2018/07/ryerson-7025-student-groups-and-clubs/">Student Groups and Clubs</a>, <a href="https://library.ryerson.ca/asc/2018/08/ryerson-7025-student-government/">Student Government</a>, Student Housing, and Athletics and Intramurals.</em></p>
+
+
+
+<p>This month marks the start of a new school year and for thousands of Ryerson students the first time living away from home. So it is fitting that for September&#8217;s blog we will look at student housing at Ryerson.</p>
+
+
+
+<p>When Ryerson first opened in 1948, there was no campus housing for students. Students rented their own apartments, lived in rooming houses or in various YMCA or YWCA facilities. For the 1957-1958 school year Ryerson&#8217;s Students&#8217; Adminstrative Council started a housing registry &#8211; to help students find accommodations in the city.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6390"><figure class="aligncenter is-resized"><img data-attachment-id="6390" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/333_churchst752/" data-orig-file="https://library.ryerson.ca/asc/files/333_ChurchSt752.jpg" data-orig-size="2501,3273" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Ryerson Housing Registry" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/333_ChurchSt752-229x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/333_ChurchSt752-458x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/333_ChurchSt752-229x300.jpg" alt="" class="wp-image-6390" width="414" height="542" srcset="https://library.ryerson.ca/asc/files/333_ChurchSt752-229x300.jpg 229w, https://library.ryerson.ca/asc/files/333_ChurchSt752-115x150.jpg 115w, https://library.ryerson.ca/asc/files/333_ChurchSt752-768x1005.jpg 768w, https://library.ryerson.ca/asc/files/333_ChurchSt752-458x600.jpg 458w" sizes="(max-width: 414px) 100vw, 414px" /><figcaption>Ryerson Housing Registry, 1984</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:63px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Church Street Annexes</strong></p>
+
+
+
+<p>In the late 1950s &#8211; early 1960s Ryerson purchased 323 and 333 Church Street for the purpose of providing housing to male students. Between 10 and 12 students lived in each building. After Kerr Hall residence opened in 1960, the students rooming in the Church Street residences were allowed to use Kerr Hall&#8217;s amenities.</p>
+
+
+
+<figure class="wp-block-gallery aligncenter columns-2 is-cropped"><ul data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img data-attachment-id="6395" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/rg95_1_323church/" data-orig-file="https://library.ryerson.ca/asc/files/RG95_1_323Church.jpg" data-orig-size="491,912" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="323 Church Street" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/RG95_1_323Church-162x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/RG95_1_323Church-323x600.jpg" loading="lazy" width="323" height="600" src="https://library.ryerson.ca/asc/files/RG95_1_323Church-323x600.jpg" alt="" data-id="6395" data-full-url="https://library.ryerson.ca/asc/files/RG95_1_323Church.jpg" data-link="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/rg95_1_323church/" class="wp-image-6395" srcset="https://library.ryerson.ca/asc/files/RG95_1_323Church-323x600.jpg 323w, https://library.ryerson.ca/asc/files/RG95_1_323Church-81x150.jpg 81w, https://library.ryerson.ca/asc/files/RG95_1_323Church-162x300.jpg 162w, https://library.ryerson.ca/asc/files/RG95_1_323Church.jpg 491w" sizes="(max-width: 323px) 100vw, 323px" /><figcaption class="blocks-gallery-item__caption">323 Church Street (RG 95.1.13.03.01)</figcaption></figure></li><li class="blocks-gallery-item"><figure><img data-attachment-id="6389" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/333_churchst751/" data-orig-file="https://library.ryerson.ca/asc/files/333_ChurchSt751.jpg" data-orig-size="2165,2694" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="333 Church Street" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/333_ChurchSt751-241x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/333_ChurchSt751-482x600.jpg" loading="lazy" width="482" height="600" src="https://library.ryerson.ca/asc/files/333_ChurchSt751-482x600.jpg" alt="" data-id="6389" data-full-url="https://library.ryerson.ca/asc/files/333_ChurchSt751.jpg" data-link="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/333_churchst751/" class="wp-image-6389" srcset="https://library.ryerson.ca/asc/files/333_ChurchSt751-482x600.jpg 482w, https://library.ryerson.ca/asc/files/333_ChurchSt751-121x150.jpg 121w, https://library.ryerson.ca/asc/files/333_ChurchSt751-241x300.jpg 241w, https://library.ryerson.ca/asc/files/333_ChurchSt751-768x956.jpg 768w" sizes="(max-width: 482px) 100vw, 482px" /><figcaption class="blocks-gallery-item__caption">333 Church Street</figcaption></figure></li></ul></figure>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Kerr Hall &#8211; Eric Palin Hall</strong></p>
+
+
+
+<p>Kerr Hall, renamed Eric Palin Hall in 1969, was Ryerson&#8217;s first residence. An all male dormitory that housed 42 students. Located in the refurbished Working Boys Home at 63 Gould Street (Now Oakham House). It opened in the Fall of 1960. In its first year running it cost students $10 per week to live there. It closed in 1972.</p>
+
+
+
+<figure class="wp-block-gallery aligncenter columns-2 is-cropped"><ul data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img data-attachment-id="6393" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/palin-hall-currently-oakham-house-ca-1964/" data-orig-file="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964.jpg" data-orig-size="381,596" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Oakham House/Palin Hall" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964-192x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964.jpg" loading="lazy" width="381" height="596" src="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964.jpg" alt="" data-id="6393" data-full-url="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964.jpg" data-link="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/palin-hall-currently-oakham-house-ca-1964/" class="wp-image-6393" srcset="https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964.jpg 381w, https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964-96x150.jpg 96w, https://library.ryerson.ca/asc/files/Palin-Hall-currently-Oakham-House-ca.-1964-192x300.jpg 192w" sizes="(max-width: 381px) 100vw, 381px" /><figcaption class="blocks-gallery-item__caption">Oakham House/Palin Hall ca. 1964</figcaption></figure></li><li class="blocks-gallery-item"><figure><img data-attachment-id="6391" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/1960_oakhamhouse_dorm_bunks_oakhamhouse_oakhamhouse2docfl015/" data-orig-file="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015.jpg" data-orig-size="5796,4450" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-300x230.jpg" data-large-file="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-600x461.jpg" loading="lazy" width="600" height="461" src="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-600x461.jpg" alt="" data-id="6391" data-full-url="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015.jpg" data-link="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/1960_oakhamhouse_dorm_bunks_oakhamhouse_oakhamhouse2docfl015/" class="wp-image-6391" srcset="https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-600x461.jpg 600w, https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-150x115.jpg 150w, https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-300x230.jpg 300w, https://library.ryerson.ca/asc/files/1960_OakhamHouse_dorm_bunks_OakhamHouse_OakhamHouse2DocFl015-768x590.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption class="blocks-gallery-item__caption">Dorm room in Oakham House, 1960</figcaption></figure></li></ul></figure>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Bond House &#8211; O&#8217;Keefe House</strong></p>
+
+
+
+<p>Bond House opened its doors as a men&#8217;s residence in 1964. Home to 33 students on 3 floors, it changed its name to O&#8217;Keefe House in 1978. It would eventually become a co-ed residence. O&#8217;Keefe House closed its doors at the end of the 2017-2018 school year.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6392"><figure class="aligncenter is-resized"><img data-attachment-id="6392" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/okeefe-house-ca-1970s/" data-orig-file="https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s.jpg" data-orig-size="462,572" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="O&#8217;Keefe House ca 1970s" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s-242x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s-242x300.jpg" alt="" class="wp-image-6392" width="397" height="492" srcset="https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s-242x300.jpg 242w, https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s-121x150.jpg 121w, https://library.ryerson.ca/asc/files/OKeefe-House-ca-1970s.jpg 462w" sizes="(max-width: 397px) 100vw, 397px" /><figcaption>Bond House/O&#8217;Keefe House</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:59px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Neill-Wycik College</strong></p>
+
+
+
+<p>The Student Housing group of the Ryerson Students&#8217; Administrative Council joined the Co-op College and applied for incorporation in 1967 under the name &#8220;Neill-Wycik&#8221; &#8211; Neill for A. S. Neill the founder of Summerhill School in the U. K. and Wycik in honour of Mama and Papa Wycik.</p>
+
+
+
+<p>The co-operative ran 3 (all male and co-ed) houses in Toronto for Ryerson students. They were located at 707 Spadina Avenue, 310 Jarvis Street, and 325 Church Street. They also rented 2 floors in the Rochdale College co-operative building at 341 Bloor Street West starting in 1968.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6388"><figure class="aligncenter is-resized"><img data-attachment-id="6388" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/325_churchst753/" data-orig-file="https://library.ryerson.ca/asc/files/325_ChurchSt753.jpg" data-orig-size="493,943" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="325 Church Street" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/325_ChurchSt753-157x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/325_ChurchSt753-314x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/325_ChurchSt753-157x300.jpg" alt="" class="wp-image-6388" width="324" height="619" srcset="https://library.ryerson.ca/asc/files/325_ChurchSt753-157x300.jpg 157w, https://library.ryerson.ca/asc/files/325_ChurchSt753-78x150.jpg 78w, https://library.ryerson.ca/asc/files/325_ChurchSt753-314x600.jpg 314w, https://library.ryerson.ca/asc/files/325_ChurchSt753.jpg 493w" sizes="(max-width: 324px) 100vw, 324px" /><figcaption>325 Church Street (RG 95.1.13.03.01)</figcaption></figure></div>
+
+
+
+<p>The purpose built Neill-Wycik College student residence building opened in November of 1970. It housed 800 students on 22 floors.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6394"><figure class="aligncenter is-resized"><img data-attachment-id="6394" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/rg-122-10-094/" data-orig-file="https://library.ryerson.ca/asc/files/RG-122.10.094.jpg" data-orig-size="1179,1715" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Neill Wycik College" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/RG-122.10.094-206x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/RG-122.10.094-412x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/RG-122.10.094-206x300.jpg" alt="" class="wp-image-6394" width="345" height="502" srcset="https://library.ryerson.ca/asc/files/RG-122.10.094-206x300.jpg 206w, https://library.ryerson.ca/asc/files/RG-122.10.094-103x150.jpg 103w, https://library.ryerson.ca/asc/files/RG-122.10.094-768x1117.jpg 768w, https://library.ryerson.ca/asc/files/RG-122.10.094-412x600.jpg 412w, https://library.ryerson.ca/asc/files/RG-122.10.094.jpg 1179w" sizes="(max-width: 345px) 100vw, 345px" /><figcaption>Neill-Wycik College (<a href="https://archives.library.ryerson.ca/index.php/neill-wycik-residence" target="_blank" rel="noreferrer noopener">RG 122.10.094</a>)</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>International Living/Learning Centre</strong></p>
+
+
+
+<p>Hotel Ibis, located at 240 Jarvis Street, was purchased by Ryerson Polytechnical Institute in August of 1993. The 11 storey building would be home to 270 co-ed students as well as the new home for the Hospitality and Tourism Management Program at Ryerson.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6396"><figure class="aligncenter is-resized"><img data-attachment-id="6396" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/student-residences-illc-1996/" data-orig-file="https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996.jpg" data-orig-size="2516,1734" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Student Residences, ILLC 1996" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-300x207.jpg" data-large-file="https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-600x414.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-300x207.jpg" alt="" class="wp-image-6396" width="461" height="318" srcset="https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-300x207.jpg 300w, https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-150x103.jpg 150w, https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-768x529.jpg 768w, https://library.ryerson.ca/asc/files/Student-Residences-ILLC-1996-600x414.jpg 600w" sizes="(max-width: 461px) 100vw, 461px" /><figcaption>International Living/Learning Centre (<a href="https://archives.library.ryerson.ca/index.php/student-residences-pitman-hall-and-illc" target="_blank" rel="noreferrer noopener">RG 395.40.16</a>)</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:59px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Pitman Hall</strong></p>
+
+
+
+<p>Pitman Hall is located at 160 Mutual Street. It has 14 floors and 565 rooms &#8211; with each floor having communal kitchen, lounge, and laundry facilities. The cafeteria is located on the main floor. This residence is co-ed.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6397"><figure class="aligncenter is-resized"><img data-attachment-id="6397" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/student-residences-pitman-hall-1996/" data-orig-file="https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996.jpg" data-orig-size="2516,1743" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Student Residences, Pitman Hall 1996" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-300x208.jpg" data-large-file="https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-600x416.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-300x208.jpg" alt="" class="wp-image-6397" width="474" height="329" srcset="https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-300x208.jpg 300w, https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-150x104.jpg 150w, https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-768x532.jpg 768w, https://library.ryerson.ca/asc/files/Student-Residences-Pitman-Hall-1996-600x416.jpg 600w" sizes="(max-width: 474px) 100vw, 474px" /><figcaption>Pitman Hall (<a href="https://archives.library.ryerson.ca/index.php/student-residences-pitman-hall-and-illc" target="_blank" rel="noreferrer noopener">RG 395.40.16</a>)</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>HOEM Residence</strong></p>
+
+
+
+<p>Opened in the Fall of 2018, Ryerson’s newest residence HOEM is Ryerson’s largest residence with 30 floors and 593 rooms. All suites are fully furnished and include a kitchen, living room, and single, private bedrooms. A co-ed residence that is open to both first and upper year students. HOEM was built and owned by Canadian Student Communities Inc. and is operated in partnership with Ryerson University. To learn more about HOEM, visit their web page <a href="https://www.hoem.ca/">here</a>.</p>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' class="wp-block-image wp-image-6435"><figure class="aligncenter is-resized"><img data-attachment-id="6435" data-permalink="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/hoem-building_rendering/" data-orig-file="https://library.ryerson.ca/asc/files/HOEM-Building_Rendering.jpg" data-orig-size="690,1226" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="HOEM Residence" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-169x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-338x600.jpg" loading="lazy" src="https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-169x300.jpg" alt="" class="wp-image-6435" width="305" height="541" srcset="https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-169x300.jpg 169w, https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-84x150.jpg 84w, https://library.ryerson.ca/asc/files/HOEM-Building_Rendering-338x600.jpg 338w, https://library.ryerson.ca/asc/files/HOEM-Building_Rendering.jpg 690w" sizes="(max-width: 305px) 100vw, 305px" /><figcaption>HOEM Student Residence was built and is owned by Canadian Student Communities Inc. It is operated in partnership with Ryerson University</figcaption></figure></div>
+
+
+
+<div data-carousel-extra='{"blog_id":7,"permalink":"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/"}' style="height:58px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>To learn more about Ryerson&#8217;s history &#8211; please visit the Ryerson University Archives and Special Collections located on the 4th floor of the library in Room LIB404.</p>
+
+
+
+<p>Stay tuned for month for the final blog in the series &#8211; Student Athletics and Intramurals.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-6383" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/archives/" rel="category tag">Archives</a>, <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/exhibits/" rel="category tag">Exhibits</a> and tagged <a href="https://library.ryerson.ca/asc/tag/ryerson-7025/" rel="tag">Ryerson 7025</a>, <a href="https://library.ryerson.ca/asc/tag/ryerson-campus/" rel="tag">Ryerson Campus</a>, <a href="https://library.ryerson.ca/asc/tag/student-housing/" rel="tag">Student Housing</a> by <a href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/">Rosalynn</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2018/09/ryerson-7025-student-housing/" title="Permalink to Ryerson 7025 &#8211; Student Housing" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-6383 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-5946" class="post-5946 post type-post status-publish format-standard hentry category-did-you-know category-points-of-interest category-sc category-uncategorized">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/">A Window in Time &#8211; 1899</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/" title="2:16 pm" rel="bookmark"><time class="entry-date" datetime="2017-08-25T14:16:28-04:00" pubdate>August 25, 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/" title="View all posts by Rosalynn" rel="author">Rosalynn</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<h3 class="has-text-align-center"><strong>What is that date on the window?</strong></h3>
+
+
+
+<p>The Archives and Special Collections (A&amp;SC) windows feature a series of seemingly random numbers worked into the window&#8217;s graphic pattern. The numbers are actually dates, chosen by A&amp;SC staff, that are significant to the City of Toronto, Ryerson University, and Archives and Special Collections. Over the course of the next year our blog will feature some of the window dates and explain their significance.</p>
+
+
+
+<h4 class="has-text-align-center"><strong>1899</strong></h4>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://library.ryerson.ca/asc/files/2014/12/ColborneStreet-2.jpg" alt=""/><figcaption>Canadian Kodak Co., Ltd. Headquarters (1899-1901), 41 Colborne Street, Toronto (<a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/canadian-kodak-co-colborne-street-location-delivery-truck" target="_blank">2005.001.3.259</a>)</figcaption></figure></div>
+
+
+
+<p>In 1899, after successfully operating on the American market for over a decade, George Eastman dispatched Kodak employee John G. Palmer to Toronto to determine the viability of establishing a subsidiary in Canada. Palmer discovered a robust market for photographic products and, on November 8, 1899, Canadian Kodak Co., Limited was incorporated under the Ontario Company’s act. The nascent company established headquarters in downtown Toronto, embarking on a relationship with the city that would last more than a century and would constitute the heart of the company’s manufacturing operations in Canada.</p>
+
+
+
+<p>For more information on Kodak Canada, please read our earlier blog &#8211; &#8220;<a rel="noreferrer noopener" href="https://library.ryerson.ca/asc/2015/01/kodak-in-toronto-1899-2005-a-century-of-traces/" target="_blank">Kodak in Toronto</a>&#8221; </p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-5946" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/" rel="category tag">Points of Interest</a>, <a href="https://library.ryerson.ca/asc/category/sc/" rel="category tag">Special Collections</a>, <a href="https://library.ryerson.ca/asc/category/uncategorized/" rel="category tag">Uncategorized</a> by <a href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/">Rosalynn</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2017/08/a-window-in-time-1899/" title="Permalink to A Window in Time &#8211; 1899" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-5946 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-5670" class="post-5670 post type-post status-publish format-standard hentry category-asc category-did-you-know category-points-of-interest category-sc">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/">SPECIAL COLLECTIONS IS ON THE MOVE!</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/" title="2:15 pm" rel="bookmark"><time class="entry-date" datetime="2016-05-17T14:15:09-04:00" pubdate>May 17, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/" title="View all posts by Rosalynn" rel="author">Rosalynn</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/doozer_construction198/" rel="attachment wp-att-5672"><img data-attachment-id="5672" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/doozer_construction198/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198.jpg" data-orig-size="4280,3588" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Doozer_construction198" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-300x251.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-600x503.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-300x251.jpg" alt="" class="wp-image-5672" width="486" height="407" srcset="https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-300x251.jpg 300w, https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-150x126.jpg 150w, https://library.ryerson.ca/asc/files/2016/05/Doozer_construction198-600x503.jpg 600w" sizes="(max-width: 486px) 100vw, 486px" /></a><figcaption>Doozer construction sign from the Bob Hackborn fonds 2012.005.06.59</figcaption></figure></div>
+
+
+
+<p>Beginning Monday May 16 Special Collections will be rooming with the Ryerson University Archives while renovations happen on the 4th floor. The Archives is located on the 3rd floor in the Library in room LIB387.</p>
+
+
+
+<p>The move will take several weeks to complete, but we will continue to offer reference and research appointments while the shifting takes place.</p>
+
+
+
+<p>To access Special Collections please email asc@ryerson.ca for an appointment.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0290/" rel="attachment wp-att-5686"><img data-attachment-id="5686" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0290/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0290.jpg" data-orig-size="3648,2736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463496697&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0290" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0290-300x225.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0290-600x450.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/IMG_0290-300x225.jpg" alt="Empty shelving in Special Collections" class="wp-image-5686" width="514" height="386" srcset="https://library.ryerson.ca/asc/files/2016/05/IMG_0290-300x225.jpg 300w, https://library.ryerson.ca/asc/files/2016/05/IMG_0290-150x113.jpg 150w, https://library.ryerson.ca/asc/files/2016/05/IMG_0290-600x450.jpg 600w" sizes="(max-width: 514px) 100vw, 514px" /></a><figcaption>Fitting, Kodak was Special Collections first fonds and it is the first to relocate to the third floor.</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0289/" rel="attachment wp-att-5685"><img data-attachment-id="5685" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0289/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0289.jpg" data-orig-size="3648,2736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463496679&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0289" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0289-300x225.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0289-600x450.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/IMG_0289-300x225.jpg" alt="Empty shelving in Special Collections." class="wp-image-5685" width="507" height="380" srcset="https://library.ryerson.ca/asc/files/2016/05/IMG_0289-300x225.jpg 300w, https://library.ryerson.ca/asc/files/2016/05/IMG_0289-150x113.jpg 150w, https://library.ryerson.ca/asc/files/2016/05/IMG_0289-600x450.jpg 600w" sizes="(max-width: 507px) 100vw, 507px" /></a><figcaption>Clearing and disassembling of shelves has begun.</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0288/" rel="attachment wp-att-5684"><img data-attachment-id="5684" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0288/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0288.jpg" data-orig-size="3648,2736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463496486&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0288" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0288-300x225.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0288-600x450.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/IMG_0288-300x225.jpg" alt="Fans of shelves against wall." class="wp-image-5684" width="502" height="377" srcset="https://library.ryerson.ca/asc/files/2016/05/IMG_0288-300x225.jpg 300w, https://library.ryerson.ca/asc/files/2016/05/IMG_0288-150x113.jpg 150w, https://library.ryerson.ca/asc/files/2016/05/IMG_0288-600x450.jpg 600w" sizes="(max-width: 502px) 100vw, 502px" /></a><figcaption>Shelves waiting for assemble in the Archives</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0287/" rel="attachment wp-att-5683"><img data-attachment-id="5683" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0287/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0287.jpg" data-orig-size="3648,2736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463496377&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0287" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0287-300x225.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0287-600x450.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/IMG_0287-300x225.jpg" alt="Kodak ledgers on shelving in Archives" class="wp-image-5683" width="495" height="371" srcset="https://library.ryerson.ca/asc/files/2016/05/IMG_0287-300x225.jpg 300w, https://library.ryerson.ca/asc/files/2016/05/IMG_0287-150x113.jpg 150w, https://library.ryerson.ca/asc/files/2016/05/IMG_0287-600x450.jpg 600w" sizes="(max-width: 495px) 100vw, 495px" /></a><figcaption>Kodak advertising ledgers in their home</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><a href="http://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0286/" rel="attachment wp-att-5682"><img data-attachment-id="5682" data-permalink="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/img_0286/" data-orig-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644.jpg" data-orig-size="2736,3648" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon PowerShot A640&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463496366&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;7.3&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;8&quot;}" data-image-title="IMG_0286" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-225x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-450x600.jpg" loading="lazy" src="http://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-225x300.jpg" alt="Archival boxes on shelves in Archives." class="wp-image-5682" width="493" height="657" srcset="https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-225x300.jpg 225w, https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-113x150.jpg 113w, https://library.ryerson.ca/asc/files/2016/05/IMG_0286-e1463510691644-450x600.jpg 450w" sizes="(max-width: 493px) 100vw, 493px" /></a><figcaption>Doesn&#8217;t take long to fill up the shelves.</figcaption></figure></div>
+
+
+
+<p>We are looking forward to an exciting Summer and Fall with A&amp;SC finally located in one place! Check back here for move updates and photographs.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-5670" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/asc/" rel="category tag">All</a>, <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/" rel="category tag">Points of Interest</a>, <a href="https://library.ryerson.ca/asc/category/sc/" rel="category tag">Special Collections</a> by <a href="https://library.ryerson.ca/asc/author/rosalynn-mackenzie/">Rosalynn</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2016/05/special-collections-is-on-the-move/" title="Permalink to SPECIAL COLLECTIONS IS ON THE MOVE!" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-5670 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-4266" class="post-4266 post type-post status-publish format-standard hentry category-did-you-know category-feature-from-the-collections">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/">Did you know &#8211; Collections beyond our walls</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/" title="4:50 pm" rel="bookmark"><time class="entry-date" datetime="2014-11-18T16:50:19-05:00" pubdate>November 18, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/asc/author/askyrme/" title="View all posts by Alison" rel="author">Alison</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>Did you know that the collections in the Ryerson Archives &amp; Special Collections sometimes are shown outside the University? Ryerson Associate Professor <a rel="noreferrer noopener" href="https://www.ryerson.ca/architectural-science/people/faculty/marco-polo/" target="_blank">Marco Polo</a> and Chair of Architectural Science <a rel="noreferrer noopener" href="https://www.ryerson.ca/architectural-science/people/faculty/colin-ripley/" target="_blank">Colin Ripley</a> have curated a wonderful exhibition titled &#8220;Architecture and National Identity: The Centennial Projects 50 Years On&#8221; on view at the Confederation Centre of the Arts in Charlottetown, PEI.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="http://library.ryerson.ca/asc/2014/11/did-you-know-2/architecturenationalheritage003/" rel="attachment wp-att-4267"><img data-attachment-id="4267" data-permalink="https://library.ryerson.ca/asc/2014/11/did-you-know-2/architecturenationalheritage003/" data-orig-file="https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003.jpg" data-orig-size="2483,2546" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Architecture &#038; National Heritage" data-image-description="" data-medium-file="https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-292x300.jpg" data-large-file="https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-585x600.jpg" loading="lazy" width="585" height="600" src="http://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-585x600.jpg" alt="Catalogue cover for the exhibition Architecture &amp; National Identity" class="wp-image-4267" srcset="https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-585x600.jpg 585w, https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-146x150.jpg 146w, https://library.ryerson.ca/asc/files/2014/11/ArchitectureNationalHeritage003-292x300.jpg 292w" sizes="(max-width: 585px) 100vw, 585px" /></a></figure></div>
+
+
+
+<p>On view until January 11, 2015, the exhibition examines a range of public architectural projects created throughout Canada to commemorate the Centennial of Confederation in 1967. Several photographs from the <a href="https://archives.library.ryerson.ca/index.php/canadian-architect-magazine-fonds">Canadian Architect Magazine Image Collection</a>, held in Special Collections, are featured in the exhibition and the accompanying catalogue, available at the <a href="http://catalogue.library.ryerson.ca/record=b2532677~S0">Ryerson University Library</a>.</p>
+
+
+
+<p></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li><a href="#" class="sharing-anchor sd-button share-more"><span>Share</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon" href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon" href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-end"></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-4266" class="share-linkedin sd-button share-icon" href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li><li class="share-end"></li></ul></div></div></div></div></div>		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/asc/category/did-you-know/" rel="category tag">Did you know...</a>, <a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/" rel="category tag">Feature from the Collections</a> by <a href="https://library.ryerson.ca/asc/author/askyrme/">Alison</a>. Bookmark the <a href="https://library.ryerson.ca/asc/2014/11/did-you-know-2/" title="Permalink to Did you know &#8211; Collections beyond our walls" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-4266 -->
+
+			
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: Student Voices from 2000</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/08/a-comic-book-collection-from-the-1940s/">A Comic Book Collection&#8230; from the 1940s!</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-the-expo-watch-camera/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; The Expo Watch Camera</a>
+									</li>
+											<li>
+					<a href="https://library.ryerson.ca/asc/2020/07/these-are-a-few-of-our-favourite-things-jack-layton-library/">&#8220;These are a few of our favourite things&#8230;&#8221; &#8211; Jack Layton Library</a>
+									</li>
+					</ul>
+
+		</aside><aside id="categories-4" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-6"><a href="https://library.ryerson.ca/asc/category/asc/" title="Posts relating to both Archives and Special Collections">All</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://library.ryerson.ca/asc/category/archives/" title="Posts related to the Archives">Archives</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://library.ryerson.ca/asc/category/contests/">Contests</a>
+</li>
+	<li class="cat-item cat-item-186 current-cat"><a aria-current="page" href="https://library.ryerson.ca/asc/category/did-you-know/">Did you know&#8230;</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://library.ryerson.ca/asc/category/exhibits/">Exhibits</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://library.ryerson.ca/asc/category/feature-from-the-collections/">Feature from the Collections</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="https://library.ryerson.ca/asc/category/asc/points-of-interest/">Points of Interest</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="https://library.ryerson.ca/asc/category/sc/">Special Collections</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://library.ryerson.ca/asc/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-4">Archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://library.ryerson.ca/asc/2020/11/'> November 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/09/'> September 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/08/'> August 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/07/'> July 2020 &nbsp;(5)</option>
+	<option value='https://library.ryerson.ca/asc/2020/06/'> June 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/05/'> May 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/04/'> April 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2020/01/'> January 2020 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2019/11/'> November 2019 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2019/05/'> May 2019 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/11/'> November 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/10/'> October 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/09/'> September 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/08/'> August 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/07/'> July 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/05/'> May 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2018/01/'> January 2018 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/10/'> October 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/08/'> August 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/04/'> April 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2017/01/'> January 2017 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/07/'> July 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/05/'> May 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2016/03/'> March 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/02/'> February 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2016/01/'> January 2016 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/12/'> December 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/10/'> October 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/09/'> September 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/08/'> August 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/07/'> July 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/06/'> June 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/05/'> May 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/04/'> April 2015 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2015/03/'> March 2015 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2015/02/'> February 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2014/07/'> July 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/04/'> April 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/03/'> March 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/02/'> February 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2014/01/'> January 2014 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/11/'> November 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/10/'> October 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/09/'> September 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/08/'> August 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/04/'> April 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/03/'> March 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2013/01/'> January 2013 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/12/'> December 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/10/'> October 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/06/'> June 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/02/'> February 2012 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2012/01/'> January 2012 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/11/'> November 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/10/'> October 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/09/'> September 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/07/'> July 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/06/'> June 2011 &nbsp;(1)</option>
+	<option value='https://library.ryerson.ca/asc/2011/05/'> May 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/04/'> April 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='https://library.ryerson.ca/asc/2011/02/'> February 2011 &nbsp;(3)</option>
+	<option value='https://library.ryerson.ca/asc/2011/01/'> January 2011 &nbsp;(4)</option>
+	<option value='https://library.ryerson.ca/asc/2010/12/'> December 2010 &nbsp;(1)</option>
+
+		</select>
+
+<script>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson Archives & Special Collections</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LIB 404">LIB 404</a><br>            
+                    350 Victoria Street, 4th Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000 ext. 7027<br>                    Email: <a href="mailto:asc@ryerson.ca">asc@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+          
+                    
+          
+          
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/asc/files/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/library.ryerson.ca\/asc\/2020\/08\/a-comic-book-collection-from-the-1940s\/":7704,"https:\/\/library.ryerson.ca\/asc\/2019\/11\/canadian-radio-and-television-history-at-ryerson-november-1949\/":6679,"https:\/\/library.ryerson.ca\/asc\/2018\/09\/ryerson-7025-student-housing\/":6383,"https:\/\/library.ryerson.ca\/asc\/2017\/08\/a-window-in-time-1899\/":5946,"https:\/\/library.ryerson.ca\/asc\/2016\/05\/special-collections-is-on-the-move\/":5670,"https:\/\/library.ryerson.ca\/asc\/2014\/11\/did-you-know-2\/":4266};
+	</script>
+					<div id="sharing_email" style="display: none;">
+		<form action="/asc/category/did-you-know/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://library.ryerson.ca/asc/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<link rel='stylesheet' id='jetpack-block-slideshow-css'  href='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/blocks/slideshow/view.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/library.ryerson.ca\/asc\/wp-admin\/admin-ajax.php","nonce":"90def50391","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/library.ryerson.ca\/asc\/wp-login.php?redirect_to=https%3A%2F%2Flibrary.ryerson.ca%2Fasc%2F2020%2F08%2Fa-comic-book-collection-from-the-1940s%2F","blog_id":"7","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2' id='jetpack-carousel-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15' id='lodash-js'></script>
+<script id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/dom-ready.min.js?ver=db63eb2f693cb5e38b083946b14f0684' id='wp-dom-ready-js'></script>
+<script src='https://library.ryerson.ca/asc/wp-includes/js/dist/escape-html.min.js?ver=f7b0e4c8bb987c1ab79bdda0d9db465b' id='wp-escape-html-js'></script>
+<script id='jetpack-block-slideshow-js-extra'>
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+var Jetpack_Block_Assets_Base_Url = "https:\/\/library.ryerson.ca\/asc\/wp-content\/plugins\/jetpack\/_inc\/blocks\/";
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/blocks/slideshow/view.js?ver=9.2' id='jetpack-block-slideshow-js'></script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":""};
+</script>
+<script src='https://library.ryerson.ca/asc/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=9.2' id='sharing-js-js'></script>
+<script id='sharing-js-js-after'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-tumblr', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'HCFBIBEBMCBKMJBPOCKDCOKIEFMLNLGFAPHGMCIEGFLMNGOGJINNIIOOIOPDNEILMDOBFNCOAAINBJNAHDNABIPKAAGMKMCEJHMLLPOOFOLCEJEFJPJODKKIOLLMAEEE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

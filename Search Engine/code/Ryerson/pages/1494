@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Ryerson University Athletics & Recreation</title>
+    
+    <meta property="og:title" content="Ryerson University Athletics &amp; Recreation">
+    <meta property="og:image" content="https://ryersonrams.ca/images/2019/10/2/HLE_9677_SM.jpg">
+    <meta property="og:image:alt" content="Ryerson University Logo">
+    <meta name="description" content="The official athletics and recreation website for Ryerson University.">
+    <meta name="og:description" content="The official athletics and recreation website for Ryerson University.">
+    <meta name="twitter:description" content="The official athletics and recreation website for Ryerson University.">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:determiner" content="the">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Ryerson University Athletics &amp; Recreation">
+    <meta property="og:url" content="https://ryersonrams.ca/index.aspx">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700i,800i&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .acc-hide { position: absolute; top: -99999px; left: -99999px; display: block !important; background-color: #000 !important; color: #fff !important; clip: rect(1px, 1px, 1px, 1px); }
+        * { box-sizing: border-box; }
+        body { background: url('/images/responsive/landing_bg_2.jpg') center / cover no-repeat; font: 1rem/1.5 Arial, Helvetica, sans-serif; color: #000; margin: 0; padding: 24px 0; }
+        img { max-width: 100%; }
+        .s-logo { padding: 0 24px; text-align: center; }
+        .s-links { display: flex; align-items: center; background: rgba(0,22,45,0.67); height: 252px; padding: 0 24px; position: fixed; bottom: 24px; left: 0; width: 100%; }
+        .s-links__list { list-style: none; margin: 0; padding: 0; width: 100%; }
+        .s-links__item + .s-links__item { margin-top: 12px; }
+        .s-links__btn { background: linear-gradient(172deg, #00488d 20%, #022751, #00488d 80%); box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 2px 3px 6px rgba(0,0,0,0.25); color: #fff; display: flex; align-items: center; justify-content: center; font: italic 800 24px/1 'Montserrat'; letter-spacing: 0.035em; text-decoration: none; text-shadow: -1px -1px 0 rgba(0,0,0,0.25); text-transform: uppercase; width: 100%; height: 84px; }
+        .s-links__btn--gold { background: linear-gradient(172deg, #dea100 20%, #7b5900, #dea100 80%); }
+        
+        @media (min-width: 768px) {
+
+            .s-links { padding: 72px 48px; }
+            .s-links__list { display: flex; align-items: center; justify-content: center; }
+            .s-links__item { flex: 1 0 0px; max-width: 440px; transform: skew(-26deg); }
+            .s-links__item + .s-links__item { margin: 0 0 0 24px; }
+            .s-links__btn { font-size: 30px; height: 108px; }
+            .s-links__btn > span { transform: skew(26deg); }
+        }
+        
+        @media (min-width: 1025px) {
+            .s-logo { padding: 36px 60px; text-align: left; }
+            .s-links { height: 220px; padding: 0; position: fixed; bottom: 24px; left: 0; width: 100%; }
+            .s-links__line { filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5)); pointer-events: none; position: absolute; width: calc(50% - 24px); height: 9px; transform: skew(-26deg); z-index: 3; }
+            .s-links__line--left { background: #dea100; top: 65px; left: 0; }
+            .s-links__line--left::after { background: #dea100; position: absolute; right: 0; top: 0; width: 12px; height: 40px; content: ''; }
+            .s-links__line--right { background: #014a97; bottom: 65px; right: 0; }
+            .s-links__line--right::after { background: #014a97; position: absolute; left: 0; bottom: 0; width: 12px; height: 40px; content: ''; }
+            .s-links__list { height: 100%; }
+            .s-links__btn { box-shadow: 2px 3px 6px rgba(0,0,0,0.5), 4px 6px 12px rgba(0,0,0,0.25); font-size: 40px; height: 134px; }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="acc-hide">Official Website of Ryerson University Athletics & Recreation</h1>
+    <div class="s-logo">
+        <img src="/images/responsive/landing_logo_3.png" alt="Ryerson Rams">
+    </div>
+    <section class="s-links">
+        <ul class="s-links__list">
+            <li class="s-links__item">
+                <a class="s-links__btn" href="/index.aspx"><span>Athletics</span></a>
+            </li>
+            <li class="s-links__item">
+                <a class="s-links__btn s-links__btn--gold" href="https://www.ryerson.ca/recreation/"><span>Recreation</span></a>
+            </li>
+        </ul>
+        <div class="s-links__line s-links__line--left"></div>
+        <div class="s-links__line s-links__line--right"></div>
+    </section>
+</body>
+</html>

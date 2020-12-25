@@ -1,0 +1,458 @@
+
+<!DOCTYPE HTML>
+<html><head><title>Upcoming Events</title><script src="/career/static/111213/js/perf/stub.js" type="text/javascript"></script><link class="component" href="/career/faces/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/table.xcss/DATB/eAFzNbn668Lel7cBFaAFmg__" rel="stylesheet" type="text/css" /><script src="/career/jslibrary/1599859468228/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/career/resource/1503081142000/evt__JQuery/jquery-3.2.1.min.js" type="text/javascript"></script><script src="/career/resource/1503081142000/evt__Moment/moment-2.18.1.min.js" type="text/javascript"></script><script src="/career/resource/1503081142000/evt__FullCalendar/fullcalendar-3.4.0/fullcalendar.js" type="text/javascript"></script><script src="/career/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/career/jslibrary/1590082528228/sfdc/VFState.js" type="text/javascript"></script><link class="user" href="/career/resource/1503081142000/evt__FullCalendar/fullcalendar-3.4.0/fullcalendar.css" rel="stylesheet" type="text/css" /><script src="/career/jslibrary/1595441942228/sfdc/NetworkTracking.js" type="text/javascript"></script><script>try{ NetworkTracking.init('/career/_ui/networks/tracking/NetworkTrackingServlet', 'network', '0661J00000341Ke'); }catch(x){}try{ NetworkTracking.logPageView();}catch(x){}</script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script></head><body>
+<head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+<title>Upcoming Events</title></head>
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/sites_basic.css" rel="stylesheet" type="text/css" />
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/sites_basic_responsive.css" rel="stylesheet" type="text/css" />
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/trust_logos.css" rel="stylesheet" type="text/css" />
+
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/sites_buttons_fields.css" rel="stylesheet" type="text/css" />
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/css_buttons/gray.css" rel="stylesheet" type="text/css" />
+<link href="/career/resource/1503080797000/pymt__PaymentConnect/styles/css_buttons/blue.css" rel="stylesheet" type="text/css" />
+
+<link href="/career/resource/1503081141000/evt__EventManagement/styles/sites_basic.css" rel="stylesheet" type="text/css" />
+<link href="/career/resource/1503081141000/evt__EventManagement/styles/sites_basic_responsive.css" rel="stylesheet" type="text/css" />
+
+ <link href="/career/resource/1503081141000/evt__EventManagement/styles/sites_quickevent_multicol.css" rel="stylesheet" type="text/css" />
+ <link href="/career/resource/1503081141000/evt__EventManagement/styles/sites_h2_header_boxes.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+<style>
+body {
+    font-family: trebuchet MS, Verdana, Geneva;
+    padding:0px;
+    margin:0px;
+    background:white;
+}
+
+h1, h2, h3 {
+    color:#858383;
+}
+
+h1 {
+    font-size:18px;
+    }
+h2 {
+    font-size:16px;
+    width:100%;
+    border-top:1px dashed black;
+    padding-top:10px;
+}
+.pc_logo {
+   background: url('https://ryersonuniversity.force.com/career/resource/1505147429000/RU_logo');
+   background-repeat: no-repeat;
+   background-size:270%;
+   background-position: -20px -520px;
+   height: 80px;
+   width:300px;
+   /* border: 1px solid red; */
+}
+
+a {
+text-decoration: none;
+   color: #E6B360;
+   color: #E69613;
+   color: #6e8de3;
+}
+
+a:hover
+{
+text-decoration: none;
+}
+
+
+.pc_frame_top {
+    background-color:transparent;
+    width:100%;
+    height:140px;
+    background: white;
+    padding:0px;
+}
+.pc_frame_top > .inner {
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pc_frame {
+    margin-bottom: 20px;
+    margin-top:0px;
+    width: 100%;
+    display:block;
+    background-color:white;
+}
+
+.pc_frame_inner {
+   /* padding:25px 20px 20px 20px; */
+    padding-top:10px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#navbar {
+    color:white;
+    padding:5px 0px;
+}
+
+#navbar a {
+    color:white;
+    padding: 5px 10px;
+    text-decoration:none;
+    border: solid 1px transparent;
+}
+#navbar a:hover {
+    color:white;
+    border: solid 1px ;
+
+}
+
+.box {
+    border: none;
+}
+
+
+
+.pc_frame .message {
+    background-color:#EAF3F5;
+    border-color:#99ccff;
+    background-color:#ffffcc;
+    border-color:#ffcc00;
+}
+
+.pc_page_content_inner {
+   padding-left:20px;
+   padding-right:20px;
+}
+.pc_page_content table td {
+   padding:2px;
+}
+
+ </style>
+
+ <style>
+
+/* ------- Responsive CSS Nav Styling ----------- */
+.css_menu {
+}
+
+/*Strip the ul of padding and list styling*/
+.css_menu ul {
+    z-index: 10000;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+.css_menu > ul > li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+/*Style for menu links*/
+.css_menu li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #4f5050;
+    text-decoration: none;
+}
+
+/*Hover state for top level links*/
+#menu > li:hover > a {
+    background: #858383;
+}
+
+/*Style for dropdown links*/
+.css_menu li:hover ul a {
+    background:  #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+.css_menu li:hover ul a:hover {
+    background: #B1B1B1; /* #19c589; */
+    color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+.css_menu li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+#menu li ul li {
+    display: block;
+    float: none;
+}
+
+/*Prevent text wrapping*/
+.css_menu li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+.css_menu > ul > li > a:hover + .hidden, .css_menu .hidden:hover {
+    display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #858383; /* #19c589; */
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/*Hide checkbox*/
+.css_menu input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+.css_menu input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    .css_menu ul {
+        z-index: 10000;
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    .css_menu > ul > li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    .css_menu ul li, li a {
+        position:relative;
+        z-index: 10001;
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+        margin-top:11px;
+    }
+}
+
+/* ------- End of Responsive CSS Nav Styling -------- */
+
+/* Fixed width layout (optional) version
+.pc_frame_top .inner {
+   max-width:800px;
+   margin-left:auto;
+   margin-right:auto;
+
+}
+.pc_page_content_inner {
+   max-width:800px;
+   margin-left:auto;
+   margin-right:auto;
+} */
+</style>
+<body id="htmlBody">
+
+
+    
+        <div class="pc_frame_top">
+           <div class="inner">
+
+    
+   
+    <div class="css_menu">
+    <label class="show-menu" for="show-menu">Show Menu</label>
+    <input id="show-menu" role="button" type="checkbox" />
+        <ul id="menu">
+        <li><a href="https://ryersonuniversity.force.com/career/">Home</a></li>
+        <li>
+            <a href="#">Events <i class="fa fa-long-arrow-down"></i></a>
+            <ul class="hidden">
+                <li><a href="https://ryersonuniversity.force.com/career/evt__SiteEventList">Event Calendar</a></li>
+      
+            </ul>
+        </li>
+        <li><a href="https://ryersonuniversity.force.com/career/login">Login</a></li>
+
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+    </div>
+    
+
+        </div>
+        </div>
+<br />
+
+
+<img height="150px" src="https://ryersonuniversity.force.com/career/resource/1566312725000/RUlogo2019" />
+
+
+<br /> <br />
+    <div class="pc_frame">
+    <div class="pc_frame_inner">    
+
+<script src="https://www.google.com/jsapi?key=ABQIAAAAC7Ltv_3xEtJuuoY0LLIU0BQLNlfCSZsNWrNrjOuv5jQjg1XmWxTBmlNjfmUYoQnNBdSSobucYtoG8A" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+    
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+        
+        
+        
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },
+            defaultView: 'month',
+            editable: false,
+            events: '/career/evt__UpcomingEventsFeed',
+            eventClick: function(event) {
+                var recTypeName = event.recTypeDevName;
+                var targetURL = '';
+                if (recTypeName == 'Web_Meeting') {
+                    targetURL = '/career/evt__SiteWebMeeting?id='+event.id;
+                    }
+                if (recTypeName == 'Conference') {
+                    targetURL = '/career/evt__Conf_Detail?id='+event.id;
+                    }
+                if (recTypeName == 'Seminar') {
+                    targetURL = '/career/evt__Sem_Detail?id='+event.id;
+                    }
+                if (recTypeName == 'Quick_Event') {
+                    targetURL = '/career/evt__QuickEvent?id='+event.id;
+                    }
+                if (recTypeName == 'Concert') {
+                    targetURL = event.url;
+                    }
+
+                if (targetURL !== '') {                 
+                   window.location.assign(targetURL);
+                }
+                return false;  // return false to prevent redirecting to url value on event object (if any).
+            },
+            timezone:'local',
+            dayClick: function(date, jsEvent, view) {
+        
+                $('#calendar').fullCalendar( 'gotoDate', date);
+
+            }                                       
+        });
+        
+    });
+
+    </script>
+<div id="pc_lang_en_CA">
+<div class="pc_page" id="evt_event_list_page">
+  <div class="pc_page_content_top"></div>
+  <div class="pc_page_content">
+    <div class="pc_page_content_inner"> 
+        <h1>Upcoming Events</h1>
+<form id="siteEventListPage:SiteTemplate:j_id16" name="siteEventListPage:SiteTemplate:j_id16" method="post" action="/career/evt__SiteEventList" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="siteEventListPage:SiteTemplate:j_id16" value="siteEventListPage:SiteTemplate:j_id16" />
+
+        <div class="evt_event_list_view_select_bar">
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {adp[i].parentNode.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('siteEventListPage:SiteTemplate:j_id16'),'siteEventListPage:SiteTemplate:j_id16:j_id18,siteEventListPage:SiteTemplate:j_id16:j_id18','');}return false">List</a>&nbsp;|&nbsp;<a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('siteEventListPage:SiteTemplate:j_id16'),'siteEventListPage:SiteTemplate:j_id16:j_id21,siteEventListPage:SiteTemplate:j_id16:j_id21','');}return false">Calendar</a></div><span id="siteEventListPage:SiteTemplate:j_id16:j_id58" class="evt_upcoming_events_calendar">
+            <div id="calendar" style="margin:1em 0;font-size:13px"></div></span><div id="siteEventListPage:SiteTemplate:j_id16:j_id67"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202011251916200825" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNkltdG9WbEozTm1FMlNWWllURWRRTFZwU2JUWXpORFpuTkZoSWEwMXJaMHAxU2xGM1kwbGtNRUpxVGsxY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3Ukc4d01EQXdNREF3WW1KRmJWd2lMRndpZGx3aU9sd2lNREpITVVvd01EQXdNREJJVFV0WlhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05XOHdNREF3TURBeGVHOVNUVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFl3TmpnMk5qWTRNVE14Tnl3aVpYaHdJam93ZlE9PS4uS0FXX01OOVRPWU56QVo5QWFKbXVYbHg3NENtOTR5NFhtd3JnZmpwQnlmOD0=" /></span></span>
+    </div>
+  </div>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    
+    <div style="text-align:center;width:100%;font-size:.5em;font-weight:bold;font:Verdana;color:#A4A4A4;">Powered by Linvio PaymentConnect</div>
+
+    </div>
+    </div>
+    <script>
+    //  alert('alert!');
+
+
+      var button = document.createElement("a");
+      button.className = "css-button btn-small";
+      button.innerHTML = "Log In";
+
+
+   var body = document.getElementsByClassName("labelColumn")[0];
+   body.appendChild(button);
+
+
+   button.addEventListener ("click", function() {
+     window.location = "https://ryersonuniversity.force.com/career/login ";
+   });
+
+    </script>
+
+</body><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["siteEventListPage:SiteTemplate:j_id16"]);
+
+});</script></body></html>

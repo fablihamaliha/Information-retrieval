@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js"  lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" class="lt-ie9 lt-ie8 no-js" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+	<meta name="theme-color" content="#03599c">
+  <title>  Research Skills Workshops | Ryerson University Library &amp; Archives  </title>
+
+	<link rel="shortcut icon" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/favicon.ico?v=1.26.8"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-8', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/style-ie7.css" />
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+		<link rel="pingback" href="https://library.ryerson.ca/xmlrpc.php" />
+
+		<link rel='dns-prefetch' href='https://s0.wp.com' />
+		<link rel='dns-prefetch' href='https://s.w.org' />
+		<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &amp; Archives &raquo; Feed" href="https://library.ryerson.ca/feed/" />
+		<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &amp; Archives &raquo; Comments Feed" href="https://library.ryerson.ca/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+			img.wp-smiley,
+			img.emoji {
+				display: inline !important;
+				border: none !important;
+				box-shadow: none !important;
+				height: 1em !important;
+				width: 1em !important;
+				margin: 0 .07em !important;
+				vertical-align: -0.1em !important;
+				background: none !important;
+				padding: 0 !important;
+			}
+		</style>
+<link rel='stylesheet' id='subpages-navigation-css' href='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-polls-css'  href='https://library.ryerson.ca/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://library.ryerson.ca/wp-content/plugins/wp-polls/images/default_gradient/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://ryersonlibrary.nyc3.digitaloceanspaces.com/web_libraries/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ryerson-web-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/style.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-style.css?ver=1.26.8' type='text/css' media='all' />
+
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/ribbons.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/feed2js.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=1.26.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.22' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.22' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.22' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/wp-content/plugins/jetpack/css/jetpack.css?ver=8.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://library.ryerson.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='https://library.ryerson.ca/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel="canonical" href="https://library.ryerson.ca/guides/research-skills-workshops/" />
+<link rel='shortlink' href='https://wp.me/P2Hpif-BW' />
+<link rel="alternate" type="application/json+oembed" href="https://library.ryerson.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fguides%2Fresearch-skills-workshops%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://library.ryerson.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flibrary.ryerson.ca%2Fguides%2Fresearch-skills-workshops%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitelibrary.css" />
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type="text/css">
+	.broken_link, a.broken_link {
+		text-decoration: line-through;
+	}
+</style>
+<style type="text/css">
+	/* If html does not have either class, do not show lazy loaded images. */
+	html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+		display: none;
+	}
+</style>
+<script>
+	document.documentElement.classList.add(
+		'jetpack-lazy-images-js-enabled'
+	);
+</script>
+		<!-- Jetpack Open Graph Tags -->
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Research Skills Workshops" />
+		<meta property="og:url" content="https://library.ryerson.ca/guides/workshops/" />
+		<meta property="og:description" content="Please note: You must REGISTER for each session that you plan to attend.  Due to space limitations, unregistered students may not be admitted if the session is full. This schedule is subject to cha…" />
+		<meta property="article:published_time" content="2012-04-26T14:37:31+00:00" />
+		<meta property="article:modified_time" content="2017-10-04T19:35:53+00:00" />
+		<meta property="og:site_name" content="Ryerson University Library" />
+		<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+		<meta property="og:locale" content="en_US" />
+		<meta name="twitter:text:title" content="Research Skills Workshops" />
+		<meta name="twitter:card" content="summary" />
+
+		<style type="text/css" id="wp-custom-css">
+			/*
+			You can add your own CSS here.
+
+			Click the help icon above to learn more.
+			*/
+			#askcontainer {
+				padding: 0!important;
+			}
+
+			.cal_closure {
+				color: red;
+			}
+
+			@media (min-width: 768px) {
+				.global-footer-bottom {
+					padding-bottom: 3em;
+				}
+			}
+			/* Style table on RACER FAQ page */
+			.racer-faq td {padding-right: 2em; padding-bottom: 1em; vertical-align: top;}
+
+			/* Searcb Box background colour */
+			.search_form .search_input, .search_form input[type="search"]  {
+				background-color: #ffffff;
+			}
+
+			#main>.search_form .search_input, .search_form input[type="search"] {background-color: #e5e5e5;}
+			/* Style for Course Readings Images */
+			.coursereadingimage {
+				margin-left: 2em;
+				filter: drop-shadow(5px 5px 5px grey);
+				margin-top: 0.5em;
+			}
+
+			/* Extra padding after li entries in ol and ul lists */
+			.padded-list li{
+				padding-bottom: 1em;
+			}
+
+			/* Black Heritage Exhibit Page */
+			.narrow {
+				float: left;
+			}
+			.wide {
+				float: right;
+			}
+			.bottomborder {
+				float: left;
+				padding-bottom: 1em;
+			}
+		</style>
+	</head>
+
+<body class="page-template-default page page-id-2352 page-child parent-pageid-262">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    <a class="assistive-text btn" href="#main-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+				<!-- RULA Logo standalone site compatability -->
+				<a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+				<div class="navbar-toggle-wrap">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+						<span class="sr-only">Toggle search form</span>
+						<i class="fa fa-search" title="Toggle search form"></i>
+					</button>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<i class="fa fa-bars" title="Toggle navigation"></i>
+					</button>
+				</div>
+			</div>
+
+            <!-- Site Search -->
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+				<div class="rylib-search-form">
+					<form action="https://search.ryerson.ca/search" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+						<label for="site-search" class="sr-only">Search library.ryerson.ca</label>
+						<input id="site-search" type="text" name="s" placeholder="Search library.ryerson.ca">
+						<button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+					</form>
+				</div>
+			</div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+				<ul class="nav navbar-nav" role="navigation">
+					<li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+					<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+				</ul>
+            </div>
+
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="global-header-bottom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://library.ryerson.ca">Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-header-bottom" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-angle-down" title="Toggle navigation"></i>
+      </button>
+    </div>
+    <div id="global-header-bottom" class="collapse navbar-collapse">
+		<ul id="menu-library-navigation" class="nav navbar-nav">
+			<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a title="Library Catalogue for Books, Media, Journals" href="https://catalogue.library.ryerson.ca/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Catalogue"><i class="fa Library Catalogue for Books, Media, Journals" aria-hidden="true"></i>&nbsp;Catalogue</a></li>
+			<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a title="Articles" href="https://library.ryerson.ca/articles/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Articles">Articles</a></li>
+			<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a title="Research" href="https://library.ryerson.ca/guides" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Research">Research</a></li>
+			<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Services" href="https://library.ryerson.ca/services/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Services">Services</a></li>
+			<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-25617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25617"><a title="About Us" href="https://library.ryerson.ca/info/about-us/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="About Us">About Us</a></li>
+		</ul>
+	</div>
+  </div>
+</header>
+
+<header class="rula-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Research Skills Workshops</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style type="text/css">
+.cta-panel {
+  background: #FFA300;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.cta-panel a {
+  color: #000;
+}
+</style>
+
+<div class="container navbar-fixed-bottom hidden-xs">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="cta-panel pull-right">
+        <a href="https://library.ryerson.ca/ask" ga-on="click" ga-event-category="Call To Action" ga-event-action="click" ga-event-label="Got a question? Ask us!">Got a question? Ask us!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="main" class="clear">
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-9">
+
+              <div class="breadcrumbs">
+          <!-- Breadcrumb NavXT 5.7.1 -->
+<a title="Go to Ryerson University Library &amp; Archives." href="https://library.ryerson.ca" class="home">Ryerson University Library</a> &#187; <a title="Go to Research." href="https://library.ryerson.ca/guides/" class="post post-page">Research</a> &#187; Research Skills Workshops        </div>
+
+<div id="content" role="main">
+
+
+		<link rel="stylesheet" type='text/css' media='all' href="/studentworkshops/css/general-std.css">
+		<link rel="stylesheet" media="screen" href="/studentworkshops/css/basic.css">
+		<link rel="stylesheet" media="screen" href="/studentworkshops/css/tabs.css">
+		
+
+		<SCRIPT language="javascript" src="js/general.js"></SCRIPT>
+		<SCRIPT LANGUAGE="JavaScript">
+			var tempForm;
+
+			function wshopDetail(id) {
+				url = "../workshop_detail.cfm?id="+id+"&isView=true";
+				window.open(url, "Workshop_Detail","width=650,height=450,resizable=yes,scrollbars=yes");
+			}
+
+			function expend(index) {
+				e = document.getElementById("desc"+index);
+				if(e.style.display == "none") {
+					e.style.display = "";
+				}
+				else
+					e.style.display = "none";
+			}
+		</SCRIPT>
+
+		<div id="header">
+			<ul id="primary">
+				<li><span>Workshops</span></li>
+				<li><a href="student_regist.cfm">My Workshops</a></li>
+			</ul>
+		</div>
+		<div id="main1">
+			<div id="contents">
+				<H4>Library Workshops</H4>
+ 				<P class="note">There are 0 workshop sessions currently available.</P>
+			
+			</div>
+		</div>
+
+              </div><!-- #content -->
+
+    </div><!-- #primary -->
+
+
+<div class="col-xs-12 col-sm-3 widget-area" role="complementary">
+<aside id="olt-subpages-navigation-widget-2" class="widget widget_subpages_navigation"><h3 class="widget-title"><a href='https://library.ryerson.ca/guides/'>Research</a></h3>      <ul class="subpages-navi subpages-navi-widget subpages-navi-collapsible subpages-navi-auto-expand">
+          <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/guides/style/">Citations and Style Guides</a>
+    <ul class='children'>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/guides/style/understanding/">Understanding Citations</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/guides/style/special/">Special Formats</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/guides/style/othe/">Other Style Guides</a>
+      </li>
+      <li class="subpages-navi-node subpages-navi-level-1">
+        <a href="https://library.ryerson.ca/guides/style/business_apa/">Citing Business Sources in APA Style</a>
+      </li>
+    </ul>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/guides/book-an-appointment/">Book an Appointment</a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/guides/webalerts/">Journal Alerts and Notifications</a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/guides/web-tools/">Research Tools and Extensions</a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0 subpages-navi-current-level">
+    <a href="https://library.ryerson.ca/guides/research-skills-workshops/">Research Skills Workshops</a>
+  </li>
+  <li class="subpages-navi-node subpages-navi-level-0">
+    <a href="https://library.ryerson.ca/guides/tutorials/">Video Tutorials</a>
+  </li>
+      </ul>
+
+      </aside><aside id="section-6" class="widget section-widget"><div class="menu-researchmenu-container"><ul id="menu-researchmenu" class="menu"><li id="menu-item-32291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32291"><a href="http://learn.library.ryerson.ca/Research">Research Help Guide</a></li>
+<li id="menu-item-3106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3106"><a href="http://learn.library.ryerson.ca">Research Guides</a></li>
+<li id="menu-item-3109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3109"><a href="https://library.ryerson.ca/info/contactus/subject-liaison-librarians/">Subject Librarians</a></li>
+<li id="menu-item-33542" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33542"><a href="https://learn.library.ryerson.ca/Research/evaluate">Evaluating Internet Resources</a></li>
+<li id="menu-item-12129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12129"><a href="https://library.ryerson.ca/services/refserv/">Visit/Call Us</a></li>
+<li id="menu-item-5318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5318"><a target="_blank" rel="noopener noreferrer" href="https://library.ryerson.ca/ask/">Chat with Us</a></li>
+</ul></div></aside>
+  
+
+</div><!-- #secondary .widget-area -->
+
+  </div>
+</div>
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                      <li><a href="https://www.facebook.com/RyersonLibrary/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+
+
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+
+                      <li><a href="https://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul id="menu-footer" class="menu"><li id="menu-item-29131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29131"><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+<li id="menu-item-29132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29132"><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+<li id="menu-item-29133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29133"><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+<li id="menu-item-29134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29134"><a href="https://library.ryerson.ca/siteindex/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+</ul>                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/wp-content/uploads/rula_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script type='text/javascript' src='https://library.ryerson.ca/wp-includes/js/comment-reply.min.js?ver=5.3.2'></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/library.ryerson.ca\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.4'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=1.26.8'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/script.js?ver=1.26.8'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=1.26.8'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.22'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.22'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.22'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"de8d737f36","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.22'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.3'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.22'></script>
+<script type='text/javascript' src='https://library.ryerson.ca/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+</body>
+</html> 

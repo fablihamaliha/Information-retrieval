@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		
+				<meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no">
+					
+						
+				
+	<title>Centre for Communicating Knowledge</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Centre for Communicating Knowledge &raquo; Feed" href="https://cck.fcad.ryerson.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Centre for Communicating Knowledge &raquo; Comments Feed" href="https://cck.fcad.ryerson.ca/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s35556.pcdn.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://s35556.pcdn.co/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://s35556.pcdn.co/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.23' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='https://s35556.pcdn.co/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.13-9993131' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://s35556.pcdn.co/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-default-style-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/style.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-font-awesome-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/framework/modules/icons/font-awesome/css/font-awesome.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elegant-icons-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/framework/modules/icons/elegant-icons/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='linear-icons-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/framework/modules/icons/linear-icons/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-stylesheet-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/css/stylesheet.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-style-dynamic-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/css/style_dynamic.css?ver=1603993609' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-responsive-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/css/responsive.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-style-dynamic-responsive-css'  href='https://s35556.pcdn.co/wp-content/themes/stockholm/css/style_dynamic_responsive.css?ver=1603993609' type='text/css' media='all' />
+<style id='stockholm-style-dynamic-responsive-inline-css' type='text/css'>
+ .comment_holder .comment_number h5, .comment_form .comment-respond h5 {
+font-size: 30px;
+}
+ .single_tags h5{
+font-family: Karla, sans-serif;
+font-size: 11px;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+margin-right: 10px;
+}
+.header_bottom {
+padding: 0 0 0 45px;
+}
+header:not(.sticky) .side_menu_button>a.side_menu_button_link{
+    height: 100%;
+    background-color: #272838;
+color:#fff;
+    display: inline-block;
+width:auto;
+}
+.side_menu_button>a.side_menu_button_link{
+    padding: 0 21px;
+}
+header:not(.sticky) .side_menu_button>a.side_menu_button_link span{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    display: block;
+}
+.dark:not(.sticky):not(.scrolled) .side_menu_button>a {
+    color: #fff;
+}
+.single_tags a, .widget .tagcloud a, aside.sidebar .widget .tagcloud a {
+padding: 2px 18px;
+}
+.portfolio_social_holder {
+    padding-top: 15px;
+}
+.side_menu .widget.widget_nav_menu li > a{
+position:relative;
+}
+.side_menu .widget.widget_nav_menu li > a:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    left: calc(100% + 13px);
+    transition: width .15s;
+}
+
+.side_menu .widget.widget_nav_menu li:hover > a:after {
+    width: 34px;
+}
+.portfolio_single .portfolio_masonry_gallery {
+    margin-top: 12px;
+}
+
+ .flexslider .flex-prev,
+.full_width .section_inner .portfolio_slider .caroufredsel-prev,
+.portfolio_slider .caroufredsel-prev {
+left: 0px;
+}
+.flexslider .flex-next,
+.full_width .section_inner .portfolio_slider .caroufredsel-next,
+.portfolio_slider .caroufredsel-next {
+right: 0px;
+}
+
+ div.comment_form {
+margin: 0 0 120px;
+}
+
+@media only screen and (max-width: 1000px){
+    .logo_wrapper,
+    .q_logo a {
+        left: 0;
+    }
+}
+
+.side_area_over_content .cover {
+    -webkit-transition: opacity .15s ease-in-out,background .3s ease-in-out,z-index .3s ease-in-out;
+    transition: opacity .15s ease-in-out,background .3s ease-in-out,z-index .3s ease-in-out;
+    z-index: 1;
+}
+
+.side_area_over_content.side_area_uncovered_opened .cover {
+    -webkit-transition: opacity .3s ease-in-out,background .3s ease-in-out,z-index .15s ease-in-out;
+    transition: opacity .3s ease-in-out,background .3s ease-in-out,z-index .15s ease-in-out;
+}
+
+.qode-owl-slider .owl-nav .owl-prev,
+.qode-owl-slider .owl-nav .owl-next,
+.footer_top a,
+#back_to_top>span,
+.portfolio_single .owl-carousel .owl-next,
+.portfolio_single .owl-carousel .owl-prev,
+.qode-simple-blog-list .qode-sbl-post .qode-sbl-post-title a,
+.qode-simple-blog-list .qode-sbl-post .qode-sbl-category a,
+.social_share_list_holder ul li i,
+.portfolio_navigation a,
+.flex-direction-nav a,
+#submit_comment,
+.single_tags a {
+   -webkit-transition: none;
+    transition: none;
+}
+
+#submit_comment:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.qode-focus-border-form .qbutton.display_dash {
+    padding: 0 76px;
+    line-height: 58px;
+    height: 58px;
+}
+
+div.wpcf7 .ajax-loader {
+   display: none;
+}
+
+.portfolio_single .owl-nav .owl-prev span.arrow_carrot-left,
+.portfolio_single .owl-nav .owl-next span.arrow_carrot-right {
+   display: none;
+}
+
+
+.portfolio_single .owl-nav .owl-prev:before,
+.portfolio_single .owl-nav .owl-next:before {
+    content: "\f104";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "FontAwesome";
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+}
+
+.portfolio_single .owl-nav .owl-next:before {
+     content: "\f105";
+}
+
+.blog_single.blog_holder article.format-link .post_text .post_text_inner,
+.blog_single.blog_holder article.format-quote .post_text .post_text_inner {
+     padding: 20px 0;
+}
+
+.blog_holder.blog_animated article .qodef-post-image,
+.blog_holder.blog_animated article .qodef-post-text {
+    opacity: 1;
+    -webkit-transition: left .4s;
+    transition: left .4s;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+</style>
+<link rel='stylesheet' id='js_composer_front-css'  href='https://s35556.pcdn.co/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='stockholm-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CCrete+Round%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CKarla%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.2.23' id='tp-tools-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.23' id='revmin-js'></script>
+<link rel="https://api.w.org/" href="https://cck.fcad.ryerson.ca/wp-json/" /><link rel="alternate" type="application/json" href="https://cck.fcad.ryerson.ca/wp-json/wp/v2/pages/4" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cck.fcad.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s35556.pcdn.co/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="canonical" href="https://cck.fcad.ryerson.ca/" />
+<link rel='shortlink' href='https://cck.fcad.ryerson.ca/' />
+<link rel="alternate" type="application/json+oembed" href="https://cck.fcad.ryerson.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcck.fcad.ryerson.ca%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cck.fcad.ryerson.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcck.fcad.ryerson.ca%2F&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.2.23 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://s35556.pcdn.co/wp-content/uploads/2019/03/cropped-CCK-Logo_SM-Profile-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://s35556.pcdn.co/wp-content/uploads/2019/03/cropped-CCK-Logo_SM-Profile-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://s35556.pcdn.co/wp-content/uploads/2019/03/cropped-CCK-Logo_SM-Profile-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://s35556.pcdn.co/wp-content/uploads/2019/03/cropped-CCK-Logo_SM-Profile-1-270x270.jpg" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type="text/css" data-type="vc_custom-css">@keyframes element-from-left {
+    0% {
+    transform: translate(-15%,0);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+@keyframes element-from-right {
+    0% {
+    transform: translate(15%,0);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+@keyframes element-from-bottom {
+    0% {
+    transform: translate(0,15%);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+.homepage-heading p {
+    font-weight: 700;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .homepage-heading p { 
+	font-size: 32px;
+	line-height: 36px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.homepage-heading p {
+	font-size: 32px;
+	line-height: 36px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.homepage-heading p {
+	font-size: 38px;
+	line-height: 42px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.homepage-heading p {
+	font-size: 44px;
+	line-height: 48px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.homepage-heading p {
+	font-size: 58px;
+	line-height: 54px;
+	}
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1560190962207{margin-top: 8% !important;}.vc_custom_1560191008076{margin-top: 5% !important;margin-right: 6% !important;margin-left: 6% !important;padding-bottom: 3.8% !important;}.vc_custom_1560190899920{margin-top: 3% !important;}.vc_custom_1560190920109{margin-right: 3% !important;margin-left: 3% !important;}.vc_custom_1559005722124{margin-top: -12% !important;padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1595524221155{padding-bottom: 3% !important;}.vc_custom_1570028190917{padding-bottom: 8% !important;}.vc_custom_1560190929513{margin-top: 7% !important;}.vc_custom_1560190885265{margin-bottom: 4% !important;}.vc_custom_1559834687278{margin-top: 5% !important;margin-bottom: 7% !important;}.vc_custom_1559834700855{margin-top: 5% !important;margin-bottom: 7% !important;}.vc_custom_1559834709325{margin-top: 5% !important;margin-bottom: 7% !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="home page-template page-template-full_width page-template-full_width-php page page-id-4 stockholm-core-1.0.8 select-theme-ver-5.1.4 ajax_fade page_not_loaded side_area_over_content wpb-js-composer js-comp-ver-6.4.1 vc_responsive">
+				<div class="ajax_loader">
+				<div class="ajax_loader_1">
+					<div class="cube"></div>				</div>
+			</div>
+		<section class="side_menu right">
+				<a href="#" class="close_side_menu_fold"><i class="line">&nbsp;</i></a>
+		<div id="media_image-2" class="widget widget_media_image posts_holder"><img width="1565" height="613" src="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white.png" class="image wp-image-2772  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white.png 1565w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-300x118.png 300w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-1024x401.png 1024w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-768x301.png 768w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-1536x602.png 1536w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-700x274.png 700w, https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-white-1100x431.png 1100w" sizes="(max-width: 1565px) 100vw, 1565px" /></div><div id="text-5" class="widget widget_text posts_holder">			<div class="textwidget"><div class="vc_empty_space"   style="height: 1px"><span class="vc_empty_space_inner"></span></div></div>
+		</div><div id="nav_menu-4" class="widget widget_nav_menu posts_holder"><div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-2224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-2224"><a href="https://cck.fcad.ryerson.ca/" aria-current="page">Home</a></li>
+<li id="menu-item-2227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2227"><a href="https://cck.fcad.ryerson.ca/about/">About</a></li>
+<li id="menu-item-2226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226"><a href="https://cck.fcad.ryerson.ca/our-work/">Our Work</a></li>
+<li id="menu-item-2291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2291"><a href="https://cck.fcad.ryerson.ca/services/">Services</a></li>
+<li id="menu-item-2290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2290"><a href="https://cck.fcad.ryerson.ca/contact/">Contact</a></li>
+</ul></div></div><div id="text-4" class="widget widget_text posts_holder">			<div class="textwidget"><div class="vc_empty_space"   style="height: 4px"><span class="vc_empty_space_inner"></span></div></div>
+		</div></section>	<div class="wrapper">
+		<div class="wrapper_inner">
+				<header class="page_header transparent scrolled_not_transparent dark fixed">
+				
+		<div class="header_inner clearfix">
+						
+			<div class="header_top_bottom_holder">
+								
+				<div class="header_bottom clearfix" style="background-color:rgba(221, 153, 51, 0);">
+																			<div class="header_inner_left">
+																								<div class="logo_wrapper">
+									<div class="q_logo">
+										<a href="https://cck.fcad.ryerson.ca/">
+	<img class="normal" src="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-main.png" alt="Logo"/>
+<img class="light" src="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-main.png" alt="Logo"/>
+<img class="dark" src="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-main.png" alt="Logo"/>	
+	<img class="sticky" src="https://s35556.pcdn.co/wp-content/uploads/2020/07/cck-logo-main.png" alt="Logo"/>
+	
+	</a>									</div>
+																	</div>
+																							</div>
+																																							<div class="header_inner_right">
+										<div class="side_menu_button_wrapper right">
+																																	<div class="side_menu_button">
+																																					<a class="side_menu_button_link normal" href="#">
+		<span class="icon_menu"></span>	</a>
+											</div>
+										</div>
+									</div>
+																								<nav class="main_menu drop_down   right">
+																	</nav>
+																																							<nav class="mobile_menu">
+	</nav>								
+													</div>
+				</div>
+			</div>
+	</header>
+			
+			<div class="content ">
+							<div class="meta">
+							
+			<div class="seo_title"></div>
+			
+										
+				<span id="qode_page_id">4</span>
+				<div class="body_classes">home,page-template,page-template-full_width,page-template-full_width-php,page,page-id-4,stockholm-core-1.0.8,select-theme-ver-5.1.4,ajax_fade,page_not_loaded,side_area_over_content,wpb-js-composer js-comp-ver-6.4.1,vc_responsive</div>
+			</div>
+						
+				<div class="content_inner">
+					<style type="text/css" data-type="vc_shortcodes-custom-css-4">.vc_custom_1560190962207{margin-top: 8% !important;}.vc_custom_1560191008076{margin-top: 5% !important;margin-right: 6% !important;margin-left: 6% !important;padding-bottom: 3.8% !important;}.vc_custom_1560190899920{margin-top: 3% !important;}.vc_custom_1560190920109{margin-right: 3% !important;margin-left: 3% !important;}.vc_custom_1559005722124{margin-top: -12% !important;padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1595524221155{padding-bottom: 3% !important;}.vc_custom_1570028190917{padding-bottom: 8% !important;}.vc_custom_1560190929513{margin-top: 7% !important;}.vc_custom_1560190885265{margin-bottom: 4% !important;}.vc_custom_1559834687278{margin-top: 5% !important;margin-bottom: 7% !important;}.vc_custom_1559834700855{margin-top: 5% !important;margin-bottom: 7% !important;}.vc_custom_1559834709325{margin-top: 5% !important;margin-bottom: 7% !important;}</style><style type="text/css" data-type="vc_custom-css-4">@keyframes element-from-left {
+    0% {
+    transform: translate(-15%,0);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+@keyframes element-from-right {
+    0% {
+    transform: translate(15%,0);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+@keyframes element-from-bottom {
+    0% {
+    transform: translate(0,15%);
+    opacity: 0;
+    }
+    100% {
+    transform: translate(0,0);
+    opacity: 1;
+    }
+}
+
+.homepage-heading p {
+    font-weight: 700;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .homepage-heading p { 
+	font-size: 32px;
+	line-height: 36px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.homepage-heading p {
+	font-size: 32px;
+	line-height: 36px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.homepage-heading p {
+	font-size: 38px;
+	line-height: 42px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.homepage-heading p {
+	font-size: 44px;
+	line-height: 48px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.homepage-heading p {
+	font-size: 58px;
+	line-height: 54px;
+	}
+}</style>					
+											<div class="q_slider">
+		<div class="q_slider_inner">
+			
+			<!-- START Homepage Slider REVOLUTION SLIDER 6.2.23 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style="background:transparent;padding:0;background-image:url(https://s35556.pcdn.co/wp-content/uploads/2019/03/CCK-homepage.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;">
+				<rs-module id="rev_slider_2_1" style="" data-version="6.2.23">
+					<rs-slides>
+						<rs-slide data-key="rs-4" data-title="Slide" data-duration="3230" data-anim="ei:d;eo:d;s:-200;r:0;t:fade;sl:d;">
+							<img src="//s35556.pcdn.co/wp-content/uploads/2019/03/CCK-homepage.jpg" title="Home" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-2-slide-4-layer-1" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:l,l,c,c;xo:50px,75px,-70px,-4px;y:t,t,b,t;yo:392px,299px,219px,342px;"
+								data-text="w:normal;s:80,72,60,46;l:85,76,65,50;ls:0px,0px,0,1px;fw:700;a:inherit;"
+								data-dim="w:783px,762px,547px,376px;h:280px,auto,196px,164px;"
+								data-frame_0="y:top;o:1;tp:600;"
+								data-frame_1="tp:600;e:power3.out;sp:2060;sR:10;"
+								data-frame_999="o:0;tp:600;st:w;sp:370;sR:1160;"
+								style="z-index:5;font-family:Montserrat;letter-spacing:-4px;"
+							>The Centre for Communicating Knowledge 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-4-layer-2" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:l,l,c,c;xo:55px,74px,-66px,1px;yo:691px,573px,772px,534px;"
+								data-text="w:nowrap,nowrap,nowrap,normal;s:38,34,30,20;l:28,28,28,26;fw:600;a:inherit;"
+								data-dim="w:714px,auto,auto,386px;h:auto,auto,auto,27px;"
+								data-frame_0="y:100%;tp:600;"
+								data-frame_1="tp:600;e:power4.inOut;sp:2090;sR:10;"
+								data-frame_999="o:0;tp:600;st:w;sp:10;sR:1130;"
+								style="z-index:6;font-family:Montserrat;letter-spacing:2px;"
+							><i class="fa-minus" style= "color: #f18320;"></i> RESEARCH BROUGHT TO LIFE 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_2_1',rl:[1240,1024,778,480],el:[],gw:[1100,800,778,480],gh:[868,768,960,720],type:'standard',justify:'',layout:'fullscreen',offsetContainer:'',offset:'',mh:"0"});
+					var	revapi2,
+						tpj;
+					function revinit_revslider21() {
+					jQuery(function() {
+						tpj = jQuery;
+						revapi2 = tpj("#rev_slider_2_1");
+						if(revapi2==undefined || revapi2.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_2_1");
+						}else{
+							revapi2.revolution({
+								sliderLayout:"fullscreen",
+								duration:3500,
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:"1100,800,778,480",
+								gridheight:"868,768,960,720",
+								perspectiveType:"local",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+					} // End of RevInitScript
+				var once_revslider21 = false;
+				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider21 ) { once_revslider21 = true; revinit_revslider21();}});} else {once_revslider21 = true; revinit_revslider21();}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+		</div>
+	</div>
+	<div class="full_width" >
+	<div class="full_width_inner" style="padding-top:0px">
+										<div     class="vc_row wpb_row section vc_row-fluid vc_custom_1560190962207 grid_section" style=' text-align:left;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-7 vc_hidden-xs"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_single_image wpb_content_element vc_align_left  element_from_left">
+		<div class="wpb_wrapper">
+			
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="2000" height="1333" src="https://s35556.pcdn.co/wp-content/uploads/2015/11/Team3-e1553281008521.jpg" class="vc_single_image-img attachment-full" alt="CCK employees looking at designs on a whiteboard" loading="lazy" srcset="https://s35556.pcdn.co/wp-content/uploads/2015/11/Team3-e1553281008521.jpg 2000w, https://s35556.pcdn.co/wp-content/uploads/2015/11/Team3-e1553281008521-600x400.jpg 600w" sizes="(max-width: 2000px) 100vw, 2000px" /></div>
+		</div>
+	</div>
+</div></div></div></div></div></div><div     class="vc_row wpb_row section vc_row-fluid  grid_section" style=' text-align:left;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner vc_custom_1559005722124"><div class="wpb_wrapper">
+	<div class="wpb_single_image wpb_content_element vc_align_left  element_from_bottom">
+		<div class="wpb_wrapper">
+			
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="2000" height="1334" src="https://s35556.pcdn.co/wp-content/uploads/2015/11/Presentation2-e1553280903479.jpg" class="vc_single_image-img attachment-full" alt="A girl presenting something from a whiteboard" loading="lazy" srcset="https://s35556.pcdn.co/wp-content/uploads/2015/11/Presentation2-e1553280903479.jpg 2000w, https://s35556.pcdn.co/wp-content/uploads/2015/11/Presentation2-e1553280903479-600x400.jpg 600w" sizes="(max-width: 2000px) 100vw, 2000px" /></div>
+		</div>
+	</div>
+</div></div></div></div></div></div><div     class="vc_row wpb_row section vc_row-fluid vc_custom_1560191008076 grid_section" style=' text-align:left;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="  element_from_right"><div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768' ><div class='q_elements_item'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_holder_custom_810142' style='padding:0% 12% 0% 10%'>
+	<div class="wpb_text_column wpb_content_element  homepage-heading vc_custom_1595524221155">
+		<div class="wpb_wrapper">
+			<h2>Specialists in Knowledge Mobilization</h2>
+
+		</div> 
+	</div> 
+	<div class="wpb_text_column wpb_content_element  vc_custom_1570028190917">
+		<div class="wpb_wrapper">
+			<p>The CCK is a knowledge mobilization (KMb) unit that develops creative and innovative ways of communicating research. Located within the School of Professional Communication (ProCom) at Ryerson University, the CCK is uniquely positioned to provide guidance, support, and strategic communication services to academics and researchers.</p>
+
+		</div> 
+	</div> <a href="cck.fcad.ryerson.ca/about" target="_self" data-hover-background-color=#f46c0b data-hover-color=#272838 class="qbutton  display_dash" style="color: #272838; border-color: #f46c0b; ">learn more</a></div></div></div></div></div></div></div></div></div></div></div></div><div     class="vc_row wpb_row section vc_row-fluid vc_custom_1560190899920" style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">	<div class="qode-centered-portfolio-carousel qode-owl-slider" data-enable-center="yes" data-slider-padding="yes" data-slider-margin="38" data-number-of-items="1">
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/creative-technology-lab-website/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/11/CTL-screen-1-1-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/medtech-talent-accelerator/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/11/medtech-screen-3-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/audience-lab-website/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/11/Audience-lab-screen-1-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/watchtime-canada-2019/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/11/Watchtime-2019-Cover-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/ryerson-urban-water-annual-report/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/11/RUW-annual-report-1-e1574704704840-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/htm-research/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/htm-research-website-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/thoughts-for-dementia/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/thoughts-for-dementia-website-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="Thoughts for dimentia website design" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/ryerson-urban-water-strategic-plan/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/ruw-strategic-plan-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="Ryerson Urban Water strategic plan cover" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/the-black-experience-project/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/black-experience-project-report-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/social-mobility-in-peel/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/social-mobility-in-peel-poster-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/focus-on-features/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/focus-on-features-report-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/rubix/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/rubix-magazine-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/cross-over-youth-project/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/cross-over-youth-logo-4-800x600.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/out-of-tanzania/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/out-of-tanzania-800x600.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/sustainable-indigenous-tourism/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/Sustainable-indigenous-tourism-website-800x600.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/going-green-in-the-city/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2019/03/going-green-1-800x600.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+									<div class="qode-cpc-post">
+											<div class="qode-cpc-post-image">
+							<a href="https://cck.fcad.ryerson.ca/portfolio_page/embody/" itemprop="url">
+								<span class="qode-cpc-overlay"></span>
+								<img width="800" height="600" src="https://s35556.pcdn.co/wp-content/uploads/2017/07/embody-exhibit-2-800x600.png" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="" loading="lazy" />							</a>
+						</div>
+									</div>
+			</div>
+</div></div></div></div></div><div     class="vc_row wpb_row section vc_row-fluid vc_custom_1560190920109" style=' text-align:center;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1560190929513"><div class="wpb_wrapper"><div     class="vc_row wpb_row vc_inner section vc_row-fluid" style=' padding-top:15pxpx; text-align:left;'><div class=" full_section_inner clearfix"><div class="homepage-heading wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1560190885265"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center;">Our Services</h2>
+
+		</div> 
+	</div> </div></div></div></div></div><div     class="vc_row wpb_row vc_inner section vc_row-fluid home-services" style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="custom_font_holder" style="font-family: montserrat; font-size: 24px; line-height: 26px; font-style: normal; font-weight: 700; color: #272838; text-decoration: none; background-color: #f46c0b; padding: 15px; text-align: left;"><span></p>
+<h3 style="text-align: center; color: #ffffff; font-size: 24px;">Strategize</h3>
+<p></span></div>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1559834687278">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;">We strategize around the best way to connect with your audiences and communicate your messages.</p>
+
+		</div> 
+	</div> </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="custom_font_holder" style="font-family: montserrat; font-size: 24px; line-height: 26px; font-style: normal; font-weight: 700; color: #272838; text-decoration: none; background-color: #f46c0b; padding: 15px; text-align: left;"><span></p>
+<h3 style="text-align: center; color: #ffffff; font-size: 24px;">Engage</h3>
+<p></span></div>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1559834700855">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;">We actively engage with your audiences by researching their communication needs, generating dialogue, and facilitating conversations.</p>
+
+		</div> 
+	</div> </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="custom_font_holder" style="font-family: montserrat; font-size: 24px; line-height: 26px; font-style: normal; font-weight: 700; color: #272838; text-decoration: none; background-color: #f46c0b; padding: 15px; text-align: left;"><span></p>
+<h3 style="text-align: center; color: #ffffff; font-size: 24px;">Present</h3>
+<p></span></div>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1559834709325">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;">We create innovative communication materials that tell research stories in clear, accessible, and compelling ways.</p>
+
+		</div> 
+	</div> </div></div></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div></div><div class='q_elements_holder one_column responsive_mode_from_1300 alignment_one_column_center' ><div class='q_elements_item'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_holder_custom_921748' style='padding:25px 0px 100px 0px'><a href="cck.fcad.ryerson.ca/services" target="_self" data-hover-background-color=#f46c0b data-hover-border-color=#f46c0b data-hover-color=#272838 class="qbutton  move_icon" style="color: #272838; ">Learn More</a></div></div></div></div></div></div></div></div></div>
+																				</div>
+</div>
+</div>
+</div>
+	<footer class="qodef-page-footer ">
+		<div class="footer_inner clearfix">
+				<div class="footer_top_holder">
+		<div class="footer_top footer_top_full">
+															<div class="two_columns_50_50 clearfix">
+								<div class="qode_column column1">
+									<div class="column_inner">
+										<div id="text-2" class="widget widget_text"><h4>The Centre for Communicating Knowledge</h4>			<div class="textwidget"><p>Rogers Communication Centre<br />
+80 Gould Street  |  Toronto, ON<br />
+416-979-5000 x553668</p>
+<p><span style="font-size: 14px; font-weight: bold; color: #0277CA;">ck@ryerson.ca</span></p>
+</div>
+		</div>									</div>
+								</div>
+								<div class="qode_column column2">
+									<div class="column_inner">
+																			</div>
+								</div>
+							</div>
+														</div>
+	</div>
+					</div>
+	</footer>
+</div>
+</div>
+<script type="text/html" id="wpb-modifications"></script><link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href="https://s35556.pcdn.co/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700%2C600" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+		</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4' id='jquery-ui-widget-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4' id='jquery-ui-accordion-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4' id='jquery-effects-core-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/effect-fade.min.js?ver=1.11.4' id='jquery-effects-fade-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/effect-size.min.js?ver=1.11.4' id='jquery-effects-size-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/effect-scale.min.js?ver=1.11.4' id='jquery-effects-scale-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.11.4' id='jquery-effects-slide-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4' id='jquery-ui-slider-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4' id='jquery-ui-tabs-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1' id='jquery-form-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.5.3' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.5.3' id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/doubletaptogo.js?ver=5.5.3' id='doubletaptogo-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/modernizr.min.js?ver=5.5.3' id='modernizr-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.appear.js?ver=5.5.3' id='appear-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/absoluteCounter.min.js?ver=5.5.3' id='absoluteCounter-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/easypiechart.js?ver=5.5.3' id='easypiechart-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.mixitup.min.js?ver=5.5.3' id='mixitup-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.nicescroll.min.js?ver=5.5.3' id='nicescroll-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.prettyPhoto.js?ver=5.5.3' id='prettyphoto-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.fitvids.js?ver=5.5.3' id='fitvids-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js?ver=6.4.1' id='flexslider-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/infinitescroll.js?ver=5.5.3' id='infinitescroll-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.waitforimages.js?ver=5.5.3' id='waitforimages-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/waypoints.min.js?ver=5.5.3' id='waypoints-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jplayer.min.js?ver=5.5.3' id='jplayer-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/bootstrap.carousel.js?ver=5.5.3' id='bootstrap-carousel-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/skrollr.js?ver=5.5.3' id='skrollr-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/Chart.min.js?ver=5.5.3' id='Chart-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.easing.1.3.js?ver=5.5.3' id='jquery-easing-1.3-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.plugin.min.js?ver=5.5.3' id='jquery-plugin-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.countdown.min.js?ver=5.5.3' id='countdown-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.justifiedGallery.min.js?ver=5.5.3' id='justifiedGallery-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/owl.carousel.min.js?ver=5.5.3' id='owl-carousel-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.carouFredSel-6.2.1.js?ver=5.5.3' id='carouFredSel-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.fullPage.min.js?ver=5.5.3' id='fullPage-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/lemmon-slider.js?ver=5.5.3' id='lemmonSlider-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.mousewheel.min.js?ver=5.5.3' id='mousewheel-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.touchSwipe.min.js?ver=5.5.3' id='touchSwipe-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.4.1' id='isotope-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/jquery.parallax-scroll.js?ver=5.5.3' id='parallax-scroll-js'></script>
+<script type='text/javascript' id='stockholm-default-dynamic-js-extra'>
+/* <![CDATA[ */
+var no_ajax_obj = {"no_ajax_pages":["https:\/\/cck.fcad.ryerson.ca\/wp-login.php?action=logout&_wpnonce=f003f64dd4"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/default_dynamic.js?ver=1603993609' id='stockholm-default-dynamic-js'></script>
+<script type='text/javascript' id='stockholm-default-js-extra'>
+/* <![CDATA[ */
+var QodeAdminAjax = {"ajaxurl":"https:\/\/cck.fcad.ryerson.ca\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/default.min.js?ver=5.5.3' id='stockholm-default-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/ajax.min.js?ver=5.5.3' id='stockholm-ajax-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.4.1' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' id='stockholm-like-js-extra'>
+/* <![CDATA[ */
+var qodeLike = {"ajaxurl":"https:\/\/cck.fcad.ryerson.ca\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-content/themes/stockholm/js/plugins/qode-like.js?ver=1.0' id='stockholm-like-js'></script>
+<script type='text/javascript' src='https://s35556.pcdn.co/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+</body>
+</html>

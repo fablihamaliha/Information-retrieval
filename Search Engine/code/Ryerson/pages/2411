@@ -1,0 +1,473 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+<html lang="en" >
+
+
+<head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>
+index -
+ Ryerson University
+</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/ryersonapplibrary/CMSAssets/etc/designs/ryerson/libSource/template960/clientlibs.min.css" type="text/css">
+
+<script type="text/javascript" src="/ryersonapplibrary/CMSAssets/etc/designs/ryerson/libSource/template960/clientlibs.min.js"></script>
+
+<link rel="stylesheet" href="/jobsoncampus/css/styles.css" type="text/css">
+
+<script type="text/javascript">
+var $theme = jQuery.noConflict();
+
+</script>
+
+<link id="scriptGenMainPrintCSS" href="/ryersonapplibrary/CMSAssets/etc/designs/ryerson/libSource/template960Libs/clientlibs/print.css" rel="stylesheet" type="text/css" media="print">
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+
+   <div class="siteWrapper">
+      <a href="#main_content_panel" style="position:absolute;left:0px;top:auto;width:10px;height:1px;overflow:hidden;">Skip to main content</a>
+	   <div class="pageWrapper">
+
+
+
+
+
+
+<div class="globalNavigation">
+    <a href="http://ryerson.ca" class="globalLogo"><img src="/ryersonapplibrary/CMSAssets/content/dam/images/ryerson_logo.png" alt="Ryerson University" title="Ryerson University" style="border:none;"></a>
+
+</div>
+
+                  <div class="parbase header">
+
+
+
+<link rel="stylesheet" type="text/css" href="/ryersonapplibrary/CMSAssets/content/dam/uiResources/superfish/header/superfish.css"/>
+
+ 	     <style type="text/css">
+	    /* Mark Huras added Margin-left*/
+	    .sf-menu{
+	        margin-top:-50px;
+	        margin-left:29px;
+	     }
+
+
+.siteHeaderContainer {
+    background-image:url("/ryersonapplibrary/CMSAssets/content/dam/career/CC-CB-banner092016.png");
+   /* height:218px;*/
+    height:170px;
+    width:960px;
+    position: relative;
+    background-color:#333333;
+
+}
+/* Mark Huras says... Need this to load up the UniversCondensed font*/
+
+@font-face {
+ font-family: 'UniversCondensed';
+ src: url('/ryersonapplibrary/CMSAssets/fonts/univers-condensed-webfont.eot?#iefix') format("embedded-opentype"), url('/ryersonapplibrary/CMSAssets/fonts/univers-condensed-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.siteHeaderContainer h1 {
+    color: #FFFFFF;
+    font-family: UniversCondensed;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    position:relative;
+    bottom:30px;
+    left:40px;
+    position: absolute;
+}
+
+
+.siteHeaderContainer .wayfinderNav ul li {
+    zoom:1;
+    color:#808080;
+    font-weight: bold;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#FFFFFF;
+    opacity:0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    display:block;
+    padding:6px;
+    padding-top:0px;
+    width:auto;
+    list-style-type: none;
+    display:inline;
+    position:relative;
+}
+.sf-menu ul li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    opacity:0.8;
+}
+.sf-menu li li li a{
+    zoom:1;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    opacity:0.8;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+    color:#FFFFFF;
+    text-decoration: none;
+    border-right: none;
+    font-family: UniversCondensed, Arial;
+
+}
+
+.siteHeaderContainer .wayfinderNav ul li a {
+    color:#808080 !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.siteHeaderContainer .siteNav {
+    zoom:1;
+    color: #ffffff;
+    width:960px;
+    height:2px; /*50px*/
+    bottom:0px;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    background-color:#111111;
+    opacity:0.8;
+    vertical-align:middle;
+    text-align:center;
+    position: absolute;
+}
+
+#megaMenuContainer {
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    margin-top:-50px;
+}
+
+#megaMenu {
+    zoom:1;
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    filter:alpha(opacity=80)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.8;
+}
+
+.links {
+    zoom:1;
+    display: none;
+    background-color: #111111;
+    height: 0px;
+    position: absolute;
+    float: left;
+    width: 960px;
+    overflow: hidden;
+    filter:alpha(opacity=85)\9; /* For IE8/IE7 */
+    background-color: #111111;
+    opacity:0.85;
+    top:341px;
+}
+
+.subLinks {
+    position: relative;
+    color: #FFFFFF !important;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 1000px;margin-bottom: -1000px;
+}
+
+.subLinks a {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-left: 20%;
+    text-decoration:none;
+}
+.subHeaderNote {
+   	margin-top: -10px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.megaMenuColumn a.megaTitle{
+    color:#005a9c;
+    padding-top:25px;
+    font-weight:bold;
+
+}
+.megaMenuColumn a.megaSubTitle{
+    color:#FFFFFF;
+    padding-top:8px !important;
+
+}
+.megaMenuColumn div.subLinks{
+    background-color:#111111;
+}
+
+</style>
+
+<!--[if IE 7]>
+<style>
+.siteHeaderContainer .wayfinderNav ul li {
+    margin-left:5px;
+}
+.siteHeaderContainer .wayfinderNav {
+    position:relative;
+    top:40px;
+    left:15px;
+}
+
+.MainMenuSubMenuAdjustHeight{
+height:0px;
+}
+</style>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+     var updateMenuJSON = false;
+     var updateWayfinderJSON = false;
+     var fireCheckEvent = false;
+  function assembleTree(parentNode,dataArr){
+	  console.log(dataArr);
+      var c;
+      for(c=0;c<dataArr.length;c++){
+          newNode = parentNode.appendChild({"text":dataArr[c].text,"expandable":true,"expanded":true,"leaf":true,"isMegaTitle":dataArr[c].isMegaTitle});
+          if(dataArr[c].children.length > 0){
+              assembleTree(newNode,dataArr[c].children);
+          }
+      }
+  }
+
+  function getJson(treeNode) {
+	 // console.log("thisone");
+         treeNode.expandChildNodes();
+         var json = {};
+         //console.log(treeNode);
+         var attributes = treeNode.attributes;
+         for(var item in attributes){
+             if (item == 'src' || item == 'text' || item == "isMegaTitle") {
+                 //console.log(item + " : " + attributes[item]);   //only use required attributes
+                 json[item] = attributes[item];
+             }
+         }
+         json.children = [];
+         if(treeNode.childNodes.length > 0){
+             for (var i=0; i < treeNode.childNodes.length; i++) {
+                 json.children.push(getJson(treeNode.childNodes[i]));
+             }
+         }
+         return json;
+     }
+
+  function getMenuStyle(_elem, _style){
+      var computedStyle;
+      if (_elem != 'undefined' && (typeof _elem.currentStyle != 'undefined'))
+        { computedStyle = _elem.currentStyle; }
+      else
+        { computedStyle = document.defaultView.getComputedStyle(_elem, null); }
+
+      return computedStyle[_style];
+
+    }
+  </script>
+
+<div class="siteHeaderContainer" style="top:0px;">
+    <img src="/ryersonapplibrary/CMSAssets/content/dam/images/transparentimage.gif" alt="Career Centre" style="top:0px;">
+       <div class="wayfinderNav">
+            <ul>
+            <li><a href="http://ryerson.ca/content/ryerson/studentaffairs/index.html">STUDENT AFFAIRS</a></li>
+            </ul>
+      </div>
+       <div class="siteNav"> </div>
+</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var calcWidth = 0;
+
+        jQuery('ul.sf-menu').supersubs({
+            minWidth:    12,   // minimum width of sub-menus in em units
+            maxWidth:    27,   // maximum width of sub-menus in em units
+            extraWidth:  1     // extra width can ensure lines don't sometimes turn over
+                               // due to slight rounding differences and font-family
+        }).superfish({
+            "speed":200,
+            "dropShadows":false,
+            "autoArrows":true,
+            pathClass:'currentPathNav'
+        });
+
+
+                jQuery('.sf-menu > .menuItem').each(function(index) {
+                    calcWidth += parseInt(jQuery(this).width(), 10)+6;
+                });
+            jQuery('.sf-menu').css("width",calcWidth);
+
+});
+</script>
+
+<style>
+.leftContainer a { color: white; text-decoration: none; }
+.leftContainer a:hover { color: black; text-decoration: none; }
+</style>
+
+<style type="text/css">
+.mt_mainContent .accordionContainer .openAll, .accordionContainer .closeAll { display: none; }
+</style>
+
+<style>
+.wayfinderNav { padding: 10px 0px 10px 0px;}
+.wayfinderNav a { text-decoration: none;}
+</style>
+
+
+
+</div>
+
+<div class="contentArea">
+<div id="main_content_panel" style="padding:20px; margin-bottom:20px; outline: none;" tabindex="0"  >
+<h1>Career Boost - Ryerson's Student Employment Source</h1>
+<div class="subHeaderNote"><strong>Career Boost</strong> is Ryerson's new source for off campus and on campus job opportunities.</div>
+
+
+
+
+
+
+      
+	  <form action="loginAction.cfm" method="post" name="login">
+        <table width="266" cellpadding="0" cellspacing="0">
+        
+		<tr>
+        	<td colspan="2">my.ryerson login</td>
+        </tr>
+          <tr valign="middle">
+            <td width="50%" height="30" align="right" id="regular">
+              <label for="username">USERNAME:</label>:&nbsp;</font></td>
+            <td width="50%" height="30">
+            <input type="text" id="username" name="j_username" style="width:150px;" maxlength="20"></td>
+          </tr>
+          <tr>
+            <td id="regular" align="right"><label for="password">PASSWORD:</label>:&nbsp;</td>
+            <td><input type="password" id = "password" name="j_password" style="width:150px;" maxlength="50"></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><div align="right" style="padding-top:.5em;">
+              <input style="width:5em;" type="submit" name="submit" value="Login">
+            </div>
+
+            </td>
+          </tr>
+         
+         </table>
+         <table>
+			<tr>
+            	<td colspan="2" id="regular" >Problems logging in?<br />
+	                <strong>STUDENTS - DO NOT LOGIN TO THIS SYSTEM WITH YOUR STUDENT NUMBER.</strong> <BR/>
+				  	<div> You must use your <strong>my.ryerson username</strong> and not your student number or email (this is the same username you use to access D2L Brightspace, eHR, mail.ryerson.ca etc.) If you have not enabled your my.ryerson username you will need to <a href="http://www.ryerson.ca/ccs/services/accounts/onlineidentity.html">do this first</a> before you can login here.
+		            </div>
+					
+		     </tr>
+  		</table>
+
+  </form>
+
+ <script language="JavaScript">
+	window.document.login.j_username.focus();
+</script>
+</div>
+<div class="footer">
+        <div>
+        <script type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write("&copy; " + year + " Ryerson University");
+        </script>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        </div>
+        <br>
+        <ul>
+        <li><a href="http://www.ryerson.ca/privacy/">Privacy Policy</a></li>
+        <li><a href="http://www.ryerson.ca/accessibility/">Accessibility</a></li>
+        <li><a href="http://www.ryerson.ca/ryerson.ca/terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+    </div>
+    </div>
+        </div>
+    <style media="print">
+        .mt_leftNav{
+            width:0px !important;
+        }
+        .mt_mainContent{
+        width:100.0%  !important;
+        }
+        .mt_rightFeature{
+        width:0.0%  !important;
+        }
+        .pageWrapper{
+                width:672px !important;
+        }
+        .mt_Footer{
+            width:100% !important;
+        }
+        .searchArea{
+            visibility:hidden !important;
+        }
+    </style>
+
+
+
+</body>
+</html> 

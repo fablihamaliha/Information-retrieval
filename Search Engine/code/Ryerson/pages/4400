@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<title>Ryerson University Library</title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+</head>
+<body >
+<!--Beginning of toplogo file -->
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="/screens/bootstrap.css" type="text/css" media="screen" />
+<script src="https://use.fontawesome.com/96bde2b55e.js"></script>
+<link rel="stylesheet" href="/screens/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/screens/ryerson.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/screens/ryerson-components.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/screens/ryerson_ProStyles.css" type="text/css" media="screen" />
+
+<link rel="icon" href="//library.ryerson.ca/wp-content/themes/rula_wordpress/images/favicon-rula.ico" type="image/ico"/>
+<link rel="apple-touch-icon" href="//library.ryerson.ca/wp-content/themes/rula_wordpress/images/home-icon.png" type="image/png"/>
+<link rel="stylesheet" href="/screens/standard_OPAC_style.css" type="text/css" media="screen" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="/screens/standard_style_ie7.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="//library.ryerson.ca/wp-content/themes/rula/js/html5shiv.js"></script>
+<script src="//library.ryerson.ca/wp-content/themes/rula/js/html5shiv-printshiv.js"></script>
+<script src="//library.ryerson.ca/wp-content/themes/rula/js/respond.min.js"></script>
+<![endif]-->
+
+<script language="javascript" type="text/javascript" src="/screens/lib_functions.js"></script>
+<script language="JavaScript" type="text/javascript" src="/screens/focus.js"></script>
+
+<script language="javascript">
+  loadSocialHeaders(); 
+  loadCatHeaders(); 
+</script> 
+
+</head>
+<body onLoad="get_recordnum();"> 
+
+<!-- Global Header Top -->
+<header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="https://library.ryerson.ca" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="RULA Logo"><img src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/assets/logos/rylib_logo.svg"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search library.ryerson.ca">
+                  <label for="site-search" class="sr-only">Search library.ryerson.ca</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search library.ryerson.ca">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="my.ryerson">my.ryerson</a></li>
+                <li><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- END: Global Header Top -->
+
+<!-- Global Header Bottom -->
+<header class="global-header-bottom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://library.ryerson.ca">Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-header-bottom" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <i class="fa fa-angle-down" title="Toggle navigation"></i>
+      </button>
+    </div>
+
+    <div id="global-header-bottom" class="collapse navbar-collapse">
+      <ul id="menu-library-navigation" class="nav navbar-nav">
+        <li><a href="//catalogue.library.ryerson.ca/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Catalogue">Catalogue</a></li>
+        <li><a href="//library.ryerson.ca/articles/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Articles">Articles</a></li>
+        <li><a href="//library.ryerson.ca/guides" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Research Help">Research</a></li>
+        <li><a href="//library.ryerson.ca/services/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="Services">Services</a></li>
+        <li><a href="//library.ryerson.ca/info/about-us/" ga-on="click" ga-event-category="Global Header" ga-event-action="click" ga-event-label="About Us">About Us</a></li>
+      </ul>
+    </div>  
+  </div>
+</header>
+<!-- END: Global Header Bottom -->
+
+<div id="page" class="container">
+
+<!--End of toplogo file -->
+
+<!--this is default <bib_display>-->
+<div class="bibScreen">
+<div class="navigationRow">
+<a href="/search/"><img src="/screens/newsrch.png" alt="Start Over" border="0" /></a>
+<a href="/search?/.b2798161/.b2798161/1%2C1%2C1%2CB/request~b2798161"><img src="/screens/request.png" alt="Place a hold" border=0></a>
+<a href="/search?/.b2798161/.b2798161/1,1,1,B/frameset~b2798161?save=b2798161"><img src="/screens/bibexport.png" alt="Export" border="0" /></a>
+<a href="/search?/.b2798161/.b2798161/1%2C1%2C1%2CB/marc~b2798161"><img src="/screens/marc_display.png" alt="MARC Display" border="0" /></a>
+</div>
+<div class="navSearchHistory">
+<form>
+</form>
+</div>
+<div class="bibSearchtool">
+<form target="_self" action="/search/" method='get'>
+      <label for="searchtype" style="display:none;">Search Type1</label><select name="searchtype" id="searchtype">
+        <option value="a"> AUTHOR</option>
+        <option value="t"> TITLE</option>
+        <option value="d"> SUBJECT</option>
+        <option value="X"> WORD</option>
+        <option value="s"> JOURNAL TITLE</option>
+        <option value="r"> COURSE</option>
+        <option value="p"> PROF/TA</option>
+        <option value="." selected="selected"> RECORD #</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="b2798161" />
+      &nbsp;
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="checkbox" name="availlim" value="1"  /> <span class="small">Limit results to available items</span><br/>
+</div>
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value=".b2798161" />
+</div>
+</form>
+</div>
+<div class="bibPager">
+</div>
+<div>
+</div>
+<div class="otherResources">
+</div>
+<div class="bibMain">
+<div class="resourceTableDiv">
+
+<!-- BEGIN RESOURCE TABLE -->
+<table width="100%"  class="bibResourceTable" cellpadding=2 cellspacing=2 width=100%<tr><td></td></tr>
+</table>
+<!-- END RESOURCE TABLE -->
+
+</div>
+<div class="bibInfo">
+<div class="bibContent">
+<table width="100%"><tr><td>
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=t -->
+<td valign="top" width="20%"  class="bibInfoLabel">Title</td>
+<td class="bibInfoData">
+<strong>Tripod - Video Manfrotto befree live tripod</strong></td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+<div class="bibRecordLink"><a id="recordnum" href="/record=b2798161">Permanent Link</a></div>
+
+</td><td>
+</td></tr></table>
+</div>
+
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+<table width="60%" border="3" cellspacing="1" align="center" class="bibItems">
+<tr  class="bibItemsHeader">
+<th width="33%"  class="bibItemsHeader">
+LOCATION
+</th>
+<th width="43%"  class="bibItemsHeader">
+CALL #
+</th>
+<th width="24%"  class="bibItemsHeader">
+STATUS
+</th>
+</tr>
+<tr  class="bibItemsEntry">
+
+<td width="33%" ><!-- field 1 -->&nbsp;<a href="http://library.ryerson.ca/locations/reserve">Not Available for Pickup</a> 
+</td>
+<td width="43%" ><!-- field C --><!-- field v --><!-- field # -->&nbsp;</td>
+<td width="24%" ><!-- field % -->&nbsp;DUE 09-08-20 </td></tr>
+</table>
+</div>
+<div>
+</div>
+<div class="bibContent">
+<!-- BEGIN BIBDETAIL TABLE BORDER -->
+<table width="100%" border="0" cellspacing="1"  class="bibDetail">
+<tr  class="bibInfoEntry" ><td>
+<!-- BEGIN INNER BIB TABLE -->
+<table width="100%" cellspacing="3" cellpadding="0">
+<tr><!-- next row for fieldtag=n -->
+<td valign="top" width="20%"  class="bibInfoLabel">Notes</td>
+<td class="bibInfoData">
+Manfrotto 'befree live' video tripod with fluid head and travel bag. Suitable for DSLRs.</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+48-hour loan</td></tr>
+<tr><!-- next row for fieldtag=n -->
+<td></td>
+<td class="bibInfoData">
+Equipment type: Stabilization - Video Tripod</td></tr>
+</table>
+<!-- END INNER BIB TABLE -->
+</td></tr>
+</table>
+<!-- END BIBDETAIL TABLE -->
+</div>
+</div>
+<div style="clear:both"></div>
+</div>
+<div  class="bibPager">
+</div>
+<div  class="navigationRow">
+<a href="/search/"><img src="/screens/newsrch.png" alt="Start Over" border="0" /></a>
+<a href="/search?/.b2798161/.b2798161/1%2C1%2C1%2CB/request~b2798161"><img src="/screens/request.png" alt="Place a hold" border=0></a>
+<a href="/search?/.b2798161/.b2798161/1,1,1,B/frameset~b2798161?save=b2798161"><img src="/screens/bibexport.png" alt="Export" border="0" /></a>
+<a href="/search?/.b2798161/.b2798161/1%2C1%2C1%2CB/marc~b2798161"><img src="/screens/marc_display.png" alt="MARC Display" border="0" /></a>
+</div>
+<div  class="navSearchHistory">
+<form>
+</form>
+</div>
+</div>
+<br />
+
+</div><!-- page -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+          <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Library Building">Library Building</a><br>
+          350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>
+          Fax: (416) 979-5215<br>
+          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>
+        </p>
+        <ul class="social">
+          <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.flickr.com/photos/ryersonlibrary" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Flickr"><i class="fa fa-flickr"></i></a></li>
+          <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="http://apps.library.ryerson.ca/api/merge/" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+          <ul class="menu">
+            <li><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+            <li><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Copyright Services">Copyright Services</a></li>
+            <li><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Contact Us">Contact Us</a></li>
+            <li><a href="https://library.ryerson.ca/siteindex" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Site Index">Site Index</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.382865,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Local Footer" ga-event-action="click" ga-event-label="Google Map"><img src="/screens/rula_map.png" class="map"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-6 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-6 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Global Footer" ga-event-action="click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- Include jQuery -->
+<script type="text/javascript" src="/screens/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/screens/bootstrap.min.js"></script>
+<script type="text/javascript" src="/screens/js/ryerson-components.js"></script>
+
+<!-- All Scripts -->		
+<script language="javascript">
+	runSocialScripts(); 
+	runCatScripts(); 
+</script>  
+<!-- GBS script -->
+<script language="javascript" type="text/javascript">
+	var numbers = new Array();
+	if($('div.gbs').length > 0){
+		$('div.gbs').each(function(divIndex) {
+			var itemNumbers = new Array();
+			$(this).children('div').each(function(index){
+				var item_number = $(this).html().replace(/^\s+|\s+$/g,"");
+				item_number = item_number.toString().split(' ', 1); //sometimes junk after number
+				item_type = '';
+				
+				if(item_number.length > 0){
+					if(index == 0){
+						item_type = 'ISSN:';
+					} 
+					else if (index == 1) {
+						item_type = 'LCCN:';
+					} 
+					else if (index == 2) {
+						item_type = 'OCLC:';
+						var temp_item_number = "";
+						
+						for(i=0; i<item_number.length; i++) {
+							tempChar = item_number.toString().charAt(i);
+							if(!isNaN(parseInt(tempChar))) {
+								temp_item_number += '' + tempChar;
+							}
+						}
+						item_number = temp_item_number;
+						
+					}	
+					itemNumbers[index] = item_type + item_number.toString();
+				}
+				
+			});
+			numbers[divIndex] = itemNumbers;
+		});
+		// Construct the URL for the remote GBS script
+		var api_url ="https://books.google.com/books?jscmd=viewapi&bibkeys=" + numbers.join(",") + "";
+		var scriptLine = "%3Cscript src='" + api_url + "' type='text/javascript'%3E%3C/script%3E";
+		document.write(unescape(scriptLine));	
+	}
+	else {
+		if($('table.bibDetail').length >= 2){
+			var isbn_list = '', lccn_list = '', numbers = new Array(), count = 0;
+			var numChildren = 	$('table.bibDetail td').length;
+				
+			$('table.bibDetail td').each(function(index) {	
+				if( $(this).html() == 'ISBN' ) {
+					if(index + 1 < numChildren) {
+						
+						isbn_list = $(this).next().html().split(' ', 1);
+						numbers[count] = 'ISBN:' + isbn_list;
+						numbers[count] = numbers[count].replace(/^\s+|\s+$/g,"");
+						numbers[count] = unescape(escape(numbers[count]).replace("%0A",""));
+						count++;
+					}
+				} 
+				else if ($(this).html() == 'LCCN/NLC') {
+					if(index + 1 < numChildren) {
+						lccn_list = $(this).next().html().split(' ', 1);
+						numbers[count] = 'LCCN:' + lccn_list;
+						numbers[count] = numbers[count].replace(/^\s+|\s+$/g,"");
+						numbers[count] = unescape(escape(numbers[count]).replace("%0A",""));
+						count++;
+					}
+				}
+			
+			});
+		}
+		if (numbers.length > 0) {
+			// Construct the URL for the remote GBS script
+			var api_url ="https://books.google.com/books?jscmd=viewapi&bibkeys=" + numbers.join(",") + "";
+			var scriptLine = "%3Cscript src='" + api_url + "' type='text/javascript'%3E%3C/script%3E";
+			document.write(unescape(scriptLine));	
+		}
+	}
+</script>
+
+<script language="javascript" type="text/javascript">
+	if ($('div.gbs').length > 0) {
+		//at list level
+		loadGBS(numbers);
+	} 
+	else {
+		//could be at bib level
+		try {
+			loadGBSBibRecord(numbers)
+		}
+		catch(err){};
+		// createQRCode();
+	}
+</script>
+<!-- End GBS Script -->
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-890753-2', 'auto');
+ga('require', 'eventTracker', {
+  events: ['click', 'auxclick', 'contextmenu', 'submit']
+});
+ga('require', 'outboundLinkTracker', {
+  events: ['click', 'auxclick', 'contextmenu'],
+  linkSelector: 'a:not([ga-on])'
+});
+ga('require', 'outboundFormTracker', {
+  formSelector: '.outbound-track-submits'
+});
+ga('send', 'pageview');
+</script>
+<script async src="/screens/autotrack.js"></script>
+<!-- End Google Analytics -->
+
+<!-- Set Page Focus -->
+<script type="text/javascript">
+<!--
+   setFocus();
+   get_recordnum();
+//-->
+</script>
+
+<!-- Include JavaScript customizations -->
+<script type="text/javascript" src="https://ryersonlibrary.nyc3.digitaloceanspaces.com/rylib_custom_sierra/js/sierra.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>

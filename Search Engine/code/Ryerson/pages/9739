@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" />
+<html><!-- InstanceBegin template="/Templates/busMain.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+<title>TRSM Breakout Room Scheduler</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<link href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/main.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="https://ccs.cf.ryerson.ca/ryeTemp/images/favicon.ico.jpg" type="image/x-icon" />
+<LINK title=A++ href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/font-5-xlarge.css" type=text/css rel="alternate stylesheet">
+<LINK title=A+ href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/font-4-large.css" type=text/css rel="alternate stylesheet">
+<LINK title=A href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/font-3-medium.css" type=text/css rel="alternate stylesheet">
+<LINK title=A- href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/font-2-small.css" type=text/css rel="alternate stylesheet">
+<LINK title=A-- href="https://ccs.cf.ryerson.ca/ryeTemp/scripts/font-1-xsmall.css" type=text/css rel="alternate stylesheet">
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+<!-- Javascript for Ask Ryerson form -->
+<!-- START iR JAVASCRIPT -->
+var defaultStr = 'Type a question here. Use a complete sentence.';
+
+function isBlank(q) {
+  var whitespace = new String(" \t\n\r");
+
+  for (var i = 0; i<q.length; i++) {
+    if (whitespace.indexOf(q.charAt(i)) == -1) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function submitForm(){
+  var d = document.questionForm;
+  if (!isValidForm())
+    return;
+
+  d.submit();
+}
+
+function isValidForm(){
+  var d = document.questionForm;
+  if (d.question.value==defaultStr  ||  isBlank(d.question.value)) {
+    return false;
+  }
+
+  d.action=' http://ask.ryerson.ca/results.jsp';
+  d.requestType.value='NormalRequest';
+  return true;
+}
+
+function topTen(){
+  var d = document.questionForm;
+  d.action=' http://ask.ryerson.ca/topQuestions.jsp';
+  d.submit();
+}
+
+function clearForm(){
+  var d = document.questionForm;
+  d.id.value=-1;
+  d.reset();
+  d.question.focus();
+  d.question.value='';
+}
+<!--END iR JAVASCRIPT -->
+
+</script>
+
+<SCRIPT language=JavaScript1.2 src="https://ccs.cf.ryerson.ca/ryeTemp/scripts/styleswitcher.js" type=text/javascript></SCRIPT>
+<SCRIPT language=JavaScript1.2 src="https://ccs.cf.ryerson.ca/ryeTemp/scripts/printemail.js" type=text/javascript></SCRIPT>
+
+<!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" src="/busRoomSched/javascript/siteScripts.js" type="text/JavaScript"></script>
+
+<!-- InstanceEndEditable -->
+<link href="/busRoomSched/css/standard.css" rel="stylesheet" type="text/css">
+<link href="/busRoomSched/css/reservation.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="MM_preloadImages('https://ccs.cf.ryerson.ca/ryeTemp/images/button_go_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_undergraduate_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_graduate_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_continuing_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_alumni_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_supporting_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_research_on.gif','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_faculty_on.gif')">
+
+<div id="viewport">
+ <div id="siteframe">
+    <!-- fixed banner and nav -->
+
+    <!-- select appropriate div -->
+
+   <div id="bannernav">
+
+
+
+<!-- banner -->
+
+
+<SCRIPT type="text/javascript" src="https://ccs.cf.ryerson.ca/ryeTemp/scripts/inc/header.js"></SCRIPT>
+
+
+      <div id="bannerarea">
+        <!-- banner logo area -->
+        <div id="bannerlogo" style="background-color:#ccc;"><a href="http://www.ryerson.ca/index.html"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/ryerson_logo.png" width="78" height="38" alt="Ryerson University" title="Ryerson University" style="padding:5px;"/></a></div>
+        <!-- banner search panel -->
+        <div id="bannersearch">
+          <div id="searchlinks"><a href="http://www.ryerson.ca/index.html" class="searchlink">Home</a> | <a href="https://mail.ryerson.ca/" class="searchlink">Web Mail</a> | <a href="http://www.ryerson.ca/ryerson.ca/index.html" class="searchlink">Site
+            Index</a></div>
+          <div id="searchbox">
+
+      <form id="searchform" name="topnavsearch" method="GET" action="http://search.ryerson.ca/search">
+
+      <input type="hidden" name="site" value="default_collection">
+      <input type="hidden" name="output" value="xml_no_dtd">
+      <input type="hidden" name="client" value="default_frontend">
+      <input type="hidden" name="proxystylesheet" value="default_frontend">
+
+      Search:
+      <input style="FONT-SIZE: 10px; WIDTH: 135px; HEIGHT: 19px" onClick="if(this.value=='Type your terms here') {this.value='';}" TYPE="text" name="q" maxlength="255" value="Type your terms here">
+
+      <input type="image" id="searchgobutton" height="17" width="25" align="top" border="0" src="https://ccs.cf.ryerson.ca/ryeTemp/images/button_go_off.gif" onMouseOver="MM_swapImage('sa','','https://ccs.cf.ryerson.ca/ryeTemp/images/button_go_on.gif',1)" onMouseOut="MM_swapImgRestore()" >
+
+      </form>
+
+          </div>
+        </div>
+        <!-- banner student login panel -->
+        <div id="bannerlogin"><a href="http://www.ryerson.ca/undergraduate/currentstudents/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LoginButton1','','https://ccs.cf.ryerson.ca/ryeTemp/images/login_current_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/login_current_off.gif" alt="CURRENT STUDENTS" name="LoginButton1" width="158" height="24" border="0"></a><br><a target="_blank" href="http://my.ryerson.ca" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LoginButton2','','https://ccs.cf.ryerson.ca/ryeTemp/images/login_ramss_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/login_ramss_off.gif" alt="MY.RYERSON.CA (RAMSS)" name="LoginButton2" width="158" height="24" border="0"></a></div>
+      </div>
+
+<!-- end banner -->
+
+
+<!-- The following include and query generates the Information stream links.  Highlights the current section. -->
+
+
+<!-- main navigation -->
+      <div id="topnavarea">
+        <div id="topnavlinks">
+
+<a href="http://www.ryerson.ca/about">ABOUT RYERSON</a> | <a href="http://www.ryerson.ca/news">NEWS & EVENTS</a> | <a href="http://www.ryerson.ca/maps">CAMPUS MAPS</a> | <a href="http://www.ryerson.ca/libraryservices">LIBRARY</a> | <a href="http://www.ryerson.ca/studentservice">STUDENT SERVICES</a> | <a href="http://www.ryerson.ca/campuslife">CAMPUS LIFE</a> | <a href="http://www.ryerson.ca/jobs">CAREERS & JOBS</a> | <a href="http://www.ryerson.ca/contact">CONTACT & DIRECTORY</a>
+        </div>
+      </div>
+      <!-- end main navigation -->
+
+
+
+      <!-- stream navigation tabs -->
+      <div id="tabsarea">
+        <div id="tabs">
+<!-- current student tab -->
+<a href="http://www.ryerson.ca/undergraduate/currentstudents" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabCurrentstudents','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_current2_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_current2_off.gif" alt="Currentstudents" name="tabCurrentstudents" width="102" height="18" border="0" /></a>
+
+<!-- undergraduate tab -->
+<a href="http://www.ryerson.ca/undergraduate/admission" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabUndergraduate','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_undergraduate_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_undergraduate_off.gif" alt="Undergraduate" name="tabUndergraduate" width="92" height="18" border="0" /></a>
+
+<!-- grad tab -->
+<a href="http://www.ryerson.ca/graduate" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabGraduate','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_graduate_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_graduate_off.gif" alt="Graduate" name="tabGraduate" width="63" height="18" border="0" /></a>
+
+<!-- ContEd tab -->
+<a href="http://www.ryerson.ca/continuing" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabContinuing','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_continuing_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_continuing_off.gif" alt="Continuing Education" name="tabContinuing" width="120" height="18" border="0" /></a>
+
+<!-- Alumni tab -->
+<a href="http://www.ryerson.ca/alumni" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabAlumni','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_alumni_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_alumni_off.gif" alt="Alumni" name="tabAlumni" width="54" height="18" border="0" /></a>
+
+<!-- Supporting tab -->
+<a onMouseOver="MM_swapImage('tabSupporting','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_supporting2_on.gif',1)" onMouseOut="MM_swapImgRestore()" href="http://www.ryerson.ca/supporting/campaign"><IMG height="18" alt="Supporting Ryerson" src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_supporting2_off.gif" width="75" border="0" name="tabSupporting"></a>
+
+<!-- Student Life tab -->
+<a onMouseOver="MM_swapImage('tabStudentLife','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_studentlife_on.gif',1)" onMouseOut="MM_swapImgRestore()" href="http://studentlife.ryerson.ca/" target="_blank"><IMG height="18" alt="Student Life" src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_studentlife_off.gif" width="79" border="0" name="tabStudentLife"></a>
+
+<!-- Staff tab -->
+<a href="http://www.ryerson.ca/facultystaff" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tabFaculty','','https://ccs.cf.ryerson.ca/ryeTemp/images/tab_faculty2_on.gif',1)"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/tab_faculty2_off.gif" alt="Faculty & Staff" name="tabFaculty" width="90" height="18" border="0" /></a></div>
+      </div>
+      <!-- end stream navigation tabs -->
+
+<!--
+#########################
+Information stream subnav starts here
+#########################
+-->
+
+<!-- For Information Stream Folders include the subnavigation displayed under the tabs -->
+
+
+
+
+
+
+
+<!-- end of select -->
+
+
+<!-- For Information Stream Folders include the subnavigation displayed under the tabs -->
+
+
+
+
+<!--
+#########################
+Information stream subnav ends here
+#########################
+-->
+
+<!-- SR- changed relative= to findfile= so that the current directory is searched first and then the next one up, and so on until the file is found (supports subdirectories this way) -->
+
+ <!-- section banner -->
+<div id="sect_bannerarea"><img src="../images/block.png" alt="" width="12" height="65" /><a href="http://tedrogersschool.ca/"><img border="0" src="/busRoomSched/images/trsm.png" width="735" height="65" class="sect_bannerimage" alt="trms logo" /></a></div>
+
+      <!-- end section banner -->
+
+
+      </div>
+    <!-- end fixed banner and nav area -->
+
+
+    <!-- main content area -->
+
+    <div id="contentarea">
+
+<!-- main content -->
+<!-- this component gets a short include file from the main subdirectory for the section which sets the proper width content div -->
+<div id="main_content_none">
+  <div id="main_content_panel">
+    <h1>Breakout Room Scheduler</h1>
+
+<!--
+  <nexus:component classid="nexus/components/Select" code=/System/Components/nexusComponents.jar select='$node.assettype'>
+  <nexus:select "HTML Document">
+-->
+  <!-- Printer Friendly Version -->
+  
+    <DIV id="toolbar">
+     <div id="print">
+               <DIV id="print_version"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/icon-printer.gif" width="11" height="11" title="Printable Version"></DIV>
+               <DIV id="print_version_text">&nbsp;
+				       			  <a onClick="javascript:PrintPage(); return false;" href="#">Printable Version</a>
+				        			&nbsp;&nbsp;<img src="https://ccs.cf.ryerson.ca/ryeTemp/images/divider-2x11.gif" width="2" height="11">&nbsp;&nbsp;
+              </DIV>
+            </div>
+
+            <div id="print">
+               <DIV id="print_version"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/icon-email.gif" width="11" height="11" title="Email Version"></DIV>
+               <DIV id="print_version_text">&nbsp;
+			              <a onClick="javascript:EmailPage(); return false;" href="#">E-mail This Page</a>
+              			&nbsp;&nbsp;<img src="https://ccs.cf.ryerson.ca/ryeTemp/images/divider-2x11.gif" width="2" height="11">&nbsp;&nbsp;
+              </DIV>
+            </div>
+      <div id="textsize">
+        <DIV id="text_size_plus"><a onMouseOver="window.status='';return true;" onMouseDown="window.status='';return true;" onClick="javascript:fontsizeup(); return false;" href="#"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/icon-plus.gif" title="Increase Text Size" width="11" height="11"></a></DIV>
+        <DIV id="text_size_indicator"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/spacer.gif" height="11" width="22"></DIV>
+        <DIV id="text_size_minus"><a onMouseOver="window.status='';return true;" onMouseDown="window.status='';return true;" onClick="javascript:fontsizedown(); window.status=''; return false;" href="#"><img src="https://ccs.cf.ryerson.ca/ryeTemp/images/icon-minus.gif" title="Decrease Text Size" width="11" height="11"></a></DIV>
+        <DIV id="text_size_text">&nbsp;Change Text Size&nbsp;<img src="https://ccs.cf.ryerson.ca/ryeTemp/images/spacer.gif"></DIV>
+      </div>
+    </DIV>
+  
+  <!-- end of Printer Friendly Version code -->
+ <div id="page_content">
+
+<!-- InstanceBeginEditable name="content" -->
+<p>Welcome,</p>
+<p>This application enables Ryerson's TRS students to manage group breakout room reservations on their own.<br>
+Please be sure to review the <a href="/busRoomSched/login/policy.cfm" title="Group Breakout Room Policy" target="_new">TRS Group Breakout Room Booking Policy</a> before you begin.</p>
+<p>To begin, please login using your  <a href="http://www.ryerson.ca/accounts/" title="Ryerson Online Identity" target="_new">Ryerson Online Identity</a> (my.ryerson username and password).</p>
+	<div id="resForm" style="margin-left:5em;">
+	
+	<FORM action="login.cfm" method="post" name="login" style="margin:0em;">
+	<div style="margin-bottom:.75em; font-size:1.2em;"><strong>my.ryerson login</strong></div>
+	<div style="margin-left:1em;">USERID:<br>
+	<input class="txt" name="username" size="20" type="text" style="width:170px;" /></div>
+	<div style="margin-left:1em;">PASSWORD:<br>
+	<input class="txt" name="login_pw" size="20" type="password" style="width:170px;" /></div>
+	<div style="margin-left:12em;"><input name="authenticate" type="submit" value="Login" style="width:5em;"></div>
+	</FORM>
+	</div>
+
+ <script language="JavaScript" type="text/javascript">
+	window.document.login.username.focus();
+	</script>
+<!-- InstanceEndEditable -->
+</div>
+
+  </div><!-- end main content  -->
+</div><!-- end main content area -->
+    <BR clear="all">
+    <!-- footer -->
+    <div id="footer_area">
+      <div id="footer_blurb">
+      <script language="JavaScript">
+    <!--
+    var today = new Date();
+    var year = today.getFullYear();
+    document.write("&copy; " + year + " Ryerson University &nbsp;&nbsp;&nbsp;");
+    //-->
+    </script>
+          <a href="http://www.ryerson.ca/ryerson.ca/webpolicy.html">Web Policy</a> &nbsp;&nbsp;&nbsp;
+          <a href="http://www.ryerson.ca/ryerson.ca/privacy.html">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
+      <a href="http://www.ryerson.ca/about/vpadministration/access-plan/">Accessibility</a> &nbsp;&nbsp;&nbsp;
+      <a href="http://www.ryerson.ca/ryerson.ca/terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+    <!-- end footer --> </div>
+  </div>
+<!-- end viewport and site frame -->
+
+
+</body>
+<!-- InstanceEnd --></html>
+

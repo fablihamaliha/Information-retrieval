@@ -1,0 +1,2349 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/ccs/services/connections/on-campus/wireless/Windows7WirelessConfiguration/" >
+		<meta property="og:title" content="Wireless Configuration Instructions for Windows 7" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/ccs/services/connections/on-campus/wireless/Windows7WirelessConfiguration/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Wireless Configuration Instructions for Windows 7"> 
+		 
+        
+        
+        <title>Wireless Configuration Instructions for Windows 7 - Computing and Communications Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/ccs/">
+				        Computing and Communications Services (CCS)
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/ccs.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#394b386a-4eed-41b7-aefb-6382173fd6c3" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="394b386a-4eed-41b7-aefb-6382173fd6c3">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/ccs/about/'>About CCS</a>
+									</li>
+								
+									<li class="active">
+										<a href='/ccs/services/'>Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/ccs/contact/'>Contact Us</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/ccs/services.html">Services</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#f9d5253c-6cf2-479c-bbff-219eb8c593f4" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="f9d5253c-6cf2-479c-bbff-219eb8c593f4">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning.html'>Email and Learning Systems</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/accounts.html'>Accounts</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software.html'>Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/labsandprinting.html'>Labs & Printing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity.html'>IT Security</a>
+</li>
+<li class="list-group-item parent">
+<a href='/ccs/services/connections.html'>Network and Wireless</a>
+<ul class="list-group">
+<li class="list-group-item parent">
+<a href='/ccs/services/connections/on-campus.html'>Connecting on Campus</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections/off-campus.html'>Connecting off Campus</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections/secure-connection.html'>Secure Connections</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/hardware.html'>Hardware</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/mediaservices.html'>Media Services</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/webcontentmgmt.html'>Web and Content Management</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/phonesfaxing.html'>Telephones and Faxing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/applications.html'>Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/cabling.html'>Cabling</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/chargeableservices.html'>Fees and Chargebacks</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/AtoZcatalogue.html'>Service Catalogue</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Wireless Configuration Instructions for Windows 7</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resimagetext resImageText">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="5387ea96-fe00-4720-8549-8f940ed64bb3">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/Section-Banners/Network-Wireless-Banner-1.png" alt=""/>
+
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#5387ea96-fe00-4720-8549-8f940ed64bb3');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "5387ea96-fe00-4720-8549-8f940ed64bb3"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="037efa37-0ecf-4b85-8946-65c7d27f251d" >
+
+    <p>These instructions will configure your wireless connection to the <strong>RU-Secure</strong> wireless network. It will allow you to authenticate and browse using a higher level of security.</p> 
+<p><strong>NOTE:</strong>&nbsp;These instructions will assume you have the latest Windows updates and are using Windows to manage your wireless connection and not a third party vendor’s program (Intel, Linksys etc.)</p> 
+<h2>Configure Wireless Connection</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#037efa37-0ecf-4b85-8946-65c7d27f251d");});</script></div>
+
+				
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1509045288577-step-1" href="#tab-content-1509045288577-step-1" role="tab" data-toggle="tab" aria-controls="tab-content-1509045288577-step-1" aria-expanded="true">
+                        <span class="text">Step 1</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1509045289128-step-2" href="#tab-content-1509045289128-step-2" role="tab" data-toggle="tab" aria-controls="tab-content-1509045289128-step-2" aria-expanded="false">
+                        <span class="text">Step 2</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1509045289752-step-3" href="#tab-content-1509045289752-step-3" role="tab" data-toggle="tab" aria-controls="tab-content-1509045289752-step-3" aria-expanded="false">
+                        <span class="text">Step 3</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1509045290248-step-4" href="#tab-content-1509045290248-step-4" role="tab" data-toggle="tab" aria-controls="tab-content-1509045290248-step-4" aria-expanded="false">
+                        <span class="text">Step 4</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1509045290965-step-5" href="#tab-content-1509045290965-step-5" role="tab" data-toggle="tab" aria-controls="tab-content-1509045290965-step-5" aria-expanded="false">
+                        <span class="text">Step 5</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1509045291544-step-6" href="#tab-content-1509045291544-step-6" role="tab" data-toggle="tab" aria-controls="tab-content-1509045291544-step-6" aria-expanded="false">
+                        <span class="text">Step 6</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1509045288577-step-1" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1509045288577-step-1">
+                    <div class="1509045288577 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="a244688e-7622-4f71-84f2-83637aede24f">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>At the bottom right of your screen, on the taskbar, click on your wireless icon. Select the&nbsp;<strong>RU-Secure</strong>&nbsp;network and click&nbsp;<strong>Connect</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7.jpg" alt="Select RU-Secure then click Connect"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#a244688e-7622-4f71-84f2-83637aede24f');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "a244688e-7622-4f71-84f2-83637aede24f"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1509045289128-step-2" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1509045289128-step-2">
+                    <div class="1509045289128 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="044db4fe-bd7b-4426-ae8a-f6492b6b0ab4">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>When prompted for credentials, please enter your my.ryerson username and password - please note that your student number is not a valid username on the wireless.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-2.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-2.jpg" alt="Windows Security Window. Enter your my.ryerson username and password"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#044db4fe-bd7b-4426-ae8a-f6492b6b0ab4');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "044db4fe-bd7b-4426-ae8a-f6492b6b0ab4"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1509045289752-step-3" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1509045289752-step-3">
+                    <div class="1509045289752 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="cda24c32-a323-4f8b-b774-1338fdfff1b6">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>A warning screen will appear to inform you that the connection could not be completed. This is the certificate which needs to be accepted. To verify the certificate information, click the&nbsp;<strong>Details&nbsp;</strong>arrow.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-3.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-3.jpg" alt="Windows security alert window. Click the Details arrow in the lower left."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#cda24c32-a323-4f8b-b774-1338fdfff1b6');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "cda24c32-a323-4f8b-b774-1338fdfff1b6"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1509045290248-step-4" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1509045290248-step-4">
+                    <div class="1509045290248 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="00b1f4da-5012-4985-a0dd-2d4f713f19f3" >
+
+    <p>In the&nbsp;<strong>Details</strong>&nbsp;section make sure that the following items:<br> a.&nbsp;&nbsp;&nbsp; Radius Server:&nbsp;<strong>cp<strong>rad.ns.int.ryerson.ca<br> </strong></strong>b.&nbsp;&nbsp;&nbsp; Root CA:&nbsp;<strong>DigiCert High Assurance EV Root CA</strong></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#00b1f4da-5012-4985-a0dd-2d4f713f19f3");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1509045290965-step-5" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1509045290965-step-5">
+                    <div class="1509045290965 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="6bbd22c8-2131-4d2b-a74e-e4bbc747d0f6">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Click&nbsp;<strong>Connect</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-4.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-4.jpg" alt="Windows security alert verifying your credentials. Click Connect."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#6bbd22c8-2131-4d2b-a74e-e4bbc747d0f6');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "6bbd22c8-2131-4d2b-a74e-e4bbc747d0f6"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1509045291544-step-6" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1509045291544-step-6">
+                    <div class="1509045291544 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6b51076b-7c6f-4ce2-b6b1-46ba49929c99" >
+
+    <p>If you are prompted to select a location to save your network connection, select&nbsp;<strong>Work&nbsp;</strong>network.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6b51076b-7c6f-4ce2-b6b1-46ba49929c99");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d9aced65-1bb5-4acf-890b-fd131c89b80f" >
+
+    <p>You will now be connected to the&nbsp;<strong>RU-Secure</strong>&nbsp;wireless network. Your credentials are now cached and you will automatically be authenticated when you are within the range of the wireless signal.</p> 
+<p><strong>NOTE</strong>: For security reasons, we recommend that you&nbsp;<strong>do</strong>&nbsp;<strong>not&nbsp;cache your credentials.</strong>&nbsp;This is especially important for laptops that will have multiple users.</p> 
+<p>Please follow the remaining steps to disable this feature.</p> 
+<h3>Disable Cached Credentials</h3>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d9aced65-1bb5-4acf-890b-fd131c89b80f");});</script></div>
+
+				
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1510237710654-step-1" href="#tab-content-1510237710654-step-1" role="tab" data-toggle="tab" aria-controls="tab-content-1510237710654-step-1" aria-expanded="true">
+                        <span class="text">Step 1</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1510237711422-step-2" href="#tab-content-1510237711422-step-2" role="tab" data-toggle="tab" aria-controls="tab-content-1510237711422-step-2" aria-expanded="false">
+                        <span class="text">Step 2</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1510237712526-step-3" href="#tab-content-1510237712526-step-3" role="tab" data-toggle="tab" aria-controls="tab-content-1510237712526-step-3" aria-expanded="false">
+                        <span class="text">Step 3</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1510237713141-step-4" href="#tab-content-1510237713141-step-4" role="tab" data-toggle="tab" aria-controls="tab-content-1510237713141-step-4" aria-expanded="false">
+                        <span class="text">Step 4</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1510237713662-step-5" href="#tab-content-1510237713662-step-5" role="tab" data-toggle="tab" aria-controls="tab-content-1510237713662-step-5" aria-expanded="false">
+                        <span class="text">Step 5</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1510237710654-step-1" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1510237710654-step-1">
+                    <div class="1510237710654 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="67a675b3-0b74-4b74-b7ae-10dca8bc2112" >
+
+    <p>Disable your cached credentials from the taskbar at the bottom of your desktop, &nbsp;click on the wireless icon.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#67a675b3-0b74-4b74-b7ae-10dca8bc2112");});</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1510237711422-step-2" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1510237711422-step-2">
+                    <div class="1510237711422 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="39cb2db5-7d9b-4d2f-bdb3-afe9bc3d1382">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>From the Currently connected to: window, right&nbsp;click the&nbsp;<strong>RU-Secure<em></em></strong>&nbsp;network and click&nbsp;<strong>Properties</strong>.<br> Note: If the Properties option does not display initially, wait a few seconds for the connection status to say Connected and Properties will then be available.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-5.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-5.jpg" alt="Windows Security Alert window. Click on the Details arrow to reveal more information."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#39cb2db5-7d9b-4d2f-bdb3-afe9bc3d1382');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "39cb2db5-7d9b-4d2f-bdb3-afe9bc3d1382"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1510237712526-step-3" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1510237712526-step-3">
+                    <div class="1510237712526 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="7ca3f0f4-1af3-4587-aa9b-7b8d951c9300">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>In the RU-Secure Wireless Network Properties window,&nbsp;<strong>uncheck&nbsp;</strong>the&nbsp;<strong>Remember my credentials&nbsp;</strong>checkbox and click <strong>OK.</strong></p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-6.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-6.jpg" alt="Uncheck the Remember my credentials... checkbox"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#7ca3f0f4-1af3-4587-aa9b-7b8d951c9300');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "7ca3f0f4-1af3-4587-aa9b-7b8d951c9300"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1510237713141-step-4" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1510237713141-step-4">
+                    <div class="1510237713141 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="1940eae9-f398-464c-962b-a52f45eb50de">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Click the&nbsp;<strong>Additional information is needed to connect RU-Secure&nbsp;</strong>prompt from the taskbar to login to the RU-Secure network.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-7.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-7.jpg" alt="RU Secure notification stating &quot;Additional information is needed to connect RU-Secure"/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#1940eae9-f398-464c-962b-a52f45eb50de');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "1940eae9-f398-464c-962b-a52f45eb50de"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1510237713662-step-5" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1510237713662-step-5">
+                    <div class="1510237713662 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="3053c39e-f7b7-4ac3-a58c-c8c1363edae7">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>From the&nbsp;<strong>Windows Security</strong>&nbsp;window, login with your&nbsp;<strong>my.ryerson&nbsp;</strong>credentials.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						<a class="imageOverlayLink" href="/content/dam/ccs/services/connections/on-campus/wireless/win7-8.jpg"><span class='sr-only'>image file</span>
+<img src="/content/dam/ccs/services/connections/on-campus/wireless/win7-8.jpg" alt="Windows Security window. Enter your my.ryerson credentials to login then click OK."/>
+
+
+
+</a>
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#3053c39e-f7b7-4ac3-a58c-c8c1363edae7');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "3053c39e-f7b7-4ac3-a58c-c8c1363edae7"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="adbe25d5-f6a9-4a6a-8c3f-5fbac0d658cd" >
+
+    <p>You will be connected to the wireless network and your credentials are no longer cached. You will now be prompted each time you wish to log onto the wireless network.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#adbe25d5-f6a9-4a6a-8c3f-5fbac0d658cd");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="5a761a49-7176-4143-b332-e70daa4a4871" >
+
+    <p><a href="/content/dam/ccs/services/connections/on-campus/wireless/Wireless%20Configuration%20Instructions%20for%20Windows%207.pdf"><span class="sr-only">PDF file</span>Wireless Configuration Instructions for Windows 7<span aria-hidden="true" class="autoIconLink fa fa-file-pdf-o"></span></a></p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#5a761a49-7176-4143-b332-e70daa4a4871");});</script></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				
+				</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'CNNEBIOAIEKBPLEMNCLBHAJIONGJMNEAIMJDKFNHIFJCPMLBLDPOJALLMKDGPEGMNINBNFLMAADEBKADGCBADHEOAAKBFKCAPCMKKNDIIHLHDGGKCGOKNAEGEGMELDDC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

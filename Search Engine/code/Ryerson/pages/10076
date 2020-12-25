@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/websupport/aem-basics/start-a-project/development-production-environments/" >
+		<meta property="og:title" content="Development and production environments" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/websupport/aem-basics/start-a-project/development-production-environments/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Development and production environments"> 
+		 
+        
+        
+        <title>Development and production environments - Web Support & Development Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.0077C8.FFA300.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/websupport/">
+				        Ryerson Web Support 
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/websupport.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#01bdf9a6-8034-4c88-ac6d-6453f3646f6b" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="01bdf9a6-8034-4c88-ac6d-6453f3646f6b">
+                    <ul class="nav navbar-nav">
+						
+									<li class="active">
+										<a href='/websupport/aem-basics/'>CQ (AEM) Basics</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/responsive-templates/'>Responsive Templates</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/components/'>Component Guide</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/seo-accessibility/'>Accessibility & SEO</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/website-tools/'>Tools</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/web-services/'>Our Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/news-updates/'>Updates</a>
+									</li>
+								
+									<li class="">
+										<a href='/websupport/get-help/'>Get Help</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/websupport/aem-basics.html">CQ (AEM) Basics</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#6ba32a23-2221-43b0-a5e2-9d77fe0fb9f5" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="6ba32a23-2221-43b0-a5e2-9d77fe0fb9f5">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/websupport/aem-basics/about-aem-cq.html'>About AEM/CQ CMS</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/access-login-use-aem.html'>Access, login and use CQ (AEM)</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/find-files-site-admin.html'>Site Admin</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/create-edit-page.html'>Create new page</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/sidekick.html'>Sidekick</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/navigation.html'>Navigation</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/page-properties.html'>Page Properties</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/digital-asset-manager.html'>Digital Asset Manager (DAM)</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/activate-deactivate.html'>Activate content</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/versioning.html'>Creating versions</a>
+</li>
+<li class="list-group-item parent">
+<a href='/websupport/aem-basics/start-a-project.html'>Start a new project</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/redirect-options.html'>Redirect Options</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/web-style-guide.html'>Web Style Guide</a>
+</li>
+<li class="list-group-item">
+<a href='/websupport/aem-basics/video-tutorials.html'>Video tutorials</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-7 col-sm-8">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Development environment (dev)</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="1623f70f-ad7a-4f0d-b646-4d677abc4e01" role="tablist" aria-multiselectable="true">
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1491219504818-what-you-need-to-know" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1491219504818-what-you-need-to-know" aria-controls="accordion-content-1491219504818-what-you-need-to-know" aria-expanded="true">
+                            What you need to know
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1491219504818-what-you-need-to-know" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="accordion-1491219504818-what-you-need-to-know">
+                    <div class="panel-body ">
+                        <div class="1491219504818 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="c0a1eea6-b23e-4fe5-91a2-52a149a2f921" >
+
+    <ul> 
+ <li><p>All new websites are created in the CQ/AEM development environment - <a href="https://cqauthor.dev.ryerson.ca/" target="_blank">cqauthor.dev.ryerson.ca<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, opens in new window</span></a>.</p> </li> 
+ <li><p>Dev is the working environment made available to Ryerson employees to design and build new websites (or redesign existing sites).</p> </li> 
+</ul> 
+<ul> 
+ <li><p>The development environment simulates the production environment (as closely as possible).</p> </li> 
+ <li><p>Content authors can build new sites using all available templates, components and features.</p> </li> 
+ <li><p>All updates and customizations that are available in production are made available for use in the development environment.</p> </li> 
+</ul> 
+<ul> 
+ <li><p>Users can activate content and provide a unique development URL for approvers to review content before it goes live.</p> </li> 
+ <li><p>If you are planning a major site change or redesign, this work should be done in development. &nbsp;</p> </li> 
+ <li><p>Once a site is completed in development, it is moved to the production environment - <a href="/content/ryerson/websupport/aem-basics/access-login-use-aem.html" target="_blank">cmshost.ryerson.ca<span aria-hidden="true" class="autoIconLink fa fa-external-link"></span><span class="sr-only">, opens in new window</span></a>  and <a href="/content/ryerson/websupport/get-help/make-site-public-activation.html">activated</a>.</p> </li> 
+ <li>Once the site is moved, authors will modify, create and activate content in production, not in dev.</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#c0a1eea6-b23e-4fe5-91a2-52a149a2f921");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490983252224-differences-between-development---production" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490983252224-differences-between-development---production" aria-controls="accordion-content-1490983252224-differences-between-development---production" aria-expanded="false">
+                            Differences between Development &amp; Production
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490983252224-differences-between-development---production" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490983252224-differences-between-development---production">
+                    <div class="panel-body ">
+                        <div class="1490983252224 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="60b187f8-5f0b-412e-8a5d-807255563eae" >
+
+    <ul> 
+ <li><p>Content activated in the production environment is considered "live or public" and is viewed on ryerson.ca/site-name</p> </li> 
+ <li><p>Content activated in dev is not "live" but can be viewed at www.dev.ryerson.ca/site-name</p> </li> 
+ <li><p>Content on ryerson.ca is indexed by search engines, making it searchable<br> </p> </li> 
+ <li><p>Content on www.dev.ryerson.ca cannot be indexed and is not searchable</p> </li> 
+ <li><p>Content in development cannot be found by users until moved to production</p> </li> 
+ <li>Within dev, you may see &nbsp;"Do Not Use" or "To Be Phased Out" within the sidekick. We ask that you do not use any of these components.</li> 
+</ul> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#60b187f8-5f0b-412e-8a5d-807255563eae");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490368428911-benefits-of-using-dev-environment" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490368428911-benefits-of-using-dev-environment" aria-controls="accordion-content-1490368428911-benefits-of-using-dev-environment" aria-expanded="false">
+                            Benefits of using dev environment
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490368428911-benefits-of-using-dev-environment" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490368428911-benefits-of-using-dev-environment">
+                    <div class="panel-body ">
+                        <div class="1490368428911 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="6f329d9d-071b-4ab9-960a-d5998a084afe" >
+
+    <p>Whether you are building a brand new site, or redesigning your current one, working in a development environment is a standard best practice.&nbsp;&nbsp; &nbsp;</p> 
+<ul> 
+ <li>Your dev site is used as a sandbox where you can create and edit pages without affecting your live content. <br> </li> 
+ <li>Working in dev gives you flexibility in terms of testing out a new look and feel before you releasing it to ryerson.ca. <br> </li> 
+ <li>Using the development environment allows project owners an opportunity to review and approve content before it gets moved to production.<br> </li> 
+</ul> 
+<p><strong>Content is not searchable</strong><br> </p> 
+<p>Content activated in dev can be viewed on a development server that is not indexed by any search engines. You can distribute your development URL to others for approval purposes but it can't be found by a search engine.</p> 
+<p>The shared URL is http://www.<strong>dev</strong>.ryerson.ca/your-site-name</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#6f329d9d-071b-4ab9-960a-d5998a084afe");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490368481637-how-to-request-a-new-dev-site" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490368481637-how-to-request-a-new-dev-site" aria-controls="accordion-content-1490368481637-how-to-request-a-new-dev-site" aria-expanded="false">
+                            How to request a new dev site
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490368481637-how-to-request-a-new-dev-site" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490368481637-how-to-request-a-new-dev-site">
+                    <div class="panel-body ">
+                        <div class="1490368481637 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="1485897454986 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="93fd4a3e-1bd8-43a2-b944-4241afefb942" >
+
+    <p>AEM/CQ is available to Ryerson employees for use by all Ryerson Departments, Faculties, Schools and Programs.</p> 
+<p>It is not available for student or personal websites.</p> 
+<p><a href="/content/ryerson/websupport/get-help/request-new-website.html">Request a new site</a> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#93fd4a3e-1bd8-43a2-b944-4241afefb942");});</script></div>
+
+				</div>
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="4e34ca3d-c8fe-4c28-bd52-27158c7bff58" >
+
+    <p> If a development site has been requested and set up by the Digital Publishing team but has not been used within six months, it will be deleted from the development environment without notice.</p> 
+<p>Multiple copies of the same website will no longer be permitted. e.g. sitename, sitename1, sitename-copy<br> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#4e34ca3d-c8fe-4c28-bd52-27158c7bff58");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490370730028-where-is-the-dev-login-page-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490370730028-where-is-the-dev-login-page-" aria-controls="accordion-content-1490370730028-where-is-the-dev-login-page-" aria-expanded="false">
+                            Where is the dev login page?
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490370730028-where-is-the-dev-login-page-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490370730028-where-is-the-dev-login-page-">
+                    <div class="panel-body ">
+                        <div class="1490370730028 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="f4f5f2e8-52b2-4b50-a3be-c6234510aa52" >
+
+    <p>The Development site URL is<strong>&nbsp;<a href="https://cqauthor.dev.ryerson.ca/">https://cqauthor.dev.ryerson.ca</a></strong></p> 
+<p> Once your development site has been created, use your my.ryerson username and password to access CQ.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#f4f5f2e8-52b2-4b50-a3be-c6234510aa52");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490368508926-getting-your-dev-site-released-on-ryerson-ca" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490368508926-getting-your-dev-site-released-on-ryerson-ca" aria-controls="accordion-content-1490368508926-getting-your-dev-site-released-on-ryerson-ca" aria-expanded="false">
+                            Getting your dev site released on ryerson.ca
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490368508926-getting-your-dev-site-released-on-ryerson-ca" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490368508926-getting-your-dev-site-released-on-ryerson-ca">
+                    <div class="panel-body ">
+                        <div class="1490368508926 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="462ef193-176f-4a73-9876-30a1080507ad" >
+
+    <p>Once your site has been completed and approved, you MUST <a href="/content/ryerson/websupport/get-help/make-site-public-activation.html">request an activation</a> to the live/production site i.e. ryerson.ca/your-site-name</p> 
+<p><strong>Activation times:</strong></p> 
+<ul> 
+ <li>Activations for <strong>new websites</strong> are scheduled daily from Monday to Friday between 9 a.m. and 5 p.m.</li> 
+ <li>Activations for <strong>existing websites</strong> are scheduled daily between 4 p.m. and 5 p.m.&nbsp; &nbsp;</li> 
+</ul> 
+<p><strong>Lead time:</strong></p> 
+<ul> 
+ <li>Your activation will require a minimum of two days notice.</li> 
+</ul> 
+<p>Related:</p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/get-help/make-site-public-activation/activation-review.html">Request an activation review</a></li> 
+ <li><a href="/content/ryerson/websupport/seo-accessibility.html">AODA: Make your website accessible</a><br> </li> 
+ <li><a href="/content/ryerson/websupport/aem-basics/web-style-guide.html">Is your website compliant with the Ryerson brand</a>?</li> 
+</ul>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#462ef193-176f-4a73-9876-30a1080507ad");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1490981627306-when-are-dev-sites-deleted-" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1490981627306-when-are-dev-sites-deleted-" aria-controls="accordion-content-1490981627306-when-are-dev-sites-deleted-" aria-expanded="false">
+                            When are dev sites deleted?
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1490981627306-when-are-dev-sites-deleted-" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1490981627306-when-are-dev-sites-deleted-">
+                    <div class="panel-body ">
+                        <div class="1490981627306 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="bc86126b-e41d-441c-a899-5f8f2b7b6cb5" >
+
+    <p>The development environment is not a storage area for archives or backups of websites already released to production.</p> 
+<p>Once your site has been moved to production, it will be immediately deactivated and deleted after two weeks without notification.<br> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#bc86126b-e41d-441c-a899-5f8f2b7b6cb5");});</script></div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="9bf45f6c-942c-4c61-8960-2fde1ee0725d" >
+
+    <p> If a development site has been requested and set up by the Digital Publishing team but has not been used within six months, it will be deleted from the development environment without notice using an automated script.</p> 
+<p>Multiple copies of the same website will no longer be permitted. e.g. sitename, sitename1, sitename-copy</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#9bf45f6c-942c-4c61-8960-2fde1ee0725d");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+					
+				</main>
+				
+					<aside class="right-sidebar-section col-md-3 col-sm-4">
+					
+						
+	        				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resSearch section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div id="0b436bd7-c31a-428d-96b0-6836b8827495">
+	
+		<form method="get" action="/websupport/search/" data-resultstype="site" class="resSearch">
+	
+	<div class="input-group search-container-box"> 
+		<label for="resSearchQ0b436bd7-c31a-428d-96b0-6836b8827495" class="sr-only">Search</label> 
+		<input id="resSearchQ0b436bd7-c31a-428d-96b0-6836b8827495" class="resSearchQ form-control resultstype-site" name="q" type="text" placeholder="Enter a search term" autocomplete="off">
+		<span class="input-group-btn"> <button aria-label="Search" class="resSearchGo btn btn-default" type="submit"> <i class="fa fa-search" title="Search"></i> </button> </span> 
+	</div>
+	
+		</form>
+	
+	
+</div>
+<script>
+jQuery(document).ready(function() {
+	jQuery("#0b436bd7-c31a-428d-96b0-6836b8827495").initSearchComponent({mode: 'both', displayas: 'box', url: '/websupport/inheritedContent/jcr:content/resRightSidebar/content/ressearch', newContactDir: true});
+});
+</script></div>
+
+				
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+	
+    Quick links:
+    
+	
+</h3>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonTransition">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/">
+	                        	
+	                            <span>Make request/Report issue</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="https://cmshost.ryerson.ca" target="_blank">
+	                        	
+	                            <span>Log in</span>
+	                        	<span class='sr-only'>, opens in new window</span>
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/websupport/get-help/training/">
+	                        	
+	                            <span>Get training</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				
+
+				
+				<div class="resInfographic section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="infoContainer style2 hasIcon">
+	<div class="contentWrapper">
+		<div class='iconContainer'><span aria-hidden='true' class='icon fa fa-home '></span></div>
+		<div class="textContainer"><p><span class="resInfographicBold">Updating from home? <a href="/content/ryerson/ccs/services/connections/secure-connection/ru-vpn2/">Apply for a VPN account</a></span></p></div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	        				
+        				
+        				<div class="resRightContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+        			</aside>
+        		
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resThreeColEven section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="7e110ca6-450d-4ae6-9cac-7f7de95b784d" >
+
+    <p><strong>Digital Publishing, CCS</strong></p> 
+<p><a href="/maps/?building=LIB">LIB-B-99</a> <br> 350 Victoria Street<br> Toronto, ON M5B 2K3</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#7e110ca6-450d-4ae6-9cac-7f7de95b784d");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="1bbe8987-c213-44ff-9aba-261a50ba22ed" >
+
+    <p><strong>Need help?</strong></p> 
+<ul> 
+ <li><a href="/content/ryerson/websupport/get-help/training.html">CQ/AEM Training</a></li> 
+ <li><a href="/content/ryerson/websupport/get-help.html">Submit an issue</a></li> 
+ <li><a href="/content/ryerson/websupport/web-services.html">Our services<br> </a></li> 
+</ul> 
+<p>&nbsp;</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#1bbe8987-c213-44ff-9aba-261a50ba22ed");});</script></div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8ef2f93a-76b8-450a-bd1c-7ed54a2659f6" >
+
+    <p><a href="/content/ryerson/websupport/sitemap.html">Sitemap</a><strong> </strong></p> 
+<p><a href="https://www.youtube.com/user/ryersoncmssupport">YouTube<span class="sr-only">, external link</span></a> </p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8ef2f93a-76b8-450a-bd1c-7ed54a2659f6");});</script></div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'AONMJLLPKKDPDGBAHFLNCMJGPCEPMILILCMNKMAGLDFGJOHBNEGDJLLEJBECOPFOIEBBPLFFAAOAAPBBFBIANEAEAABLJPDGOAHOFAHEDAKMOBPABDNGDOLHGCKEBAEE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'NDMKDIAKIEDAFNMLBLGLNMPEELOILFFIFODFEEIGDJALJIDGKDLGBBKJBLDENCAOIPNBKPKCAAJFKIBJIGOADINDAANONPHILNJCGIHLBKGKDKNHIFPJCCLMFABCDBLK',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

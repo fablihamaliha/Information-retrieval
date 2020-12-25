@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html lang="en-US" id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en-US" id="ie7" class="lt-ie9 lt-ie8 no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en-US" id="ie8" class="lt-ie9 no-js">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+
+	<title>Ryerson University Library -  Reservation Request Form | Ryerson University Library and Archives</title>
+	<meta charset="UTF-8">
+    <link href="//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library2012//js/jquery-1.5.2.min.js"></script>;
+	
+	
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style_ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv-printshiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/respond.min.js"></script>
+	<![endif]-->
+	
+			<link href="https://library.cf.ryerson.ca/forms/main.css" rel="stylesheet" type="text/css" />
+			<link href="https://library.cf.ryerson.ca/forms/suggestion/sugg.css" rel="stylesheet" type="text/css" />
+		
+		
+		<!--[if IE]>
+			<style>
+			.item {
+			margin: 5px;
+			padding: 5px;
+			}
+			</style>
+		<![EndIf]-->
+		<style type="text/css">
+			em {
+				color:#AA0000;
+				font-weight:bold;	
+			}
+		</style>
+	
+<script type="text/javascript">
+<!--
+    _CF_checkform = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head>
+
+<body class="left-sidebar two-column">
+<div id="page">
+	<header id="branding" role="banner">
+            <div id="sitename">
+                <div class="skip-link"><a class="assistive-text" href="#access">Skip to main menu</a></div>
+                <a href="http://library.ryerson.ca/"><img src="https://library.cf.ryerson.ca/Templates/Library2012/images/RULA_logo.png" alt="Ryerson University Library &amp; Archives" /></a>
+            </div> <!-- end div logo_images -->
+            <div id="askushead"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822&referrer=http%3A//library.ryerson.ca/info/contactus/&bId=16"><img src="http://library.ryerson.ca/wp-content/themes/rula/images/ask_us_libguides_sm.png" alt="Need Help? Ask Us"></a></div>
+ 			<div style="clear: both;"></div>
+
+<nav id="access" role="navigation">
+	<h3 class="assistive-text">Main menu</h3>
+	<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to content">Skip to content</a></div>
+	<div id="top-nav">
+		<ul id="top-nav-list">
+			<li id="menu-item-449" class="menu-item"><a title="Library Catalogue for Books, Media, Journals" href="http://catalogue.library.ryerson.ca/">Catalogue</a></li>
+			<li id="menu-item-448" class="menu-item"><a href="http://library.ryerson.ca/guides">Research Help</a></li>
+			<li id="menu-item-447" class="menu-item"><a title="Browse the list of Databases and Indexes" href="http://library.ryerson.ca/articles/">Articles</a></li>
+			<li id="menu-item-831" class="menu-item"><a title="List of Library Services" href="http://library.ryerson.ca/services/">Services</a></li>
+			<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About the Library" href="http://library.ryerson.ca/info/">About Us</a></li>
+			
+			<li id="menu-item-443" class="menu-item menu-item-has-children"><a title="Special and Digital Collections" href="http://library.ryerson.ca/collections/">Collections &#9660</a>
+				<ul class="sub-menu">
+					<li id="menu-item-20" class="menu-item"><a href="http://library.ryerson.ca/asc/">Archives and Special Collections</a></li>
+					<li id="menu-item-442" class="menu-item"><a title="GeoData Maps &amp; Statistics" href="http://library.ryerson.ca/gmdc">GeoData Maps &#038; Statistics</a></li>
+					<li id="menu-item-444" class="menu-item"><a title="Ryerson&#8217;s Institutional Repository" href="http://library.ryerson.ca/collections/digital-commons/">RULA Digital Repository</a></li>
+				</ul>
+			</li>
+			<li class="menu-item menu-item-search">
+				<!-- Search this Site Section -->
+				<form id="sitesearch" role="search" name="sitesearch" method="get" action="http://search.ryerson.ca/search"> 
+					<input type="hidden" name="site" value="Library" /> 
+					<input type="hidden" name="output" value="xml_no_dtd" /> 
+					<input type="hidden" name="client" value="default_frontend" />								
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<label for="sitesearchbox" class="assistive-text">Search the Library website</label>
+					<input type="search" id="sitesearchbox" name="q" maxlength="255" value="Search the Library Website" onClick="if(this.value=='Search the Library Website') {this.value='';}"/> 
+					<input type="image" src="http://library.ryerson.ca/wp-content/themes/rula/images/search_icon_small.png" alt="Submit Search"  /> 
+				</form> 
+			</li>
+			<li style="clear:both;border:0;"></li>
+		</ul>
+	<div style="clear:both;"></div>
+	</div>
+</nav><!-- #access -->
+			
+			
+	</header><!-- #branding -->
+<!--  End of: Main Navigation -->
+
+
+
+
+
+<div id="primary" class="">
+    
+         <div class="breadcrumbs"><a href="http://library.ryerson.ca">Home</a> &gt; <a href="http://library.ryerson.ca/info/">About the Library/FAQ</a> &gt; Reservation Request Form</div>
+        <form name="form" id="form" action="&#x2f;forms&#x2f;reserve&#x2f;index.cfm" method="post" onsubmit="return _CF_checkform(this)">		
+			<h1>Reserve Request Form </h1>
+		
+			
+		<p><br/>Please complete your request as follows:<br />
+		<div>
+			1. Enter information for each item <strong>(fields with an asterisk are required)</strong>. Add additional items if appropriate.<br/>
+			2. Click on "Complete Reserve List" button.<br/>
+			3. Complete personal information screen.<br/>
+			4. Click on "Send Request" button.<br/>
+			5. Receive email notification of acceptance of your request.<br/><br/>
+			
+			See sample <a href="book_request.gif">print reserve form</a>
+			
+			<br/><br/>
+			Please allow at least <strong>5 days</strong> to process print reserve material before notifying students of its availability.
+		</div>
+		<br/>
+	
+		<table width="85%" cellpadding="2" cellspacing="2" style="border:1px gray solid;; background-color:#EAF4FF;">
+		<tr>
+			<td><em>* </em>Course Code:</td>
+			<td><input type="text" size="16" maxlength="16" name="course"  /></td>
+		</tr>
+		<tr>
+			<td><em>* </em>No. of Students:</td>
+			<td><input type="text" size="16" maxlength="16" name="students"  /></td>
+		</tr>
+		<tr>
+			<td><em>* </em>Required For:</td>								
+			<td><input type="checkbox" name="reqfor" value="Fall" >Fall
+			    <input type="checkbox" name="reqfor" value="Winter" >Winter
+			    <input type="checkbox" name="reqfor" value="Spring/Summer" >Spring/Summer
+			</td>
+		<tr>
+		<tr>
+			<td><em>* </em>Academic Year(s):</td>
+			<td><input type="text" size="8" maxlength="8" name="year"  /></td>
+		</tr>
+		<tr>
+			<td><em>* </em>Author:</td>
+			<td><input type="text" size="40"  name="author"  /></td>
+		</tr>
+		<tr>
+			<td><em>* </em>Title:</td>
+			<td><input type="text" size="40"  name="title"  /></td>
+		</tr>
+		<tr>
+			<td>Call No:</td>
+			<td><input type="text" size="30" maxlength="30" name="callno"  /></td>
+		</tr>
+		<tr>
+			<td><em>* </em>Full Citation:</td>
+			<td><input type="text" size="40" name="citation"  /></td>
+		</tr>
+		<tr>
+			<td>Loan Period:</td>								
+			<td><input type="checkbox" name="loan1" value="2hrs" >2 hrs
+			<span style="padding-left:100px;">No. of Copies:<input type="text" size="10" maxlength="10" name="copies1"  /></span></td>
+		</tr>
+		<tr>
+			<td><em>* </em><i><font size="-2">(required for print reserve)</font></i></td>
+			<td><input type="checkbox" name="loan2" value="1 day" >1 day (except AV)
+			<span style="padding-left:17px;">No. of Copies:<input type="text" size="10" maxlength="10" name="copies2"  /></span></td>
+		</tr>
+		
+		<tr>
+			<td>URL or database:</td>
+			<td><input type="text" size="35"  name="url"  /></td>
+		</tr>
+		<tr>		
+			<td colspan="2">Comments or Additional Information (e.g. personal copy, rights holder information):</td>
+		</tr>
+		<tr>
+			<td colspan="2"><textarea rows="6" name="Notes" cols="70"/></textarea></td>
+		</tr>
+		</table>
+		<br/>
+		<input name="Submit" id="Submit"  type="submit" value="Add This Item" /> 
+		<br/><br/>
+		
+		<strong>Your Current Requested Items:</strong><br/>
+		<hr size="2">
+		<table width="95%">
+		<th>Item</th><th>Course Code</th><th>Author</th><th>Title</th><th>Citation</th><th>Edit</th><th>Remove</th>	
+		
+		</table>
+		<br/>
+		</form>
+	
+</div>  
+
+
+    <div id="secondary">
+            
+			<h3 class="navhead">Reserve Request Form</h3>
+		    <ul class="navlist">
+			    
+		    	
+		    	<li class="navitem"><a href="http://library.ryerson.ca/services/faculty/">Information for Faculty</a></li>
+				<li class="navitem"><a href=" http://library.ryerson.ca/services/reserve/student/">Information for Students</a></li>
+			</ul> 
+		
+    </div>
+    
+       
+  		<footer id="colophon" role="contentinfo">
+            <div id="footer"> 		
+				<p> 
+					<a href="http://library.ryerson.ca">Home</a> | <a href="/info/accessibility" data-ga-event="Footer,Link,Accessibility">Accessibility </a> | <a href="/contactus" data-ga-event="Footer,Link,Contactus">Contact Us</a> | <a href="http://library.ryerson.ca/copyright" data-ga-event="Footer,Link,Copyright">Copyright</a> | <a href="/siteindex">Site Index</a> |  
+                    <a href="http://www.facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371?ref=mf" data-ga-event="Footer,SocialMedia,Facebook"><img src="//library.ryerson.ca/wp-content/themes/rula/images/facebook_icon.gif" alt="Facebook" title="Facebook" /></a> 
+                    <a href="http://www.twitter.com/ryersonlibrary" data-ga-event="Footer,SocialMedia,Twitter"><img src="//library.ryerson.ca/wp-content/themes/rula/images/twitter_icon.png" alt="Twitter" width="16" height="16" /></a> 
+                    <a href="http://www.flickr.com/photos/ryersonlibrary" data-ga-event="Footer,SocialMedia,Flickr"><img src="//library.ryerson.ca/wp-content/themes/rula/images/flickr_icon.gif" alt="Flickr" width="16" height="16" /></a> 
+                    <a href="http://www.youtube.com/user/ryersonlibrary/videos" data-ga-event="Footer,SocialMedia,Youtube"><img src="//library.ryerson.ca/wp-content/themes/rula/images/youtube_icon.png" alt="YouTube" width="16" height="16" /></a>
+                    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=46e7ea505e28c621582d37a391b705d6&_render=rss" data-ga-event="Footer,SocialMedia,RSS"><img src="//library.ryerson.ca/wp-content/themes/rula/images/feed_icon.png" alt="RSS Feed" width="16" height="16" /></a> | 
+                                    &copy;2015 <a href="http://www.ryerson.ca/" data-ga-event="Footer,SocialMedia,RU"><img src="//library.ryerson.ca/wp-content/themes/rula/images/RUfooter_logo.gif" alt="Ryerson University" width="114" height="20" /></a>
+				</p> 
+			</div>
+    </footer> 
+	</div><!-- page -->
+
+	<script type="text/javascript"> 
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+        var pageTracker = _gat._getTracker("UA-890753-3");
+        pageTracker._trackPageview();
+    </script>
+
+
+</body>
+</html>

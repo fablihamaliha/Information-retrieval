@@ -1,0 +1,1190 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-8', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/xmlrpc.php" />
+
+  <title>Ann &#8211; Ryerson University Library</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Feed" href="https://library.ryerson.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Comments Feed" href="https://library.ryerson.ca/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Posts by Ann Feed" href="https://library.ryerson.ca/blog/author/aludbrook/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://library.ryerson.ca/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=2.2.0' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/wp-login.php?redirect_to=%2Fblog%2Fauthor%2Faludbrook%2F","publicWarning":"","anonymousNotice":"Notice: You are browsing this site anonymously, and only have access to a portion of its content.","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/wp-json/wp/v2/users/16" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitelibrary.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Ann" />
+<meta property="og:url" content="https://library.ryerson.ca/blog/author/aludbrook/" />
+<meta property="profile:first_name" content="Ann" />
+<meta property="profile:last_name" content="Ludbrook" />
+<meta property="og:site_name" content="Ryerson University Library" />
+<meta property="og:image" content="https://secure.gravatar.com/avatar/5ae568dd32b93a745399b0dfcd2c0acd?s=200&amp;d=mm&amp;r=g" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+#askcontainer {
+	padding: 0!important;
+}
+
+.cal_closure {
+	color: red;
+}
+
+@media (min-width: 768px) {
+	.global-footer-bottom {
+		padding-bottom: 3em;
+	}	
+}
+
+/* Style table on RACER FAQ page */
+.racer-faq td {padding-right: 2em; padding-bottom: 1em; vertical-align: top;}
+
+/* Search Box background colour */
+.search_form .search_input, .search_form input[type="search"]  {
+	background-color: #ffffff;
+}
+
+#main>.search_form .search_input, .search_form input[type="search"] {background-color: #e5e5e5;}
+
+/* Style for Course Readings Images */
+.coursereadingimage {
+	margin-left: 2em;
+	filter: drop-shadow(5px 5px 5px grey);
+	margin-top: 0.5em;
+}
+
+/* Extra padding after li entries in ol and ul lists */
+.padded-list li{
+	padding-bottom: 1em;
+}
+
+/* Black Heritage Exhibit Page */
+.narrow {
+	float: left;
+}
+.wide {
+	float: right;
+}
+.bottomborder {
+	float: left;
+	padding-bottom: 1em;
+}
+
+/* Additional padding at top of image */
+.topspace20 {
+	margin-top: 20px;
+}
+/*  TEMPORARY 1.27.0 hotfix */
+.widget.section-widget .menu-item a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+.widget.section-widget .menu-item a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+/* Fix Textbook search box */
+.textbook_search,.search_input {
+	width: 80%;
+}
+/* Remove underline from h2 a links */
+h2 a {
+	text-decoration: none;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+/* Add some spacing between list items in columns */
+div.wp-block-column li {
+	padding-bottom: 0.5em;
+}
+ul.extra-spacing li {
+	padding-bottom: 0.5em;
+}
+/* Styling for Staff Directory */
+img.staff-member-photo {
+	display: none;
+}
+div.staff-member-listing h3.staff-member-name {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1.0em
+}
+div.staff-member-listing h4.staff-member-position {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1em
+}
+a.staff-member-email {
+	display: inline;
+}
+div.staff-member-bio p {
+	display:inline;
+}
+div.bio-projects {
+  display: none;
+}
+/* Fix size of heading on posts pages */
+.post .entry-title {
+	font-size: 1.75em;
+}
+.post h2 {
+	font-size: 1.5em;
+}
+.post h3 {
+	font-size: 1.3em;
+}
+.post h4 {
+	font-size: 1.2em;
+}
+.post h5 {
+	font-size: 1.1em;
+}
+.post h6 {
+	font-size: 1em;
+}
+/* Spacing of lists */
+ul.inc-height li {
+	padding-bottom: 1em;
+}
+/* Customize Pop-up Chat Widget */
+.ui-widget-content {
+	font-weight: bold;
+	border: 0;
+	background-color: #ffffff !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{background: #0077c3 !important;}
+
+.ui-widget-header {
+	border: 0;
+	background: #ffdc00 !important;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	padding: 1em;
+	margin: 0.5em 0.4em 0.5em 1em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none !important;
+	text-align: center;
+}
+#ui-id-2 {
+	color: #000;
+}
+.ui-dialog.ui-dialog-content {
+	padding-bottom: 2em;
+}
+/* Dynamic Ask Chat icon */
+.libraryh3lp {
+	background-color: rgb(235,235,235);
+    padding: 1em 1em 0 1em;
+    /* padding-top: 1em; */
+    width: 150px;
+}
+div.needs-js {
+	background-color: red;
+}
+
+/* Customized COVID messge on Service pages */
+.contentWrapper {
+	font-style: italic;
+	background-color: #ffffff;
+	padding: 1em 1em 1em 2em;
+	border: 2px solid #ffdc00;
+	display: flex;
+  align-items: center;
+}
+.iconContainer:before {
+	content: "\f06a";
+	font-family: FontAwesome;
+	padding-right: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+}
+.textContainer a {
+	font-style: normal;
+}
+/* Drop Shadow for images */
+.dropshadow {
+	 box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -webkit-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -moz-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+}
+/* Fix for background color in even numbered rows in tables so that watermark does not show */
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: var(--main-bg-color);
+}
+
+/* Quick things for Fall 2020 Homepage */
+.rylib-homepage-bento .wp-block-column {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 10px #4CA6E8 solid;
+}
+.rylib-homepage-bento h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.rylib-homepage-bento ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.rylib-homepage-bento a {
+	color: #000;
+}
+
+.rylib-homepage-news h2, .rylib-homepage-workshops h2 {
+	color: #0F306B;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.rylib-homepage-workshops a, .rylib-homepage-workshops a:visited { color: #000 }
+.rylib-homepage-workshops ul {
+	padding: 0;
+	list-style: none;
+}
+div.rylib-homepage-workshops li {
+	padding-bottom: 1em;
+}
+.rylib-homepage-workshops .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+.rylib-homepage-workshops .event .datewrap {
+	text-align: right;
+	min-width: 110px;
+}
+
+.rylib-homepage-workshops .event .date {
+	font-size: 1.25em;
+}
+
+.rylib-homepage-workshops .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.rylib-homepage-workshops .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+.rylib-homepage-workshops .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.rylib-homepage-workshops .event .description a:hover {
+	text-decoration: underline;
+}
+
+.rylib-land-ack {
+	background: #FFF;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.rylib-land-ack p {
+	margin: 0;
+}
+
+.rylib-land-ack .wp-block-buttons {
+	position: absolute;
+	right: 1.5em;
+}
+
+.rylib-land-ack .wp-block-button .wp-block-button__link {
+	background: #4EA5E8;
+	border-radius: 0;
+}
+
+/*Figshare test */
+.search-form .sf-input input
+{
+    color: #252525;
+    font-size: 16px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 36px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 36px 0 12px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.browse-menu {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.browse-menu li {
+	padding: 3em 1.5em;
+	background-color: white;
+	margin-right: 2em;
+	flex: 1 0 200px;
+	width: 0;
+	border: 1px solid #eaeaea;
+	text-transform: uppercase;
+	border-bottom: 10px #4ca6e8 solid;
+		margin-top: 2em;
+}
+.search-form .sf-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    font-size: 14px;
+    color: #bbb;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
+form.dh-search-form input[type="search"]{
+	background-color: #fff;
+}
+.text-input-component-wrapper {
+	text-align: center;
+  padding: 1em;
+}
+
+.home h2 a {
+	color: #000;
+  text-decoration: none;	
+}
+.home h2 a:hover {
+	text-decoration: underline;
+}
+
+.rylib-tabs {
+	text-align: left;
+}
+/* Digital Repository Page */
+div.linkbox > a:link, div.linkbox > a:visited {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+		</style>
+		</head>
+
+<body class="archive author author-aludbrook author-16">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#main-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey"">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>We are online to support you! Get information on Library resources and services for: <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-students/">Students</a>   |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-teaching/">Instructors</a>  |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-researchers/">Researchers</a>. For Ryerson campus information, visit: <a href="https://www.ryerson.ca/covid-19/">Ryerson COVID-19 Information and Updates</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search library.ryerson.ca</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search library.ryerson.ca">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="global-header-bottom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://library.ryerson.ca">Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-header-bottom" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-angle-down" title="Toggle navigation"></i>
+      </button>
+    </div>
+    <div id="global-header-bottom" class="collapse navbar-collapse"><ul id="menu-library-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a title="Catalogue" href="https://catalogue.library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Catalogue">Catalogue</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a title="Articles" href="https://library.ryerson.ca/articles/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Articles">Articles</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a title="Research" href="https://library.ryerson.ca/guides" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Research">Research</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Services" href="https://library.ryerson.ca/services/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Services">Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-25617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25617"><a title="About Us" href="https://library.ryerson.ca/info/about-us/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="About Us">About Us</a></li>
+</ul></div>  </div>
+</header>
+
+  
+      
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<header class="rula-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>
+					Author: <span>Ann</span>				</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			<div class="breadcrumbs"><!-- Breadcrumb NavXT 6.6.0 -->
+<a title="Go to Ryerson University Library." href="https://library.ryerson.ca" class="home">Ryerson University Library</a> &#187; Articles by: Ann</div>
+			
+			
+<article id="post-35177" class="post-35177 post type-post status-publish format-standard hentry category-csc category-events category-news tag-orcid tag-profile-development tag-scholarly-communication tag-scholarly-publishing">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/03/research-profile-development-workshop-for-graduate-students-march-12th/">Research Profile Development Workshop for Graduate Students, March 12th</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/03/research-profile-development-workshop-for-graduate-students-march-12th/" title="2:48 pm" rel="bookmark"><time class="entry-date" datetime="2020-03-03T14:48:23-05:00" pubdate>March 3, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p style="font-weight: 400">Do you want to enhance your online research profile? Are you planning to apply for a research grant or a job, or want to be ready when you do?</p>
+<p style="font-weight: 400">Then <a href="https://www.eventbrite.ca/e/research-profile-development-workshop-for-graduate-students-tickets-95709412429">Register</a> for the <strong><em>Research Profile Development Workshop for Graduate Students</em></strong> March 12th, 12 p.m. &#8211; 2 p.m. in SLC 508.</p>
+<p style="font-weight: 400">Research profile development is an important part of modern scholarship, for applying to jobs and grants as well as submitting papers for publication. Online profiles can aid in mobilizing your research and accomplishments so others can easily find them.</p>
+<ul style="font-weight: 400">
+<li>Guest speaker Philip Mai from the Social Media Lab will discuss the importance of online research profiles.</li>
+<li>Learn how to populate both your research ID using <a href="https://learn.library.ryerson.ca/ORCID/what" data-saferedirecturl="https://www.google.com/url?q=https://learn.library.ryerson.ca/ORCID/what&amp;source=gmail&amp;ust=1583349819305000&amp;usg=AFQjCNEW-IZcnh8LcLp6ZALQCXuOHIUOxw">ORCID</a> and an online research profile using <a href="https://learn.library.ryerson.ca/arthistory/google" data-saferedirecturl="https://www.google.com/url?q=https://learn.library.ryerson.ca/arthistory/google&amp;source=gmail&amp;ust=1583349819305000&amp;usg=AFQjCNEUIA96RyccjBFt240HUsGcuVuGog">Google Scholar</a> in a hands-on workshop with Ryerson University librarians (bring your laptop).</li>
+</ul>
+<p style="font-weight: 400">This lunch and learn session, specifically for graduate students, is brought to you by the <a href="https://library.ryerson.ca/" data-saferedirecturl="https://www.google.com/url?q=https://library.ryerson.ca/&amp;source=gmail&amp;ust=1583349819305000&amp;usg=AFQjCNF0o5-gxUb7y_kg88Nxp1YYkTxbHA">Ryerson University Library</a> in partnership with the <a href="https://www.ryerson.ca/graduate/" data-saferedirecturl="https://www.google.com/url?q=https://www.ryerson.ca/graduate/&amp;source=gmail&amp;ust=1583349819305000&amp;usg=AFQjCNGHiuYMIw0x9pKV3eAmDivC3iuxmQ">Yeates School of Graduate Studies</a>.</p>
+<p style="font-weight: 400"><em>Ryerson graduate students from all disciplines are invited to attend. </em>This series qualifies for <a href="https://www.ryerson.ca/graduate/student-guide/student-life/student-engagement/future-smart/" data-saferedirecturl="https://www.google.com/url?q=https://www.ryerson.ca/graduate/student-guide/student-life/student-engagement/future-smart/&amp;source=gmail&amp;ust=1583349819305000&amp;usg=AFQjCNEr9-jCCVZVPXn47H6YKsxFFRAvFw">Future Smart</a>, so bring your passport to be signed.</p>
+<p style="font-weight: 400">A light lunch will be served. Space is limited, so register early! Please bring your laptop and be prepared to work on your profile.</p>
+<p>Please contact <a href="mailto:l2mutic@ryerson.ca" target="_blank" rel="noopener noreferrer"><span class="il">l2mutic@ryerson.ca</span></a> if you require any accessibility or dietary accommodations to ensure your inclusion in this event.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/orcid/" rel="tag">ORCID</a>, <a href="https://library.ryerson.ca/blog/tag/profile-development/" rel="tag">Profile development</a>, <a href="https://library.ryerson.ca/blog/tag/scholarly-communication/" rel="tag">scholarly communication</a>, <a href="https://library.ryerson.ca/blog/tag/scholarly-publishing/" rel="tag">scholarly publishing</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/03/research-profile-development-workshop-for-graduate-students-march-12th/" title="Permalink to Research Profile Development Workshop for Graduate Students, March 12th" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-35177 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-35096" class="post-35096 post type-post status-publish format-standard hentry category-csc category-events category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/02/fair-dealing-week-event-copyright-update-2020/">Fair Dealing Week Event: Copyright Update 2020</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/02/fair-dealing-week-event-copyright-update-2020/" title="1:15 pm" rel="bookmark"><time class="entry-date" datetime="2020-02-20T13:15:12-05:00" pubdate>February 20, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>The <span class="il">week</span> of February 24th is<a href="http://fairuseweek.org/about/" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://fairuseweek.org/about/&amp;source=gmail&amp;ust=1582308610518000&amp;usg=AFQjCNF2VYeFFRhv8puVhuvAWdi8aAtglw"> <span class="il">Fair</span> Use/ <span class="il">Fair</span> <span class="il">Dealing</span> <span class="il">Week</span></a> – an annual event to highlight, celebrate and educate about <span class="il">fair</span> use in the United States and <span class="il">fair</span> <span class="il">dealing</span> in Canada and other jurisdictions.  As part of our celebration of <span class="il">Fair</span> Use/<span class="il">Fair</span> <span class="il">Dealing</span> <span class="il">Week</span>, the Library is hosting a panel discussion, Copyright, and Education: 2020 Update</p>
+<p>At this panel presentation, the speakers will review significant legal developments in the areas of <span class="il">fair</span> <span class="il">dealing</span> and copyright, which impact on the educational use of copyright materials.  This includes the ruling in the <em>Access Copyright v. York University</em> case, as well as an update on the federal government’s review of the <em>Copyright Act, and </em>recent decisions by the Copyright Board impacting higher education. These developments will be of interest to instructors, faculty, and librarians, and others looking to ensure legal compliance with copyrighted materials in the classroom.  Participants will also learn about the available supports at the Library to ensure copyright compliance, including the Library’s <em>E-Reserves </em>service.</p>
+<p><strong>Date:</strong> Monday, Feb. 24th, 2020</p>
+<p><strong>Location:</strong> SLC508</p>
+<p><strong>Time:</strong> 2:00-3:00pm</p>
+<p><strong>Speakers:</strong></p>
+<p>Julia Shin Doi, General Counsel General Counsel and Secretary of the Board of Governors</p>
+<p>Carol Shepstone, Chief Librarian</p>
+<p>Ann Ludbrook, Copyright and Scholarly Engagement Librarian</p>
+<p><strong>Register: <a href="https://forms.gle/dyFbPpEXqPS9yDQv7">https://forms.gle/dyFbPpEXqPS9yDQv7</a></strong></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/02/fair-dealing-week-event-copyright-update-2020/" title="Permalink to Fair Dealing Week Event: Copyright Update 2020" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-35096 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-34107" class="post-34107 post type-post status-publish format-standard hentry category-csc category-events category-news tag-open-access tag-open-access-week-2019">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2019/10/open-access-week-oct-21-27-2019-open-for-whom-equity-in-open-knowledge/">Open Access Week Events Oct. 21-27, 2019</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2019/10/open-access-week-oct-21-27-2019-open-for-whom-equity-in-open-knowledge/" title="1:01 pm" rel="bookmark"><time class="entry-date" datetime="2019-10-07T13:01:10-04:00" pubdate>October 7, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><img loading="lazy" class="alignnone size-full wp-image-34123 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1.png" alt width="986" height="310" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1.png 986w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-150x47.png 150w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-300x94.png 300w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-768x241.png 768w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-650x204.png 650w" data-lazy-sizes="(max-width: 986px) 100vw, 986px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignnone size-full wp-image-34123" src="https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1.png" alt="" width="986" height="310" srcset="https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1.png 986w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-150x47.png 150w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-300x94.png 300w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-768x241.png 768w, https://library.ryerson.ca/wp-content/uploads/2019-Open-Access-Week-ENGLISH-986x310-1-650x204.png 650w" sizes="(max-width: 986px) 100vw, 986px" /></noscript></p>
+<p><strong><a href="http://www.openaccessweek.org/page/about">Open Access Week</a></strong> is a global event held annually in October to raise awareness of the benefits of Open Access in the academic community.  Open access materials are academic materials distributed online legally and free of cost. This year’s theme is  <a href="http://Open for Whom? Equity in Open Knowledge">Open for Whom? Equity in Open Knowledge</a> – a prompt for the academic community to consider the benefits of open access, which include increased access to knowledge in our own communities and around the world. Ryerson Library is hosting several Open Access Week events in the week Oct. 21-27. We encourage faculty and graduate students to attend open access events and learn more about how open access can benefit your teaching and research.</p>
+<h2><strong>Open Access Week Keynote and Award</strong></h2>
+<p><strong>Day:</strong> Oct 21, 2019</p>
+<p><strong>Time:</strong> 12 p.m.- 2 p.m.</p>
+<p><strong>Location:</strong> Library Collaboratory, 3rd Floor (access via 3rd Floor, LIB/SLC)</p>
+<h3><strong>Keynote &#8211; Open Access and Inclusive Infrastructure in Support of Epistemic Diversity and Knowledge Equity</strong></h3>
+<p><strong><img loading="lazy" class="alignnone size-medium wp-image-34126 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/leslie-241x300.jpg" alt width="241" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/leslie-241x300.jpg 241w, https://library.ryerson.ca/wp-content/uploads/leslie-120x150.jpg 120w, https://library.ryerson.ca/wp-content/uploads/leslie.jpg 486w" data-lazy-sizes="(max-width: 241px) 100vw, 241px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/leslie-241x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignnone size-medium wp-image-34126" src="https://library.ryerson.ca/wp-content/uploads/leslie-241x300.jpg" alt="" width="241" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/leslie-241x300.jpg 241w, https://library.ryerson.ca/wp-content/uploads/leslie-120x150.jpg 120w, https://library.ryerson.ca/wp-content/uploads/leslie.jpg 486w" sizes="(max-width: 241px) 100vw, 241px" /></noscript></strong></p>
+<p><strong>Keynote Speaker:</strong> Leslie Chan, University of Toronto, Scarborough</p>
+<p>Leslie&#8217;s talk will focus on why we need to think beyond Open Access and the common debates about business models and licensing options. As commercial interests have increasingly been monopolizing the essential infrastructure of knowledge production and distribution, this will have the effect of further narrowing the ways we think about the research processes, dissemination, and evaluation of impact. The implications for the reduction of intellectual diversity and means of knowledge representations will be discussed.</p>
+<p><strong>Leslie Chan Biography: </strong><br />
+Leslie Chan is an Associate Professor at the Centre for Critical Development Studies, University of Toronto, Scarborough, where he is crossed appointed to the Department of Arts, Culture, and Media. His teaching and professional practices center on the role of “openness” in the design of inclusive knowledge infrastructure, and the implications for the production and flow of knowledge, and their impact on local and international development. An original signatory of the Budapest Open Access Initiative, Leslie has been active in the experimentation and implementation of scholarly communication initiatives of varying scales around the world. He has served as Director of Bioline International, an international collaborative open access platform since 2000. Leslie was the principal investigator for the Open and Collaborative Science in Development Network (OCSDNet), funded by IDRC in Canada and DFID in the UK, and the PI of the Knowledge G.A.P project. He serves on the advisory board of the Directory of Open Access Journal, and the San Francisco Declaration on Research Assessment (DORA). Recently he became a member of an international working group on Investing in Open Infrastructure. He has published broadly on open access, open science, and scholarly communications.</p>
+<h3><strong>Award &#8211; 2019 Ryerson Library Open Access Wall of Fame </strong></h3>
+<p><strong>Dr. Jennifer L. Lapum</strong></p>
+<p>Dr. Jennifer Lapum is a Professor in the Daphne Cockwell School of Nursing. She is a leader and social justice advocate in the development and curricular integration of Open Educational Resources (OER) in post-secondary education. She has been a lead author and editor in the production of several e-textbooks that have involved creating original content combined with adapting and remixing existing OER. These resources have included topics related to health assessment, vital sign measurement, scholarly writing, nutrition, nurse-client interviewing, and immunizations. In addition to reducing textbook costs for students, Dr. Lapum’s passion is to promote learner engagement and create accessible learning spaces by leveraging the multi-media and interactive elements of book authoring software programs. The collaborative nature of OER production has been a cornerstone of her work in which she has valued the joint efforts of students, educators, instructional designers, librarians, artists, among others.</p>
+<h2><strong>Publish Open Access without Paying Fees &amp; Distinguish Yourself with an ORCID ID</strong></h2>
+<p><strong>Date:</strong> Oct 21, 2019</p>
+<p><strong>Time:</strong> 2 p.m.- 3 p.m</p>
+<p><strong>Location:</strong> Ryerson Library Collaboratory (access via 3rd Floor, LIB/SLC)</p>
+<p>Do you want to publish your scholarly work and make it openly discoverable on the Internet, AND also comply with your publisher agreement? The Library will show you how to &#8220;publish green&#8221; open access versions of your scholarly articles without having to pay extra fees. Using SHERPA/Romeo and the Library Digital Repository you can learn how to make your article available even if you have already signed a publisher agreement. In this workshop you will also learn how to set-up, use and populate an ORCID account. In order for scholarly work to be found in a global network of researchers, it is essential to easily differentiate authors. Many journal publishers and funding agencies now require or encourage authors to apply with an ORCID ID. In fact over 80 publishers now require an ORCID ID to submit papers, including IEEE, Sage, and Wiley.</p>
+<p><a href="https://www.eventbrite.ca/e/open-access-week-2019-at-ryerson-university-library-tickets-73598536203"><strong>Register for these Events</strong></a></p>
+<p>&nbsp;</p>
+<p><strong><img loading="lazy" class="alignnone wp-image-34131 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/paywall-300x93.png" alt width="345" height="107" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/paywall-300x93.png 300w, https://library.ryerson.ca/wp-content/uploads/paywall-150x47.png 150w, https://library.ryerson.ca/wp-content/uploads/paywall.png 402w" data-lazy-sizes="(max-width: 345px) 100vw, 345px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/paywall-300x93.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignnone wp-image-34131" src="https://library.ryerson.ca/wp-content/uploads/paywall-300x93.png" alt="" width="345" height="107" srcset="https://library.ryerson.ca/wp-content/uploads/paywall-300x93.png 300w, https://library.ryerson.ca/wp-content/uploads/paywall-150x47.png 150w, https://library.ryerson.ca/wp-content/uploads/paywall.png 402w" sizes="(max-width: 345px) 100vw, 345px" /></noscript></strong></p>
+<h2><strong>Film Screening: Paywall – The Business of Scholarship</strong></h2>
+<p><strong>Date:</strong> Oct 22, 2019</p>
+<p><strong>Time:</strong> 11 a.m.- 12:30 p.m</p>
+<p><strong>Location:</strong> Ryerson Library Collaboratory (access via 3rd Floor, LIB/SLC)</p>
+<p>As part of Open Access Week, the Library will be screening <em>Paywall: The Business of Scholarship</em>. This documentary, which focuses on the need for open access to research and science, questions the rationale behind the $25.2 billion a year that flows into for-profit academic publishers. There will be popcorn! This is a drop in event open to the Ryerson community.</p>
+<div></div>
+<h2><b>Engage Students with Social Annotation</b></h2>
+<div>
+<p><strong>Date:</strong> Oct 22, 2019</p>
+<p><strong>Time:</strong> 3 p.m. &#8211; 4 p.m.</p>
+<p><strong>Location:</strong> Ryerson Library Collaboratory (access via 3rd Floor, LIB/SLC)</p>
+</div>
+<div>Join the teams from the Centre for Excellence in Learning &amp; Teaching and the Ryerson Library for a hands-on workshop on teaching with social annotation, a new way to engage students with their readings. Recent research has shown that social annotation, which allows students to leave comments, questions, and reflections in the virtual margins of digital texts, as well as interact with each other, builds community and improves students&#8217; reading comprehension, motivation, and critical thinking.</div>
+<div></div>
+<div>You will learn how to use <a href="http://hypothes.is/" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://hypothes.is/&amp;source=gmail&amp;ust=1570630306536000&amp;usg=AFQjCNHeN2cYJQTazjveqwEup283vgSIhw">Hypothes.is</a>, an open and free web annotation tool. <a href="http://hypothes.is/" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://hypothes.is/&amp;source=gmail&amp;ust=1570630306536000&amp;usg=AFQjCNHeN2cYJQTazjveqwEup283vgSIhw">Hypothes.is</a> allows you and your students to collaboratively annotate websites and course readings. Hypothes.is can also be used for your own scholarly, research, and creative work.</div>
+<div></div>
+<div><a href="http://hypothes.is/" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=http://hypothes.is/&amp;source=gmail&amp;ust=1570630306536000&amp;usg=AFQjCNHeN2cYJQTazjveqwEup283vgSIhw">Hypothes.is</a> is one of many open pedagogy tools available for your teaching needs.</div>
+<p><a href="https://www.eventbrite.ca/e/open-access-week-2019-at-ryerson-university-library-tickets-73598536203"><strong>Register for these Events</strong></a></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/open-access/" rel="tag">open access</a>, <a href="https://library.ryerson.ca/blog/tag/open-access-week-2019/" rel="tag">Open Access Week 2019</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2019/10/open-access-week-oct-21-27-2019-open-for-whom-equity-in-open-knowledge/" title="Permalink to Open Access Week Events Oct. 21-27, 2019" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-34107 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-33996" class="post-33996 post type-post status-publish format-standard hentry category-csc category-events category-libtech category-news tag-orcid tag-orcid-workshop">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2019/09/distinguish-yourself-with-an-open-researcher-orcid-id/">Distinguish Yourself with an Open Researcher ORCID iD</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2019/09/distinguish-yourself-with-an-open-researcher-orcid-id/" title="12:56 pm" rel="bookmark"><time class="entry-date" datetime="2019-09-27T12:56:09-04:00" pubdate>September 27, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>Faculty, instructors and graduate students are invited to attend drop-in training sessions on setting up and populating an <a href="https://orcid.org/" data-saferedirecturl="https://www.google.com/url?q=https://orcid.org/&amp;source=gmail&amp;ust=1569689468150000&amp;usg=AFQjCNHhRIUYekYjuXsou77dMfmQ16iuNw">ORCID</a> account.</p>
+<p>Many journal publishers and funding agencies now require or encourage authors to apply for publication or funding with an ORCID iD. In fact, over <a href="https://orcid.org/content/requiring-orcid-publication-workflows-open-letter" data-saferedirecturl="https://www.google.com/url?q=https://orcid.org/content/requiring-orcid-publication-workflows-open-letter&amp;source=gmail&amp;ust=1569689468150000&amp;usg=AFQjCNGqMX-mMaQKNa7cWXfsqoDhiF35dA">80 publishers</a> – including IEEE, Sage and Wiley – require it for the submission of papers.</p>
+<p>ORCID iDs allow for authors and scholarly work to be easily found within a global network of researchers.</p>
+<p>To learn more, register for one of the following:</p>
+<p><strong>In Library Session: </strong>Friday, Oct. 4, 3 p.m. &#8211; 4 p.m. <strong>Location: </strong> Library Collaboratory, 3rd Floor   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc=0&amp;c=0&amp;w=1" data-saferedirecturl="https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc%3D0%26c%3D0%26w%3D1&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNG8klS92FiDecJ6g8OcbtZdzPMqBA">Register</a></p>
+<p><strong>In Library Session: </strong>Thursday, Oct. 17, 1 p.m. &#8211; 2 p.m. <strong>Location: </strong> Library Collaboratory, 3rd Floor   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc=0&amp;c=0&amp;w=1" data-saferedirecturl="https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc%3D0%26c%3D0%26w%3D1&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNG8klS92FiDecJ6g8OcbtZdzPMqBA">Register</a></p>
+<p><strong>In Library Session</strong>: Monday, Oct. 21, 2 p.m &#8211; 3 p.m. <strong>Location:</strong>  Library Collaboratory, 3rd Floor <em>(Open Access Week event) </em><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc=0&amp;c=0&amp;w=1" data-saferedirecturl="https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSfwwPQntq6XitpL0_tYfCegO19CRU-jkUPke_0Q89nIVoZanA/viewform?vc%3D0%26c%3D0%26w%3D1&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNG8klS92FiDecJ6g8OcbtZdzPMqBA">Register</a></p>
+<p>Monday, Oct 28, 12 p.m. &#8211; 2p.m. <strong>Location:</strong> <a href="https://www.ryerson.ca/the-catalyst/" data-saferedirecturl="https://www.google.com/url?q=https://www.ryerson.ca/the-catalyst/&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNGhTJGv7DJgrIc6gsz-zJzxdSQGNA">C</a><a href="https://www.ryerson.ca/the-catalyst/" data-saferedirecturl="https://www.google.com/url?q=https://www.ryerson.ca/the-catalyst/&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNGhTJGv7DJgrIc6gsz-zJzxdSQGNA">atalyst at FCAD</a>, RCC 230</p>
+<p><a href="https://orcid.org/" data-saferedirecturl="https://www.google.com/url?q=https://orcid.org/&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNEW-i02ZSqM68P6viGDX9POUWnpGg">ORCID</a> accounts can now be set- up using <a href="https://learn.library.ryerson.ca/ORCID/signup" data-saferedirecturl="https://www.google.com/url?q=https://learn.library.ryerson.ca/ORCID/signup&amp;source=gmail&amp;ust=1569689468151000&amp;usg=AFQjCNEeUTSrj2dRaEBqlW2Wx3mIrN_oxg">ORCID my.ryerson </a>authentication.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/libtech/" rel="category tag">Library Technology</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/orcid/" rel="tag">ORCID</a>, <a href="https://library.ryerson.ca/blog/tag/orcid-workshop/" rel="tag">ORCID Workshop</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2019/09/distinguish-yourself-with-an-open-researcher-orcid-id/" title="Permalink to Distinguish Yourself with an Open Researcher ORCID iD" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-33996 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-32151" class="post-32151 post type-post status-publish format-standard hentry category-csc category-events category-featured category-news tag-creative-commons tag-library-grants tag-oer tag-open-access tag-open-educational-resources tag-rula-oer-grants">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/07/2018-19-ryerson-university-library-and-archives-oer-grants/">2018/19 Ryerson University Library and Archives OER Grants</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/07/2018-19-ryerson-university-library-and-archives-oer-grants/" title="2:50 pm" rel="bookmark"><time class="entry-date" datetime="2018-07-23T14:50:08-04:00" pubdate>July 23, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>The Ryerson University Library and Archives (RULA) is pleased to announce its <strong>2018/19 RULA Open Educational Resources (OER) Grants</strong> to encourage the creation and adoption of open educational resources. OER are learning materials that are openly licensed such that they are freely available to be adapted, copied, and shared. OER can be: courses, modules, textbooks, multimedia, assessments, and supplementary materials.</p>
+<p>These grants advance the University’s priorities to foster an innovation ecosystem and ensure excellence in student learning experiences, and build on RULA’s digital initiatives, expertise in Open Access and Open Education Resource publishing and dissemination, and academic priorities of access and openness. The Library and Archives is very pleased to collaborate with the Office of eLearning and the Learning and Teaching Office in the review and adjudication of the grants, and in the support of successful projects. A total of $35,000 is available in two categories of grants:</p>
+<p><strong>Category 1 &#8211; Creation or Adaptation </strong></p>
+<ul>
+<li>3 grants for creation or adaptation of an OER textbook or ancillary materials and its subsequent use in class- $10,000 each.</li>
+</ul>
+<p><strong>Category 2 &#8211; Review and Adoption </strong></p>
+<ul>
+<li>5 grants for peer review and adoption of OER, or creation of small-scale supplementary/ ancillary material for an existing OER &#8211; $1,000 each.</li>
+</ul>
+<p><strong>Objectives of the Grant Program</strong></p>
+<ul>
+<li>To support faculty members in the review, revision and adoption of open textbooks and other OER materials</li>
+<li>To increase the use of open educational content, textbooks and OER at Ryerson University resulting in pedagogical innovation, enhanced access for students, and reduced textbook and class material costs.</li>
+</ul>
+<p><strong>Eligibility</strong></p>
+<p>All RFA and CUPE Faculty members, Librarians and Post-Doctoral fellows, may apply for these grants.</p>
+<p><strong>Evaluation Criteria</strong></p>
+<p>Proposals will be evaluated based on the following criteria:</p>
+<ul>
+<li>Curation and customization of OER that will be freely and openly shared within Ryerson University and beyond</li>
+<li>Impact on student experience, including high-quality materials, maximum access, open and innovative pedagogy, and cost savings to students</li>
+<li>Active engagement of students with Faculty in the adaptation/adoption of OER</li>
+<li>Improve discipline/subject OER coverage</li>
+<li>Complete and viable budget and project outcomes, consistent with project objectives and appropriate administrative approval from your Chair or supervisor as necessary</li>
+<li>Foster commitment to building equity, community and inclusion, advance the TRC Calls to Action, and alignment with Ryerson’s Academic Plan and priorities</li>
+</ul>
+<p><strong> </strong><strong>Guidelines for Applicants</strong></p>
+<ul>
+<li>Complete the <a href="https://goo.gl/forms/G1yzTlcYGExt4Zbm1">Application Form</a> by 4:00 pm on September 28, 2018. Proposals must be submitted via this link prior to the deadline.</li>
+<li>Selection Process: Proposals will be evaluated according to an established assessment rubric based on the criteria noted above. A RULA OER Grant Review Committee comprising representation from the Library and Archives (chair), the eLearning Office, and the Learning and Teaching Office will consider all applications. The results of this process will be communicated to each applicant in late October, and announced during <a href="http://www.openaccessweek.org/">Open Access Week</a> 2018<strong>.</strong></li>
+<li>Funds will be available once a detailed budget is approved by the RULA OER Grant Review Committee.
+<ul>
+<li>Funds may be used to be used to pay students; editors; graphic designers; videographers, with preference given to projects that employ Ryerson students. Funds cannot be used to purchase equipment or used for travel costs.</li>
+<li>This is not an equipment fund, however, if the substance of the project requires equipment, that component may be considered if it is demonstrated that such equipment is unavailable on campus and is instrumental to the project on a case-by-case approved basis.</li>
+<li>Faculty teaching release is not funded by this grant.</li>
+<li>Funds will be made available no later than November 30th, 2018 after recipients attend an introductory 2-hour on-boarding session. Category 1 funds must be expended no later than August 31st, 2019, and Category 2 funds must be expended no later than April 15th, 2019.</li>
+<li>Brief final reports at project completion and/or close of the granting period are required, including an outline of fund expenditures. Any unspent funds will be returned to the Library and Archives.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Reporting and Deliverables</strong></p>
+<p><strong> </strong><strong>For Category 1 &#8211; Creation and Adaptation grants:<br />
+</strong>A mid-term report is due April 15, 2019, and final reports and links to materials created must be submitted to the Library OER Grant Committee by August 31, 2019. Upon completion of the project, a presentation must be made during Open Access Week (October 2019).</p>
+<p><strong>For Category 2 &#8211; Review and Adoption grants:</strong></p>
+<p>Final two-page report and links to materials created must be submitted to the Library OER Grant Committee by April 15, 2019. Upon completion of the project, a short presentation must be made during Open Access Week (October 2019).</p>
+<p><strong>Acknowledgment and Licensing</strong></p>
+<p>Grant recipients are required to credit the <strong>RULA Open Educational Resources (OER) Grants</strong> in any publications, conference proceedings, or media appearances resulting from the funded project.</p>
+<p>All materials created via these funds must be licensed under a Creative Commons CC-BY license, or a CC-BY-NC license and indicate that they were funded by a <strong>RULA Open Educational Resources (OER) Grants</strong>.</p>
+<p><strong>Assessment</strong></p>
+<p>Groups will be interviewed at end of project for feedback and a follow-up interview will be done after in-classroom pilots.</p>
+<p><strong>Application Process</strong></p>
+<p>To apply for a grant, please submit a completed <a href="https://goo.gl/forms/G1yzTlcYGExt4Zbm1">application form</a> to RULA by 4 pm September 28, 2018. Grant recipients will be announced October 22nd, 2018.   If you have questions, please feel free to contact either Ann Ludbrook <a href="mailto:aludbrook@ryerson.ca">aludbrook@ryerson.ca</a> ext. 6910, or Sally Wilson <a href="mailto:swilson@Ryerson.ca">swilson@ryerson.ca</a> ext. 556898, or email <a href="mailto:librarygrants@ryerson.ca">librarygrants@ryerson.ca</a>.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/featured/" rel="category tag">Featured</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/creative-commons/" rel="tag">Creative Commons</a>, <a href="https://library.ryerson.ca/blog/tag/library-grants/" rel="tag">Library Grants</a>, <a href="https://library.ryerson.ca/blog/tag/oer/" rel="tag">OER</a>, <a href="https://library.ryerson.ca/blog/tag/open-access/" rel="tag">open access</a>, <a href="https://library.ryerson.ca/blog/tag/open-educational-resources/" rel="tag">Open Educational Resources</a>, <a href="https://library.ryerson.ca/blog/tag/rula-oer-grants/" rel="tag">Rula OER grants</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/07/2018-19-ryerson-university-library-and-archives-oer-grants/" title="Permalink to 2018/19 Ryerson University Library and Archives OER Grants" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-32151 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-31328" class="post-31328 post type-post status-publish format-standard hentry category-csc category-events category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/04/come-celebrate-world-ip-day-april-26th-with-us-april-26th-from-4-6-in-the-collaboratory/">Come Celebrate World IP day with us &#8211; April 26th from 4-6 in the Collaboratory</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/04/come-celebrate-world-ip-day-april-26th-with-us-april-26th-from-4-6-in-the-collaboratory/" title="12:27 pm" rel="bookmark"><time class="entry-date" datetime="2018-04-26T12:27:31-04:00" pubdate>April 26, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>You are invited to celebrate World <span class="il">IP</span> day with us on <span class="aBn"><span class="aQJ">Thursday April 26th from 4-6 pm</span></span> at our <span class="il">IP</span> Open House in the Library&#8217;s <span class="il">Collaboratory</span> in the SLC.</p>
+<div>Established by the World Intellectual Property Organization (WIPO),  World Intellectual Property Day occurs every April 26th to recognize the role that <a href="http://www.wipo.int/about-ip/en/" target="_blank" rel="noopener">intellectual property</a> rights (patents, trademarks, industrial designs, copyright) play in encouraging innovation and creativity.</div>
+<div>&nbsp;</div>
+<div></div>
+<div>
+<div>Please join us at an open house from <span class="aBn"><span class="aQJ">4pm &#8211; 6pm</span></span> to learn about what supports are available at Ryerson to move your ideas from the lab to the market place.  Drop by for a cookie and to talk to OPVRI and Library staff and external <span class="il">IP</span> experts  who can answer your questions about patents, trademarks, and copyrights.   You can also explore the  Ryerson Library <span class="il">Collaboratory</span>, a just launched is a space and initiative in the 3rd floor of the Library that provides faculty and their research teams with space and technology resources to facilitate research and course development. </div>
+<div>&nbsp;</div>
+<div>This year WIPO is celebrating women and IP, see <a href="http://www.wipo.int/ip-outreach/en/ipday/">Powering Change: Women in Innovation and Creativity</a> on the WIPO site.</div>
+</div>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/04/come-celebrate-world-ip-day-april-26th-with-us-april-26th-from-4-6-in-the-collaboratory/" title="Permalink to Come Celebrate World IP day with us &#8211; April 26th from 4-6 in the Collaboratory" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-31328 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-28726" class="post-28726 post type-post status-publish format-standard hentry category-csc category-events category-news tag-copyright tag-fair-dealing tag-fair-dealing-week tag-scholarly-communication">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-copyright-review-2017/">Fair Dealing Week: Copyright Review 2018</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-copyright-review-2017/" title="4:13 pm" rel="bookmark"><time class="entry-date" datetime="2018-02-27T16:13:06-05:00" pubdate>February 27, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<div><img loading="lazy" class="alignnone size-medium wp-image-26235 jetpack-lazy-image" src="http://library.ryerson.ca/wp-content/uploads/fairdealing_week-300x99.jpg" alt width="300" height="99" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/fairdealing_week-300x99.jpg 300w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week-150x49.jpg 150w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week-650x214.jpg 650w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week.jpg 790w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="http://library.ryerson.ca/wp-content/uploads/fairdealing_week-300x99.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignnone size-medium wp-image-26235" src="http://library.ryerson.ca/wp-content/uploads/fairdealing_week-300x99.jpg" alt="" width="300" height="99" srcset="https://library.ryerson.ca/wp-content/uploads/fairdealing_week-300x99.jpg 300w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week-150x49.jpg 150w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week-650x214.jpg 650w, https://library.ryerson.ca/wp-content/uploads/fairdealing_week.jpg 790w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+<div>Happy Fair Dealing Week!</div>
+<div>Why are we celebrating this week – especially in Canada?</div>
+<div>Fair dealing defines important users rights allowed by Canadian laws. These user rights give Canadian citizens the ability to use fair dealing as an exception to the exclusive rights of copyright holders to control the copying and distributing of their content. Without fair dealing, this exclusive right could mean that, other than an insubstantial amount of a work, the work could never be copied without the permission of the copyright holder. User’s rights in the form of fair dealing mean that some copying is allowed without permission – for certain socially valuable purposes and for short amounts of a work.</div>
+<div></div>
+<div>Have a look at <a href="http://prezi.com/_v7q3jskrmi-/?utm_campaign=share&amp;utm_medium=copy&amp;rc=ex0share" target="_blank" rel="noopener">Student Life without Fair Dealing</a> to get an idea about how important fair dealing can be in an educational environment. Without fair dealing you would not be able to do many of the things you do everyday as a student &#8211; use an image in an assignment that you are handing in, share an article with your group project team, photocopy a chapter you need from a library book so you can read it at home.</div>
+<div></div>
+<div>Luckily for students and educators some of the copying of works that we do in our learning and teaching are covered by fair dealing. For example fair dealing purposes include private study, research, criticism, review and education and parody and satire. Much of what students and educators do on a daily basis would be really really hard without this user’s right. Student and faculty ability to do effective research, use content in criticism and papers, teach and share information would be seriously inhibited. Fair dealing is really important because it allows a freer flow of information to happen in an educational setting – it promotes learning and scholarship. So celebrate Fair Dealing – it is a user’s right that Canadians should use, not lose.</div>
+<div></div>
+<div>This year celebrating fair dealing  is especially important, because it is 5 years since the scope of fair dealing in Canada was expanded to include education.  After 5 years the government calls for a review of the new <a href="http://laws-lois.justice.gc.ca/eng/acts/c-42/">Copyright Act</a>, which will happen this year. The website <a href="http://www.fairdealingcanada.com">Fair Dealing Canada</a> gives you an opportunity to tell your story of how fair dealing helps you educate others or be educated. Add your story there and help convince the government that this user&#8217;s right is very important to your education.</div>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/copyright/" rel="tag">copyright</a>, <a href="https://library.ryerson.ca/blog/tag/fair-dealing/" rel="tag">fair dealing</a>, <a href="https://library.ryerson.ca/blog/tag/fair-dealing-week/" rel="tag">fair dealing week</a>, <a href="https://library.ryerson.ca/blog/tag/scholarly-communication/" rel="tag">scholarly communication</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-copyright-review-2017/" title="Permalink to Fair Dealing Week: Copyright Review 2018" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-28726 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-31026" class="post-31026 post type-post status-publish format-standard hentry category-csc category-events category-news tag-copyright tag-fair-dealing tag-fair-dealing-week tag-scholarly-communication">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-2018-event-february-26th/">Fair Dealing Week 2018 Event on February 26th</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-2018-event-february-26th/" title="6:11 pm" rel="bookmark"><time class="entry-date" datetime="2018-02-21T18:11:44-05:00" pubdate>February 21, 2018</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><span style="font-weight: 400">The week of February 26th is</span><a href="http://fairuseweek.org/about/"><span style="font-weight: 400"> Fair Use/ Fair Dealing Week</span></a><span style="font-weight: 400"> &#8211; an annual event to highlight, celebrate and educate about fair use in the United States and fair dealing in Canada and other jurisdictions.  As part of our celebration of Fair Use/Fair Dealing Week, the Library is hosting a panel discussion, <strong>Copyright and Education: 2018 Update</strong></span></p>
+<p><span style="font-weight: 400">At this panel presentation, the speakers will review significant legal developments in the areas of fair dealing and copyright, which impact on the educational ​use of copyright materials.  This includes the recent ruling in the <em>Access Copyright v. York University</em> case, as well as the federal government&#8217;s current ​ review of the <em>Copyright Act</em>.  These developments will be of interest to instructors, faculty, and librarians​​, and others l​ooking ​to ensure legal compliance with copyrighted materials in the classroom.  Participants will also learn about the available supports at the Library to ensure copyright compliance, including the Library&#8217;s <em>One Stop Course Reading Service</em>, Open Educational Resources and Creative Commons licensing.</span></p>
+<p><span style="font-weight: 400"><strong>Date:</strong> Monday Feb. 26th, 2018</span></p>
+<p><span style="font-weight: 400"><strong>Location:</strong> SLC508</span></p>
+<p><span style="font-weight: 400"><strong>Time</strong>: 2:30-4:00pm</span></p>
+<p><strong>Speakers:</strong></p>
+<p><span style="font-weight: 400">Julia Shin Doi, General Counsel General Counsel and Secretary of the Board of Governors</span></p>
+<p><span style="font-weight: 400">Carol Shepstone, Chief Librarian</span></p>
+<p><span style="font-weight: 400">Ann Ludbrook, Copyright and Scholarly Engagement Librarian</span></p>
+<p>&nbsp;</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/copyright/" rel="tag">copyright</a>, <a href="https://library.ryerson.ca/blog/tag/fair-dealing/" rel="tag">fair dealing</a>, <a href="https://library.ryerson.ca/blog/tag/fair-dealing-week/" rel="tag">fair dealing week</a>, <a href="https://library.ryerson.ca/blog/tag/scholarly-communication/" rel="tag">scholarly communication</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2018/02/fair-dealing-week-2018-event-february-26th/" title="Permalink to Fair Dealing Week 2018 Event on February 26th" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-31026 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-26701" class="post-26701 post type-post status-publish format-standard hentry category-csc category-news tag-copyright tag-wipo tag-world-intellectual-property-day">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2016/04/april-26th-is-world-intellectual-property-day/">April 26th is World Intellectual Property Day</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2016/04/april-26th-is-world-intellectual-property-day/" title="1:55 pm" rel="bookmark"><time class="entry-date" datetime="2016-04-26T13:55:23-04:00" pubdate>April 26, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p>April 26th is <strong><em>World Intellectual Property Day</em></strong> and is celebrated around the world. Launched by the World Intellectual Property Organization (WIPO) in 2000 the day was created to raise awareness about how intellectual property like patents, trademarks and copyright are both used and in turn foster creativity.  This year’s theme is <em>Digital Creativity: Culture Reimagined</em>.</p>
+<p>Universities are both creators of intellectual property through faculty, instructor, researcher and student output, but are also consumers of intellectual property. Ryerson University Library and Archives spends millions of dollars per year on book and digital journal subscription purchasing. Most of these on-line journal articles are not publicly available to those outside of a university environment without a fee. At universities we are digitally privileged because we pay a substantial amount yearly for access to this content.</p>
+<p>The purchases universities make support publishers and at the same time give instructors, researchers and students timely access to the latest scholarly information that can be used in their courses and for their research. Ryerson researchers are also part of the creative cycle as they create and publish new works citing the work that has gone before them.</p>
+<p>More about:<br />
+<a href="http://www.wipo.int/ip-outreach/en/ipday/">World Intellectual Property Day</a><br />
+<a href="http://www.wipo.int/portal/en/index.html">WIPO</a></p>
+<p>&nbsp;</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> and tagged <a href="https://library.ryerson.ca/blog/tag/copyright/" rel="tag">copyright</a>, <a href="https://library.ryerson.ca/blog/tag/wipo/" rel="tag">WIPO</a>, <a href="https://library.ryerson.ca/blog/tag/world-intellectual-property-day/" rel="tag">world intellectual property day</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2016/04/april-26th-is-world-intellectual-property-day/" title="Permalink to April 26th is World Intellectual Property Day" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-26701 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-26370" class="post-26370 post type-post status-publish format-standard hentry category-csc category-events category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2016/03/open-access-textbooks-open-education-week-2016/">Open Access Textbooks: Open Education Week 2016</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2016/03/open-access-textbooks-open-education-week-2016/" title="5:32 pm" rel="bookmark"><time class="entry-date" datetime="2016-03-10T17:32:45-05:00" pubdate>March 10, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/aludbrook/" title="View all posts by Ann" rel="author">Ann</a></span></span>		</div><!-- .entry-meta -->
+		
+		<p><a href="http://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2.jpg"><img loading="lazy" class="alignnone  wp-image-26359 jetpack-lazy-image" src="http://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-300x158.jpg" alt="facebook-e6e4a0223c35226e0e63c35e730fc9c2" width="496" height="261" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-300x158.jpg 300w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-150x79.jpg 150w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-650x341.jpg 650w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2.jpg 1200w" data-lazy-sizes="(max-width: 496px) 100vw, 496px" data-lazy-src="http://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-300x158.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignnone  wp-image-26359" src="http://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-300x158.jpg" alt="facebook-e6e4a0223c35226e0e63c35e730fc9c2" width="496" height="261" srcset="https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-300x158.jpg 300w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-150x79.jpg 150w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2-650x341.jpg 650w, https://library.ryerson.ca/wp-content/uploads/facebook-e6e4a0223c35226e0e63c35e730fc9c2.jpg 1200w" sizes="(max-width: 496px) 100vw, 496px" /></noscript></a></p>
+<p>&nbsp;</p>
+<h3>A Guest Blog By Michelle Schwartz of the LTO for Open Education Week 2016</h3>
+<p>In February, Ryerson was excited to host <a href="http://thatpsychprof.com/">Rajiv Jhangiani</a>, a faculty member from Kwantlen Polytechnic University, for a talk on his research into the use of open textbooks to teach psychology. <a href="https://open.bccampus.ca/open-textbook-101/some-facts-about-open-textbooks/">Open textbooks are defined</a> as textbooks to which the copyright holder has assigned an open license, which allows anyone the right to access, reformat, and customize the textbook to best meet their needs. These textbooks can be downloaded or printed in hard copy for a small cost via print-on-demand. The author, rather than a publishing company, retains the copyright, and the textbooks are often peer reviewed.</p>
+<p>Dr. Jhangiani is the author of two open textbooks hosted by the <a href="https://open.bccampus.ca/">BC Open Textbook Project</a>. The Open Textbook Project is an initiative by the government of British Columbia to make <a href="https://open.bccampus.ca/about-2/">education more accessible</a>. By developing open access textbooks for the subject areas with the highest enrollments in the province, British Columbia hoped to reduce the financial burden on students. The project has grown steadily over the course of the last few years, and as of March 2016, could boast of the <a href="https://open.bccampus.ca/2015/09/10/more-bc-open-textbook-stats/">following statistics</a>:</p>
+<p>Number of BC Open Textbooks: 139<br />
+Number of students using open textbooks: 12,159<br />
+Number of faculty adopting open textbooks: 110<br />
+Number of institutions adopting open textbooks: 26 (21 Public, 5 Private)<br />
+Student savings: $1,215,900 – $1,540,680</p>
+<p>As an example of an open textbook, Dr. Jhangiani&#8217;s <em><a href="https://open.bccampus.ca/find-open-textbooks/?uuid=b58ffd04-ca71-4365-95e1-916f2105bd55&amp;contributor=&amp;keyword=&amp;subject=Psychology">Research Methods in Psychology</a></em> is in its 2nd Canadian edition. It can be downloaded for free in a multitude of formats, from PDF to epub, and it can be <a href="http://opentextbook.docsol.sfu.ca/store/product/otb027-03/">printed on demand</a> for a small fee &#8211; $10.90 for black and white, or $32.25 for a colour version. As a comparison, a textbook on the same topic from a major publishing company is currently retailing on Amazon.ca for $276.</p>
+<p>Though the importance of this cost difference to students cannot be understated, perhaps an even greater benefit of open textbooks was brought up by Dr. Jhangiani at his talk &#8211; by publishing with an open license, Dr. Jhangiani felt he had much more latitude to provide unique Canadian examples that he thought would be most beneficial to his students, without the pressure from a publishing company to try to address larger markets. Because the textbook is published with an open license, any educator can take the textbook, use the chapters that they like best, and replace Dr. Jhangiani&#8217;s examples and case studies with the material that is most relevant to their course. This flexibility is the strength of the open textbook model!</p>
+<p>If you are interested in adopting an open textbook in your course, check out the offerings available at <a href="https://open.bccampus.ca/">BC Campus</a>, <a href="https://www.openstaxcollege.org/books">Open Stax College from Rice University,</a> and the <a href="http://open.umn.edu/opentextbooks/">Open Textbook Library from the University of Minnesota</a>.</p>
+<p>If you have questions about adopting an open textbook or you have thoughts on how you might like to use them in your course, contact us at the LTO, <a href="http://michelle.schwartz@ryerson.ca">michelle.schwartz@ryerson.ca</a>, ext. 2094.</p>
+<p>The Ryerson Library and Archives can also assist in finding open access educational resources to use in your teaching &#8211; please contact your <a href="https://library.cf.ryerson.ca/staffdirectory/index.cfm?type=subject">Subject Librarian </a>, call Ann Ludbrook at ext. 6910  <a href="mailto:aludbrook@ryerson.ca">aludbrook@ryerson.ca</a> or have a look at the Ryerson Library <a href="http://learn.library.ryerson.ca/OER">Open Access Educational Resources Guide</a>.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/csc/" rel="category tag">Copyright and Scholarly Communications</a>, <a href="https://library.ryerson.ca/blog/category/events/" rel="category tag">Events</a>, <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/aludbrook/">Ann</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2016/03/open-access-textbooks-open-education-week-2016/" title="Permalink to Open Access Textbooks: Open Education Week 2016" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-26370 -->
+
+			
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true" />
+
+		
+	<nav class="navigation pagination" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">&larr;</span> <span class="nav-prev-text">Newer <span class="nav-short">Posts</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://library.ryerson.ca/blog/author/aludbrook/page/2/">2</a>
+<a class="next page-numbers" href="https://library.ryerson.ca/blog/author/aludbrook/page/2/"><span class="nav-next-text">Older <span class="nav-short">Posts</span></span> <span aria-hidden="true">&rarr;</span></a></div>
+	</nav>
+	</div><!-- .pagination-wrapper -->
+
+	
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  <aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-280"><a href="https://library.ryerson.ca/blog/category/collections/" title="This category is to be used for posts about collections issues.">Collections</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://library.ryerson.ca/blog/category/csc/" title="Category for posts contributed by the Scholarly Communications group.  ">Copyright and Scholarly Communications</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://library.ryerson.ca/blog/category/eresources/" title="This category is to be used for posts about eresources.
+">Eresources</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://library.ryerson.ca/blog/category/events/">Events</a>
+</li>
+	<li class="cat-item cat-item-284"><a href="https://library.ryerson.ca/blog/category/featured/">Featured</a>
+</li>
+	<li class="cat-item cat-item-286"><a href="https://library.ryerson.ca/blog/category/libtech/" title="Category for posts about LITS issues or library technology more broadly.">Library Technology</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://library.ryerson.ca/blog/category/news/" title="This category must be assigned to posts that are to appear on the news feed on the Library&#039;s home page.">News</a>
+</li>
+			</ul>
+
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                    
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://library.ryerson.ca/blog/feed/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul id="menu-footer" class="menu"><li id="menu-item-29131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29131"><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+<li id="menu-item-29132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29132"><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+<li id="menu-item-29133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29133"><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+<li id="menu-item-29134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29134"><a href="https://library.ryerson.ca/siteindex/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+</ul>                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/wp-content/uploads/rylib_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.32' id='simcal-qtip-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.32' id='simcal-fullcal-moment-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.32' id='simcal-moment-timezone-js'></script>
+<script id='simcal-default-calendar-js-extra'>
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"7e0d117be8","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.32' id='simcal-default-calendar-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/js/lazy-images.min.js?ver=1.0.0' id='jetpack-lazy-images-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.32' id='simplecalendar-imagesloaded-js'></script>
+<script src='https://library.ryerson.ca/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202049.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.2',blog:'39898007',post:'0',tz:'-5',srv:'library.ryerson.ca'} ]);
+	_stq.push([ 'clickTrackerInit', '39898007', '0' ]);
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'LEOBJBIBMAECKLNALPHCNKPFFOFDNOIDONJOEBGNAOHBKCDAODHJFDPMLIMAMMCFCBBBCLAMAAOJELJFKKMAEGMKAANCBGFPGKPJBFJFJLGENJEEDHPACCKDBIEOEGNG',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1606628685aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,1368 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" class="lt-ie9 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#03599c">
+
+  <link rel="shortcut icon" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/favicon.ico?v=2.3.1"/>
+
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-890753-8', 'auto');
+  ga('require', 'eventTracker', {
+    events: ['click', 'auxclick', 'contextmenu']
+  });
+  ga('require', 'outboundLinkTracker', {
+    events: ['click', 'auxclick', 'contextmenu'],
+    linkSelector: 'a:not([ga-on])'
+  });
+  ga('require', 'outboundFormTracker', {
+    formSelector: '.outbound-track-submits'
+  });
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7ZH6HZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/style-ie8.css" />
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv.js"></script>
+  <script src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/html5shiv-printshiv.js"></script>
+  <![endif]-->
+
+  <link rel="pingback" href="https://library.ryerson.ca/xmlrpc.php" />
+
+  <title>News &#8211; Ryerson University Library</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Feed" href="https://library.ryerson.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; Comments Feed" href="https://library.ryerson.ca/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryerson University Library &raquo; News Category Feed" href="https://library.ryerson.ca/blog/category/news/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/library.ryerson.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='subpages-navigation-css'  href='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.ryerson.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='rylib-wp-block-editor-css-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/inc/rylib-wp-block-editor/rylib-wp-block-editor.css?ver=5.5.3' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://library.ryerson.ca/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=2.2.0' media='all' />
+<link rel='stylesheet' id='font-awesome-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/font-awesome-4.7.0/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/css/bootstrap.min.css?ver=3.3.7' media='all' />
+<link rel='stylesheet' id='web-styles-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rylib-common-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rylib-common.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-wordpress-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-style.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-ribbons-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/ribbons.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-feed2js-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/feed2js.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-flex-blocks-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/flex-blocks.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='rula-subpages-navigation-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/rula-subpages-navigation.css?ver=2.3.1' media='all' />
+<link rel='stylesheet' id='jcarousel-style-css'  href='https://library.ryerson.ca/wp-content/themes/rula_wordpress/css/jcarousel.css?ver=0.3.5' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.32' media='all' />
+<link rel='stylesheet' id='authorizer-public-css-css'  href='https://library.ryerson.ca/wp-content/plugins/authorizer/css/authorizer-public.css?ver=2.8.0' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://library.ryerson.ca/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2' media='all' />
+<script src='https://library.ryerson.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/subpages-navigation/subpages-navigation.js?ver=5.5.3' id='subpages-navigation-js'></script>
+<script id='auth_public_scripts-js-extra'>
+var auth = {"wpLoginUrl":"https:\/\/library.ryerson.ca\/wp-login.php?redirect_to=%2Fblog%2Fcategory%2Fnews%2F","publicWarning":"","anonymousNotice":"Notice: You are browsing this site anonymously, and only have access to a portion of its content.","logIn":"Log In"};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/authorizer/js/authorizer-public.js?ver=2.8.0' id='auth_public_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://library.ryerson.ca/wp-json/" /><link rel="alternate" type="application/json" href="https://library.ryerson.ca/wp-json/wp/v2/categories/17" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://library.ryerson.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://library.ryerson.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel="stylesheet" type="text/css" media="all" href="https://library.ryerson.ca/wp-content/themes/rula_wordpress/custom-css/sitelibrary.css" /><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="News &#8211; Ryerson University Library" />
+<meta property="og:url" content="https://library.ryerson.ca/blog/category/news/" />
+<meta property="og:description" content="This category must be assigned to posts that are to appear on the news feed on the Library&#039;s home page." />
+<meta property="og:site_name" content="Ryerson University Library" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+		<style id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+#askcontainer {
+	padding: 0!important;
+}
+
+.cal_closure {
+	color: red;
+}
+
+@media (min-width: 768px) {
+	.global-footer-bottom {
+		padding-bottom: 3em;
+	}	
+}
+
+/* Style table on RACER FAQ page */
+.racer-faq td {padding-right: 2em; padding-bottom: 1em; vertical-align: top;}
+
+/* Search Box background colour */
+.search_form .search_input, .search_form input[type="search"]  {
+	background-color: #ffffff;
+}
+
+#main>.search_form .search_input, .search_form input[type="search"] {background-color: #e5e5e5;}
+
+/* Style for Course Readings Images */
+.coursereadingimage {
+	margin-left: 2em;
+	filter: drop-shadow(5px 5px 5px grey);
+	margin-top: 0.5em;
+}
+
+/* Extra padding after li entries in ol and ul lists */
+.padded-list li{
+	padding-bottom: 1em;
+}
+
+/* Black Heritage Exhibit Page */
+.narrow {
+	float: left;
+}
+.wide {
+	float: right;
+}
+.bottomborder {
+	float: left;
+	padding-bottom: 1em;
+}
+
+/* Additional padding at top of image */
+.topspace20 {
+	margin-top: 20px;
+}
+/*  TEMPORARY 1.27.0 hotfix */
+.widget.section-widget .menu-item a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+.widget.section-widget .menu-item a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+/* Fix Textbook search box */
+.textbook_search,.search_input {
+	width: 80%;
+}
+/* Remove underline from h2 a links */
+h2 a {
+	text-decoration: none;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+/* Add some spacing between list items in columns */
+div.wp-block-column li {
+	padding-bottom: 0.5em;
+}
+ul.extra-spacing li {
+	padding-bottom: 0.5em;
+}
+/* Styling for Staff Directory */
+img.staff-member-photo {
+	display: none;
+}
+div.staff-member-listing h3.staff-member-name {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1.0em
+}
+div.staff-member-listing h4.staff-member-position {
+	display: inline;
+	padding-right: 1em;
+	font-size: 1em
+}
+a.staff-member-email {
+	display: inline;
+}
+div.staff-member-bio p {
+	display:inline;
+}
+div.bio-projects {
+  display: none;
+}
+/* Fix size of heading on posts pages */
+.post .entry-title {
+	font-size: 1.75em;
+}
+.post h2 {
+	font-size: 1.5em;
+}
+.post h3 {
+	font-size: 1.3em;
+}
+.post h4 {
+	font-size: 1.2em;
+}
+.post h5 {
+	font-size: 1.1em;
+}
+.post h6 {
+	font-size: 1em;
+}
+/* Spacing of lists */
+ul.inc-height li {
+	padding-bottom: 1em;
+}
+/* Customize Pop-up Chat Widget */
+.ui-widget-content {
+	font-weight: bold;
+	border: 0;
+	background-color: #ffffff !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{background: #0077c3 !important;}
+
+.ui-widget-header {
+	border: 0;
+	background: #ffdc00 !important;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	padding: 1em;
+	margin: 0.5em 0.4em 0.5em 1em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none !important;
+	text-align: center;
+}
+#ui-id-2 {
+	color: #000;
+}
+.ui-dialog.ui-dialog-content {
+	padding-bottom: 2em;
+}
+/* Dynamic Ask Chat icon */
+.libraryh3lp {
+	background-color: rgb(235,235,235);
+    padding: 1em 1em 0 1em;
+    /* padding-top: 1em; */
+    width: 150px;
+}
+div.needs-js {
+	background-color: red;
+}
+
+/* Customized COVID messge on Service pages */
+.contentWrapper {
+	font-style: italic;
+	background-color: #ffffff;
+	padding: 1em 1em 1em 2em;
+	border: 2px solid #ffdc00;
+	display: flex;
+  align-items: center;
+}
+.iconContainer:before {
+	content: "\f06a";
+	font-family: FontAwesome;
+	padding-right: 1em;
+	font-style: normal;
+	font-size: 2.5em;
+}
+.textContainer a {
+	font-style: normal;
+}
+/* Drop Shadow for images */
+.dropshadow {
+	 box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -webkit-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+    -moz-box-shadow: 9px 9px 6px 1px rgba(42,41,44,0.16);
+}
+/* Fix for background color in even numbered rows in tables so that watermark does not show */
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: var(--main-bg-color);
+}
+
+/* Quick things for Fall 2020 Homepage */
+.rylib-homepage-bento .wp-block-column {
+	padding: 20px;
+	background: #fff;
+	border-bottom: 10px #4CA6E8 solid;
+}
+.rylib-homepage-bento h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.rylib-homepage-bento ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.rylib-homepage-bento a {
+	color: #000;
+}
+
+.rylib-homepage-news h2, .rylib-homepage-workshops h2 {
+	color: #0F306B;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.rylib-homepage-workshops a, .rylib-homepage-workshops a:visited { color: #000 }
+.rylib-homepage-workshops ul {
+	padding: 0;
+	list-style: none;
+}
+div.rylib-homepage-workshops li {
+	padding-bottom: 1em;
+}
+.rylib-homepage-workshops .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+.rylib-homepage-workshops .event .datewrap {
+	text-align: right;
+	min-width: 110px;
+}
+
+.rylib-homepage-workshops .event .date {
+	font-size: 1.25em;
+}
+
+.rylib-homepage-workshops .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.rylib-homepage-workshops .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+.rylib-homepage-workshops .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.rylib-homepage-workshops .event .description a:hover {
+	text-decoration: underline;
+}
+
+.rylib-land-ack {
+	background: #FFF;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.rylib-land-ack p {
+	margin: 0;
+}
+
+.rylib-land-ack .wp-block-buttons {
+	position: absolute;
+	right: 1.5em;
+}
+
+.rylib-land-ack .wp-block-button .wp-block-button__link {
+	background: #4EA5E8;
+	border-radius: 0;
+}
+
+/*Figshare test */
+.search-form .sf-input input
+{
+    color: #252525;
+    font-size: 16px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 36px;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 36px 0 12px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.browse-menu {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.browse-menu li {
+	padding: 3em 1.5em;
+	background-color: white;
+	margin-right: 2em;
+	flex: 1 0 200px;
+	width: 0;
+	border: 1px solid #eaeaea;
+	text-transform: uppercase;
+	border-bottom: 10px #4ca6e8 solid;
+		margin-top: 2em;
+}
+.search-form .sf-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    font-size: 14px;
+    color: #bbb;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
+form.dh-search-form input[type="search"]{
+	background-color: #fff;
+}
+.text-input-component-wrapper {
+	text-align: center;
+  padding: 1em;
+}
+
+.home h2 a {
+	color: #000;
+  text-decoration: none;	
+}
+.home h2 a:hover {
+	text-decoration: underline;
+}
+
+.rylib-tabs {
+	text-align: left;
+}
+/* Digital Repository Page */
+div.linkbox > a:link, div.linkbox > a:visited {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+		</style>
+		</head>
+
+<body class="archive category category-news category-17">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7ZH6HZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="assistive-text btn" href="#main-navigation">Skip to main menu</a>
+    <a class="assistive-text btn" href="#main">Skip to content</a>
+
+  <div class="alert-message alert-message-bg-grey"">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12" style="display:flex;">
+        <i style="font-size: 3em; margin-right: 0.5em;" class="fa fa-info-circle" aria-hidden="true"></i>
+        <div>We are online to support you! Get information on Library resources and services for: <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-students/">Students</a>   |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-teaching/">Instructors</a>  |   <a href="https://library.ryerson.ca/blog/2020/05/library-resources-and-services-for-researchers/">Researchers</a>. For Ryerson campus information, visit: <a href="https://www.ryerson.ca/covid-19/">Ryerson COVID-19 Information and Updates</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <header class="global-header-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <!-- RULA Logo standalone site compatability -->
+              
+              <a class="navbar-brand" href="https://library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Logo"><img src="https://library.ryerson.ca/wp-content/themes/rula_wordpress/images/rylib_logo.svg" alt="Ryerson University Library &amp; Archives"></a>
+
+              <div class="navbar-toggle-wrap">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-form" aria-expanded="false">
+                  <span class="sr-only">Toggle search form</span>
+                  <i class="fa fa-search" title="Toggle search form"></i>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars" title="Toggle navigation"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Site Search -->
+            
+            <div class="collapse navbar-collapse navbar-left" id="site-search-form">
+              <div class="rylib-search-form">
+                <form action="https://library.ryerson.ca/" method="get" class="navbar-form form-track-submits" data-ga-event-category="Search / Resource Discovery" data-ga-event-action="Site search" data-ga-event-label="Search WordPress">
+                  <label for="site-search" class="sr-only">Search library.ryerson.ca</label>
+                  <input id="site-search" type="text" name="s" placeholder="Search library.ryerson.ca">
+                  <button aria-label="Search" type="submit"><i class="fa fa-search" title="Search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Global Header Top Navigation Area -->
+            <div class="collapse navbar-collapse navbar-right" id="global-navigation">
+              <ul class="nav navbar-nav" role="navigation">
+                <li id="menu-item-31015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31015"><a href="https://my.ryerson.ca" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="my.ryerson">my.ryerson</a></li>
+<li id="menu-item-30963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30963"><a href="https://catalogue.library.ryerson.ca/patroninfo" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Renew Loans">Renew Loans</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="global-header-bottom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://library.ryerson.ca">Home</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-header-bottom" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-angle-down" title="Toggle navigation"></i>
+      </button>
+    </div>
+    <div id="global-header-bottom" class="collapse navbar-collapse"><ul id="menu-library-navigation" class="nav navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a title="Catalogue" href="https://catalogue.library.ryerson.ca/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Catalogue">Catalogue</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a title="Articles" href="https://library.ryerson.ca/articles/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Articles">Articles</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a title="Research" href="https://library.ryerson.ca/guides" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Research">Research</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Services" href="https://library.ryerson.ca/services/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="Services">Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-25617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25617"><a title="About Us" href="https://library.ryerson.ca/info/about-us/" ga-on="click" ga-event-category="Navigation" ga-event-action="Header click" ga-event-label="About Us">About Us</a></li>
+</ul></div>  </div>
+</header>
+
+  
+      
+  
+  
+  <div id="main" class="clear">
+  
+
+
+<header class="rula-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>
+					Category: <span>News</span>				</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container" style="margin-top: 1em;">
+
+	<div class="row">
+
+		<div id="primary" class="col-xs-12 col-md-9">
+			<div class="breadcrumbs"><!-- Breadcrumb NavXT 6.6.0 -->
+<a title="Go to Ryerson University Library." href="https://library.ryerson.ca" class="home">Ryerson University Library</a> &#187; <a title="Go to News." href="https://library.ryerson.ca/blog/" class="post-root post post-post">News</a> &#187; News</div>
+							<p>This category must be assigned to posts that are to appear on the news feed on the Library&#8217;s home page.</p>
+			
+			
+<article id="post-37309" class="post-37309 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/11/ryerson-university-library-partners-with-the-aga-khan-museum-to-create-digital-experiences-for-pilot-project-and-the-museums-remastered-exhibit/">Ryerson University Library partners with the Aga Khan Museum to create digital experiences for pilot project and the Museum’s Remastered exhibit</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/11/ryerson-university-library-partners-with-the-aga-khan-museum-to-create-digital-experiences-for-pilot-project-and-the-museums-remastered-exhibit/" title="9:00 am" rel="bookmark"><time class="entry-date" datetime="2020-11-30T09:00:15-05:00" pubdate>November 30, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		<figure id="attachment_37394" aria-describedby="caption-attachment-37394" style="width: 1200px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-37394 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/agakhan_banner.png" alt="Image of man on horse reaching up" width="1200" height="392" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/agakhan_banner.png 1200w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-300x98.png 300w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-650x212.png 650w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-150x49.png 150w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-768x251.png 768w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/agakhan_banner.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="size-full wp-image-37394" src="https://library.ryerson.ca/wp-content/uploads/agakhan_banner.png" alt="Image of man on horse reaching up" width="1200" height="392" srcset="https://library.ryerson.ca/wp-content/uploads/agakhan_banner.png 1200w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-300x98.png 300w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-650x212.png 650w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-150x49.png 150w, https://library.ryerson.ca/wp-content/uploads/agakhan_banner-768x251.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript><figcaption id="caption-attachment-37394" class="wp-caption-text">Courtesy of the Aga Khan Museum</figcaption></figure>
+<p><span style="font-weight: 400;">Ryerson University Library has partnered with the Aga Khan Museum in a creative collaboration that harnesses digital technology to create innovative experiences for the Museum’s exciting new </span><a href="https://www.agakhanmuseum.org/exhibitions/remastered"><i><span style="font-weight: 400;">Remastered</span></i></a><span style="font-weight: 400;"> exhibition.</span></p>
+<p><span style="font-weight: 400;">The Aga Khan Museum recently launched it’s vibrant </span><a href="https://www.agakhanmuseum.org/exhibitions/remastered"><i><span style="font-weight: 400;">Remastered</span></i></a><span style="font-weight: 400;"> exhibition—November 7 to March 21, 2021—showcasing 11 classic Islamic manuscript paintings complemented by 40 digital interventions.</span></p>
+<p><span style="font-weight: 400;">The digital interventions are the work of Library Collaboratory team members, Lead Developer Michael Carter-Arlt, Web Developer and Support Technician </span><span style="font-weight: 400;">Jae Duk Seo, with Information Technology Services Head Fangmin Wang and Web Services Librarian Sally Wilson acting as administrative consultants on the project.  </span></p>
+<p><span style="font-weight: 400;">In collaboration with the Museum and exhibition curator Dr. Michael Chagnon, the Library team developed new ways to experience the historic manuscripts, introducing alternative learning opportunities through the exploration of digital technologies.</span></p>
+<p><span style="font-weight: 400;">“The </span><i><span style="font-weight: 400;">Remastered</span></i><span style="font-weight: 400;"> exhibition has given us the valuable opportunity to reimagine how we interpret classic Islamic artworks using modern technology available at the Ryerson Library,” says Carter-Arlt. “The intention of this project is to tell a story for each artwork, and in doing so provide a greater understanding through interactive digital media.”</span></p>
+<p><span style="font-weight: 400;">…..</span></p>
+<p><span style="font-weight: 400;">The Library’s partnership with the Aga Khan Museum began in 2019 when the Museum approached the Library about</span><span style="font-weight: 400;"> creating unique learning experiences using Virtual Reality (VR), Augmented Reality (AR) and Mixed Reality (MR) technologies.  </span></p>
+<p><span style="font-weight: 400;">Following initial meetings, the Library and Museum worked together on an exploratory research project, funded by the Canada Council for the Arts, which sought to develop and assess digital and experiential learning resources that would help to increase classroom engagement, and expand access to collections beyond in-person visits to the Museum. </span></p>
+<p><span style="font-weight: 400;">The Aga Khan Museum supplied the Library with high resolution photographs and descriptions of three objects from their collection, including: an astrolabe (astronomical instrument), an illuminated and illustrated leaf from a manuscript, and a green ceramic bottle. </span></p>
+<p><span style="font-weight: 400;">The Library team then used digital and emerging technologies to create new experiences that could be tested for their engagement and educational value.</span><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">In total, four experiences for the three objects were developed. They included: an AR animation with translations and audio for the leaf of the manuscript; AR and Looking Glass (holographic) experiences for the green ceramic bottle; and an acrylic replica astrolabe, which could be taken apart and rebuilt. </span></p>
+<figure id="attachment_37388" aria-describedby="caption-attachment-37388" style="width: 500px" class="wp-caption aligncenter"><img loading="lazy" class="wp-image-37388 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/Astrolabe-300x225.png" alt="Image of original astrolabe (ancient watch). Courtesy of the Aga Khan Museum" width="500" height="375" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Astrolabe-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/Astrolabe.png 1000w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Astrolabe-300x225.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="wp-image-37388" src="https://library.ryerson.ca/wp-content/uploads/Astrolabe-300x225.png" alt="Image of original astrolabe (ancient watch). Courtesy of the Aga Khan Museum" width="500" height="375" srcset="https://library.ryerson.ca/wp-content/uploads/Astrolabe-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/Astrolabe-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/Astrolabe.png 1000w" sizes="(max-width: 500px) 100vw, 500px" /></noscript><figcaption id="caption-attachment-37388" class="wp-caption-text">Image of original astrolabe (astronomical instrument). Courtesy of the Aga Khan Museum</figcaption></figure>
+<p>&nbsp;</p>
+<figure id="attachment_37389" aria-describedby="caption-attachment-37389" style="width: 500px" class="wp-caption aligncenter"><img loading="lazy" class="wp-image-37389 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-300x225.png" alt="Acrylic replica of the astrolabe. Laser cut at the Library Collaboratory." width="500" height="375" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe.png 1000w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-300x225.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="wp-image-37389" src="https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-300x225.png" alt="Acrylic replica of the astrolabe. Laser cut at the Library Collaboratory." width="500" height="375" srcset="https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/replica-astrolabe.png 1000w" sizes="(max-width: 500px) 100vw, 500px" /></noscript><figcaption id="caption-attachment-37389" class="wp-caption-text">Acrylic replica of the astrolabe. Laser cut at the Library Collaboratory.</figcaption></figure>
+<p><span style="font-weight: 400;">Library team members, Sally Wilson, E-learning and Accessibility Services Librarian Kelly Dermody, and Operations Specialist Cristina Pietropaolo then conducted focus groups to further understand the engagement impacts and potential of the digital resources for in-class learning, as well as increased access to museum collections.   </span></p>
+<p><span style="font-weight: 400;">“The purpose of this project was to translate select items of the Museum’s collection from their physical confines to digital formats using Augmented Reality (AR) and other technologies,” says Pietropaolo. “The long-term intention of this work is to facilitate accessible and meaningful education around these objects for both educators and their students in the classroom, as well as for members of the public in an effort to transform and enhance access to arts and culture education.”</span></p>
+<figure id="attachment_37396" aria-describedby="caption-attachment-37396" style="width: 500px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-37396 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/Original-vase-1.png" alt="Image of original green vase. Courtesy of the Aga Khan Museum" width="500" height="500" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Original-vase-1.png 500w, https://library.ryerson.ca/wp-content/uploads/Original-vase-1-300x300.png 300w, https://library.ryerson.ca/wp-content/uploads/Original-vase-1-150x150.png 150w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Original-vase-1.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="size-full wp-image-37396" src="https://library.ryerson.ca/wp-content/uploads/Original-vase-1.png" alt="Image of original green vase. Courtesy of the Aga Khan Museum" width="500" height="500" srcset="https://library.ryerson.ca/wp-content/uploads/Original-vase-1.png 500w, https://library.ryerson.ca/wp-content/uploads/Original-vase-1-300x300.png 300w, https://library.ryerson.ca/wp-content/uploads/Original-vase-1-150x150.png 150w" sizes="(max-width: 500px) 100vw, 500px" /></noscript><figcaption id="caption-attachment-37396" class="wp-caption-text">Image of original green bottle. Courtesy of the Aga Khan Museum</figcaption></figure>
+<figure id="attachment_37397" aria-describedby="caption-attachment-37397" style="width: 650px" class="wp-caption aligncenter"><img loading="lazy" class="size-large wp-image-37397 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/augmented-vase-650x488.png" alt="Augment reality image of vase. Educators and students can use mobile devises to see, interact, learn and experience the object." width="650" height="488" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/augmented-vase-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/augmented-vase.png 1000w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/augmented-vase-650x488.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="size-large wp-image-37397" src="https://library.ryerson.ca/wp-content/uploads/augmented-vase-650x488.png" alt="Augment reality image of vase. Educators and students can use mobile devises to see, interact, learn and experience the object." width="650" height="488" srcset="https://library.ryerson.ca/wp-content/uploads/augmented-vase-650x488.png 650w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-300x225.png 300w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-150x113.png 150w, https://library.ryerson.ca/wp-content/uploads/augmented-vase-768x576.png 768w, https://library.ryerson.ca/wp-content/uploads/augmented-vase.png 1000w" sizes="(max-width: 650px) 100vw, 650px" /></noscript><figcaption id="caption-attachment-37397" class="wp-caption-text">Augmented reality image of bottle. Educators and students can use mobile devices to see, interact, learn and experience the object.</figcaption></figure>
+<p><span style="font-weight: 400;">The work which began in 2019 is ongoing as Library team members continue to investigate opportunities for digital and experiential learning in the context of gallery, library, archives and museum education.</span></p>
+<p><span style="font-weight: 400;">……</span></p>
+<p><span style="font-weight: 400;">In April 2020, the Aga Khan Museum once again approached the Library to collaborate on the </span><i><span style="font-weight: 400;">Remastered</span></i><span style="font-weight: 400;"> exhibit, curated by Dr. Michael Chagnon. </span></p>
+<p><span style="font-weight: 400;">The task: to develop digital experiences to accompany ancient Islamic manuscripts for the exhibit. To complete the project, the Library was given exclusive access to high resolution folios in order to rework and reimagine them in digital formats. The result was 40 new experiences including: seven animations, five 3D holograms, five digital restorations, and 23 interactive folios. The Library and Museum also received a generous loan from </span><a href="https://lookingglassfactory.com/"><span style="font-weight: 400;">Looking Glass Factory</span></a><span style="font-weight: 400;"> to assist in the display of the holographic images.</span></p>
+<figure id="attachment_37331" aria-describedby="caption-attachment-37331" style="width: 314px" class="wp-caption aligncenter"><img loading="lazy" class="wp-image-37331 size-full jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/AKM28811OPT_2.gif" alt width="314" height="550" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/AKM28811OPT_2.gif?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="wp-image-37331 size-full" src="https://library.ryerson.ca/wp-content/uploads/AKM28811OPT_2.gif" alt="" width="314" height="550" /></noscript><figcaption id="caption-attachment-37331" class="wp-caption-text">Salih Takes Mah-Pervin on Board . Fol. 29r from a manuscript of Tuhfet ul-Leta’if Turkey, Istanbul, 1593–1594. Opaque watercolour, gold, and ink on paper. AKM280.11 Digital intervention by Michael Carter-Arlt.</figcaption></figure>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">The digital elements, now part of the </span><i><span style="font-weight: 400;">Remastered </span></i><span style="font-weight: 400;">exhibit, enhance the overall learning and storytelling experience for visitors through digital restoration, innovative engagement elements and new digitally enhanced explorations.  </span></p>
+<p><span style="font-weight: 400;">“We are very excited to partner with the Aga Khan Museum. It has been a wonderful opportunity to bring the Library’s role in interdisciplinary research, knowledge sharing and digital information tools to this unique learning environment,” says Chief Librarian Carol Shepstone. “This project is an excellent example of how the GLAM sectors (galleries, libraries, archives and museums) can come together to leverage unique expertise and shared goals.”</span></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/11/ryerson-university-library-partners-with-the-aga-khan-museum-to-create-digital-experiences-for-pilot-project-and-the-museums-remastered-exhibit/" title="Permalink to Ryerson University Library partners with the Aga Khan Museum to create digital experiences for pilot project and the Museum’s Remastered exhibit" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37309 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37263" class="post-37263 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/11/meet-the-2020-library-dme-creators-grant-recipients/">Meet the 2020 Library DME Creators Grant recipients</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/11/meet-the-2020-library-dme-creators-grant-recipients/" title="11:00 am" rel="bookmark"><time class="entry-date" datetime="2020-11-23T11:00:36-05:00" pubdate>November 23, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p><img loading="lazy" class="size-medium wp-image-37378 alignright jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="size-medium wp-image-37378 alignright" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgrant.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>These five students submitted their extraordinary project ideas back in March, just prior to the university’s closure due to COVID-19. When the world was trying to grapple with a global pandemic and contain the spread of a swift moving virus, these students continued to charge ahead and take hold of projects they felt passionately about.</p>
+
+
+
+<p>All five projects are now well underway, each one bringing to light new ways of addressing current social issues. </p>
+
+
+
+<p>The grant itself highlights experiential learning and digital literacy opportunities available to students through the Library, and provides funding and mentorship to the students throughout the development of their individual projects.</p>
+
+
+
+<p>Here’s a peek at the innovative projects this year’s recipients are working on:</p>
+
+
+
+<p>&nbsp;</p>
+<hr />
+<p><strong>Sojourner San Vicente</strong></p>
+
+
+
+<p><img loading="lazy" class="alignright wp-image-37270 size-medium jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignright wp-image-37270 size-medium" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Sojourner.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>4th year, Ryerson Midwifery Education Program, Faculty of Community Services</p>
+
+
+
+<p>With the Library DME Creators Grant, Sojourner San Vicente<span style="font-weight: 400;">—</span>along with fellow Ryerson Midwifery Education Program (MEP) students Tumaini Lyaruu and Hanan Yousuf<span style="font-weight: 400;">—</span>is developing a series of educational videos on midwifery care featuring Black midwifery students, midwives and clients. As a group of Black midwifery students, they have anecdotally identified various false assumptions that have prevented Black community members from accessing midwifery care, and understanding their pregnancy care options. The videos aim to: </p>
+
+
+
+<ul>
+<li>increase awareness about midwifery care in Ontario,</li>
+<li>increase the visibility of Black midwives, midwifery students and clients, and </li>
+<li>enable Black communities to see themselves reflected in midwifery care. </li>
+</ul>
+
+
+
+<p>Through the videos, Sojourner, Tumaini and Hanan hope more Black families will become interested in considering midwifery care as an option for their pregnancies.</p>
+
+
+<hr class="wp-block-separator" />
+
+
+<p><strong>Takoda Kemp</strong></p>
+
+
+
+<p>3rd year, Geographic Analysis, Faculty of Arts<img loading="lazy" class="size-medium wp-image-37271 alignright jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="size-medium wp-image-37271 alignright" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_Takoda.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></p>
+
+
+
+<p>Having grown up on a farm in the Bahamas, Takoda has a deep connection to the natural world. Coupled with interests in Geographic Information Science (GIS) and Robotics, his project tackles issues involving food insecurity. Seeing how structural barriers can hinder people without access to arable land, Takoda knows first-hand that quality infrastructure and education can provide opportunities to create a productive and sustainable crop.</p>
+
+
+
+<p>With the Library DME Creators Grant, Takoda is investigating the use of drones to provide agricultural analysis and services to farmers in Canada and the Bahamas. With a camera drone, he is creating two and three-dimensional maps that categorize soil and plant types to help facilitate manual aspects of farm labour such as seed sowing, and crop control. Takoda will then retrofit the mapping process to all dwellings and settings, including urban centres, so analysis of surroundings can clarify which crops can be grown where. An additional aspect of the project is to investigate the use of drones to sow crops that can germinate on the soil&#8217;s surface, like micro-greens and salad greens.</p>
+
+
+<hr class="wp-block-separator" />
+
+
+<p><strong>Niya Abdullahi</strong></p>
+
+
+
+<p><img loading="lazy" class="alignright size-medium wp-image-37269 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignright size-medium wp-image-37269" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_niya.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>4th year, Business Technology Management and Co-op, Ted Rogers School of Management</p>
+
+
+
+<p>Business Technology co-op student Niya Abdullahi is a Tech-Enthusiast and aspiring Filmmaker. Earlier this year she founded <a href="http://instagram.com/habasooda">Habasooda</a>, a media platform dedicated to sharing the richness of the Muslim experience through a variety of storytelling avenues such as videos and infographics.</p>
+
+
+
+<p>With the Library DME Creators Grant, Niya is creating a documentary that explores the stigma of mental illness within the Muslim community. The documentary will explore the differences between mental illness and mental health while showcasing the realities of being a Muslim with a mental illness. “Often when one is dealing with a mental illness they are told that their symptoms may be due to a lack of faith and/or supernatural occurrences,” says Niya. The film will shed light on what a community&#8217;s denial could do to someone&#8217;s own inner battles and how we as a community can combat stigma.</p>
+
+
+<hr class="wp-block-separator" />
+
+
+<p><strong>Emerson Kafarowski</strong></p>
+
+
+
+<p><img loading="lazy" class="alignright size-medium wp-image-37268 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignright size-medium wp-image-37268" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library-social_emerson.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>4th year, Performance Production, Faculty of Communication and Design</p>
+
+
+
+<p>Emerson Kafarowski is an emerging lighting designer currently finishing her BFA in Production &amp; Design at Ryerson’s School of Performance.</p>
+
+
+
+<p>With the Library DME Creators Grant, Emerson is building a portable lighting console for small-scale live entertainment events, including theatre, dance, and live music. The lighting console will cater to shows and productions produced by independent and emerging artists or companies with limited budgets, as well as non-traditional performing arts spaces without existing technical infrastructure. It will also promote and incentivize industry-level lighting design and operation in a comprehensive and accessible format.</p>
+
+
+
+<p>Emerson’s project will be open-sourced and is inspired by Electronic Theatre Control (ETC) Labs #lighthack, a community-driven project designed by ETC users and employees to share and co-develop open-source apps, programs and hardware. It is Emerson’s intention that, once complete, the details of this project including the equipment list, assembly instructions, and code, will be made available to others interested in creating and/or customizing low-cost, portable programming wings and devices of their own.</p>
+
+
+<hr class="wp-block-separator" />
+
+
+<p><strong>Elvina Raharja</strong></p>
+
+
+
+<p><img loading="lazy" class="alignright size-medium wp-image-37267 jetpack-lazy-image" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-300x300.jpg" alt width="300" height="300" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina.jpg 1080w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" class="alignright size-medium wp-image-37267" src="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-300x300.jpg" alt="" width="300" height="300" srcset="https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/ryerson-Library_creatorsgratn-elvina.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>2nd year, Creative Industries, Faculty of Communication and Design</p>
+
+
+
+<p>Elvina Raharja is a second-year Creative Industries student focusing on the performing art  and film  industries. Growing up in Indonesia, Elvina trained as a dancer and became passionate about learning different dance styles and histories to help cultivate her voice and awareness as an artist. Throughout her training and career in dance, she has also seen first-hand the discrepancy in the representation of women of colour in mainstream media&#8211;especially plus-sized women. As an aspiring producer and creative director, Elvina is committed to pushing for safe spaces and inclusivity for everyone, especially within the dance industry.</p>
+
+
+
+<p>With the Creators Grant, Elvina is creating a short dance film that highlights curvy and plus-sized women of colour. Her goal for the project is to help dismantle, through dance, pre-existing body standards and to push a body inclusive, positive narrative. </p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/11/meet-the-2020-library-dme-creators-grant-recipients/" title="Permalink to Meet the 2020 Library DME Creators Grant recipients" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37263 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37248" class="post-37248 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: student voices from 2000</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/11/remembrance-day-student-voices-from-2000/" title="9:05 am" rel="bookmark"><time class="entry-date" datetime="2020-11-11T09:05:06-05:00" pubdate>November 11, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>Twenty years ago, Jennifer Kwan published “Voices from the Trenches” in the student paper, <a href="https://theeyeopener.com/">The Eyeopener</a>.</p>
+
+
+
+<p>Kwan interviewed students about their relationship to Remembrance Day and their traditions to commemorate the event. The article published provides insight from students who had recently immigrated to Canada and their connections to war and conflict.</p>
+
+
+
+<p>Archives and Special Collections has outlined the importance of the article and student perspectives in their recently published post, <a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/" data-type="URL" data-id="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: student voices from 2000</a></p>
+
+
+
+<p>The newspaper article included in post is archived in the <a rel="noreferrer noopener" href="https://archives.library.ryerson.ca/index.php/remembrance-day" target="_blank">Ryerson University Archives Remembrance Day Clipping File</a>. The Archives preserves students’ experiences and serves as the institutional memory of the Ryerson community. For more student perspectives on Remembrance Day, visit <a href="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/" data-type="URL" data-id="https://library.ryerson.ca/asc/2020/11/remembrance-day-student-voices-from-2000/">Remembrance Day: student voices from 2000</a>.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/11/remembrance-day-student-voices-from-2000/" title="Permalink to Remembrance Day: student voices from 2000" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37248 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37186" class="post-37186 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/11/ryerson-library-finds-novel-ways-to-support-students-during-covid-19/">Ryerson Library finds novel ways to support students during COVID-19</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/11/ryerson-library-finds-novel-ways-to-support-students-during-covid-19/" title="10:46 am" rel="bookmark"><time class="entry-date" datetime="2020-11-02T10:46:40-05:00" pubdate>November 2, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>When the COVID-19 pandemic struck in March 2020, gathering at the Library was no longer an option but, thanks to the foresight of the Library team, students and faculty could still benefit from most of its resources and services.&nbsp;</p>
+
+
+
+<p>“The Library has been operating seamlessly in both the digital and physical worlds for about 15 years now so we were well prepared for this unanticipated transition,” says Carol Shepstone, chief librarian. “Our existing technical infrastructure is robust and was in place to be expanded, enhanced and leveraged, thanks to the creativity, expertise and commitment of our team.”</p>
+
+
+
+<p>Read the <a href="https://www.ryerson.ca/news-events/news/2020/10/ryerson-library-finds-novel-ways-to-support-students-during-covid/" data-type="URL" data-id="https://www.ryerson.ca/news-events/news/2020/10/ryerson-library-finds-novel-ways-to-support-students-during-covid/">full story in Ryerson Today</a></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/11/ryerson-library-finds-novel-ways-to-support-students-during-covid-19/" title="Permalink to Ryerson Library finds novel ways to support students during COVID-19" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37186 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37152" class="post-37152 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/10/rapid-response-data-sharing-during-the-covid-19-pandemic/">Rapid Response Data Sharing during the COVID-19 Pandemic</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/10/rapid-response-data-sharing-during-the-covid-19-pandemic/" title="12:03 pm" rel="bookmark"><time class="entry-date" datetime="2020-10-21T12:03:06-04:00" pubdate>October 21, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>By Nora Mulvaney</p>
+
+
+
+<p>The current need to share COVID-19 research outputs via data repositories and open access publishers is both urgent and unprecedented.  According to the World Health Organisation, in their statement on <a href="https://www.who.int/bulletin/volumes/98/3/20-251561/en/">Data sharing for novel coronavirus (COVID-19)</a>, “rapid data sharing is the basis for public health action”. During a pandemic, rapid access to data influences public health and policy decisions and can save lives. The pandemic has prompted a new and more pressing interest in open data, data sharing and reusing existing datasets.</p>
+
+
+
+<p>Many Canadian funding agencies, including NSERC and CIHR, have signed the joint statement on ‘<a href="https://wellcome.org/coronavirus-covid-19/open-data">Sharing research data and findings relevant to the novel coronavirus (COVID-19) outbreak</a>’, led by the Wellcome Trust, and will require funded projects to share their research data as rapidly and widely as possible.&nbsp;&nbsp;</p>
+
+
+
+<p>Though the premise of data sharing is simple, the details can be tricky and require researchers to navigate technical, scientific, legal and ethical issues. With this in mind, the <a href="https://portagenetwork.ca/news/new-rdm-guidance-from-the-portage-covid-19-working-group/">Portage COVID-19 Working Group</a> have recently published five new guidance documents to help support rapid response data sharing and deposit for Canadian researchers:&nbsp;</p>
+
+
+
+<ol><li><a href="https://doi.org/10.5281/zenodo.4042029">Guide to COVID-19 Rapid Response Data Sharing and Deposit for Canadian Researchers</a>: A straightforward guide for researchers who need to share COVID-19 related research data. Topics include: planning to share research data, making your data understandable, making your data FAIR and open, protecting the privacy of research participants and helping others discover and use your data</li><li><a href="https://doi.org/10.5281/zenodo.4041660">Can I Share My Data?</a>: A decision tree for determining when human participant data would need to be anonymized or de-identified before being shared or deposited into a repository</li><li><a href="https://doi.org/10.5281/zenodo.4042022">De-identification Guidance</a>: Guidance regarding removing direct identifiers and evaluated indirect or quasi-identifiers based on perceived risk, and considerations for qualitative data de-identification&nbsp;</li><li><a href="https://doi.org/10.5281/zenodo.4042033">Documentation and Supporting Material Required for Deposit</a>: An overview of creating README files, recommended supplementary materials, repository metadata and data use agreements</li><li><a href="https://doi.org/10.5281/zenodo.4042036">Recommended Repositories for COVID-19 Research Data</a>: Recommendations for selecting a repository that will provide immediate and long-term access to COVID-19 data</li></ol>
+
+
+
+<p>If you have any questions about sharing COVID-19 related research data, or any other aspect of the research data lifecycle- such as writing data management plans, creating documentation for your data or selecting a data repository- please contact Nora Mulvaney (<a href="mailto:nmulvaney@ryerson.ca">nmulvaney@ryerson.ca</a>), the Research Data Management Librarian.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/10/rapid-response-data-sharing-during-the-covid-19-pandemic/" title="Permalink to Rapid Response Data Sharing during the COVID-19 Pandemic" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37152 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37083" class="post-37083 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/10/the-time-for-open-access-is-now-open-access-week-2020/">The Time for Open Access is Now: Open Access Week 2020</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/10/the-time-for-open-access-is-now-open-access-week-2020/" title="5:13 pm" rel="bookmark"><time class="entry-date" datetime="2020-10-08T17:13:20-04:00" pubdate>October 8, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p></p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="650" height="325" src="https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-650x325.jpg" alt class="wp-image-37084 jetpack-lazy-image" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-650x325.jpg 650w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-300x150.jpg 300w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-150x75.jpg 150w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-768x384.jpg 768w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-1536x768.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB.jpg 1600w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-650x325.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" width="650" height="325" src="https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-650x325.jpg" alt="" class="wp-image-37084" srcset="https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-650x325.jpg 650w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-300x150.jpg 300w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-150x75.jpg 150w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-768x384.jpg 768w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB-1536x768.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/openaccess_eventbrite_RYLIB.jpg 1600w" sizes="(max-width: 650px) 100vw, 650px" /></noscript></figure>
+
+
+
+<p>Open access materials are academic materials that are legally accessible and distributed online, free of cost. The global pandemic has highlighted the importance of openly accessible research, as researchers publicly share their work on the coronavirus.Open access is now a necessity. With open access, COVID-19 researchers are sharing their work more quickly to help speed up innovation and discovery.</p>
+
+
+
+<p><a href="http://www.openaccessweek.org/page/about"><strong>Open Access Week</strong></a> is a global event held annually in October to raise awareness of the benefits of Open Access in the academic community. This year’s theme is <strong><a href="http://www.openaccessweek.org/profiles/blogs/2020-theme-announcement-english">Open with Purpose: Taking Action to Build Structural Equity and Inclusion</a></strong> – a prompt for the academic community to consider the benefits of open access through the lens of creating systems and infrastructure to support all researchers.&nbsp;</p>
+
+
+
+<p>Ryerson Library is hosting two events during Open Access Week:&nbsp; Oct. 19-25.&nbsp;</p>
+
+
+
+<p>We encourage faculty and graduate students to attend open access events and learn more about how open access can improve the knowledge mobilization of Ryerson research.</p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.eventbrite.ca/e/open-access-week-at-ryerson-university-library-tickets-124470327099">Register</a></div>
+</div>
+
+
+
+<h3><strong>The Role of Open Access and Social Media in Knowledge Mobilization and Discovery.&nbsp;</strong></h3>
+
+
+
+<p><em>Talk with Open Access Library Wall of Fame 2020 Award Winner: Anatoliy Grudz.</em></p>
+
+
+
+<figure class="wp-block-image size-medium"><img loading="lazy" width="300" height="300" src="https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-300x300.jpg" alt class="wp-image-37086 jetpack-lazy-image" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-1536x1536.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-2048x2048.jpg 2048w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-300x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" width="300" height="300" src="https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-300x300.jpg" alt="" class="wp-image-37086" srcset="https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-300x300.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-650x650.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-150x150.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-768x768.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-1536x1536.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/Anatoliy_Gruzd_profile-1-2048x2048.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></figure>
+
+
+
+<p>Date: Oct 19, 2020<br>Time: 1 p.m. &#8211; 2 p.m</p>
+
+
+
+<p>Ideas that seem obvious today, at one point were obscure facts known only to a select few. The health benefits of washing hands, wearing a seatbelt while in a car &#8211; none of these ideas and practices were accepted immediately. In addition to needing time to incubate, new ideas also need to be accessible so that they can be tested, debated, and built upon. This presentation, which is based on my previous research and personal experiences, will highlight the importance and connection between open access publishing and the role of social media in promotion and dissemination of scholarly research.&nbsp;</p>
+
+
+
+<p><strong>Speaker Information:&nbsp;</strong></p>
+
+
+
+<p>Anatoliy Gruzd is a Canada Research Chair in Privacy-Preserving Digital Technologies, an Associate Professor at the Ted Rogers School of Information Technology Management and the Director of Research at the <a href="https://socialmedialab.ca/about/">Social Media Lab</a> at Ryerson University. He is also a Member of the <a href="https://rsc-src.ca/en/fellows">Royal Society of Canada</a>’s College of New Scholars, Artists and Scientists, a co-editor of a multidisciplinary journal on <a href="https://journals.sagepub.com/home/bds">Big Data and Society,</a> and a founding co-chair of the <a href="https://socialmediaandsociety.org/">International Conference on Social Media and Society</a>. As a computational social scientist, Dr. Gruzd’s research broadly explores how social media platforms are changing the ways in which people and organizations communicate, collaborate, disseminate information and misinformation, conduct business and form communities online, and how these changes impact society.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h3><strong>Mountains to Climb: Open Access and academic libraries in 2020 and Beyond</strong></h3>
+
+
+
+<p><em>Talk with Jon E. Cawthorne, Ph.D. is Dean of the Wayne State University Library</em></p>
+
+
+
+<figure class="wp-block-image size-medium"><img loading="lazy" width="250" height="300" src="https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-250x300.jpg" alt class="wp-image-37089 jetpack-lazy-image" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-250x300.jpg 250w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-541x650.jpg 541w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-125x150.jpg 125w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-768x923.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne.jpg 1200w" data-lazy-sizes="(max-width: 250px) 100vw, 250px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-250x300.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" width="250" height="300" src="https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-250x300.jpg" alt="" class="wp-image-37089" srcset="https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-250x300.jpg 250w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-541x650.jpg 541w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-125x150.jpg 125w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne-768x923.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Headshot-Photo-Jon-E.-Cawthorne.jpg 1200w" sizes="(max-width: 250px) 100vw, 250px" /></noscript></figure>
+
+
+
+<p>Date: Oct. 22, 2020<br>Time: 2 p.m. &#8211; 3 p.m.</p>
+
+
+
+<p><strong>Description</strong>:<strong> </strong></p>
+
+
+
+<p>Dean Cawthorne is pathologically positive!  The talk will build on themes within the article <a href="https://crln.acrl.org/index.php/crlnews/article/view/24595/32409">Mountains to climb: Leadership for sustainable change in scholarly communication</a>.  This remarkable moment requires rethinking large ideas/systems related to organizational culture, social justice and scholarship.  The talk will suggest how our noble profession may navigate the complex individual and organizational values we hold dear, while exploring how our collective leadership for higher education must meet the moment. The presentation will be enriched by interaction during the Q&amp;A session, so please bring your questions and come prepared to engage with the speaker.</p>
+
+
+
+<p><strong>Speaker information:&nbsp;</strong></p>
+
+
+
+<p>Jon E. Cawthorne, Ph.D. is Dean of the Wayne State University Library System which includes the University’s School of Information Sciences.&nbsp; He has a Ph.D. in managerial leadership in the information professions from Simmons University and is passionate about changing organizational cultures, increasing Black, Indigenous People of Color into leadership positions in the information and publishing industry. Dean Cawthorne is the current President of the Association of College and Research Libraries and remains positive about the future.&nbsp; Prior to joining WSULS, Cawthorne served as&nbsp; dean of libraries at West Virginia University.&nbsp; While in Morgantown, Cawthorne led an effort to remove WVU from their Big Deal in 2016.</p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.eventbrite.ca/e/open-access-week-at-ryerson-university-library-tickets-124470327099">Register</a></div>
+</div>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/10/the-time-for-open-access-is-now-open-access-week-2020/" title="Permalink to The Time for Open Access is Now: Open Access Week 2020" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37083 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37027" class="post-37027 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/" title="5:06 pm" rel="bookmark"><time class="entry-date" datetime="2020-09-28T17:06:47-04:00" pubdate>September 28, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>Article by: Cheryl Thompson and Emilie Jabouin</p>
+
+
+
+<p>In 2019, I exhibited my SSHRC-Insight Development Grant-funded research, “Newspapers, Minstrelsy and Black Performance at the Theatre: Mapping the Spaces of Nation­Building in Toronto, 1870s to 1930s,” as part of RUBIX, a showcase celebration of the Scholarly Research and Creative (SRC) activity within the Faculty of Communication and Design. At this event, I met Alison Skyrme, Special Collections librarian at Ryerson who suggested that I drop by Special Collections to examine images of blackface in the Kodak Canada Archive. </p>
+
+
+
+<p>I was struck by her invitation because it happens so rarely. Despite the fact that blackface was a popular theatrical form of entertainment from the 1830s through 1960s, performed not only in the professional theatre and in Hollywood films, but also in communities at high schools, athletic clubs, hospitals, at retail, and even summer camps, most people want to hide their blackface artefacts, they do not invite Black researchers to interrogate them. And so, one afternoon in the fall of 2019, I and my graduate student, Emilie Jabouin, scoured through the Kodak Archive’s blackface repertoire. While the images were new to me, I had prior knowledge of the important role that Kodak played in the development of photography.</p>
+
+
+
+<p><a href="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/" data-type="URL" data-id="https://library.ryerson.ca/asc/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/">Continue reading&#8230;&#8230;.</a></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/09/blackface-in-the-kodak-archive-ryersons-special-collections-context-for-reading-racist-images/" title="Permalink to Blackface in the Kodak Archive, Ryerson’s Special Collections: Context for Reading ‘Racist’ Images" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37027 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-37003" class="post-37003 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/09/ryerson-university-library-and-ted-rogers-school-of-management-oer-partnership-grant/">Ryerson University Library and Ted Rogers School Of Management OER Partnership Grant</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/09/ryerson-university-library-and-ted-rogers-school-of-management-oer-partnership-grant/" title="9:37 am" rel="bookmark"><time class="entry-date" datetime="2020-09-22T09:37:44-04:00" pubdate>September 22, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>The Ryerson University Library is pleased to announce the <strong><a href="https://library.ryerson.ca/publishing/grants/2020-trsm-library-grant/" data-type="URL" data-id="https://library.ryerson.ca/publishing/grants/2020-trsm-library-grant/">2020 Ryerson University Library and Ted Rogers School Of Management OER Partnership Grant</a> </strong>to encourage the creation and adoption of open educational resources in 1st and 2nd year <strong>Ted Rogers School Of Management </strong>courses. OER are learning materials that are openly licensed such that they are freely available to be adapted, copied, and shared. OER can be: courses, modules, textbooks, multimedia, assessments, and supplementary materials.</p>
+
+
+
+<p>These grants advance the University’s priorities to foster the use of open educational practices, flexible and active learning strategies, inclusive curriculum design and technology enhanced learning. At the same time they build on Ryerson Library’s digital initiatives, expertise in Open Access and Open Education Resource publishing and dissemination, and academic priorities of access and openness. The Library is very pleased to collaborate with the Centre for Excellence in Learning and Teaching in the review and adjudication of the grants, and in the support of successful projects. A total of $40,000 is available for a two-stage TRSM project. </p>
+
+
+
+<p>Applications are due October 23rd, 2020.For more information, please see the<a href="https://library.ryerson.ca/publishing/grants/2020-trsm-library-grant/"> Library OER Grants </a>page.</p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/09/ryerson-university-library-and-ted-rogers-school-of-management-oer-partnership-grant/" title="Permalink to Ryerson University Library and Ted Rogers School Of Management OER Partnership Grant" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-37003 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-36989" class="post-36989 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/09/ryerson-reads-they-said-this-would-be-fun-by-eternity-martis/">Ryerson Reads: They Said This Would Be Fun by Eternity Martis</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/09/ryerson-reads-they-said-this-would-be-fun-by-eternity-martis/" title="11:25 am" rel="bookmark"><time class="entry-date" datetime="2020-09-16T11:25:58-04:00" pubdate>September 16, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p>Ryerson Reads is an annual campus-wide reading program for all Ryerson’s students, faculty, and staff. This year, in collaboration with <a href="https://www.ryerson.ca/sexual-violence/">Consent Comes First</a>, the Office of Sexual Violence Support and Education, Ryerson Reads will be reading <em>They Said This Would Be Fun</em> by Ryerson Alumni, Eternity Martis.</p>
+
+
+
+<p>This engaging book is about being a Black student on a predominantly white campus dealing with misogynoir and other forms of anti-Black racism. A book-smart kid from Toronto, Eternity  was excited to move away to Western University for her undergraduate degree. But as one of the few Black students there, she soon discovered that the campus experiences she’d seen in movies were far more complex in reality.</p>
+
+
+
+<p><a href="https://library.ryerson.ca/ryerson-reads/" data-type="URL" data-id="https://library.ryerson.ca/ryerson-reads/">Register now </a>to receive a free copy or the book (print or ebook) and learn more about the program! </p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/09/ryerson-reads-they-said-this-would-be-fun-by-eternity-martis/" title="Permalink to Ryerson Reads: They Said This Would Be Fun by Eternity Martis" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-36989 -->
+<hr class="post-separator" aria-hidden="true" />
+<article id="post-36813" class="post-36813 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header">
+			<h1 class="entry-title"><a href="https://library.ryerson.ca/blog/2020/09/ryerson-celebrates-indigenous-identity-with-artwork-installation/">Ryerson celebrates Indigenous identity with artwork installation</a></h1>
+		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://library.ryerson.ca/blog/2020/09/ryerson-celebrates-indigenous-identity-with-artwork-installation/" title="2:44 pm" rel="bookmark"><time class="entry-date" datetime="2020-09-02T14:44:52-04:00" pubdate>September 2, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://library.ryerson.ca/blog/author/jenna-charlton/" title="View all posts by Ryerson Library" rel="author">Ryerson Library</a></span></span>		</div><!-- .entry-meta -->
+		
+		
+<p></p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="650" height="434" src="https://library.ryerson.ca/wp-content/uploads/Image-22-650x434.jpg" alt class="wp-image-36817 jetpack-lazy-image" data-lazy-srcset="https://library.ryerson.ca/wp-content/uploads/Image-22-650x434.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Image-22-300x200.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Image-22-150x100.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Image-22-768x513.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Image-22-1536x1025.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/Image-22-2048x1367.jpg 2048w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://library.ryerson.ca/wp-content/uploads/Image-22-650x434.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img loading="lazy" width="650" height="434" src="https://library.ryerson.ca/wp-content/uploads/Image-22-650x434.jpg" alt="" class="wp-image-36817" srcset="https://library.ryerson.ca/wp-content/uploads/Image-22-650x434.jpg 650w, https://library.ryerson.ca/wp-content/uploads/Image-22-300x200.jpg 300w, https://library.ryerson.ca/wp-content/uploads/Image-22-150x100.jpg 150w, https://library.ryerson.ca/wp-content/uploads/Image-22-768x513.jpg 768w, https://library.ryerson.ca/wp-content/uploads/Image-22-1536x1025.jpg 1536w, https://library.ryerson.ca/wp-content/uploads/Image-22-2048x1367.jpg 2048w" sizes="(max-width: 650px) 100vw, 650px" /></noscript></figure>
+
+
+
+<p>Photography by rising star Nadya Kwandibens is on display at the Ryerson Library west entrance.</p>
+
+
+
+<p>The <a href="https://library.ryerson.ca/">Ryerson University Library</a> has unveiled a large-scale public artwork by photographer <a href="https://www.redworks.ca/">Nadya Kwandibens, external link</a> to commemorate the university’s engagement with the annual <a href="https://www.naisa.org/">Native American Indigenous Studies Association (NAISA), external link</a> conference. The 10 x 15.7-foot portrait is on display over the west entrance to the Library as part of the university’s commitment to increase Indigenous visibility and celebration on campus, to educate the community about Indigenous issues and to inspire meaningful conversations.</p>
+
+
+
+<p>Captured in 2010, the portrait is part of Kwandibens’ Concrete Indians series, which reflects on contemporary Indigenous identity. Collaborating with subjects who volunteer their participation, she explores what urbanization means for Indigenous peoples across Turtle Island and how living in urban areas can affect one’s cultural identity.</p>
+
+
+
+<p><a href="https://www.ryerson.ca/news-events/news/2020/09/ryerson-celebrates-indigenous-identity-with-artwork-installation/?utm_source=Ryerson+Today+Contacts&amp;utm_campaign=2f67621a2f-20200902&amp;utm_medium=email&amp;utm_term=0_4843a7a799-2f67621a2f-89300631" data-type="URL" data-id="https://www.ryerson.ca/news-events/news/2020/09/ryerson-celebrates-indigenous-identity-with-artwork-installation/?utm_source=Ryerson+Today+Contacts&amp;utm_campaign=2f67621a2f-20200902&amp;utm_medium=email&amp;utm_term=0_4843a7a799-2f67621a2f-89300631">Read the full press release in Ryerson Today</a></p>
+
+
+
+<p></p>
+		
+		
+		<footer class="entry-meta">
+			<span>This entry was posted in <a href="https://library.ryerson.ca/blog/category/news/" rel="category tag">News</a> by <a href="https://library.ryerson.ca/blog/author/jenna-charlton/">Ryerson Library</a>. Bookmark the <a href="https://library.ryerson.ca/blog/2020/09/ryerson-celebrates-indigenous-identity-with-artwork-installation/" title="Permalink to Ryerson celebrates Indigenous identity with artwork installation" rel="bookmark">permalink</a>.</span>					</footer><!-- .entry-meta -->
+
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-36813 -->
+
+			
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true" />
+
+		
+	<nav class="navigation pagination" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">&larr;</span> <span class="nav-prev-text">Newer <span class="nav-short">Posts</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://library.ryerson.ca/blog/category/news/page/2/">2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://library.ryerson.ca/blog/category/news/page/64/">64</a>
+<a class="next page-numbers" href="https://library.ryerson.ca/blog/category/news/page/2/"><span class="nav-next-text">Older <span class="nav-short">Posts</span></span> <span aria-hidden="true">&rarr;</span></a></div>
+	</nav>
+	</div><!-- .pagination-wrapper -->
+
+	
+		</div><!-- .primary -->
+
+		
+<div class="col-xs-12 col-md-3 widget-area" role="complementary">
+  
+  <aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-280"><a href="https://library.ryerson.ca/blog/category/collections/" title="This category is to be used for posts about collections issues.">Collections</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://library.ryerson.ca/blog/category/csc/" title="Category for posts contributed by the Scholarly Communications group.  ">Copyright and Scholarly Communications</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://library.ryerson.ca/blog/category/eresources/" title="This category is to be used for posts about eresources.
+">Eresources</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://library.ryerson.ca/blog/category/events/">Events</a>
+</li>
+	<li class="cat-item cat-item-284"><a href="https://library.ryerson.ca/blog/category/featured/">Featured</a>
+</li>
+	<li class="cat-item cat-item-286"><a href="https://library.ryerson.ca/blog/category/libtech/" title="Category for posts about LITS issues or library technology more broadly.">Library Technology</a>
+</li>
+	<li class="cat-item cat-item-17 current-cat"><a aria-current="page" href="https://library.ryerson.ca/blog/category/news/" title="This category must be assigned to posts that are to appear on the news feed on the Library&#039;s home page.">News</a>
+</li>
+			</ul>
+
+			</aside>
+  </div><!-- #secondary .widget-area -->
+		
+	</div><!-- .row -->
+
+</div><!-- .container -->
+
+
+</div><!-- #main -->
+
+<footer class="local-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <h4>Ryerson University Library</h4>
+        <p>
+                      <a href="http://www.ryerson.ca/maps/?building=LIB" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Library Building">Library Building</a><br>            
+                    350 Victoria Street, 2nd Floor<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5055<br>          Fax: (416) 979-5215<br>          Email: <a href="mailto:refdesk@ryerson.ca">refdesk@ryerson.ca</a>        </p>
+        <ul class="social">
+                    
+
+                      <li><a href="https://twitter.com/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+          
+                    
+                      <li><a href="https://www.instagram.com/ryersonulibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+          
+                      <li><a href="https://www.youtube.com/user/ryersonlibrary" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+          
+                      <li><a href="https://library.ryerson.ca/blog/feed/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="RSS"><i class="fa fa-rss"></i></a></li>
+                  </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <h4>Links</h4>
+        <nav class="local-footer-links">
+                    <ul id="menu-footer" class="menu"><li id="menu-item-29131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29131"><a href="https://library.ryerson.ca/services/disabilities/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility Services">Accessibility Services</a></li>
+<li id="menu-item-29132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29132"><a href="https://library.ryerson.ca/copyright" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Copyright Services">Copyright Services</a></li>
+<li id="menu-item-29133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29133"><a href="https://library.ryerson.ca/info/about-us#contactus" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Contact Us">Contact Us</a></li>
+<li id="menu-item-29134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29134"><a href="https://library.ryerson.ca/siteindex/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Site Index">Site Index</a></li>
+</ul>                  </nav>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+                  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.658187,-79.3828597,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Google Map">
+            <img src="https://library.ryerson.ca/wp-content/uploads/rylib_map.png" alt="Google Map" class="map">
+          </a>
+              </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="global-footer-top">
+  <div class="container">
+    <div class="row gft-top">
+      <div class="col-xs-9 text-left">
+        <a href="https://www.ryerson.ca/"><strong>Ryerson University</strong></a>
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="#gft-collapse" data-toggle="collapse" class="collapse-toggle collapsed"></a>
+      </div>
+    </div>
+
+    <div id="gft-collapse" class="collapse">
+      <div class="row gft-middle">
+        <div class="col-xs-6 text-left">
+          350 Victoria Street<br>
+          Toronto, ON M5B 2K3<br>
+          <abbr title="Phone">P:</abbr> (416) 979-5000<br>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Follow Ryerson</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/ryersonu" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/RyersonU"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/user/RyersonUTube" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ryerson-university" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="col-xs-12">
+          <div class="row gft-bottom">
+            <div class="col-xs-6 text-left">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/contact/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Directory">Directory</a></li>
+                <li><a href="http://ryerson.ca/maps/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Maps and Directions">Maps and Directions</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 text-right">
+              <ul class="global-footer-links">
+                <li><a href="http://ryerson.ca/jobs/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Careers">Careers</a></li>
+                <li><a href="http://ryerson.ca/media/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Media Room">Media Room</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<footer class="global-footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="global-footer-links">
+          <li><a href="http://ryerson.ca/privacy/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Privacy Policy">Privacy Policy</a></li>
+          <li><a href="http://ryerson.ca/accessibility/" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Accessibility">Accessibility</a></li>
+          <li><a href="http://www.ryerson.ca/ryerson.ca/terms" ga-on="click" ga-event-category="Navigation" ga-event-action="Footer click" ga-event-label="Terms & Conditions">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+<script type="text/javascript">	jQuery(function () { jQuery('.nav-tabs a').click(function (e) { e.preventDefault();
+	jQuery(this).tab('show'); }) });
+
+</script><script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/bootstrap-3.3.7/js/bootstrap.min.js?ver=3.3.7' id='bootstrap-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/ryerson-components.js?ver=2.3.1' id='ryerson-components-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/script.js?ver=2.3.1' id='rula-script-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/js/search_tabs.js?ver=2.3.1' id='rula-frontpage-tabs-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel.min.js?ver=0.3.5' id='jcarousel-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-autoscroll.min.js?ver=0.3.5' id='jcarousel-autoscroll-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/jcarousel-0.3.5/jquery.jcarousel-control.min.js?ver=0.3.5' id='jcarousel-control-js'></script>
+<script src='https://library.ryerson.ca/wp-content/themes/rula_wordpress/vendor/autotrack-2.4.1/autotrack.js?ver=2.4.1' id='autotrack-js-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.32' id='simcal-qtip-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.32' id='simcal-fullcal-moment-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.32' id='simcal-moment-timezone-js'></script>
+<script id='simcal-default-calendar-js-extra'>
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"7e0d117be8","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+</script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.32' id='simcal-default-calendar-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/js/lazy-images.min.js?ver=1.0.0' id='jetpack-lazy-images-js'></script>
+<script src='https://library.ryerson.ca/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.32' id='simplecalendar-imagesloaded-js'></script>
+<script src='https://library.ryerson.ca/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202049.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.2',blog:'39898007',post:'0',tz:'-5',srv:'library.ryerson.ca'} ]);
+	_stq.push([ 'clickTrackerInit', '39898007', '0' ]);
+</script>
+
+</body>
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'MIBPMAPPHNJHJMCKLCFGGPPBPJCNKEOMLNAJIIHHLHACAFKCNDHLDJJHJOPODDGLJMCBMPIHAAONKAHAALBALBMCAAPECOBAFGOFGNKLHHNHNHJNFOAKAPKDDLCGOJEO',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <title>Ryerson Student Learning Support - Booking Tool</title>
+	
+	<link href="/SLS/Student/css/style.css" rel="stylesheet" />
+	<script src="/SLS/Student/js/jquery-1.11.1.min.js"></script>
+	<script src="/SLS/Student/js/bootstrap.min.js"></script>
+	<script src="/SLS/Student/js/main.js"></script>
+	
+</head>
+
+
+
+
+<SCRIPT language="javascript" src="js/general.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+var tempForm;
+
+function init() {
+	tempForm = getForm("alogin","alogin");
+	var messageID = 'response';
+
+	displayMsg = document.getElementById(messageID);
+	if (displayMsg != null){
+					// set focus
+					displayMsg.focus();
+	} else 	tempForm.elements[0].focus();
+
+}
+
+
+function formclear() {
+	document.getElementById("username").value="";
+	document.getElementById("password").value="";
+	document.getElementById("username").focus();
+}
+
+function login() {
+
+	if (validation()) {
+		tempForm.submit();
+	}
+}
+
+function validation() {
+
+	size = tempForm.elements.length;
+	for (i = 0; i <= size-1; i++)
+	{
+
+		if (trim(tempForm.elements[i].value) == "" && tempForm.elements[i].name != '')
+		{
+			alert("Please provide complete login information!");
+			tempForm.elements[i].focus();
+			return false;
+		}
+		if (isInteger(tempForm.elements[i].value) && tempForm.elements[i].name != '')
+		{
+			alert("You must use your my.ryerson username and not your student number!");
+			tempForm.elements[i].focus();
+			return false;
+		}
+
+	}
+	return true;
+}
+
+function checkEnter(event){
+    var charCode = (navigator.appName == "Netscape") ? event.which : event.keyCode;
+
+    if(charCode == 13){  //if generated character code is equal to enter
+        login();
+    }
+}
+
+</SCRIPT>
+
+
+<body>
+
+	<div id="header">
+
+	</div>
+	<div id="main" class="container">
+
+			<div class="row">
+				<div class="col-xs-6 col-xs-offset-3 login">
+					<h1>Log in using your my.ryerson username</h1>
+
+					
+
+					<form  role="form" id="alogin" name="alogin" action="/SLS/Student/student_login.cfm" method="post" class="form-horizontal" >
+
+
+					
+						<div class="form-group">
+									<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+										<label for="inputUsername3" class="control-label">my.ryerson username <span class="hidden">(required field)</span></label>
+										<input type="text" class="form-control" id="inputUsername3" name="username"  placeholder="my.ryerson username" autocomplete="false" required/>
+									</div>
+							</div>
+							<div class="form-group">
+										<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+
+										<label for="inputPassword3" class="control-label">password <span class="hidden">(required field)</span></label>
+										<input type="password" class="form-control" id="inputPassword3" name="password"  placeholder="password" required/>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+										<button type="submit" class="btn btn-success" onClick="login()">Login</button>
+
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+										<P><a href="http://www.ryerson.ca/ccs/services/applications/cas/login_help/#forgotpassword">Forgot your password?</a></p>
+										<P><a href="http://www.ryerson.ca/ccs/services/applications/cas/login_help/">Can't log in?</a></p>
+
+									</div></div>
+
+									<div class="form-group">
+									<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+										
+										<p>For all other technical matters, please contact the <a href="http://www.ryerson.ca/ccs/contact.html">CCS Help Desk</a>.</p>
+
+									</div>
+								</div>
+								<input type="hidden" name="Submit" id="Submit" value="Submit">
+
+
+
+							</form>
+					
+
+
+			</div>
+		</div>
+	</div>
+
+	<script>init();</script>
+
+	</BODY>
+
+
+</HTML>
+

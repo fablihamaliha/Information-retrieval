@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<title>Custom Publishing</title>
+<meta name="description" content="" />
+<meta name="keywords" content="Ryerson University Campus Store" />
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet" type="text/css">
+
+<!--Xmlpackage 'script.head' -->
+<script>
+						(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+						ga('create', 'UA-182340107-1', 'auto');
+						
+
+						ga('send', 'pageview');
+					</script>
+<!--End of xmlpackage 'script.head' -->
+
+
+
+<script src="/scripts/_skin_bundle_b54953e000cbf9949fb6c3a055b62bd9?v=TWgeWJs2UzxKUXom2GkK-u-MmvuDMw75-4JfzjBTC8I1"></script>
+
+
+
+
+<link href="/skins/skin_1/css/_skin_bundle?v=55-hqYkcyYCzGNtqE3Ko-cTzz3jFopdzA0rowKvQlfg1" rel="stylesheet"/>
+
+
+	
+
+	
+	
+</head>
+
+<body>
+	<!-- Respond.js IE8 support of media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+				<!--
+					PAGE INVOCATION: /t-custompublishing.aspx
+					PAGE REFERRER: 
+					STORE LOCALE: en-US
+					STORE CURRENCY: CAD
+					CUSTOMER ID: 0
+					AFFILIATE ID: 0
+					CUSTOMER LOCALE: en-US
+					CURRENCY SETTING: CAD
+					CACHE MENUS: True
+				-->
+
+
+
+
+<!--Xmlpackage 'script.bodyopen' -->
+
+<!--End of xmlpackage 'script.bodyopen' -->
+	
+<!--Donut#20278AA3CBF3E1F271FBCAAE31788E31F25311734F66A8FC8D6AA80CE05A6133C53F1294A01E633936F33DCBBE50FAEA2B2019CEE7C4446B94CF06E4EF0B21FBD7B65DCC079C735A737D2948D30FADB6C5FBDF2DFD9673909827321D8A95D323AC8DF16BC16EB0621643CEAA992FE8AB2E361FE69F290DFF462DE71716044EBB788C7DDC2FD0600FD745E08EED3F7CC9F56CCF4C5F144501030F320B4204FDAE78537086D6DBF887577F706B903CD5ABCE32E4E62B7142370E24EED630C8E5AC209ED86E725F8F376B279979AF50A9F3E5F274F7750D294FB7CE38062F1F3AD61EE01C3ADAA57024D1C4E07CA7982A6229E256367D0875B80CD2B3185A1714DE781123E5E5A00BDF8FCF0F630A23D8D08746A61D710168BD5C3CEF269DCC74089AE7599D#--><!--EndDonut-->
+
+	<div class="main-header">
+		<div class="container">
+			<div class="row header-row">
+				<div class="col-xs-6 col-sm-3 col-md-4 logo-wrap">
+					<a id="logo" class="logo" href="/default.aspx" title="Ryerson University">
+<img alt="Ryerson University" src="/skins/skin_1/images/Ryerson-rgb.svg" class="img-responsive logo-main-image" width="120px" />
+</a>
+				</div>
+				<div class="col-xs-6 col-sm-9 col-md-8 header-right-info">
+					<div class="row">
+						<div class="hidden-xs hidden-sm col-md-6 header-middle">
+							<!--<div style="text-align: center;"><span style="font-size: 36px;"><strong><span style="color: #0c2e5e;">CAMPUS STORE</span></strong></span></div>
+<img src="/skins/skin_1/images/header-middle.jpg" class="img-responsive middle-header"/>-->
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 top-right-header">
+							<div class="cart-header pull-right">
+								<!--Donut#71450B7CF02385861C8ACC8FD46416F1749A33F423F91618ACD22AE101502CE6F4490E3E8DEF0C1E0D85FB018612A24A5FDB8B113E9D5A2A5E808AAFE68A63DE09BA8E0409582C972CFD756FB0F6A020467128B922712771AF65E142FCB0127DD6F790217177B467E7B7A65BEF6CBA7F43DB5F485CFDB5EE0F3D06760DD85DD4C0B4C401C25129803F9E83268BAF11733A54183DF431814DCD32D367201A5CB5AAA263C58601C1F727D7F1154D1BED0057A70D9C747218C5EA372B1291498A44E1ED3924C1056CA0D442BDB7EE2ACDD99E88D06896A17CBE97F6E79F80D2365F0EE41E6B0F27D1BC68FCBBBC1AD3AE0AE22D8B39#--><div class="user-links">
+        <div class="minicart-wrap-link checkout-link">
+			<a id="js-header-checkout-link"
+				class="user-link checkout-link" 
+				disabled="disabled">
+				<i class="fa fa-check-square-o"></i>
+				Checkout
+			</a>
+        </div>
+            <div class="minicart-wrap-link view-cart-link">
+            <a id="js-show-cart" disabled="disabled" href="#" data-toggle="modal" data-target="#minicart-modal" class="user-link">
+	<span aria-hidden="true">
+		<i class="fa fa-shopping-cart"></i>
+	</span>
+    <span class="hidden-xs">View Cart</span> (<span class="minicart-count js-minicart-count">0</span>)
+</a>
+
+        </div>
+            <div class="hidden-xs view-wish-link">
+            <a id="js-show-wish" disabled="disabled" href="#" data-toggle="modal" data-target="#miniwish-modal" class="user-link">
+	<span aria-hidden="true">
+		<i class="fa fa-star"></i>
+	</span>
+	(<span class="minicart-count js-miniwish-count">0</span>)
+</a>
+
+        </div>
+</div><!--EndDonut-->
+							</div>
+							<div class="clearfix"></div>
+							<div class="text-right">
+								
+	<div class="phone-color">
+		<strong><span class="hidden-xs glyphicon glyphicon-earphone"></span> (416) 979-5116</strong>
+		</div>
+	
+							</div>
+                            <div class="pull-right search-wrapper">
+                                <div class="search-static">
+                                    <form action="/search.aspx" method="get">	    <div class="search-form-group">
+			<input name="searchterm"
+				   id="search-box"
+				   class="form-control input-sm search-box" 
+				   aria-label="Search"
+				   placeholder="Search..."
+				   type="text">
+	        <input value="Go" class="btn btn-default btn-sm search-go" type="submit">
+	        <div class="clearfix"></div>
+	    </div>
+</form>
+                                </div>
+                            </div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="top-navigation-wrap">
+			<div class="container">
+				<div class="navbar navbar-default topnav" role="navigation">
+					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="navbar-collapse collapse" id="top-nav-collapse">
+						<ul class="nav navbar-nav">
+	<li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#">General Info <span class="caret"></span> </a>
+	<ul class="dropdown-menu category-menu">
+		<li><a href="/t-hourslocation.aspx">Hours of Operation</a></li>
+		<li><a href="/t-coc.aspx">Code of Conduct</a></li>
+		<!--<li>
+        <a href="/account.aspx">
+        Your Account
+        </a>
+        </li>-->
+		<li><a href="/t-returns.aspx">Return Policy</a></li>
+		<li><a href="/t-shipping.aspx">Shipping Info</a></li>
+		<li><a href="/t-faq.aspx">FAQ</a></li>
+		<li><a href="/t-contact.aspx">Contact Us</a></li>
+		<li><a href="/t-about.aspx">About Us</a></li>
+		<!--<li>
+        <a href="/t-service.aspx">General Info</a>
+        </li>-->
+	</ul>
+	</li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Course Material <span class="caret"></span> </a>
+	<ul class="dropdown-menu category-menu">
+		<li><a href="/courselistbuilder.aspx">Textbook Search</a></li>
+		<li><a href="/t-accesscodes.aspx">Access Codes / eBook (Online)</a></li>
+		<li><a href="https://lb.ca/cgi-bin/cgiwrap/additem.bbx?/Z106347/I">Affiliate Textbook Vendor</a></li>
+		<!-- <li>
+        <a href="/t-ebooks.aspx">Free E-Books</a>
+        </li>-->
+		<li><a href="/t-buyback.aspx">Buyback</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculty &amp; Staff <span class="caret"></span> </a>
+	<ul class="dropdown-menu category-menu">
+		<li><a href="/t-textbookordering.aspx">Textbook Ordering</a></li>
+		<li><a href="/t-custompublishing.aspx">Custom Publishing</a></li>
+		<li><a href="/t-employee%20recognition.aspx">Employee Recognition</a></li>
+	</ul>
+	</li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Clothing <span class="caret"></span> </a>
+	<ul class="dropdown-menu category-menu">
+		<li><div class="ymm-content">
+  <div class="row">
+    <ul class="col-xs-12 menu-list">
+      <li class="menu-list-item"><a href="/c-253-hats.aspx">Hats</a></li>
+      <li class="menu-list-item"><a href="/c-264-herschel-shop.aspx">Herschel Shop</a></li>
+      <li class="menu-list-item"><a href="/c-266-ru-lifestyle.aspx">RU Lifestyle</a></li>
+      <li class="menu-list-item"><a href="/c-226-ryerson-department-hoodies.aspx">Ryerson Department Hoodies</a></li>
+      <li class="menu-list-item"><a href="/c-229-ryerson-university-mom-and-dad-apparel.aspx">Ryerson University Mom and Dad Apparel</a></li>
+      <li class="menu-list-item"><a href="/c-218-alumni-clothing.aspx">Alumni Clothing</a></li>
+      <li class="menu-list-item"><a href="/c-216-roots-shop.aspx">Roots Shop</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+</div></li>
+	</ul>
+	</li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gifts &amp; Stationery <span class="caret"></span> </a>
+	<ul class="dropdown-menu category-menu">
+		<li><div class="ymm-content">
+  <div class="row">
+    <ul class="col-xs-12 menu-list">
+      <li class="menu-list-item"><a href="/c-270-bloom-fashionable-stationery.aspx">Bloom Fashionable Stationery</a></li>
+      <li class="menu-list-item"><a href="/c-267-calculators.aspx">Calculators</a></li>
+      <li class="menu-list-item"><a href="/c-248-frames-and-grad-gifts.aspx">Frames and Grad Gifts</a></li>
+      <li class="menu-list-item"><a href="/c-265-general-gifts.aspx">General Gifts</a></li>
+      <li class="menu-list-item"><a href="/c-269-health-care-accessories.aspx">Health Care Accessories</a></li>
+      <li class="menu-list-item"><a href="/c-268-home-office-and-accessories.aspx">Home Office and Accessories</a></li>
+      <li class="menu-list-item"><a href="/c-230-stationery.aspx">Stationery</a></li>
+      <li class="menu-list-item"><a href="/c-222-gold-medallion-collection.aspx">Gold Medallion Collection</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+</div></li>
+	</ul>
+	</li>
+	<li><a href="https://continuing.ryerson.ca/course-materials/" target="_blank">Distance Education</a></li>
+	<!--   <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Accessories <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu category-menu">
+        <li>
+        <div class="ymm-content">
+  <div class="row">
+    <ul class="col-xs-12 menu-list"></ul>
+    <div class="clearfix"></div>
+  </div>
+</div>
+        </li>
+    </ul>
+    </li> -->
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Account <span class="caret"></span> </a>
+	<ul class="dropdown-menu">
+		<li><a href="/account.aspx#OrderHistory">My Orders </a></li>
+		<li><a data-toggle="modal" href="#miniwish-modal">My Wishlist </a></li>
+		<li><a href="/signin.aspx?returnurl=%2Ftopic.aspx%3Fname%3Dcustompublishing">Login </a></li>
+	</ul>
+	</li>
+</ul>
+<!--<ul class="nav navbar-nav">
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    General Info <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu category-menu">
+        <li>
+        <a href="/t-hourslocation.aspx">Hours of Operation</a>
+        </li>
+        <li>
+        <a href="/t-coc.aspx">Code of Conduct</a>
+        </li>
+        <li>
+        <a href="/account.aspx">
+        Your Account
+        </a>
+        </li>
+        <li>
+        <a href="/t-returns.aspx">Return Policy</a>
+        </li>
+        <li>
+        <a href="/t-shipping.aspx">Shipping Info</a>
+        </li>
+        <li>
+        <a href="/t-contact.aspx">Contact Us</a>
+        </li>
+        <li>
+        <a href="/t-hourslocation.aspx">About Us</a>
+        </li>
+        <li>
+        <a href="/t-service.aspx">General Info</a>
+        </li>
+    </ul>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Course Material <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu category-menu">
+        <li>
+        <a href="/courselistbuilder.aspx">Textbook Search</a>
+        </li>
+        <li>
+        <a href="/t-accesscodes.aspx">Access Codes (Online)</a>
+        </li>
+      
+        <li>
+        <a href="/t-faq.aspx">FAQ</a>
+        </li>
+    </ul>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Clothing <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu category-menu">
+        <li>
+        <div class="ymm-content">
+  <div class="row">
+    <ul class="col-xs-12 menu-list">
+      <li class="menu-list-item"><a href="/c-253-hats.aspx">Hats</a></li>
+      <li class="menu-list-item"><a href="/c-264-herschel-shop.aspx">Herschel Shop</a></li>
+      <li class="menu-list-item"><a href="/c-266-ru-lifestyle.aspx">RU Lifestyle</a></li>
+      <li class="menu-list-item"><a href="/c-226-ryerson-department-hoodies.aspx">Ryerson Department Hoodies</a></li>
+      <li class="menu-list-item"><a href="/c-229-ryerson-university-mom-and-dad-apparel.aspx">Ryerson University Mom and Dad Apparel</a></li>
+      <li class="menu-list-item"><a href="/c-218-alumni-clothing.aspx">Alumni Clothing</a></li>
+      <li class="menu-list-item"><a href="/c-216-roots-shop.aspx">Roots Shop</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+</div>
+        </li>
+    </ul>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Gifts &amp; Stationery <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu category-menu">
+        <li>
+        <div class="ymm-content">
+  <div class="row">
+    <ul class="col-xs-12 menu-list">
+      <li class="menu-list-item"><a href="/c-270-bloom-fashionable-stationery.aspx">Bloom Fashionable Stationery</a></li>
+      <li class="menu-list-item"><a href="/c-267-calculators.aspx">Calculators</a></li>
+      <li class="menu-list-item"><a href="/c-248-frames-and-grad-gifts.aspx">Frames and Grad Gifts</a></li>
+      <li class="menu-list-item"><a href="/c-265-general-gifts.aspx">General Gifts</a></li>
+      <li class="menu-list-item"><a href="/c-269-health-care-accessories.aspx">Health Care Accessories</a></li>
+      <li class="menu-list-item"><a href="/c-268-home-office-and-accessories.aspx">Home Office and Accessories</a></li>
+      <li class="menu-list-item"><a href="/c-230-stationery.aspx">Stationery</a></li>
+      <li class="menu-list-item"><a href="/c-222-gold-medallion-collection.aspx">Gold Medallion Collection</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+</div>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <a href="https://continuing.ryerson.ca/course-materials/" target="_blank">Distance Education</a>
+    </li>
+    <li>
+    <a href="/t-software.aspx">Tech Shop</a>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Account
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+        <a href="/account.aspx#OrderHistory">
+        My Orders
+        </a>
+        </li>
+        <li>
+        <a href="#miniwish-modal" data-toggle="modal">
+        My Wishlist
+        </a>
+        </li>
+        <li>
+        <a href="/signin.aspx?returnurl=%2Ftopic.aspx%3Fname%3Dcustompublishing">
+        Login
+        </a>
+        </li>
+    </ul>
+    </li>
+</ul>-->
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+			</div>
+			<div class="alert-info alert">
+                <div class="container">
+                    
+	<h1>Campus Store</h1>
+	
+                </div>
+            </div>
+		</div>
+	</div>
+	<div class="main-content-wrapper">
+		
+		<div class="main-background">
+			<div class="container">
+				<!--Donut#A894B138E1FD5D994C8FFF34B1C909E88165D9C2A8660D0C2251CE30143EA9AB5CD863F19A9FE435A1C15F0A85CD6FD58A9C71F88475A123142FB8F838A7F95BF2E0D1D6668F0E653463216B2E4D067A6C189680DF1B1E481F41D78682B4C13B3B6083ED9F9D305D963305D9AA4EB5E3BCE7F6B4EC621A204BF125BB9ED453B1762748EBB11849104CA04F3218873C69CE41CA0671E42A7D34979680B5C33CC79C3BD906177C37433B796E71CB4009D717AC03F399D2B36200EB765B8BD77E40578B63EF822A9F40B27EFF492BBC10B901383ED6EC3DF70D8506DBEFE5E46CE321E3DF62F46EC9BF5C11A1AD302CF7B171EBFBD7C25274B80AB1EFCA54C3ABC5D0E9563DB1D60948D0FBE4706842398EFA3971BCABF12EB5034507E07FA3FCACE91235816CC11A9D48FEE8494900590A4053C931583FB9767241BA256B1E555E7791A6EC#--><!--EndDonut-->
+				<div class="notices">
+					<!--Donut#89727893DEAEF09126A09D52BE334FE24AFD6A861439DC15DE08F3ECBD9D48BD0889773E530B828638D897C63E9C063F26753FA74F8FE8A95E1014523E3BCECE0CE76615A2A4604E30E10F3C134F263BF2886862FAB448BFBD7F136553A707818291805010A41B873C1CCA53699ABFE6869F1BE9B6925C1F8F7C49028645EFFED2136636ABFC102EF050EE46A43D17C88BEAEB1EEFA04BDA3C518D0AD49EFA786CCBB4BCBA3F27319F72410460FE2C5C4AFA212135BF532E38D7C732E38B3D25817AE6F944D99FAF0694D849498C80C5FF2F7EE71EA2B567F4ADD565AF8C69B97AFA6591F9A24EF9B073B5F61A4F0D4ED1309F5E#--><!--EndDonut-->
+				</div>
+				<!-- CONTENTS START -->
+				
+
+
+<div class="page-wrap topic-page">
+	<!--Topic 'custompublishing' -->
+	<style>
+    p {font-family:Arial;}
+    h2 {font-family:Arial;}
+    h3 {font-family:Arial;}
+</style>
+<h1>
+<span style="font-family: Arial; color: #004c9b;">
+Custom Publishing
+</span>
+</h1>
+<p>
+The custom manual order form has been improved to allow faculty and staff to order textbooks for classes by interacting with the document by typing-in the textbook and course information. Simply click on the desired fields that you want to fill-in and then type in the information. This form can now be sent to the custom publisher through E-mail (<a href="mailto:r2leivat@ryerson.ca"><strong>r2leivat@ryerson.ca</strong></a>). However, unfortunately, this can only be done with the Adobe Acrobat software at the moment. Adobe Reader does not allow you to save these documents to your computer. Though, to make it more convenient, you can now fill-out the form and print it rather than handwriting.
+</p>
+<br />
+<h2>
+<a target="_blank" href="/images/document/CustomManualOrderFormFront2.pdf">Custom Manual Order Form
+</a>
+</h2>
+<p>
+The Custom Manual Order Form can be filled out and faxed to us at (416) 979-5175.
+</p>
+<br />
+<h2>
+What is Custom Publishing?
+</h2>
+<p>
+Custom Publishing is the production of course materials, like anthologies and lab manuals, designed by you for your course. We take your photocopies, clean them up, copy them and bind them, and sell the finished manual to your students.
+</p>
+<p>Your students will appreciate using all the material in your reader and knowing they haven't paid for materials they will never read. You have the most current information to give your students and complete editorial freedom.</p>
+<br />
+<h2>Why have the Ryerson Bookstore produce your manual?</h2>
+<ul>
+    <li>
+    <p>Fast turn around time </p>
+    </li>
+    <li>
+    <p>Convenient, one-stop shopping for manuals, textbooks, and supplies </p>
+    </li>
+    <li>
+    <p>Fully-trained and professional staff </p>
+    </li>
+    <li>
+    <p>Many production options </p>
+    </li>
+    <li>
+    <p>Competitive pricing </p>
+    </li>
+    <li>
+    <p>Copyright compliance from start </p>
+    </li>
+</ul>
+<br />
+<h2>Copyright</h2>
+<p>
+Ensuring that Copyright rules are respected is a very important part of the Custom Publishing service. But in order to comply with Copyright laws we need help from you - we need bibliographic information.
+</p>
+<p>Unfortunately, there are some restrictions to what copyrighted materials we can 'clear' quickly. Most of the articles or book excerpts that we are asked to reproduce for faculty are covered under our Access Copyright agreement, but certain publications and lengthy excerpts may cause trouble. In a nutshell, the rules are as follows: only 5% of a textbook may be copied for a course manual; up to 15% of any non-textbook is acceptable; no more than 50% of a course manual may consist of material taken from textbooks. To find out how you can tell if a book is considered a 'textbook', please get in touch with us.
+</p>
+<p>
+If you want to use material that seems to fall outside of the Access Copyright rules, all is not lost. We will contact and work with copyright holders to obtain permission directly from them - although this can often be both slow and expensive. Sometimes, there simply is no other option.
+</p>
+<p>Custom Course Manuals can include almost anything you want for your course. Some examples include:</p>
+<ul>
+    <li>
+    <p>
+    Anthologies of different books or periodicals
+    </p>
+    </li>
+    <li>
+    <p>
+    Working manuscripts
+    </p>
+    </li>
+    <li>
+    <p>
+    Workbooks
+    </p>
+    </li>
+    <li>
+    <p>
+    Out-of-print books
+    </p>
+    </li>
+    <li>
+    <p>
+    Lab manuals
+    </p>
+    </li>
+    <li>
+    <p>
+    Syllabi
+    </p>
+    </li>
+    <li>
+    <p>
+    CD-ROMs
+    </p>
+    </li>
+    <li>
+    <p>
+    Lecture Notes
+    </p>
+    </li>
+    <li>
+    <p>
+    Tests and study aids
+    </p>
+    </li>
+</ul>
+<p>
+To create your own Custom Course Manual for your students, all you need to do is supply the bookstore with a CLEAN MASTER copy and complete bibliographic information. If you require permission clearance for any of the works included in your manual, we will do our best to obtain permission on your behalf.
+</p>
+	<!--End of topic 'custompublishing' -->
+</div>
+
+				<!-- CONTENTS END -->
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-wrapper">
+		<div class="container">
+			<div class="row footer-row">
+				<div class="footer-menu-wrap">
+<ul class="col-sm-12 col-md-3 firstMenu">
+    <li class="footerHeading">Customer Service</li>
+    <li><a rel="nofollow" href="/t-contact.aspx">Contact Us</a></li>
+    <li><a rel="nofollow" href="/account.aspx#OrderHistory">Order Tracking</a></li>
+    <li><a href="#miniwish-modal" data-toggle="modal" rel="nofollow">Wishlist</a></li>
+    <li><a rel="nofollow" href="/account.aspx">Your Account</a></li>
+</ul>
+<ul class="col-sm-12 col-md-3">
+    <li class="footerHeading">Store Policies &amp; Info</li>
+    <li><a rel="nofollow" href="/t-shipping.aspx">Shipping</a></li>
+    <li><a rel="nofollow" href="/t-returns.aspx">Returns</a></li>
+    <li><a rel="nofollow" href="/t-faq.aspx">FAQs</a></li>
+    <li><a rel="nofollow" href="/t-privacy.aspx">Privacy Policy</a></li>
+    <li><a rel="nofollow" href="/t-security.aspx">Security</a></li>
+</ul>
+<ul class="col-sm-12 col-md-3">
+    <li class="footerHeading">Helpful Links</li>
+    <li><a href="/t-about.aspx">About Us</a></li>
+    <li><a href="/sitemap.aspx">Site Map</a></li>
+    <li><a href="/courselistbuilder.aspx">Textbooks</a></li>
+</ul>
+<ul class="col-sm-12 col-md-3">
+    <li class="footerHeading">Payment Methods</li>
+    <li><div class="payment-methods-wrap">
+  <div class="cards-accepted"><span id="payment-method-images2" class="&#xA;									cardname mastercard"></span><span id="payment-method-images1" class="&#xA;									cardname visa"></span></div>
+</div></li>
+    <li>
+	<!--(Security seals go here)-->
+	</li>
+</ul>
+<div>
+
+	<div class="social-links">
+		<div class="header-social-icons">
+			<a target="_blank" href="https://www.facebook.com/RUcampusstore"><i class="icon fa fa-facebook"></i></a>		
+			<a target="_blank" href="https://twitter.com/rucampusstore"><i class="icon fa fa-twitter"></i></a>		
+			<a target="_blank" href="https://www.instagram.com/ryersoncampusstore/"><i class="icon fa fa-instagram"></i></a>		
+		</div>
+	</div>
+	
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="copyright-row">
+				<div class="copyright">
+					
+	
+	<strong>PRICES ARE SUBJECT TO CHANGE WITHOUT NOTICE</strong><br />
+		&copy; Ryerson University Campus Stores 2020. All Rights Reserved. Powered by <a href="http://www.aspdotnetstorefront.com" target="_blank">AspDotNetStorefront</a>
+	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Minicart modal -->
+	<!--Donut#7B83EB37AB1F1AB89BF935087CEC72D611A6A3596D129A45214D934A202A869EA057514FDD7FDA678DCCAEADFDA84B54AABB0339A83E47AB9AE6E27462ACD2840CD70286747D77E00C0D9541D0AFF1E77B97E56C36DD8C467BB86E505F1428932C02EEB0963CA396DF22B213E6A59495EFF8F3FDF2BF9941FAC5AF339821BFD865116B6B735B41B38674EA9B1C274E87D5A08C7DFD69B525333F0BFA2AC503D8DD8AAE2DA8942FDF345643877FB943E9C3FDE1AD4857B2887F8E901541FE16E63F0796651410E64ABBD4AFDE813900B7A477FC5684D5C61E39B2F75560C6CBD421117C3D0EBB7DEF161BB569CDCCE6A35CE50D052C957FB3343B4E144216AF5D95E3D290CC1420FD91EB338B54E8CD12CBD1840D66A42429E430B867BA9ED37F124D04D6#--><div class="minicart-wrap">
+	<div id="minicart-modal" class="modal  minicart-modal" data-keyboard="true" tabindex="-1">
+		<div class="modal-dialog" role="region" aria-label="modal dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<a href="#" class="switch-mini-link js-switch-to-miniwish off">
+							<span aria-hidden="true">
+								<i class="fa fa-angle-left"></i>
+							</span>
+							View wishlist
+					</a>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							<i class="fa fa-times-circle-o"></i>
+						</span>
+					</button>
+					<h4 class="minicart-title modal-title">
+						Shopping Cart:
+						<span class="minicart-title-count js-cart-title-count">0</span>
+						<span class="minicart-items-label js-cart-count-label">
+Items						</span>
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div class="minicart-content-wrap">
+						<div class="minicart-message-area js-minicart-message-area">
+							
+						</div>
+						<div class="minicart-contents js-minicart-contents">
+								<div class="empty-mini-cart-text">
+		EmptyCartText
+	</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer minicart-footer">
+					<div class="row">
+						<div class="col-sm-6 text-left-sm">
+							<div class="minicart-discount off">
+								Discounts:
+								<span class="minicart-discount js-minicart-discount"></span>
+							</div>
+							<div class="minicart-total-area">
+								<div class="minicart-total-wrap">
+									Total:
+									<span class="minicart-total js-minicart-total">$0.00</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<button type="button" id="minicart-close-button" class="btn btn-default close-minicart-button">Close</button>
+							<button type="button" id="minicart-checkout-button" class="btn btn-primary minicart-checkout-button" data-return-url="/t-custompublishing.aspx">Checkout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--EndDonut-->
+
+	<!-- Miniwish modal -->
+	<!--Donut#FCC05DB3F049FF88DF042EF129A7E7D87356B6835DD7B6EA3F780B7FDE50099C19FF13377F3F09775BFE5B36FFB5BC327BB204F2D8EE3A54ED52E5AD6F1260D161E032DFBC98B63421F461496A7436305E395D48C99A7369A912BC910A820D3FCC499F77559CA3ACDDF31873AC635F2E9BE232F5BA5A07A902128771E9C068CDB5F47E2E099AD987344F42AC91979E5FBF2FAED12294F556FCFC07CEA82620A3058684D9C1C3D06E4AB96C8C4F715953B1E461662447A868F900BDBAED6CA768139551497A706AFA1983D0EE6F604B291E5578CC8A6DFF34569C5E922E603D285FBFD4D96D94ECCA4CC4E6A1F47E6FA72DCE4DAAF14F2EE56FE760D2BCA33170859ED291C4AEDCB35E15C04DFF9FBB07B13252529F4A2A6917CEAA1F3C57A9FCE0FCDC68#--><div class="minicart-wrap">
+	<div id="miniwish-modal" class="modal  minicart-modal" data-keyboard="true" tabindex="-1">
+		<div class="modal-dialog" role="region" aria-label="modal dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+						<a href="#" class="switch-mini-link js-switch-to-minicart off">
+							<i class="fa fa-angle-left"></i>
+							View cart
+						</a>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times-circle-o"></i>
+					</button>
+					<h4 class="minicart-title modal-title">
+						Your Wishlist:
+						<span class="minicart-title-count js-wish-title-count">0</span>
+						<span class="minicart-items-label js-wish-count-label">
+Items						</span>
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div class="minicart-content-wrap">
+						<div class="minicart-message-area js-miniwish-message-area">
+							
+						</div>
+						<div class="minicart-contents js-miniwish-contents">
+								<div class="empty-mini-cart-text">
+		EmptyWishListText
+	</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer minicart-footer">
+					<div class="row">
+						<div class="col-sm-6 text-left-sm">
+							<div class="minicart-total-area">
+								<div class="minicart-total-wrap">
+									Total:
+									<span class="minicart-total js-miniwish-total">$0.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<button type="button" id="miniwish-close-button" class="btn btn-default close-miniwish-button">Close</button>
+							<button type="submit"
+								data-url="/minicart/movealltocart"
+								id="miniwish-move-all-to-cart"
+								class="btn btn-primary minicart-checkout-button js-wishlist-button off">
+								Move all to Cart
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--EndDonut-->
+
+	<!-- Minicart and miniwish resources (javascript and overlay html) -->
+	<!--Donut#1FC8990CC7F756DCF2D928C0B9783ACC82C262E69A261EA98EEE03A03A3CA421C9F8CE3F67FDAEBE75C10065F3108CEC087AC5F2F8085F942CCF4A00179E637E35FE34F98121119E72416A8AC789CABF9759C33F7D3CBD44766F1A0FD79F6F8328C9069A719F52D69AE27CD4FF00A56A185C526C907A8BD9EBEB15301019C39C718E0FE103FDB4DD5A62C7FFCF1F364583AF73AF12F477F1F27D078CB2A27A15F703073DC34113984D54A300E0BFE55045432B336D3160572E01C3A5AC622F5DEC1505F19B0BE8E667D60E77AC419FAD500AC95535BD152A01BA31B47AD7B2947E7A3D9E2ADD299BEEA3849A1143CB3E4AD27B975D2981B8C85B1814157762CDC2757023#-->	<div class="minicart-loading-overlay js-minicart-loading-overlay off">
+		<div class="minicart-overlay"></div>
+		<div class="minicart-loading">
+			<div class="minicart-loading-message js-minicart-loading-message">Loading...</div>
+			<div class="loading-animation loading-style-dark"></div>
+		</div>
+	</div>
+
+<script src="/scripts/_skin_bundle_2a59354f3da09b60835d68828d972922?v=xC17SBiqMIm9euB9ae6uvcwFktdsabe9JtNZ8kiYx_Y1"></script>
+<script type="text/javascript">
+			adnsf$.minicart.initialize(
+			{
+				minicart_DeleteWaitMessage: "Deleting...",
+				miniwish_MoveSingleMessage: "Moving item to cart.",
+				miniwish_MoveAllMessage: "Moving all items to cart.",
+				minicart_UpdateFailureMessage: "Sorry, there was an error updating your cart.",
+				miniwish_UpdateFailureMessage: "Sorry, there was an error updating your wishlist.",
+				minicart_CountLabel: "Items",
+				minicart_CountLabelSingular: "Item",
+				checkoutUrl: "/shoppingcart.aspx",
+				loginUrl: "/signin.aspx",
+				authenticationUrl: "/authentication",
+			});
+			adnsf$.minicart.cartEnabled = true;
+			adnsf$.minicart.wishEnabled = true;
+			adnsf$.minicart.onCheckoutPage = false;
+		</script>
+<!--EndDonut-->
+	<div class="live-chat-wrapper">
+		<div class="live-chat">
+			
+	<div class="live-chat-wrapper">
+		<div class="live-chat">
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+	
+
+
+<script src="/scripts/_custom_bundle_35e9e03bdd1b6a2fc1e6d54744c7be63?v=dddkKlFGQpFagqs0sGToGg6zy8Z-MDMRXnCKscpZiFI1"></script>
+
+
+
+<script type="text/javascript">
+		var authenticationUrl = "/authentication"
+	</script>
+
+
+	<!--Donut#AC6D92C9A7169EDD560067BAA3D7EE58C63A17819025CF07BCC9B3DA55307D71B1952E59CD7613659F62AE57B860D4AA4023FB030FE27966F2F041342279B02F9176B536D277A05A24090EE615EC53459A8D8E29FBEF5EC064E1B15ECA1B77F3A62E34010E6A4C7346E31103A665FAEA59F7E3364260F7AFC1E33C40A9AAB67CE94EAA605607E56B1A2EE49AEEF3D1AE175557276CD4441F47E62F88AFD867ECF866AE53B643464B8F3FA1EB3B031BE6F3F5551E3C7124E7955708A68197CF52BEE8CD94D658E45F336A1A7708C9B4EABADB4F46D6A78E44A6FAD5390B89F1622BBE1F3CCE2DEADDEEDD0E8F6D49C0E330CFEF42376FB4525A3C38EE1D77082F8FD1F978#--><!--EndDonut-->
+
+
+
+
+<script type="text/javascript">
+		window.postalCodeRegexConfiguration = {
+			postalCodeRegexMapUrl: "/country/postalcoderegexmap",
+		};
+	</script>
+
+
+
+<script src="/scripts/_skin_bundle_fa485db2a4d12a8ebbc4162d82381af4?v=fKGwLgsdDb1MFR49c_Ju7iqL7OEGwvbnQ_06f9qJauM1"></script>
+
+
+<script type="text/javascript">
+		adnsf$.initializeAddToCartForms(
+		{
+			ajaxAddToCartUrl: "/minicart/ajaxaddtocart",
+			ajaxAddKitToCartUrl: "/minicart/ajaxaddkittocart",
+			addToCartMessage: "Adding to cart",
+			addToWishMessage: "Adding to wishlist",
+			invalidQuatityMessage: "Please enter a valid quantity",
+			addToCartFailureMessage: "Your item was not added to the cart because of an error",
+			addToWishFailureMessage: "Your item was not added to the wishlist because of an error",
+			checkoutUrl: "/shoppingcart.aspx",
+			loginUrl: "/signin.aspx"
+		});
+
+		adnsf$.validator.unobtrusive.adapters.addSingleVal('min', 'val');
+	</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js" ></script>
+
+
+
+
+
+<!--Xmlpackage 'script.bodyclose' -->
+<script src="https://www.google.com/recaptcha/api.js" async="" defer></script>
+<!--End of xmlpackage 'script.bodyclose' -->
+
+<!--Donut#94F91FFF0484B3ED2C0187F993729DD74AE5C9CC85B546B4AF54ABB68657A96F03CD67DC134C3999E56F826C0FBB8105748ED6C8F12CACE59E10BFE1DEE1E5E9D19E0DE7C0BDD44CC9C55684F8F6A8DE1ED75DABA9B56CA66EAF00141A5AA4A3D6B9328C2EE7056115F1C2DB8E7FE2F91EAEA9E4B358B0A8FAE1F7CDB29418F5B033D521C7F0794442D136B022388AE96CB489334A118A47E3AA848185E1DF6CB1CC0120B3660AD15128D138FD8285FFCDC3F22B9535E5E581EE9F579C511FBF0F6F6B6BD32772110D19AEE3753D574787D0FFDEEC6FB548B0AB29B0CC8FC0E747091C675A63DDB531F7FC318D7F32D8E8DADABD#--><!--EndDonut-->
+
+	<!--Xmlpackage 'promo-window' -->
+<script>
+						(function(options) {
+							$(function(){
+								if (Cookies.get('promoWindow') == 'visited') {
+									return false;
+								} 
+								else {
+									setTimeout(function () {
+										$('#promoWindow').fadeIn("fast");
+									}, options.windowDelay);
+									$(".promoClose").on("click", function(){
+										$("#promoWindow").remove();
+									});
+									Cookies.set('promoWindow', 'visited', { expires: options.cookieExpires });
+								}
+							});
+						})
+						({
+						windowDelay: 5000,
+						cookieExpires: 7
+						});
+					</script>
+
+<!--End of xmlpackage 'promo-window' -->
+</body>
+</html>

@@ -1,0 +1,7 @@
+<body>
+	<form enctype="multipart/form-data"  action="/home.htm" id="redForm" name="redForm" method="post">
+	</form>
+	<script type="text/javascript">
+		document.getElementById("redForm").submit();
+	</script>
+</body>

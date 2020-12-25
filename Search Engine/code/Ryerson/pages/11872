@@ -1,0 +1,3099 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+    	
+
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+    	<meta property="og:type" content="website" >
+		<meta property="og:site_name" content="Ryerson University" >
+		<meta property="og:url" content="https://www.ryerson.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication/" >
+		<meta property="og:title" content="Setting Up Two-Factor Authentication" > 
+		 
+		 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" value="https://www.ryerson.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication/" >
+		<meta name="twitter:site" content="@RyersonU"> 
+		<meta name="twitter:title" content="Setting Up Two-Factor Authentication"> 
+		 
+        
+        
+        <title>Setting Up Two-Factor Authentication - Computing and Communications Services - Ryerson University</title>
+        
+		 
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page-hiding snippet starts --> 
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WTQJF65':true});</script>
+<!-- Page-hiding snippet ends --> 
+
+<!-- Modified GA tracking script starts --> 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-8117641-1', 'auto', {allowLinker: true});
+ga('require', 'GTM-WTQJF65'); 
+</script>
+<!-- Modified GA tracking script ends-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJMHPZ');</script>
+<!-- End Google Tag Manager -->
+    
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var cqMode = "DISABLED";
+var cqTemplate = "general";
+var runMode = "publish"; 
+</script>
+<link rel="stylesheet" href="/etc.clientlibs/ryecms/static/clientlib-all.a1a6b3ff01d202aac206a4886508e620.css" type="text/css">
+<script type="text/javascript" src="/etc.clientlibs/ryecms/static/clientlib-all.ff4c99536851cbea66337ffee0bd98bc.js"></script>
+
+
+<script type="text/javascript">function initMaps() { jQuery(document).ready(function() { jQuery(document).trigger('_initmaps'); }); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVYuOCl4tBeStJUpP6O9tgzHRMtuBBqlQ&libraries=geometry,places&callback=initMaps" async defer></script>
+        
+        
+        	<link rel="stylesheet" href="/rye-api/color.default.004C9B.004C9B.css" type="text/css">
+        
+        
+       		<script type="text/javascript" src="/etc.clientlibs/ryecms/static/customStyles/default.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+       	
+        
+
+
+
+
+
+
+
+
+ 
+    </head>
+    <body>
+    	<!-- red -->
+		<div id="AppArmorAlertID_76"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=76" async></script>
+		
+	    <!-- yellow -->
+		<div id="AppArmorAlertID_77"></div><script type="text/javascript" src="//ryerson.apparmor.com/Notifications/Feeds/Javascript/?AlertID=77" async></script>
+		
+		<!-- system -->
+		<div id="systemAlert"></div>
+		
+   		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJMHPZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) --> 
+	    
+    	
+
+
+
+
+
+
+
+
+ 
+    	
+   		<div class="resGlobalHeader">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="res-global-header">
+					<a id="skip-to-main" class="btn btn-default" href="#main-content">Skip to Main Content</a>
+					<nav aria-label="global"
+						class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="https://www.ryerson.ca/"> <img src="/etc.clientlibs/ryecms/static/clientlib-site/resources/images/ryerson_logo.svg" alt="Ryerson University" title="Ryerson University">
+								</a>
+								<button id="gh-other-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-other-content" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-bars"></span>
+								</button>
+								<button id="gh-info-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-info-content" aria-expanded="false">
+									<span class="sr-only">Toggle information</span> <span
+										class="fa fa-info-circle"></span>
+								</button>
+								<button id="gh-search-btn" type="button"
+									class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#gh-search-content" aria-expanded="false">
+									<span class="sr-only">Toggle search</span> <span
+										class="fa fa-search"></span>
+								</button>
+							</div>
+							<div class="navbar-content">
+								<form role="search" id="gh-search-content" class="resSearch nav navbar-nav collapse navbar-collapse navbar-form" method="GET" action="https://www.ryerson.ca/search/">
+									<div class="input-group gh-search-container">
+										<label for="search" class="sr-only">Search Site and People</label>
+										<input id="search" name="q" type="text" class="form-control" placeholder="Search Site and People" autocomplete="off">
+										<span class="input-group-btn">
+											<button aria-label="Search" class="btn btn-default"
+												type="submit">
+												<i class="fa fa-search" title="Search Ryerson.ca"></i>
+											</button>
+										</span>
+									</div>
+								</form>
+								<div class="navbar-right">
+									<ul id="gh-info-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+										<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span
+												class="fa fa-info-circle"></span><span class="hidden-sm">
+													Info for <span class="caret"></span>
+											</span>
+										</a>
+											<ul class="dropdown-menu">
+												<li><a href="/future-students/">Future Students</a></li>
+												<li><a href="/current-students/">Current Students</a></li>
+												<li><a href="/faculty-staff/">Faculty and Staff</a></li>
+												<li><a href="/teachers-counsellors/">Teachers and
+														Counsellors</a></li>
+												<li><a href="/alumni/">Alumni</a></li>
+												<li><a href="/media/">Media</a></li>
+												<li><a href="/giving/">Donors</a></li>
+											</ul></li>
+										<li class="visible-xs"><a href="/future-students/">Future
+												Students</a></li>
+										<li class="visible-xs"><a href="/current-students/">Current
+												Students</a></li>
+										<li class="visible-xs"><a href="/faculty-staff/">Faculty
+												and Staff</a></li>
+										<li class="visible-xs"><a href="/teachers-counsellors/">Teachers
+												and Counsellors</a></li>
+										<li class="visible-xs"><a href="/alumni/">Alumni</a></li>
+										<li class="visible-xs"><a href="/media/">Media</a></li>
+										<li class="visible-xs"><a href="/giving/">Donors</a></li>
+									</ul>
+									<ul id="gh-other-content"
+										class="nav navbar-nav collapse navbar-collapse navbar-left">
+										<li class="visible-xs"><a href="/about/">About</a></li>
+										<li class="visible-xs"><a href="/programs/">Programs</a></li>
+										<li class="visible-xs"><a href="/admissions/">Admissions</a></li>
+										<li class="visible-xs"><a href="/campus-life/">Campus
+												Life</a></li>
+										<li class="visible-xs"><a href="/research/">Research & Innovation</a></li>
+										<li class="visible-xs"><a href="/equity/">Equity & Community Inclusion</a></li>
+										<li class="divider visible-xs"></li>
+										<li class="call-to-action"><a href="/admissions/">Apply</a></li>
+										<li class="call-to-action"><a href="/admissions/visits-tours/">Visit</a></li>
+										<li class="call-to-action"><a href="/giving/">Give</a></li>
+										<li class="divider"></li>
+										<li><a href="http://my.ryerson.ca">my.ryerson</a></li>
+									</ul>
+									
+										<ul
+											class="nav navbar-nav collapse navbar-collapse navbar-left" role="presentation">
+											<li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> <span
+													class="fa fa-bars"></span><span class="sr-only">Menu</span>
+											</a>
+												<ul class="dropdown-menu">
+																			
+													<li><a href="/about/">About</a></li>
+													<li><a href="/programs/">Programs</a></li>
+													<li><a href="/admissions/">Admissions</a></li>
+													<li><a href="/campus-life/">Campus Life</a></li>
+													<li><a href="/research/">Research & Innovation</a></li>
+													<li><a href="/equity/">Equity & Community Inclusion</a></li>
+												</ul></li>
+										</ul>
+									
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+   		
+   		
+				<div class="res-local-header-wrapper" role="banner">
+		            <div class="container">
+		                <div class="resLocalHeader">
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-header">
+	<div class="row template-local-header">
+		<div class="local-header-section col-xs-12">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+				<div class="site-heading">
+				
+				    <a href="/ccs/">
+				        Computing and Communications Services (CCS)
+				    </a>
+				
+				</div>
+			
+		</div>
+	</div>
+</div>
+				
+		</div>
+	</div>
+</div></div>
+
+		            </div>
+				</div>
+            
+        
+        
+			<div class="resHorizontalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="primary" class="navbar res-horizontal-navigation">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <span class="navbar-brand visible-xs">
+                        
+                        <a href="/content/ryerson/ccs.html">Home</a>
+                        
+                    </span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#d42c3feb-3c50-43c8-b703-a7dcba40a1cf" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </button>
+                </div>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="d42c3feb-3c50-43c8-b703-a7dcba40a1cf">
+                    <ul class="nav navbar-nav">
+						
+									<li class="">
+										<a href='/ccs/about/'>About CCS</a>
+									</li>
+								
+									<li class="active">
+										<a href='/ccs/services/'>Services</a>
+									</li>
+								
+									<li class="">
+										<a href='/ccs/contact/'>Contact Us</a>
+									</li>
+								
+					</ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+
+		
+		
+        
+        <div class="container">
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        	<div class="row template-content">
+		        
+        		
+	        		<aside class="left-sidebar-section col-md-2 col-sm-12 ">
+	        				
+		        							<div class="resVerticalNavigation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="secondary" class="navbar res-vertical-navigation">
+	    <!-- Navigation Header -->
+	    <div class="navbar-header">
+	        <span class="navbar-brand visible-xs">
+                
+                <a href="/content/ryerson/ccs/services.html">Services</a>
+                
+	        </span>
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#86476c5f-fd8b-47bd-94e6-417628a30a59" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <i class="fa fa-chevron-down"></i>
+	        </button>
+	    </div>
+	    <!-- Navigation Links -->
+	    <div class="collapse navbar-collapse" id="86476c5f-fd8b-47bd-94e6-417628a30a59">
+	        
+	            
+	                <ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/email_and_learning.html'>Email and Learning Systems</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/accounts.html'>Accounts</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/software.html'>Software</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/labsandprinting.html'>Labs & Printing</a>
+</li>
+<li class="list-group-item parent">
+<a href='/ccs/services/ITSecurity.html'>IT Security</a>
+<ul class="list-group">
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/protecting-data.html'>Protecting Data</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/protecting-devices.html'>Protecting Devices</a>
+</li>
+<li class="list-group-item parent">
+<a href='/ccs/services/ITSecurity/protecting-your-identity.html'>Protecting Your Identity</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/ITSecurity/networkaccesscontrols.html'>Network Access Controls</a>
+</li>
+</ul>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/connections.html'>Network and Wireless</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/hardware.html'>Hardware</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/mediaservices.html'>Media Services</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/webcontentmgmt.html'>Web and Content Management</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/phonesfaxing.html'>Telephones and Faxing</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/applications.html'>Applications</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/cabling.html'>Cabling</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/chargeableservices.html'>Fees and Chargebacks</a>
+</li>
+<li class="list-group-item">
+<a href='/ccs/services/AtoZcatalogue.html'>Service Catalogue</a>
+</li>
+</ul>
+
+	            
+	            
+	        
+	    </div>
+	</nav>
+</div>
+
+		        						
+				        	<div class="resLeftSidebar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		
+				<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+    </div>
+</div>
+</div>
+
+					</aside>
+				
+        		<main id="mainContent" class="content-area-section col-md-10 col-sm-12">
+        		<div class="sr-only" id="main-content" tabindex="-1">You are now in the main content area</div>
+        			
+	        				<div class="beforeContent stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+	        			
+        			        
+<div class="heading resPageHeading">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 >Setting Up Two-Factor Authentication</h1></div>
+
+<div class="content stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resreference resReference">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resimagetext_1754806816 resImageText">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="row" id="35510b03-0d4e-4e8c-9ddf-eac3945b0359">
+			<div class="col-xs-12">
+				<div class="thumbnail customStyle1">
+					
+<img src="/content/dam/ccs/Section-Banners/it-security-banner.jpg" alt=""/>
+
+
+<div class="overlayText">
+<div class="textContainer">
+	
+	With your help, Ryerson can minimize online threats.
+	
+	
+</div>
+</div>
+
+
+
+					 
+						<div class="caption richtextContent empty">
+	
+</div>
+						    
+					
+				</div>
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){addCoursePopover('#35510b03-0d4e-4e8c-9ddf-eac3945b0359');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "35510b03-0d4e-4e8c-9ddf-eac3945b0359"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+</div>
+
+</div>
+
+				
+
+				
+				<div class="resTwoColTwoOne section">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+<div class="row">
+	
+		<div class="col-md-8">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="164b7da5-603f-48ec-b435-7edec1fededb" >
+
+    <h2>Where to start</h2> 
+<p>There are two parts involved in two-factor setup:</p> 
+<ul> 
+ <li>Part one: Choose how you’ll generate codes</li> 
+ <li>Part two: Add two-factor to your Ryerson account</li> 
+</ul> 
+<h2>Part one: Choose how you'll generate codes</h2> 
+<p>You have the option of using a mobile device or a universal second factor (U2F) security key.</p> 
+<p>Ryerson employees may also choose to use a one-time verification (OTV) code generator.</p> 
+<h3><a id="mobile-setup"></a>If you’re using a mobile device</h3> 
+<p>You’ll need to install the Google Authenticator app on your device. Once installed, be sure not to delete it as you’ll need it each time you generate a verification code.</p>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#164b7da5-603f-48ec-b435-7edec1fededb");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="4276d368-f579-45fa-8214-ed689c5cf783" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("4276d368-f579-45fa-8214-ed689c5cf783", false); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1523540790117-steps-for-android" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1523540790117-steps-for-android" aria-controls="accordion-content-1523540790117-steps-for-android" aria-expanded="false">
+                            Steps for Android
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1523540790117-steps-for-android" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1523540790117-steps-for-android">
+                    <div class="panel-body ">
+                        <div class="1523540790117 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1523987788998-step-1" href="#tab-content-1523987788998-step-1" role="tab" data-toggle="tab" aria-controls="tab-content-1523987788998-step-1" aria-expanded="true">
+                        <span class="text">Step 1</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1523987794685-step-2" href="#tab-content-1523987794685-step-2" role="tab" data-toggle="tab" aria-controls="tab-content-1523987794685-step-2" aria-expanded="false">
+                        <span class="text">Step 2</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523987800141-step-3" href="#tab-content-1523987800141-step-3" role="tab" data-toggle="tab" aria-controls="tab-content-1523987800141-step-3" aria-expanded="false">
+                        <span class="text">Step 3</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523987805373-step-4" href="#tab-content-1523987805373-step-4" role="tab" data-toggle="tab" aria-controls="tab-content-1523987805373-step-4" aria-expanded="false">
+                        <span class="text">Step 4</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523987809574-step-5" href="#tab-content-1523987809574-step-5" role="tab" data-toggle="tab" aria-controls="tab-content-1523987809574-step-5" aria-expanded="false">
+                        <span class="text">Step 5</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1523987788998-step-1" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1523987788998-step-1">
+                    <div class="1523987788998 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="bf5cd55f-83a4-4551-bf93-c26673f4d7ec">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>On your Android device, open the<strong>&nbsp;Play Store app</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/android-devices/android1.jpg" alt="Android Google Play Store Icon"/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#bf5cd55f-83a4-4551-bf93-c26673f4d7ec');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "bf5cd55f-83a4-4551-bf93-c26673f4d7ec"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523987794685-step-2" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523987794685-step-2">
+                    <div class="1523987794685 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="dd94c722-9a64-4a10-9f50-5b25056a1f08">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Search for&nbsp;<strong>Google Authenticator</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/android-devices/android2.jpg" alt="Google Play Store Search Screen. Google Authenticator is typed in search bar."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#dd94c722-9a64-4a10-9f50-5b25056a1f08');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "dd94c722-9a64-4a10-9f50-5b25056a1f08"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523987800141-step-3" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523987800141-step-3">
+                    <div class="1523987800141 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="91c9bad5-5b69-47eb-82c9-52126f4dc270">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Tap the&nbsp;<strong>Google Authenticator</strong>&nbsp;option in the search screen and then tap&nbsp;<strong>Install</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/android-devices/android3.jpg" alt="Google Authenticator App is highlighted from results of search in the Play Store."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#91c9bad5-5b69-47eb-82c9-52126f4dc270');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "91c9bad5-5b69-47eb-82c9-52126f4dc270"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523987805373-step-4" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523987805373-step-4">
+                    <div class="1523987805373 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="7a034cba-5986-4693-b5b8-b3680ab3baf9">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>When asked to authorize Google Authenticator to access information on your device, tap&nbsp;<strong>Accept</strong>&nbsp;if you wish to continue. You’ll be returned to the app screen. Press the&nbsp;<strong>back</strong>&nbsp;button to return to your home screen.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/android-devices/android5.jpg" alt="Google Authenticator App Confirmation popup. Accept & Download."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#7a034cba-5986-4693-b5b8-b3680ab3baf9');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "7a034cba-5986-4693-b5b8-b3680ab3baf9"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523987809574-step-5" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523987809574-step-5">
+                    <div class="1523987809574 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="5fa10449-f2c4-457c-9da3-e88545c43b35">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>The&nbsp;<strong>Authenticator</strong>&nbsp;app should now be on your home screen. Tap the icon to run the app.</p> 
+<p>Once this is complete, you can start&nbsp;<a href="/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication.html#accordion-1532698653107-for-a-mobile-device">Part two: Add two-factor to your Ryerson account.</a></p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/android-devices/android6_circled.jpg" alt="Google Authenticator App icon on Android Home Screen."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#5fa10449-f2c4-457c-9da3-e88545c43b35');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "5fa10449-f2c4-457c-9da3-e88545c43b35"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1523540799940-steps-for-ios" role="tab" data-toggle="collapse" data-parent="#" href="#accordion-content-1523540799940-steps-for-ios" aria-controls="accordion-content-1523540799940-steps-for-ios" aria-expanded="false">
+                            Steps for iOS
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1523540799940-steps-for-ios" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1523540799940-steps-for-ios">
+                    <div class="panel-body ">
+                        <div class="1523540799940 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTabs section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- Tabs Component -->
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                
+                <li role="presentation" class="active">
+                    <a id="tab-1523988482358-step-1" href="#tab-content-1523988482358-step-1" role="tab" data-toggle="tab" aria-controls="tab-content-1523988482358-step-1" aria-expanded="true">
+                        <span class="text">Step 1</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="next">
+                    <a id="tab-1523988487470-step-2" href="#tab-content-1523988487470-step-2" role="tab" data-toggle="tab" aria-controls="tab-content-1523988487470-step-2" aria-expanded="false">
+                        <span class="text">Step 2</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523988492934-step-3" href="#tab-content-1523988492934-step-3" role="tab" data-toggle="tab" aria-controls="tab-content-1523988492934-step-3" aria-expanded="false">
+                        <span class="text">Step 3</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523988498013-step-4" href="#tab-content-1523988498013-step-4" role="tab" data-toggle="tab" aria-controls="tab-content-1523988498013-step-4" aria-expanded="false">
+                        <span class="text">Step 4</span>
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a id="tab-1523988508927-step-5" href="#tab-content-1523988508927-step-5" role="tab" data-toggle="tab" aria-controls="tab-content-1523988508927-step-5" aria-expanded="false">
+                        <span class="text">Step 5</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                
+                <div tabindex="0" id="tab-content-1523988482358-step-1" role="tabpanel" class="tab-pane container-clipboard fade in active" aria-labelledby="tab-1523988482358-step-1">
+                    <div class="1523988482358 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="83f73a02-c98a-447f-8213-8f26db69f27a">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>On your iOS device, open the&nbsp;<strong>App Store</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/ios-devices/01_iOS_app_store.jpg" alt="iOS App Store icon"/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#83f73a02-c98a-447f-8213-8f26db69f27a');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "83f73a02-c98a-447f-8213-8f26db69f27a"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523988487470-step-2" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523988487470-step-2">
+                    <div class="1523988487470 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="7f7394c0-4b09-485a-bca3-bcbb70831d15">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Search for&nbsp;<strong>Google Authenticator</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/ios-devices/02_iOS_search.jpg" alt="App Store Search Screen. Google Authenticator is typed in search bar."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#7f7394c0-4b09-485a-bca3-bcbb70831d15');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "7f7394c0-4b09-485a-bca3-bcbb70831d15"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523988492934-step-3" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523988492934-step-3">
+                    <div class="1523988492934 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="07822337-5242-4a34-82db-6b0606890ef8">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Find&nbsp;<strong>Google Authenticator</strong>&nbsp;option in the search screen and then tap&nbsp;<strong>GET</strong>.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/ios-devices/03_iOS_get.jpg" alt="Google Authenticator app page on App Store. Tap on Get button."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#07822337-5242-4a34-82db-6b0606890ef8');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "07822337-5242-4a34-82db-6b0606890ef8"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523988498013-step-4" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523988498013-step-4">
+                    <div class="1523988498013 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="28fcdf15-c13e-4ae4-9919-d30263dfe407">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>Tap the&nbsp;<strong>INSTALL</strong>&nbsp;button.</p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/ios-devices/04_iOS_install.jpg" alt="Google Authenticator app page on App Store. Tap on Install button."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#28fcdf15-c13e-4ae4-9919-d30263dfe407');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "28fcdf15-c13e-4ae4-9919-d30263dfe407"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+                <div tabindex="0" id="tab-content-1523988508927-step-5" role="tabpanel" class="tab-pane container-clipboard fade" aria-labelledby="tab-1523988508927-step-5">
+                    <div class="1523988508927 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resImageText section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="thumbnail customStyle1" id="1edd8aa3-501e-4fd5-a070-d731e36f3378">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					
+						<div class="caption richtextContent">
+	<p>The Google Authenticator app will now install and create an icon on the main screen of your iOS device. Tap the icon to run the app.</p> 
+<p>Once this is complete, you can start&nbsp;<a href="/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication.html#accordion-1532698653107-for-a-mobile-device">Part two: Add two-factor to your Ryerson account.</a></p>
+</div>  
+						    
+					
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				
+						
+<img src="/content/dam/ccs/services/accounts/two-factor-authentication/ios-devices/05_iOS_desktop_icon.jpg" alt="Google Authenticator App icon on the Main Screen of the iOS device."/>
+
+
+
+
+					
+				</div>
+			</div>
+		</div> 
+		
+<script>
+$(document).ready(function(){addCoursePopover('#1edd8aa3-501e-4fd5-a070-d731e36f3378');});
+if (flowWidthCollection == undefined) {
+	var flowWidthCollection = new Object();	
+}
+$(document).on('_intervalshort', {
+    layoutID: "1edd8aa3-501e-4fd5-a070-d731e36f3378"
+}, function(event) {
+	var cachedSize = $('#'+event.data.layoutID).height() + $('#'+event.data.layoutID).width();
+	if (flowWidthCollection[event.data.layoutID] == undefined || flowWidthCollection[event.data.layoutID] != cachedSize){
+		if ($('#'+event.data.layoutID).width() <= 263) {
+			if (!$('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText').addClass('smallScreenFullOverlay');
+		} else {
+			if ($('#'+event.data.layoutID+' .overlayText').hasClass('smallScreenFullOverlay')) $('#'+event.data.layoutID+' .overlayText.smallScreenFullOverlay').removeClass('smallScreenFullOverlay');
+		}
+		if ($('#'+event.data.layoutID).width() <= 360) {
+			if (!$('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div:first > div.caption').length) {
+					$('#'+event.data.layoutID+' > .row > div:first').addClass('overlayTextSwap').insertAfter($('#'+event.data.layoutID+' > .row > div:eq(1)'));
+				}
+				$('#'+event.data.layoutID+' > .row > div').addClass('smallScreenFullWidth');
+			}
+		} else {
+			if ($('#'+event.data.layoutID+' > .row > div').hasClass('smallScreenFullWidth')) {
+				if ($('#'+event.data.layoutID+' > .row > div.overlayTextSwap').length) {
+					$('#'+event.data.layoutID+' > .row > div.overlayTextSwap').removeClass('overlayTextSwap').insertBefore($('#'+event.data.layoutID+' > .row > div:first'));
+				}
+				$('#'+event.data.layoutID+' > .row > div.smallScreenFullWidth').removeClass('smallScreenFullWidth');
+			}
+		}
+		flowWidthCollection[event.data.layoutID] = cachedSize;
+	}
+});
+</script></div>
+
+				</div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="968ebb27-8b8e-4381-9111-94451394aa07" >
+
+    <h3><a id="U2F"></a>If you're using a U2F security key</h3> 
+<p>Universal second factor (U2F) keys are USB devices that can be plugged in to your computer to provide authentication for two-factor logins.&nbsp;</p> 
+<p>The least expensive model is likely the HyperFIDO Mini which normally retails for around $10 and can be purchased online or at the Ryerson University Campus Store. Note that U2F security keys only work with Google Chrome or Firefox browsers.</p> 
+<p>Ryerson employees can check with their faculties or departments for approval purchasing a U2F key.</p> 
+<p>Once you receive your key, you can start&nbsp;<a href="/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication.html#accordion-1532698670870-for-a-u2f-security-key">Part two: Add two-factor to your Ryerson account.</a></p> 
+<h3><a id="OTV"></a>If you’re using an OTV code generator</h3> 
+<p>One-time verification (OTV) code generators are small devices that provide authentication codes for two-factor logins.</p> 
+<p>Available only to Ryerson employees, you can check with your faculty or department for approval purchasing an OTV code generator from CCS for $30. They can be requested using the <a href="/content/ryerson/ccs/contact/forms.html">One-Time Verification (OTV) Code Generator Request Form</a> on the CCS website.</p> 
+<p>Once you receive your key, you can start&nbsp;<a href="/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication.html#accordion-1532698679475-for-an-otv-code-generator">Part two: Add two-factor to your Ryerson account.</a></p> 
+<h2><a name="part-two" id="part-two"></a>Part two: Add two-factor to your Ryerson account</h2>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#968ebb27-8b8e-4381-9111-94451394aa07");});</script></div>
+
+				
+
+				
+				<div class="resAccordion section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel-group accordion background-hidden" id="1fd8593a-b778-4aa5-ad8b-8451ac729a10" role="tablist" aria-multiselectable="true">
+			
+				<div class="resAccordionControl" role="group" aria-label="Accordion Actions">
+					<button class="resAccordionOpenAll">Open All</button> <button class="resAccordionCloseAll">Close All</button>
+				</div>
+				<script type="text/javascript">$(document).ready(function(){ initResAccordionControl("1fd8593a-b778-4aa5-ad8b-8451ac729a10", true); });</script>
+			
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1532698653107-for-a-mobile-device" role="tab" data-toggle="collapse" data-parent="#1fd8593a-b778-4aa5-ad8b-8451ac729a10" href="#accordion-content-1532698653107-for-a-mobile-device" aria-controls="accordion-content-1532698653107-for-a-mobile-device" aria-expanded="false">
+                            For a mobile device
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1532698653107-for-a-mobile-device" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1532698653107-for-a-mobile-device">
+                    <div class="panel-body ">
+                        <div class="1532698653107 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="8d006b7f-80cb-4182-afc7-e83978eebe7f" >
+
+    <div>
+  Mobile device setup steps are also available in an easy-to-follow 
+ <a href="https://ryecast.ryerson.ca/15/Watch/15319.aspx">video</a> format. 
+</div> 
+<div>
+  &nbsp; 
+</div> 
+<ol> 
+ <li>Using your computer, log in to the my.ryerson portal with your username and password.</li> 
+ <li>Find the <strong>Self Service</strong> module under the my.ryerson tab and click <strong>Personal Account</strong>.</li> 
+ <li>Under the <strong>Security</strong> section, click <strong>Two-Factor Authentication</strong>.</li> 
+ <li>Under the <strong>Mobile Devices</strong> heading, click <strong>Add mobile device</strong>.<br> </li> 
+ <li>Click <strong>Android</strong> or <strong>iOS</strong>, depending on the type of device you’re using. Follow the steps starting from the section called <strong>Now open and configure Google Authenticator</strong>.</li> 
+ <li>Once your mobile device is setup, a page about backup codes will appear. Click the <strong>Generate new backup codes </strong>button. These are one-time-use codes you can enter if you're unable to access your mobile device. We recommend keeping a hard copy with you in your wallet.<br> </li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#8d006b7f-80cb-4182-afc7-e83978eebe7f");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1532698670870-for-a-u2f-security-key" role="tab" data-toggle="collapse" data-parent="#1fd8593a-b778-4aa5-ad8b-8451ac729a10" href="#accordion-content-1532698670870-for-a-u2f-security-key" aria-controls="accordion-content-1532698670870-for-a-u2f-security-key" aria-expanded="false">
+                            For a U2F security key
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1532698670870-for-a-u2f-security-key" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1532698670870-for-a-u2f-security-key">
+                    <div class="panel-body ">
+                        <div class="1532698670870 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="d187368a-123e-42ab-a1c0-6adb858a6e31" >
+
+    <div>
+  U2F key setup steps are also available in an easy-to-follow 
+ <a href="https://ryecast.ryerson.ca/15/Watch/12802.aspx">video</a> format. 
+</div> 
+<div>
+  &nbsp; 
+</div> 
+<ol> 
+ <li>Using your computer, log in to the my.ryerson portal with your username and password.</li> 
+ <li>Find the <strong>Self Service</strong> module under the my.ryerson tab and click <strong>Personal Account</strong>.</li> 
+ <li>Under the <strong>Security</strong> section, click <strong>Two-Factor Authentication</strong>.</li> 
+ <li>Under <strong>U2F security keys</strong> heading, click <strong>Add U2F security key</strong>.<br> </li> 
+ <li>You'll be taken to a new page. Click the <strong>Add security key</strong> button and follow the prompts. Note, if the key is not blinking, it may be inserted the wrong way. Try turning it over and reinserting.</li> 
+ <li>When the key is successfully detected, you’ll have the opportunity to name the key (a useful feature if you plan to set up more than one key) and click <strong>Verify and save</strong>.</li> 
+</ol> 
+<p>&nbsp;</p> 
+<p>Note if you’re using Firefox, you’ll need to have version 57 or newer and configure the browser to accept U2F keys by following these steps:</p> 
+<ol> 
+ <li>Type <strong>about:config</strong> into the address bar at the top of the Firefox browser window.</li> 
+ <li>A search bar will appear. Type in <strong>U2F</strong> and press <strong>enter</strong>.</li> 
+ <li>Double-click on <strong>security.webauth.u2f</strong> to enable U2F support.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#d187368a-123e-42ab-a1c0-6adb858a6e31");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <!-- Accordion Heading -->
+                <div class="panel-heading container-clipboard">
+                    <div class="panel-title">
+                        <a id="accordion-1532698679475-for-an-otv-code-generator" role="tab" data-toggle="collapse" data-parent="#1fd8593a-b778-4aa5-ad8b-8451ac729a10" href="#accordion-content-1532698679475-for-an-otv-code-generator" aria-controls="accordion-content-1532698679475-for-an-otv-code-generator" aria-expanded="false">
+                            For an OTV code generator
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- Accordion Body -->
+                <div tabindex="0" id="accordion-content-1532698679475-for-an-otv-code-generator" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion-1532698679475-for-an-otv-code-generator">
+                    <div class="panel-body ">
+                        <div class="1532698679475 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resText parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="res-text richtextContent background-hidden" id="70abd0aa-3784-4a71-93a4-6dd62f4be869" >
+
+    <div>
+  OTV setup steps are also available in an easy-to-follow 
+ <a href="https://ryecast.ryerson.ca/15/Watch/12801.aspx">video</a> format. 
+</div> 
+<div>
+  &nbsp; 
+</div> 
+<ol> 
+ <li>Using your computer, log in to the my.ryerson portal with your username and password.</li> 
+ <li>Find the <strong>Self Service</strong> module under the my.ryerson tab and click <strong>Personal Account</strong>.</li> 
+ <li>Under the <strong>Security</strong> section, click <strong>Two-Factor Authentication</strong>.</li> 
+ <li>Under <strong>Set up two-factor authentication for your account</strong>, click the <strong>Set up</strong> link next to the <strong>One-Time Verification Code Generator</strong> option.<br> (If you’ve previously set up a mobile device authenticator, you’ll have to revoke it first before setting up the OTV code generator. Visit the <a href="https://www.ryerson.ca/content/ryerson/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication.html#Revoking">revoking two-factor authentication</a> section of the Two-Factor Authentication page for help on this topic.)</li> 
+ <li>Follow the steps for <strong>registering your assigned one-time verification code generator</strong>.</li> 
+ <li>Turn on the code generator and enter the number displayed into the <strong>Code</strong> field, then click <strong>Verify and Save</strong>.</li> 
+ <li>At this point, a link to <strong>Show/Generate Backup Codes</strong> will appear. These are one-time-use codes you can enter if you’re unable to access your mobile device. We recommend keeping a hard copy with you in your wallet.</li> 
+</ol>
+    
+
+
+
+
+
+</div>
+<script>$(document).ready(function(){addCoursePopover("#70abd0aa-3784-4a71-93a4-6dd62f4be869");});</script></div>
+
+				</div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+				</div>
+
+		</div> 
+		
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+		<div class="col-md-4">
+			<div class="stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resReference section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="c2 stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				<div class="resTitle section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>
+	
+    Explore More
+    
+	
+</h2>
+
+
+</div>
+
+				
+
+				
+				<div class="resButtons section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+<div class="res-buttons">
+    
+        <div class="buttonDefault">
+            <div class="row">
+            <div class="row-height">
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/">
+	                        	
+	                            <span>Two-Factor Authentication</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication/">
+	                        	
+	                            <span>Setting Up Two-Factor Authentication</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/enable-two-factor-for-all-apps/">
+	                        	
+	                            <span>Two-Factor Authentication for All Apps</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/phishing/">
+	                        	
+	                            <span>Phishing</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/create-complex-passwords/">
+	                        	
+	                            <span>Create Complex Password</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/practice-safe-browsing/">
+	                        	
+	                            <span>Practice Safe Browsing </span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                    </div></div>
+                    <div class="row">
+                    <div class="row-height">
+                
+                
+
+                    <div class="col col-xs-12 col-sm-12 outside-full-height">
+                        <div class="inside inside-full-height">
+	                        <a class="btn btn-default btn-block" href="/ccs/services/ITSecurity/protecting-your-identity/managing-spam/">
+	                        	
+	                            <span>Managing Spam</span>
+	                        	
+	                        </a>
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+            </div>
+        </div>
+    
+    
+</div>
+
+</div>
+
+				</div>
+
+</div>
+
+				</div>
+
+		</div> 
+		
+			<div class="clearfix visible-lg-block"></div>
+		
+		
+			<div class="clearfix visible-md-block"></div>
+		
+		
+			<div class="clearfix visible-sm-block"></div>
+		
+		
+			<div class="clearfix visible-xs-block"></div>
+		
+	
+</div></div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+		        	
+						<div class="afterContent stackparsys">
+
+
+
+
+
+
+
+
+
+
+				
+				
+				</div>
+
+					
+				</main>
+				
+        	</div>
+        </div>
+        
+       		<footer class="res-local-footer-wrapper" aria-label="local">
+                <div class="container">
+                    <div class="resLocalFooter">
+
+
+
+
+
+
+
+
+
+
+<div class="res-local-footer">
+	<div class="row template-local-footer">
+		<div class="col-xs-12"> 
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			<div class="content stackparsys">
+
+
+
+
+
+
+
+
+</div>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+                </div>
+            </footer>
+        
+        <div class="resGlobalFooter">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="resGlobalFooter" aria-label="global">
+	<div class="top-middle-container"> <!-- top-middle-container starts -->
+		<div class="container">
+		
+		<!-- Footer Top -->
+		<div class="row footer-top">
+		    <div class="col-sm-9 col-xs-6">
+		        <strong>Ryerson University</strong>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right footer-toggle">
+		        <a title="Expand/Hide Footer" data-toggle="collapse" href="#footer-data" aria-label="expand or hide footer" aria-expanded="false" aria-controls="footer-data" class="footer-toggle-button">
+		        </a>
+		    </div>
+		</div>
+		
+		<!-- Footer Middle -->
+		<div class="row collapse in footer-middle" id="footer-data">
+		    <div class="col-sm-9 col-xs-6 text-left">
+		        <address>
+		            350 Victoria Street<br>
+		            Toronto, ON M5B 2K3<br>
+		            <abbr title="Phone">P:</abbr> 416-979-5000
+		        </address>
+		        <ol class="breadcrumb min">
+		            <li><a href="/contact/">Directory</a></li>
+		            <li><a href="/maps/">Maps and Directions</a></li>
+		        </ol>
+		    </div>
+		    <div class="col-sm-3 col-xs-6 text-right">
+		        <p>Follow Ryerson</p>
+		        <p>
+		            <a href="https://www.facebook.com/ryersonu" target="_blank"><i class="fa fa-facebook-f icon-circle" title="Facebook" aria-hidden="true"></i><span class="sr-only">Facebook, opens new window</span></a>
+		            <a href="https://www.instagram.com/ryerson_u" target="_blank"><i class="fa fa-instagram icon-circle" title="Instagram" aria-hidden="true"></i><span class="sr-only">Instagram, opens new window</span></a>
+		            <a href="https://twitter.com/RyersonU" target="_blank"><i class="fa fa-twitter icon-circle" title="Twitter" aria-hidden="true"></i><span class="sr-only">Twitter, opens new window</span></a>
+		            <a href="https://www.youtube.com/RyersonUTube" target="_blank"><i class="fa fa-youtube icon-circle" title="YouTube" aria-hidden="true"></i><span class="sr-only">YouTube, opens new window</span></a>
+		            <a href="https://www.linkedin.com/company/ryerson-university" target="_blank"><i class="fa fa-linkedin icon-circle" title="LinkedIn" aria-hidden="true"></i><span class="sr-only">LinkedIn, opens new window</span></a>
+		        </p>
+		        <ol class="breadcrumb min">
+		            <li><a href="/jobs/">Careers</a></li>
+		            <li><a href="/media/">Media Room</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- top-middle-container ends -->
+	
+	<div class="bottom-container"> <!-- bottom-container starts -->
+		<div class="container">
+		
+		<!-- Footer Bottom -->
+		<div class="row footer-bottom">
+		    <div class="col-xs-12">
+		        <ol class="breadcrumb min">
+		            <li><a href="/privacy/">Privacy Policy</a></li>
+		            <li><a href="/accessibility/">Accessibility</a></li>
+		            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+		        </ol>
+		    </div>
+		</div>
+		
+		</div>
+	</div> <!-- bottom-container ends -->
+</footer>
+</div>
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+    </body>
+</html> <script id="f5_cspm">(function(){var f5_cspm={f5_p:'CMHJJFIHHFKIHGAFJIGPOJIKKCGCGOKKJILEOIMDOJDJOMEIDCEDEPODJBJKAOOCNLKBAMJPAANAICFLJEIAPJDKAALPEFJHFKFOPPPHGGAECFDCKPMJCCAPLPLMOJLE',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0810126357aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script><script id="f5_cspm">(function(){var f5_cspm={f5_p:'JGGJLKIIOPNLOPCBBEHDBBCCPGINBMCNHEPIENNOJHIPJCKCFNMFHDPMCBMFANCBMBGBGGMHAAEDJGEGAKKALHHDAADJPJGFMJMKIIKIBPIKBCBBIICLIBNBMHHMFKJA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0522667396aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

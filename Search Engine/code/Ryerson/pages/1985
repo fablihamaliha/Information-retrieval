@@ -1,0 +1,2087 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html lang="en-US" id="ie6" class="lt-ie9 lt-ie8 lt-ie7 no-js">
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en-US" id="ie7" class="lt-ie9 lt-ie8 no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en-US" id="ie8" class="lt-ie9 no-js">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<title>Ryerson Library -  Staff Directory | Ryerson University Library and Archives</title>
+	<meta charset="UTF-8">
+    <link href="//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="https://library.cf.ryerson.ca/Templates/Library2012//js/jquery-1.5.2.min.js"></script>;
+	
+	
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="https://library.cf.ryerson.ca/Templates/Library2012/css/standard_style_ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/html5shiv-printshiv.js"></script>
+	<script src="https://library.cf.ryerson.ca/Templates/Library2012/js/respond.min.js"></script>
+	<![endif]-->
+	
+			<link href="main.css" rel="stylesheet" type="text/css" />
+			<link type="text/css" href="base/ui.all.css" rel="stylesheet" />
+			<style type="text/css">
+		  		.clearfix { zoom:1; } 
+			</style>
+		
+		<style type="text/css">
+			em {
+				color:#AA0000;
+				font-weight:bold;	
+			}
+			
+			.paleblue {
+   				 background-color: #F0F8FF;
+   				 color: #000000;
+			}
+			
+			#content {
+				width: 95%;
+			}
+		</style>
+		<script language="javascript" type="text/javascript" src="https://library.cf.ryerson.ca/assets/js/jquery-ui-1.7.1.custom.min.js"></script>
+		<script language="javascript" type="text/javascript">
+			$(function() {
+				$(".tabs").tabs({});
+					
+				var autoHeight = false; 	
+					
+				$(".accordion").accordion({
+					active: false, 
+					collapsible: true, 
+					autoHeight: autoHeight
+				});
+				
+				
+			});
+		</script>
+		
+		
+		<script language="javascript" type="text/javascript">
+			$(document).ready(function() {
+	    		$(".tooltips").hover(
+	        		function() { 
+	        			$(this).contents("span:last-child").css({ display: "block" }); 
+	        		},
+	        		function() { 
+	        			$(this).contents("span:last-child").css({ display: "none" }); 
+	        		}
+	    		);
+	    		
+	    		
+			});
+		</script>
+		
+		<meta name="robots" content="noindex" />
+		
+</head>
+
+<body class="left-sidebar two-column">
+<div id="page">
+	<header id="branding" role="banner">
+            <div id="sitename">
+                <div class="skip-link"><a class="assistive-text" href="#access">Skip to main menu</a></div>
+                <a href="http://library.ryerson.ca/"><img src="https://library.cf.ryerson.ca/Templates/Library2012/images/RULA_logo.png" alt="Ryerson University Library &amp; Archives" /></a>
+            </div> <!-- end div logo_images -->
+            <div id="askushead"><a href="https://server.iad.liveperson.net/hc/64904228/?cmd=file&file=visitorWantsToChat&site=64904228&SV!skill=Ryerson&LEAppKey=f907f2d9acd64b7f8c00b83bed3c2822&referrer=http%3A//library.ryerson.ca/info/contactus/&bId=16"><img src="http://library.ryerson.ca/wp-content/themes/rula/images/ask_us_libguides_sm.png" alt="Need Help? Ask Us"></a></div>
+ 			<div style="clear: both;"></div>
+
+<nav id="access" role="navigation">
+	<h3 class="assistive-text">Main menu</h3>
+	<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to content">Skip to content</a></div>
+	<div id="top-nav">
+		<ul id="top-nav-list">
+			<li id="menu-item-449" class="menu-item"><a title="Library Catalogue for Books, Media, Journals" href="http://catalogue.library.ryerson.ca/">Catalogue</a></li>
+			<li id="menu-item-448" class="menu-item"><a href="http://library.ryerson.ca/guides">Research Help</a></li>
+			<li id="menu-item-447" class="menu-item"><a title="Browse the list of Databases and Indexes" href="http://library.ryerson.ca/articles/">Articles</a></li>
+			<li id="menu-item-831" class="menu-item"><a title="List of Library Services" href="http://library.ryerson.ca/services/">Services</a></li>
+			<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About the Library" href="http://library.ryerson.ca/info/">About Us</a></li>
+			
+			<li id="menu-item-443" class="menu-item menu-item-has-children"><a title="Special and Digital Collections" href="http://library.ryerson.ca/collections/">Collections &#9660</a>
+				<ul class="sub-menu">
+					<li id="menu-item-20" class="menu-item"><a href="http://library.ryerson.ca/asc/">Archives and Special Collections</a></li>
+					<li id="menu-item-442" class="menu-item"><a title="GeoData Maps &amp; Statistics" href="http://library.ryerson.ca/gmdc">GeoData Maps &#038; Statistics</a></li>
+					<li id="menu-item-444" class="menu-item"><a title="Ryerson&#8217;s Institutional Repository" href="http://library.ryerson.ca/collections/digital-commons/">RULA Digital Repository</a></li>
+				</ul>
+			</li>
+			<li class="menu-item menu-item-search">
+				<!-- Search this Site Section -->
+				<form id="sitesearch" role="search" name="sitesearch" method="get" action="http://search.ryerson.ca/search"> 
+					<input type="hidden" name="site" value="Library" /> 
+					<input type="hidden" name="output" value="xml_no_dtd" /> 
+					<input type="hidden" name="client" value="default_frontend" />								
+					<input type="hidden" name="proxystylesheet" value="default_frontend" />
+					<label for="sitesearchbox" class="assistive-text">Search the Library website</label>
+					<input type="search" id="sitesearchbox" name="q" maxlength="255" value="Search the Library Website" onClick="if(this.value=='Search the Library Website') {this.value='';}"/> 
+					<input type="image" src="http://library.ryerson.ca/wp-content/themes/rula/images/search_icon_small.png" alt="Submit Search"  /> 
+				</form> 
+			</li>
+			<li style="clear:both;border:0;"></li>
+		</ul>
+	<div style="clear:both;"></div>
+	</div>
+</nav><!-- #access -->
+			
+			
+	</header><!-- #branding -->
+<!--  End of: Main Navigation -->
+
+
+
+
+
+<div id="primary" class=" singular">
+    
+         <div class="breadcrumbs"><a href="http://library.ryerson.ca/info/">About the Library/FAQ</a> &gt; <a href="/staffDirectory">Staff Directories</a> &gt; Staff Directory</div>
+        
+			<br />
+			
+			<div align="center">
+				<h1>Staff Directory - Alphabetical Listing</h1>
+				<strong>Alphabetical Listing</strong> |
+				<a href="https://library.cf.ryerson.ca/staffDirectory/?type=dept"> Departments</a> |
+				<a href="https://library.ryerson.ca/info/contactus/subject-liaison-librarians/"> Subject Liaison Librarians</a>
+			</div>
+			
+	
+	<br />
+	
+		
+	
+		
+		<table width="95%" style="border:1px #a9a9a9 solid; border-collapse:collapse;" align="center" cellpadding="2" cellspacing="10">
+		<tr class="paleblue" style="border:1px gray solid;">
+			<th style="padding-left:22px;">Name</th>
+			<th>&nbsp;&nbsp;&nbsp;Telephone<br/>(416-979-5000)</th>
+			<th>Office</th>
+			<th>Email Address</th>
+		</tr>
+			
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Ahmed, Namir 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>553409</u>
+						<span id="hovertext">
+							416-979-5000 ext:553409
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB387A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:n1ahmed@ryerson.ca">n1ahmed@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Arbuckle, Michelle 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4982</u>
+						<span id="hovertext">
+							416-979-5000 ext:4982
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB176
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:marbuckle@ryerson.ca">marbuckle@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Arlain, Mandissa 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6894</u>
+						<span id="hovertext">
+							416-979-5000 ext:6894
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB187
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:marlain@ryerson.ca">marlain@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Banerjee, Sonny 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4834</u>
+						<span id="hovertext">
+							416-979-5000 ext:4834
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB183
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:sbanerje@ryerson.ca">sbanerje@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Beyersbergen, Joanna 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5084</u>
+						<span id="hovertext">
+							416-979-5084
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB288
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jbeyersb@ryerson.ca">jbeyersb@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Boissoneau, Joseph 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5055</u>
+						<span id="hovertext">
+							416-979-5055
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jboisson@ryerson.ca">jboisson@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Briggs, Natalie 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5314</u>
+						<span id="hovertext">
+							416-979-5314
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:nbriggs@ryerson.ca">nbriggs@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Brown, Kraigen 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6653</u>
+						<span id="hovertext">
+							416-979-5000 ext:6653
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:kraigen.brown@ryerson.ca">kraigen.brown@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Cameron, Brian 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5146</u>
+						<span id="hovertext">
+							416-979-5146
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB181
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:bcameron@ryerson.ca">bcameron@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Carvalho, Fatima 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7675</u>
+						<span id="hovertext">
+							416-979-5000 ext:7675
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB280
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:fatima.carvalho@ryerson.ca">fatima.carvalho@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Chapman, Lee 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>543568</u>
+						<span id="hovertext">
+							416-979-5000 ext:543568
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385F
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:lee.chapman@ryerson.ca">lee.chapman@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Charlton, Jenna 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4002</u>
+						<span id="hovertext">
+							416-979-5000 ext:4002
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB179
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jenna.charlton@ryerson.ca">jenna.charlton@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Chen, Michelle 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5051</u>
+						<span id="hovertext">
+							416-979-5051
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:mchen@ryerson.ca">mchen@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Choi, Josephine 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4835</u>
+						<span id="hovertext">
+							416-979-5000 ext:4835
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jochoi@ryerson.ca">jochoi@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Dajnowiec, Barbara 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5055</u>
+						<span id="hovertext">
+							416-979-5055
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:bdajnowi@ryerson.ca">bdajnowi@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Damba, Noel 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4061</u>
+						<span id="hovertext">
+							416-979-5000 ext:4061
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272J
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:n2damba@ryerson.ca">n2damba@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Dermody, Kelly 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>3093</u>
+						<span id="hovertext">
+							416-979-5000 ext:3093
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					SLC409
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:kdermody@ryerson.ca">kdermody@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Eichenlaub, Naomi 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4855</u>
+						<span id="hovertext">
+							416-979-5000 ext:4855
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB171
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:neichenl@ryerson.ca">neichenl@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Ellis, Jennifer 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7675</u>
+						<span id="hovertext">
+							416-979-5000 ext:7675
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB280
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:j3ellis@ryerson.ca">j3ellis@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Farnum, Cecile 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4093</u>
+						<span id="hovertext">
+							416-979-5000 ext:4093
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB557
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:cfarnum@ryerson.ca">cfarnum@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Farrugia, Hope 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7482</u>
+						<span id="hovertext">
+							416-979-5000 ext:7482
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:hfarrugi@ryerson.ca">hfarrugi@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Fung, Patrick 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>556897</u>
+						<span id="hovertext">
+							416-979-5000 ext:556897
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385F
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:patrick.fung@ryerson.ca">patrick.fung@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Granfield, Diane 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6909</u>
+						<span id="hovertext">
+							416-979-5000 ext:6909
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					SLC410
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dgranfield@ryerson.ca">dgranfield@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Grover, Trina 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6907</u>
+						<span id="hovertext">
+							416-979-5000 ext:6907
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB171
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:tgrover@ryerson.ca">tgrover@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Gudivada, Venu 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7675</u>
+						<span id="hovertext">
+							416-979-5000 ext:7675
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB280
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:v2gudiva@ryerson.ca">v2gudiva@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Henry, Peter 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5055</u>
+						<span id="hovertext">
+							416-979-5055
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:p3henry@ryerson.ca">p3henry@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Hon, Flora 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6172</u>
+						<span id="hovertext">
+							416-979-5000 ext:6172
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:fhon@ryerson.ca">fhon@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr style="background-color:#DDD;opacity:0.5;">
+			
+				<td id="name">
+					
+						<div id="leave"><em>*&nbsp;</em><i>Jackson, Bob<br/>
+						&nbsp;&nbsp;&nbsp;(On Leave)</i></div>
+					
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6890</u>
+						<span id="hovertext">
+							416-979-5000 ext:6890
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB-653A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:bjackson@ryerson.ca">bjackson@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr style="background-color:#DDD;opacity:0.5;">
+			
+				<td id="name">
+					
+						<div id="leave"><em>*&nbsp;</em><i>Jakubek, Dan<br/>
+						&nbsp;&nbsp;&nbsp;(On Leave)</i></div>
+					
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6886</u>
+						<span id="hovertext">
+							416-979-5000 ext:6886
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272F
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:djakubek@ryerson.ca">djakubek@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Jin, Lei 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5145</u>
+						<span id="hovertext">
+							416-979-5145
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:leijin@ryerson.ca">leijin@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Kassa, Abraham 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5055</u>
+						<span id="hovertext">
+							416-979-5055
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:akassa@ryerson.ca">akassa@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Kewley, Donna 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4127</u>
+						<span id="hovertext">
+							416-979-5000 ext:4127
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dkewley@ryerson.ca">dkewley@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Khan, Farzana 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7675</u>
+						<span id="hovertext">
+							416-979-5000 ext:7675
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB266
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:f33khan@ryerson.ca">f33khan@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Kimberley, Kelly 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4833</u>
+						<span id="hovertext">
+							416-979-5000 ext:4833
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB266B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:kkimberl@ryerson.ca">kkimberl@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Kinder, Don 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6899</u>
+						<span id="hovertext">
+							416-979-5000 ext:6899
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					SLC413
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dkinder@ryerson.ca">dkinder@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Lem, Val 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6891</u>
+						<span id="hovertext">
+							416-979-5000 ext:6891
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551C
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:vlem@ryerson.ca">vlem@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Levesque, Lisa 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4936</u>
+						<span id="hovertext">
+							416-979-5000 ext:4936
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB171
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:lisa.levesque@ryerson.ca">lisa.levesque@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Lovadina-Lee, Doris 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4948</u>
+						<span id="hovertext">
+							416-979-5000 ext:4948
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dlovadin@ryerson.ca">dlovadin@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Ludbrook, Ann 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6910</u>
+						<span id="hovertext">
+							416-979-5000 ext:6910
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB284
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:aludbrook@ryerson.ca">aludbrook@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Lupoi, Maria 
+				</td>
+				
+					<td width="170px"></td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:mlupoi@ryerson.ca">mlupoi@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Ly, Simon 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>556884</u>
+						<span id="hovertext">
+							416-979-5000 ext:556884
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:sly@ryerson.ca">sly@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;MacDonald, Michael 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7159</u>
+						<span id="hovertext">
+							416-979-5000 ext:7159
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:m4macdon@ryerson.ca">m4macdon@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;MacKenzie, Rosalynn 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6896</u>
+						<span id="hovertext">
+							416-979-5000 ext:6896
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB404
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:rosalynn.mackenzie@ryerson.ca">rosalynn.mackenzie@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;MacLaurin, Elizabeth 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7920</u>
+						<span id="hovertext">
+							416-979-5000 ext:7920
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:emaclaur@ryerson.ca">emaclaur@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Maemura, Emily 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4981</u>
+						<span id="hovertext">
+							416-979-5000 ext:4981
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB171
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:emaemura@ryerson.ca">emaemura@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Manuel, Kevin 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>2868</u>
+						<span id="hovertext">
+							416-979-5000 ext:2868
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272D
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:kevin.manuel@ryerson.ca">kevin.manuel@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Marsden, Steven 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>554635</u>
+						<span id="hovertext">
+							416-979-5000 ext:554635
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385F
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:steven.marsden@ryerson.ca">steven.marsden@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Matchett, Denise 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4939</u>
+						<span id="hovertext">
+							416-979-5000 ext:4939
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dmatchett@ryerson.ca">dmatchett@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;McMaster, Cathy 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4940</u>
+						<span id="hovertext">
+							416-979-5000 ext:4940
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB404
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:catherine.mcmaster@ryerson.ca">catherine.mcmaster@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Mulvaney, Nora 
+				</td>
+				
+					<td width="170px"></td>
+				
+				<td width="170px;">
+					
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:nmulvaney@ryerson.ca">nmulvaney@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Nguyen, Yen 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7353</u>
+						<span id="hovertext">
+							416-979-5000 ext:7353
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:yen.nguyen@ryerson.ca">yen.nguyen@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Nocon, Ursula 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4949</u>
+						<span id="hovertext">
+							416-979-5000 ext:4949
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:unocon@ryerson.ca">unocon@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Nunes, Maria 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4979</u>
+						<span id="hovertext">
+							416-979-5000 ext:4979
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:mnunes@ryerson.ca">mnunes@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Orleans, Jeanine 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6882</u>
+						<span id="hovertext">
+							416-979-5000 ext:6882
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jorleans@ryerson.ca">jorleans@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Panangaden, Sonya 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>2089</u>
+						<span id="hovertext">
+							416-979-5000 ext:2089
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:sonya.panangaden@ryerson.ca">sonya.panangaden@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Papadopoulos, John 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6886</u>
+						<span id="hovertext">
+							416-979-5000 ext:6886
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272F
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:john.papadopoulos@ryerson.ca">john.papadopoulos@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Pietropaolo, Cristina 
+				</td>
+				
+					<td width="170px"></td>
+				
+				<td width="170px;">
+					LIB387
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:cpietropaolo@ryerson.ca">cpietropaolo@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Quast, David 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>553110</u>
+						<span id="hovertext">
+							416-979-5000 ext:553110
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:dquast@ryerson.ca">dquast@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Ritscher, Heidi 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5097</u>
+						<span id="hovertext">
+							416-979-5097
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB 264A
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:hritscher@ryerson.ca">hritscher@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Rodney, Laurie 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7349</u>
+						<span id="hovertext">
+							416-979-5000 ext:7349
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:lrodney1@ryerson.ca">lrodney1@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Rybak, Aleksandra 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4638</u>
+						<span id="hovertext">
+							416-979-5000 ext:4638
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB268B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:aleksandra.rybak@ryerson.ca">aleksandra.rybak@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Sassur, Curtis 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6900</u>
+						<span id="hovertext">
+							416-979-5000 ext:6900
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB401
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:csassur@ryerson.ca">csassur@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Schmidt, Jane 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>3018</u>
+						<span id="hovertext">
+							416-979-5000 ext:3018
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272E
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jschmidt@ryerson.ca">jschmidt@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Schwartz, Michelle 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>2094</u>
+						<span id="hovertext">
+							416-979-5000 ext:2094
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:michelle.schwartz@ryerson.ca">michelle.schwartz@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Sheikh, Nazia 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6887</u>
+						<span id="hovertext">
+							416-979-5000 ext:6887
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB272C
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:n3sheikh@ryerson.ca">n3sheikh@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Shepstone, Carol 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5142</u>
+						<span id="hovertext">
+							416-979-5142
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB174
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:cshepstone@ryerson.ca">cshepstone@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Skyrme, Alison 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4996</u>
+						<span id="hovertext">
+							416-979-5000 ext:4996
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB404
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:askyrme@ryerson.ca">askyrme@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Steinberg, Reece 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>7377</u>
+						<span id="hovertext">
+							416-979-5000 ext:7377
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB266D
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:rsteinberg@ryerson.ca">rsteinberg@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Suhonos, MJ 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>552119</u>
+						<span id="hovertext">
+							416-979-5000 ext:552119
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385D
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:mjsuhonos@ryerson.ca">mjsuhonos@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Tam, Jackie 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4941</u>
+						<span id="hovertext">
+							416-979-5000 ext:4941
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB167
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:jatam@ryerson.ca">jatam@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Tan, Kevin 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4002</u>
+						<span id="hovertext">
+							416-979-5000 ext:4002
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB668
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:k2tan@ryerson.ca">k2tan@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Tassone, Anna 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5141</u>
+						<span id="hovertext">
+							416-979-5141
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB175
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:atassone@ryerson.ca">atassone@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Thomas, Dana 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>5025</u>
+						<span id="hovertext">
+							416-979-5025
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB173
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:d1thomas@ryerson.ca">d1thomas@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Tran, Jimmy 
+				</td>
+				
+					<td width="170px"></td>
+				
+				<td width="170px;">
+					LIB387
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:q2tran@ryerson.ca">q2tran@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Wang, Fangmin 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>557034</u>
+						<span id="hovertext">
+							416-979-5000 ext:557034
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385E
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:fwang@ryerson.ca">fwang@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr style="background-color:#DDD;opacity:0.5;">
+			
+				<td id="name">
+					
+						<div id="leave"><em>*&nbsp;</em><i>Wang, Weina<br/>
+						&nbsp;&nbsp;&nbsp;(On Leave)</i></div>
+					
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>6264</u>
+						<span id="hovertext">
+							416-979-5000 ext:6264
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB266
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:weina.wang@ryerson.ca">weina.wang@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Wilson, Sally 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>556898</u>
+						<span id="hovertext">
+							416-979-5000 ext:556898
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB385C
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:swilson@ryerson.ca">swilson@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr class="even">
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Wong, Olivia 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4946</u>
+						<span id="hovertext">
+							416-979-5000 ext:4946
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB403
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:olivia.wong@ryerson.ca">olivia.wong@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+				<tr>
+			
+				<td id="name">
+					
+						&nbsp;&nbsp;Yan, May 
+				</td>
+				 
+					<td width="170px">
+						<a class="tooltips">&nbsp;&nbsp;&nbsp;&nbsp;<u>4947</u>
+						<span id="hovertext">
+							416-979-5000 ext:4947
+						</span>
+						</a>
+					</td>
+				
+				<td width="170px;">
+					LIB551B
+				</td>
+				<td>
+					<div id="mail"><a href="mailto:may.yan@ryerson.ca">may.yan@ryerson.ca</a></div>
+				</td>
+			
+				</tr>
+		
+		</table>
+		<p id="italic_foot_note" align="right">
+			Users in italic grey are on leave
+		</p>
+		
+</div>  
+
+    
+       
+  		<footer id="colophon" role="contentinfo">
+            <div id="footer"> 		
+				<p> 
+					<a href="http://library.ryerson.ca">Home</a> | <a href="/info/accessibility" data-ga-event="Footer,Link,Accessibility">Accessibility </a> | <a href="/contactus" data-ga-event="Footer,Link,Contactus">Contact Us</a> | <a href="http://library.ryerson.ca/copyright" data-ga-event="Footer,Link,Copyright">Copyright</a> | <a href="/siteindex">Site Index</a> |  
+                    <a href="http://www.facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371?ref=mf" data-ga-event="Footer,SocialMedia,Facebook"><img src="//library.ryerson.ca/wp-content/themes/rula/images/facebook_icon.gif" alt="Facebook" title="Facebook" /></a> 
+                    <a href="http://www.twitter.com/ryersonlibrary" data-ga-event="Footer,SocialMedia,Twitter"><img src="//library.ryerson.ca/wp-content/themes/rula/images/twitter_icon.png" alt="Twitter" width="16" height="16" /></a> 
+                    <a href="http://www.flickr.com/photos/ryersonlibrary" data-ga-event="Footer,SocialMedia,Flickr"><img src="//library.ryerson.ca/wp-content/themes/rula/images/flickr_icon.gif" alt="Flickr" width="16" height="16" /></a> 
+                    <a href="http://www.youtube.com/user/ryersonlibrary/videos" data-ga-event="Footer,SocialMedia,Youtube"><img src="//library.ryerson.ca/wp-content/themes/rula/images/youtube_icon.png" alt="YouTube" width="16" height="16" /></a>
+                    <a href="http://pipes.yahoo.com/pipes/pipe.run?_id=46e7ea505e28c621582d37a391b705d6&_render=rss" data-ga-event="Footer,SocialMedia,RSS"><img src="//library.ryerson.ca/wp-content/themes/rula/images/feed_icon.png" alt="RSS Feed" width="16" height="16" /></a> | 
+                                    &copy;2015 <a href="http://www.ryerson.ca/" data-ga-event="Footer,SocialMedia,RU"><img src="//library.ryerson.ca/wp-content/themes/rula/images/RUfooter_logo.gif" alt="Ryerson University" width="114" height="20" /></a>
+				</p> 
+			</div>
+    </footer> 
+	</div><!-- page -->
+
+	<script type="text/javascript"> 
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+        var pageTracker = _gat._getTracker("UA-890753-3");
+        pageTracker._trackPageview();
+    </script>
+
+
+</body>
+</html>
